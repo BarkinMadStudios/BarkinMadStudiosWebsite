@@ -7,7 +7,7 @@
 		"type": "Darts Scoring App",
 		"image": "gameofdarts.png",
 		"appStoreUrl": "https://apps.apple.com/gb/app/the-game-of-darts/id6751581339",
-		"testFlightUrl": ""
+		"testFlightUrl": "",
 		"description": "GameOfDarts is a modern darts scoring app for iPhone and iPad designed for score tracking, statistics, practice, and local multiplayer gameplay."
 	}
 ]
