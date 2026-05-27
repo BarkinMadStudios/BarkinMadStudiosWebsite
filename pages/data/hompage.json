@@ -1,0 +1,9 @@
+{
+	"featuredApps": [
+		"snakebyte",
+		"brickbyte",
+		"gameofdarts"
+	],
+	"showLatestNews": true,
+	"newsCount": 3
+}
