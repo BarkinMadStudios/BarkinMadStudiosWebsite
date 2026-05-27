@@ -1,0 +1,47 @@
+{
+	"title": "BrickByte",
+	"tagline": "Retro brick-breaking arcade action",
+	"shortDescription": "Inspired by classic arcade brick breakers.",
+	"description": "BrickByte is a retro-inspired brick breaking arcade game featuring classic gameplay, power-ups, achievements, unlockable themes, and fast paced action with a nostalgic 1980s visual style.",
+	
+	"status": "Pending Release",
+	
+	"appStoreUrl": "",
+	"testFlightUrl": "",
+	
+	"icon": "brickbyte-icon.png",
+	"heroImage": "brickbyte-hero.png",
+	
+	"screenshots": [
+		"brickbyte-gameplay-01.png",
+		"brickbyte-gameplay-02.png",
+		"brickbyte-gameplay-03.png"
+	],
+	
+	"features": [
+		"Retro arcade gameplay",
+		"Classic brick breaking action",
+		"Multiple power-ups",
+		"Unlockable themes",
+		"Game Center achievements",
+		"High score tracking",
+		"30+ language support"
+	],
+	
+	"achievements": [
+		"Destroy 500 Bricks",
+		"Destroy 1000 Bricks",
+		"Reach High Score Milestones"
+	],
+	
+	"supportedPlatforms": [
+		"iPhone",
+		"iPad"
+	],
+	
+	"version": "1.0",
+	
+	"genre": "Arcade",
+	
+	"developer": "BarkinMad Studios"
+}

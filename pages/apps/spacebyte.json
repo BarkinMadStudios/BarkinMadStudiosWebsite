@@ -1,0 +1,43 @@
+{
+	"title": "SpaceByte",
+	"tagline": "Retro space arcade action",
+	"shortDescription": "Inspired by classic 1980s space shooters.",
+	"description": "SpaceByte is a retro-inspired arcade space shooter featuring fast paced gameplay, enemy waves, unlockable upgrades, achievements, and classic 1980s inspired visuals.",
+	
+	"status": "Coming Soon",
+	
+	"appStoreUrl": "",
+	"testFlightUrl": "",
+	
+	"icon": "spacebyte-icon.png",
+	"heroImage": "spacebyte-hero.png",
+	
+	"screenshots": [],
+	
+	"features": [
+		"Retro inspired space battles",
+		"Classic arcade gameplay",
+		"Enemy wave progression",
+		"Unlockable upgrades",
+		"Game Center achievements",
+		"High score tracking",
+		"30+ language support"
+	],
+	
+	"achievements": [
+		"Destroy 100 Enemies",
+		"Destroy 500 Enemies",
+		"Survive 5 Waves"
+	],
+	
+	"supportedPlatforms": [
+		"iPhone",
+		"iPad"
+	],
+	
+	"version": "0.1",
+	
+	"genre": "Arcade",
+	
+	"developer": "BarkinMad Studios"
+}

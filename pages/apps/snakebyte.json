@@ -1,0 +1,47 @@
+{
+	"title": "SnakeByte",
+	"tagline": "Retro arcade snake action",
+	"shortDescription": "Inspired by classic 1980s gaming.",
+	"description": "SnakeByte is a retro-inspired arcade snake game featuring classic gameplay, unlockable themes, achievements, and modern controls with a nostalgic ZX Spectrum inspired visual style.",
+	
+	"status": "Pending Release",
+	
+	"appStoreUrl": "",
+	"testFlightUrl": "https://testflight.apple.com/join/gHMCVcqd",
+	
+	"icon": "snakebyte-icon.png",
+	"heroImage": "snakebyte-hero.png",
+	
+	"screenshots": [
+		"snakebyte-gameplay-01.png",
+		"snakebyte-gameplay-02.png",
+		"snakebyte-gameplay-03.png"
+	],
+	
+	"features": [
+		"Retro inspired gameplay",
+		"Unlockable snake skins",
+		"Game Center achievements",
+		"High score tracking",
+		"Multiple themes",
+		"30+ language support",
+		"Classic arcade visuals"
+	],
+	
+	"achievements": [
+		"Play 10 Games",
+		"Play 100 Games",
+		"Reach High Score Milestones"
+	],
+	
+	"supportedPlatforms": [
+		"iPhone",
+		"iPad"
+	],
+	
+	"version": "1.0",
+	
+	"genre": "Arcade",
+	
+	"developer": "BarkinMad Studios"
+}
