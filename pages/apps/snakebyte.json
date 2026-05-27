@@ -13,9 +13,18 @@
 	"heroImage": "snakebyte-hero.png",
 	
 	"screenshots": [
-		"snakebyte-gameplay-01.png",
-		"snakebyte-gameplay-02.png",
-		"snakebyte-gameplay-03.png"
+		{
+			"image": "snakebyte-gameplay-01.png",
+			"caption": ""
+		}
+		{
+			"image": "snakebyte-gameplay-02.png",
+			"caption": "PVP Mode"
+		}
+		{
+			"image": "snakebyte-gameplay-03.png",
+			"caption": ""
+		}
 	],
 	
 	"features": [
