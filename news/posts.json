@@ -1,4 +1,5 @@
 [
+
 	{
 		"slug": "ai-coding",
 		"title": "Coding With AI",
@@ -6,6 +7,14 @@
 		"excerpt": "How AI tools are helping accelerate indie game and app development.",
 		"image": "image.png"
 	},
+	
+	{
+		"slug": "building-zxspace",
+		"title": "Building ZXSpace",
+		"date": "2026-05-27",
+		"excerpt": "ZXSpace is bringing retro arcade-inspired space shooter action to modern mobile devices.",
+		"image": "image.png"
+	}
 	
 	{
 		"slug": "building-zxsnake",
