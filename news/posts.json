@@ -1,29 +1,38 @@
 [
 	{
+		"slug": "coding-with-ai",
+		"title": "Coding With AI",
+		"date": "2026-05-27",
+		"excerpt": "How AI tools are helping accelerate indie game and app development.",
+		"image": "image.png",
+	},
+	
+	{
 		"slug": "building-snakebyte",
 		"title": "Building SnakeByte",
-		"date": "2026-05-27",
+		"date": "2026-03-25",
 		"excerpt": "A look at the design ideas behind SnakeByte and why simple arcade gameplay still works well on mobile.",
 		"image": "image.png"
 	},
+	
 	{
 		"slug": "brickbyte-powerups",
 		"title": "Designing BrickByte Power-Ups",
-		"date": "2026-05-27",
+		"date": "2026-04-30",
 		"excerpt": "How power-ups add variety, risk, and replayability to BrickByte.",
 		"image": "image.png"
 	},
 	{
 		"slug": "creating-retro-style-mobile-games",
 		"title": "Creating Retro Style Mobile Games",
-		"date": "2026-05-27",
+		"date": "2026-01-27",
 		"excerpt": "How BarkinMad Studios creates retro-inspired mobile games for modern devices.",
 		"image": "image.png"
 	},
 	{
 		"slug": "why-retro-games-still-work",
 		"title": "Why Retro Arcade Games Still Work Today",
-		"date": "2026-05-27",
+		"date": "2026-01-10",
 		"excerpt": "Why simple arcade gameplay, high scores, and replayability still work well on modern mobile devices.",
 		"image": "image.png"
 	}

@@ -1,0 +1,16 @@
+{
+  "title": "Coding with AI",
+  "date": "2026-05-25",
+  "image": "image.png",
+  "content": [
+	  "AI tools are rapidly changing how indie developers build apps and games. Tasks that once took hours — or even days — can now often be completed much faster using AI-assisted workflows.",
+	  
+	  "At Barkin Mad Studios, AI is used as a development assistant to help accelerate coding, debugging, UI ideas, localization, and rapid prototyping across multiple projects.",
+	  
+	  "Projects such as SnakeByte, BrickByte, and SpaceByte have all benefited from AI-assisted workflows, allowing more time to focus on gameplay, polish, testing, and creativity.",
+	  
+	  "AI does not replace developers. Architecture decisions, optimisation, game design, and final implementation still require human creativity and experience.",
+	  
+	  "For indie developers, AI has become a powerful tool that helps turn ideas into working products faster than ever before."
+  ]
+}
