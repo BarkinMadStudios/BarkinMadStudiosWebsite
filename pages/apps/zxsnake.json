@@ -1,28 +1,28 @@
 {
-	"title": "SnakeByte",
+	"title": "ZXSnake",
 	"tagline": "Retro arcade snake action",
 	"shortDescription": "Inspired by classic 1980s gaming.",
-	"description": "SnakeByte is a retro-inspired arcade snake game featuring classic gameplay, unlockable themes, achievements, and modern controls with a nostalgic ZX Spectrum inspired visual style.",
+	"description": "ZXSnake is a retro-inspired arcade snake game featuring classic gameplay, unlockable themes, achievements, and modern controls with a nostalgic ZX Spectrum inspired visual style.",
 	
 	"status": "Pending Release",
 	
 	"appStoreUrl": "",
 	"testFlightUrl": "https://testflight.apple.com/join/gHMCVcqd",
 	
-	"icon": "snakebyte.png",
-	"heroImage": "snakebyte-hero.png",
+	"icon": "zxsnake.png",
+	"heroImage": "zxsnake-hero.png",
 	
 	"screenshots": [
 		{
-			"image": "snakebyte-gameplay-01.png",
+			"image": "zxsnake-gameplay-01.png",
 			"caption": "Screenshot"
 		},
 		{
-			"image": "snakebyte-gameplay-02.png",
+			"image": "zxsnake-gameplay-02.png",
 			"caption": "PVP Mode"
 		},
 		{
-			"image": "snakebyte-gameplay-03.png",
+			"image": "zxsnake-gameplay-03.png",
 			"caption": "Screenshot"
 		}
 	],

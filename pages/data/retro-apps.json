@@ -1,35 +1,35 @@
 [
 	{
-		"name": "SnakeByte",
-		"slug": "snakebyte",
+		"name": "ZXSnake",
+		"slug": "zxsnake",
 		"appleId": "6770932739",
 		"status": "Pending Release",
 		"type": "Retro Snake Game",
-		"image": "snakebyte.png",
+		"image": "zxsnake.png",
 		"appStoreUrl": "",
 		"testFlightUrl": "https://testflight.apple.com/join/gHMCVcqd",
-		"description": "SnakeByte is a retro-inspired snake game with simple controls, classic arcade pacing, score chasing, achievements, and visuals inspired by early home computer games."
+		"description": "ZXSnake is a retro-inspired snake game with simple controls, classic arcade pacing, score chasing, achievements, and visuals inspired by early home computer games."
 	},
 	{
-		"name": "BrickByte",
-		"slug": "brickbyte",
+		"name": "ZXBrick",
+		"slug": "zxbrick",
 		"appleId": "6771886847",
 		"status": "Pending Release",
 		"type": "Retro Brick Breaker",
-		"image": "brickbyte.png",
+		"image": "zxbrick.png",
 		"appStoreUrl": "",
 		"testFlightUrl": "",
-		"description": "BrickByte is a retro brick-breaking arcade game inspired by classic bat-and-ball gameplay with power-ups, achievements, and high-score chasing."
+		"description": "ZXBrick is a retro brick-breaking arcade game inspired by classic bat-and-ball gameplay with power-ups, achievements, and high-score chasing."
 	},
 	{
-		"name": "SpaceByte",
-		"slug": "spacebyte",
+		"name": "ZXSpace",
+		"slug": "zxspace",
 		"appleId": "6772716922",
 		"status": "Coming Soon",
 		"type": "Retro Space Shooter",
-		"image": "spacebyte.png",
+		"image": "zxspace.png",
 		"appStoreUrl": "",
 		"testFlightUrl": "",
-		"description": "SpaceByte is a retro space shooter inspired by classic alien invasion arcade games with score chasing and wave-based gameplay."
+		"description": "ZXSpace is a retro space shooter inspired by classic alien invasion arcade games with score chasing and wave-based gameplay."
 	}
 ]

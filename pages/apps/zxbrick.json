@@ -1,21 +1,21 @@
 {
-	"title": "BrickByte",
+	"title": "ZXBrick",
 	"tagline": "Retro brick-breaking arcade action",
 	"shortDescription": "Inspired by classic arcade brick breakers.",
-	"description": "BrickByte is a retro-inspired brick breaking arcade game featuring classic gameplay, power-ups, achievements, unlockable themes, and fast paced action with a nostalgic 1980s visual style.",
+	"description": "ZXBrick is a retro-inspired brick breaking arcade game featuring classic gameplay, power-ups, achievements, unlockable themes, and fast paced action with a nostalgic 1980s visual style.",
 	
 	"status": "Pending Release",
 	
 	"appStoreUrl": "",
 	"testFlightUrl": "",
 	
-	"icon": "brickbyte-icon.png",
-	"heroImage": "brickbyte-hero.png",
+	"icon": "zxbrick-icon.png",
+	"heroImage": "zxbrick-hero.png",
 	
 	"screenshots": [
-		"brickbyte-gameplay-01.png",
-		"brickbyte-gameplay-02.png",
-		"brickbyte-gameplay-03.png"
+		"zxbrick-gameplay-01.png",
+		"zxbrick-gameplay-02.png",
+		"zxbrick-gameplay-03.png"
 	],
 	
 	"features": [

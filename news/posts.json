@@ -8,18 +8,18 @@
 	},
 	
 	{
-		"slug": "building-snakebyte",
-		"title": "Building SnakeByte",
+		"slug": "building-zxsnake",
+		"title": "Building ZXSnake",
 		"date": "2026-03-25",
-		"excerpt": "A look at the design ideas behind SnakeByte and why simple arcade gameplay still works well on mobile.",
+		"excerpt": "A look at the design ideas behind ZXSnake and why simple arcade gameplay still works well on mobile.",
 		"image": "image.png"
 	},
 	
 	{
-		"slug": "brickbyte-powerups",
-		"title": "Designing BrickByte Power-Ups",
+		"slug": "zxbrick-powerups",
+		"title": "Designing ZXBrick Power-Ups",
 		"date": "2026-04-30",
-		"excerpt": "How power-ups add variety, risk, and replayability to BrickByte.",
+		"excerpt": "How power-ups add variety, risk, and replayability to ZXBrick.",
 		"image": "image.png"
 	},
 	{
