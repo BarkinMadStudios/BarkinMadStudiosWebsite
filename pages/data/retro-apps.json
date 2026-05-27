@@ -6,6 +6,8 @@
 		"status": "Pending App Store Review",
 		"type": "Retro Snake Game",
 		"image": "snakebyte.png",
+		"appStoreUrl": "",
+		"testFlightUrl": "https://testflight.apple.com/join/gHMCVcqd",
 		"description": "SnakeByte is a retro-inspired snake game with simple controls, classic arcade pacing, score chasing, achievements, and visuals inspired by early home computer games."
 	},
 	{
@@ -15,6 +17,8 @@
 		"status": "Pending App Store Review",
 		"type": "Retro Brick Breaker",
 		"image": "brickbyte.png",
+		"appStoreUrl": "",
+		"testFlightUrl": "",
 		"description": "BrickByte is a retro brick-breaking arcade game inspired by classic bat-and-ball gameplay with power-ups, achievements, and high-score chasing."
 	},
 	{
@@ -24,6 +28,8 @@
 		"status": "Coming Soon",
 		"type": "Retro Space Shooter",
 		"image": "spacebyte.png",
+		"appStoreUrl": "",
+		"testFlightUrl": "",
 		"description": "SpaceByte is a retro space shooter inspired by classic alien invasion arcade games with score chasing and wave-based gameplay."
 	}
 ]
