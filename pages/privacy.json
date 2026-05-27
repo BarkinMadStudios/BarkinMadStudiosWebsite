@@ -1,0 +1,75 @@
+{
+	"title": "Privacy Policy",
+	"heading": "Privacy Policy",
+	"intro": "BarkinMad Studios respects your privacy and aims to keep its apps and website simple, safe, and transparent.",
+	"sections": [
+		{
+			"heading": "Information Collection",
+			"paragraphs": [
+				"BarkinMad Studios may collect limited anonymous technical or usage information through apps, website analytics, advertising services, and platform providers.",
+				"Personal information is not knowingly collected unless voluntarily provided through support or contact enquiries."
+			]
+		},
+		{
+			"heading": "Game Center",
+			"paragraphs": [
+				"Some games may use Apple Game Center for achievements, leaderboards, and score tracking.",
+				"Game Center data is managed by Apple and subject to Apple's own privacy policies and account settings."
+			]
+		},
+		{
+			"heading": "Advertising",
+			"paragraphs": [
+				"Some apps or website pages may display advertisements provided by third-party advertising networks such as Google AdSense or Google AdMob.",
+				"Advertising providers may use cookies, device identifiers, or similar technologies to measure performance and display personalised or non-personalised advertisements."
+			]
+		},
+		{
+			"heading": "Analytics",
+			"paragraphs": [
+				"Analytics services may collect anonymous technical information such as device type, operating system version, app usage, gameplay statistics, crash reports, and general interaction data.",
+				"This information is used to improve app stability, gameplay experience, and future updates."
+			]
+		},
+		{
+			"heading": "In-App Purchases",
+			"paragraphs": [
+				"Some apps may offer optional in-app purchases such as removing advertisements or unlocking additional features.",
+				"All purchases and payment processing are handled securely through Apple and are subject to Apple's own payment and privacy policies."
+			]
+		},
+		{
+			"heading": "Third-Party Services",
+			"paragraphs": [
+				"Apps and website pages may contain links or integrations with third-party platforms including Apple, Google, Facebook, analytics services, and social media providers.",
+				"These third-party services operate under their own privacy policies and terms."
+			]
+		},
+		{
+			"heading": "Children's Privacy",
+			"paragraphs": [
+				"BarkinMad Studios does not knowingly collect personal information from children.",
+				"If you believe personal information has been unintentionally collected, please contact support@barkinmad.studio."
+			]
+		},
+		{
+			"heading": "Data Security",
+			"paragraphs": [
+				"Reasonable measures are taken to help protect apps, services, and website functionality.",
+				"However, no internet-based service or storage system can be guaranteed to be completely secure."
+			]
+		},
+		{
+			"heading": "Policy Updates",
+			"paragraphs": [
+				"This Privacy Policy may be updated periodically as apps, services, website functionality, or legal requirements change."
+			]
+		},
+		{
+			"heading": "Contact",
+			"paragraphs": [
+				"For privacy questions, support, or enquiries, please contact support@barkinmad.studio."
+			]
+		}
+	]
+}

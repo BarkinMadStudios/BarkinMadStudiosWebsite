@@ -1,0 +1,34 @@
+{
+	"title": "Contact",
+	"heading": "Contact Us",
+	"intro": "Get in touch with BarkinMad Studios for app support, feedback, testing, or business enquiries.",
+	"sections": [
+		{
+			"heading": "Support",
+			"paragraphs": [
+				"For help with any BarkinMad Studios app or game, please contact support@barkinmad.studio.",
+				"When contacting support, please include the app name, your device model, iOS version, and a short description of the issue."
+			]
+		},
+		{
+			"heading": "Feedback",
+			"paragraphs": [
+				"Feedback is welcome for all BarkinMad Studios apps and games, including SnakeByte, BrickByte, SpaceByte, and GameOfDarts.",
+				"Suggestions, bug reports, gameplay ideas, and feature requests help improve future updates."
+			]
+		},
+		{
+			"heading": "Testing",
+			"paragraphs": [
+				"BarkinMad Studios may occasionally invite testers to try upcoming apps, games, and new features before public release.",
+				"If you are interested in testing future iPhone or iPad apps, please get in touch by email."
+			]
+		},
+		{
+			"heading": "Business Enquiries",
+			"paragraphs": [
+				"For general business enquiries, collaboration requests, or app-related questions, please contact support@barkinmad.studio."
+			]
+		}
+	]
+}

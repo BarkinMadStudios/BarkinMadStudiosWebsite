@@ -1,0 +1,56 @@
+{
+	"title": "Cookie Policy",
+	"heading": "Cookie Policy",
+	"intro": "This website may use cookies and similar technologies to improve functionality, analytics, and advertising services.",
+	"sections": [
+		{
+			"heading": "What Are Cookies",
+			"paragraphs": [
+				"Cookies are small text files stored on your device when visiting websites.",
+				"They help websites remember information about your visit, improve performance, and support certain website features."
+			]
+		},
+		{
+			"heading": "How Cookies Are Used",
+			"paragraphs": [
+				"BarkinMad Studios may use cookies for website functionality, analytics, performance monitoring, and advertising.",
+				"Some third-party services integrated into the website may also use cookies or similar technologies."
+			]
+		},
+		{
+			"heading": "Google AdSense",
+			"paragraphs": [
+				"This website may display advertisements provided by Google AdSense.",
+				"Google and its partners may use cookies to display personalised or non-personalised advertisements based on your browsing activity and interests.",
+				"Google may use advertising cookies to measure ad performance and improve advertising services."
+			]
+		},
+		{
+			"heading": "Analytics",
+			"paragraphs": [
+				"Analytics services may collect anonymous usage information such as page visits, device types, browser information, and general website interactions.",
+				"This information helps improve website performance and user experience."
+			]
+		},
+		{
+			"heading": "Managing Cookies",
+			"paragraphs": [
+				"Most web browsers allow you to control or disable cookies through browser settings.",
+				"Disabling cookies may affect certain website functionality or features."
+			]
+		},
+		{
+			"heading": "Third-Party Services",
+			"paragraphs": [
+				"Third-party providers such as Google, Apple, analytics platforms, or social media services may apply their own cookies and privacy technologies when interacting with this website.",
+				"These services operate under their own privacy and cookie policies."
+			]
+		},
+		{
+			"heading": "Policy Updates",
+			"paragraphs": [
+				"This Cookie Policy may be updated periodically as website features, analytics, or advertising services evolve."
+			]
+		}
+	]
+}
