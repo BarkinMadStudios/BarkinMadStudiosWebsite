@@ -9,8 +9,8 @@
 	"appStoreUrl": "",
 	"testFlightUrl": "https://testflight.apple.com/join/gHMCVcqd",
 	
-	"icon": "snakebyte-icon.png",
-	"heroImage": "snakebyte-hero.png",
+	"icon": "snakebyte.png",
+	"heroImage": "snakebyte.png",
 	
 	"screenshots": [
 		{
