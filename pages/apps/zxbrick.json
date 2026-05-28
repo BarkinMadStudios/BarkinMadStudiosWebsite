@@ -13,9 +13,18 @@
 	"heroImage": "zxbrick-hero.png",
 	
 	"screenshots": [
-		"zxbrick-gameplay-01.png",
-		"zxbrick-gameplay-02.png",
-		"zxbrick-gameplay-03.png"
+		{
+			"image": "zxbrick-gameplay-01.png",
+			"caption": "Loading Screen"
+		},
+		{
+			"image": "zxbrick-gameplay-02.png",
+			"caption": "Menu Menu"
+		},
+		{
+			"image": "zxbrick-gameplay-03.png",
+			"caption": "New Game"
+		}
 	],
 	
 	"features": [
