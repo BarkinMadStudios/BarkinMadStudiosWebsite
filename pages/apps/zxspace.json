@@ -12,7 +12,12 @@
 	"icon": "zxspace-icon.png",
 	"heroImage": "zxspace-hero.png",
 	
-	"screenshots": [],
+	"screenshots": [
+		{
+			"image": "zxspace-gameplay-01.png",
+			"caption": "Loading Screen"
+		}
+	],
 	
 	"features": [
 		"Retro inspired space battles",
