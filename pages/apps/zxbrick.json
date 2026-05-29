@@ -4,10 +4,11 @@
 	"shortDescription": "Inspired by classic arcade brick breakers.",
 	"description": "ZXBrick is a retro-inspired brick breaking arcade game featuring classic gameplay, power-ups, achievements, unlockable themes, and fast paced action with a nostalgic 1980s visual style.",
 	
-	"status": "Pending Release",
+	"status": "Available Now",
 	
-	"appStoreUrl": "",
-	"testFlightUrl": "https://testflight.apple.com/join/v7Zhneva",
+	"appStoreUrl": "https://apps.apple.com/gb/app/zxbrick/id6771886847
+ZXBrick",
+	"testFlightUrl": "",
 	
 	"icon": "zxbrick-icon.png",
 	"heroImage": "zxbrick-hero.png",
