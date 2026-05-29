@@ -1,5 +1,19 @@
 [
 	{
+		"slug": "starting-barkinmad-studios",
+		"title": "Starting BarkinMad Studios",
+		"date": "2025-08-15",
+		"excerpt": "How BarkinMad Studios began, the inspiration behind the studio, and the journey towards building mobile apps and retro-inspired games.",
+		"image": "image.png"
+	},
+	{
+		"slug": "building-game-of-darts",
+		"title": "Building Game of Darts",
+		"date": "2025-09-20",
+		"excerpt": "The story behind Game of Darts and the goal of creating a flexible darts scoring and statistics app for players of all abilities.",
+		"image": "image.png"
+	},
+	{
 		"slug": "why-retro-games-still-work",
 		"title": "Why Retro Arcade Games Still Work Today",
 		"date": "2025-12-15",
@@ -42,17 +56,17 @@
 		"image": "image.png"
 	},
 	{
-		"slug": "zxsnake-pvp",
-		"title": "Bringing PvP Multiplayer to ZXSnake",
-		"date": "2026-06-02",
-		"excerpt": "ZXSnake expands on the classic arcade formula with local and online PvP multiplayer, allowing players to compete against friends and rivals around the world.",
-		"image": "image.png"
-	},	
-	{
 		"slug": "building-zxspace",
 		"title": "ZXSpace is Under Development",
 		"date": "2026-05-30",
 		"excerpt": "ZXSpace is a retro-inspired arcade space shooter currently in development, featuring fast-paced action, unlockable content, achievements, leaderboards, and classic gameplay reimagined for modern mobile devices.",
+		"image": "image.png"
+	},
+	{
+		"slug": "zxsnake-pvp",
+		"title": "Bringing PvP Multiplayer to ZXSnake",
+		"date": "2026-06-02",
+		"excerpt": "ZXSnake expands on the classic arcade formula with local and online PvP multiplayer, allowing players to compete against friends and rivals around the world.",
 		"image": "image.png"
 	}
 ]

@@ -1,0 +1,15 @@
+{
+	"title": "Building Game of Darts",
+	"date": "2025-09-20",
+	"image": "image.png",
+	"content": [
+		"Game of Darts was one of the first major projects developed by BarkinMad Studios. The idea came from a desire to create a darts companion app that could support both casual players and more competitive enthusiasts.",
+		"Darts is a game enjoyed by millions of people around the world, yet many scoring applications focus on only a small selection of game modes. From the beginning, the goal was to create something more flexible.",
+		"Game of Darts was designed to support a wide variety of popular darts formats. Alongside traditional games such as 301, 501, and 701, support was added for alternative game modes including Cricket, Snooker, Halve It, All 5s, Hare & Hound, Bob's 27, and 1 to 20.",
+		"Another important objective was making scorekeeping fast and straightforward. Players should be able to focus on their game rather than navigating complicated menus or entering unnecessary information.",
+		"Statistics and performance tracking became a key part of the project. By recording results over time, players can review their progress, identify strengths and weaknesses, and measure improvement across practice sessions and competitive matches.",
+		"Developing Game of Darts also provided an opportunity to build reusable technology that would later support future BarkinMad Studios projects. Many of the development practices, shared components, and lessons learned during this project helped shape later apps and games.",
+		"Although BarkinMad Studios would later expand into retro-inspired arcade gaming, Game of Darts remains an important milestone in the studio's history and represents the beginning of the journey.",
+		"Today, the project continues to demonstrate the studio's commitment to building practical, user-friendly software that helps people enjoy their hobbies and interests."
+	]
+}
