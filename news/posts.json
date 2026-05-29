@@ -44,21 +44,21 @@
 	{
 		"slug": "ai-coding",
 		"title": "Coding With AI",
-		"date": "2026-05-27",
+		"date": "2026-05-26",
 		"excerpt": "How AI tools are helping accelerate indie game and app development.",
 		"image": "image.png"
 	},
 	{
 		"slug": "language-support",
 		"title": "32-Language Support Across the ZX Series",
-		"date": "2026-05-29",
+		"date": "2026-05-27",
 		"excerpt": "The ZX Series now supports 32 languages, bringing retro-inspired arcade gaming to players around the world with fully localised gameplay, achievements, and Game Center content.",
 		"image": "image.png"
 	},
 	{
 		"slug": "zxsnake-pvp",
 		"title": "Bringing PvP Multiplayer to ZXSnake",
-		"date": "2026-05-29",
+		"date": "2026-05-28",
 		"excerpt": "ZXSnake expands on the classic arcade formula with local and online PvP multiplayer, allowing players to compete against friends and rivals around the world.",
 		"image": "image.png"
 	},
