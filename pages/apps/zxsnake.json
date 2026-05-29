@@ -4,10 +4,10 @@
 	"shortDescription": "Inspired by classic 1980s gaming.",
 	"description": "ZXSnake is a retro-inspired arcade snake game featuring classic gameplay, unlockable themes, achievements, and modern controls with a nostalgic ZX Spectrum inspired visual style.",
 	
-	"status": "Pending Release",
+	"status": "Live",
 	
-	"appStoreUrl": "",
-	"testFlightUrl": "https://testflight.apple.com/join/gHMCVcqd",
+	"appStoreUrl": "https://apps.apple.com/gb/app/zxsnake/id6770932739",
+	"testFlightUrl": "",
 	
 	"icon": "zxsnake.png",
 	"heroImage": "zxsnake-hero.png",

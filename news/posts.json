@@ -56,17 +56,25 @@
 		"image": "image.png"
 	},
 	{
-		"slug": "building-zxspace",
-		"title": "ZXSpace is Under Development",
-		"date": "2026-05-30",
-		"excerpt": "ZXSpace is a retro-inspired arcade space shooter currently in development, featuring fast-paced action, unlockable content, achievements, leaderboards, and classic gameplay reimagined for modern mobile devices.",
+		"slug": "zxsnake-pvp",
+		"title": "Bringing PvP Multiplayer to ZXSnake",
+		"date": "2026-05-29",
+		"excerpt": "ZXSnake expands on the classic arcade formula with local and online PvP multiplayer, allowing players to compete against friends and rivals around the world.",
 		"image": "image.png"
 	},
 	{
-		"slug": "zxsnake-pvp",
-		"title": "Bringing PvP Multiplayer to ZXSnake",
-		"date": "2026-06-02",
-		"excerpt": "ZXSnake expands on the classic arcade formula with local and online PvP multiplayer, allowing players to compete against friends and rivals around the world.",
+		"slug": "released-zxnake-zxbrick",
+		"title": "ZX Snake & ZX Brick Now Available on the App Store",
+		"date": "2026-05-29",
+		"excerpt": "ZX Snake and ZX Brick have officially launched on the App Store, bringing classic 8-bit inspired arcade action, achievements, leaderboards, and modern gameplay features to iPhone and iPad.",
 		"image": "image.png"
 	}
+	{
+		"slug": "building-zxspace",
+		"title": "ZXSpace is Under Development",
+		"date": "2026-06-01",
+		"excerpt": "ZXSpace is a retro-inspired arcade space shooter currently in development, featuring fast-paced action, unlockable content, achievements, leaderboards, and classic gameplay reimagined for modern mobile devices.",
+		"image": "image.png"
+	}
+
 ]
