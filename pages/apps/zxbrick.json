@@ -1,9 +1,10 @@
 {
 	"title": "ZXBrick",
 	"tagline": "Retro brick-breaking arcade action",
-	"shortDescription": "Inspired by classic arcade brick breakers.",
-	"description": "ZXBrick is a retro-inspired brick breaking arcade game featuring classic gameplay, power-ups, achievements, unlockable themes, and fast paced action with a nostalgic 1980s visual style.",
+	"shortDescription": "A classic brick-breaking arcade game with power-ups, themes, achievements, and BarkinMad Coins.",
+	"description": "ZXBrick is a retro-inspired brick-breaking arcade game featuring 100 handcrafted levels, powerful upgrades, achievements, unlockable themes, BarkinMad Coins, and fast-paced gameplay inspired by the golden age of arcade gaming.",
 	
+	```
 	"status": "Live",
 	
 	"appStoreUrl": "https://apps.apple.com/gb/app/zxbrick/id6771886847",
@@ -19,7 +20,7 @@
 		},
 		{
 			"image": "zxbrick-gameplay-02.png",
-			"caption": "Menu Menu"
+			"caption": "Main Menu"
 		},
 		{
 			"image": "zxbrick-gameplay-03.png",
@@ -29,28 +30,44 @@
 	
 	"features": [
 		"Retro arcade gameplay",
-		"Classic brick breaking action",
+		"Classic brick-breaking action",
+		"100 handcrafted levels",
 		"Multiple power-ups",
 		"Unlockable themes",
+		"BarkinMad Coins for cross-game cosmetic unlocks",
 		"Game Center achievements",
+		"Game Center leaderboards",
 		"High score tracking",
-		"30+ language support"
+		"32 language support"
 	],
 	
 	"achievements": [
+		"Play 10 Games",
+		"Play 25 Games",
+		"Play 50 Games",
+		"Play 100 Games",
 		"Destroy 500 Bricks",
 		"Destroy 1000 Bricks",
-		"Reach High Score Milestones"
 	],
+	
+	"leaderboards": [
+		"Highest Score",
+	],
+	
+	"barkinMadCoins": {
+		"enabled": true,
+		"description": "Earn BarkinMad Coins through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+	},
 	
 	"supportedPlatforms": [
-		"iPhone",
-		"iPad"
+		"iPhone"
 	],
 	
-	"version": "1.0",
+	"version": "1.1",
 	
 	"genre": "Arcade",
 	
 	"developer": "BarkinMad Studios"
+	```
+	
 }

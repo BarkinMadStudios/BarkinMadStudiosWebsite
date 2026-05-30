@@ -28,25 +28,37 @@
 	],
 	
 	"features": [
-		"Retro inspired gameplay",
+		"Retro-inspired arcade gameplay",
+		"AI-controlled opponents",
+		"PVP multiplayer - local and online",
 		"Unlockable snake skins",
+		"Multiple visual themes",
+		"BarkinMad Coins for cross-game cosmetic unlocks",
 		"Game Center achievements",
-		"PVP Mode - Local and World",
+		"Game Center leaderboards",
 		"High score tracking",
-		"Multiple themes",
-		"30+ language support",
+		"32 language support",
 		"Classic arcade visuals"
 	],
 	
 	"achievements": [
 		"Play 10 Games",
-		"Play 100 Games",
-		"Reach High Score Milestones"
+		"Play 25 Games",
+		"Play 50 Games",
+		"Play 100 Games"
 	],
 	
+	"leaderboards": [
+		"Highest Score",
+	],
+	
+	"barkinMadCoins": {
+		"enabled": true,
+		"description": "Earn BarkinMad Coins through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+	},
+	
 	"supportedPlatforms": [
-		"iPhone",
-		"iPad"
+		"iPhone"
 	],
 	
 	"version": "1.0",

@@ -20,24 +20,41 @@
 	],
 	
 	"features": [
-		"Retro inspired space battles",
-		"Classic arcade gameplay",
-		"Enemy wave progression",
-		"Unlockable upgrades",
+		"Retro-inspired space shooter gameplay",
+		"Defend Earth from invading alien forces",
+		"Multiple enemy types",
+		"Epic boss battles",
+		"Unlockable ship skins",
+		"Multiple visual themes",
+		"BarkinMad Coins for cross-game cosmetic unlocks",
 		"Game Center achievements",
-		"High score tracking",
-		"30+ language support"
+		"Game Center leaderboards",
+		"Global high score competition",
+		"32 language support",
+		"Classic arcade visuals"
 	],
 	
 	"achievements": [
+		"Play 10 Games",
+		"Play 25 Games",
+		"Play 50 Games",
+		"Play 100 Games",
 		"Destroy 100 Enemies",
 		"Destroy 500 Enemies",
 		"Survive 5 Waves"
 	],
 	
+	"leaderboards": [
+		"Highest Score",
+	],
+	
+	"barkinMadCoins": {
+		"enabled": true,
+		"description": "Earn BarkinMad Coins through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+	},
+	
 	"supportedPlatforms": [
-		"iPhone",
-		"iPad"
+		"iPhone"
 	],
 	
 	"version": "0.1",
