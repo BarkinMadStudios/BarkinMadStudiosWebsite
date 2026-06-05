@@ -10,20 +10,20 @@
 	"appStoreUrl": "https://apps.apple.com/gb/app/zxbrick/id6771886847",
 	"testFlightUrl": "",
 	
-	"icon": "zxbrick-icon.png",
-	"heroImage": "zxbrick-hero.png",
+	"icon": "apps/zxbrick-icon.png",
+	"heroImage": "apps/zxbrick-hero.png",
 	
 	"screenshots": [
 		{
-			"image": "zxbrick-gameplay-01.png",
+			"image": "apps/zxbrick-gameplay-01.png",
 			"caption": "Loading Screen"
 		},
 		{
-			"image": "zxbrick-gameplay-02.png",
+			"image": "apps/zxbrick-gameplay-02.png",
 			"caption": "Main Menu"
 		},
 		{
-			"image": "zxbrick-gameplay-03.png",
+			"image": "apps/zxbrick-gameplay-03.png",
 			"caption": "New Game"
 		}
 	],
