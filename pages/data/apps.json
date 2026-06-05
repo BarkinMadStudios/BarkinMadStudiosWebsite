@@ -2,6 +2,8 @@
 	{
 		"name": "ZXSnake",
 		"slug": "zxsnake",
+		"category": "retro",
+		"series": "zx-series",
 		"appleId": "6770932739",
 		"status": "Live",
 		"type": "Retro Snake Game",
@@ -13,6 +15,8 @@
 	{
 		"name": "ZXBrick",
 		"slug": "zxbrick",
+		"category": "retro",
+		"series": "zx-series",
 		"appleId": "6771886847",
 		"status": "Live",
 		"type": "Retro Brick Breaker",
@@ -24,6 +28,8 @@
 	{
 		"name": "ZXSpace",
 		"slug": "zxspace",
+		"category": "retro",
+		"series": "zx-series",
 		"appleId": "6772716922",
 		"status": "Coming Soon",
 		"type": "Retro Space Shooter",
@@ -35,6 +41,8 @@
 	{
 		"name": "ZXPong",
 		"slug": "zxpong",
+		"category": "retro",
+		"series": "zx-series",
 		"appleId": "",
 		"status": "Coming Soon",
 		"type": "Retro Pong Game",
@@ -42,5 +50,31 @@
 		"appStoreUrl": "",
 		"testFlightUrl": "",
 		"description": "ZXPong is a retro-inspired bat-and-ball arcade game with simple controls, classic rally gameplay, score chasing, achievements, and fast pick-up-and-play action."
+	},
+	{
+		"name": "GameOfDarts",
+		"slug": "gameofdarts",
+		"category": "darts",
+		"series": "",
+		"appleId": "6751581339",
+		"status": "Live",
+		"type": "Darts Scoring App",
+		"image": "gameofdarts.png",
+		"appStoreUrl": "https://apps.apple.com/gb/app/the-game-of-darts/id6751581339",
+		"testFlightUrl": "",
+		"description": "GameOfDarts is a modern darts scoring app for iPhone and iPad designed for score tracking, statistics, practice, and local multiplayer gameplay."
+	},
+	{
+		"name": "HopAndStops",
+		"slug": "hopandstops",
+		"category": "utility",
+		"series": "",
+		"appleId": "",
+		"status": "Coming Soon",
+		"type": "App",
+		"image": "hopandstops.png",
+		"appStoreUrl": "",
+		"testFlightUrl": "",
+		"description": "HopAndStops is an upcoming BarkinMad Studios app."
 	}
 ]

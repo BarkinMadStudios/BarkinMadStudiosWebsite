@@ -1,0 +1,19 @@
+{
+	"zxSeries": [
+		{
+			"id": "totalScore",
+			"title": "ZX Series Total Score",
+			"description": "Combined score earned across all supported ZX games."
+		},
+		{
+			"id": "gamesPlayed",
+			"title": "ZX Games Played",
+			"description": "Number of ZX Series games played."
+		},
+		{
+			"id": "coinsEarned",
+			"title": "Coins Earned",
+			"description": "Total BarkinMad Coins earned across the ZX Series."
+		}
+	]
+}

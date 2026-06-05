@@ -1,0 +1,16 @@
+{
+	"live": [
+		"ZXSnake",
+		"ZXBrick"
+	],
+	"development": [
+		"ZXPong",
+		"ZXSpace"
+	],
+	"planned": [
+		"ZXMaze",
+		"ZXLabrador",
+		"ZXRacer",
+		"ZXTanks"
+	]
+}

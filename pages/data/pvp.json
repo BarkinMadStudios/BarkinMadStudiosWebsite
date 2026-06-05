@@ -1,0 +1,22 @@
+{
+	"worldPVP": {
+		"enabled": true,
+		"description": "Challenge players online in supported ZX games."
+	},
+	"localPVP": {
+		"enabled": true,
+		"description": "Play with friends at home on same network/wifi."
+	},
+	"supportedGames": [
+		{
+			"game": "ZXSnake",
+			"localPlayers": 3,
+			"worldPlayers": 3
+		},
+		{
+			"game": "ZXPong",
+			"localPlayers": 2,
+			"worldPlayers": 2
+		}
+	]
+}
