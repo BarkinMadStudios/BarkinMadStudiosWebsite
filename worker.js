@@ -295,6 +295,14 @@ nav a:hover { color: #f39c12; }
   font-size: 1.15rem;
 }
 
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1.5rem auto 0;
+}
+
 .hero-logo {
   height: 100px;
   width: auto;
@@ -657,9 +665,9 @@ async function homePage() {
 
   <p>${escapeHtml(homepage.intro || "Retro-inspired arcade games and modern mobile apps for iPhone and iPad.")}</p>
 
-  <p>
+  <div class="hero-actions">
     ${actions.map(action => actionLink(action)).join("")}
-  </p>
+  </div>
 </section>
 
 <main>
