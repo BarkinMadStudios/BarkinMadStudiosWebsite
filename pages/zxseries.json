@@ -1,28 +1,19 @@
 {
 	"title": "ZX Series",
 	"tagline": "Connected retro arcade gaming",
-	"description": "The ZX Series is a collection of retro-inspired arcade games from BarkinMad Studios. Play across multiple games, earn shared achievements, climb leaderboards, collect coins, and compete against players around the world.",
+	"description": "The ZX Series is a collection of retro-inspired arcade games from BarkinMad Studios.",
 	
-	"sections": [
-		{
-			"title": "Shared Achievements",
-			"dataSource": "achievements"
-		},
-		{
-			"title": "Shared Leaderboards",
-			"dataSource": "leaderboards"
-		},
-		{
-			"title": "BarkinMad Coins",
-			"dataSource": "coins"
-		},
-		{
-			"title": "PVP Modes",
-			"dataSource": "pvp"
-		},
-		{
-			"title": "Roadmap",
-			"dataSource": "roadmap"
-		}
+	"intro": [
+		"Play multiple ZX games and build your progress across the entire series.",
+		"Earn BarkinMad Coins, unlock achievements, compete on leaderboards, and challenge other players."
+	],
+	
+	"features": [
+		"Shared achievements",
+		"Shared leaderboards",
+		"BarkinMad Coins",
+		"World PVP",
+		"Local PVP",
+		"Cross-game progression"
 	]
 }
