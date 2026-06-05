@@ -486,20 +486,29 @@ async function categoryAppsPage(category) {
   const apps = (await getApps()).filter(app => app.category === category);
 
   const isDarts = category === "darts";
+  const heading = isDarts ? "Darts Apps" : "Retro Arcade Collection";
+  const intro = isDarts
+    ? "Mobile darts scoring and statistics apps for match play, party games, and practice sessions."
+    : "Standalone retro-inspired arcade games built around simple controls, quick sessions, score chasing, and classic pick-up-and-play gameplay.";
 
   return `
 <section class="hero ${isDarts ? "hero-darts" : "hero-retro"}">
-  <h2>${isDarts ? "Darts Apps" : "Retro Arcade Games"}</h2>
-  <p>
-    ${isDarts
-      ? "Mobile darts scoring and statistics apps for match play, party games, and practice sessions."
-      : "Retro-inspired arcade games focused on simple, addictive, pick-up-and-play gameplay."}
-  </p>
+  <h2>${heading}</h2>
+  <p>${intro}</p>
 </section>
 
 <main>
+${!isDarts ? `
 <section>
-  <h2>${isDarts ? "Darts Apps" : "Games"}</h2>
+  <h2>Classic Arcade Feel</h2>
+  <div class="card">
+    <p>These games focus on fast restarts, readable action, high-score pressure, and retro visual style. Some are also part of the connected ZX Series, where achievements, leaderboards, and BarkinMad Coins can carry across supported games.</p>
+    <a class="btn" href="/zx-series">View ZX Series</a>
+  </div>
+</section>` : ""}
+
+<section>
+  <h2>${isDarts ? "Darts Apps" : "Retro Games"}</h2>
   <div class="grid">
     ${apps.map(appFullCard).join("")}
   </div>
@@ -524,6 +533,16 @@ async function zxSeriesPage() {
 </section>
 
 <main>
+${Array.isArray(page.intro) && page.intro.length ? `
+<section>
+  <h2>Connected Progression</h2>
+  <div class="card">
+    ${page.intro.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+  </div>
+</section>` : ""}
+
+${renderStringListSection("ZX Series Features", page.features)}
+
 <section>
   <h2>ZX Games</h2>
   <div class="grid">
