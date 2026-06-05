@@ -26,6 +26,7 @@ const DEFAULT_SITE = {
     { label: "Apps", href: "/apps" },
     { label: "News", href: "/news" },
     { label: "About", href: "/about" },
+    { label: "Privacy", href: "/privacy" },
     { label: "Contact", href: "/contact" }
   ],
   footerNavigation: [
@@ -809,6 +810,10 @@ function renderStaticPage(page) {
           <ul>
             ${section.list.map(item => `<li>${escapeHtml(item)}</li>`).join("")}
           </ul>
+        ` : ""}
+
+        ${Array.isArray(section.links) ? `
+          <p>${section.links.map(actionLink).join("")}</p>
         ` : ""}
       </div>
     </section>

@@ -25,6 +25,10 @@
 			"href": "/about"
 		},
 		{
+			"label": "Privacy",
+			"href": "/privacy"
+		},
+		{
 			"label": "Contact",
 			"href": "/contact"
 		}

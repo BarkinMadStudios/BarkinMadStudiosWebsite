@@ -79,6 +79,18 @@
 			]
 		},
 		{
+			"heading": "Cookies",
+			"paragraphs": [
+				"Website cookie information is maintained separately."
+			],
+			"links": [
+				{
+					"label": "View Cookie Policy",
+					"href": "/cookies"
+				}
+			]
+		},
+		{
 			"heading": "Contact",
 			"paragraphs": [
 				"For privacy questions, support, or enquiries, please contact [support@barkinmad.studio](mailto:support@barkinmad.studio)."
