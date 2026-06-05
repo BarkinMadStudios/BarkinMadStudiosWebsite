@@ -4,30 +4,19 @@
 	"intro": "Games and apps from BarkinMad Studios.",
 	"sections": [
 		{
-			"title": "Games",
-			"description": "Retro-inspired arcade games built around simple controls, quick sessions, score chasing, and classic pick-up-and-play gameplay.",
+			"title": "ZX Series",
+			"description": "Connected retro arcade games with shared achievements, leaderboards, BarkinMad Coins, PvP modes, and roadmap features.",
+			"href": "/zx-series",
 			"filter": {
-				"field": "category",
-				"value": "retro"
+				"field": "series",
+				"value": "zx-series"
 			}
 		},
 		{
-			"title": "Darts Apps",
-			"description": "Mobile darts scoring and statistics apps for match play, party games, and practice sessions.",
-			"filter": {
-				"field": "category",
-				"value": "darts"
-			}
+			"title": "Apps",
+			"description": "All BarkinMad Studios games and apps, including retro arcade games and darts tools.",
+			"href": "#all-apps"
 		}
 	],
-	"sharedSystems": {
-		"title": "Shared Game Systems",
-		"intro": "Supported games can share achievements, leaderboards, BarkinMad Coins, PvP modes, and roadmap features across the BarkinMad Studios ecosystem.",
-		"achievementsTitle": "Shared Achievements",
-		"leaderboardsTitle": "Shared Leaderboards",
-		"coinsTitle": "BarkinMad Coins",
-		"pvpTitle": "PVP Modes",
-		"roadmapTitle": "Roadmap"
-	},
 	"allAppsTitle": "All Apps"
 }

@@ -70,7 +70,11 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     return pageResponse("Apps - BarkinMad Studios", await appsPage());
   }
 
-  if (["/zx-series", "/retro-arcade-games", "/retro-games", "/games", "/darts-apps", "/gameofdarts"].includes(path)) {
+  if (path === "/zx-series") {
+    return pageResponse("ZX Series - BarkinMad Studios", await zxSeriesPage());
+  }
+
+  if (["/retro-arcade-games", "/retro-games", "/games", "/darts-apps", "/gameofdarts"].includes(path)) {
     return Response.redirect(`${url.origin}/apps`, 301);
   }
 
@@ -530,14 +534,6 @@ async function appsPage() {
   const apps = await getApps();
   const page = await fetchJson(`${PAGES_BASE}/apps.json`) || {};
   const sections = Array.isArray(page.sections) ? page.sections : [];
-  const sharedSystems = page.sharedSystems && typeof page.sharedSystems === "object"
-    ? page.sharedSystems
-    : {};
-  const achievements = await fetchJson(`${DATA_BASE}/achievements.json`) || {};
-  const leaderboards = await fetchJson(`${DATA_BASE}/leaderboards.json`) || {};
-  const coins = await fetchJson(`${DATA_BASE}/coins.json`) || {};
-  const pvp = await fetchJson(`${DATA_BASE}/pvp.json`) || {};
-  const roadmap = await fetchJson(`${DATA_BASE}/roadmap.json`) || {};
 
   return `
 <section class="hero hero-retro">
@@ -554,10 +550,45 @@ ${sections.length ? `
   </div>
 </section>` : ""}
 
-${renderSharedSystems(sharedSystems, { achievements, leaderboards, coins, pvp, roadmap })}
+<section id="all-apps">
+  <h2>${escapeHtml(page.allAppsTitle || "All Apps")}</h2>
+  <div class="grid">
+    ${apps.map(appFullCard).join("")}
+  </div>
+</section>
+</main>`;
+}
+
+async function zxSeriesPage() {
+  const page = await fetchJson(`${PAGES_BASE}/zx-series.json`) || {};
+  const apps = (await getApps()).filter(app => app.series === "zx-series");
+  const achievements = await fetchJson(`${DATA_BASE}/achievements.json`) || {};
+  const leaderboards = await fetchJson(`${DATA_BASE}/leaderboards.json`) || {};
+  const coins = await fetchJson(`${DATA_BASE}/coins.json`) || {};
+  const pvp = await fetchJson(`${DATA_BASE}/pvp.json`) || {};
+  const roadmap = await fetchJson(`${DATA_BASE}/roadmap.json`) || {};
+
+  return `
+<section class="hero hero-retro">
+  <h2>${escapeHtml(page.title || "ZX Series")}</h2>
+  <p>${escapeHtml(page.description || "Connected retro arcade games from BarkinMad Studios.")}</p>
+</section>
+
+<main>
+${Array.isArray(page.intro) && page.intro.length ? `
+<section>
+  <h2>${escapeHtml(page.tagline || "Connected Progression")}</h2>
+  <div class="card">
+    ${page.intro.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+  </div>
+</section>` : ""}
+
+${renderStringListSection("Features", page.features)}
+
+${renderSharedSystems(page.sharedSystems || {}, { achievements, leaderboards, coins, pvp, roadmap })}
 
 <section>
-  <h2>${escapeHtml(page.allAppsTitle || "All Apps")}</h2>
+  <h2>${escapeHtml(page.appsTitle || "ZX Series Games")}</h2>
   <div class="grid">
     ${apps.map(appFullCard).join("")}
   </div>
@@ -918,6 +949,7 @@ async function sitemapResponse() {
   const urls = [
     "/",
     "/apps",
+    "/zx-series",
     "/news",
     "/about",
     "/privacy",

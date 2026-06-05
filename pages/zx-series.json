@@ -15,5 +15,15 @@
 		"World PVP",
 		"Local PVP",
 		"Cross-game progression"
-	]
+	],
+	"sharedSystems": {
+		"title": "Shared Game Systems",
+		"intro": "Supported ZX Series games can share achievements, leaderboards, BarkinMad Coins, PvP modes, and roadmap features across the BarkinMad Studios ecosystem.",
+		"achievementsTitle": "Shared Achievements",
+		"leaderboardsTitle": "Shared Leaderboards",
+		"coinsTitle": "BarkinMad Coins",
+		"pvpTitle": "PVP Modes",
+		"roadmapTitle": "Roadmap"
+	},
+	"appsTitle": "ZX Series Games"
 }
