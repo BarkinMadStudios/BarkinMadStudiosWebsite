@@ -9,20 +9,20 @@
 	"appStoreUrl": "https://apps.apple.com/gb/app/zxsnake/id6770932739",
 	"testFlightUrl": "",
 	
-	"icon": "apps/zxsnake.png",
-	"heroImage": "apps/zxsnake-hero.png",
+	"icon": "apps/zxsnake/zxsnake.png",
+	"heroImage": "apps/zxsnake/zxsnake-hero.png",
 	
 	"screenshots": [
 		{
-			"image": "apps/zxsnake-gameplay-01.png",
+			"image": "apps/zxsnake/zxsnake-gameplay-01.png",
 			"caption": "loading"
 		},
 		{
-			"image": "apps/zxsnake-gameplay-02.png",
+			"image": "apps/zxsnake/zxsnake-gameplay-02.png",
 			"caption": "Solo Play"
 		},
 		{
-			"image": "apps/zxsnake-gameplay-03.png",
+			"image": "apps/zxsnake/zxsnake-gameplay-03.png",
 			"caption": "Solo Play"
 		}
 	],

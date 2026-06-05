@@ -177,13 +177,13 @@ nav a:hover { color: #f39c12; }
 .hero-retro {
   background:
     linear-gradient(rgba(10,10,25,0.78), rgba(10,10,25,0.9)),
-    url("${IMAGE_BASE}/retro-arcade-banner.png") center/cover no-repeat;
+    url("${IMAGE_BASE}/apps/zxsnake/zxsnake-hero.png") center/cover no-repeat;
 }
 
 .hero-darts {
   background:
     linear-gradient(rgba(10,10,25,0.78), rgba(10,10,25,0.9)),
-    url("${IMAGE_BASE}/gameofdarts-banner.png") center/cover no-repeat;
+    url("${IMAGE_BASE}/apps/gameofdarts/gameofdarts.png") center/cover no-repeat;
 }
 
 .hero h2 {

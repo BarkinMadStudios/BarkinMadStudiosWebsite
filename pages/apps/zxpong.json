@@ -9,12 +9,12 @@
 	"appStoreUrl": "",
 	"testFlightUrl": "",
 
-	"icon": "apps/zxpong-icon.png",
-	"heroImage": "apps/zxpong-hero.png",
+	"icon": "apps/zxpong/zxpong-icon.png",
+	"heroImage": "apps/zxpong/zxpong-hero.png",
 
 	"screenshots": [
 		{
-			"image": "apps/zxpong-gameplay-01.png",
+			"image": "apps/zxpong/zxpong-gameplay-01.png",
 			"caption": "Loading Screen"
 		}
 	],

@@ -9,12 +9,12 @@
 	"appStoreUrl": "",
 	"testFlightUrl": "",
 	
-	"icon": "apps/zxspace-icon.png",
-	"heroImage": "apps/zxspace-hero.png",
+	"icon": "apps/zxspace/zxspace-icon.png",
+	"heroImage": "apps/zxspace/zxspace-hero.png",
 	
 	"screenshots": [
 		{
-			"image": "apps/zxspace-gameplay-01.png",
+			"image": "apps/zxspace/zxspace-gameplay-01.png",
 			"caption": "Loading Screen"
 		}
 	],

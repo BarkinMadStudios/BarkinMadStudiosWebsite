@@ -3,27 +3,25 @@
 	"tagline": "Retro brick-breaking arcade action",
 	"shortDescription": "A classic brick-breaking arcade game with power-ups, themes, achievements, and BarkinMad Coins.",
 	"description": "ZXBrick is a retro-inspired brick-breaking arcade game featuring 100 handcrafted levels, powerful upgrades, achievements, unlockable themes, BarkinMad Coins, and fast-paced gameplay inspired by the golden age of arcade gaming.",
-	
-	```
 	"status": "Live",
 	
 	"appStoreUrl": "https://apps.apple.com/gb/app/zxbrick/id6771886847",
 	"testFlightUrl": "",
 	
-	"icon": "apps/zxbrick-icon.png",
-	"heroImage": "apps/zxbrick-hero.png",
+	"icon": "apps/zxbrick/zxbrick-icon.png",
+	"heroImage": "apps/zxbrick/zxbrick-hero.png",
 	
 	"screenshots": [
 		{
-			"image": "apps/zxbrick-gameplay-01.png",
+			"image": "apps/zxbrick/zxbrick-gameplay-01.png",
 			"caption": "Loading Screen"
 		},
 		{
-			"image": "apps/zxbrick-gameplay-02.png",
+			"image": "apps/zxbrick/zxbrick-gameplay-02.png",
 			"caption": "Main Menu"
 		},
 		{
-			"image": "apps/zxbrick-gameplay-03.png",
+			"image": "apps/zxbrick/zxbrick-gameplay-03.png",
 			"caption": "New Game"
 		}
 	],
