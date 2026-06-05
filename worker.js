@@ -13,6 +13,35 @@ const NEWS_BASE = `${REPO_BASE}/news`;
 const PAGES_BASE = `${REPO_BASE}/pages`;
 const DATA_BASE = `${PAGES_BASE}/data`;
 
+const DEFAULT_SITE = {
+  name: "BarkinMad Studios",
+  description: "Independent UK game and app developer creating retro-inspired experiences for modern devices.",
+  keywords: "retro games, arcade games, iOS games, ZXSnake, ZXBrick, ZXPong, ZXSpace, GameOfDarts",
+  ogDescription: "Retro games. Modern apps. Built with passion.",
+  email: "barry@barkinmad.studio",
+  website: "https://www.barkinmad.studio",
+  copyright: "BarkinMad Studios",
+  navigation: [
+    { label: "Home", href: "/" },
+    { label: "Apps", href: "/apps" },
+    { label: "News", href: "/news" },
+    { label: "About", href: "/about" },
+    { label: "Contact", href: "/contact" }
+  ],
+  footerNavigation: [
+    { label: "Apps", href: "/apps" },
+    { label: "ZX Series", href: "/zx-series" },
+    { label: "Retro Games", href: "/retro-arcade-games" },
+    { label: "Darts Apps", href: "/darts-apps" },
+    { label: "Privacy", href: "/privacy" },
+    { label: "Cookies", href: "/cookies" },
+    { label: "Contact", href: "/contact" }
+  ],
+  socials: {
+    facebook: "https://www.facebook.com/profile.php?id=61579287944996"
+  }
+};
+
 async function handleRequest(request) {
   const url = new URL(request.url);
   const path = url.pathname.toLowerCase().replace(/\/$/, "") || "/";
@@ -96,12 +125,16 @@ async function pageResponse(title, content, status = 200) {
 }
 
 function layout(title, content, site = {}) {
-  const siteName = site.name || "BarkinMad Studios";
-  const siteDescription = site.description || "Retro-inspired arcade games and modern mobile apps for iPhone and iPad.";
+  const siteName = site.name || DEFAULT_SITE.name;
+  const siteDescription = site.description || DEFAULT_SITE.description;
   const ogDescription = site.ogDescription || siteDescription;
-  const website = site.website || "https://www.barkinmad.studio";
-  const navigation = Array.isArray(site.navigation) ? site.navigation : [];
-  const footerNavigation = Array.isArray(site.footerNavigation) ? site.footerNavigation : navigation;
+  const website = site.website || DEFAULT_SITE.website;
+  const navigation = Array.isArray(site.navigation) && site.navigation.length
+    ? site.navigation
+    : DEFAULT_SITE.navigation;
+  const footerNavigation = Array.isArray(site.footerNavigation) && site.footerNavigation.length
+    ? site.footerNavigation
+    : DEFAULT_SITE.footerNavigation;
 
   return `
 <!DOCTYPE html>
@@ -385,7 +418,16 @@ async function fetchJson(url) {
 
 async function getSite() {
   const site = await fetchJson(`${DATA_BASE}/site.json`);
-  return site && typeof site === "object" ? site : {};
+  if (!site || typeof site !== "object") return DEFAULT_SITE;
+
+  return {
+    ...DEFAULT_SITE,
+    ...site,
+    socials: {
+      ...DEFAULT_SITE.socials,
+      ...(site.socials || {})
+    }
+  };
 }
 
 async function getApps() {
