@@ -63,41 +63,82 @@ Preferred-Languages: en
 Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   }
 
-  if (path === "/" || path === "/home") {
-    return pageResponse("BarkinMad Studios", await homePage());
+  if (path === "/home") {
+    return Response.redirect(`${url.origin}/`, 301);
+  }
+
+  if (path === "/devlog") {
+    return Response.redirect(`${url.origin}/news`, 301);
+  }
+
+  if (path === "/about-us") {
+    return Response.redirect(`${url.origin}/about`, 301);
+  }
+
+  if (path === "/support") {
+    return Response.redirect(`${url.origin}/contact`, 301);
+  }
+
+  if (path === "/") {
+    const homepage = await fetchJson(`${PAGES_BASE}/home.json`) || {};
+    const site = await getSite();
+    return pageResponse("BarkinMad Studios", await homePage(homepage), {
+      canonicalPath: "/",
+      description: homepage.intro,
+      image: `${IMAGE_BASE}/logos/social-preview.png`,
+      structuredData: [organizationSchema(site), websiteSchema(site)]
+    });
   }
 
   if (path === "/apps") {
-    return pageResponse("Apps - BarkinMad Studios", await appsPage());
+    const page = await fetchJson(`${PAGES_BASE}/apps.json`) || {};
+    return pageResponse("Apps - BarkinMad Studios", await appsPage(page), {
+      canonicalPath: "/apps",
+      description: page.intro,
+      image: `${IMAGE_BASE}/retro-banner.png`
+    });
   }
 
   if (path === "/zx-series") {
-    return pageResponse("ZX Series - BarkinMad Studios", await zxSeriesPage());
+    const page = await fetchJson(`${PAGES_BASE}/zx-series.json`) || {};
+    return pageResponse("ZX Series - BarkinMad Studios", await zxSeriesPage(page), {
+      canonicalPath: "/zx-series",
+      description: page.description,
+      image: `${IMAGE_BASE}/retro-banner.png`
+    });
   }
 
   if (["/retro-arcade-games", "/retro-games", "/games", "/darts-apps", "/gameofdarts"].includes(path)) {
     return Response.redirect(`${url.origin}/apps`, 301);
   }
 
-  if (["/about", "/about-us"].includes(path)) return staticJsonPage("about");
+  if (path === "/about") return staticJsonPage("about");
   if (path === "/privacy") return staticJsonPage("privacy");
   if (path === "/cookies") return staticJsonPage("cookies");
-  if (["/contact", "/support"].includes(path)) return staticJsonPage("contact");
+  if (path === "/contact") return staticJsonPage("contact");
 
   if (path.startsWith("/apps/")) {
     return appJsonPage(path.replace("/apps/", ""));
   }
 
-  if (path === "/news" || path === "/devlog") {
-    return pageResponse("News & Devlog - BarkinMad Studios", await newsPage());
+  if (path === "/news") {
+    return pageResponse("News & Devlog - BarkinMad Studios", await newsPage(), {
+      canonicalPath: "/news",
+      description: "Development updates, screenshots, release news, and behind-the-scenes progress from BarkinMad Studios.",
+      image: `${IMAGE_BASE}/retro-banner.png`
+    });
   }
 
   if (path === "/news/archive") {
-    return pageResponse("News Archive - BarkinMad Studios", await newsArchivePage());
+    return pageResponse("News Archive - BarkinMad Studios", await newsArchivePage(), {
+      canonicalPath: "/news/archive",
+      description: "Older BarkinMad Studios news and development updates.",
+      image: `${IMAGE_BASE}/retro-banner.png`
+    });
   }
 
   if (path.startsWith("/news/")) {
-    return pageResponse("News - BarkinMad Studios", await newsArticlePage(path.replace("/news/", "")));
+    return newsArticleResponse(path.replace("/news/", ""));
   }
 
   return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
@@ -109,20 +150,33 @@ function textResponse(body) {
   });
 }
 
-async function pageResponse(title, content, status = 200) {
+async function pageResponse(title, content, options = {}, status = 200) {
+  if (typeof options === "number") {
+    status = options;
+    options = {};
+  }
+
   const site = await getSite();
 
-  return new Response(layout(title, content, site), {
+  return new Response(layout(title, content, site, options, status), {
     status,
     headers: { "content-type": "text/html;charset=UTF-8" }
   });
 }
 
-function layout(title, content, site = {}) {
+function layout(title, content, site = {}, options = {}, status = 200) {
   const siteName = site.name || DEFAULT_SITE.name;
-  const siteDescription = site.description || DEFAULT_SITE.description;
-  const ogDescription = site.ogDescription || siteDescription;
+  const siteDescription = cleanMeta(options.description || site.description || DEFAULT_SITE.description);
+  const ogDescription = cleanMeta(options.ogDescription || options.description || site.ogDescription || siteDescription);
   const website = site.website || DEFAULT_SITE.website;
+  const canonicalUrl = absoluteSiteUrl(website, options.canonicalPath || "/");
+  const socialImage = options.image || `${IMAGE_BASE}/logos/social-preview.png`;
+  const robots = options.robots || (status >= 400 ? "noindex,follow" : "index,follow");
+  const structuredData = Array.isArray(options.structuredData)
+    ? options.structuredData
+    : options.structuredData
+      ? [options.structuredData]
+      : [organizationSchema(site)];
   const navigation = Array.isArray(site.navigation) && site.navigation.length
     ? site.navigation
     : DEFAULT_SITE.navigation;
@@ -142,20 +196,26 @@ function layout(title, content, site = {}) {
 
 <link rel="icon" type="image/png" href="${IMAGE_BASE}/logos/favicon.png">
 <link rel="apple-touch-icon" href="${IMAGE_BASE}/logos/favicon.png">
+<link rel="canonical" href="${escapeHtml(canonicalUrl)}">
 
 <meta name="description" content="${escapeHtml(siteDescription)}">
 ${site.keywords ? `<meta name="keywords" content="${escapeHtml(site.keywords)}">` : ""}
+<meta name="robots" content="${escapeHtml(robots)}">
 
 <meta property="og:title" content="${escapeHtml(title)}">
 <meta property="og:description" content="${escapeHtml(ogDescription)}">
-<meta property="og:image" content="${IMAGE_BASE}/logos/social-preview.png">
-<meta property="og:url" content="${escapeHtml(website)}">
-<meta property="og:type" content="website">
+<meta property="og:image" content="${escapeHtml(socialImage)}">
+<meta property="og:url" content="${escapeHtml(canonicalUrl)}">
+<meta property="og:type" content="${escapeHtml(options.ogType || "website")}">
+<meta property="og:site_name" content="${escapeHtml(siteName)}">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${escapeHtml(title)}">
 <meta name="twitter:description" content="${escapeHtml(ogDescription)}">
-<meta name="twitter:image" content="${IMAGE_BASE}/logos/social-preview.png">
+<meta name="twitter:image" content="${escapeHtml(socialImage)}">
+
+${structuredData.map(schema => `
+<script type="application/ld+json">${escapeJsonForHtml(schema)}</script>`).join("")}
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2030137443667873" crossorigin="anonymous"></script>
 
@@ -442,6 +502,96 @@ function renderLinks(links) {
     .join("");
 }
 
+function absoluteSiteUrl(base, path = "/") {
+  try {
+    return new URL(path, base.endsWith("/") ? base : `${base}/`).toString();
+  } catch {
+    return `https://www.barkinmad.studio${path.startsWith("/") ? path : `/${path}`}`;
+  }
+}
+
+function cleanMeta(value, fallback = "") {
+  const text = String(value || fallback || "")
+    .replace(/\s+/g, " ")
+    .trim();
+  return text.length > 180 ? `${text.slice(0, 177).trim()}...` : text;
+}
+
+function escapeJsonForHtml(value) {
+  return JSON.stringify(value)
+    .replaceAll("<", "\\u003c")
+    .replaceAll(">", "\\u003e")
+    .replaceAll("&", "\\u0026");
+}
+
+function organizationSchema(site = {}) {
+  const website = site.website || DEFAULT_SITE.website;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: site.name || DEFAULT_SITE.name,
+    url: website,
+    logo: `${IMAGE_BASE}/logos/logo-black-icon.png`,
+    sameAs: Object.values(site.socials || {}).filter(Boolean)
+  };
+}
+
+function websiteSchema(site = {}) {
+  const website = site.website || DEFAULT_SITE.website;
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: site.name || DEFAULT_SITE.name,
+    url: website,
+    description: site.description || DEFAULT_SITE.description
+  };
+}
+
+function appSchema(app, slug, site = DEFAULT_SITE) {
+  const name = app.title || app.name || slug;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name,
+    applicationCategory: app.genre === "Sports" ? "SportsApplication" : "GameApplication",
+    operatingSystem: Array.isArray(app.supportedPlatforms) ? app.supportedPlatforms.join(", ") : "iOS",
+    description: cleanMeta(app.description || app.shortDescription),
+    url: absoluteSiteUrl(site.website || DEFAULT_SITE.website, `/apps/${slug}`),
+    image: app.heroImage ? `${IMAGE_BASE}/${app.heroImage}` : `${IMAGE_BASE}/logos/social-preview.png`,
+    author: {
+      "@type": "Organization",
+      name: app.developer || site.name || DEFAULT_SITE.name
+    }
+  };
+
+  if (app.appStoreUrl) schema.installUrl = app.appStoreUrl;
+  return schema;
+}
+
+function articleSchema(article, slug, site = DEFAULT_SITE) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: cleanMeta(article.excerpt || firstParagraph(article.content)),
+    datePublished: article.date,
+    image: article.image ? `${NEWS_BASE}/${slug}/${article.image}` : `${IMAGE_BASE}/logos/social-preview.png`,
+    mainEntityOfPage: absoluteSiteUrl(site.website || DEFAULT_SITE.website, `/news/${slug}`),
+    publisher: {
+      "@type": "Organization",
+      name: site.name || DEFAULT_SITE.name,
+      logo: {
+        "@type": "ImageObject",
+        url: `${IMAGE_BASE}/logos/logo-black-icon.png`
+      }
+    }
+  };
+}
+
+function firstParagraph(content) {
+  return Array.isArray(content) ? content.find(Boolean) || "" : "";
+}
+
 function getAppImage(app) {
   return app.cardImage || app.image || app.icon || "";
 }
@@ -701,7 +851,13 @@ async function appJsonPage(slug) {
     return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
   }
 
-  return pageResponse(`${escapeHtml(app.title || app.name)} - BarkinMad Studios`, renderAppPage(app));
+  return pageResponse(`${app.title || app.name} - BarkinMad Studios`, renderAppPage(app), {
+    canonicalPath: `/apps/${slug}`,
+    description: app.description || app.shortDescription,
+    image: app.heroImage ? `${IMAGE_BASE}/${app.heroImage}` : `${IMAGE_BASE}/logos/social-preview.png`,
+    ogType: "website",
+    structuredData: appSchema(app, slug)
+  });
 }
 
 function renderAppPage(app) {
@@ -789,7 +945,10 @@ async function staticJsonPage(slug) {
     return pageResponse("Page Error - BarkinMad Studios", brokenPage());
   }
 
-  return pageResponse(`${escapeHtml(page.title)} - BarkinMad Studios`, renderStaticPage(page));
+  return pageResponse(`${page.title} - BarkinMad Studios`, renderStaticPage(page), {
+    canonicalPath: `/${slug}`,
+    description: page.intro || firstParagraph(page.sections?.[0]?.paragraphs)
+  });
 }
 
 function renderStaticPage(page) {
@@ -869,11 +1028,26 @@ function postCard(post) {
 </div>`;
 }
 
-async function newsArticlePage(slug) {
+async function newsArticleResponse(slug) {
   const article = await fetchJson(`${NEWS_BASE}/${slug}/article.json`);
 
-  if (!article) return notFoundPage();
+  if (!article) {
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), {
+      canonicalPath: `/news/${slug}`,
+      robots: "noindex,follow"
+    }, 404);
+  }
 
+  return pageResponse(`${article.title} - BarkinMad Studios`, newsArticlePage(slug, article), {
+    canonicalPath: `/news/${slug}`,
+    description: article.excerpt || firstParagraph(article.content),
+    image: article.image ? `${NEWS_BASE}/${slug}/${article.image}` : `${IMAGE_BASE}/logos/social-preview.png`,
+    ogType: "article",
+    structuredData: articleSchema(article, slug)
+  });
+}
+
+function newsArticlePage(slug, article) {
   return `
 <section class="hero hero-retro">
   <h2>${escapeHtml(article.title)}</h2>
@@ -952,34 +1126,42 @@ Sitemap: https://www.barkinmad.studio/sitemap.xml
 
 async function sitemapResponse() {
   const urls = [
-    "/",
-    "/apps",
-    "/zx-series",
-    "/news",
-    "/about",
-    "/privacy",
-    "/cookies",
-    "/contact"
+    { path: "/", changefreq: "weekly", priority: "1.0" },
+    { path: "/apps", changefreq: "weekly", priority: "0.9" },
+    { path: "/zx-series", changefreq: "monthly", priority: "0.8" },
+    { path: "/news", changefreq: "weekly", priority: "0.8" },
+    { path: "/about", changefreq: "monthly", priority: "0.7" },
+    { path: "/privacy", changefreq: "yearly", priority: "0.5" },
+    { path: "/cookies", changefreq: "yearly", priority: "0.5" },
+    { path: "/contact", changefreq: "monthly", priority: "0.7" }
   ];
 
   const apps = await getApps();
 
   for (const app of apps) {
-    if (app.slug) urls.push(`/apps/${app.slug}`);
+    if (app.slug) {
+      urls.push({ path: `/apps/${app.slug}`, changefreq: "monthly", priority: "0.8" });
+    }
   }
 
   const posts = await fetchJson(`${NEWS_BASE}/posts.json`);
   for (const post of getPublishedValidPosts(posts)) {
-    urls.push(`/news/${post.slug}`);
+    urls.push({
+      path: `/news/${post.slug}`,
+      changefreq: "monthly",
+      priority: "0.7",
+      lastmod: post.date
+    });
   }
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(path => `
   <url>
-    <loc>https://www.barkinmad.studio${path}</loc>
-    <changefreq>${path === "/" || path === "/news" ? "weekly" : "monthly"}</changefreq>
-    <priority>${path === "/" ? "1.0" : path.startsWith("/news/") ? "0.7" : "0.8"}</priority>
+    <loc>https://www.barkinmad.studio${path.path}</loc>
+    ${path.lastmod ? `<lastmod>${escapeHtml(path.lastmod)}</lastmod>` : ""}
+    <changefreq>${path.changefreq}</changefreq>
+    <priority>${path.priority}</priority>
   </url>`).join("")}
 </urlset>`;
 
