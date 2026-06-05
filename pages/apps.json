@@ -1,7 +1,58 @@
-[
-	"zxsnake",
-	"zxbrick",
-	"zxspace",
-	"zxpong",
-	"gameofdarts"
-]
+{
+	"title": "Apps",
+	"heading": "Apps",
+	"intro": "Games and apps from BarkinMad Studios.",
+	"sections": [
+		{
+			"title": "ZX Series",
+			"description": "Connected retro arcade games with shared achievements, leaderboards, BarkinMad Coins, and cross-game progression.",
+			"href": "/zx-series",
+			"filter": {
+				"field": "series",
+				"value": "zx-series"
+			}
+		},
+		{
+			"title": "Retro Games",
+			"description": "Standalone retro-inspired arcade games built around simple controls, quick sessions, score chasing, and classic pick-up-and-play gameplay.",
+			"href": "/retro-arcade-games",
+			"filter": {
+				"field": "category",
+				"value": "retro"
+			}
+		},
+		{
+			"title": "Darts Apps",
+			"description": "Mobile darts scoring and statistics apps for match play, party games, and practice sessions.",
+			"href": "/darts-apps",
+			"filter": {
+				"field": "category",
+				"value": "darts"
+			}
+		}
+	],
+	"categoryPages": {
+		"retro": {
+			"title": "Retro Arcade Collection",
+			"intro": "Standalone retro-inspired arcade games built around simple controls, quick sessions, score chasing, and classic pick-up-and-play gameplay.",
+			"sections": [
+				{
+					"title": "Classic Arcade Feel",
+					"description": "These games focus on fast restarts, readable action, high-score pressure, and retro visual style. Some are also part of the connected ZX Series, where achievements, leaderboards, and BarkinMad Coins can carry across supported games.",
+					"action": {
+						"label": "View ZX Series",
+						"href": "/zx-series"
+					}
+				}
+			],
+			"appsTitle": "Retro Games"
+		},
+		"darts": {
+			"title": "Darts Apps",
+			"intro": "Mobile darts scoring and statistics apps for match play, party games, and practice sessions.",
+			"sections": [],
+			"appsTitle": "Darts Apps"
+		}
+	},
+	"allAppsTitle": "All Apps"
+}

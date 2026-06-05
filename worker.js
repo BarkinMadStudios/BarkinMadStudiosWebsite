@@ -29,10 +29,11 @@ async function handleRequest(request) {
   if (path === "/sitemap.xml") return sitemapResponse();
 
   if (path === "/.well-known/security.txt") {
-    return textResponse(`Contact: mailto:barry@barkinmad.studio
+    const site = await getSite();
+    return textResponse(`Contact: mailto:${site.email || "barry@barkinmad.studio"}
 Expires: 2027-05-31T00:00:00.000Z
 Preferred-Languages: en
-Policy: https://www.barkinmad.studio/contact`);
+Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   }
 
   if (path === "/" || path === "/home") {
@@ -85,14 +86,23 @@ function textResponse(body) {
   });
 }
 
-function pageResponse(title, content, status = 200) {
-  return new Response(layout(title, content), {
+async function pageResponse(title, content, status = 200) {
+  const site = await getSite();
+
+  return new Response(layout(title, content, site), {
     status,
     headers: { "content-type": "text/html;charset=UTF-8" }
   });
 }
 
-function layout(title, content) {
+function layout(title, content, site = {}) {
+  const siteName = site.name || "BarkinMad Studios";
+  const siteDescription = site.description || "Retro-inspired arcade games and modern mobile apps for iPhone and iPad.";
+  const ogDescription = site.ogDescription || siteDescription;
+  const website = site.website || "https://www.barkinmad.studio";
+  const navigation = Array.isArray(site.navigation) ? site.navigation : [];
+  const footerNavigation = Array.isArray(site.footerNavigation) ? site.footerNavigation : navigation;
+
   return `
 <!DOCTYPE html>
 <html lang="en">
@@ -106,18 +116,18 @@ function layout(title, content) {
 <link rel="icon" type="image/png" href="${IMAGE_BASE}/logos/favicon.png">
 <link rel="apple-touch-icon" href="${IMAGE_BASE}/logos/favicon.png">
 
-<meta name="description" content="BarkinMad Studios develops retro-inspired arcade games and mobile apps for iPhone and iPad.">
-<meta name="keywords" content="retro games, arcade games, iOS games, ZXSnake, ZXBrick, ZXPong, ZXSpace, GameOfDarts">
+<meta name="description" content="${escapeHtml(siteDescription)}">
+${site.keywords ? `<meta name="keywords" content="${escapeHtml(site.keywords)}">` : ""}
 
 <meta property="og:title" content="${escapeHtml(title)}">
-<meta property="og:description" content="Retro games. Modern apps. Built with passion.">
+<meta property="og:description" content="${escapeHtml(ogDescription)}">
 <meta property="og:image" content="${IMAGE_BASE}/logos/social-preview.png">
-<meta property="og:url" content="https://www.barkinmad.studio">
+<meta property="og:url" content="${escapeHtml(website)}">
 <meta property="og:type" content="website">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${escapeHtml(title)}">
-<meta name="twitter:description" content="Retro games. Modern apps. Built with passion.">
+<meta name="twitter:description" content="${escapeHtml(ogDescription)}">
 <meta name="twitter:image" content="${IMAGE_BASE}/logos/social-preview.png">
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2030137443667873" crossorigin="anonymous"></script>
@@ -336,37 +346,24 @@ footer a {
 <body>
 <header>
   <a href="/" class="site-logo">
-    <img src="${IMAGE_BASE}/logos/logo-black-horizontal.png" alt="BarkinMad Studios">
+    <img src="${IMAGE_BASE}/logos/logo-black-horizontal.png" alt="${escapeHtml(siteName)}">
   </a>
 
   <nav>
-    <a href="/">Home</a>
-    <a href="/apps">Apps</a>
-    <a href="/zx-series">ZX Series</a>
-    <a href="/retro-arcade-games">Retro Games</a>
-    <a href="/darts-apps">Darts Apps</a>
-    <a href="/news">News</a>
-    <a href="/about">About</a>
-    <a href="/privacy">Privacy</a>
-    <a href="/contact">Contact</a>
+    ${renderLinks(navigation)}
   </nav>
 </header>
 
 ${content}
 
 <footer>
-  <img class="footer-logo" src="${IMAGE_BASE}/logos/logo-black-icon.png" alt="BarkinMad Studios" loading="lazy">
+  <img class="footer-logo" src="${IMAGE_BASE}/logos/logo-black-icon.png" alt="${escapeHtml(siteName)}" loading="lazy">
 
-  <p>&copy; ${new Date().getFullYear()} BarkinMad Studios. All rights reserved.</p>
+  <p>&copy; ${new Date().getFullYear()} ${escapeHtml(site.copyright || siteName)}. All rights reserved.</p>
 
   <p>
-    <a href="/apps">Apps</a>
-    <a href="/zx-series">ZX Series</a>
-    <a href="/about">About</a>
-    <a href="/privacy">Privacy</a>
-    <a href="/cookies">Cookies</a>
-    <a href="/contact">Contact</a>
-    <a href="https://www.facebook.com/profile.php?id=61579287944996" target="_blank" rel="noopener">Facebook</a>
+    ${renderLinks(footerNavigation)}
+    ${site.socials?.facebook ? `<a href="${escapeHtml(site.socials.facebook)}" target="_blank" rel="noopener">Facebook</a>` : ""}
   </p>
 </footer>
 </body>
@@ -386,19 +383,77 @@ async function fetchJson(url) {
   }
 }
 
+async function getSite() {
+  const site = await fetchJson(`${DATA_BASE}/site.json`);
+  return site && typeof site === "object" ? site : {};
+}
+
 async function getApps() {
   const apps = await fetchJson(`${DATA_BASE}/apps.json`);
   return Array.isArray(apps) ? apps : [];
+}
+
+function renderLinks(links) {
+  if (!Array.isArray(links)) return "";
+
+  return links
+    .filter(link => link && link.label && link.href)
+    .map(link => {
+      const isExternal = /^https?:\/\//i.test(link.href);
+      const target = isExternal ? ` target="_blank" rel="noopener"` : "";
+      return `<a href="${escapeHtml(link.href)}"${target}>${escapeHtml(link.label)}</a>`;
+    })
+    .join("");
 }
 
 function getAppImage(app) {
   return app.cardImage || app.image || app.icon || "";
 }
 
+function actionLink(action) {
+  if (!action || !action.label || !action.href) return "";
+  return `<a class="btn" href="${escapeHtml(action.href)}">${escapeHtml(action.label)}</a>`;
+}
+
+function renderPromoSection(section) {
+  if (!section || !section.title) return "";
+
+  return `
+<section>
+  <h2>${escapeHtml(section.title)}</h2>
+  <div class="card">
+    ${section.description ? `<p>${escapeHtml(section.description)}</p>` : ""}
+    ${actionLink(section.action)}
+  </div>
+</section>`;
+}
+
+function filterApps(apps, filter) {
+  if (!filter || !filter.field) return apps;
+  return apps.filter(app => app[filter.field] === filter.value);
+}
+
+function renderAppCollection(section, apps) {
+  if (!section || !section.title) return "";
+
+  const matchingApps = filterApps(apps, section.filter);
+  const previewApps = matchingApps.slice(0, section.limit || 3);
+
+  return `
+<div class="card">
+  <h3>${escapeHtml(section.title)}</h3>
+  ${section.description ? `<p>${escapeHtml(section.description)}</p>` : ""}
+  ${previewApps.length ? `<p><strong>${previewApps.length} shown:</strong> ${escapeHtml(previewApps.map(app => app.name || app.title).join(", "))}</p>` : ""}
+  ${section.href ? `<a class="btn" href="${escapeHtml(section.href)}">View ${escapeHtml(section.title)}</a>` : ""}
+</div>`;
+}
+
 async function homePage() {
   const homepage = await fetchJson(`${PAGES_BASE}/home.json`) || {};
   const apps = await getApps();
   const posts = await fetchJson(`${NEWS_BASE}/posts.json`) || [];
+  const sections = Array.isArray(homepage.sections) ? homepage.sections : [];
+  const actions = Array.isArray(homepage.actions) ? homepage.actions : [];
 
   const featuredSlugs = Array.isArray(homepage.featuredApps)
     ? homepage.featuredApps
@@ -417,45 +472,22 @@ async function homePage() {
   <p>${escapeHtml(homepage.intro || "Retro-inspired arcade games and modern mobile apps for iPhone and iPad.")}</p>
 
   <p>
-    <a class="btn" href="/apps">View Apps</a>
-    <a class="btn" href="/news">Latest News</a>
+    ${actions.map(action => actionLink(action)).join("")}
   </p>
 </section>
 
 <main>
 ${featuredApps.length ? `
 <section>
-  <h2>Featured Apps</h2>
+  <h2>${escapeHtml(homepage.featuredAppsTitle || "Featured Apps")}</h2>
   <div class="grid">${featuredApps.map(appFullCard).join("")}</div>
 </section>` : ""}
 
-<section>
-  <h2>ZX Series</h2>
-  <div class="card">
-    <p>Connected retro arcade games with shared achievements, leaderboards, BarkinMad Coins, and cross-game progression.</p>
-    <a class="btn" href="/zx-series">View ZX Series</a>
-  </div>
-</section>
-
-<section>
-  <h2>Retro Arcade Collection</h2>
-  <div class="card">
-    <p>Classic pick-up-and-play arcade games inspired by early home computers and arcade machines.</p>
-    <a class="btn" href="/retro-arcade-games">View Retro Games</a>
-  </div>
-</section>
-
-<section>
-  <h2>Darts Apps</h2>
-  <div class="card">
-    <p>Mobile darts scoring and statistics apps for match play, party games, and practice sessions.</p>
-    <a class="btn" href="/darts-apps">View Darts Apps</a>
-  </div>
-</section>
+${sections.map(renderPromoSection).join("")}
 
 ${homepage.showLatestNews !== false && latestPosts.length ? `
 <section>
-  <h2>Latest News</h2>
+  <h2>${escapeHtml(homepage.latestNewsTitle || "Latest News")}</h2>
   <div class="grid">
     ${latestPosts.map(postCard).join("")}
   </div>
@@ -465,16 +497,26 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
 
 async function appsPage() {
   const apps = await getApps();
+  const page = await fetchJson(`${PAGES_BASE}/apps.json`) || {};
+  const sections = Array.isArray(page.sections) ? page.sections : [];
 
   return `
 <section class="hero hero-retro">
-  <h2>Apps</h2>
-  <p>Games and apps from BarkinMad Studios.</p>
+  <h2>${escapeHtml(page.heading || page.title || "Apps")}</h2>
+  <p>${escapeHtml(page.intro || "Games and apps from BarkinMad Studios.")}</p>
 </section>
 
 <main>
+${sections.length ? `
 <section>
-  <h2>All Apps</h2>
+  <h2>${escapeHtml(page.sectionsTitle || "Browse By Collection")}</h2>
+  <div class="grid">
+    ${sections.map(section => renderAppCollection(section, apps)).join("")}
+  </div>
+</section>` : ""}
+
+<section>
+  <h2>${escapeHtml(page.allAppsTitle || "All Apps")}</h2>
   <div class="grid">
     ${apps.map(appFullCard).join("")}
   </div>
@@ -484,31 +526,27 @@ async function appsPage() {
 
 async function categoryAppsPage(category) {
   const apps = (await getApps()).filter(app => app.category === category);
+  const appsPageContent = await fetchJson(`${PAGES_BASE}/apps.json`) || {};
+  const categoryPage = appsPageContent.categoryPages?.[category] || {};
 
   const isDarts = category === "darts";
-  const heading = isDarts ? "Darts Apps" : "Retro Arcade Collection";
-  const intro = isDarts
+  const heading = categoryPage.title || (isDarts ? "Darts Apps" : "Retro Arcade Collection");
+  const intro = categoryPage.intro || (isDarts
     ? "Mobile darts scoring and statistics apps for match play, party games, and practice sessions."
-    : "Standalone retro-inspired arcade games built around simple controls, quick sessions, score chasing, and classic pick-up-and-play gameplay.";
+    : "Standalone retro-inspired arcade games built around simple controls, quick sessions, score chasing, and classic pick-up-and-play gameplay.");
+  const sections = Array.isArray(categoryPage.sections) ? categoryPage.sections : [];
 
   return `
 <section class="hero ${isDarts ? "hero-darts" : "hero-retro"}">
-  <h2>${heading}</h2>
-  <p>${intro}</p>
+  <h2>${escapeHtml(heading)}</h2>
+  <p>${escapeHtml(intro)}</p>
 </section>
 
 <main>
-${!isDarts ? `
-<section>
-  <h2>Classic Arcade Feel</h2>
-  <div class="card">
-    <p>These games focus on fast restarts, readable action, high-score pressure, and retro visual style. Some are also part of the connected ZX Series, where achievements, leaderboards, and BarkinMad Coins can carry across supported games.</p>
-    <a class="btn" href="/zx-series">View ZX Series</a>
-  </div>
-</section>` : ""}
+${sections.map(renderPromoSection).join("")}
 
 <section>
-  <h2>${isDarts ? "Darts Apps" : "Retro Games"}</h2>
+  <h2>${escapeHtml(categoryPage.appsTitle || (isDarts ? "Darts Apps" : "Retro Games"))}</h2>
   <div class="grid">
     ${apps.map(appFullCard).join("")}
   </div>

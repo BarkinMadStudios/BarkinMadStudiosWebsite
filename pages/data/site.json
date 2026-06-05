@@ -2,13 +2,67 @@
 	"name": "BarkinMad Studios",
 	"tagline": "Retro-inspired games and apps",
 	"description": "Independent UK game and app developer creating retro-inspired experiences for modern devices.",
-	"email": "contact@barkinmad.studio",
-	"website": "https://barkinmad.studio",
+	"keywords": "retro games, arcade games, iOS games, ZXSnake, ZXBrick, ZXPong, ZXSpace, GameOfDarts",
+	"ogDescription": "Retro games. Modern apps. Built with passion.",
+	"email": "barry@barkinmad.studio",
+	"website": "https://www.barkinmad.studio",
 	"copyright": "BarkinMad Studios",
+	"navigation": [
+		{
+			"label": "Home",
+			"href": "/"
+		},
+		{
+			"label": "Apps",
+			"href": "/apps"
+		},
+		{
+			"label": "News",
+			"href": "/news"
+		},
+		{
+			"label": "About",
+			"href": "/about"
+		},
+		{
+			"label": "Contact",
+			"href": "/contact"
+		}
+	],
+	"footerNavigation": [
+		{
+			"label": "Apps",
+			"href": "/apps"
+		},
+		{
+			"label": "ZX Series",
+			"href": "/zx-series"
+		},
+		{
+			"label": "Retro Games",
+			"href": "/retro-arcade-games"
+		},
+		{
+			"label": "Darts Apps",
+			"href": "/darts-apps"
+		},
+		{
+			"label": "Privacy",
+			"href": "/privacy"
+		},
+		{
+			"label": "Cookies",
+			"href": "/cookies"
+		},
+		{
+			"label": "Contact",
+			"href": "/contact"
+		}
+	],
 	"socials": {
 		"github": "",
 		"youtube": "",
 		"x": "",
-		"facebook": ""
+		"facebook": "https://www.facebook.com/profile.php?id=61579287944996"
 	}
 }

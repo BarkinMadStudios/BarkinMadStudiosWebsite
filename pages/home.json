@@ -1,9 +1,49 @@
 {
+	"heading": "Retro Games & Mobile Apps",
+	"intro": "Retro-inspired arcade games and modern mobile apps for iPhone and iPad.",
+	"actions": [
+		{
+			"label": "View Apps",
+			"href": "/apps"
+		},
+		{
+			"label": "Latest News",
+			"href": "/news"
+		}
+	],
 	"featuredApps": [
 		"zxsnake",
 		"zxbrick",
 		"gameofdarts"
 	],
+	"featuredAppsTitle": "Featured Apps",
+	"sections": [
+		{
+			"title": "ZX Series",
+			"description": "Connected retro arcade games with shared achievements, leaderboards, BarkinMad Coins, and cross-game progression.",
+			"action": {
+				"label": "View ZX Series",
+				"href": "/zx-series"
+			}
+		},
+		{
+			"title": "Retro Arcade Collection",
+			"description": "Classic pick-up-and-play arcade games inspired by early home computers and arcade machines.",
+			"action": {
+				"label": "View Retro Games",
+				"href": "/retro-arcade-games"
+			}
+		},
+		{
+			"title": "Darts Apps",
+			"description": "Mobile darts scoring and statistics apps for match play, party games, and practice sessions.",
+			"action": {
+				"label": "View Darts Apps",
+				"href": "/darts-apps"
+			}
+		}
+	],
 	"showLatestNews": true,
+	"latestNewsTitle": "Latest News",
 	"newsCount": 3
 }
