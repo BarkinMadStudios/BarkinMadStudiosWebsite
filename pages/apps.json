@@ -25,13 +25,5 @@
 				"value": ""
 			}
 		}
-	],
-	"businessServices": {
-		"title": "Custom Apps, Prototypes & Business Tools",
-		"description": "BarkinMad Studios also helps businesses turn ideas into simple, practical digital tools. From early app prototypes to internal business apps, proof-of-concepts, dashboards, workflow tools, and customer-facing mobile apps, we can help shape an idea into something usable.\n\nWhether you need a quick prototype to test an idea, a small app for your team, or a custom solution to support your business, BarkinMad Studios can help design and build lightweight, focused software without unnecessary complexity.\n\nHave an app idea or business tool in mind? Get in touch to discuss a prototype or custom build.",
-		"action": {
-			"label": "Contact BarkinMad Studios",
-			"href": "/contact"
-		}
-	}
+	]
 }

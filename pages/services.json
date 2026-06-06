@@ -1,0 +1,63 @@
+{
+	"title": "App Development Services",
+	"seoTitle": "Custom App Development Services | BarkinMad Studios",
+	"heading": "Custom Apps, Prototypes & Business Tools",
+	"intro": "BarkinMad Studios helps small businesses turn ideas into simple, practical digital tools.",
+	"description": "Custom app development, prototypes, internal business tools, dashboards, workflow automation, and iPhone/iPad app development from BarkinMad Studios.",
+	"sections": [
+		{
+			"heading": "Custom App Development",
+			"paragraphs": [
+				"BarkinMad Studios can help design and build lightweight custom apps for small businesses, internal teams, and customer-facing projects.",
+				"Whether you need a simple mobile app, a focused business tool, or a prototype to test an idea, the aim is to build practical software without unnecessary complexity."
+			]
+		},
+		{
+			"heading": "App Prototypes & Proof of Concepts",
+			"paragraphs": [
+				"If you have an idea but are not ready for a full product build, a prototype can help test the concept quickly.",
+				"Prototypes are useful for exploring workflows, validating ideas, preparing investor conversations, or showing a working version to stakeholders before committing to larger development."
+			]
+		},
+		{
+			"heading": "Internal Business Tools",
+			"paragraphs": [
+				"Many businesses rely on spreadsheets, manual processes, or repeated admin tasks that could be improved with a simple digital tool.",
+				"BarkinMad Studios can help create internal tools, dashboards, workflow helpers, data entry screens, and lightweight automation systems that support day-to-day work."
+			]
+		},
+		{
+			"heading": "Mobile Apps for iPhone and iPad",
+			"paragraphs": [
+				"BarkinMad Studios builds mobile apps for Apple platforms, with experience across Swift, SwiftUI, Game Center, StoreKit, cloud data, localisation, analytics, and app release workflows.",
+				"Projects can range from early prototypes to production-ready apps prepared for TestFlight and App Store release."
+			]
+		},
+		{
+			"heading": "Why Work With BarkinMad Studios?",
+			"paragraphs": [
+				"BarkinMad Studios focuses on clear, practical software that solves real problems. The goal is to keep projects focused, understandable, and useful from the first version.",
+				"As an independent UK studio, BarkinMad Studios is well suited to small businesses, early-stage ideas, and focused digital projects where simplicity and speed matter."
+			]
+		},
+		{
+			"heading": "Examples of Experience",
+			"paragraphs": [
+				"BarkinMad Studios has built mobile games, app companion tools, content-driven websites, cloud-hosted JSON systems, App Store releases, Game Center features, achievements, leaderboards, and shared progression systems.",
+				"This experience can be applied to business prototypes, custom apps, dashboards, and lightweight workflow tools."
+			]
+		},
+		{
+			"heading": "Discuss a Project",
+			"paragraphs": [
+				"Have an app idea, business tool, prototype, or workflow problem in mind? Get in touch to discuss whether BarkinMad Studios can help."
+			],
+			"links": [
+				{
+					"label": "Contact BarkinMad Studios",
+					"href": "/contact"
+				}
+			]
+		}
+	]
+}

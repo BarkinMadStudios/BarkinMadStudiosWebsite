@@ -17,6 +17,10 @@
 			"href": "/apps"
 		},
 		{
+			"label": "Services",
+			"href": "/services"
+		},
+		{
 			"label": "News",
 			"href": "/news"
 		},

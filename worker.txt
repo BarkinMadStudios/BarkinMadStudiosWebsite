@@ -24,6 +24,7 @@ const DEFAULT_SITE = {
   navigation: [
     { label: "Home", href: "/" },
     { label: "Apps", href: "/apps" },
+    { label: "Services", href: "/services" },
     { label: "News", href: "/news" },
     { label: "About", href: "/about" },
     { label: "Privacy", href: "/privacy" },
@@ -131,6 +132,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   if (path === "/privacy") return staticJsonPage("privacy");
   if (path === "/cookies") return staticJsonPage("cookies");
   if (path === "/contact") return staticJsonPage("contact");
+  if (path === "/services") return staticJsonPage("services");
 
   if (path.startsWith("/apps/")) {
     return appJsonPage(path.replace("/apps/", ""));
@@ -1078,9 +1080,9 @@ async function staticJsonPage(slug) {
     return pageResponse("Page Error - BarkinMad Studios", brokenPage());
   }
 
-  return pageResponse(`${page.title} - BarkinMad Studios`, renderStaticPage(page), {
+  return pageResponse(page.seoTitle || `${page.title} - BarkinMad Studios`, renderStaticPage(page), {
     canonicalPath: `/${slug}`,
-    description: page.intro || firstParagraph(page.sections?.[0]?.paragraphs)
+    description: page.description || page.intro || firstParagraph(page.sections?.[0]?.paragraphs)
   });
 }
 
@@ -1281,6 +1283,7 @@ async function sitemapResponse() {
     { path: "/zx-series", changefreq: "monthly", priority: "0.8" },
     { path: "/news", changefreq: "weekly", priority: "0.8" },
     { path: "/about", changefreq: "monthly", priority: "0.7" },
+    { path: "/services", changefreq: "monthly", priority: "0.7" },
     { path: "/privacy", changefreq: "yearly", priority: "0.5" },
     { path: "/cookies", changefreq: "yearly", priority: "0.5" },
     { path: "/contact", changefreq: "monthly", priority: "0.7" }
