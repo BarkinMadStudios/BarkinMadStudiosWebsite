@@ -13,6 +13,35 @@ const NEWS_BASE = `${REPO_BASE}/news`;
 const PAGES_BASE = `${REPO_BASE}/pages`;
 const DATA_BASE = `${PAGES_BASE}/data`;
 
+const DEFAULT_APPS_PAGE = {
+  title: "Apps",
+  heading: "Apps",
+  intro: "Non-ZX games, tools, and future apps from BarkinMad Studios.",
+  description: "Explore BarkinMad Studios apps, including mobile games, tools, and future non-ZX projects.",
+  sectionsTitle: "Browse",
+  sections: [
+    {
+      title: "ZX Series",
+      description: "Connected retro arcade games with shared achievements, leaderboards, BarkinMad Coins, PvP modes, and roadmap features.",
+      href: "/zx-series"
+    },
+    {
+      title: "Apps",
+      description: "Standalone BarkinMad Studios apps outside the ZX Series.",
+      href: "/apps"
+    }
+  ],
+  appsTitle: "Apps",
+  businessServices: {
+    title: "Custom Apps, Prototypes & Business Tools",
+    description: "BarkinMad Studios also helps businesses turn ideas into simple, practical digital tools. From early app prototypes to internal business apps, proof-of-concepts, dashboards, workflow tools, and customer-facing mobile apps, we can help shape an idea into something usable.\n\nWhether you need a quick prototype to test an idea, a small app for your team, or a custom solution to support your business, BarkinMad Studios can help design and build lightweight, focused software without unnecessary complexity.\n\nHave an app idea or business tool in mind? Get in touch to discuss a prototype or custom build.",
+    action: {
+      label: "Contact BarkinMad Studios",
+      href: "/contact"
+    }
+  }
+};
+
 const DEFAULT_SITE = {
   name: "BarkinMad Studios",
   description: "Independent UK game and app developer creating retro-inspired experiences for modern devices.",
@@ -93,10 +122,10 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   }
 
   if (path === "/apps") {
-    const page = await fetchJson(`${PAGES_BASE}/apps.json`) || {};
+    const page = appsPageContent(await fetchJson(`${PAGES_BASE}/apps.json`) || {});
     return pageResponse("Apps | BarkinMad Studios", await appsPage(page), {
       canonicalPath: "/apps",
-      description: page.description || page.intro,
+      description: page.description,
       image: `${IMAGE_BASE}/retro-banner.png`
     });
   }
@@ -678,6 +707,28 @@ function renderAppCollection(section) {
 </${tag}>`;
 }
 
+function appsPageContent(page = {}) {
+  return {
+    ...DEFAULT_APPS_PAGE,
+    ...page,
+    heading: DEFAULT_APPS_PAGE.heading,
+    intro: DEFAULT_APPS_PAGE.intro,
+    description: DEFAULT_APPS_PAGE.description,
+    sectionsTitle: DEFAULT_APPS_PAGE.sectionsTitle,
+    sections: DEFAULT_APPS_PAGE.sections,
+    appsTitle: DEFAULT_APPS_PAGE.appsTitle,
+    allAppsTitle: DEFAULT_APPS_PAGE.appsTitle,
+    businessServices: {
+      ...DEFAULT_APPS_PAGE.businessServices,
+      ...(page.businessServices || {}),
+      action: {
+        ...DEFAULT_APPS_PAGE.businessServices.action,
+        ...(page.businessServices?.action || {})
+      }
+    }
+  };
+}
+
 async function homePage() {
   const homepage = await fetchJson(`${PAGES_BASE}/home.json`) || {};
   const apps = await getApps();
@@ -725,9 +776,9 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
 </main>`;
 }
 
-async function appsPage() {
+async function appsPage(page) {
   const apps = getNonZxApps(await getApps());
-  const page = await fetchJson(`${PAGES_BASE}/apps.json`) || {};
+  page = appsPageContent(page || await fetchJson(`${PAGES_BASE}/apps.json`) || {});
   const sections = Array.isArray(page.sections) ? page.sections : [];
 
   return `
