@@ -1,7 +1,9 @@
 {
 	"title": "Apps",
 	"heading": "Apps",
-	"intro": "Games and apps from BarkinMad Studios.",
+	"intro": "Non-ZX games, tools, and future apps from BarkinMad Studios.",
+	"description": "Explore BarkinMad Studios apps, including mobile games, tools, and future non-ZX projects.",
+	"sectionsTitle": "Browse",
 	"sections": [
 		{
 			"title": "ZX Series",
@@ -14,9 +16,21 @@
 		},
 		{
 			"title": "Apps",
-			"description": "All BarkinMad Studios games and apps, including retro arcade games and darts tools.",
-			"href": "#all-apps"
+			"description": "Standalone BarkinMad Studios apps outside the ZX Series.",
+			"href": "/apps",
+			"filter": {
+				"field": "series",
+				"value": ""
+			}
 		}
 	],
-	"allAppsTitle": "All Apps"
+	"appsTitle": "Apps",
+	"businessServices": {
+		"title": "Custom Apps, Prototypes & Business Tools",
+		"description": "BarkinMad Studios also helps businesses turn ideas into simple, practical digital tools. From early app prototypes to internal business apps, proof-of-concepts, dashboards, workflow tools, and customer-facing mobile apps, we can help shape an idea into something usable.\n\nWhether you need a quick prototype to test an idea, a small app for your team, or a custom solution to support your business, BarkinMad Studios can help design and build lightweight, focused software without unnecessary complexity.\n\nHave an app idea or business tool in mind? Get in touch to discuss a prototype or custom build.",
+		"action": {
+			"label": "Contact BarkinMad Studios",
+			"href": "/contact"
+		}
+	}
 }

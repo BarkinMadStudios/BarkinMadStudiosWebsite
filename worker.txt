@@ -23,6 +23,7 @@ const DEFAULT_SITE = {
   copyright: "BarkinMad Studios",
   navigation: [
     { label: "Home", href: "/" },
+    { label: "ZX Series", href: "/zx-series" },
     { label: "Apps", href: "/apps" },
     { label: "News", href: "/news" },
     { label: "About", href: "/about" },
@@ -30,6 +31,7 @@ const DEFAULT_SITE = {
     { label: "Contact", href: "/contact" }
   ],
   footerNavigation: [
+    { label: "ZX Series", href: "/zx-series" },
     { label: "Apps", href: "/apps" },
     { label: "Privacy", href: "/privacy" },
     { label: "Cookies", href: "/cookies" },
@@ -92,16 +94,16 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
 
   if (path === "/apps") {
     const page = await fetchJson(`${PAGES_BASE}/apps.json`) || {};
-    return pageResponse("Apps - BarkinMad Studios", await appsPage(page), {
+    return pageResponse("Apps | BarkinMad Studios", await appsPage(page), {
       canonicalPath: "/apps",
-      description: page.intro,
+      description: page.description || page.intro,
       image: `${IMAGE_BASE}/retro-banner.png`
     });
   }
 
   if (path === "/zx-series") {
     const page = await fetchJson(`${PAGES_BASE}/zx-series.json`) || {};
-    return pageResponse("ZX Series - BarkinMad Studios", await zxSeriesPage(page), {
+    return pageResponse("ZX Series Retro Arcade Games | BarkinMad Studios", await zxSeriesPage(page), {
       canonicalPath: "/zx-series",
       description: page.description,
       image: `${IMAGE_BASE}/retro-banner.png`
@@ -245,6 +247,8 @@ header {
 .site-logo img {
   height: 60px;
   width: auto;
+  max-width: min(320px, 80vw);
+  object-fit: contain;
   display: block;
 }
 
@@ -307,6 +311,7 @@ nav a:hover { color: #f39c12; }
   height: 100px;
   width: auto;
   max-width: 90%;
+  object-fit: contain;
   margin-bottom: 1.5rem;
 }
 
@@ -360,27 +365,41 @@ h3 { color: #ffcc66; }
 .game-image {
   width: 100%;
   height: 220px;
-  object-fit: cover;
+  max-height: 220px;
+  object-fit: contain;
+  object-position: center;
   border-radius: 12px;
   margin-bottom: 1rem;
   border: 1px solid #333858;
+  background: #050712;
+}
+
+.post-image {
+  object-fit: cover;
   background: #000;
 }
 
 .article-image {
   width: 100%;
+  height: auto;
   max-height: 520px;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   border-radius: 12px;
   margin-bottom: 1.5rem;
   border: 1px solid #333858;
-  background: #000;
+  background: #050712;
 }
 
 .screenshot-image {
   width: 100%;
+  max-width: 420px;
+  max-height: 720px;
+  margin: 0 auto 1rem;
+  display: block;
   aspect-ratio: 9 / 19.5;
   object-fit: contain;
+  object-position: center;
   border-radius: 12px;
   border: 1px solid #333858;
   background: #000;
@@ -622,27 +641,32 @@ function actionLink(action) {
 
 function renderPromoSection(section) {
   if (!section || !section.title) return "";
+  const paragraphs = String(section.description || "")
+    .split(/\n+/)
+    .map(paragraph => paragraph.trim())
+    .filter(Boolean);
 
   return `
 <section>
   <h2>${escapeHtml(section.title)}</h2>
   <div class="card">
-    ${section.description ? `<p>${escapeHtml(section.description)}</p>` : ""}
+    ${paragraphs.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
     ${actionLink(section.action)}
   </div>
 </section>`;
 }
 
-function filterApps(apps, filter) {
-  if (!filter || !filter.field) return apps;
-  return apps.filter(app => app[filter.field] === filter.value);
+function getZxSeriesApps(apps) {
+  return apps.filter(app => app.series === "zx-series" || /^zx/i.test(app.slug || app.name || ""));
 }
 
-function renderAppCollection(section, apps) {
+function getNonZxApps(apps) {
+  return apps.filter(app => !getZxSeriesApps([app]).length);
+}
+
+function renderAppCollection(section) {
   if (!section || !section.title) return "";
 
-  const matchingApps = filterApps(apps, section.filter);
-  const previewApps = matchingApps.slice(0, section.limit || 3);
   const tag = section.href ? "a" : "div";
   const href = section.href ? ` href="${escapeHtml(section.href)}"` : "";
 
@@ -650,7 +674,6 @@ function renderAppCollection(section, apps) {
 <${tag} class="card${section.href ? " card-link" : ""}"${href}>
   <h3>${escapeHtml(section.title)}</h3>
   ${section.description ? `<p>${escapeHtml(section.description)}</p>` : ""}
-  ${previewApps.length ? `<p><strong>${previewApps.length} shown:</strong> ${escapeHtml(previewApps.map(app => app.name || app.title).join(", "))}</p>` : ""}
   ${section.href ? `<span class="btn">View ${escapeHtml(section.title)}</span>` : ""}
 </${tag}>`;
 }
@@ -703,7 +726,7 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
 }
 
 async function appsPage() {
-  const apps = await getApps();
+  const apps = getNonZxApps(await getApps());
   const page = await fetchJson(`${PAGES_BASE}/apps.json`) || {};
   const sections = Array.isArray(page.sections) ? page.sections : [];
 
@@ -718,27 +741,30 @@ ${sections.length ? `
 <section>
   <h2>${escapeHtml(page.sectionsTitle || "Browse By Collection")}</h2>
   <div class="grid">
-    ${sections.map(section => renderAppCollection(section, apps)).join("")}
+    ${sections.map(renderAppCollection).join("")}
   </div>
 </section>` : ""}
 
-<section id="all-apps">
-  <h2>${escapeHtml(page.allAppsTitle || "All Apps")}</h2>
+<section>
+  <h2>${escapeHtml(page.appsTitle || page.allAppsTitle || "Apps")}</h2>
   <div class="grid">
-    ${apps.map(appFullCard).join("")}
+    ${apps.length ? apps.map(appFullCard).join("") : `<div class="card"><p>No non-ZX apps are available at the moment.</p></div>`}
   </div>
 </section>
+
+${renderPromoSection(page.businessServices)}
 </main>`;
 }
 
 async function zxSeriesPage() {
   const page = await fetchJson(`${PAGES_BASE}/zx-series.json`) || {};
-  const apps = (await getApps()).filter(app => app.series === "zx-series");
+  const apps = getZxSeriesApps(await getApps());
   const achievements = await fetchJson(`${DATA_BASE}/achievements.json`) || {};
   const leaderboards = await fetchJson(`${DATA_BASE}/leaderboards.json`) || {};
   const coins = await fetchJson(`${DATA_BASE}/coins.json`) || {};
   const pvp = await fetchJson(`${DATA_BASE}/pvp.json`) || {};
-  const roadmap = await fetchJson(`${DATA_BASE}/roadmap.json`) || {};
+  const roadmap = await fetchJson(`${DATA_BASE}/zxroadmap.json`) || {};
+  const games = await fetchJson(`${DATA_BASE}/games.json`) || {};
 
   return `
 <section class="hero hero-retro">
@@ -755,9 +781,9 @@ ${Array.isArray(page.intro) && page.intro.length ? `
   </div>
 </section>` : ""}
 
-${renderStringListSection("Features", page.features)}
+${renderStringListSection("ZX Series Overview", page.features)}
 
-${renderSharedSystems(page.sharedSystems || {}, { achievements, leaderboards, coins, pvp, roadmap })}
+${renderSharedSystems(page.sharedSystems || {}, { achievements, leaderboards, coins, pvp, roadmap, games })}
 
 <section>
   <h2>${escapeHtml(page.appsTitle || "ZX Series Games")}</h2>
@@ -774,8 +800,9 @@ function renderSharedSystems(content, data) {
   const coins = data.coins || {};
   const pvp = data.pvp || {};
   const roadmap = data.roadmap || {};
+  const games = Array.isArray(data.games?.games) ? data.games.games : [];
 
-  if (!content.title && !achievements && !leaderboards && !coins.name && !pvp.worldPVP && !pvp.localPVP) {
+  if (!content.title && !achievements && !leaderboards && !coins.name && !pvp.worldPVP && !pvp.localPVP && !games.length) {
     return "";
   }
 
@@ -784,29 +811,61 @@ function renderSharedSystems(content, data) {
   <h2>${escapeHtml(content.title || "Shared Game Systems")}</h2>
   <div class="card">
     ${content.intro ? `<p>${escapeHtml(content.intro)}</p>` : ""}
+  </div>
+</section>
 
-    ${Array.isArray(achievements) && achievements.length ? `
-      <h3>${escapeHtml(content.achievementsTitle || "Shared Achievements")}</h3>
-      <ul>${achievements.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${escapeHtml(item.description)}` : ""}</li>`).join("")}</ul>
-    ` : ""}
+${games.length ? `
+<section>
+  <h2>Games</h2>
+  <div class="card">
+    <ul>${games.map(game => `<li><strong>${escapeHtml(game.name || game.title)}</strong>${game.status ? ` - ${escapeHtml(game.status)}` : ""}</li>`).join("")}</ul>
+  </div>
+</section>` : ""}
 
-    ${Array.isArray(leaderboards) && leaderboards.length ? `
-      <h3>${escapeHtml(content.leaderboardsTitle || "Shared Leaderboards")}</h3>
-      <ul>${leaderboards.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${escapeHtml(item.description)}` : ""}</li>`).join("")}</ul>
-    ` : ""}
+${coins.name ? `
+<section>
+  <h2>${escapeHtml(content.coinsTitle || coins.name)}</h2>
+  <div class="card">
+    ${coins.description ? `<p>${escapeHtml(coins.description)}</p>` : ""}
+  </div>
+</section>` : ""}
 
-    ${coins.name ? `
-      <h3>${escapeHtml(content.coinsTitle || coins.name)}</h3>
-      ${coins.description ? `<p>${escapeHtml(coins.description)}</p>` : ""}
-    ` : ""}
+${Array.isArray(achievements) && achievements.length ? `
+<section>
+  <h2>${escapeHtml(content.achievementsTitle || "Shared Achievements")}</h2>
+  <div class="card">
+    <ul>${achievements.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${escapeHtml(item.description)}` : ""}</li>`).join("")}</ul>
+  </div>
+</section>` : ""}
 
-    ${pvp.worldPVP || pvp.localPVP ? `
-      <h3>${escapeHtml(content.pvpTitle || "PVP Modes")}</h3>
-      ${pvp.localPVP ? `<p><strong>Local PVP:</strong> ${escapeHtml(pvp.localPVP.description)}</p>` : ""}
-      ${pvp.worldPVP ? `<p><strong>World PVP:</strong> ${escapeHtml(pvp.worldPVP.description)}</p>` : ""}
-    ` : ""}
+${Array.isArray(leaderboards) && leaderboards.length ? `
+<section>
+  <h2>${escapeHtml(content.leaderboardsTitle || "Shared Leaderboards")}</h2>
+  <div class="card">
+    <ul>${leaderboards.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${escapeHtml(item.description)}` : ""}</li>`).join("")}</ul>
+  </div>
+</section>` : ""}
 
-    ${renderRoadmapContent(content.roadmapTitle || "Roadmap", roadmap)}
+${pvp.worldPVP || pvp.localPVP ? `
+<section>
+  <h2>${escapeHtml(content.pvpTitle || "PVP Modes")}</h2>
+  <div class="card">
+    ${pvp.localPVP ? `<p><strong>Local PVP:</strong> ${escapeHtml(pvp.localPVP.description)}</p>` : ""}
+    ${pvp.worldPVP ? `<p><strong>World PVP:</strong> ${escapeHtml(pvp.worldPVP.description)}</p>` : ""}
+  </div>
+</section>` : ""}
+
+${renderRoadmapSection(content.roadmapTitle || "Roadmap", roadmap)}`;
+}
+
+function renderRoadmapSection(title, roadmap) {
+  const content = renderRoadmapContent(title, roadmap);
+  if (!content) return "";
+
+  return `
+<section>
+  <div class="card">
+    ${content}
   </div>
 </section>`;
 }
@@ -1041,7 +1100,7 @@ async function newsPage() {
 function postCard(post) {
   return `
 <div class="card">
-  <img class="game-image" src="${NEWS_BASE}/${escapeHtml(post.slug)}/${escapeHtml(post.image)}" alt="${escapeHtml(post.title)}" loading="lazy">
+  <img class="game-image post-image" src="${NEWS_BASE}/${escapeHtml(post.slug)}/${escapeHtml(post.image)}" alt="${escapeHtml(post.title)}" loading="lazy">
   <span class="badge">${formatDate(post.date)}</span>
   <h3>${escapeHtml(post.title)}</h3>
   <p>${escapeHtml(post.excerpt)}</p>
