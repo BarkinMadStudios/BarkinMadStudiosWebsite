@@ -13,34 +13,6 @@ const NEWS_BASE = `${REPO_BASE}/news`;
 const PAGES_BASE = `${REPO_BASE}/pages`;
 const DATA_BASE = `${PAGES_BASE}/data`;
 
-const DEFAULT_APPS_PAGE = {
-  title: "Apps",
-  heading: "Apps",
-  intro: "Browse BarkinMad Studios apps and the ZX Series.",
-  description: "Browse BarkinMad Studios app collections, including the ZX Series and standalone apps.",
-  sectionsTitle: "Browse",
-  sections: [
-    {
-      title: "ZX Series",
-      description: "Connected retro arcade games with shared achievements, leaderboards, BarkinMad Coins, PvP modes, and roadmap features.",
-      href: "/zx-series"
-    },
-    {
-      title: "Apps",
-      description: "Standalone BarkinMad Studios apps outside the ZX Series.",
-      href: "/apps/non-zx"
-    }
-  ],
-  businessServices: {
-    title: "Custom Apps, Prototypes & Business Tools",
-    description: "BarkinMad Studios also helps businesses turn ideas into simple, practical digital tools. From early app prototypes to internal business apps, proof-of-concepts, dashboards, workflow tools, and customer-facing mobile apps, we can help shape an idea into something usable.\n\nWhether you need a quick prototype to test an idea, a small app for your team, or a custom solution to support your business, BarkinMad Studios can help design and build lightweight, focused software without unnecessary complexity.\n\nHave an app idea or business tool in mind? Get in touch to discuss a prototype or custom build.",
-    action: {
-      label: "Contact BarkinMad Studios",
-      href: "/contact"
-    }
-  }
-};
-
 const DEFAULT_SITE = {
   name: "BarkinMad Studios",
   description: "Independent UK game and app developer creating retro-inspired experiences for modern devices.",
@@ -119,8 +91,10 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   }
 
   if (path === "/apps") {
-    const page = appsPageContent(await fetchJson(`${PAGES_BASE}/apps.json`) || {});
-    return pageResponse("Apps | BarkinMad Studios", await appsPage(page), {
+    const page = await fetchJson(`${PAGES_BASE}/apps.json`);
+    if (!page) return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
+
+    return pageResponse(page.seoTitle || `${page.title} | BarkinMad Studios`, await appsPage(page), {
       canonicalPath: "/apps",
       description: page.description,
       image: `${IMAGE_BASE}/retro-banner.png`
@@ -128,9 +102,12 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   }
 
   if (path === "/apps/non-zx") {
-    return pageResponse("Apps | BarkinMad Studios", await nonZxAppsPage(), {
+    const page = await fetchJson(`${PAGES_BASE}/non-zx-apps.json`);
+    if (!page) return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
+
+    return pageResponse(page.seoTitle || `${page.title} | BarkinMad Studios`, await nonZxAppsPage(page), {
       canonicalPath: "/apps/non-zx",
-      description: "Explore BarkinMad Studios apps outside the ZX Series, including mobile games, tools, and future non-ZX projects.",
+      description: page.description || page.intro,
       image: `${IMAGE_BASE}/retro-banner.png`
     });
   }
@@ -703,33 +680,18 @@ function renderAppCollection(section) {
 
   const tag = section.href ? "a" : "div";
   const href = section.href ? ` href="${escapeHtml(section.href)}"` : "";
+  const label = section.actionLabel || section.buttonLabel || "";
 
   return `
 <${tag} class="card${section.href ? " card-link" : ""}"${href}>
   <h3>${escapeHtml(section.title)}</h3>
   ${section.description ? `<p>${escapeHtml(section.description)}</p>` : ""}
-  ${section.href ? `<span class="btn">View ${escapeHtml(section.title)}</span>` : ""}
+  ${section.href && label ? `<span class="btn">${escapeHtml(label)}</span>` : ""}
 </${tag}>`;
 }
 
-function appsPageContent(page = {}) {
-  return {
-    ...DEFAULT_APPS_PAGE,
-    ...page,
-    heading: DEFAULT_APPS_PAGE.heading,
-    intro: DEFAULT_APPS_PAGE.intro,
-    description: DEFAULT_APPS_PAGE.description,
-    sectionsTitle: DEFAULT_APPS_PAGE.sectionsTitle,
-    sections: DEFAULT_APPS_PAGE.sections,
-    businessServices: {
-      ...DEFAULT_APPS_PAGE.businessServices,
-      ...(page.businessServices || {}),
-      action: {
-        ...DEFAULT_APPS_PAGE.businessServices.action,
-        ...(page.businessServices?.action || {})
-      }
-    }
-  };
+function emptyStateCard(text) {
+  return text ? `<div class="card"><p>${escapeHtml(text)}</p></div>` : "";
 }
 
 async function homePage() {
@@ -780,19 +742,18 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
 }
 
 async function appsPage(page) {
-  page = appsPageContent(page || await fetchJson(`${PAGES_BASE}/apps.json`) || {});
   const sections = Array.isArray(page.sections) ? page.sections : [];
 
   return `
 <section class="hero hero-retro">
-  <h2>${escapeHtml(page.heading || page.title || "Apps")}</h2>
-  <p>${escapeHtml(page.intro || "Games and apps from BarkinMad Studios.")}</p>
+  <h2>${escapeHtml(page.heading || page.title)}</h2>
+  ${page.intro ? `<p>${escapeHtml(page.intro)}</p>` : ""}
 </section>
 
 <main>
 ${sections.length ? `
 <section>
-  <h2>${escapeHtml(page.sectionsTitle || "Browse By Collection")}</h2>
+  <h2>${escapeHtml(page.sectionsTitle)}</h2>
   <div class="grid">
     ${sections.map(renderAppCollection).join("")}
   </div>
@@ -802,20 +763,20 @@ ${renderPromoSection(page.businessServices)}
 </main>`;
 }
 
-async function nonZxAppsPage() {
+async function nonZxAppsPage(page) {
   const apps = getNonZxApps(await getApps());
 
   return `
 <section class="hero hero-retro">
-  <h2>Apps</h2>
-  <p>Standalone BarkinMad Studios apps outside the ZX Series.</p>
+  <h2>${escapeHtml(page.heading || page.title)}</h2>
+  ${page.intro ? `<p>${escapeHtml(page.intro)}</p>` : ""}
 </section>
 
 <main>
 <section>
-  <h2>Apps</h2>
+  <h2>${escapeHtml(page.appsTitle || page.title)}</h2>
   <div class="grid">
-    ${apps.length ? apps.map(appFullCard).join("") : `<div class="card"><p>No non-ZX apps are available at the moment.</p></div>`}
+    ${apps.length ? apps.map(appFullCard).join("") : emptyStateCard(page.emptyText)}
   </div>
 </section>
 </main>`;
@@ -833,8 +794,8 @@ async function zxSeriesPage() {
 
   return `
 <section class="hero hero-retro">
-  <h2>${escapeHtml(page.title || "ZX Series")}</h2>
-  <p>${escapeHtml(page.description || "Connected retro arcade games from BarkinMad Studios.")}</p>
+  <h2>${escapeHtml(page.title)}</h2>
+  ${page.description ? `<p>${escapeHtml(page.description)}</p>` : ""}
 </section>
 
 <main>

@@ -9,6 +9,7 @@
 			"title": "ZX Series",
 			"description": "Connected retro arcade games with shared achievements, leaderboards, BarkinMad Coins, PvP modes, and roadmap features.",
 			"href": "/zx-series",
+			"actionLabel": "View ZX Series",
 			"filter": {
 				"field": "series",
 				"value": "zx-series"
@@ -16,8 +17,9 @@
 		},
 		{
 			"title": "Apps",
-			"description": "Standalone BarkinMad Studios apps outside the ZX Series.",
+			"description": "Other app created by BarkinMad Studios",
 			"href": "/apps/non-zx",
+			"actionLabel": "View Apps",
 			"filter": {
 				"field": "series",
 				"value": ""
