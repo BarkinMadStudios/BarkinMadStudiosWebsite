@@ -3,6 +3,14 @@
   "date": "2026-01-20",
   "image": "image.png",
   "content": [
-	  "The BarkinMad Studios retro collection takes inspiration from classic arcade machines and early home computer gaming."
+	  "Many of the games developed by BarkinMad Studios are influenced by the simple but addictive gameplay found in classic arcade titles from the 1980s and 1990s. The focus is on quick sessions, easy-to-learn controls, and gameplay that encourages players to keep coming back for one more attempt.",
+	  
+	  "While the visual style is inspired by retro gaming, the games are built using modern technologies and include features such as achievements, leaderboards, cloud-based progression, localisation, and online features where appropriate.",
+	  
+	  "The growing [ZX Series](/zx-series) brings these ideas together across multiple games. Titles such as [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXPong](/apps/zxpong), and [ZXSpace](/apps/zxspace) share a common retro-inspired design philosophy while offering different gameplay experiences.",
+	  
+	  "Creating retro games is not about recreating the past exactly. Instead, the goal is to capture the spirit of classic gaming while providing the convenience, accessibility, and features that modern players expect.",
+	  
+	  "As the [ZX Series](/zx-series) continues to grow, BarkinMad Studios remains focused on building games that are easy to pick up, rewarding to master, and inspired by the golden age of arcade gaming."
   ]
 }

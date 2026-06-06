@@ -680,16 +680,14 @@ function getNonZxApps(apps) {
 function renderAppCollection(section) {
   if (!section || !section.title) return "";
 
-  const tag = section.href ? "a" : "div";
-  const href = section.href ? ` href="${escapeHtml(section.href)}"` : "";
   const label = section.actionLabel || section.buttonLabel || "";
 
   return `
-<${tag} class="card${section.href ? " card-link" : ""}"${href}>
+<div class="card">
   <h3>${escapeHtml(section.title)}</h3>
   ${section.description ? `<p>${escapeHtml(section.description)}</p>` : ""}
-  ${section.href && label ? `<span class="btn">${escapeHtml(label)}</span>` : ""}
-</${tag}>`;
+  ${section.href && label ? `<a class="btn" href="${escapeHtml(section.href)}">${escapeHtml(label)}</a>` : ""}
+</div>`;
 }
 
 function emptyStateCard(text) {

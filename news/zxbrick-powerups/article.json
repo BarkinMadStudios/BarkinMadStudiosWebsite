@@ -3,6 +3,16 @@
   "date": "2026-04-10",
   "image": "image.png",
   "content": [
-	  "Power-ups are a major part of ZXBrick gameplay, adding variety and unpredictability to every level."
+	  "One of the goals during development was to ensure that no two play sessions felt exactly the same. Power-ups create moments of opportunity and strategy, encouraging players to adapt their approach as a level unfolds.",
+	  
+	  "Some power-ups help players clear bricks more efficiently, while others provide temporary advantages that can dramatically change the pace of gameplay. Deciding when and how to make use of these bonuses becomes an important part of achieving higher scores and completing difficult levels.",
+	  
+	  "Balancing power-ups required careful testing. Rewards needed to feel valuable without making levels too easy, while still giving players exciting moments that could turn a challenging run into a successful one.",
+	  
+	  "[ZXBrick](/apps/zxbrick) is part of the growing [ZX Series](/zx-series), and the design philosophy behind its power-up system reflects the broader goal of creating accessible gameplay that remains rewarding for both casual and experienced players.",
+	  
+	  "As development of the [ZX Series](/zx-series) continues, lessons learned from designing ZXBrick's power-ups help influence future games and gameplay systems across the BarkinMad Studios portfolio.",
+	  
+	  "The result is a brick-breaking experience that stays true to the classic arcade formula while adding modern mechanics that keep every level engaging and replayable."
   ]
 }

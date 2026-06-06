@@ -3,14 +3,16 @@
   "date": "2026-05-26",
   "image": "image.png",
   "content": [
-	  "AI tools are rapidly changing how indie developers build apps and games. Tasks that once took hours — or even days — can now often be completed much faster using AI-assisted workflows.",
+	  "At BarkinMad Studios, AI is used as a development assistant to help accelerate coding, debugging, UI ideas, localisation, content creation, and rapid prototyping across multiple projects.",
 	  
-	  "At Barkin Mad Studios, AI is used as a development assistant to help accelerate coding, debugging, UI ideas, localization, and rapid prototyping across multiple projects.",
+	  "Projects such as [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and the wider [ZX Series](/zx-series) have all benefited from AI-assisted workflows, allowing more time to focus on gameplay, polish, testing, and creativity.",
 	  
-	  "Projects such as ZXSnake, ZXBrick, and ZXSpace have all benefited from AI-assisted workflows, allowing more time to focus on gameplay, polish, testing, and creativity.",
+	  "AI can help generate ideas, review code, identify bugs, explain unfamiliar technologies, and speed up repetitive development tasks. This allows smaller development teams to achieve more with limited resources.",
 	  
-	  "AI does not replace developers. Architecture decisions, optimisation, game design, and final implementation still require human creativity and experience.",
+	  "However, AI does not replace developers. Architecture decisions, optimisation, game design, product direction, testing, and final implementation still require human creativity, experience, and judgement.",
 	  
-	  "For indie developers, AI has become a powerful tool that helps turn ideas into working products faster than ever before."
+	  "For independent developers, AI has become a powerful tool that helps turn ideas into working products faster than ever before while reducing the time spent on repetitive tasks.",
+	  
+	  "As AI technology continues to evolve, BarkinMad Studios will continue exploring ways to use these tools responsibly to improve development workflows while maintaining full creative control over games and applications."
   ]
 }

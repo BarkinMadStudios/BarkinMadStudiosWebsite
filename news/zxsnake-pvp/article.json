@@ -3,13 +3,13 @@
 	"date": "2026-05-28",
 	"image": "image.png",
 	"content": [
-		"When developing ZXSnake, the goal was never simply to recreate the classic Snake experience. While the original gameplay remains at the heart of the game, we wanted to explore how modern features could add new challenges and replayability.",
+		"When developing [ZXSnake](/apps/zxsnake), the goal was never simply to recreate the classic Snake experience. While the original gameplay remains at the heart of the game, we wanted to explore how modern features could add new challenges and replayability.",
 		"One of the biggest additions was player-versus-player multiplayer. Snake has traditionally been a single-player experience focused on survival and high scores, but modern devices allow players to compete directly against one another.",
-		"ZXSnake includes both local and online PvP modes. Local multiplayer allows friends and family to compete on the same device, creating fast-paced matches where every move matters. Online multiplayer expands the competition further, letting players face opponents from around the world.",
+		"[ZXSnake](/apps/zxsnake) includes both local and online PvP modes. Local multiplayer allows friends and family to compete on the same device, creating fast-paced matches where every move matters. Online multiplayer expands the competition further, letting players face opponents from around the world.",
 		"The challenge during development was keeping the gameplay simple and accessible while ensuring multiplayer felt competitive and fair. The core mechanics remain familiar to anyone who has played Snake before, but introducing another player creates entirely new strategies and situations.",
 		"Players must not only avoid walls and their own tail but also react to their opponent's movements, predict their actions, and look for opportunities to gain an advantage.",
-		"Alongside multiplayer, ZXSnake also includes AI opponents, allowing players to practise and improve even when an online match isn't available.",
+		"Alongside multiplayer, [ZXSnake](/apps/zxsnake) also includes AI opponents, allowing players to practise and improve even when an online match isn't available.",
 		"Achievements and leaderboards help add additional goals, encouraging players to improve their skills and climb the rankings over time.",
-		"By combining classic arcade gameplay with local multiplayer, online competition, AI opponents, achievements, and leaderboards, ZXSnake delivers a modern take on one of gaming's most recognisable concepts while staying true to the simple gameplay that made Snake a classic."
+		"By combining classic arcade gameplay with local multiplayer, online competition, AI opponents, achievements, and leaderboards, [ZXSnake](/apps/zxsnake) delivers a modern take on one of gaming's most recognisable concepts while staying true to the simple gameplay that made Snake a classic."
 	]
 }
