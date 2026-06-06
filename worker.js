@@ -332,6 +332,17 @@ h3 { color: #ffcc66; }
   flex-direction: column;
 }
 
+.card-link {
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.card-link:hover {
+  border-color: #f39c12;
+  transform: translateY(-2px);
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -632,14 +643,16 @@ function renderAppCollection(section, apps) {
 
   const matchingApps = filterApps(apps, section.filter);
   const previewApps = matchingApps.slice(0, section.limit || 3);
+  const tag = section.href ? "a" : "div";
+  const href = section.href ? ` href="${escapeHtml(section.href)}"` : "";
 
   return `
-<div class="card">
+<${tag} class="card${section.href ? " card-link" : ""}"${href}>
   <h3>${escapeHtml(section.title)}</h3>
   ${section.description ? `<p>${escapeHtml(section.description)}</p>` : ""}
   ${previewApps.length ? `<p><strong>${previewApps.length} shown:</strong> ${escapeHtml(previewApps.map(app => app.name || app.title).join(", "))}</p>` : ""}
-  ${section.href ? `<a class="btn" href="${escapeHtml(section.href)}">View ${escapeHtml(section.title)}</a>` : ""}
-</div>`;
+  ${section.href ? `<span class="btn">View ${escapeHtml(section.title)}</span>` : ""}
+</${tag}>`;
 }
 
 async function homePage() {
