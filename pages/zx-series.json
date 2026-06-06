@@ -1,5 +1,6 @@
 {
 	"title": "ZX Series",
+	"seoTitle": "ZX Series Retro Arcade Games | BarkinMad Studios",
 	"tagline": "Connected retro arcade gaming",
 	"description": "Explore the BarkinMad Studios ZX Series, including retro arcade games, shared achievements, BarkinMad Coins, leaderboards, PVP features, and the ZX roadmap.",
 	
@@ -16,14 +17,21 @@
 		"Local PVP",
 		"Cross-game progression"
 	],
+	"overviewTitle": "ZX Series Overview",
 	"sharedSystems": {
 		"title": "Shared Game Systems",
 		"intro": "Supported ZX Series games can share achievements, leaderboards, BarkinMad Coins, PvP modes, and roadmap features across the BarkinMad Studios ecosystem.",
+		"gamesTitle": "Games",
 		"achievementsTitle": "Shared Achievements",
 		"leaderboardsTitle": "Shared Leaderboards",
 		"coinsTitle": "BarkinMad Coins",
 		"pvpTitle": "PVP Modes",
-		"roadmapTitle": "Roadmap"
+		"localPVPTitle": "Local PVP",
+		"worldPVPTitle": "World PVP",
+		"roadmapTitle": "Roadmap",
+		"roadmapLiveTitle": "Live",
+		"roadmapDevelopmentTitle": "In Development",
+		"roadmapPlannedTitle": "Planned"
 	},
 	"appsTitle": "ZX Series Games"
 }

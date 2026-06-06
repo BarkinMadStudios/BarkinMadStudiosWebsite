@@ -113,8 +113,10 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   }
 
   if (path === "/zx-series") {
-    const page = await fetchJson(`${PAGES_BASE}/zx-series.json`) || {};
-    return pageResponse("ZX Series Retro Arcade Games | BarkinMad Studios", await zxSeriesPage(page), {
+    const page = await fetchJson(`${PAGES_BASE}/zx-series.json`);
+    if (!page) return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
+
+    return pageResponse(page.seoTitle || `${page.title} | BarkinMad Studios`, await zxSeriesPage(page), {
       canonicalPath: "/zx-series",
       description: page.description,
       image: `${IMAGE_BASE}/retro-banner.png`
@@ -782,8 +784,7 @@ async function nonZxAppsPage(page) {
 </main>`;
 }
 
-async function zxSeriesPage() {
-  const page = await fetchJson(`${PAGES_BASE}/zx-series.json`) || {};
+async function zxSeriesPage(page) {
   const apps = getZxSeriesApps(await getApps());
   const achievements = await fetchJson(`${DATA_BASE}/achievements.json`) || {};
   const leaderboards = await fetchJson(`${DATA_BASE}/leaderboards.json`) || {};
@@ -801,18 +802,18 @@ async function zxSeriesPage() {
 <main>
 ${Array.isArray(page.intro) && page.intro.length ? `
 <section>
-  <h2>${escapeHtml(page.tagline || "Connected Progression")}</h2>
+  <h2>${escapeHtml(page.tagline)}</h2>
   <div class="card">
     ${page.intro.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
   </div>
 </section>` : ""}
 
-${renderStringListSection("ZX Series Overview", page.features)}
+${renderStringListSection(page.overviewTitle, page.features)}
 
 ${renderSharedSystems(page.sharedSystems || {}, { achievements, leaderboards, coins, pvp, roadmap, games })}
 
 <section>
-  <h2>${escapeHtml(page.appsTitle || "ZX Series Games")}</h2>
+  <h2>${escapeHtml(page.appsTitle)}</h2>
   <div class="grid">
     ${apps.map(appFullCard).join("")}
   </div>
@@ -834,69 +835,69 @@ function renderSharedSystems(content, data) {
 
   return `
 <section>
-  <h2>${escapeHtml(content.title || "Shared Game Systems")}</h2>
+  <h2>${escapeHtml(content.title)}</h2>
   <div class="card">
     ${content.intro ? `<p>${escapeHtml(content.intro)}</p>` : ""}
   </div>
 </section>
 
-${games.length ? `
+${games.length && content.gamesTitle ? `
 <section>
-  <h2>Games</h2>
+  <h2>${escapeHtml(content.gamesTitle)}</h2>
   <div class="card">
     <ul>${games.map(game => `<li><strong>${escapeHtml(game.name || game.title)}</strong>${game.status ? ` - ${escapeHtml(game.status)}` : ""}</li>`).join("")}</ul>
   </div>
 </section>` : ""}
 
-${coins.name ? `
+${coins.name && content.coinsTitle ? `
 <section>
-  <h2>${escapeHtml(content.coinsTitle || coins.name)}</h2>
+  <h2>${escapeHtml(content.coinsTitle)}</h2>
   <div class="card">
     ${coins.description ? `<p>${escapeHtml(coins.description)}</p>` : ""}
   </div>
 </section>` : ""}
 
-${Array.isArray(achievements) && achievements.length ? `
+${Array.isArray(achievements) && achievements.length && content.achievementsTitle ? `
 <section>
-  <h2>${escapeHtml(content.achievementsTitle || "Shared Achievements")}</h2>
+  <h2>${escapeHtml(content.achievementsTitle)}</h2>
   <div class="card">
     <ul>${achievements.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${escapeHtml(item.description)}` : ""}</li>`).join("")}</ul>
   </div>
 </section>` : ""}
 
-${Array.isArray(leaderboards) && leaderboards.length ? `
+${Array.isArray(leaderboards) && leaderboards.length && content.leaderboardsTitle ? `
 <section>
-  <h2>${escapeHtml(content.leaderboardsTitle || "Shared Leaderboards")}</h2>
+  <h2>${escapeHtml(content.leaderboardsTitle)}</h2>
   <div class="card">
     <ul>${leaderboards.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${escapeHtml(item.description)}` : ""}</li>`).join("")}</ul>
   </div>
 </section>` : ""}
 
-${pvp.worldPVP || pvp.localPVP ? `
+${(pvp.worldPVP || pvp.localPVP) && content.pvpTitle ? `
 <section>
-  <h2>${escapeHtml(content.pvpTitle || "PVP Modes")}</h2>
+  <h2>${escapeHtml(content.pvpTitle)}</h2>
   <div class="card">
-    ${pvp.localPVP ? `<p><strong>Local PVP:</strong> ${escapeHtml(pvp.localPVP.description)}</p>` : ""}
-    ${pvp.worldPVP ? `<p><strong>World PVP:</strong> ${escapeHtml(pvp.worldPVP.description)}</p>` : ""}
+    ${pvp.localPVP && content.localPVPTitle ? `<p><strong>${escapeHtml(content.localPVPTitle)}:</strong> ${escapeHtml(pvp.localPVP.description)}</p>` : ""}
+    ${pvp.worldPVP && content.worldPVPTitle ? `<p><strong>${escapeHtml(content.worldPVPTitle)}:</strong> ${escapeHtml(pvp.worldPVP.description)}</p>` : ""}
   </div>
 </section>` : ""}
 
-${renderRoadmapSection(content.roadmapTitle || "Roadmap", roadmap)}`;
+${renderRoadmapSection(content, roadmap)}`;
 }
 
-function renderRoadmapSection(title, roadmap) {
-  const content = renderRoadmapContent(title, roadmap);
-  if (!content) return "";
+function renderRoadmapSection(labels, roadmap) {
+  const roadmapContent = renderRoadmapContent(labels, roadmap);
+  if (!roadmapContent) return "";
 
   return `
 <section>
   <div class="card">
-    ${content}
+    ${roadmapContent}
   </div>
 </section>`;
 }
 
-function renderRoadmapContent(title, roadmap) {
+function renderRoadmapContent(labels, roadmap) {
   if (!roadmap || typeof roadmap !== "object") return "";
 
   const live = Array.isArray(roadmap.live) ? roadmap.live : [];
@@ -906,10 +907,10 @@ function renderRoadmapContent(title, roadmap) {
   if (!live.length && !development.length && !planned.length) return "";
 
   return `
-<h3>${escapeHtml(title)}</h3>
-${live.length ? `<p><strong>Live:</strong></p><ul>${live.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
-${development.length ? `<p><strong>In Development:</strong></p><ul>${development.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
-${planned.length ? `<p><strong>Planned:</strong></p><ul>${planned.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}`;
+<h3>${escapeHtml(labels.roadmapTitle)}</h3>
+${live.length && labels.roadmapLiveTitle ? `<p><strong>${escapeHtml(labels.roadmapLiveTitle)}:</strong></p><ul>${live.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+${development.length && labels.roadmapDevelopmentTitle ? `<p><strong>${escapeHtml(labels.roadmapDevelopmentTitle)}:</strong></p><ul>${development.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels.roadmapPlannedTitle)}:</strong></p><ul>${planned.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}`;
 }
 
 function appFullCard(app) {
