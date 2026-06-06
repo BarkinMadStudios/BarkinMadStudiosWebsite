@@ -1,56 +1,109 @@
 {
 	"title": "App Development Services",
 	"seoTitle": "Custom App Development Services | BarkinMad Studios",
-	"heading": "Custom Apps, Prototypes & Business Tools",
-	"intro": "BarkinMad Studios helps small businesses turn ideas into simple, practical digital tools.",
-	"description": "Custom app development, prototypes, internal business tools, dashboards, workflow automation, and iPhone/iPad app development from BarkinMad Studios.",
+	"heading": "Custom Software, Mobile Apps & Digital Solutions",
+	"intro": "Helping businesses turn ideas, processes, and challenges into practical software solutions.",
+	"description": "Custom software development, mobile app development, workflow automation, dashboards, business tools, prototypes, proof of concepts, websites, and iPhone/iPad app development from BarkinMad Studios.",
+	
 	"sections": [
 		{
-			"heading": "Custom App Development",
+			"heading": "Custom Software Development",
 			"paragraphs": [
-				"BarkinMad Studios can help design and build lightweight custom apps for small businesses, internal teams, and customer-facing projects.",
-				"Whether you need a simple mobile app, a focused business tool, or a prototype to test an idea, the aim is to build practical software without unnecessary complexity."
+				"BarkinMad Studios develops custom software solutions tailored to specific business requirements.",
+				"Whether you need an internal tool, customer-facing application, reporting platform, management dashboard, workflow system, or specialist software, projects are designed to solve real business problems while remaining easy to maintain and expand."
 			]
 		},
 		{
-			"heading": "App Prototypes & Proof of Concepts",
+			"heading": "Software Consultancy & Solution Design",
 			"paragraphs": [
-				"If you have an idea but are not ready for a full product build, a prototype can help test the concept quickly.",
-				"Prototypes are useful for exploring workflows, validating ideas, preparing investor conversations, or showing a working version to stakeholders before committing to larger development."
+				"Successful software projects begin with understanding requirements, identifying challenges, and selecting the right technical approach.",
+				"BarkinMad Studios can assist with solution design, technical planning, application architecture, workflow reviews, prototype planning, and early-stage project discovery.",
+				"This helps reduce development risk and ensures projects remain focused on delivering measurable business value."
+			]
+		},
+		{
+			"heading": "Mobile App Development",
+			"paragraphs": [
+				"Native iPhone and iPad applications can be designed and developed from concept through to App Store release.",
+				"Experience includes cloud-connected services, analytics, localisation, achievements, leaderboards, subscriptions, in-app purchases, shared progression systems, and long-term product support.",
+				"Projects can range from simple utility apps through to feature-rich consumer products."
+			]
+		},
+		{
+			"heading": "Prototypes & Proof of Concepts",
+			"paragraphs": [
+				"Not every idea requires a full product build immediately.",
+				"Rapid prototypes and proof-of-concept applications help validate ideas, demonstrate functionality, gather feedback, and reduce risk before committing to larger investments.",
+				"These early-stage builds are ideal for startups, internal innovation projects, and organisations exploring new opportunities."
+			]
+		},
+		{
+			"heading": "Business Process Improvement",
+			"paragraphs": [
+				"Many organisations still rely on spreadsheets, emails, manual processes, or disconnected systems to manage important workflows.",
+				"BarkinMad Studios can help identify opportunities to simplify operations, improve reporting, reduce repetitive tasks, and create software that supports day-to-day business activities.",
+				"The objective is to improve efficiency while keeping solutions practical and easy to use."
 			]
 		},
 		{
 			"heading": "Internal Business Tools",
 			"paragraphs": [
-				"Many businesses rely on spreadsheets, manual processes, or repeated admin tasks that could be improved with a simple digital tool.",
-				"BarkinMad Studios can help create internal tools, dashboards, workflow helpers, data entry screens, and lightweight automation systems that support day-to-day work."
+				"Custom business tools can help teams work more effectively and reduce administrative overhead.",
+				"Examples include reporting dashboards, workflow tracking systems, approval processes, operational management tools, administration portals, customer databases, and lightweight automation platforms.",
+				"Solutions are designed around the way teams actually work rather than forcing processes into generic software."
 			]
 		},
 		{
-			"heading": "Mobile Apps for iPhone and iPad",
+			"heading": "Websites & Content Platforms",
 			"paragraphs": [
-				"BarkinMad Studios builds mobile apps for Apple platforms, with experience across Swift, SwiftUI, Game Center, StoreKit, cloud data, localisation, analytics, and app release workflows.",
-				"Projects can range from early prototypes to production-ready apps prepared for TestFlight and App Store release."
+				"BarkinMad Studios can develop lightweight websites, content-driven platforms, JSON-powered systems, and custom web applications.",
+				"Projects focus on performance, maintainability, search engine visibility, content management, and long-term flexibility."
+			]
+		},
+		{
+			"heading": "Technical Experience",
+			"paragraphs": [
+				"Experience includes software development, application architecture, mobile applications, cloud-hosted systems, workflow automation, websites, data-driven platforms, localisation, analytics, and digital transformation projects.",
+				"Additional expertise includes security-aware design, compliance considerations, API integration, reporting systems, operational tooling, and cloud technologies.",
+				"This broad technical background enables ideas to move quickly from concept to working software."
+			]
+		},
+		{
+			"heading": "Proven Development Experience",
+			"paragraphs": [
+				"BarkinMad Studios actively develops and maintains a portfolio of public mobile applications and games alongside custom software projects.",
+				"These products demonstrate real-world experience across application design, user experience, cloud services, analytics, localisation, deployment, monetisation, and ongoing support."
+			],
+			"links": [
+				{
+					"label": "View Our Apps",
+					"href": "/apps"
+				},
+				{
+					"label": "Explore The ZX Series",
+					"href": "/zx-series"
+				}
+			]
+		},
+		{
+			"heading": "Who We Work With",
+			"paragraphs": [
+				"BarkinMad Studios is particularly well suited to small businesses, startups, independent professionals, and organisations looking for focused software development support.",
+				"Projects can be tailored to fit specific requirements, budgets, and timelines without the overhead associated with larger development agencies."
 			]
 		},
 		{
 			"heading": "Why Work With BarkinMad Studios?",
 			"paragraphs": [
-				"BarkinMad Studios focuses on clear, practical software that solves real problems. The goal is to keep projects focused, understandable, and useful from the first version.",
-				"As an independent UK studio, BarkinMad Studios is well suited to small businesses, early-stage ideas, and focused digital projects where simplicity and speed matter."
-			]
-		},
-		{
-			"heading": "Examples of Experience",
-			"paragraphs": [
-				"BarkinMad Studios has built mobile games, app companion tools, content-driven websites, cloud-hosted JSON systems, App Store releases, Game Center features, achievements, leaderboards, and shared progression systems.",
-				"This experience can be applied to business prototypes, custom apps, dashboards, and lightweight workflow tools."
+				"As an independent studio, BarkinMad Studios provides direct communication, practical decision making, and a strong focus on delivering value.",
+				"The aim is to build software that solves problems, improves workflows, and remains useful long after the initial release."
 			]
 		},
 		{
 			"heading": "Discuss a Project",
 			"paragraphs": [
-				"Have an app idea, business tool, prototype, or workflow problem in mind? Get in touch to discuss whether BarkinMad Studios can help."
+				"Have an app idea, business challenge, prototype requirement, workflow problem, or software project in mind?",
+				"Get in touch to discuss how BarkinMad Studios can help."
 			],
 			"links": [
 				{

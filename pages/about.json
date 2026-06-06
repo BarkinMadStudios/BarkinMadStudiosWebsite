@@ -6,34 +6,67 @@
 		{
 			"heading": "Who We Are",
 			"paragraphs": [
-				"BarkinMad Studios is an independent software and game development studio based in the United Kingdom.",
-				"The studio focuses on creating retro-inspired arcade games, mobile apps, and simple digital experiences that are easy to pick up, enjoyable to replay, and built with care."
+				"BarkinMad Studios is an independent UK software and game development studio focused on creating mobile apps, retro-inspired games, websites, prototypes, and digital business tools.",
+				"The studio combines software development experience with practical problem solving, building products that are easy to use, maintain, and expand over time.",
+				"Whether developing arcade games for players or custom software for businesses, the goal is to create reliable solutions that deliver long-term value."
+			]
+		},
+		{
+			"heading": "Experience",
+			"paragraphs": [
+				"BarkinMad Studios draws on more than two decades of experience delivering technology solutions across a wide range of industries and business sectors.",
+				"This experience includes software development, mobile applications, cloud technologies, digital transformation, workflow automation, business systems, technical consultancy, and solution design.",
+				"Projects have ranged from small internal business tools and prototypes through to large-scale systems supporting thousands of users."
+			]
+		},
+		{
+			"heading": "Technical Expertise",
+			"paragraphs": [
+				"BarkinMad Studios combines experience across software development, mobile applications, cloud platforms, security-focused design, workflow automation, data management, analytics, localisation, and digital transformation projects.",
+				"This broad technical background allows solutions to be designed with maintainability, performance, scalability, and usability in mind while remaining practical and cost-effective."
 			]
 		},
 		{
 			"heading": "What We Make",
 			"paragraphs": [
-				"BarkinMad Studios develops a growing collection of iPhone and iPad apps, including retro arcade games and darts scoring tools."
+				"BarkinMad Studios develops mobile apps, retro-inspired games, websites, prototypes, dashboards, workflow tools, and custom software solutions.",
+				"The public portfolio includes the growing ZX Series of arcade games, productivity tools, and specialist applications available for iPhone and iPad."
 			],
-			"list": [
-				"ZXSnake - a retro-inspired snake arcade game.",
-				"ZXBrick - a classic brick-breaking arcade game.",
-				"ZXSpace - a retro space shooter inspired by arcade classics.",
-				"GameOfDarts - a darts scoring and statistics app."
+			"links": [
+				{
+					"label": "Browse Our Apps",
+					"href": "/apps"
+				},
+				{
+					"label": "Explore The ZX Series",
+					"href": "/zx-series"
+				},
+				{
+					"label": "View Our Services",
+					"href": "/services"
+				}
+			]
+		},
+		{
+			"heading": "How We Work",
+			"paragraphs": [
+				"The focus is on practical software that solves real problems without unnecessary complexity.",
+				"Projects are approached with a strong emphasis on usability, maintainability, performance, and long-term value.",
+				"From early ideas and prototypes through to production-ready applications, BarkinMad Studios aims to keep development focused, transparent, and outcome-driven."
 			]
 		},
 		{
 			"heading": "BarkinMad Coins",
 			"paragraphs": [
 				"BarkinMad Coins are a gameplay reward used across supported BarkinMad Studios games.",
-				"Coins are earned through gameplay only and can be used to unlock cosmetic items such as skins, colours, themes, and visual extras.",
-				"BarkinMad Coins have no cash value, cannot be transferred, and cannot be redeemed for money or real-world goods."
+				"Coins are earned through gameplay and can be used to unlock cosmetic content such as themes, colours, skins, and visual extras.",
+				"BarkinMad Coins have no cash value, cannot be transferred, and cannot be exchanged for real-world goods or services."
 			]
 		},
 		{
 			"heading": "Contact",
 			"paragraphs": [
-				"For support, feedback, testing enquiries, or business questions, please contact support@barkinmad.studio."
+				"For support, feedback, testing enquiries, partnership opportunities, or project discussions, please contact support@barkinmad.studio."
 			]
 		}
 	]
