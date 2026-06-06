@@ -4,6 +4,22 @@
 	"intro": "Browse BarkinMad Studios apps and the ZX Series.",
 	"description": "Browse BarkinMad Studios app collections, including the ZX Series and standalone apps.",
 	"sectionsTitle": "Browse",
+	"content": [
+		{
+			"heading": "Mobile Apps, Games & Digital Tools",
+			"paragraphs": [
+				"BarkinMad Studios creates mobile apps, retro-inspired arcade games, and practical digital tools for iPhone and iPad.",
+				"The portfolio includes the ZX Series of connected retro arcade games, standalone apps, and specialist tools designed to be easy to use, replayable, and built with long-term support in mind."
+			]
+		},
+		{
+			"heading": "Explore Our App Collections",
+			"paragraphs": [
+				"Use the sections below to browse the ZX Series or view other apps developed by BarkinMad Studios."
+			]
+		}
+	],
+	
 	"sections": [
 		{
 			"title": "ZX Series",
@@ -17,7 +33,7 @@
 		},
 		{
 			"title": "Apps",
-			"description": "Other apps created by BarkinMad Studios",
+			"description": "Standalone apps, tools, and non-ZX projects created by BarkinMad Studios.",
 			"href": "/apps/non-zx",
 			"actionLabel": "View Apps",
 			"filter": {
