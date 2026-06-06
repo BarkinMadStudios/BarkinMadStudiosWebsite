@@ -28,10 +28,9 @@ const DEFAULT_APPS_PAGE = {
     {
       title: "Apps",
       description: "Standalone BarkinMad Studios apps outside the ZX Series.",
-      href: "/apps"
+      href: "/apps/non-zx"
     }
   ],
-  appsTitle: "Apps",
   businessServices: {
     title: "Custom Apps, Prototypes & Business Tools",
     description: "BarkinMad Studios also helps businesses turn ideas into simple, practical digital tools. From early app prototypes to internal business apps, proof-of-concepts, dashboards, workflow tools, and customer-facing mobile apps, we can help shape an idea into something usable.\n\nWhether you need a quick prototype to test an idea, a small app for your team, or a custom solution to support your business, BarkinMad Studios can help design and build lightweight, focused software without unnecessary complexity.\n\nHave an app idea or business tool in mind? Get in touch to discuss a prototype or custom build.",
@@ -126,6 +125,14 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     return pageResponse("Apps | BarkinMad Studios", await appsPage(page), {
       canonicalPath: "/apps",
       description: page.description,
+      image: `${IMAGE_BASE}/retro-banner.png`
+    });
+  }
+
+  if (path === "/apps/non-zx") {
+    return pageResponse("Apps | BarkinMad Studios", await nonZxAppsPage(), {
+      canonicalPath: "/apps/non-zx",
+      description: "Explore BarkinMad Studios apps outside the ZX Series, including mobile games, tools, and future non-ZX projects.",
       image: `${IMAGE_BASE}/retro-banner.png`
     });
   }
@@ -716,8 +723,6 @@ function appsPageContent(page = {}) {
     description: DEFAULT_APPS_PAGE.description,
     sectionsTitle: DEFAULT_APPS_PAGE.sectionsTitle,
     sections: DEFAULT_APPS_PAGE.sections,
-    appsTitle: DEFAULT_APPS_PAGE.appsTitle,
-    allAppsTitle: DEFAULT_APPS_PAGE.appsTitle,
     businessServices: {
       ...DEFAULT_APPS_PAGE.businessServices,
       ...(page.businessServices || {}),
@@ -777,7 +782,6 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
 }
 
 async function appsPage(page) {
-  const apps = getNonZxApps(await getApps());
   page = appsPageContent(page || await fetchJson(`${PAGES_BASE}/apps.json`) || {});
   const sections = Array.isArray(page.sections) ? page.sections : [];
 
@@ -796,14 +800,26 @@ ${sections.length ? `
   </div>
 </section>` : ""}
 
+${renderPromoSection(page.businessServices)}
+</main>`;
+}
+
+async function nonZxAppsPage() {
+  const apps = getNonZxApps(await getApps());
+
+  return `
+<section class="hero hero-retro">
+  <h2>Apps</h2>
+  <p>Standalone BarkinMad Studios apps outside the ZX Series.</p>
+</section>
+
+<main>
 <section>
-  <h2>${escapeHtml(page.appsTitle || page.allAppsTitle || "Apps")}</h2>
+  <h2>Apps</h2>
   <div class="grid">
     ${apps.length ? apps.map(appFullCard).join("") : `<div class="card"><p>No non-ZX apps are available at the moment.</p></div>`}
   </div>
 </section>
-
-${renderPromoSection(page.businessServices)}
 </main>`;
 }
 
@@ -1259,6 +1275,7 @@ async function sitemapResponse() {
   const urls = [
     { path: "/", changefreq: "weekly", priority: "1.0" },
     { path: "/apps", changefreq: "weekly", priority: "0.9" },
+    { path: "/apps/non-zx", changefreq: "weekly", priority: "0.8" },
     { path: "/zx-series", changefreq: "monthly", priority: "0.8" },
     { path: "/news", changefreq: "weekly", priority: "0.8" },
     { path: "/about", changefreq: "monthly", priority: "0.7" },
