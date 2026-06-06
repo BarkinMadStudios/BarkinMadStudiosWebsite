@@ -16,5 +16,15 @@
 		"While the games may be inspired by the golden age of arcade gaming, players today expect a modern experience. Supporting 32 languages helps ensure that retro-inspired gameplay can be enjoyed by as many people as possible.",
 		
 		"As the [ZX Series](/zx-series) continues to grow, BarkinMad Studios remains committed to expanding and maintaining language support so players everywhere can enjoy classic arcade action in their own language."
+	],
+	"actions": [
+		{
+			"label": "View ZX Series",
+			"href": "/zx-series"
+		},
+		{
+			"label": "View Apps",
+			"href": "/apps"
+		}
 	]
 }

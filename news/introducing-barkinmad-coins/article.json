@@ -18,6 +18,15 @@
 		"BarkinMad Coins represent another step towards building a connected retro gaming universe where every game contributes to a larger shared experience through shared achievements, leaderboards, progression systems, and rewards.",
 		
 		"Further details, unlockable content, supported games, and future BarkinMad Coins features will be announced as development of the [ZX Series](/zx-series) continues."
+	],
+	"actions": [
+		{
+			"label": "View ZX Series",
+			"href": "/zx-series"
+		},
+		{
+			"label": "View Apps",
+			"href": "/apps"
+		}
 	]
 }
-
