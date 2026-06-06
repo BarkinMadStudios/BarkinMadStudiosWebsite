@@ -13,10 +13,6 @@
 			"href": "/"
 		},
 		{
-			"label": "ZX Series",
-			"href": "/zx-series"
-		},
-		{
 			"label": "Apps",
 			"href": "/apps"
 		},
@@ -38,10 +34,6 @@
 		}
 	],
 	"footerNavigation": [
-		{
-			"label": "ZX Series",
-			"href": "/zx-series"
-		},
 		{
 			"label": "Apps",
 			"href": "/apps"

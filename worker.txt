@@ -16,8 +16,8 @@ const DATA_BASE = `${PAGES_BASE}/data`;
 const DEFAULT_APPS_PAGE = {
   title: "Apps",
   heading: "Apps",
-  intro: "Non-ZX games, tools, and future apps from BarkinMad Studios.",
-  description: "Explore BarkinMad Studios apps, including mobile games, tools, and future non-ZX projects.",
+  intro: "Browse BarkinMad Studios apps and the ZX Series.",
+  description: "Browse BarkinMad Studios app collections, including the ZX Series and standalone apps.",
   sectionsTitle: "Browse",
   sections: [
     {
@@ -51,7 +51,6 @@ const DEFAULT_SITE = {
   copyright: "BarkinMad Studios",
   navigation: [
     { label: "Home", href: "/" },
-    { label: "ZX Series", href: "/zx-series" },
     { label: "Apps", href: "/apps" },
     { label: "News", href: "/news" },
     { label: "About", href: "/about" },
@@ -59,7 +58,6 @@ const DEFAULT_SITE = {
     { label: "Contact", href: "/contact" }
   ],
   footerNavigation: [
-    { label: "ZX Series", href: "/zx-series" },
     { label: "Apps", href: "/apps" },
     { label: "Privacy", href: "/privacy" },
     { label: "Cookies", href: "/cookies" },
