@@ -1,0 +1,65 @@
+{
+	"title": "Custom Software Development",
+	"description": "Custom software solutions designed around your business requirements, workflows, and operational processes.",
+	"heroTitle": "Custom Software Development",
+	"heroSubtitle": "Software designed around your business, not the other way around.",
+	"sections": [
+		{
+			"heading": "Custom Software Built Around Your Business",
+			"content": [
+				"Off-the-shelf software can be effective for common business requirements, but many organisations eventually encounter limitations that force them to adapt their processes to fit the software rather than the other way around.",
+				"BarkinMad Studios develops custom software solutions tailored to the way your organisation works, helping teams become more efficient while supporting future growth."
+			]
+		},
+		{
+			"heading": "What Can Be Built?",
+			"content": [
+				"Business management systems",
+				"Operational dashboards",
+				"Reporting platforms",
+				"Customer portals",
+				"Workflow management tools",
+				"Administration systems",
+				"Data collection applications",
+				"Process automation platforms",
+				"Cloud-connected services",
+				"API integrations"
+			]
+		},
+		{
+			"heading": "Designed for Growth",
+			"content": [
+				"Software should not only solve today's problems but also support tomorrow's opportunities.",
+				"Projects are designed with maintainability, scalability, security, and flexibility in mind to ensure long-term value."
+			]
+		},
+		{
+			"heading": "Benefits of Custom Software",
+			"content": [
+				"Improve efficiency",
+				"Reduce repetitive manual tasks",
+				"Increase visibility through reporting",
+				"Streamline workflows",
+				"Improve customer experiences",
+				"Integrate disconnected systems",
+				"Support business growth"
+			]
+		},
+		{
+			"heading": "Why BarkinMad Studios?",
+			"content": [
+				"20+ years technology experience.",
+				"Independent UK software developer.",
+				"Real-world products actively developed and maintained.",
+				"Direct communication throughout every project.",
+				"Flexible engagement for startups and small businesses."
+			]
+		}
+	],
+	"cta": {
+		"title": "Discuss Your Project",
+		"content": "Whether you're replacing an existing process, building a new platform, or exploring a custom solution, BarkinMad Studios can help turn ideas into working software.",
+		"buttonText": "Contact BarkinMad Studios",
+		"buttonLink": "/contact"
+	}
+}

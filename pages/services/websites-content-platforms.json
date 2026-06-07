@@ -1,0 +1,58 @@
+{
+	"title": "Websites & Content Platforms",
+	"description": "Modern websites and content-driven platforms designed for performance, flexibility, and long-term growth.",
+	"heroTitle": "Websites & Content Platforms",
+	"heroSubtitle": "Fast, flexible, and easy to maintain.",
+	"sections": [
+		{
+			"heading": "Modern Websites Built for Growth",
+			"content": [
+				"A website is often the first interaction customers have with a business.",
+				"BarkinMad Studios develops websites and content platforms that focus on performance, usability, maintainability, and search visibility."
+			]
+		},
+		{
+			"heading": "Website Development Services",
+			"content": [
+				"Business websites",
+				"Product websites",
+				"Content platforms",
+				"Information portals",
+				"Landing pages",
+				"Marketing websites",
+				"JSON-driven content systems",
+				"Custom web applications"
+			]
+		},
+		{
+			"heading": "Performance and Search Visibility",
+			"content": [
+				"Fast-loading websites provide better user experiences and can improve search engine visibility.",
+				"Projects are designed with accessibility, responsiveness, and SEO best practices in mind."
+			]
+		},
+		{
+			"heading": "Flexible Content Management",
+			"content": [
+				"Content-driven platforms make it easier to update information without major redevelopment.",
+				"This allows websites to grow alongside changing business requirements."
+			]
+		},
+		{
+			"heading": "Why BarkinMad Studios?",
+			"content": [
+				"20+ years technology experience.",
+				"Independent UK software developer.",
+				"Real-world products actively developed and maintained.",
+				"Direct communication throughout every project.",
+				"Flexible engagement for startups and small businesses."
+			]
+		}
+	],
+	"cta": {
+		"title": "Build Your Online Presence",
+		"content": "Whether launching a new website or improving an existing platform, BarkinMad Studios can help create a solution that supports your goals.",
+		"buttonText": "Contact BarkinMad Studios",
+		"buttonLink": "/contact"
+	}
+}

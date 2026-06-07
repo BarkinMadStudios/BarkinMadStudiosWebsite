@@ -326,6 +326,12 @@ nav a:hover { color: #f39c12; }
   margin: 1.5rem auto 0;
 }
 
+.button-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 .hero-logo {
   height: 100px;
   width: auto;
@@ -545,6 +551,8 @@ async function getApps() {
   const apps = await fetchJson(`${DATA_BASE}/apps.json`);
   return Array.isArray(apps) ? apps : [];
 }
+
+
 
 function renderLinks(links) {
   if (!Array.isArray(links)) return "";
@@ -781,6 +789,8 @@ async function appsPage(page) {
 </section>
 
 <main>
+${renderContentSections(page.content)}
+
 ${sections.length ? `
 <section>
   <h2>${escapeHtml(page.sectionsTitle)}</h2>
@@ -847,6 +857,44 @@ ${renderSharedSystems(page.sharedSystems || {}, { achievements, leaderboards, co
   </div>
 </section>
 </main>`;
+}
+
+function renderContentSections(sections) {
+
+  if (!Array.isArray(sections) || !sections.length) return "";
+
+  return sections.map(section => `
+
+<section>
+
+  <h2>${escapeHtml(section.heading || section.title)}</h2>
+
+  <div class="card">
+
+    ${(section.paragraphs || []).map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+
+    ${Array.isArray(section.list) ? `
+
+      <ul>
+
+        ${section.list.map(item => `<li>${escapeHtml(item)}</li>`).join("")}
+
+      </ul>
+
+    ` : ""}
+
+    ${Array.isArray(section.links) ? `
+
+      <div class="button-group">${section.links.map(actionLink).join("")}</div>
+
+    ` : ""}
+
+  </div>
+
+</section>
+
+`).join("");
+
 }
 
 function renderSharedSystems(content, data) {
@@ -1107,7 +1155,7 @@ function renderStaticPage(page) {
         ` : ""}
 
         ${Array.isArray(section.links) ? `
-          <p>${section.links.map(actionLink).join("")}</p>
+          <div class="button-group">${section.links.map(actionLink).join("")}</div>
         ` : ""}
       </div>
     </section>

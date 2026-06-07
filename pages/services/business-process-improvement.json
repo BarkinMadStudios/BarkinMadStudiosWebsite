@@ -1,0 +1,62 @@
+{
+	"title": "Business Process Improvement",
+	"description": "Identify inefficiencies, streamline workflows, and use technology to improve business operations.",
+	"heroTitle": "Business Process Improvement",
+	"heroSubtitle": "Helping organisations work smarter, not harder.",
+	"sections": [
+		{
+			"heading": "Simplify Processes and Improve Efficiency",
+			"content": [
+				"Many organisations still rely on manual processes, spreadsheets, emails, and disconnected systems.",
+				"BarkinMad Studios helps identify opportunities to improve efficiency through practical software and workflow improvements."
+			]
+		},
+		{
+			"heading": "Common Challenges",
+			"content": [
+				"Duplicate data entry",
+				"Manual reporting",
+				"Inefficient approval processes",
+				"Spreadsheet dependency",
+				"Limited operational visibility",
+				"Poor system integration",
+				"Repetitive administrative tasks"
+			]
+		},
+		{
+			"heading": "Understanding Existing Processes",
+			"content": [
+				"Improvement begins with understanding how work is currently performed.",
+				"Process reviews help identify bottlenecks, inefficiencies, and opportunities for automation."
+			]
+		},
+		{
+			"heading": "Technology as an Enabler",
+			"content": [
+				"Workflow automation",
+				"Reporting improvements",
+				"Internal business tools",
+				"Dashboard development",
+				"Process redesign",
+				"System integration",
+				"Data consolidation"
+			]
+		},
+		{
+			"heading": "Why BarkinMad Studios?",
+			"content": [
+				"20+ years technology experience.",
+				"Independent UK software developer.",
+				"Real-world products actively developed and maintained.",
+				"Direct communication throughout every project.",
+				"Flexible engagement for startups and small businesses."
+			]
+		}
+	],
+	"cta": {
+		"title": "Improve Your Processes",
+		"content": "Discover opportunities to streamline operations, reduce manual effort, and improve visibility across your organisation.",
+		"buttonText": "Contact BarkinMad Studios",
+		"buttonLink": "/contact"
+	}
+}

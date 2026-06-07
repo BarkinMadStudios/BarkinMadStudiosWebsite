@@ -14,6 +14,13 @@
 			]
 		},
 		{
+			"heading": "Who We Work With",
+			"paragraphs": [
+				"BarkinMad Studios is particularly well suited to small businesses, startups, independent professionals, and organisations looking for focused software development support.",
+				"Projects can be tailored to fit specific requirements, budgets, and timelines without the overhead associated with larger development agencies."
+			]
+		},
+		{
 			"heading": "Software Consultancy & Solution Design",
 			"paragraphs": [
 				"Successful software projects begin with understanding requirements, identifying challenges, and selecting the right technical approach.",
@@ -83,13 +90,6 @@
 					"label": "Explore The ZX Series",
 					"href": "/zx-series"
 				}
-			]
-		},
-		{
-			"heading": "Who We Work With",
-			"paragraphs": [
-				"BarkinMad Studios is particularly well suited to small businesses, startups, independent professionals, and organisations looking for focused software development support.",
-				"Projects can be tailored to fit specific requirements, budgets, and timelines without the overhead associated with larger development agencies."
 			]
 		},
 		{
