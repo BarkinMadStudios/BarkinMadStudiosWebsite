@@ -8,6 +8,45 @@
 		"alt": "Custom software development workspace with mobile apps, dashboards and business solutions"
 	},
 	"description": "Custom software development, mobile app development, workflow automation, dashboards, business tools, prototypes, proof of concepts, websites, and iPhone/iPad app development from BarkinMad Studios.",
+	"servicePagesTitle": "Services",
+	"servicePages": [
+		{
+			"title": "Custom Software Development",
+			"description": "Custom software solutions designed around your business requirements, workflows, and operational processes.",
+			"href": "/services/custom-software-development",
+			"actionLabel": "View Service"
+		},
+		{
+			"title": "Mobile App Development",
+			"description": "Native iPhone and iPad application development from concept through to App Store release.",
+			"href": "/services/mobile-app-development",
+			"actionLabel": "View Service"
+		},
+		{
+			"title": "Internal Business Tools",
+			"description": "Custom business tools designed to improve efficiency, reduce administration, and support day-to-day operations.",
+			"href": "/services/internal-business-tools",
+			"actionLabel": "View Service"
+		},
+		{
+			"title": "Business Process Improvement",
+			"description": "Identify inefficiencies, streamline workflows, and use technology to improve business operations.",
+			"href": "/services/business-process-improvement",
+			"actionLabel": "View Service"
+		},
+		{
+			"title": "Websites & Content Platforms",
+			"description": "Modern websites and content-driven platforms designed for performance, flexibility, and long-term growth.",
+			"href": "/services/websites-content-platforms",
+			"actionLabel": "View Service"
+		},
+		{
+			"title": "Prototypes & Proof of Concepts",
+			"description": "Validate ideas, reduce risk, and explore opportunities before committing to full product development.",
+			"href": "/services/prototypes-proof-of-concepts",
+			"actionLabel": "View Service"
+		}
+	],
 	
 	"sections": [
 		{

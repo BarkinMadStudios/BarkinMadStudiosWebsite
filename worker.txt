@@ -134,6 +134,14 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   if (path === "/contact") return staticJsonPage("contact");
   if (path === "/services") return staticJsonPage("services");
 
+  if (path === "/services/custom-sofware-development") {
+    return Response.redirect(`${url.origin}/services/custom-software-development`, 301);
+  }
+
+  if (path.startsWith("/services/")) {
+    return serviceJsonPage(path.replace("/services/", ""));
+  }
+
   if (path.startsWith("/apps/")) {
     return appJsonPage(path.replace("/apps/", ""));
   }
@@ -742,6 +750,24 @@ function renderAppCollection(section) {
 </div>`;
 }
 
+function renderLinkCards(title, items) {
+  if (!Array.isArray(items) || !items.length) return "";
+
+  return `
+<section>
+  ${title ? `<h2>${escapeHtml(title)}</h2>` : ""}
+  <div class="grid">
+    ${items.map(item => `
+      <div class="card">
+        <h3>${escapeHtml(item.title || item.heading || item.label || "")}</h3>
+        ${item.description ? `<p>${escapeHtml(item.description)}</p>` : ""}
+        ${item.href ? `<a class="btn" href="${escapeHtml(item.href)}">${escapeHtml(item.actionLabel || item.buttonText || "View Service")}</a>` : ""}
+      </div>
+    `).join("")}
+  </div>
+</section>`;
+}
+
 function emptyStateCard(text) {
   return text ? `<div class="card"><p>${escapeHtml(text)}</p></div>` : "";
 }
@@ -1131,6 +1157,94 @@ function renderStringListSection(title, items) {
 </section>`;
 }
 
+async function serviceJsonPage(slug) {
+  const serviceSlug = String(slug || "").trim();
+  if (!/^[a-z0-9-]+$/.test(serviceSlug)) {
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
+  }
+
+  const service = await fetchJson(`${PAGES_BASE}/services/${serviceSlug}.json`);
+
+  if (!service) {
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), {
+      canonicalPath: `/services/${serviceSlug}`,
+      robots: "noindex,follow"
+    }, 404);
+  }
+
+  const heroPage = {
+    ...service,
+    hero: {
+      ...(service.hero || {}),
+      image: service.hero?.image || "/images/service-bg-banner.png"
+    }
+  };
+
+  return pageResponse(`${service.title} - BarkinMad Studios`, renderServicePage(heroPage), {
+    canonicalPath: `/services/${serviceSlug}`,
+    description: service.description,
+    image: pageHeroImage(heroPage, `${IMAGE_BASE}/service-bg-banner.png`),
+    structuredData: [
+      organizationSchema(),
+      breadcrumbSchema([
+        { name: "Home", path: "/" },
+        { name: "Services", path: "/services" },
+        { name: service.title, path: `/services/${serviceSlug}` }
+      ])
+    ]
+  });
+}
+
+function renderServicePage(service) {
+  return `
+<section class="hero hero-retro"${heroBackgroundStyle(service)}>
+  <h2>${escapeHtml(service.heroTitle || service.heading || service.title)}</h2>
+  ${service.heroSubtitle || service.description ? `<p>${escapeHtml(service.heroSubtitle || service.description)}</p>` : ""}
+</section>
+
+<main>
+  ${Array.isArray(service.sections) ? service.sections.map(section => `
+    <section>
+      <h2>${escapeHtml(section.heading || section.title)}</h2>
+      <div class="card">
+        ${renderServiceSectionContent(section)}
+      </div>
+    </section>
+  `).join("") : ""}
+
+  ${service.cta ? `
+    <section>
+      <h2>${escapeHtml(service.cta.title)}</h2>
+      <div class="card">
+        ${service.cta.content ? `<p>${escapeHtml(service.cta.content)}</p>` : ""}
+        ${actionLink({ label: service.cta.buttonText, href: service.cta.buttonLink })}
+      </div>
+    </section>
+  ` : ""}
+</main>`;
+}
+
+function renderServiceSectionContent(section) {
+  const paragraphs = Array.isArray(section.paragraphs) ? section.paragraphs : [];
+  const list = Array.isArray(section.list) ? section.list : [];
+  const content = Array.isArray(section.content) ? section.content : [];
+
+  if (paragraphs.length || list.length) {
+    return `
+      ${paragraphs.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+      ${list.length ? `<ul>${list.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+      ${Array.isArray(section.links) ? `<div class="button-group">${section.links.map(actionLink).join("")}</div>` : ""}
+    `;
+  }
+
+  if (!content.length) return "";
+
+  const shouldRenderAsList = content.length > 2;
+  return shouldRenderAsList
+    ? `<ul>${content.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`
+    : content.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("");
+}
+
 async function staticJsonPage(slug) {
   const page = await fetchJson(`${PAGES_BASE}/${slug}.json`);
 
@@ -1156,6 +1270,8 @@ function renderStaticPage(page) {
 </section>
 
 <main>
+  ${renderLinkCards(page.servicePagesTitle, page.servicePages)}
+
   ${page.sections.map(section => `
     <section>
       <h2>${escapeHtml(section.heading || section.title)}</h2>
@@ -1356,6 +1472,14 @@ async function sitemapResponse() {
   for (const app of apps) {
     if (app.slug) {
       urls.push({ path: `/apps/${app.slug}`, changefreq: "monthly", priority: "0.8" });
+    }
+  }
+
+  const services = await fetchJson(`${PAGES_BASE}/services.json`);
+  const servicePages = Array.isArray(services?.servicePages) ? services.servicePages : [];
+  for (const service of servicePages) {
+    if (service.href) {
+      urls.push({ path: service.href, changefreq: "monthly", priority: "0.8" });
     }
   }
 
