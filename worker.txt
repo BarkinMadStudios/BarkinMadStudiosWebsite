@@ -12,6 +12,7 @@ const IMAGE_BASE = `${REPO_BASE}/images`;
 const NEWS_BASE = `${REPO_BASE}/news`;
 const PAGES_BASE = `${REPO_BASE}/pages`;
 const DATA_BASE = `${PAGES_BASE}/data`;
+const SITE_LASTMOD = "2026-06-07";
 
 const DEFAULT_SITE = {
   name: "BarkinMad Studios",
@@ -1622,13 +1623,13 @@ async function sitemapResponse() {
     { path: "/privacy", changefreq: "yearly", priority: "0.5" },
     { path: "/cookies", changefreq: "yearly", priority: "0.5" },
     { path: "/contact", changefreq: "monthly", priority: "0.7" }
-  ];
+  ].map(url => ({ ...url, lastmod: SITE_LASTMOD }));
 
   const apps = await getApps();
 
   for (const app of apps) {
     if (app.slug) {
-      urls.push({ path: `/apps/${app.slug}`, changefreq: "monthly", priority: "0.8" });
+      urls.push({ path: `/apps/${app.slug}`, changefreq: "monthly", priority: "0.8", lastmod: SITE_LASTMOD });
     }
   }
 
@@ -1636,7 +1637,7 @@ async function sitemapResponse() {
   const servicePages = Array.isArray(services?.servicePages) ? services.servicePages : [];
   for (const service of servicePages) {
     if (service.href) {
-      urls.push({ path: service.href, changefreq: "monthly", priority: "0.8" });
+      urls.push({ path: service.href, changefreq: "monthly", priority: "0.8", lastmod: SITE_LASTMOD });
     }
   }
 
