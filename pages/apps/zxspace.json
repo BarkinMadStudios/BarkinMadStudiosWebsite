@@ -6,7 +6,7 @@
 		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
 	},
 	"shortDescription": "Inspired by classic 1980s space shooters.",
-	"description": "ZXSpace is a retro-inspired arcade space shooter featuring fast paced gameplay, enemy waves, unlockable upgrades, achievements, and classic 1980s inspired visuals.",
+	"description": "ZXSpace is part of the [ZX Series](/zx-series), a retro-inspired arcade space shooter featuring fast paced gameplay, enemy waves, unlockable upgrades, achievements, and classic 1980s inspired visuals.",
 	
 	"status": "Coming Soon",
 	
@@ -54,7 +54,7 @@
 	
 	"barkinMadCoins": {
 		"enabled": true,
-		"description": "Earn BarkinMad Coins through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+		"description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
 	},
 	
 	"supportedPlatforms": [

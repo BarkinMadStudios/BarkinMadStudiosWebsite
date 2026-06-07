@@ -6,7 +6,7 @@
 		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
 	},
 	"shortDescription": "A classic brick-breaking arcade game with power-ups, themes, achievements, and BarkinMad Coins.",
-	"description": "ZXBrick is a retro-inspired brick-breaking arcade game featuring 100 handcrafted levels, powerful upgrades, achievements, unlockable themes, BarkinMad Coins, and fast-paced gameplay inspired by the golden age of arcade gaming.",
+	"description": "ZXBrick is part of the [ZX Series](/zx-series), a retro-inspired brick-breaking arcade game featuring 100 handcrafted levels, powerful upgrades, achievements, unlockable themes, BarkinMad Coins, and fast-paced gameplay inspired by the golden age of arcade gaming.",
 
 	"status": "Live",
 	
@@ -59,7 +59,7 @@
 	
 	"barkinMadCoins": {
 		"enabled": true,
-		"description": "Earn BarkinMad Coins through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+		"description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
 	},
 	
 	"supportedPlatforms": [

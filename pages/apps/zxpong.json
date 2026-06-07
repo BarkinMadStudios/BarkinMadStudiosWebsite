@@ -6,7 +6,7 @@
 		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
 	},
 	"shortDescription": "Inspired by the classic 1970s arcade paddle game.",
-	"description": "ZXPong is a retro-inspired arcade paddle game featuring fast paced rallies, AI opponents, local multiplayer, online multiplayer, unlockable cosmetics, achievements, and classic retro visuals inspired by the golden age of arcade gaming.",
+	"description": "ZXPong is part of the [ZX Series](/zx-series), a retro-inspired arcade paddle game featuring fast paced rallies, AI opponents, local multiplayer, online multiplayer, unlockable cosmetics, achievements, and classic retro visuals inspired by the golden age of arcade gaming.",
 
 	"status": "Coming Soon",
 
@@ -56,7 +56,7 @@
 
 	"barkinMadCoins": {
 		"enabled": true,
-		"description": "Earn BarkinMad Coins through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+		"description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
 	},
 
 	"supportedPlatforms": [

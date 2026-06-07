@@ -3,14 +3,24 @@
 	"date": "2026-05-30",
 	"image": "image.png",
 	"content": [
-		"Players can expect retro-inspired visuals, arcade-style action, enemy waves, power-ups, achievements, leaderboards, and the fast-paced gameplay that helped define classic space shooters.",
+		"Development continues on [ZXSpace](/apps/zxspace), the upcoming retro-inspired space shooter from BarkinMad Studios and the next planned entry in the growing [ZX Series](/zx-series).",
 		
-		"[ZXSpace](/apps/zxspace) is part of the growing [ZX Series](/zx-series), a connected collection of retro-inspired games from BarkinMad Studios featuring shared achievements, leaderboards, BarkinMad Coins, and cross-game progression systems.",
+		"Inspired by classic arcade space shooters, the goal of the project is to capture the fast-paced action, simple controls, and score-chasing gameplay that made the genre so popular while introducing modern features expected by today's players.",
 		
-		"Development is currently focused on refining gameplay, balancing enemy encounters, expanding progression systems, and ensuring the game delivers the pick-up-and-play experience expected from classic arcade titles.",
+		"From the beginning, the focus has been on creating a game that is easy to pick up and play while still offering enough challenge and progression to encourage repeated play sessions. Like other titles in the [ZX Series](/zx-series), the design philosophy centres around accessibility, replayability, and quick arcade-style gameplay.",
 		
-		"As development continues, additional features, content, and gameplay details will be revealed ahead of ZXSpace's future release on the App Store.",
+		"Players can expect retro-inspired visuals, enemy waves, power-ups, score multipliers, achievements, leaderboards, and increasingly difficult encounters designed to test both reflexes and strategy. The objective is to create a game that feels familiar to fans of classic arcade shooters while remaining enjoyable on modern mobile devices.",
 		
-		"Follow the latest news from BarkinMad Studios and the [ZX Series](/zx-series) for future updates on [ZXSpace](/apps/zxspace) and other upcoming retro arcade projects."
+		"Current development work is focused on refining core gameplay systems, balancing enemy behaviour, improving progression mechanics, and ensuring that every game session feels rewarding regardless of whether a player survives for a few seconds or reaches the highest waves.",
+		
+		"As with previous titles such as [ZXSnake](/apps/zxsnake) and [ZXBrick](/apps/zxbrick), many shared systems are being integrated into [ZXSpace](/apps/zxspace). This includes support for achievements, leaderboards, localisation, progression tracking, and BarkinMad Coins. Reusing proven systems allows development effort to remain focused on creating unique gameplay experiences while maintaining consistency across the wider [ZX Series](/zx-series).",
+		
+		"The project also provides an opportunity to continue expanding the shared technology that powers the ZX ecosystem. Improvements made during development will help support future games while ensuring players benefit from a consistent experience across the series.",
+		
+		"One of the key goals for [ZXSpace](/apps/zxspace) is long-term replayability. Arcade games are at their best when players continually return to improve their scores, learn new strategies, and challenge themselves to reach higher levels. Balancing that challenge while keeping the game accessible remains an important part of the development process.",
+		
+		"Although development is still ongoing, the foundations of the game are now taking shape. Each development milestone helps bring the project closer to release while also providing valuable feedback for future ZX Series titles.",
+		
+		"Additional gameplay details, screenshots, and feature announcements will be shared as development progresses. Follow the latest news from BarkinMad Studios and the [ZX Series](/zx-series) for future updates on [ZXSpace](/apps/zxspace) and other upcoming retro-inspired arcade games."
 	]
 }

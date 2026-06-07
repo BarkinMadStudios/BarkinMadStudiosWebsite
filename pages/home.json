@@ -1,6 +1,6 @@
 {
 	"heading": "Retro Games & Mobile Apps",
-	"intro": "Retro-inspired arcade games and modern mobile apps for iPhone and iPad.",
+	"intro": "Retro-inspired arcade games and modern [mobile apps](/services/mobile-app-development) for iPhone and iPad.",
 	"hero": {
 		"image": "/images/home-bg-banner.png",
 		"alt": "Retro arcade gaming and software development workspace at BarkinMad Studios"
@@ -24,7 +24,7 @@
 	"sections": [
 		{
 			"title": "Apps",
-			"description": "Browse BarkinMad Studios games and apps, including retro arcade titles, shared game systems, and darts scoring tools.",
+			"description": "Browse BarkinMad Studios games and [apps](/apps), including retro arcade titles, shared game systems, and darts scoring tools.",
 			"action": {
 				"label": "View Apps",
 				"href": "/apps"

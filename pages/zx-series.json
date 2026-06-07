@@ -24,7 +24,7 @@
 	"overviewTitle": "ZX Series Overview",
 	"sharedSystems": {
 		"title": "Shared Game Systems",
-		"intro": "Supported ZX Series games can share achievements, leaderboards, BarkinMad Coins, PvP modes, and roadmap features across the BarkinMad Studios ecosystem.",
+		"intro": "Supported ZX Series games such as [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong) can share achievements, leaderboards, BarkinMad Coins, PvP modes, and roadmap features across the BarkinMad Studios ecosystem.",
 		"gamesTitle": "Games",
 		"achievementsTitle": "Shared Achievements",
 		"leaderboardsTitle": "Shared Leaderboards",

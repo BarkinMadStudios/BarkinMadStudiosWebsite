@@ -7,7 +7,7 @@
 		"image": "/images/service-bg-banner.png",
 		"alt": "Custom software development workspace with mobile apps, dashboards and business solutions"
 	},
-	"description": "Custom software development, mobile app development, workflow automation, dashboards, business tools, prototypes, proof of concepts, websites, and iPhone/iPad app development from BarkinMad Studios.",
+	"description": "[Custom software development](/services/custom-software-development), [mobile app development](/services/mobile-app-development), workflow automation, dashboards, [business tools](/services/internal-business-tools), prototypes, proof of concepts, websites, and iPhone/iPad app development from BarkinMad Studios.",
 	"servicePagesTitle": "Services",
 	"servicePages": [
 		{
@@ -52,7 +52,7 @@
 		{
 			"heading": "Custom Software Development",
 			"paragraphs": [
-				"BarkinMad Studios develops custom software solutions tailored to specific business requirements.",
+				"BarkinMad Studios develops [custom software solutions](/services/custom-software-development) tailored to specific business requirements.",
 				"Whether you need an internal tool, customer-facing application, reporting platform, management dashboard, workflow system, or specialist software, projects are designed to solve real business problems while remaining easy to maintain and expand."
 			]
 		},
@@ -74,7 +74,7 @@
 		{
 			"heading": "Mobile App Development",
 			"paragraphs": [
-				"Native iPhone and iPad applications can be designed and developed from concept through to App Store release.",
+				"[Native iPhone and iPad applications](/services/mobile-app-development) can be designed and developed from concept through to App Store release.",
 				"Experience includes cloud-connected services, analytics, localisation, achievements, leaderboards, subscriptions, in-app purchases, shared progression systems, and long-term product support.",
 				"Projects can range from simple utility apps through to feature-rich consumer products."
 			]
@@ -83,7 +83,7 @@
 			"heading": "Prototypes & Proof of Concepts",
 			"paragraphs": [
 				"Not every idea requires a full product build immediately.",
-				"Rapid prototypes and proof-of-concept applications help validate ideas, demonstrate functionality, gather feedback, and reduce risk before committing to larger investments.",
+				"[Rapid prototypes and proof-of-concept applications](/services/prototypes-proof-of-concepts) help validate ideas, demonstrate functionality, gather feedback, and reduce risk before committing to larger investments.",
 				"These early-stage builds are ideal for startups, internal innovation projects, and organisations exploring new opportunities."
 			]
 		},
@@ -91,14 +91,14 @@
 			"heading": "Business Process Improvement",
 			"paragraphs": [
 				"Many organisations still rely on spreadsheets, emails, manual processes, or disconnected systems to manage important workflows.",
-				"BarkinMad Studios can help identify opportunities to simplify operations, improve reporting, reduce repetitive tasks, and create software that supports day-to-day business activities.",
+				"BarkinMad Studios can help identify opportunities to simplify operations, improve reporting, reduce repetitive tasks, and create software that supports [business process improvement](/services/business-process-improvement).",
 				"The objective is to improve efficiency while keeping solutions practical and easy to use."
 			]
 		},
 		{
 			"heading": "Internal Business Tools",
 			"paragraphs": [
-				"Custom business tools can help teams work more effectively and reduce administrative overhead.",
+				"[Custom business tools](/services/internal-business-tools) can help teams work more effectively and reduce administrative overhead.",
 				"Examples include reporting dashboards, workflow tracking systems, approval processes, operational management tools, administration portals, customer databases, and lightweight automation platforms.",
 				"Solutions are designed around the way teams actually work rather than forcing processes into generic software."
 			]
@@ -106,7 +106,7 @@
 		{
 			"heading": "Websites & Content Platforms",
 			"paragraphs": [
-				"BarkinMad Studios can develop lightweight websites, content-driven platforms, JSON-powered systems, and custom web applications.",
+				"BarkinMad Studios can develop lightweight [websites and content-driven platforms](/services/websites-content-platforms), JSON-powered systems, and custom web applications.",
 				"Projects focus on performance, maintainability, search engine visibility, content management, and long-term flexibility."
 			]
 		},

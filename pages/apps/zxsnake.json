@@ -6,7 +6,7 @@
 		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
 	},
 	"shortDescription": "Inspired by classic 1980s gaming.",
-	"description": "ZXSnake is a retro-inspired arcade snake game featuring classic gameplay, unlockable themes, achievements, and modern controls with a nostalgic ZX Spectrum inspired visual style.",
+	"description": "ZXSnake is part of the [ZX Series](/zx-series), a retro-inspired arcade snake game featuring classic gameplay, unlockable themes, achievements, and modern controls with a nostalgic ZX Spectrum inspired visual style.",
 	
 	"status": "Live",
 	
@@ -58,7 +58,7 @@
 	
 	"barkinMadCoins": {
 		"enabled": true,
-		"description": "Earn BarkinMad Coins through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+		"description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
 	},
 	
 	"supportedPlatforms": [

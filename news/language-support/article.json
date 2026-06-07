@@ -3,19 +3,29 @@
 	"date": "2026-05-29",
 	"image": "image.png",
 	"content": [
-		"That's why every game in the [ZX Series](/zx-series) includes support for 32 languages. Whether you're playing [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), or future titles currently in development, localisation is built in from the very beginning.",
+		"One of the goals behind the [ZX Series](/zx-series) has always been to make retro-inspired games accessible to as many players as possible. While gameplay may be universal, language can often become a barrier that prevents players from fully understanding features, achievements, menus, and progression systems.",
 		
-		"Language support extends beyond the game itself. Menus, achievements, Game Center content, App Store listings, instructions, and future updates are all translated to help create a consistent experience for players worldwide.",
+		"To help address this, every game in the growing [ZX Series](/zx-series) includes support for 32 languages. Whether players are enjoying [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), or future titles currently in development, localisation is considered an important part of the overall player experience.",
 		
-		"Supporting multiple languages allows players to enjoy the games more comfortably and removes barriers that might otherwise prevent someone from fully understanding gameplay features, achievements, or progression systems.",
+		"Supporting multiple languages goes far beyond simply translating menu text. Modern games contain achievements, tutorials, settings screens, descriptions, notifications, Game Center content, App Store listings, and ongoing updates. Providing a consistent experience across all of these areas requires careful planning throughout development.",
 		
-		"The [ZX Series](/zx-series) currently supports players across Europe, North America, South America, Asia, and many other regions. Languages include English, French, German, Spanish, Italian, Portuguese, Brazilian Portuguese, Japanese, Korean, Chinese, Dutch, Swedish, Danish, Norwegian, Finnish, Polish, Czech, Turkish, Arabic, and many more.",
+		"At BarkinMad Studios, localisation is integrated into the development process from the beginning rather than being treated as a feature that is added shortly before release. This approach makes it easier to maintain consistency as new features, achievements, and content updates are introduced.",
 		
-		"Localisation has become a core part of the development process. New features, achievements, and content updates are designed with multi-language support in mind from day one rather than being added later.",
+		"The decision to support 32 languages was driven by the belief that games should be accessible to players around the world. Mobile gaming is a global market, and many players naturally prefer using applications in their native language whenever possible. Providing that option helps create a more welcoming and enjoyable experience.",
 		
-		"While the games may be inspired by the golden age of arcade gaming, players today expect a modern experience. Supporting 32 languages helps ensure that retro-inspired gameplay can be enjoyed by as many people as possible.",
+		"The ZX Series currently supports players across Europe, North America, South America, Asia, and many other regions. Supported languages include English, French, German, Spanish, Italian, Portuguese, Brazilian Portuguese, Dutch, Swedish, Danish, Norwegian, Finnish, Polish, Czech, Turkish, Arabic, Japanese, Korean, Simplified Chinese, Traditional Chinese, and many others.",
 		
-		"As the [ZX Series](/zx-series) continues to grow, BarkinMad Studios remains committed to expanding and maintaining language support so players everywhere can enjoy classic arcade action in their own language."
+		"One challenge when localising games is ensuring that translated content remains clear and readable across different screen sizes. Some languages require significantly more space than others, while certain phrases may need to be adapted to fit within user interface elements without losing their meaning.",
+		
+		"Testing also becomes increasingly important as the number of supported languages grows. Menus, achievements, settings, gameplay messages, and onboarding experiences all need to be reviewed to ensure that translations display correctly and provide a consistent user experience.",
+		
+		"The introduction of shared systems such as achievements, leaderboards, progression tracking, and BarkinMad Coins adds additional localisation requirements. Every player should be able to understand how these systems work regardless of their chosen language, helping create a consistent experience across the wider [ZX Series](/zx-series).",
+		
+		"While the games themselves take inspiration from the golden age of arcade gaming, player expectations have evolved significantly. Modern mobile players expect applications to support their language, provide clear instructions, and deliver an accessible user experience from the moment they launch a game.",
+		
+		"Supporting 32 languages is part of BarkinMad Studios' commitment to accessibility, inclusivity, and player experience. By investing in localisation, the studio hopes to make retro-inspired arcade gaming available to a wider audience while ensuring players can enjoy each game in the language that feels most comfortable to them.",
+		
+		"As the [ZX Series](/zx-series) continues to grow with new games, achievements, features, and updates, BarkinMad Studios remains committed to maintaining and expanding language support so that players around the world can continue enjoying classic arcade-inspired gameplay in their own language."
 	],
 	"actions": [
 		{

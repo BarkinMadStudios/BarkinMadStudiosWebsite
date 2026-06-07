@@ -1,18 +1,28 @@
 {
-  "title": "Designing ZXBrick Power-Ups",
-  "date": "2026-04-10",
-  "image": "image.png",
-  "content": [
-	  "One of the goals during development was to ensure that no two play sessions felt exactly the same. Power-ups create moments of opportunity and strategy, encouraging players to adapt their approach as a level unfolds.",
-	  
-	  "Some power-ups help players clear bricks more efficiently, while others provide temporary advantages that can dramatically change the pace of gameplay. Deciding when and how to make use of these bonuses becomes an important part of achieving higher scores and completing difficult levels.",
-	  
-	  "Balancing power-ups required careful testing. Rewards needed to feel valuable without making levels too easy, while still giving players exciting moments that could turn a challenging run into a successful one.",
-	  
-	  "[ZXBrick](/apps/zxbrick) is part of the growing [ZX Series](/zx-series), and the design philosophy behind its power-up system reflects the broader goal of creating accessible gameplay that remains rewarding for both casual and experienced players.",
-	  
-	  "As development of the [ZX Series](/zx-series) continues, lessons learned from designing ZXBrick's power-ups help influence future games and gameplay systems across the BarkinMad Studios portfolio.",
-	  
-	  "The result is a brick-breaking experience that stays true to the classic arcade formula while adding modern mechanics that keep every level engaging and replayable."
-  ]
+	"title": "Designing ZXBrick Power-Ups",
+	"date": "2026-04-10",
+	"image": "image.png",
+	"content": [
+		"Power-ups have been an important part of brick-breaking games for decades. While the core gameplay of moving a paddle and breaking bricks remains simple, carefully designed power-ups can transform an ordinary level into a memorable experience. During development of [ZXBrick](/apps/zxbrick), creating an enjoyable and balanced power-up system became one of the project's key design challenges.",
+		
+		"One of the primary goals was ensuring that no two play sessions felt exactly the same. While level layouts provide structure and progression, power-ups introduce variety and unpredictability. Players are encouraged to react to opportunities as they appear, making decisions that can influence both their immediate survival and long-term score potential.",
+		
+		"A good power-up should feel rewarding when collected. Whether it provides additional firepower, extra balls, paddle enhancements, score bonuses, or other temporary advantages, the player should immediately recognise its value. At the same time, power-ups should not remove the challenge that makes arcade games enjoyable.",
+		
+		"Finding the right balance required extensive testing throughout development. If power-ups appeared too frequently, levels became too easy and much of the challenge disappeared. If they appeared too rarely, players missed out on the excitement and variety that power-ups are designed to create. The final system aims to provide meaningful rewards while preserving the skill-based nature of the game.",
+		
+		"Another important consideration was pacing. Power-ups help create moments of excitement that break up the rhythm of standard gameplay. A level can quickly shift from a careful battle of survival to a fast-paced sequence where bricks are cleared rapidly and scores increase dramatically. These moments often become the most memorable parts of a play session.",
+		
+		"Power-ups also add an additional layer of strategy. Experienced players learn to prioritise certain bonuses, position themselves effectively, and decide when to take risks in pursuit of a valuable reward. This creates opportunities for mastery beyond simply keeping the ball in play.",
+		
+		"One of the strengths of arcade gaming is that simple mechanics can create surprising depth. The addition of power-ups allows players to develop their own approaches and strategies without introducing unnecessary complexity. New players can enjoy the immediate benefits of a bonus, while experienced players can maximise its potential through skill and planning.",
+		
+		"Throughout development, the goal was always to remain faithful to the classic brick-breaking formula that inspired the game. [ZXBrick](/apps/zxbrick) takes inspiration from arcade favourites while introducing modern design ideas that enhance replayability and player engagement. Power-ups form an important part of that balance between nostalgia and innovation.",
+		
+		"The lessons learned while designing the power-up system have also influenced the wider [ZX Series](/zx-series). Understanding how rewards, progression, risk, and player choice interact has helped shape gameplay systems in other projects and continues to inform future development decisions.",
+		
+		"As the [ZX Series](/zx-series) expands, many of these design principles will continue to be refined and reused. While every game offers a different experience, the underlying objective remains the same: create gameplay systems that are easy to understand, rewarding to master, and enjoyable to replay.",
+		
+		"The final result is a version of [ZXBrick](/apps/zxbrick) that stays true to the spirit of classic arcade gaming while introducing enough variety to keep players engaged. Combined with achievements, leaderboards, progression systems, and future shared features across the ZX ecosystem, the power-up system helps ensure that every session offers something new to discover."
+	]
 }

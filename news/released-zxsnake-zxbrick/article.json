@@ -3,20 +3,28 @@
 	"date": "2026-05-29",
 	"image": "image.png",
 	"content": [
-		"Today marks a major milestone for BarkinMad Studios as [ZXSnake](/apps/zxsnake) and [ZXBrick](/apps/zxbrick) are now officially available on the Apple App Store.",
+		"Today marks an important milestone for BarkinMad Studios with the official release of [ZXSnake](/apps/zxsnake) and [ZXBrick](/apps/zxbrick) on the Apple App Store.",
 		
-		"Both games are inspired by the golden age of 8-bit arcade gaming while adding modern features designed for today's players. From quick gaming sessions to chasing leaderboard positions, both titles are built to capture the addictive gameplay that made classic arcade games so memorable.",
+		"The launch of these two games represents the beginning of the [ZX Series](/zx-series), a growing collection of retro-inspired arcade games designed specifically for modern mobile devices. While inspired by classic gaming experiences from the 1980s and 1990s, the goal has always been to combine the simplicity of arcade gameplay with the features and convenience expected by today's players.",
 		
-		"[ZXSnake](/apps/zxsnake) reimagines the classic snake formula with retro visuals, unlockable content, achievements, Game Center leaderboards, AI opponents, local multiplayer battles, and online player-versus-player matches.",
+		"Both projects began with a simple question: what made classic arcade games so enjoyable? The answer was not complex graphics or lengthy tutorials. Instead, it was the ability to start playing immediately, understand the objective within seconds, and continually challenge yourself to improve. That philosophy has influenced every aspect of the ZX Series.",
 		
-		"[ZXBrick](/apps/zxbrick) delivers fast-paced brick-breaking action across 100 handcrafted levels. Players can collect powerful upgrades, unlock achievements, compete for high scores, and experience a modern take on a timeless arcade classic.",
+		"[ZXSnake](/apps/zxsnake) reimagines one of gaming's most recognisable concepts. Players guide their snake through increasingly challenging gameplay while chasing higher scores, unlocking achievements, and competing against others through Game Center leaderboards. The game also introduces additional features including AI opponents, local multiplayer battles, and online player-versus-player matches.",
 		
-		"Both games feature full Game Center integration, achievement systems, leaderboard support, and localisation across 32 languages, allowing players around the world to enjoy the experience in their preferred language.",
+		"[ZXBrick](/apps/zxbrick) takes inspiration from classic brick-breaking arcade games while introducing modern progression systems and content. Featuring 100 handcrafted levels, unlockable achievements, score challenges, and power-ups, the game is designed to provide quick play sessions while rewarding long-term mastery.",
 		
-		"[ZXSnake](/apps/zxsnake) and [ZXBrick](/apps/zxbrick) are the first live releases in the connected [ZX Series](/zx-series), a collection of retro-inspired arcade games featuring shared achievements, leaderboards, BarkinMad Coins, and cross-game progression.",
+		"Although each game offers a different gameplay experience, they share a common design philosophy. Fast loading times, simple controls, clear objectives, and replayability remain at the heart of every ZX Series title. The intention is to create games that players can enjoy for a few minutes or return to repeatedly as they chase new achievements and high scores.",
 		
-		"Development is already underway on [ZXSpace](/apps/zxspace), a retro-inspired arcade space shooter that will continue expanding the [ZX Series](/zx-series) and bring even more classic arcade experiences to modern mobile devices.",
+		"Both games include full Game Center integration, achievement systems, leaderboard support, localisation across 32 languages, and a growing collection of shared technologies that will support future releases. These systems provide the foundation for a connected ecosystem of games rather than a collection of isolated titles.",
 		
-		"Thank you to everyone who has supported BarkinMad Studios throughout development. Download [ZXSnake](/apps/zxsnake) and [ZXBrick](/apps/zxbrick) today and start your journey to the top of the leaderboards."
+		"The release of [ZXSnake](/apps/zxsnake) and [ZXBrick](/apps/zxbrick) is also an important technical milestone. Many of the shared systems developed during these projects—including progression tracking, achievements, multiplayer services, localisation support, and future wallet functionality—will continue to evolve as additional ZX Series games are released.",
+		
+		"The long-term vision extends beyond these first two titles. Future games including [ZXSpace](/apps/zxspace) and [ZXPong](/apps/zxpong) are already in development, with additional concepts planned for the years ahead. Each new release will contribute towards a broader ecosystem featuring shared achievements, leaderboards, progression systems, and [BarkinMad Coins](/zx-series).",
+		
+		"Launching any application is a significant moment for an independent developer, but releasing the first titles in a new series is particularly special. These games represent countless hours of planning, development, testing, refinement, and learning. They also provide the foundation upon which future BarkinMad Studios projects will be built.",
+		
+		"Most importantly, this release is only the beginning. Player feedback, ongoing updates, new features, and future games will continue shaping the [ZX Series](/zx-series) as it grows into a larger collection of connected retro-inspired experiences.",
+		
+		"Thank you to everyone who has supported BarkinMad Studios throughout development. Whether you are playing for a few minutes during a break or competing for a place at the top of the leaderboards, we hope you enjoy [ZXSnake](/apps/zxsnake) and [ZXBrick](/apps/zxbrick) as much as we enjoyed creating them."
 	]
 }
