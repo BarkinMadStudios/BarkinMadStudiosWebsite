@@ -98,7 +98,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     return pageResponse(page.seoTitle || `${page.title} | BarkinMad Studios`, await appsPage(page), {
       canonicalPath: "/apps",
       description: page.description,
-      image: `${IMAGE_BASE}/retro-banner.png`
+      image: pageHeroImage(page, `${IMAGE_BASE}/retro-banner.png`)
     });
   }
 
@@ -109,7 +109,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     return pageResponse(page.seoTitle || `${page.title} | BarkinMad Studios`, await nonZxAppsPage(page), {
       canonicalPath: "/apps/non-zx",
       description: page.description || page.intro,
-      image: `${IMAGE_BASE}/retro-banner.png`
+      image: pageHeroImage(page, `${IMAGE_BASE}/retro-banner.png`)
     });
   }
 
@@ -120,7 +120,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     return pageResponse(page.seoTitle || `${page.title} | BarkinMad Studios`, await zxSeriesPage(page), {
       canonicalPath: "/zx-series",
       description: page.description,
-      image: `${IMAGE_BASE}/retro-banner.png`
+      image: pageHeroImage(page, `${IMAGE_BASE}/retro-banner.png`)
     });
   }
 
@@ -150,7 +150,7 @@ if (path === "/news") {
     return pageResponse("News Archive - BarkinMad Studios", await newsArchivePage(), {
       canonicalPath: "/news/archive",
       description: "Older BarkinMad Studios news and development updates.",
-      image: `${IMAGE_BASE}/retro-banner.png`
+      image: `${IMAGE_BASE}/news-bg-banner.png`
     });
   }
 
@@ -688,6 +688,15 @@ function actionLink(action) {
   const href = safeLinkHref(action.href);
   if (!href) return "";
   return `<a class="btn" href="${escapeHtml(href)}">${escapeHtml(action.label)}</a>`;
+}
+
+function pageHeroImage(page, fallback) {
+  const image = String(page?.hero?.image || "").trim();
+  if (!image) return fallback;
+  if (/^https?:\/\//i.test(image)) return image;
+  if (image.startsWith("/")) return `${REPO_BASE}${image}`;
+  if (image.startsWith("images/")) return `${REPO_BASE}/${image}`;
+  return `${IMAGE_BASE}/${image}`;
 }
 
 function renderPromoSection(section) {
