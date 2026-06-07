@@ -699,6 +699,11 @@ function pageHeroImage(page, fallback) {
   return `${IMAGE_BASE}/${image}`;
 }
 
+function heroBackgroundStyle(page) {
+  const image = pageHeroImage(page, `${IMAGE_BASE}/retro-banner.png`);
+  return ` style="background-image: linear-gradient(rgba(10,10,25,0.78), rgba(10,10,25,0.9)), url('${escapeHtml(image)}');"`;
+}
+
 function renderPromoSection(section) {
   if (!section || !section.title) return "";
   const paragraphs = String(section.description || "")
@@ -757,7 +762,7 @@ async function homePage() {
   const latestPosts = getPublishedValidPosts(posts).slice(0, homepage.newsCount || 3);
 
   return `
-<section class="hero hero-home">
+<section class="hero hero-home"${heroBackgroundStyle(homepage)}>
   <img class="hero-logo" src="${IMAGE_BASE}/logos/logo-black-stacked.png" alt="BarkinMad Studios" loading="eager">
 
   <h2>${escapeHtml(homepage.heading || "Retro Games & Mobile Apps")}</h2>
@@ -792,7 +797,7 @@ async function appsPage(page) {
   const sections = Array.isArray(page.sections) ? page.sections : [];
 
   return `
-<section class="hero hero-retro">
+<section class="hero hero-retro"${heroBackgroundStyle(page)}>
   <h2>${escapeHtml(page.heading || page.title)}</h2>
   ${page.intro ? `<p>${escapeHtml(page.intro)}</p>` : ""}
 </section>
@@ -816,7 +821,7 @@ async function nonZxAppsPage(page) {
   const apps = getNonZxApps(await getApps());
 
   return `
-<section class="hero hero-retro">
+<section class="hero hero-retro"${heroBackgroundStyle(page)}>
   <h2>${escapeHtml(page.heading || page.title)}</h2>
   ${page.intro ? `<p>${escapeHtml(page.intro)}</p>` : ""}
 </section>
@@ -841,7 +846,7 @@ async function zxSeriesPage(page) {
   const games = await fetchJson(`${DATA_BASE}/games.json`) || {};
 
   return `
-<section class="hero hero-retro">
+<section class="hero hero-retro"${heroBackgroundStyle(page)}>
   <h2>${escapeHtml(page.title)}</h2>
   ${page.description ? `<p>${escapeHtml(page.description)}</p>` : ""}
 </section>
@@ -1054,7 +1059,7 @@ async function appJsonPage(slug) {
 
 function renderAppPage(app) {
   return `
-<section class="hero hero-retro">
+<section class="hero hero-retro"${heroBackgroundStyle({ hero: { image: app.heroImage } })}>
   <h2>${escapeHtml(app.title || app.name)}</h2>
   <p>${escapeHtml(app.tagline || "")}</p>
 </section>
@@ -1145,7 +1150,7 @@ async function staticJsonPage(slug) {
 
 function renderStaticPage(page) {
   return `
-<section class="hero hero-retro">
+<section class="hero hero-retro"${heroBackgroundStyle(page)}>
   <h2>${escapeHtml(page.heading || page.title)}</h2>
   ${page.intro ? `<p>${escapeHtml(page.intro)}</p>` : ""}
 </section>
