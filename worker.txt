@@ -723,7 +723,7 @@ function renderPromoSection(section) {
 <section>
   <h2>${escapeHtml(section.title)}</h2>
   <div class="card">
-    ${paragraphs.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+    ${paragraphs.map(paragraph => `<p>${renderContentParagraph(paragraph)}</p>`).join("")}
     ${actionLink(section.action)}
   </div>
 </section>`;
@@ -745,7 +745,7 @@ function renderAppCollection(section) {
   return `
 <div class="card">
   <h3>${escapeHtml(section.title)}</h3>
-  ${section.description ? `<p>${escapeHtml(section.description)}</p>` : ""}
+  ${section.description ? `<p>${renderContentParagraph(section.description)}</p>` : ""}
   ${section.href && label ? `<a class="btn" href="${escapeHtml(section.href)}">${escapeHtml(label)}</a>` : ""}
 </div>`;
 }
@@ -760,7 +760,7 @@ function renderLinkCards(title, items) {
     ${items.map(item => `
       <div class="card">
         <h3>${escapeHtml(item.title || item.heading || item.label || "")}</h3>
-        ${item.description ? `<p>${escapeHtml(item.description)}</p>` : ""}
+        ${item.description ? `<p>${renderContentParagraph(item.description)}</p>` : ""}
         ${item.href ? `<a class="btn" href="${escapeHtml(item.href)}">${escapeHtml(item.actionLabel || item.buttonText || "View Service")}</a>` : ""}
       </div>
     `).join("")}
@@ -769,7 +769,7 @@ function renderLinkCards(title, items) {
 }
 
 function emptyStateCard(text) {
-  return text ? `<div class="card"><p>${escapeHtml(text)}</p></div>` : "";
+  return text ? `<div class="card"><p>${renderContentParagraph(text)}</p></div>` : "";
 }
 
 async function homePage() {
@@ -825,7 +825,7 @@ async function appsPage(page) {
   return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
   <h2>${escapeHtml(page.heading || page.title)}</h2>
-  ${page.intro ? `<p>${escapeHtml(page.intro)}</p>` : ""}
+  ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
 <main>
@@ -849,7 +849,7 @@ async function nonZxAppsPage(page) {
   return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
   <h2>${escapeHtml(page.heading || page.title)}</h2>
-  ${page.intro ? `<p>${escapeHtml(page.intro)}</p>` : ""}
+  ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
 <main>
@@ -882,7 +882,7 @@ ${Array.isArray(page.intro) && page.intro.length ? `
 <section>
   <h2>${escapeHtml(page.tagline)}</h2>
   <div class="card">
-    ${page.intro.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+    ${page.intro.map(paragraph => `<p>${renderContentParagraph(paragraph)}</p>`).join("")}
   </div>
 </section>` : ""}
 
@@ -911,13 +911,13 @@ function renderContentSections(sections) {
 
   <div class="card">
 
-    ${(section.paragraphs || []).map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+    ${(section.paragraphs || []).map(paragraph => `<p>${renderContentParagraph(paragraph)}</p>`).join("")}
 
     ${Array.isArray(section.list) ? `
 
       <ul>
 
-        ${section.list.map(item => `<li>${escapeHtml(item)}</li>`).join("")}
+        ${section.list.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}
 
       </ul>
 
@@ -969,7 +969,7 @@ ${coins.name && content.coinsTitle ? `
 <section>
   <h2>${escapeHtml(content.coinsTitle)}</h2>
   <div class="card">
-    ${coins.description ? `<p>${escapeHtml(coins.description)}</p>` : ""}
+    ${coins.description ? `<p>${renderContentParagraph(coins.description)}</p>` : ""}
   </div>
 </section>` : ""}
 
@@ -977,7 +977,7 @@ ${Array.isArray(achievements) && achievements.length && content.achievementsTitl
 <section>
   <h2>${escapeHtml(content.achievementsTitle)}</h2>
   <div class="card">
-    <ul>${achievements.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${escapeHtml(item.description)}` : ""}</li>`).join("")}</ul>
+    <ul>${achievements.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${renderContentParagraph(item.description)}` : ""}</li>`).join("")}</ul>
   </div>
 </section>` : ""}
 
@@ -985,7 +985,7 @@ ${Array.isArray(leaderboards) && leaderboards.length && content.leaderboardsTitl
 <section>
   <h2>${escapeHtml(content.leaderboardsTitle)}</h2>
   <div class="card">
-    <ul>${leaderboards.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${escapeHtml(item.description)}` : ""}</li>`).join("")}</ul>
+    <ul>${leaderboards.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${renderContentParagraph(item.description)}` : ""}</li>`).join("")}</ul>
   </div>
 </section>` : ""}
 
@@ -993,8 +993,8 @@ ${(pvp.worldPVP || pvp.localPVP) && content.pvpTitle ? `
 <section>
   <h2>${escapeHtml(content.pvpTitle)}</h2>
   <div class="card">
-    ${pvp.localPVP && content.localPVPTitle ? `<p><strong>${escapeHtml(content.localPVPTitle)}:</strong> ${escapeHtml(pvp.localPVP.description)}</p>` : ""}
-    ${pvp.worldPVP && content.worldPVPTitle ? `<p><strong>${escapeHtml(content.worldPVPTitle)}:</strong> ${escapeHtml(pvp.worldPVP.description)}</p>` : ""}
+    ${pvp.localPVP && content.localPVPTitle ? `<p><strong>${escapeHtml(content.localPVPTitle)}:</strong> ${renderContentParagraph(pvp.localPVP.description)}</p>` : ""}
+    ${pvp.worldPVP && content.worldPVPTitle ? `<p><strong>${escapeHtml(content.worldPVPTitle)}:</strong> ${renderContentParagraph(pvp.worldPVP.description)}</p>` : ""}
   </div>
 </section>` : ""}
 
@@ -1024,9 +1024,9 @@ function renderRoadmapContent(labels, roadmap) {
 
   return `
 <h3>${escapeHtml(labels.roadmapTitle)}</h3>
-${live.length && labels.roadmapLiveTitle ? `<p><strong>${escapeHtml(labels.roadmapLiveTitle)}:</strong></p><ul>${live.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
-${development.length && labels.roadmapDevelopmentTitle ? `<p><strong>${escapeHtml(labels.roadmapDevelopmentTitle)}:</strong></p><ul>${development.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
-${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels.roadmapPlannedTitle)}:</strong></p><ul>${planned.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}`;
+${live.length && labels.roadmapLiveTitle ? `<p><strong>${escapeHtml(labels.roadmapLiveTitle)}:</strong></p><ul>${live.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}</ul>` : ""}
+${development.length && labels.roadmapDevelopmentTitle ? `<p><strong>${escapeHtml(labels.roadmapDevelopmentTitle)}:</strong></p><ul>${development.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}</ul>` : ""}
+${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels.roadmapPlannedTitle)}:</strong></p><ul>${planned.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}</ul>` : ""}`;
 }
 
 function appFullCard(app) {
@@ -1042,7 +1042,7 @@ function appFullCard(app) {
 
   <h3>${escapeHtml(app.name || app.title)}</h3>
 
-  <p>${escapeHtml(app.description || app.shortDescription || "")}</p>
+  <p>${renderContentParagraph(app.description || app.shortDescription || "")}</p>
 
   ${app.status ? `<p><strong>Status:</strong> ${escapeHtml(app.status)}</p>` : ""}
 
@@ -1087,7 +1087,7 @@ function renderAppPage(app) {
   return `
 <section class="hero hero-retro"${heroBackgroundStyle({ hero: { image: app.heroImage } })}>
   <h2>${escapeHtml(app.title || app.name)}</h2>
-  <p>${escapeHtml(app.tagline || "")}</p>
+  <p>${renderContentParagraph(app.tagline || "")}</p>
 </section>
 
 <main>
@@ -1099,7 +1099,7 @@ function renderAppPage(app) {
 
     ${app.status ? `<span class="badge">${escapeHtml(app.status)}</span>` : ""}
     ${app.shortDescription ? `<h2>${escapeHtml(app.shortDescription)}</h2>` : ""}
-    ${app.description ? `<p>${escapeHtml(app.description)}</p>` : ""}
+    ${app.description ? `<p>${renderContentParagraph(app.description)}</p>` : ""}
 
     <div style="display:flex;gap:1rem;flex-wrap:wrap;">
       ${app.appStoreUrl ? `<a class="btn" href="${escapeHtml(app.appStoreUrl)}" target="_blank" rel="noopener">View on App Store</a>` : ""}
@@ -1135,7 +1135,7 @@ ${Array.isArray(app.screenshots) && app.screenshots.length ? `
       return `
       <div class="card">
         <img class="screenshot-image" src="${IMAGE_BASE}/${escapeHtml(image)}" alt="${escapeHtml(caption || (app.title || app.name) + " screenshot")}" loading="lazy">
-        ${caption ? `<p>${escapeHtml(caption)}</p>` : ""}
+        ${caption ? `<p>${renderContentParagraph(caption)}</p>` : ""}
       </div>`;
     }).join("")}
   </div>
@@ -1151,7 +1151,7 @@ function renderStringListSection(title, items) {
   <h2>${escapeHtml(title)}</h2>
   <div class="card">
     <ul>
-      ${items.map(item => `<li>${escapeHtml(item)}</li>`).join("")}
+      ${items.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}
     </ul>
   </div>
 </section>`;
@@ -1199,7 +1199,7 @@ function renderServicePage(service) {
   return `
 <section class="hero hero-retro"${heroBackgroundStyle(service)}>
   <h2>${escapeHtml(service.heroTitle || service.heading || service.title)}</h2>
-  ${service.heroSubtitle || service.description ? `<p>${escapeHtml(service.heroSubtitle || service.description)}</p>` : ""}
+  ${service.heroSubtitle || service.description ? `<p>${renderContentParagraph(service.heroSubtitle || service.description)}</p>` : ""}
 </section>
 
 <main>
@@ -1216,7 +1216,7 @@ function renderServicePage(service) {
     <section>
       <h2>${escapeHtml(service.cta.title)}</h2>
       <div class="card">
-        ${service.cta.content ? `<p>${escapeHtml(service.cta.content)}</p>` : ""}
+        ${service.cta.content ? `<p>${renderContentParagraph(service.cta.content)}</p>` : ""}
         ${actionLink({ label: service.cta.buttonText, href: service.cta.buttonLink })}
       </div>
     </section>
@@ -1231,8 +1231,8 @@ function renderServiceSectionContent(section) {
 
   if (paragraphs.length || list.length) {
     return `
-      ${paragraphs.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
-      ${list.length ? `<ul>${list.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+      ${paragraphs.map(paragraph => `<p>${renderContentParagraph(paragraph)}</p>`).join("")}
+      ${list.length ? `<ul>${list.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}</ul>` : ""}
       ${Array.isArray(section.links) ? `<div class="button-group">${section.links.map(actionLink).join("")}</div>` : ""}
     `;
   }
@@ -1241,8 +1241,8 @@ function renderServiceSectionContent(section) {
 
   const shouldRenderAsList = content.length > 2;
   return shouldRenderAsList
-    ? `<ul>${content.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`
-    : content.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("");
+    ? `<ul>${content.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}</ul>`
+    : content.map(paragraph => `<p>${renderContentParagraph(paragraph)}</p>`).join("");
 }
 
 async function staticJsonPage(slug) {
@@ -1266,7 +1266,7 @@ function renderStaticPage(page) {
   return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
   <h2>${escapeHtml(page.heading || page.title)}</h2>
-  ${page.intro ? `<p>${escapeHtml(page.intro)}</p>` : ""}
+  ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
 <main>
@@ -1276,11 +1276,11 @@ function renderStaticPage(page) {
     <section>
       <h2>${escapeHtml(section.heading || section.title)}</h2>
       <div class="card">
-        ${(section.paragraphs || []).map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+        ${(section.paragraphs || []).map(paragraph => `<p>${renderContentParagraph(paragraph)}</p>`).join("")}
 
         ${Array.isArray(section.list) ? `
           <ul>
-            ${section.list.map(item => `<li>${escapeHtml(item)}</li>`).join("")}
+            ${section.list.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}
           </ul>
         ` : ""}
 
