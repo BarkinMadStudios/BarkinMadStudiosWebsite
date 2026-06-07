@@ -57,6 +57,10 @@
 			],
 			"links": [
 				{
+					"label": "View Portfolio",
+					"href": "/portfolio"
+				},
+				{
 					"label": "Browse Our Apps",
 					"href": "/apps/non-zx"
 				},

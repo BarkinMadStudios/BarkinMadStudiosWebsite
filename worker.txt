@@ -129,6 +129,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   }
 
   if (path === "/about") return staticJsonPage("about");
+  if (path === "/portfolio") return portfolioJsonPage();
   if (path === "/privacy") return staticJsonPage("privacy");
   if (path === "/cookies") return staticJsonPage("cookies");
   if (path === "/contact") return staticJsonPage("contact");
@@ -793,7 +794,7 @@ async function homePage() {
 
   <h2>${escapeHtml(homepage.heading || "Retro Games & Mobile Apps")}</h2>
 
-  <p>${escapeHtml(homepage.intro || "Retro-inspired arcade games and modern mobile apps for iPhone and iPad.")}</p>
+  <p>${renderContentParagraph(homepage.intro || "Retro-inspired arcade games and modern mobile apps for iPhone and iPad.")}</p>
 
   <div class="hero-actions">
     ${actions.map(action => actionLink(action)).join("")}
@@ -882,11 +883,19 @@ ${Array.isArray(page.intro) && page.intro.length ? `
 <section>
   <h2>${escapeHtml(page.tagline)}</h2>
   <div class="card">
-    ${page.intro.map(paragraph => `<p>${renderContentParagraph(paragraph)}</p>`).join("")}
+    ${renderParagraphs(page.intro)}
   </div>
 </section>` : ""}
 
-${renderStringListSection(page.overviewTitle, page.features)}
+${Array.isArray(page.overview) && page.overview.length ? `
+<section>
+  <h2>${escapeHtml(page.overviewTitle || "Overview")}</h2>
+  <div class="card">
+    ${renderParagraphs(page.overview)}
+  </div>
+</section>` : ""}
+
+${renderStringListSection(page.featuresTitle || "Series Features", page.features)}
 
 ${renderSharedSystems(page.sharedSystems || {}, { achievements, leaderboards, coins, pvp, roadmap, games })}
 
@@ -896,7 +905,17 @@ ${renderSharedSystems(page.sharedSystems || {}, { achievements, leaderboards, co
     ${apps.map(appFullCard).join("")}
   </div>
 </section>
+
+${renderContentSections(page.sections)}
 </main>`;
+}
+
+function renderParagraphs(content) {
+  const paragraphs = Array.isArray(content) ? content : (content ? [content] : []);
+  return paragraphs
+    .filter(paragraph => paragraph !== null && paragraph !== undefined && String(paragraph).trim())
+    .map(paragraph => `<p>${renderContentParagraph(paragraph)}</p>`)
+    .join("");
 }
 
 function renderContentSections(sections) {
@@ -944,8 +963,12 @@ function renderSharedSystems(content, data) {
   const pvp = data.pvp || {};
   const roadmap = data.roadmap || {};
   const games = Array.isArray(data.games?.games) ? data.games.games : [];
+  const hasAchievements = Array.isArray(achievements) && achievements.length;
+  const hasLeaderboards = Array.isArray(leaderboards) && leaderboards.length;
+  const hasCoins = Boolean(coins.name || content.coinsDescription);
+  const hasPvp = Boolean(pvp.worldPVP || pvp.localPVP || content.pvpDescription || content.localPVPDescription || content.worldPVPDescription);
 
-  if (!content.title && !achievements && !leaderboards && !coins.name && !pvp.worldPVP && !pvp.localPVP && !games.length) {
+  if (!content.title && !content.intro && !content.description && !hasAchievements && !hasLeaderboards && !hasCoins && !hasPvp && !games.length) {
     return "";
   }
 
@@ -953,7 +976,8 @@ function renderSharedSystems(content, data) {
 <section>
   <h2>${escapeHtml(content.title)}</h2>
   <div class="card">
-    ${content.intro ? `<p>${escapeHtml(content.intro)}</p>` : ""}
+    ${renderParagraphs(content.intro)}
+    ${renderParagraphs(content.description)}
   </div>
 </section>
 
@@ -965,35 +989,41 @@ ${games.length && content.gamesTitle ? `
   </div>
 </section>` : ""}
 
-${coins.name && content.coinsTitle ? `
+${hasCoins && content.coinsTitle ? `
 <section>
   <h2>${escapeHtml(content.coinsTitle)}</h2>
   <div class="card">
+    ${renderParagraphs(content.coinsDescription)}
     ${coins.description ? `<p>${renderContentParagraph(coins.description)}</p>` : ""}
   </div>
 </section>` : ""}
 
-${Array.isArray(achievements) && achievements.length && content.achievementsTitle ? `
+${(hasAchievements || content.achievementsDescription) && content.achievementsTitle ? `
 <section>
   <h2>${escapeHtml(content.achievementsTitle)}</h2>
   <div class="card">
-    <ul>${achievements.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${renderContentParagraph(item.description)}` : ""}</li>`).join("")}</ul>
+    ${renderParagraphs(content.achievementsDescription)}
+    ${hasAchievements ? `<ul>${achievements.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${renderContentParagraph(item.description)}` : ""}</li>`).join("")}</ul>` : ""}
   </div>
 </section>` : ""}
 
-${Array.isArray(leaderboards) && leaderboards.length && content.leaderboardsTitle ? `
+${(hasLeaderboards || content.leaderboardsDescription) && content.leaderboardsTitle ? `
 <section>
   <h2>${escapeHtml(content.leaderboardsTitle)}</h2>
   <div class="card">
-    <ul>${leaderboards.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${renderContentParagraph(item.description)}` : ""}</li>`).join("")}</ul>
+    ${renderParagraphs(content.leaderboardsDescription)}
+    ${hasLeaderboards ? `<ul>${leaderboards.map(item => `<li><strong>${escapeHtml(item.title || item.name || item.id)}</strong>${item.description ? ` - ${renderContentParagraph(item.description)}` : ""}</li>`).join("")}</ul>` : ""}
   </div>
 </section>` : ""}
 
-${(pvp.worldPVP || pvp.localPVP) && content.pvpTitle ? `
+${hasPvp && content.pvpTitle ? `
 <section>
   <h2>${escapeHtml(content.pvpTitle)}</h2>
   <div class="card">
+    ${renderParagraphs(content.pvpDescription)}
+    ${renderParagraphs(content.localPVPDescription)}
     ${pvp.localPVP && content.localPVPTitle ? `<p><strong>${escapeHtml(content.localPVPTitle)}:</strong> ${renderContentParagraph(pvp.localPVP.description)}</p>` : ""}
+    ${renderParagraphs(content.worldPVPDescription)}
     ${pvp.worldPVP && content.worldPVPTitle ? `<p><strong>${escapeHtml(content.worldPVPTitle)}:</strong> ${renderContentParagraph(pvp.worldPVP.description)}</p>` : ""}
   </div>
 </section>` : ""}
@@ -1024,6 +1054,7 @@ function renderRoadmapContent(labels, roadmap) {
 
   return `
 <h3>${escapeHtml(labels.roadmapTitle)}</h3>
+${renderParagraphs(labels.roadmapDescription)}
 ${live.length && labels.roadmapLiveTitle ? `<p><strong>${escapeHtml(labels.roadmapLiveTitle)}:</strong></p><ul>${live.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}</ul>` : ""}
 ${development.length && labels.roadmapDevelopmentTitle ? `<p><strong>${escapeHtml(labels.roadmapDevelopmentTitle)}:</strong></p><ul>${development.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}</ul>` : ""}
 ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels.roadmapPlannedTitle)}:</strong></p><ul>${planned.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}</ul>` : ""}`;
@@ -1262,6 +1293,109 @@ async function staticJsonPage(slug) {
   });
 }
 
+async function portfolioJsonPage() {
+  const page = await fetchJson(`${PAGES_BASE}/portfolio.json`);
+
+  if (!page) {
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
+  }
+
+  return pageResponse(page.seoTitle || `${page.title || "Portfolio"} - BarkinMad Studios`, renderPortfolioPage(page), {
+    canonicalPath: "/portfolio",
+    description: page.description || page.intro,
+    image: pageHeroImage(page, `${IMAGE_BASE}/apps-hero-banner.png`),
+    structuredData: [
+      organizationSchema(DEFAULT_SITE),
+      breadcrumbSchema([
+        { name: "Home", path: "/" },
+        { name: page.heading || page.title || "Portfolio", path: "/portfolio" }
+      ])
+    ]
+  });
+}
+
+function renderPortfolioPage(page) {
+  const sections = Array.isArray(page.sections) ? page.sections : [];
+  const projects = Array.isArray(page.projects) ? page.projects : [];
+  const actions = Array.isArray(page.actions) ? page.actions : [];
+
+  return `
+<section class="hero hero-retro"${heroBackgroundStyle(page)}>
+  <h2>${escapeHtml(page.heading || page.title || "Portfolio")}</h2>
+  ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
+</section>
+
+<main>
+  ${page.description ? `
+    <section>
+      <div class="card">
+        <p>${renderContentParagraph(page.description)}</p>
+      </div>
+    </section>
+  ` : ""}
+
+  ${renderContentSections(sections)}
+
+  ${projects.length ? `
+    <section>
+      <h2>Projects</h2>
+      <div class="grid portfolio-grid">
+        ${projects.map(renderPortfolioProjectCard).join("")}
+      </div>
+    </section>
+  ` : ""}
+
+  ${renderPortfolioConfidentiality(page.confidentiality)}
+
+  ${actions.length ? `
+    <section>
+      <div class="card">
+        <div class="button-group">${actions.map(actionLink).join("")}</div>
+      </div>
+    </section>
+  ` : ""}
+</main>`;
+}
+
+function renderPortfolioProjectCard(project) {
+  if (!project || !project.title) return "";
+  const technologies = Array.isArray(project.technologies) ? project.technologies.filter(Boolean) : [];
+
+  return `
+<div class="card portfolio-card">
+  <div>
+    ${project.status ? `<span class="badge">${renderContentParagraph(project.status)}</span>` : ""}
+    <h3>${renderContentParagraph(project.title)}</h3>
+    ${project.type ? `<p><strong>Type:</strong> ${renderContentParagraph(project.type)}</p>` : ""}
+    ${project.summary ? `<p>${renderContentParagraph(project.summary)}</p>` : ""}
+    ${project.challenge ? `<p><strong>Challenge:</strong> ${renderContentParagraph(project.challenge)}</p>` : ""}
+    ${project.solution ? `<p><strong>Solution:</strong> ${renderContentParagraph(project.solution)}</p>` : ""}
+    ${technologies.length ? `
+      <p><strong>Technologies:</strong></p>
+      <ul>
+        ${technologies.map(technology => `<li>${renderContentParagraph(technology)}</li>`).join("")}
+      </ul>
+    ` : ""}
+    ${project.outcome ? `<p><strong>Outcome:</strong> ${renderContentParagraph(project.outcome)}</p>` : ""}
+  </div>
+  ${project.href ? actionLink({ label: "View Project", href: project.href }) : ""}
+</div>`;
+}
+
+function renderPortfolioConfidentiality(confidentiality) {
+  if (!confidentiality) return "";
+  const paragraphs = Array.isArray(confidentiality.paragraphs) ? confidentiality.paragraphs : [];
+  if (!confidentiality.heading && !paragraphs.length) return "";
+
+  return `
+<section>
+  ${confidentiality.heading ? `<h2>${escapeHtml(confidentiality.heading)}</h2>` : ""}
+  <div class="card">
+    ${paragraphs.map(paragraph => `<p>${renderContentParagraph(paragraph)}</p>`).join("")}
+  </div>
+</section>`;
+}
+
 function renderStaticPage(page) {
   return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
@@ -1461,6 +1595,7 @@ async function sitemapResponse() {
     { path: "/zx-series", changefreq: "monthly", priority: "0.8" },
     { path: "/news", changefreq: "weekly", priority: "0.8" },
     { path: "/about", changefreq: "monthly", priority: "0.7" },
+    { path: "/portfolio", changefreq: "monthly", priority: "0.8" },
     { path: "/services", changefreq: "monthly", priority: "0.7" },
     { path: "/privacy", changefreq: "yearly", priority: "0.5" },
     { path: "/cookies", changefreq: "yearly", priority: "0.5" },

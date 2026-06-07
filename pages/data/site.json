@@ -21,6 +21,10 @@
 			"href": "/services"
 		},
 		{
+			"label": "Portfolio",
+			"href": "/portfolio"
+		},
+		{
 			"label": "News",
 			"href": "/news"
 		},
@@ -41,6 +45,10 @@
 		{
 			"label": "Apps",
 			"href": "/apps"
+		},
+		{
+			"label": "Portfolio",
+			"href": "/portfolio"
 		},
 		{
 			"label": "Privacy",
