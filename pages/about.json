@@ -2,6 +2,10 @@
 	"title": "About",
 	"heading": "About BarkinMad Studios",
 	"intro": "Independent retro-inspired games and mobile apps built for iPhone and iPad.",
+	"hero": {
+		"image": "/images/about-bg-banner.png",
+		"alt": "BarkinMad Studios development workspace showcasing game and software creation"
+	},
 	"sections": [
 		{
 			"heading": "Who We Are",

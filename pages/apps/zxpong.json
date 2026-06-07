@@ -1,6 +1,10 @@
 {
 	"title": "ZXPong",
 	"tagline": "Retro arcade table tennis action",
+	"hero": {
+		"image": "/images/zx-series-bg-banner.png",
+		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
+	},
 	"shortDescription": "Inspired by the classic 1970s arcade paddle game.",
 	"description": "ZXPong is a retro-inspired arcade paddle game featuring fast paced rallies, AI opponents, local multiplayer, online multiplayer, unlockable cosmetics, achievements, and classic retro visuals inspired by the golden age of arcade gaming.",
 

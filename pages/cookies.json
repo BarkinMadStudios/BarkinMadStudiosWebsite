@@ -2,6 +2,10 @@
 	"title": "Cookie Policy",
 	"heading": "Cookie Policy",
 	"intro": "This website may use cookies and similar technologies to improve functionality, analytics, and advertising services.",
+	"hero": {
+		"image": "/images/privacy-bg-banner.png",
+		"alt": "Privacy and data protection themed workspace representing security and trust"
+	},
 	"sections": [
 		{
 			"heading": "What Are Cookies",

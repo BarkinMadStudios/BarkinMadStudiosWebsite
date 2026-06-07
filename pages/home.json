@@ -1,6 +1,10 @@
 {
 	"heading": "Retro Games & Mobile Apps",
 	"intro": "Retro-inspired arcade games and modern mobile apps for iPhone and iPad.",
+	"hero": {
+		"image": "/images/home-bg-banner.png",
+		"alt": "Retro arcade gaming and software development workspace at BarkinMad Studios"
+	},
 	"actions": [
 		{
 			"label": "View Apps",

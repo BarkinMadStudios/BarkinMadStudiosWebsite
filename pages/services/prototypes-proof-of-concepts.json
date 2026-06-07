@@ -1,5 +1,9 @@
 {
 	"title": "Prototypes & Proof of Concepts",
+	"hero": {
+		"image": "",
+		"alt": ""
+	},
 	"description": "Validate ideas, reduce risk, and explore opportunities before committing to full product development.",
 	"heroTitle": "Prototypes & Proof of Concepts",
 	"heroSubtitle": "Turn ideas into working software quickly.",

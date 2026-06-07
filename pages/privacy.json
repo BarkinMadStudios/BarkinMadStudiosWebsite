@@ -2,6 +2,10 @@
 	"title": "Privacy Policy",
 	"heading": "Privacy Policy",
 	"intro": "BarkinMad Studios respects your privacy and aims to keep its apps and website simple, safe, and transparent.",
+	"hero": {
+		"image": "/images/privacy-bg-banner.png",
+		"alt": "Privacy and data protection themed workspace representing security and trust"
+	},
 	"sections": [
 		{
 			"heading": "Information Collection",

@@ -2,6 +2,10 @@
 	"title": "Apps",
 	"heading": "Apps",
 	"intro": "Browse BarkinMad Studios apps and the ZX Series.",
+	"hero": {
+		"image": "/images/apps-bg-banner.png",
+		"alt": "BarkinMad Studios games and mobile apps for entertainment and productivity"
+	},
 	"description": "Browse BarkinMad Studios app collections, including the ZX Series and standalone apps.",
 	"sectionsTitle": "Browse",
 	"content": [

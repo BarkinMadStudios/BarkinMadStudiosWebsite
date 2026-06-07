@@ -16,3 +16,6 @@ xcuserdata/
 
 # Temporary files
 *.tmp
+
+# Local audit reports
+website-improvements-audit.md

@@ -1,6 +1,10 @@
 {
 	"title": "ZXSnake",
 	"tagline": "Retro arcade snake action",
+	"hero": {
+		"image": "/images/zx-series-bg-banner.png",
+		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
+	},
 	"shortDescription": "Inspired by classic 1980s gaming.",
 	"description": "ZXSnake is a retro-inspired arcade snake game featuring classic gameplay, unlockable themes, achievements, and modern controls with a nostalgic ZX Spectrum inspired visual style.",
 	

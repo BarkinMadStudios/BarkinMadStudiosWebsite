@@ -1,6 +1,10 @@
 {
 	"title": "Game Of Darts",
 	"tagline": "Modern darts scoring companion",
+	"hero": {
+		"image": "",
+		"alt": ""
+	},
 	"shortDescription": "Track scores and games with ease.",
 	"description": "Game Of Darts is a modern darts scoring app designed to make tracking games, scores, and player progress simple and intuitive. Built for casual players and competitive matches alike.",
 	

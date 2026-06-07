@@ -1,8 +1,13 @@
 {
 	"title": "ZXBrick",
 	"tagline": "Retro brick-breaking arcade action",
+	"hero": {
+		"image": "/images/zx-series-bg-banner.png",
+		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
+	},
 	"shortDescription": "A classic brick-breaking arcade game with power-ups, themes, achievements, and BarkinMad Coins.",
 	"description": "ZXBrick is a retro-inspired brick-breaking arcade game featuring 100 handcrafted levels, powerful upgrades, achievements, unlockable themes, BarkinMad Coins, and fast-paced gameplay inspired by the golden age of arcade gaming.",
+
 	"status": "Live",
 	
 	"appStoreUrl": "https://apps.apple.com/gb/app/zxbrick/id6771886847",

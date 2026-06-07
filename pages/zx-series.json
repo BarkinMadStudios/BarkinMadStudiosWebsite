@@ -2,6 +2,10 @@
 	"title": "ZX Series",
 	"seoTitle": "ZX Series Retro Arcade Games | BarkinMad Studios",
 	"tagline": "Connected retro arcade gaming",
+	"hero": {
+		"image": "/images/zx-series-bg-banner.png",
+		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
+	},
 	"description": "Explore the BarkinMad Studios ZX Series, including retro arcade games, shared achievements, BarkinMad Coins, leaderboards, PVP features, and the ZX roadmap.",
 	
 	"intro": [

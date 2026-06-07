@@ -1,5 +1,9 @@
 {
 	"title": "Internal Business Tools",
+	"hero": {
+		"image": "",
+		"alt": ""
+	},
 	"description": "Custom business tools designed to improve efficiency, reduce administration, and support day-to-day operations.",
 	"heroTitle": "Internal Business Tools",
 	"heroSubtitle": "Software designed around the way your team actually works.",

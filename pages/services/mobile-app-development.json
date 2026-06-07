@@ -1,5 +1,9 @@
 {
 	"title": "Mobile App Development",
+	"hero": {
+		"image": "",
+		"alt": ""
+	},
 	"description": "Native iPhone and iPad application development from concept through to App Store release.",
 	"heroTitle": "Mobile App Development",
 	"heroSubtitle": "Building modern mobile experiences for iPhone and iPad.",

@@ -2,6 +2,10 @@
 	"title": "Contact",
 	"heading": "Contact Us",
 	"intro": "Get in touch with BarkinMad Studios for app support, feedback, testing, or business enquiries.",
+	"hero": {
+		"image": "/images/contact-bg-banner.png",
+		"alt": "Professional workspace inviting project discussions and contact with BarkinMad Studios"
+	},
 	"sections": [
 		{
 			"heading": "Support",

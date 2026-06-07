@@ -1,5 +1,9 @@
 {
 	"title": "Custom Software Development",
+	"hero": {
+		"image": "",
+		"alt": ""
+	},
 	"description": "Custom software solutions designed around your business requirements, workflows, and operational processes.",
 	"heroTitle": "Custom Software Development",
 	"heroSubtitle": "Software designed around your business, not the other way around.",

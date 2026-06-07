@@ -1,6 +1,10 @@
 {
 	"title": "ZXSpace",
 	"tagline": "Retro space arcade action",
+	"hero": {
+		"image": "/images/zx-series-bg-banner.png",
+		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
+	},
 	"shortDescription": "Inspired by classic 1980s space shooters.",
 	"description": "ZXSpace is a retro-inspired arcade space shooter featuring fast paced gameplay, enemy waves, unlockable upgrades, achievements, and classic 1980s inspired visuals.",
 	

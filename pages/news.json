@@ -1,0 +1,13 @@
+{
+	"title": "News & Devlog",
+	"heading": "News & Devlog",
+	"intro": "Development updates, screenshots, release news, and behind-the-scenes progress from BarkinMad Studios.",
+	"hero": {
+		"image": "/images/news-bg-banner.png",
+		"alt": "BarkinMad Studios news, updates, releases and development insights"
+	},
+	"seo": {
+		"title": "News & Devlog - BarkinMad Studios",
+		"description": "Development updates, screenshots, release news, and behind-the-scenes progress from BarkinMad Studios."
+	}
+}
