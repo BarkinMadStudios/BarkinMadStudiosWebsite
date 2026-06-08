@@ -7,7 +7,7 @@
 		"appleId": "6770932739",
 		"status": "Live",
 		"type": "Retro Snake Game",
-		"image": "apps/zxsnake/zxsnake.png",
+		"image": "apps/zxsnake/zxsnake-icon.png",
 		"appStoreUrl": "https://apps.apple.com/gb/app/zxsnake/id6770932739",
 		"testFlightUrl": "",
 		"description": "ZXSnake is a retro-inspired snake game with simple controls, classic arcade pacing, score chasing, achievements, and visuals inspired by early home computer games."
@@ -20,7 +20,7 @@
 		"appleId": "6771886847",
 		"status": "Live",
 		"type": "Retro Brick Breaker",
-		"image": "apps/zxbrick/zxbrick.png",
+		"image": "apps/zxbrick/zxbrick-icon.png",
 		"appStoreUrl": "https://apps.apple.com/gb/app/zxbrick/id6771886847",
 		"testFlightUrl": "",
 		"description": "ZXBrick is a retro brick-breaking arcade game inspired by classic bat-and-ball gameplay with power-ups, achievements, and high-score chasing."
@@ -33,7 +33,7 @@
 		"appleId": "6772716922",
 		"status": "Coming Soon",
 		"type": "Retro Space Shooter",
-		"image": "apps/zxspace/zxspace.png",
+		"image": "apps/zxspace/zxspace-icon.png",
 		"appStoreUrl": "",
 		"testFlightUrl": "",
 		"description": "ZXSpace is a retro space shooter inspired by classic alien invasion arcade games with score chasing and wave-based gameplay."
@@ -46,7 +46,7 @@
 		"appleId": "",
 		"status": "Coming Soon",
 		"type": "Retro Pong Game",
-		"image": "apps/zxpong/zxpong.png",
+		"image": "apps/zxpong/zxpong-icon.png",
 		"appStoreUrl": "",
 		"testFlightUrl": "",
 		"description": "ZXPong is a retro-inspired bat-and-ball arcade game with simple controls, classic rally gameplay, score chasing, achievements, and fast pick-up-and-play action."
@@ -59,7 +59,7 @@
 		"appleId": "6751581339",
 		"status": "Live",
 		"type": "Darts Scoring App",
-		"image": "apps/gameofdarts/gameofdarts.png",
+		"image": "apps/gameofdarts/gameofdarts-icon.png",
 		"appStoreUrl": "https://apps.apple.com/gb/app/the-game-of-darts/id6751581339",
 		"testFlightUrl": "",
 		"description": "GameOfDarts is a modern darts scoring app for iPhone and iPad designed for score tracking, statistics, practice, and local multiplayer gameplay."
