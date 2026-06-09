@@ -13,8 +13,8 @@
 	"appStoreUrl": "https://apps.apple.com/gb/app/the-game-of-darts/id6751581339",
 	"testFlightUrl": "",
 	
-	"icon": "apps/gameofdarts/gameofdarts.png",
-	"heroImage": "apps/gameofdarts/gameofdarts.png",
+	"icon": "apps/gameofdarts/gameofdarts-icon.png",
+	"heroImage": "apps/gameofdarts/gameofdarts-hero.png",
 	
 	"screenshots": [
 		"apps/gameofdarts/gameofdarts.png"
