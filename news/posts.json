@@ -1,86 +1,93 @@
 [
-	{
-		"slug": "starting-barkinmad-studios",
-		"title": "Starting BarkinMad Studios",
-		"date": "2025-08-15",
-		"excerpt": "How BarkinMad Studios began, the inspiration behind the studio, and the journey towards building mobile apps and retro-inspired games.",
-		"image": "image.png"
-	},
-	{
-		"slug": "building-game-of-darts",
-		"title": "Building Game of Darts",
-		"date": "2025-09-20",
-		"excerpt": "The story behind Game of Darts and the goal of creating a flexible darts scoring and statistics app for players of all abilities.",
-		"image": "image.png"
-	},
-	{
-		"slug": "why-retro-games-still-work",
-		"title": "Why Retro Arcade Games Still Work Today",
-		"date": "2025-12-15",
-		"excerpt": "Why simple arcade gameplay, high scores, and replayability still work well on modern mobile devices.",
-		"image": "image.png"
-	},
-	{
-		"slug": "creating-retro-style-mobile-games",
-		"title": "Creating Retro Style Mobile Games",
-		"date": "2026-01-20",
-		"excerpt": "How BarkinMad Studios creates retro-inspired mobile games for modern devices.",
-		"image": "image.png"
-	},
-	{
-		"slug": "building-zxsnake",
-		"title": "Building ZXSnake",
-		"date": "2026-02-25",
-		"excerpt": "A look at the design ideas behind ZXSnake and why simple arcade gameplay still works well on mobile.",
-		"image": "image.png"
-	},
-	{
-		"slug": "zxbrick-powerups",
-		"title": "Designing ZXBrick Power-Ups",
-		"date": "2026-04-10",
-		"excerpt": "How power-ups add variety, risk, and replayability to ZXBrick.",
-		"image": "image.png"
-	},
-	{
-		"slug": "ai-coding",
-		"title": "Coding With AI",
-		"date": "2026-05-26",
-		"excerpt": "How AI tools are helping accelerate indie game and app development.",
-		"image": "image.png"
-	},
-	{
-		"slug": "language-support",
-		"title": "32-Language Support Across the ZX Series",
-		"date": "2026-05-27",
-		"excerpt": "The ZX Series now supports 32 languages, bringing retro-inspired arcade gaming to players around the world with fully localised gameplay, achievements, and Game Center content.",
-		"image": "image.png"
-	},
-	{
-		"slug": "zxsnake-pvp",
-		"title": "Bringing PvP Multiplayer to ZXSnake",
-		"date": "2026-05-28",
-		"excerpt": "ZXSnake expands on the classic arcade formula with local and online PvP multiplayer, allowing players to compete against friends and rivals around the world.",
-		"image": "image.png"
-	},
-	{
-		"slug": "released-zxsnake-zxbrick",
-		"title": "ZX Snake & ZX Brick Now Available on the App Store",
-		"date": "2026-05-29",
-		"excerpt": "ZX Snake and ZX Brick have officially launched on the App Store, bringing classic 8-bit inspired arcade action, achievements, leaderboards, and modern gameplay features to iPhone and iPad.",
-		"image": "image.png"
-	},
-	{
-		"slug": "building-zxspace",
-		"title": "ZXSpace is Under Development",
-		"date": "2026-06-01",
-		"excerpt": "ZXSpace is a retro-inspired arcade space shooter currently in development, featuring fast-paced action, unlockable content, achievements, leaderboards, and classic gameplay reimagined for modern mobile devices.",
-		"image": "image.png"
-	},
-	{
-		"slug": "introducing-barkinmad-coins",
-		"title": "Introducing BarkinMad Coins",
-		"date": "2026-06-06",
-		"excerpt": "A shared reward system that will connect supported BarkinMad Studios games.",
-		"image": "image.png"
-	}
+  {
+    "slug": "starting-barkinmad-studios",
+    "title": "Starting BarkinMad Studios",
+    "date": "2025-08-15",
+    "excerpt": "How BarkinMad Studios began, the inspiration behind the studio, and the journey towards building mobile apps and retro-inspired games.",
+    "image": "image.png"
+  },
+  {
+    "slug": "building-game-of-darts",
+    "title": "Building Game of Darts",
+    "date": "2025-09-20",
+    "excerpt": "The story behind Game of Darts and the goal of creating a flexible darts scoring and statistics app for players of all abilities.",
+    "image": "image.png"
+  },
+  {
+    "slug": "why-retro-games-still-work",
+    "title": "Why Retro Arcade Games Still Work Today",
+    "date": "2025-12-15",
+    "excerpt": "Why simple arcade gameplay, high scores, and replayability still work well on modern mobile devices.",
+    "image": "image.png"
+  },
+  {
+    "slug": "creating-retro-style-mobile-games",
+    "title": "Creating Retro Style Mobile Games",
+    "date": "2026-01-20",
+    "excerpt": "How BarkinMad Studios creates retro-inspired mobile games for modern devices.",
+    "image": "image.png"
+  },
+  {
+    "slug": "building-zxsnake",
+    "title": "Building ZXSnake",
+    "date": "2026-02-25",
+    "excerpt": "A look at the design ideas behind ZXSnake and why simple arcade gameplay still works well on mobile.",
+    "image": "image.png"
+  },
+  {
+    "slug": "zxbrick-powerups",
+    "title": "Designing ZXBrick Power-Ups",
+    "date": "2026-04-10",
+    "excerpt": "How power-ups add variety, risk, and replayability to ZXBrick.",
+    "image": "image.png"
+  },
+  {
+    "slug": "ai-coding",
+    "title": "Coding With AI",
+    "date": "2026-05-26",
+    "excerpt": "How AI tools are helping accelerate indie game and app development.",
+    "image": "image.png"
+  },
+  {
+    "slug": "language-support",
+    "title": "32-Language Support Across the ZX Series",
+    "date": "2026-05-27",
+    "excerpt": "The ZX Series now supports 32 languages, bringing retro-inspired arcade gaming to players around the world with fully localised gameplay, achievements, and Game Center content.",
+    "image": "image.png"
+  },
+  {
+    "slug": "zxsnake-pvp",
+    "title": "Bringing PvP Multiplayer to ZXSnake",
+    "date": "2026-05-28",
+    "excerpt": "ZXSnake expands on the classic arcade formula with local and online PvP multiplayer, allowing players to compete against friends and rivals around the world.",
+    "image": "image.png"
+  },
+  {
+    "slug": "released-zxsnake-zxbrick",
+    "title": "ZX Snake & ZX Brick Now Available on the App Store",
+    "date": "2026-05-29",
+    "excerpt": "ZX Snake and ZX Brick have officially launched on the App Store, bringing classic 8-bit inspired arcade action, achievements, leaderboards, and modern gameplay features to iPhone and iPad.",
+    "image": "image.png"
+  },
+  {
+    "slug": "building-zxspace",
+    "title": "ZXSpace is Under Development",
+    "date": "2026-06-01",
+    "excerpt": "ZXSpace is a retro-inspired arcade space shooter currently in development, featuring fast-paced action, unlockable content, achievements, leaderboards, and classic gameplay reimagined for modern mobile devices.",
+    "image": "image.png"
+  },
+  {
+    "slug": "introducing-barkinmad-coins",
+    "title": "Introducing BarkinMad Coins",
+    "date": "2026-06-06",
+    "excerpt": "A shared reward system that will connect supported BarkinMad Studios games.",
+    "image": "image.png"
+  },
+  {
+    "slug": "gameofdarts-update",
+    "title": "The Game Of Darts Major Update Released",
+    "date": "2026-06-09",
+    "excerpt": "BarkinMad Studios is pleased to announce a major update for The Game Of Darts, bringing new features, improved player feedback, and a better overall experience ",
+    "image": "image.png"
+  }
 ]
