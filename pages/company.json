@@ -1,0 +1,43 @@
+{
+	"title": "Company Information",
+	"slug": "company",
+	"lastUpdated": "2026-06-10",
+	"content": [
+		{
+			"heading": "BarkinMad Studios",
+			"text": "BarkinMad Studios is an independent software and game development company based in the United Kingdom. The company develops mobile applications, games, business software solutions, internal tools, and digital services for clients and its own products."
+		},
+		{
+			"heading": "Company Details",
+			"text": "Company Name: BarkinMad Studios Ltd. Company Number: 10743295. Registered in England and Wales."
+		},
+		{
+			"heading": "What We Do",
+			"text": "BarkinMad Studios specialises in mobile application development, game development, custom software development, business process improvement, internal business tools, websites, content platforms, and proof-of-concept projects."
+		},
+		{
+			"heading": "Products",
+			"text": "The company develops and publishes a range of applications and games, including The Game Of Darts and the ZX Series of retro-inspired arcade games, including ZXSnake, ZXBrick, ZXSpace, ZXPong, ZXMaze, ZXRacer, ZXTank, and ZXLabrador."
+		},
+		{
+			"heading": "Founder",
+			"text": "BarkinMad Studios was founded by Barry King, a software engineer and security professional with experience designing, developing, supporting, and securing business and consumer technology solutions."
+		},
+		{
+			"heading": "Our Mission",
+			"text": "Our mission is to build useful, enjoyable, and accessible software while maintaining a strong focus on quality, security, usability, and long-term support. We believe technology should solve real problems, entertain, and create value for users."
+		},
+		{
+			"heading": "Technology",
+			"text": "BarkinMad Studios develops software using modern cloud and mobile technologies, including Swift, SwiftUI, Microsoft 365, Azure, automation platforms, web technologies, and cloud-based services."
+		},
+		{
+			"heading": "Business Information",
+			"text": "BarkinMad Studios operates as a UK registered limited company. Company registration details are publicly available through Companies House."
+		},
+		{
+			"heading": "Contact",
+			"text": "For business enquiries, support requests, partnership opportunities, or general questions, please use the Contact page available on this website."
+		}
+	]
+}
