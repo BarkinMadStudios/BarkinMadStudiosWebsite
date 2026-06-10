@@ -1,28 +1,19 @@
 {
-	"title": "Building The Game of Darts",
-	"date": "2025-09-20",
-	"image": "image.png",
-	"content": [
-		"Every software project starts with a problem to solve. For BarkinMad Studios, that problem was finding a darts scoring application that supported more than just the traditional x01 game modes while remaining quick and easy to use during play.",
-		
-		"Darts is enjoyed by millions of players around the world, from casual pub players through to competitive league and tournament participants. While many scoring applications focus primarily on games such as 301 and 501, there are many other popular formats that players regularly enjoy. The goal was to create an application that supported a wider range of games while maintaining a simple and intuitive user experience.",
-		
-		"[The Game of Darts](/apps/gameofdarts) was designed from the ground up to support multiple game formats. Alongside traditional x01 games such as 301, 501, and 701, support was added for Cricket, Snooker, Halve It, All 5s, Hare & Hound, Bob's 27, 1 to 20, and several other popular practice and competition formats.",
-		
-		"One of the biggest design goals was reducing the amount of time players spend interacting with the application. During a darts match, players want to focus on throwing darts and enjoying the game rather than navigating menus or entering excessive amounts of information. Every screen was designed with simplicity and speed in mind.",
-		
-		"As development progressed, it became clear that statistics would be a major part of the application. Many players want to improve their game, track progress, and identify areas for development. Features such as averages, checkouts, scoring performance, match history, and player statistics were added to provide meaningful insight into long-term performance.",
-		
-		"Building a reliable statistics system introduced its own challenges. Data needed to remain accurate while supporting multiple game formats, different numbers of players, and long-term historical tracking. Considerable effort was invested in ensuring that recorded information remained useful without making the application difficult to use.",
-		
-		"The project also provided an opportunity to explore modern mobile development techniques. As the application evolved, improvements were made to data storage, user interface design, cloud synchronisation, performance optimisation, and overall usability. Many of these lessons would later influence other BarkinMad Studios projects.",
-		
-		"One unexpected benefit of developing [The Game of Darts](/apps/gameofdarts) was the creation of reusable technology and development practices. Components originally built for the application helped establish patterns that would later be reused across future projects. Areas such as analytics, data management, localisation, user experience design, and application architecture all provided valuable learning opportunities.",
-		
-		"The project also demonstrated the importance of listening to user feedback. Features have continued to evolve based on suggestions from players, helping ensure the application remains practical and relevant for people who use it regularly. Continuous improvement remains an important part of the development process.",
-		
-		"Although BarkinMad Studios would later expand into retro-inspired arcade games through the growing [ZX Series](/zx-series), [The Game of Darts](/apps/gameofdarts) remains a significant milestone in the studio's history. It represents one of the first major public applications released by the studio and helped establish the foundations that future projects would build upon.",
-		
-		"Today, [The Game of Darts](/apps/gameofdarts) continues to showcase BarkinMad Studios' approach to software development: build practical tools, focus on user experience, learn from feedback, and continue improving products over time. The lessons learned during its development continue to influence both gaming and business software projects across the studio."
-	]
+  "title": "Building The Game of Darts",
+  "date": "2025-09-20",
+  "image": "image.png",
+  "content": [
+    "Every software project starts with a problem to solve. For BarkinMad Studios, that problem was finding a darts scoring application that supported more than just the traditional x01 game modes while remaining quick and easy to use during play.",
+    "Darts is enjoyed by millions of players around the world, from casual pub players through to competitive league and tournament participants. While many scoring applications focus primarily on games such as 301 and 501, there are many other popular formats that players regularly enjoy. The goal was to create an application that supported a wider range of games while maintaining a simple and intuitive user experience.",
+    "[The Game of Darts](/apps/gameofdarts) was designed from the ground up to support multiple game formats. Alongside traditional x01 games such as 301, 501, and 701, support was added for Cricket, Snooker, Halve It, All 5s, Hare & Hound, Bob's 27, 1 to 20, and several other popular practice and competition formats.",
+    "One of the biggest design goals was reducing the amount of time players spend interacting with the application. During a darts match, players want to focus on throwing darts and enjoying the game rather than navigating menus or entering excessive amounts of information. Every screen was designed with simplicity and speed in mind.",
+    "As development progressed, it became clear that statistics would be a major part of the application. Many players want to improve their game, track progress, and identify areas for development. Features such as averages, checkouts, scoring performance, match history, and player statistics were added to provide meaningful insight into long-term performance.",
+    "Building a reliable statistics system introduced its own challenges. Data needed to remain accurate while supporting multiple game formats, different numbers of players, and long-term historical tracking. Considerable effort was invested in ensuring that recorded information remained useful without making the application difficult to use.",
+    "The project also provided an opportunity to explore modern mobile development techniques. As the application evolved, improvements were made to data storage, user interface design, cloud synchronisation, performance optimisation, and overall usability. Many of these lessons would later influence other BarkinMad Studios projects.",
+    "One unexpected benefit of developing [The Game of Darts](/apps/gameofdarts) was the creation of reusable technology and development practices. Components originally built for the application helped establish patterns that would later be reused across future projects. Areas such as analytics, data management, localisation, user experience design, and application architecture all provided valuable learning opportunities.",
+    "The project also demonstrated the importance of listening to user feedback. Features have continued to evolve based on suggestions from players, helping ensure the application remains practical and relevant for people who use it regularly. Continuous improvement remains an important part of the development process.",
+    "Although BarkinMad Studios would later expand into retro-inspired arcade games through the growing [ZX Series](/zx-series), [The Game of Darts](/apps/gameofdarts) remains a significant milestone in the studio's history. It represents one of the first major public applications released by the studio and helped establish the foundations that future projects would build upon.",
+    "Today, [The Game of Darts](/apps/gameofdarts) continues to showcase BarkinMad Studios' approach to software development: build practical tools, focus on user experience, learn from feedback, and continue improving products over time. The lessons learned during its development continue to influence both gaming and business software projects across the studio."
+  ],
+  "lastUpdated": "2026-06-07"
 }

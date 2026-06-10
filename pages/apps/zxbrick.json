@@ -1,75 +1,63 @@
 {
-	"title": "ZXBrick",
-	"tagline": "Retro brick-breaking arcade action",
-	"hero": {
-		"image": "/images/zx-series-bg-banner.png",
-		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
-	},
-	"shortDescription": "A classic brick-breaking arcade game with power-ups, themes, achievements, and BarkinMad Coins.",
-	"description": "ZXBrick is part of the [ZX Series](/zx-series), a retro-inspired brick-breaking arcade game featuring 100 handcrafted levels, powerful upgrades, achievements, unlockable themes, BarkinMad Coins, and fast-paced gameplay inspired by the golden age of arcade gaming.",
-
-	"status": "Live",
-	
-	"appStoreUrl": "https://apps.apple.com/gb/app/zxbrick/id6771886847",
-	"testFlightUrl": "",
-	
-	"icon": "apps/zxbrick/zxbrick-icon.png",
-	"heroImage": "apps/zxbrick/zxbrick-hero.png",
-	
-	"screenshots": [
-		{
-			"image": "apps/zxbrick/zxbrick-gameplay-01.png",
-			"caption": "Loading Screen"
-		},
-		{
-			"image": "apps/zxbrick/zxbrick-gameplay-02.png",
-			"caption": "Main Menu"
-		},
-		{
-			"image": "apps/zxbrick/zxbrick-gameplay-03.png",
-			"caption": "New Game"
-		}
-	],
-	
-	"features": [
-		"Retro arcade gameplay",
-		"Classic brick-breaking action",
-		"100 handcrafted levels",
-		"Multiple power-ups",
-		"Unlockable themes",
-		"BarkinMad Coins for cross-game cosmetic unlocks",
-		"Game Center achievements",
-		"Game Center leaderboards",
-		"High score tracking",
-		"32 language support"
-	],
-	
-	"achievements": [
-		"Play 10 Games",
-		"Play 25 Games",
-		"Play 50 Games",
-		"Play 100 Games",
-		"Destroy 500 Bricks",
-		"Destroy 1000 Bricks"
-	],
-	
-	"leaderboards": [
-		"Highest Score"
-	],
-	
-	"barkinMadCoins": {
-		"enabled": true,
-		"description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
-	},
-	
-	"supportedPlatforms": [
-		"iPhone"
-	],
-	
-	"version": "1.1",
-	
-	"genre": "Arcade",
-	
-	"developer": "BarkinMad Studios"
-	
+  "title": "ZXBrick",
+  "tagline": "Retro brick-breaking arcade action",
+  "hero": {
+    "image": "/images/zx-series-bg-banner.png",
+    "alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
+  },
+  "shortDescription": "A classic brick-breaking arcade game with power-ups, themes, achievements, and BarkinMad Coins.",
+  "description": "ZXBrick is part of the [ZX Series](/zx-series), a retro-inspired brick-breaking arcade game featuring 100 handcrafted levels, powerful upgrades, achievements, unlockable themes, BarkinMad Coins, and fast-paced gameplay inspired by the golden age of arcade gaming.",
+  "status": "Live",
+  "appStoreUrl": "https://apps.apple.com/gb/app/zxbrick/id6771886847",
+  "testFlightUrl": "",
+  "icon": "apps/zxbrick/zxbrick-icon.png",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "screenshots": [
+    {
+      "image": "apps/zxbrick/zxbrick-gameplay-01.png",
+      "caption": "Loading Screen"
+    },
+    {
+      "image": "apps/zxbrick/zxbrick-gameplay-02.png",
+      "caption": "Main Menu"
+    },
+    {
+      "image": "apps/zxbrick/zxbrick-gameplay-03.png",
+      "caption": "New Game"
+    }
+  ],
+  "features": [
+    "Retro arcade gameplay",
+    "Classic brick-breaking action",
+    "100 handcrafted levels",
+    "Multiple power-ups",
+    "Unlockable themes",
+    "BarkinMad Coins for cross-game cosmetic unlocks",
+    "Game Center achievements",
+    "Game Center leaderboards",
+    "High score tracking",
+    "32 language support"
+  ],
+  "achievements": [
+    "Play 10 Games",
+    "Play 25 Games",
+    "Play 50 Games",
+    "Play 100 Games",
+    "Destroy 500 Bricks",
+    "Destroy 1000 Bricks"
+  ],
+  "leaderboards": [
+    "Highest Score"
+  ],
+  "barkinMadCoins": {
+    "enabled": true,
+    "description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+  },
+  "supportedPlatforms": [
+    "iPhone"
+  ],
+  "version": "1.1",
+  "genre": "Arcade",
+  "developer": "BarkinMad Studios",
+  "lastUpdated": "2026-06-09"
 }

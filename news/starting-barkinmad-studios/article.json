@@ -1,32 +1,21 @@
 {
-	"title": "The Story Behind BarkinMad Studios",
-	"date": "2025-08-15",
-	"image": "image.png",
-	"content": [
-		"Every company starts with an idea. For BarkinMad Studios, that idea was simple: use years of software development experience to create useful applications, enjoyable games, and digital products that people genuinely want to use.",
-		
-		"Although the BarkinMad Studios brand was launched in 2025, the company itself traces its roots back much further. Operating through a UK limited company originally incorporated in 2017, the business has been involved in technology projects, software delivery, business systems, automation, and digital solutions across a variety of industries.",
-		
-		"Over more than two decades working within the technology sector, one lesson became increasingly clear: good software should solve problems, be easy to use, and continue delivering value long after its initial release. That philosophy would eventually become the foundation of BarkinMad Studios.",
-		
-		"The creation of the BarkinMad Studios brand represented a new chapter. Rather than focusing solely on consultancy and project delivery, the goal expanded to include the development of independent software products, mobile applications, business tools, and games that could be enjoyed by people around the world.",
-		
-		"From the beginning, the focus has been on creating software that balances practicality with usability. Whether building a business tool, a productivity application, or a mobile game, the objective remains the same: create something that feels polished, reliable, and enjoyable to use.",
-		
-		"One of the first major public products released by the studio was [The Game of Darts](/apps/gameofdarts). The application was created to provide players with a simple yet powerful way to track scores, statistics, and performance across a variety of darts formats. Beyond serving the darts community, the project also helped establish many of the development practices, design principles, and technical foundations that continue to influence projects today.",
-		
-		"As development continued, attention expanded towards gaming. Inspired by the simplicity and replayability of classic arcade experiences, BarkinMad Studios began exploring how retro-inspired gameplay could be combined with modern mobile technologies. This eventually led to the creation of the growing [ZX Series](/zx-series).",
-		
-		"The [ZX Series](/zx-series) represents a collection of connected arcade-style games inspired by the golden age of gaming. Titles including [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong) combine familiar gameplay concepts with modern features such as achievements, leaderboards, localisation, multiplayer functionality, and shared progression systems.",
-		
-		"While gaming has become an important part of the studio's public identity, BarkinMad Studios remains fundamentally a software development company. Alongside games, the company continues to develop mobile applications, business systems, prototypes, workflow automation solutions, and digital tools designed to help individuals and organisations work more effectively.",
-		
-		"This combination of commercial software development and independent product creation provides a unique opportunity to learn from both worlds. Experience gained through business projects helps improve products, while lessons learned through product development help deliver better solutions for clients and users.",
-		
-		"Being an independent company also creates freedom to experiment. New ideas can be explored quickly, prototypes can be built rapidly, and products can evolve based on direct user feedback. This flexibility allows BarkinMad Studios to continuously improve its products while remaining focused on delivering real value.",
-		
-		"Looking ahead, the vision remains clear. BarkinMad Studios will continue building mobile applications, software solutions, digital products, and retro-inspired games while expanding the portfolio of services available to businesses and organisations. Future projects will focus on creating practical tools, engaging experiences, and innovative solutions that combine technology with creativity.",
-		
-		"The journey is still only beginning. Every application released, every game launched, and every new project contributes to a larger goal: building software that is useful, enjoyable, reliable, and accessible to people around the world."
-	]
+  "title": "The Story Behind BarkinMad Studios",
+  "date": "2025-08-15",
+  "image": "image.png",
+  "content": [
+    "Every company starts with an idea. For BarkinMad Studios, that idea was simple: use years of software development experience to create useful applications, enjoyable games, and digital products that people genuinely want to use.",
+    "Although the BarkinMad Studios brand was launched in 2025, the company itself traces its roots back much further. Operating through a UK limited company originally incorporated in 2017, the business has been involved in technology projects, software delivery, business systems, automation, and digital solutions across a variety of industries.",
+    "Over more than two decades working within the technology sector, one lesson became increasingly clear: good software should solve problems, be easy to use, and continue delivering value long after its initial release. That philosophy would eventually become the foundation of BarkinMad Studios.",
+    "The creation of the BarkinMad Studios brand represented a new chapter. Rather than focusing solely on consultancy and project delivery, the goal expanded to include the development of independent software products, mobile applications, business tools, and games that could be enjoyed by people around the world.",
+    "From the beginning, the focus has been on creating software that balances practicality with usability. Whether building a business tool, a productivity application, or a mobile game, the objective remains the same: create something that feels polished, reliable, and enjoyable to use.",
+    "One of the first major public products released by the studio was [The Game of Darts](/apps/gameofdarts). The application was created to provide players with a simple yet powerful way to track scores, statistics, and performance across a variety of darts formats. Beyond serving the darts community, the project also helped establish many of the development practices, design principles, and technical foundations that continue to influence projects today.",
+    "As development continued, attention expanded towards gaming. Inspired by the simplicity and replayability of classic arcade experiences, BarkinMad Studios began exploring how retro-inspired gameplay could be combined with modern mobile technologies. This eventually led to the creation of the growing [ZX Series](/zx-series).",
+    "The [ZX Series](/zx-series) represents a collection of connected arcade-style games inspired by the golden age of gaming. Titles including [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong) combine familiar gameplay concepts with modern features such as achievements, leaderboards, localisation, multiplayer functionality, and shared progression systems.",
+    "While gaming has become an important part of the studio's public identity, BarkinMad Studios remains fundamentally a software development company. Alongside games, the company continues to develop mobile applications, business systems, prototypes, workflow automation solutions, and digital tools designed to help individuals and organisations work more effectively.",
+    "This combination of commercial software development and independent product creation provides a unique opportunity to learn from both worlds. Experience gained through business projects helps improve products, while lessons learned through product development help deliver better solutions for clients and users.",
+    "Being an independent company also creates freedom to experiment. New ideas can be explored quickly, prototypes can be built rapidly, and products can evolve based on direct user feedback. This flexibility allows BarkinMad Studios to continuously improve its products while remaining focused on delivering real value.",
+    "Looking ahead, the vision remains clear. BarkinMad Studios will continue building mobile applications, software solutions, digital products, and retro-inspired games while expanding the portfolio of services available to businesses and organisations. Future projects will focus on creating practical tools, engaging experiences, and innovative solutions that combine technology with creativity.",
+    "The journey is still only beginning. Every application released, every game launched, and every new project contributes to a larger goal: building software that is useful, enjoyable, reliable, and accessible to people around the world."
+  ],
+  "lastUpdated": "2026-06-07"
 }

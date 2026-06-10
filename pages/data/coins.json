@@ -1,15 +1,16 @@
 {
-	"name": "BarkinMad Coins",
-	"description": "A shared currency earned across supported ZX Series games.",
-	"earnMethods": [
-		"Playing games",
-		"Completing achievements",
-		"Reaching score milestones",
-		"Special events"
-	],
-	"plannedUses": [
-		"Lucky Crates",
-		"Cosmetics",
-		"Future unlockables"
-	]
+  "name": "BarkinMad Coins",
+  "description": "A shared currency earned across supported ZX Series games.",
+  "earnMethods": [
+    "Playing games",
+    "Completing achievements",
+    "Reaching score milestones",
+    "Special events"
+  ],
+  "plannedUses": [
+    "Lucky Crates",
+    "Cosmetics",
+    "Future unlockables"
+  ],
+  "lastUpdated": "2026-06-05"
 }

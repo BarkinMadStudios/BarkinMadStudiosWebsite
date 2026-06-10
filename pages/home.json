@@ -1,65 +1,66 @@
 {
-	"heading": "Retro Games, Mobile Apps & Software Development",
-	"intro": "BarkinMad Studios is an independent UK software and game development studio creating retro-inspired arcade games, [mobile apps](/services/mobile-app-development), business tools, prototypes, and digital solutions for iPhone, iPad, and the web.",
-	"hero": {
-		"image": "/images/home-bg-banner.png",
-		"alt": "Retro arcade gaming and software development workspace at BarkinMad Studios"
-	},
-	"actions": [
-		{
-			"label": "Explore Apps",
-			"href": "/apps"
-		},
-		{
-			"label": "View Services",
-			"href": "/services"
-		},
-		{
-			"label": "Latest News",
-			"href": "/news"
-		}
-	],
-	"featuredApps": [
-		"zxsnake",
-		"zxbrick",
-		"gameofdarts"
-	],
-	"featuredAppsTitle": "Featured Apps",
-	"sections": [
-		{
-			"title": "Retro Arcade Games",
-			"description": "Discover the growing [ZX Series](/zx-series), a connected collection of retro-inspired arcade games featuring achievements, leaderboards, BarkinMad Coins, multiplayer modes, and shared progression systems.",
-			"action": {
-				"label": "Explore ZX Series",
-				"href": "/zx-series"
-			}
-		},
-		{
-			"title": "Mobile Apps",
-			"description": "Browse BarkinMad Studios [apps](/apps), including retro arcade games, productivity tools, score tracking applications, and future software projects designed for iPhone and iPad.",
-			"action": {
-				"label": "View Apps",
-				"href": "/apps"
-			}
-		},
-		{
-			"title": "Software Development Services",
-			"description": "BarkinMad Studios also provides [custom software development](/services/custom-software-development), [mobile app development](/services/mobile-app-development), [internal business tools](/services/internal-business-tools), workflow automation, websites, and prototype development services.",
-			"action": {
-				"label": "View Services",
-				"href": "/services"
-			}
-		},
-		{
-			"title": "About BarkinMad Studios",
-			"description": "Learn more about the studio, its background, development approach, public projects, and long-term vision for creating games, applications, and software solutions.",
-			"action": {
-				"label": "About Us",
-				"href": "/about"
-			}
-		}
-	],
-	"showLatestNews": true,
-	"latestNewsTitle": "Latest News",
-	"newsCount": 3
+  "heading": "Retro Games, Mobile Apps & Software Development",
+  "intro": "BarkinMad Studios is an independent UK software and game development studio creating retro-inspired arcade games, [mobile apps](/services/mobile-app-development), business tools, prototypes, and digital solutions for iPhone, iPad, and the web.",
+  "hero": {
+    "image": "/images/home-bg-banner.png",
+    "alt": "Retro arcade gaming and software development workspace at BarkinMad Studios"
+  },
+  "actions": [
+    {
+      "label": "Explore Apps",
+      "href": "/apps"
+    },
+    {
+      "label": "View Services",
+      "href": "/services"
+    },
+    {
+      "label": "Latest News",
+      "href": "/news"
+    }
+  ],
+  "featuredApps": [
+    "zxsnake",
+    "zxbrick",
+    "gameofdarts"
+  ],
+  "featuredAppsTitle": "Featured Apps",
+  "sections": [
+    {
+      "title": "Retro Arcade Games",
+      "description": "Discover the growing [ZX Series](/zx-series), a connected collection of retro-inspired arcade games featuring achievements, leaderboards, BarkinMad Coins, multiplayer modes, and shared progression systems.",
+      "action": {
+        "label": "Explore ZX Series",
+        "href": "/zx-series"
+      }
+    },
+    {
+      "title": "Mobile Apps",
+      "description": "Browse BarkinMad Studios [apps](/apps), including retro arcade games, productivity tools, score tracking applications, and future software projects designed for iPhone and iPad.",
+      "action": {
+        "label": "View Apps",
+        "href": "/apps"
+      }
+    },
+    {
+      "title": "Software Development Services",
+      "description": "BarkinMad Studios also provides [custom software development](/services/custom-software-development), [mobile app development](/services/mobile-app-development), [internal business tools](/services/internal-business-tools), workflow automation, websites, and prototype development services.",
+      "action": {
+        "label": "View Services",
+        "href": "/services"
+      }
+    },
+    {
+      "title": "About BarkinMad Studios",
+      "description": "Learn more about the studio, its background, development approach, public projects, and long-term vision for creating games, applications, and software solutions.",
+      "action": {
+        "label": "About Us",
+        "href": "/about"
+      }
+    }
+  ],
+  "showLatestNews": true,
+  "latestNewsTitle": "Latest News",
+  "newsCount": 3,
+  "lastUpdated": "2026-06-07"
 }

@@ -1,73 +1,62 @@
 {
-	"title": "ZXSnake",
-	"tagline": "Retro arcade snake action",
-	"hero": {
-		"image": "/images/zx-series-bg-banner.png",
-		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
-	},
-	"shortDescription": "Inspired by classic 1980s gaming.",
-	"description": "ZXSnake is part of the [ZX Series](/zx-series), a retro-inspired arcade snake game featuring classic gameplay, unlockable themes, achievements, and modern controls with a nostalgic ZX Spectrum inspired visual style.",
-	
-	"status": "Live",
-	
-	"appStoreUrl": "https://apps.apple.com/gb/app/zxsnake/id6770932739",
-	"testFlightUrl": "",
-	
-	"icon": "apps/zxsnake/zxsnake.png",
-	"heroImage": "apps/zxsnake/zxsnake-hero.png",
-	
-	"screenshots": [
-		{
-			"image": "apps/zxsnake/zxsnake-gameplay-01.png",
-			"caption": "loading"
-		},
-		{
-			"image": "apps/zxsnake/zxsnake-gameplay-02.png",
-			"caption": "Solo Play"
-		},
-		{
-			"image": "apps/zxsnake/zxsnake-gameplay-03.png",
-			"caption": "Solo Play"
-		}
-	],
-	
-	"features": [
-		"Retro-inspired arcade gameplay",
-		"AI-controlled opponents",
-		"PVP multiplayer - local and online",
-		"Unlockable snake skins",
-		"Multiple visual themes",
-		"BarkinMad Coins for cross-game cosmetic unlocks",
-		"Game Center achievements",
-		"Game Center leaderboards",
-		"High score tracking",
-		"32 language support",
-		"Classic arcade visuals"
-	],
-	
-	"achievements": [
-		"Play 10 Games",
-		"Play 25 Games",
-		"Play 50 Games",
-		"Play 100 Games"
-	],
-	
-	"leaderboards": [
-		"Highest Score"
-	],
-	
-	"barkinMadCoins": {
-		"enabled": true,
-		"description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
-	},
-	
-	"supportedPlatforms": [
-		"iPhone"
-	],
-	
-	"version": "1.0",
-	
-	"genre": "Arcade",
-	
-	"developer": "BarkinMad Studios"
+  "title": "ZXSnake",
+  "tagline": "Retro arcade snake action",
+  "hero": {
+    "image": "/images/zx-series-bg-banner.png",
+    "alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
+  },
+  "shortDescription": "Inspired by classic 1980s gaming.",
+  "description": "ZXSnake is part of the [ZX Series](/zx-series), a retro-inspired arcade snake game featuring classic gameplay, unlockable themes, achievements, and modern controls with a nostalgic ZX Spectrum inspired visual style.",
+  "status": "Live",
+  "appStoreUrl": "https://apps.apple.com/gb/app/zxsnake/id6770932739",
+  "testFlightUrl": "",
+  "icon": "apps/zxsnake/zxsnake.png",
+  "heroImage": "apps/zxsnake/zxsnake-hero.png",
+  "screenshots": [
+    {
+      "image": "apps/zxsnake/zxsnake-gameplay-01.png",
+      "caption": "loading"
+    },
+    {
+      "image": "apps/zxsnake/zxsnake-gameplay-02.png",
+      "caption": "Solo Play"
+    },
+    {
+      "image": "apps/zxsnake/zxsnake-gameplay-03.png",
+      "caption": "Solo Play"
+    }
+  ],
+  "features": [
+    "Retro-inspired arcade gameplay",
+    "AI-controlled opponents",
+    "PVP multiplayer - local and online",
+    "Unlockable snake skins",
+    "Multiple visual themes",
+    "BarkinMad Coins for cross-game cosmetic unlocks",
+    "Game Center achievements",
+    "Game Center leaderboards",
+    "High score tracking",
+    "32 language support",
+    "Classic arcade visuals"
+  ],
+  "achievements": [
+    "Play 10 Games",
+    "Play 25 Games",
+    "Play 50 Games",
+    "Play 100 Games"
+  ],
+  "leaderboards": [
+    "Highest Score"
+  ],
+  "barkinMadCoins": {
+    "enabled": true,
+    "description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+  },
+  "supportedPlatforms": [
+    "iPhone"
+  ],
+  "version": "1.0",
+  "genre": "Arcade",
+  "developer": "BarkinMad Studios",
+  "lastUpdated": "2026-06-07"
 }

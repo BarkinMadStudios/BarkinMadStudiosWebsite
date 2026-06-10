@@ -1,71 +1,60 @@
 {
-	"title": "ZXPong",
-	"tagline": "Retro arcade table tennis action",
-	"hero": {
-		"image": "/images/zx-series-bg-banner.png",
-		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
-	},
-	"shortDescription": "Inspired by the classic 1970s arcade paddle game.",
-	"description": "ZXPong is part of the [ZX Series](/zx-series), a retro-inspired arcade paddle game featuring fast paced rallies, AI opponents, local multiplayer, online multiplayer, unlockable cosmetics, achievements, and classic retro visuals inspired by the golden age of arcade gaming.",
-
-	"status": "Coming Soon",
-
-	"appStoreUrl": "",
-	"testFlightUrl": "",
-
-	"icon": "apps/zxpong/zxpong-icon.png",
-	"heroImage": "apps/zxpong/zxpong-hero.png",
-
-	"screenshots": [
-		{
-			"image": "apps/zxpong/zxpong-gameplay-01.png",
-			"caption": "Loading Screen"
-		}
-	],
-
-	"features": [
-		"Retro-inspired paddle and ball gameplay",
-		"Classic arcade action",
-		"Single player mode",
-		"Local multiplayer battles",
-		"Online multiplayer matches",
-		"Multiple AI difficulty levels",
-		"Unlockable paddle skins",
-		"Multiple visual themes",
-		"BarkinMad Coins for cross-game cosmetic unlocks",
-		"Game Center achievements",
-		"Game Center leaderboards",
-		"Global high score competition",
-		"32 language support",
-		"Classic arcade visuals"
-	],
-
-	"achievements": [
-		"Play 10 Games",
-		"Play 25 Games",
-		"Play 50 Games",
-		"Play 100 Games",
-		"Return 1,000 balls",
-		"Score 100 Points",
-		"Win 25 Matches"
-	],
-
-	"leaderboards": [
-		"Highest Score"
-	],
-
-	"barkinMadCoins": {
-		"enabled": true,
-		"description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
-	},
-
-	"supportedPlatforms": [
-		"iPhone"
-	],
-
-	"version": "0.1",
-
-	"genre": "Arcade",
-
-	"developer": "BarkinMad Studios"
+  "title": "ZXPong",
+  "tagline": "Retro arcade table tennis action",
+  "hero": {
+    "image": "/images/zx-series-bg-banner.png",
+    "alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
+  },
+  "shortDescription": "Inspired by the classic 1970s arcade paddle game.",
+  "description": "ZXPong is part of the [ZX Series](/zx-series), a retro-inspired arcade paddle game featuring fast paced rallies, AI opponents, local multiplayer, online multiplayer, unlockable cosmetics, achievements, and classic retro visuals inspired by the golden age of arcade gaming.",
+  "status": "Coming Soon",
+  "appStoreUrl": "",
+  "testFlightUrl": "",
+  "icon": "apps/zxpong/zxpong-icon.png",
+  "heroImage": "apps/zxpong/zxpong-hero.png",
+  "screenshots": [
+    {
+      "image": "apps/zxpong/zxpong-gameplay-01.png",
+      "caption": "Loading Screen"
+    }
+  ],
+  "features": [
+    "Retro-inspired paddle and ball gameplay",
+    "Classic arcade action",
+    "Single player mode",
+    "Local multiplayer battles",
+    "Online multiplayer matches",
+    "Multiple AI difficulty levels",
+    "Unlockable paddle skins",
+    "Multiple visual themes",
+    "BarkinMad Coins for cross-game cosmetic unlocks",
+    "Game Center achievements",
+    "Game Center leaderboards",
+    "Global high score competition",
+    "32 language support",
+    "Classic arcade visuals"
+  ],
+  "achievements": [
+    "Play 10 Games",
+    "Play 25 Games",
+    "Play 50 Games",
+    "Play 100 Games",
+    "Return 1,000 balls",
+    "Score 100 Points",
+    "Win 25 Matches"
+  ],
+  "leaderboards": [
+    "Highest Score"
+  ],
+  "barkinMadCoins": {
+    "enabled": true,
+    "description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+  },
+  "supportedPlatforms": [
+    "iPhone"
+  ],
+  "version": "0.1",
+  "genre": "Arcade",
+  "developer": "BarkinMad Studios",
+  "lastUpdated": "2026-06-07"
 }

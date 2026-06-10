@@ -1,20 +1,21 @@
 {
-	"games": [
-		{
-			"name": "ZXSnake",
-			"status": "Live"
-		},
-		{
-			"name": "ZXBrick",
-			"status": "Live"
-		},
-		{
-			"name": "ZXPong",
-			"status": "In Development"
-		},
-		{
-			"name": "ZXSpace",
-			"status": "In Development"
-		}
-	]
+  "games": [
+    {
+      "name": "ZXSnake",
+      "status": "Live"
+    },
+    {
+      "name": "ZXBrick",
+      "status": "Live"
+    },
+    {
+      "name": "ZXPong",
+      "status": "In Development"
+    },
+    {
+      "name": "ZXSpace",
+      "status": "In Development"
+    }
+  ],
+  "lastUpdated": "2026-06-05"
 }

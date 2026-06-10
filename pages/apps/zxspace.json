@@ -1,69 +1,58 @@
 {
-	"title": "ZXSpace",
-	"tagline": "Retro space arcade action",
-	"hero": {
-		"image": "/images/zx-series-bg-banner.png",
-		"alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
-	},
-	"shortDescription": "Inspired by classic 1980s space shooters.",
-	"description": "ZXSpace is part of the [ZX Series](/zx-series), a retro-inspired arcade space shooter featuring fast paced gameplay, enemy waves, unlockable upgrades, achievements, and classic 1980s inspired visuals.",
-	
-	"status": "Coming Soon",
-	
-	"appStoreUrl": "",
-	"testFlightUrl": "",
-	
-	"icon": "apps/zxspace/zxspace-icon.png",
-	"heroImage": "apps/zxspace/zxspace-hero.png",
-	
-	"screenshots": [
-		{
-			"image": "apps/zxspace/zxspace-gameplay-01.png",
-			"caption": "Loading Screen"
-		}
-	],
-	
-	"features": [
-		"Retro-inspired space shooter gameplay",
-		"Defend Earth from invading alien forces",
-		"Multiple enemy types",
-		"Epic boss battles",
-		"Unlockable ship skins",
-		"Multiple visual themes",
-		"BarkinMad Coins for cross-game cosmetic unlocks",
-		"Game Center achievements",
-		"Game Center leaderboards",
-		"Global high score competition",
-		"32 language support",
-		"Classic arcade visuals"
-	],
-	
-	"achievements": [
-		"Play 10 Games",
-		"Play 25 Games",
-		"Play 50 Games",
-		"Play 100 Games",
-		"Destroy 100 Enemies",
-		"Destroy 500 Enemies",
-		"Survive 5 Waves"
-	],
-	
-	"leaderboards": [
-		"Highest Score"
-	],
-	
-	"barkinMadCoins": {
-		"enabled": true,
-		"description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
-	},
-	
-	"supportedPlatforms": [
-		"iPhone"
-	],
-	
-	"version": "0.1",
-	
-	"genre": "Arcade",
-	
-	"developer": "BarkinMad Studios"
+  "title": "ZXSpace",
+  "tagline": "Retro space arcade action",
+  "hero": {
+    "image": "/images/zx-series-bg-banner.png",
+    "alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
+  },
+  "shortDescription": "Inspired by classic 1980s space shooters.",
+  "description": "ZXSpace is part of the [ZX Series](/zx-series), a retro-inspired arcade space shooter featuring fast paced gameplay, enemy waves, unlockable upgrades, achievements, and classic 1980s inspired visuals.",
+  "status": "Coming Soon",
+  "appStoreUrl": "",
+  "testFlightUrl": "",
+  "icon": "apps/zxspace/zxspace-icon.png",
+  "heroImage": "apps/zxspace/zxspace-hero.png",
+  "screenshots": [
+    {
+      "image": "apps/zxspace/zxspace-gameplay-01.png",
+      "caption": "Loading Screen"
+    }
+  ],
+  "features": [
+    "Retro-inspired space shooter gameplay",
+    "Defend Earth from invading alien forces",
+    "Multiple enemy types",
+    "Epic boss battles",
+    "Unlockable ship skins",
+    "Multiple visual themes",
+    "BarkinMad Coins for cross-game cosmetic unlocks",
+    "Game Center achievements",
+    "Game Center leaderboards",
+    "Global high score competition",
+    "32 language support",
+    "Classic arcade visuals"
+  ],
+  "achievements": [
+    "Play 10 Games",
+    "Play 25 Games",
+    "Play 50 Games",
+    "Play 100 Games",
+    "Destroy 100 Enemies",
+    "Destroy 500 Enemies",
+    "Survive 5 Waves"
+  ],
+  "leaderboards": [
+    "Highest Score"
+  ],
+  "barkinMadCoins": {
+    "enabled": true,
+    "description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+  },
+  "supportedPlatforms": [
+    "iPhone"
+  ],
+  "version": "0.1",
+  "genre": "Arcade",
+  "developer": "BarkinMad Studios",
+  "lastUpdated": "2026-06-07"
 }

@@ -1,29 +1,30 @@
 {
-	"zxSeries": [
-		{
-			"id": "play2Games",
-			"title": "Play 2 Games",
-			"description": "Play any 2 ZX Series games."
-		},
-		{
-			"id": "play4Games",
-			"title": "Play 4 Games",
-			"description": "Play any 4 ZX Series games."
-		},
-		{
-			"id": "playAllGames",
-			"title": "Play All Games",
-			"description": "Play every ZX Series game."
-		},
-		{
-			"id": "earn100Coins",
-			"title": "Coin Collector",
-			"description": "Earn 100 BarkinMad Coins."
-		},
-		{
-			"id": "earn1000Coins",
-			"title": "Coin Master",
-			"description": "Earn 1000 BarkinMad Coins."
-		}
-	]
+  "zxSeries": [
+    {
+      "id": "play2Games",
+      "title": "Play 2 Games",
+      "description": "Play any 2 ZX Series games."
+    },
+    {
+      "id": "play4Games",
+      "title": "Play 4 Games",
+      "description": "Play any 4 ZX Series games."
+    },
+    {
+      "id": "playAllGames",
+      "title": "Play All Games",
+      "description": "Play every ZX Series game."
+    },
+    {
+      "id": "earn100Coins",
+      "title": "Coin Collector",
+      "description": "Earn 100 BarkinMad Coins."
+    },
+    {
+      "id": "earn1000Coins",
+      "title": "Coin Master",
+      "description": "Earn 1000 BarkinMad Coins."
+    }
+  ],
+  "lastUpdated": "2026-06-05"
 }

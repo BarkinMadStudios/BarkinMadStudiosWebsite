@@ -1,32 +1,21 @@
 {
-	"title": "Bringing PvP Multiplayer to ZXSnake",
-	"date": "2026-05-28",
-	"image": "image.png",
-	"content": [
-		"When development of [ZXSnake](/apps/zxsnake) began, the objective was never simply to recreate the original Snake experience. While the classic gameplay remains at the heart of the game, the broader goal of the [ZX Series](/zx-series) has always been to explore how modern technology can enhance familiar arcade concepts without losing the simplicity that made them successful.",
-		
-		"One of the most ambitious additions to [ZXSnake](/apps/zxsnake) was player-versus-player multiplayer. Traditionally, Snake has been a single-player game focused on survival, high scores, and gradually increasing difficulty. Introducing direct competition between players created an opportunity to bring a completely new dimension to the gameplay while remaining true to the original concept.",
-		
-		"The appeal of multiplayer Snake is easy to understand. The core mechanics are already simple and accessible, making it easy for new players to jump into a match. However, once another player enters the arena, the game immediately becomes more strategic and unpredictable. Every movement matters, and every decision can influence the outcome of the match.",
-		
-		"[ZXSnake](/apps/zxsnake) includes both local and online multiplayer modes. Local multiplayer allows players to compete together on the same device, creating fast-paced matches that are ideal for friends and family. Online multiplayer expands those opportunities further, allowing players to challenge opponents from different locations and compete beyond their immediate surroundings.",
-		
-		"Designing multiplayer gameplay presented several challenges. The experience needed to remain easy to understand while providing enough depth to reward skill and practice. The controls had to remain responsive, the rules had to stay familiar, and matches needed to feel fair regardless of player experience levels.",
-		
-		"Unlike traditional single-player Snake, multiplayer introduces entirely new gameplay considerations. Players must avoid walls, obstacles, and their own tail while simultaneously reacting to their opponent's actions. Predicting movement, controlling space, creating traps, and forcing mistakes become just as important as basic survival.",
-		
-		"These additional layers of strategy transform the experience. What begins as a familiar arcade game quickly becomes a contest of positioning, timing, and decision making. No two matches play out in exactly the same way, helping create the replayability that is essential to arcade-style gaming.",
-		
-		"Alongside human opponents, [ZXSnake](/apps/zxsnake) also includes AI-controlled opponents. These provide an alternative way to play and allow players to practise their skills even when another player is unavailable. AI matches also help introduce new players to multiplayer-style gameplay before they compete against others.",
-		
-		"The introduction of multiplayer also helped shape the wider vision for the [ZX Series](/zx-series). Lessons learned from implementing matchmaking, player management, game sessions, and competitive gameplay continue to influence future projects. Many of the shared multiplayer systems being developed for the series will help support future titles as the collection expands.",
-		
-		"Achievements and leaderboards provide additional goals beyond simply winning matches. Players can track their progress, compare results, unlock rewards, and continue improving their skills over time. These systems help create a stronger sense of progression while encouraging long-term engagement.",
-		
-		"Perhaps the most important goal throughout development was preserving the simplicity of the original game. Multiplayer should enhance the experience rather than complicate it. The challenge was introducing modern features while ensuring that anyone familiar with Snake could still pick up the game and start playing immediately.",
-		
-		"By combining classic arcade gameplay with local multiplayer, online competition, AI opponents, achievements, leaderboards, and shared progression systems, [ZXSnake](/apps/zxsnake) demonstrates how even one of gaming's oldest concepts can evolve for modern devices. It remains recognisably Snake, but with new ways to play, compete, and improve that were never possible in the original versions.",
-		
-		"As the [ZX Series](/zx-series) continues to grow, multiplayer experiences will remain an important area of development. The work carried out in [ZXSnake](/apps/zxsnake) provides the foundation for future competitive gameplay systems while helping ensure that classic arcade ideas continue to feel fresh and engaging for today's players."
-	]
+  "title": "Bringing PvP Multiplayer to ZXSnake",
+  "date": "2026-05-28",
+  "image": "image.png",
+  "content": [
+    "When development of [ZXSnake](/apps/zxsnake) began, the objective was never simply to recreate the original Snake experience. While the classic gameplay remains at the heart of the game, the broader goal of the [ZX Series](/zx-series) has always been to explore how modern technology can enhance familiar arcade concepts without losing the simplicity that made them successful.",
+    "One of the most ambitious additions to [ZXSnake](/apps/zxsnake) was player-versus-player multiplayer. Traditionally, Snake has been a single-player game focused on survival, high scores, and gradually increasing difficulty. Introducing direct competition between players created an opportunity to bring a completely new dimension to the gameplay while remaining true to the original concept.",
+    "The appeal of multiplayer Snake is easy to understand. The core mechanics are already simple and accessible, making it easy for new players to jump into a match. However, once another player enters the arena, the game immediately becomes more strategic and unpredictable. Every movement matters, and every decision can influence the outcome of the match.",
+    "[ZXSnake](/apps/zxsnake) includes both local and online multiplayer modes. Local multiplayer allows players to compete together on the same device, creating fast-paced matches that are ideal for friends and family. Online multiplayer expands those opportunities further, allowing players to challenge opponents from different locations and compete beyond their immediate surroundings.",
+    "Designing multiplayer gameplay presented several challenges. The experience needed to remain easy to understand while providing enough depth to reward skill and practice. The controls had to remain responsive, the rules had to stay familiar, and matches needed to feel fair regardless of player experience levels.",
+    "Unlike traditional single-player Snake, multiplayer introduces entirely new gameplay considerations. Players must avoid walls, obstacles, and their own tail while simultaneously reacting to their opponent's actions. Predicting movement, controlling space, creating traps, and forcing mistakes become just as important as basic survival.",
+    "These additional layers of strategy transform the experience. What begins as a familiar arcade game quickly becomes a contest of positioning, timing, and decision making. No two matches play out in exactly the same way, helping create the replayability that is essential to arcade-style gaming.",
+    "Alongside human opponents, [ZXSnake](/apps/zxsnake) also includes AI-controlled opponents. These provide an alternative way to play and allow players to practise their skills even when another player is unavailable. AI matches also help introduce new players to multiplayer-style gameplay before they compete against others.",
+    "The introduction of multiplayer also helped shape the wider vision for the [ZX Series](/zx-series). Lessons learned from implementing matchmaking, player management, game sessions, and competitive gameplay continue to influence future projects. Many of the shared multiplayer systems being developed for the series will help support future titles as the collection expands.",
+    "Achievements and leaderboards provide additional goals beyond simply winning matches. Players can track their progress, compare results, unlock rewards, and continue improving their skills over time. These systems help create a stronger sense of progression while encouraging long-term engagement.",
+    "Perhaps the most important goal throughout development was preserving the simplicity of the original game. Multiplayer should enhance the experience rather than complicate it. The challenge was introducing modern features while ensuring that anyone familiar with Snake could still pick up the game and start playing immediately.",
+    "By combining classic arcade gameplay with local multiplayer, online competition, AI opponents, achievements, leaderboards, and shared progression systems, [ZXSnake](/apps/zxsnake) demonstrates how even one of gaming's oldest concepts can evolve for modern devices. It remains recognisably Snake, but with new ways to play, compete, and improve that were never possible in the original versions.",
+    "As the [ZX Series](/zx-series) continues to grow, multiplayer experiences will remain an important area of development. The work carried out in [ZXSnake](/apps/zxsnake) provides the foundation for future competitive gameplay systems while helping ensure that classic arcade ideas continue to feel fresh and engaging for today's players."
+  ],
+  "lastUpdated": "2026-06-07"
 }

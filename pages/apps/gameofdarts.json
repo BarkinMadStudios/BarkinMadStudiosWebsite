@@ -1,45 +1,36 @@
 {
-	"title": "Game Of Darts",
-	"tagline": "Modern darts scoring companion",
-	"hero": {
-		"image": "",
-		"alt": ""
-	},
-	"shortDescription": "Track scores and games with ease.",
-	"description": "Game Of Darts is a modern darts scoring app from [BarkinMad Studios](/about), designed to make tracking games, scores, and player progress simple and intuitive. Built for casual players and competitive matches alike.",
-	
-	"status": "Live",
-	
-	"appStoreUrl": "https://apps.apple.com/gb/app/the-game-of-darts/id6751581339",
-	"testFlightUrl": "",
-	
-	"icon": "apps/gameofdarts/gameofdarts-icon.png",
-	"heroImage": "apps/gameofdarts/gameofdarts-hero.png",
-	
-	"screenshots": [
-		"apps/gameofdarts/gameofdarts.png"
-	],
-	
-	"features": [
-		"Quick and easy score entry",
-		"Multiple game modes",
-		"Player statistics tracking",
-		"Modern clean interface",
-		"Designed for casual and competitive play",
-		"Fast match setup",
-		"iPhone and iPad support"
-	],
-	
-	"achievements": [],
-	
-	"supportedPlatforms": [
-		"iPhone",
-		"iPad"
-	],
-	
-	"version": "1.0",
-	
-	"genre": "Sports",
-	
-	"developer": "BarkinMad Studios"
+  "title": "Game Of Darts",
+  "tagline": "Modern darts scoring companion",
+  "hero": {
+    "image": "",
+    "alt": ""
+  },
+  "shortDescription": "Track scores and games with ease.",
+  "description": "Game Of Darts is a modern darts scoring app from [BarkinMad Studios](/about), designed to make tracking games, scores, and player progress simple and intuitive. Built for casual players and competitive matches alike.",
+  "status": "Live",
+  "appStoreUrl": "https://apps.apple.com/gb/app/the-game-of-darts/id6751581339",
+  "testFlightUrl": "",
+  "icon": "apps/gameofdarts/gameofdarts-icon.png",
+  "heroImage": "apps/gameofdarts/gameofdarts-hero.png",
+  "screenshots": [
+    "apps/gameofdarts/gameofdarts.png"
+  ],
+  "features": [
+    "Quick and easy score entry",
+    "Multiple game modes",
+    "Player statistics tracking",
+    "Modern clean interface",
+    "Designed for casual and competitive play",
+    "Fast match setup",
+    "iPhone and iPad support"
+  ],
+  "achievements": [],
+  "supportedPlatforms": [
+    "iPhone",
+    "iPad"
+  ],
+  "version": "1.0",
+  "genre": "Sports",
+  "developer": "BarkinMad Studios",
+  "lastUpdated": "2026-06-09"
 }

@@ -1,40 +1,30 @@
 {
-	"title": "Introducing BarkinMad Coins",
-	"date": "2026-06-05",
-	"image": "image.png",
-	"content": [
-		"As the [ZX Series](/zx-series) continues to grow, BarkinMad Studios has been exploring ways to create a more connected experience across multiple games. One of the key results of that effort is the introduction of [BarkinMad Coins](/zx-series), a shared reward system designed to recognise player progress and activity across supported titles.",
-		
-		"Rather than treating each game as a completely separate experience, the goal is to create an ecosystem where time spent playing one game can contribute towards rewards that can be enjoyed across the wider collection. This helps encourage exploration of different games while giving players a sense of long-term progression beyond a single high score.",
-		
-		"[BarkinMad Coins](/zx-series) are earned simply by playing supported games. Whether completing challenges, reaching new high scores, unlocking achievements, surviving longer, or progressing through gameplay, players will gradually build a shared coin balance across compatible titles.",
-		
-		"The system is designed to reward active play rather than spending. Coins are earned through gameplay and participation, allowing players to unlock additional content through their achievements and dedication rather than through purchases.",
-		
-		"Initially, coins will be used to unlock cosmetic content such as themes, colour schemes, visual effects, skins, and other personalisation options. These rewards allow players to customise their experience while ensuring that gameplay remains fair and balanced for everyone.",
-		
-		"Maintaining fairness has been an important design consideration throughout development. BarkinMad Coins are not intended to provide gameplay advantages or create pay-to-win mechanics. The focus remains on rewarding player engagement while preserving the simple arcade gameplay that defines the [ZX Series](/zx-series).",
-		
-		"Importantly, BarkinMad Coins have no cash value. They cannot be purchased for real money, transferred between players, exchanged for real-world goods, or redeemed for cash. They exist purely as an in-game progression and reward system within supported BarkinMad Studios titles.",
-		
-		"Support for BarkinMad Coins is planned across the growing [ZX Series](/zx-series), including [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), and future titles currently in development. As additional games are released, players will be able to continue building their shared progression across the wider collection.",
-		
-		"The technology behind the system is also an important step forward for BarkinMad Studios. Shared progression systems require careful planning to ensure achievements, rewards, balances, and unlocks remain synchronised across supported games and devices. The long-term objective is to provide a seamless experience where players can move between games while retaining their progress and rewards.",
-		
-		"BarkinMad Coins form part of a broader vision for the [ZX Series](/zx-series). Alongside achievements, leaderboards, multiplayer systems, and shared progression features, the coin system helps connect individual games into a larger retro-inspired gaming ecosystem.",
-		
-		"As development continues, additional rewards, unlockable content, progression systems, and new uses for BarkinMad Coins will be explored. The intention is to create a system that grows alongside the ZX Series while continuing to reward players for their time, skill, and dedication.",
-		
-		"For BarkinMad Studios, BarkinMad Coins represent more than just a virtual currency. They are an important building block in creating a connected arcade gaming experience where every game contributes to a larger journey and every achievement helps unlock new possibilities."
-	],
-	"actions": [
-		{
-			"label": "View ZX Series",
-			"href": "/zx-series"
-		},
-		{
-			"label": "View Apps",
-			"href": "/apps"
-		}
-	]
+  "title": "Introducing BarkinMad Coins",
+  "date": "2026-06-05",
+  "image": "image.png",
+  "content": [
+    "As the [ZX Series](/zx-series) continues to grow, BarkinMad Studios has been exploring ways to create a more connected experience across multiple games. One of the key results of that effort is the introduction of [BarkinMad Coins](/zx-series), a shared reward system designed to recognise player progress and activity across supported titles.",
+    "Rather than treating each game as a completely separate experience, the goal is to create an ecosystem where time spent playing one game can contribute towards rewards that can be enjoyed across the wider collection. This helps encourage exploration of different games while giving players a sense of long-term progression beyond a single high score.",
+    "[BarkinMad Coins](/zx-series) are earned simply by playing supported games. Whether completing challenges, reaching new high scores, unlocking achievements, surviving longer, or progressing through gameplay, players will gradually build a shared coin balance across compatible titles.",
+    "The system is designed to reward active play rather than spending. Coins are earned through gameplay and participation, allowing players to unlock additional content through their achievements and dedication rather than through purchases.",
+    "Initially, coins will be used to unlock cosmetic content such as themes, colour schemes, visual effects, skins, and other personalisation options. These rewards allow players to customise their experience while ensuring that gameplay remains fair and balanced for everyone.",
+    "Maintaining fairness has been an important design consideration throughout development. BarkinMad Coins are not intended to provide gameplay advantages or create pay-to-win mechanics. The focus remains on rewarding player engagement while preserving the simple arcade gameplay that defines the [ZX Series](/zx-series).",
+    "Importantly, BarkinMad Coins have no cash value. They cannot be purchased for real money, transferred between players, exchanged for real-world goods, or redeemed for cash. They exist purely as an in-game progression and reward system within supported BarkinMad Studios titles.",
+    "Support for BarkinMad Coins is planned across the growing [ZX Series](/zx-series), including [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), and future titles currently in development. As additional games are released, players will be able to continue building their shared progression across the wider collection.",
+    "The technology behind the system is also an important step forward for BarkinMad Studios. Shared progression systems require careful planning to ensure achievements, rewards, balances, and unlocks remain synchronised across supported games and devices. The long-term objective is to provide a seamless experience where players can move between games while retaining their progress and rewards.",
+    "BarkinMad Coins form part of a broader vision for the [ZX Series](/zx-series). Alongside achievements, leaderboards, multiplayer systems, and shared progression features, the coin system helps connect individual games into a larger retro-inspired gaming ecosystem.",
+    "As development continues, additional rewards, unlockable content, progression systems, and new uses for BarkinMad Coins will be explored. The intention is to create a system that grows alongside the ZX Series while continuing to reward players for their time, skill, and dedication.",
+    "For BarkinMad Studios, BarkinMad Coins represent more than just a virtual currency. They are an important building block in creating a connected arcade gaming experience where every game contributes to a larger journey and every achievement helps unlock new possibilities."
+  ],
+  "actions": [
+    {
+      "label": "View ZX Series",
+      "href": "/zx-series"
+    },
+    {
+      "label": "View Apps",
+      "href": "/apps"
+    }
+  ],
+  "lastUpdated": "2026-06-07"
 }

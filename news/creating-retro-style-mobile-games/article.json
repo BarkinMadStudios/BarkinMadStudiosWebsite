@@ -1,30 +1,20 @@
 {
-	"title": "Creating Retro Games",
-	"date": "2026-01-20",
-	"image": "image.png",
-	"content": [
-		"Retro games continue to remain popular decades after their original release. Despite enormous advances in technology, graphics, and processing power, many players still enjoy the straightforward gameplay and immediate accessibility that defined the arcade games of the 1980s and 1990s.",
-		
-		"At BarkinMad Studios, retro-inspired game development is built around a simple philosophy: gameplay comes first. While modern games often feature complex progression systems, large open worlds, and lengthy tutorials, classic arcade games were designed to be understood within seconds and enjoyed immediately.",
-		
-		"Many of the games developed by BarkinMad Studios draw inspiration from this approach. The focus is on quick play sessions, easy-to-learn controls, clear objectives, and gameplay loops that encourage players to keep coming back for one more attempt.",
-		
-		"One of the reasons retro games remain appealing is their simplicity. Players are not required to memorise large numbers of controls or spend hours learning complicated systems. The challenge comes from mastering the gameplay itself rather than navigating complexity.",
-		
-		"However, creating retro-inspired games today is not simply a matter of recreating old games exactly as they existed decades ago. Modern players have different expectations. Features such as achievements, leaderboards, cloud synchronisation, localisation, accessibility options, and online functionality are often considered standard.",
-		
-		"The challenge is finding the right balance between classic gameplay and modern convenience. Too many modern features can distract from the arcade experience, while too few can leave a game feeling outdated. Successful retro-inspired games take the best ideas from both eras and combine them into a cohesive experience.",
-		
-		"This philosophy can be seen throughout the growing [ZX Series](/zx-series). Titles such as [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXPong](/apps/zxpong), and [ZXSpace](/apps/zxspace) all share common design principles while offering very different gameplay experiences. Each game is built around a familiar arcade concept while incorporating modern systems such as achievements, leaderboards, progression tracking, and BarkinMad Coins.",
-		
-		"Another important aspect of retro game development is replayability. Arcade games were designed to be played repeatedly, with players constantly attempting to improve their scores, survive longer, or reach new levels. This focus on replayability remains a key design goal across the ZX Series.",
-		
-		"Visual design also plays an important role. Retro-inspired graphics are not simply about using fewer pixels. Instead, they are about creating a recognisable style that captures the spirit of classic gaming while remaining clear and appealing on modern devices. The goal is to create visuals that feel nostalgic without sacrificing usability.",
-		
-		"Technology has changed significantly since the early days of arcade gaming, but the principles that made those games successful remain relevant. Clear goals, responsive controls, rewarding gameplay loops, and meaningful challenge continue to resonate with players of all ages.",
-		
-		"As the [ZX Series](/zx-series) continues to expand, BarkinMad Studios remains focused on preserving these principles. New titles will continue to take inspiration from the golden age of gaming while embracing the opportunities provided by modern platforms and technologies.",
-		
-		"Creating retro-inspired games is not about recreating the past exactly. It is about understanding what made those games enjoyable in the first place and using that knowledge to create new experiences that feel both familiar and fresh for today's players."
-	]
+  "title": "Creating Retro Games",
+  "date": "2026-01-20",
+  "image": "image.png",
+  "content": [
+    "Retro games continue to remain popular decades after their original release. Despite enormous advances in technology, graphics, and processing power, many players still enjoy the straightforward gameplay and immediate accessibility that defined the arcade games of the 1980s and 1990s.",
+    "At BarkinMad Studios, retro-inspired game development is built around a simple philosophy: gameplay comes first. While modern games often feature complex progression systems, large open worlds, and lengthy tutorials, classic arcade games were designed to be understood within seconds and enjoyed immediately.",
+    "Many of the games developed by BarkinMad Studios draw inspiration from this approach. The focus is on quick play sessions, easy-to-learn controls, clear objectives, and gameplay loops that encourage players to keep coming back for one more attempt.",
+    "One of the reasons retro games remain appealing is their simplicity. Players are not required to memorise large numbers of controls or spend hours learning complicated systems. The challenge comes from mastering the gameplay itself rather than navigating complexity.",
+    "However, creating retro-inspired games today is not simply a matter of recreating old games exactly as they existed decades ago. Modern players have different expectations. Features such as achievements, leaderboards, cloud synchronisation, localisation, accessibility options, and online functionality are often considered standard.",
+    "The challenge is finding the right balance between classic gameplay and modern convenience. Too many modern features can distract from the arcade experience, while too few can leave a game feeling outdated. Successful retro-inspired games take the best ideas from both eras and combine them into a cohesive experience.",
+    "This philosophy can be seen throughout the growing [ZX Series](/zx-series). Titles such as [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXPong](/apps/zxpong), and [ZXSpace](/apps/zxspace) all share common design principles while offering very different gameplay experiences. Each game is built around a familiar arcade concept while incorporating modern systems such as achievements, leaderboards, progression tracking, and BarkinMad Coins.",
+    "Another important aspect of retro game development is replayability. Arcade games were designed to be played repeatedly, with players constantly attempting to improve their scores, survive longer, or reach new levels. This focus on replayability remains a key design goal across the ZX Series.",
+    "Visual design also plays an important role. Retro-inspired graphics are not simply about using fewer pixels. Instead, they are about creating a recognisable style that captures the spirit of classic gaming while remaining clear and appealing on modern devices. The goal is to create visuals that feel nostalgic without sacrificing usability.",
+    "Technology has changed significantly since the early days of arcade gaming, but the principles that made those games successful remain relevant. Clear goals, responsive controls, rewarding gameplay loops, and meaningful challenge continue to resonate with players of all ages.",
+    "As the [ZX Series](/zx-series) continues to expand, BarkinMad Studios remains focused on preserving these principles. New titles will continue to take inspiration from the golden age of gaming while embracing the opportunities provided by modern platforms and technologies.",
+    "Creating retro-inspired games is not about recreating the past exactly. It is about understanding what made those games enjoyable in the first place and using that knowledge to create new experiences that feel both familiar and fresh for today's players."
+  ],
+  "lastUpdated": "2026-06-07"
 }

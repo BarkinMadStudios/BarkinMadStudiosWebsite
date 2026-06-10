@@ -1,64 +1,65 @@
 {
-	"title": "Internal Business Tools",
-	"hero": {
-		"image": "",
-		"alt": ""
-	},
-	"description": "Custom business tools designed to improve efficiency, reduce administration, and support day-to-day operations.",
-	"heroTitle": "Internal Business Tools",
-	"heroSubtitle": "Software designed around the way your team actually works.",
-	"sections": [
-		{
-			"heading": "Software Built for Internal Teams",
-			"content": [
-				"Many organisations rely on spreadsheets, emails, and disconnected systems to manage critical business processes.",
-				"Custom internal tools can simplify operations, improve reporting, and reduce administrative overhead, especially when paired with [business process improvement](/services/business-process-improvement)."
-			]
-		},
-		{
-			"heading": "Examples of Internal Tools",
-			"content": [
-				"Reporting dashboards",
-				"Workflow tracking systems",
-				"Approval processes",
-				"Administration portals",
-				"Customer databases",
-				"Operational management tools",
-				"Resource tracking systems",
-				"Inventory management solutions",
-				"Productivity tools",
-				"Data management platforms"
-			]
-		},
-		{
-			"heading": "Reduce Manual Processes",
-			"content": [
-				"The right software can eliminate repetitive tasks, centralise information, and improve visibility across teams.",
-				"This helps organisations spend less time managing processes and more time delivering value."
-			]
-		},
-		{
-			"heading": "Practical Solutions",
-			"content": [
-				"Solutions are designed around existing workflows while identifying opportunities for improvement.",
-				"The focus is on usability, maintainability, and measurable business benefits."
-			]
-		},
-		{
-			"heading": "Why BarkinMad Studios?",
-			"content": [
-				"20+ years technology experience.",
-				"Independent UK software developer.",
-				"Real-world [apps](/apps) actively developed and maintained.",
-				"Direct communication throughout every project.",
-				"Flexible engagement for startups and small businesses."
-			]
-		}
-	],
-	"cta": {
-		"title": "Improve Operational Efficiency",
-		"content": "Whether you're managing customers, projects, teams, or operational processes, custom internal tools can help streamline your organisation.",
-		"buttonText": "Contact BarkinMad Studios",
-		"buttonLink": "/contact"
-	}
+  "title": "Internal Business Tools",
+  "hero": {
+    "image": "",
+    "alt": ""
+  },
+  "description": "Custom business tools designed to improve efficiency, reduce administration, and support day-to-day operations.",
+  "heroTitle": "Internal Business Tools",
+  "heroSubtitle": "Software designed around the way your team actually works.",
+  "sections": [
+    {
+      "heading": "Software Built for Internal Teams",
+      "content": [
+        "Many organisations rely on spreadsheets, emails, and disconnected systems to manage critical business processes.",
+        "Custom internal tools can simplify operations, improve reporting, and reduce administrative overhead, especially when paired with [business process improvement](/services/business-process-improvement)."
+      ]
+    },
+    {
+      "heading": "Examples of Internal Tools",
+      "content": [
+        "Reporting dashboards",
+        "Workflow tracking systems",
+        "Approval processes",
+        "Administration portals",
+        "Customer databases",
+        "Operational management tools",
+        "Resource tracking systems",
+        "Inventory management solutions",
+        "Productivity tools",
+        "Data management platforms"
+      ]
+    },
+    {
+      "heading": "Reduce Manual Processes",
+      "content": [
+        "The right software can eliminate repetitive tasks, centralise information, and improve visibility across teams.",
+        "This helps organisations spend less time managing processes and more time delivering value."
+      ]
+    },
+    {
+      "heading": "Practical Solutions",
+      "content": [
+        "Solutions are designed around existing workflows while identifying opportunities for improvement.",
+        "The focus is on usability, maintainability, and measurable business benefits."
+      ]
+    },
+    {
+      "heading": "Why BarkinMad Studios?",
+      "content": [
+        "20+ years technology experience.",
+        "Independent UK software developer.",
+        "Real-world [apps](/apps) actively developed and maintained.",
+        "Direct communication throughout every project.",
+        "Flexible engagement for startups and small businesses."
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Improve Operational Efficiency",
+    "content": "Whether you're managing customers, projects, teams, or operational processes, custom internal tools can help streamline your organisation.",
+    "buttonText": "Contact BarkinMad Studios",
+    "buttonLink": "/contact"
+  },
+  "lastUpdated": "2026-06-07"
 }

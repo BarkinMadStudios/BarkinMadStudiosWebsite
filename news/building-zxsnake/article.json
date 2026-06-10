@@ -1,26 +1,18 @@
 {
-	"title": "Building ZXSnake",
-	"date": "2026-02-25",
-	"image": "image.png",
-	"content": [
-		"When BarkinMad Studios began planning the [ZX Series](/zx-series), one of the first questions was which game should become the foundation for the collection. The answer was clear: Snake. Few games are as instantly recognisable, easy to learn, and enjoyable to replay as the classic Snake formula.",
-		
-		"[ZXSnake](/apps/zxsnake) was created around the idea that classic arcade gameplay can still be engaging on modern mobile devices when combined with contemporary features and thoughtful design. The objective was not to reinvent Snake, but to build a polished version that felt familiar while taking advantage of modern technology.",
-		
-		"From the beginning, simplicity was a key design principle. Players should be able to launch the game and start playing within seconds. Controls needed to be responsive, menus needed to stay uncluttered, and gameplay needed to remain focused on quick decision making, score chasing, and replayability.",
-		
-		"One of the challenges when building any arcade-style game is finding the balance between accessibility and challenge. New players should be able to enjoy the game immediately, while experienced players should have opportunities to improve their skills and compete for higher scores. Achieving that balance required careful tuning of movement speed, scoring systems, and overall game flow.",
-		
-		"As development progressed, [ZXSnake](/apps/zxsnake) became more than a simple arcade game. Support was added for achievements, leaderboards, player progression, localisation, and multiplayer features. These additions helped transform the game from a standalone experience into part of a wider ecosystem that would eventually become the [ZX Series](/zx-series).",
-		
-		"Game Center integration played an important role in the project. Leaderboards allow players to compare scores with friends and other players around the world, while achievements provide additional goals beyond simply reaching a new high score. These systems encourage replayability and help create a stronger sense of progression.",
-		
-		"Localisation was another major focus during development. BarkinMad Studios wanted the game to be accessible to players around the world, leading to support for a wide range of languages. Ensuring menus, achievements, descriptions, and gameplay information remained clear across multiple languages required careful planning and testing.",
-		
-		"The development of [ZXSnake](/apps/zxsnake) also helped establish many of the shared systems that would later be reused across other games in the [ZX Series](/zx-series). Features such as shared user interface components, achievement systems, leaderboards, progression mechanics, and wallet functionality all began taking shape during this project.",
-		
-		"Perhaps the most important lesson learned during development was the value of keeping things simple. It can be tempting to continually add new mechanics and features, but part of what makes Snake successful is its straightforward gameplay. Maintaining that simplicity while introducing modern enhancements became a guiding principle throughout development.",
-		
-		"Today, [ZXSnake](/apps/zxsnake) represents both a tribute to one of gaming's most enduring concepts and the starting point of the wider [ZX Series](/zx-series). It demonstrates that classic arcade gameplay can remain relevant when combined with modern features, careful design, and a focus on delivering a fun and accessible player experience."
-	]
+  "title": "Building ZXSnake",
+  "date": "2026-02-25",
+  "image": "image.png",
+  "content": [
+    "When BarkinMad Studios began planning the [ZX Series](/zx-series), one of the first questions was which game should become the foundation for the collection. The answer was clear: Snake. Few games are as instantly recognisable, easy to learn, and enjoyable to replay as the classic Snake formula.",
+    "[ZXSnake](/apps/zxsnake) was created around the idea that classic arcade gameplay can still be engaging on modern mobile devices when combined with contemporary features and thoughtful design. The objective was not to reinvent Snake, but to build a polished version that felt familiar while taking advantage of modern technology.",
+    "From the beginning, simplicity was a key design principle. Players should be able to launch the game and start playing within seconds. Controls needed to be responsive, menus needed to stay uncluttered, and gameplay needed to remain focused on quick decision making, score chasing, and replayability.",
+    "One of the challenges when building any arcade-style game is finding the balance between accessibility and challenge. New players should be able to enjoy the game immediately, while experienced players should have opportunities to improve their skills and compete for higher scores. Achieving that balance required careful tuning of movement speed, scoring systems, and overall game flow.",
+    "As development progressed, [ZXSnake](/apps/zxsnake) became more than a simple arcade game. Support was added for achievements, leaderboards, player progression, localisation, and multiplayer features. These additions helped transform the game from a standalone experience into part of a wider ecosystem that would eventually become the [ZX Series](/zx-series).",
+    "Game Center integration played an important role in the project. Leaderboards allow players to compare scores with friends and other players around the world, while achievements provide additional goals beyond simply reaching a new high score. These systems encourage replayability and help create a stronger sense of progression.",
+    "Localisation was another major focus during development. BarkinMad Studios wanted the game to be accessible to players around the world, leading to support for a wide range of languages. Ensuring menus, achievements, descriptions, and gameplay information remained clear across multiple languages required careful planning and testing.",
+    "The development of [ZXSnake](/apps/zxsnake) also helped establish many of the shared systems that would later be reused across other games in the [ZX Series](/zx-series). Features such as shared user interface components, achievement systems, leaderboards, progression mechanics, and wallet functionality all began taking shape during this project.",
+    "Perhaps the most important lesson learned during development was the value of keeping things simple. It can be tempting to continually add new mechanics and features, but part of what makes Snake successful is its straightforward gameplay. Maintaining that simplicity while introducing modern enhancements became a guiding principle throughout development.",
+    "Today, [ZXSnake](/apps/zxsnake) represents both a tribute to one of gaming's most enduring concepts and the starting point of the wider [ZX Series](/zx-series). It demonstrates that classic arcade gameplay can remain relevant when combined with modern features, careful design, and a focus on delivering a fun and accessible player experience."
+  ],
+  "lastUpdated": "2026-06-07"
 }

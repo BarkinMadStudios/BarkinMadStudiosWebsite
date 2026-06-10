@@ -1,16 +1,17 @@
 {
-	"live": [
-		"ZXSnake",
-		"ZXBrick"
-	],
-	"development": [
-		"ZXPong",
-		"ZXSpace"
-	],
-	"planned": [
-		"ZXMaze",
-		"ZXLabrador",
-		"ZXRacer",
-		"ZXTanks"
-	]
+  "live": [
+    "ZXSnake",
+    "ZXBrick"
+  ],
+  "development": [
+    "ZXPong",
+    "ZXSpace"
+  ],
+  "planned": [
+    "ZXMaze",
+    "ZXLabrador",
+    "ZXRacer",
+    "ZXTanks"
+  ],
+  "lastUpdated": "2026-06-05"
 }

@@ -1,151 +1,152 @@
 {
-	"title": "Portfolio",
-	"seoTitle": "Software Development Portfolio | BarkinMad Studios",
-	"heading": "Portfolio",
-	"intro": "Explore public BarkinMad Studios projects across mobile apps, retro-inspired games, business tools, prototypes, and digital products.",
-	"description": "A selection of public BarkinMad Studios software development projects, including mobile applications, retro arcade games, prototypes, and planned business tools.",
-	"hero": {
-		"image": "/images/apps-hero-banner.png",
-		"alt": "BarkinMad Studios software development and mobile app portfolio"
-	},
-	"sections": [
-		{
-			"heading": "Public Projects",
-			"paragraphs": [
-				"This portfolio highlights public BarkinMad Studios projects and product work.",
-				"Some previous consultancy, IT, and business technology projects are not listed due to privacy, confidentiality, and client discretion.",
-				"Where private experience is relevant, it is described only in general terms without naming clients or exposing internal business details."
-			]
-		}
-	],
-	"projects": [
-		{
-			"title": "The Game of Darts",
-			"status": "Live",
-			"type": "Mobile App",
-			"href": "/apps/gameofdarts",
-			"summary": "A modern darts scoring application for iPhone and iPad, designed to support multiple game formats, player statistics, match history, and performance tracking.",
-			"challenge": "Create a flexible darts scoring app that supports more than basic 501 scoring while remaining fast and easy to use during real games.",
-			"solution": "Built a mobile scoring app supporting multiple darts formats, player tracking, match history, statistics, and a user interface focused on quick score entry.",
-			"technologies": [
-				"iOS",
-				"Swift",
-				"SwiftUI",
-				"Local data storage",
-				"Statistics tracking"
-			],
-			"outcome": "Created a public mobile app that demonstrates BarkinMad Studios' ability to build practical, user-focused software with long-term support."
-		},
-		{
-			"title": "ZXSnake",
-			"status": "Live",
-			"type": "Retro Arcade Game",
-			"href": "/apps/zxsnake",
-			"summary": "A retro-inspired snake game with modern features including achievements, leaderboards, AI opponents, local PVP, online PVP, unlockable content, and shared ZX Series progression.",
-			"challenge": "Modernise a classic arcade concept while preserving the simple gameplay that made Snake instantly recognisable.",
-			"solution": "Developed a polished mobile arcade game with responsive controls, Game Center integration, multiplayer features, localisation, and shared progression systems.",
-			"technologies": [
-				"iOS",
-				"Swift",
-				"SwiftUI",
-				"SpriteKit",
-				"Game Center",
-				"StoreKit",
-				"AdMob"
-			],
-			"outcome": "Released as one of the first live games in the connected [ZX Series](/zx-series)."
-		},
-		{
-			"title": "ZXBrick",
-			"status": "Live",
-			"type": "Retro Arcade Game",
-			"href": "/apps/zxbrick",
-			"summary": "A retro-inspired brick-breaking game featuring 100 handcrafted levels, power-ups, achievements, leaderboards, unlockable themes, and BarkinMad Coins.",
-			"challenge": "Create a brick-breaking arcade game that feels familiar while adding enough progression, variety, and replayability for modern mobile players.",
-			"solution": "Built a mobile arcade game with handcrafted levels, power-ups, score chasing, achievements, Game Center integration, localisation, and shared ZX Series systems.",
-			"technologies": [
-				"iOS",
-				"Swift",
-				"SwiftUI",
-				"SpriteKit",
-				"Game Center",
-				"StoreKit",
-				"AdMob"
-			],
-			"outcome": "Released as a live ZX Series title and helped validate shared arcade game systems for future releases."
-		},
-		{
-			"title": "ZXSpace",
-			"status": "In Development",
-			"type": "Retro Arcade Game",
-			"href": "/apps/zxspace",
-			"summary": "A retro-inspired space shooter focused on fast arcade gameplay, enemy waves, power-ups, score chasing, achievements, and shared ZX Series progression.",
-			"challenge": "Design a space shooter that captures classic arcade action while fitting into the wider ZX Series ecosystem.",
-			"solution": "Developing a mobile arcade shooter using shared systems for progression, achievements, localisation, leaderboards, and BarkinMad Coins.",
-			"technologies": [
-				"iOS",
-				"Swift",
-				"SwiftUI",
-				"SpriteKit",
-				"Game Center"
-			],
-			"outcome": "In development as part of the next stage of the ZX Series roadmap."
-		},
-		{
-			"title": "ZXPong",
-			"status": "In Development",
-			"type": "Retro Arcade Game",
-			"href": "/apps/zxpong",
-			"summary": "A retro-inspired paddle game with quick rallies, AI opponents, local multiplayer, online multiplayer, achievements, and shared ZX Series progression.",
-			"challenge": "Create a fast and accessible arcade paddle game while reusing shared systems from the wider ZX Series.",
-			"solution": "Developing ZXPong around shared PVP, achievements, leaderboards, wallet, localisation, and Game Center systems.",
-			"technologies": [
-				"iOS",
-				"Swift",
-				"SwiftUI",
-				"SpriteKit",
-				"Game Center"
-			],
-			"outcome": "Active development project intended to expand the ZX Series with another classic arcade gameplay style."
-		},
-		{
-			"title": "Wi-Fi Survey Tool",
-			"status": "Planned",
-			"type": "Business / Utility App",
-			"href": "/services/mobile-app-development",
-			"summary": "A planned mobile tool concept for capturing Wi-Fi readings, comparing access point and extender combinations, and helping users understand wireless coverage around a property.",
-			"challenge": "Help users collect structured Wi-Fi information without needing specialist enterprise survey tools.",
-			"solution": "Planned app concept focused on guided data capture, structured test points, report generation, and future analysis features.",
-			"technologies": [
-				"iOS",
-				"SwiftUI",
-				"Data capture",
-				"Reporting",
-				"Potential AI-assisted analysis"
-			],
-			"outcome": "Planned as a future product opportunity with potential free, premium, and business-focused features."
-		}
-	],
-	"confidentiality": {
-		"heading": "Private and Confidential Work",
-		"paragraphs": [
-			"BarkinMad Studios also draws on experience from consultancy, IT, software delivery, automation, business systems, and technology projects that are not shown publicly.",
-			"Some previous work cannot be listed in detail due to privacy, confidentiality, commercial sensitivity, or client discretion.",
-			"For this reason, the portfolio focuses on public products and general capability areas rather than naming private organisations or exposing internal project details."
-		]
-	},
-	"actions": [
-		{
-			"label": "View Services",
-			"href": "/services"
-		},
-		{
-			"label": "View Apps",
-			"href": "/apps"
-		},
-		{
-			"label": "Contact BarkinMad Studios",
-			"href": "/contact"
-		}
-	]
+  "title": "Portfolio",
+  "seoTitle": "Software Development Portfolio | BarkinMad Studios",
+  "heading": "Portfolio",
+  "intro": "Explore public BarkinMad Studios projects across mobile apps, retro-inspired games, business tools, prototypes, and digital products.",
+  "description": "A selection of public BarkinMad Studios software development projects, including mobile applications, retro arcade games, prototypes, and planned business tools.",
+  "hero": {
+    "image": "/images/apps-hero-banner.png",
+    "alt": "BarkinMad Studios software development and mobile app portfolio"
+  },
+  "sections": [
+    {
+      "heading": "Public Projects",
+      "paragraphs": [
+        "This portfolio highlights public BarkinMad Studios projects and product work.",
+        "Some previous consultancy, IT, and business technology projects are not listed due to privacy, confidentiality, and client discretion.",
+        "Where private experience is relevant, it is described only in general terms without naming clients or exposing internal business details."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "The Game of Darts",
+      "status": "Live",
+      "type": "Mobile App",
+      "href": "/apps/gameofdarts",
+      "summary": "A modern darts scoring application for iPhone and iPad, designed to support multiple game formats, player statistics, match history, and performance tracking.",
+      "challenge": "Create a flexible darts scoring app that supports more than basic 501 scoring while remaining fast and easy to use during real games.",
+      "solution": "Built a mobile scoring app supporting multiple darts formats, player tracking, match history, statistics, and a user interface focused on quick score entry.",
+      "technologies": [
+        "iOS",
+        "Swift",
+        "SwiftUI",
+        "Local data storage",
+        "Statistics tracking"
+      ],
+      "outcome": "Created a public mobile app that demonstrates BarkinMad Studios' ability to build practical, user-focused software with long-term support."
+    },
+    {
+      "title": "ZXSnake",
+      "status": "Live",
+      "type": "Retro Arcade Game",
+      "href": "/apps/zxsnake",
+      "summary": "A retro-inspired snake game with modern features including achievements, leaderboards, AI opponents, local PVP, online PVP, unlockable content, and shared ZX Series progression.",
+      "challenge": "Modernise a classic arcade concept while preserving the simple gameplay that made Snake instantly recognisable.",
+      "solution": "Developed a polished mobile arcade game with responsive controls, Game Center integration, multiplayer features, localisation, and shared progression systems.",
+      "technologies": [
+        "iOS",
+        "Swift",
+        "SwiftUI",
+        "SpriteKit",
+        "Game Center",
+        "StoreKit",
+        "AdMob"
+      ],
+      "outcome": "Released as one of the first live games in the connected [ZX Series](/zx-series)."
+    },
+    {
+      "title": "ZXBrick",
+      "status": "Live",
+      "type": "Retro Arcade Game",
+      "href": "/apps/zxbrick",
+      "summary": "A retro-inspired brick-breaking game featuring 100 handcrafted levels, power-ups, achievements, leaderboards, unlockable themes, and BarkinMad Coins.",
+      "challenge": "Create a brick-breaking arcade game that feels familiar while adding enough progression, variety, and replayability for modern mobile players.",
+      "solution": "Built a mobile arcade game with handcrafted levels, power-ups, score chasing, achievements, Game Center integration, localisation, and shared ZX Series systems.",
+      "technologies": [
+        "iOS",
+        "Swift",
+        "SwiftUI",
+        "SpriteKit",
+        "Game Center",
+        "StoreKit",
+        "AdMob"
+      ],
+      "outcome": "Released as a live ZX Series title and helped validate shared arcade game systems for future releases."
+    },
+    {
+      "title": "ZXSpace",
+      "status": "In Development",
+      "type": "Retro Arcade Game",
+      "href": "/apps/zxspace",
+      "summary": "A retro-inspired space shooter focused on fast arcade gameplay, enemy waves, power-ups, score chasing, achievements, and shared ZX Series progression.",
+      "challenge": "Design a space shooter that captures classic arcade action while fitting into the wider ZX Series ecosystem.",
+      "solution": "Developing a mobile arcade shooter using shared systems for progression, achievements, localisation, leaderboards, and BarkinMad Coins.",
+      "technologies": [
+        "iOS",
+        "Swift",
+        "SwiftUI",
+        "SpriteKit",
+        "Game Center"
+      ],
+      "outcome": "In development as part of the next stage of the ZX Series roadmap."
+    },
+    {
+      "title": "ZXPong",
+      "status": "In Development",
+      "type": "Retro Arcade Game",
+      "href": "/apps/zxpong",
+      "summary": "A retro-inspired paddle game with quick rallies, AI opponents, local multiplayer, online multiplayer, achievements, and shared ZX Series progression.",
+      "challenge": "Create a fast and accessible arcade paddle game while reusing shared systems from the wider ZX Series.",
+      "solution": "Developing ZXPong around shared PVP, achievements, leaderboards, wallet, localisation, and Game Center systems.",
+      "technologies": [
+        "iOS",
+        "Swift",
+        "SwiftUI",
+        "SpriteKit",
+        "Game Center"
+      ],
+      "outcome": "Active development project intended to expand the ZX Series with another classic arcade gameplay style."
+    },
+    {
+      "title": "Wi-Fi Survey Tool",
+      "status": "Planned",
+      "type": "Business / Utility App",
+      "href": "/services/mobile-app-development",
+      "summary": "A planned mobile tool concept for capturing Wi-Fi readings, comparing access point and extender combinations, and helping users understand wireless coverage around a property.",
+      "challenge": "Help users collect structured Wi-Fi information without needing specialist enterprise survey tools.",
+      "solution": "Planned app concept focused on guided data capture, structured test points, report generation, and future analysis features.",
+      "technologies": [
+        "iOS",
+        "SwiftUI",
+        "Data capture",
+        "Reporting",
+        "Potential AI-assisted analysis"
+      ],
+      "outcome": "Planned as a future product opportunity with potential free, premium, and business-focused features."
+    }
+  ],
+  "confidentiality": {
+    "heading": "Private and Confidential Work",
+    "paragraphs": [
+      "BarkinMad Studios also draws on experience from consultancy, IT, software delivery, automation, business systems, and technology projects that are not shown publicly.",
+      "Some previous work cannot be listed in detail due to privacy, confidentiality, commercial sensitivity, or client discretion.",
+      "For this reason, the portfolio focuses on public products and general capability areas rather than naming private organisations or exposing internal project details."
+    ]
+  },
+  "actions": [
+    {
+      "label": "View Services",
+      "href": "/services"
+    },
+    {
+      "label": "View Apps",
+      "href": "/apps"
+    },
+    {
+      "label": "Contact BarkinMad Studios",
+      "href": "/contact"
+    }
+  ],
+  "lastUpdated": "2026-06-07"
 }

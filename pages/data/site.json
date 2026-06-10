@@ -1,72 +1,73 @@
 {
-	"name": "BarkinMad Studios",
-	"tagline": "Retro-inspired games and apps",
-	"description": "Independent UK game and app developer creating retro-inspired experiences for modern devices.",
-	"keywords": "retro games, arcade games, iOS games, ZXSnake, ZXBrick, ZXPong, ZXSpace, GameOfDarts",
-	"ogDescription": "Retro games. Modern apps. Built with passion.",
-	"email": "barry@barkinmad.studio",
-	"website": "https://www.barkinmad.studio",
-	"copyright": "BarkinMad Studios",
-	"navigation": [
-		{
-			"label": "Home",
-			"href": "/"
-		},
-		{
-			"label": "Apps",
-			"href": "/apps"
-		},
-		{
-			"label": "Services",
-			"href": "/services"
-		},
-		{
-			"label": "Portfolio",
-			"href": "/portfolio"
-		},
-		{
-			"label": "News",
-			"href": "/news"
-		},
-		{
-			"label": "About",
-			"href": "/about"
-		},
-		{
-			"label": "Privacy",
-			"href": "/privacy"
-		},
-		{
-			"label": "Contact",
-			"href": "/contact"
-		}
-	],
-	"footerNavigation": [
-		{
-			"label": "Apps",
-			"href": "/apps"
-		},
-		{
-			"label": "Portfolio",
-			"href": "/portfolio"
-		},
-		{
-			"label": "Privacy",
-			"href": "/privacy"
-		},
-		{
-			"label": "Cookies",
-			"href": "/cookies"
-		},
-		{
-			"label": "Contact",
-			"href": "/contact"
-		}
-	],
-	"socials": {
-		"github": "",
-		"youtube": "",
-		"x": "",
-		"facebook": "https://www.facebook.com/profile.php?id=61579287944996"
-	}
+  "name": "BarkinMad Studios",
+  "tagline": "Retro-inspired games and apps",
+  "description": "Independent UK game and app developer creating retro-inspired experiences for modern devices.",
+  "keywords": "retro games, arcade games, iOS games, ZXSnake, ZXBrick, ZXPong, ZXSpace, GameOfDarts",
+  "ogDescription": "Retro games. Modern apps. Built with passion.",
+  "email": "barry@barkinmad.studio",
+  "website": "https://www.barkinmad.studio",
+  "copyright": "BarkinMad Studios",
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Apps",
+      "href": "/apps"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Portfolio",
+      "href": "/portfolio"
+    },
+    {
+      "label": "News",
+      "href": "/news"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Privacy",
+      "href": "/privacy"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "footerNavigation": [
+    {
+      "label": "Apps",
+      "href": "/apps"
+    },
+    {
+      "label": "Portfolio",
+      "href": "/portfolio"
+    },
+    {
+      "label": "Privacy",
+      "href": "/privacy"
+    },
+    {
+      "label": "Cookies",
+      "href": "/cookies"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "socials": {
+    "github": "",
+    "youtube": "",
+    "x": "",
+    "facebook": "https://www.facebook.com/profile.php?id=61579287944996"
+  },
+  "lastUpdated": "2026-06-07"
 }

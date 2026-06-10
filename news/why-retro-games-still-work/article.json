@@ -1,34 +1,22 @@
 {
-	"title": "Why Retro Arcade Games Still Work Today",
-	"date": "2025-12-15",
-	"image": "image.png",
-	"content": [
-		"Gaming technology has advanced dramatically over the past few decades. Modern devices are capable of rendering realistic graphics, supporting vast online worlds, and delivering experiences that would have seemed impossible during the early days of arcade gaming. Despite these advances, retro-inspired games continue to attract players around the world.",
-		
-		"The reason is surprisingly simple: great gameplay never goes out of style. Many of the most successful arcade games were built around straightforward ideas that were easy to understand but difficult to master. Players could learn the controls within seconds yet spend countless hours trying to improve their score, survive longer, or reach the next level.",
-		
-		"This balance between accessibility and challenge remains just as effective today as it was during the golden age of arcade gaming. Players enjoy experiences that reward skill, provide immediate feedback, and encourage repeated play without requiring lengthy tutorials or significant time commitments.",
-		
-		"Modern mobile gaming is particularly well suited to these principles. Smartphones and tablets are often used in short bursts throughout the day, making quick and engaging gameplay experiences more appealing than lengthy sessions that require extended periods of concentration. Arcade-style games naturally fit this pattern of play.",
-		
-		"One of the key strengths of retro-inspired games is clarity. The objective is usually obvious, the controls are easy to understand, and players always know what they need to do next. This simplicity allows the focus to remain on gameplay rather than complicated systems or extensive menus.",
-		
-		"That does not mean retro games are easy to create. Designing a game that remains engaging despite simple mechanics requires careful balancing, responsive controls, and a gameplay loop that encourages players to return repeatedly. Many classic arcade games achieved this through score chasing, increasing difficulty, and rewarding mastery rather than relying on complex progression systems.",
-		
-		"At BarkinMad Studios, these principles have become a major source of inspiration. The growing [ZX Series](/zx-series) has been built around the idea that classic arcade gameplay can remain relevant when combined with modern technology and player expectations.",
-		
-		"Titles such as [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXPong](/apps/zxpong), and [ZXSpace](/apps/zxspace) all take inspiration from familiar arcade concepts while introducing features that modern players expect. Achievements, leaderboards, localisation, multiplayer functionality, and shared progression systems help create a contemporary experience without losing the simplicity that made the original ideas successful.",
-		
-		"Leaderboards are a good example of how modern technology can enhance traditional gameplay. Arcade players have always enjoyed competing for high scores. Today, Game Center integration allows players to compare their performance with friends and competitors around the world, extending the same competitive spirit beyond a single arcade machine.",
-		
-		"Localisation is another area where modern technology has transformed the player experience. While many classic arcade games were available in only a handful of languages, the [ZX Series](/zx-series) supports players across multiple regions through support for 32 languages, helping make retro-inspired gameplay accessible to a global audience.",
-		
-		"Another reason retro games continue to work is that they respect the player's time. Many players do not always have hours available for gaming. A well-designed arcade game allows someone to enjoy a meaningful experience in just a few minutes while still offering depth for those who wish to play longer and improve their skills.",
-		
-		"Technology may have evolved significantly, but the fundamentals of good game design remain remarkably consistent. Clear objectives, responsive controls, meaningful challenge, and rewarding progression continue to form the foundation of successful games regardless of platform or genre.",
-		
-		"At BarkinMad Studios, the goal is not to recreate the past exactly. Instead, the aim is to understand what made classic arcade games enjoyable and apply those lessons to modern mobile devices. By combining timeless gameplay principles with modern features and technology, it becomes possible to create experiences that feel both familiar and fresh.",
-		
-		"The continued popularity of retro-inspired games demonstrates that players still value strong gameplay above all else. Whether on an original arcade cabinet, a home computer, a modern console, or a smartphone, games that are easy to learn, rewarding to master, and enjoyable to replay will always have a place in gaming."
-	]
+  "title": "Why Retro Arcade Games Still Work Today",
+  "date": "2025-12-15",
+  "image": "image.png",
+  "content": [
+    "Gaming technology has advanced dramatically over the past few decades. Modern devices are capable of rendering realistic graphics, supporting vast online worlds, and delivering experiences that would have seemed impossible during the early days of arcade gaming. Despite these advances, retro-inspired games continue to attract players around the world.",
+    "The reason is surprisingly simple: great gameplay never goes out of style. Many of the most successful arcade games were built around straightforward ideas that were easy to understand but difficult to master. Players could learn the controls within seconds yet spend countless hours trying to improve their score, survive longer, or reach the next level.",
+    "This balance between accessibility and challenge remains just as effective today as it was during the golden age of arcade gaming. Players enjoy experiences that reward skill, provide immediate feedback, and encourage repeated play without requiring lengthy tutorials or significant time commitments.",
+    "Modern mobile gaming is particularly well suited to these principles. Smartphones and tablets are often used in short bursts throughout the day, making quick and engaging gameplay experiences more appealing than lengthy sessions that require extended periods of concentration. Arcade-style games naturally fit this pattern of play.",
+    "One of the key strengths of retro-inspired games is clarity. The objective is usually obvious, the controls are easy to understand, and players always know what they need to do next. This simplicity allows the focus to remain on gameplay rather than complicated systems or extensive menus.",
+    "That does not mean retro games are easy to create. Designing a game that remains engaging despite simple mechanics requires careful balancing, responsive controls, and a gameplay loop that encourages players to return repeatedly. Many classic arcade games achieved this through score chasing, increasing difficulty, and rewarding mastery rather than relying on complex progression systems.",
+    "At BarkinMad Studios, these principles have become a major source of inspiration. The growing [ZX Series](/zx-series) has been built around the idea that classic arcade gameplay can remain relevant when combined with modern technology and player expectations.",
+    "Titles such as [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXPong](/apps/zxpong), and [ZXSpace](/apps/zxspace) all take inspiration from familiar arcade concepts while introducing features that modern players expect. Achievements, leaderboards, localisation, multiplayer functionality, and shared progression systems help create a contemporary experience without losing the simplicity that made the original ideas successful.",
+    "Leaderboards are a good example of how modern technology can enhance traditional gameplay. Arcade players have always enjoyed competing for high scores. Today, Game Center integration allows players to compare their performance with friends and competitors around the world, extending the same competitive spirit beyond a single arcade machine.",
+    "Localisation is another area where modern technology has transformed the player experience. While many classic arcade games were available in only a handful of languages, the [ZX Series](/zx-series) supports players across multiple regions through support for 32 languages, helping make retro-inspired gameplay accessible to a global audience.",
+    "Another reason retro games continue to work is that they respect the player's time. Many players do not always have hours available for gaming. A well-designed arcade game allows someone to enjoy a meaningful experience in just a few minutes while still offering depth for those who wish to play longer and improve their skills.",
+    "Technology may have evolved significantly, but the fundamentals of good game design remain remarkably consistent. Clear objectives, responsive controls, meaningful challenge, and rewarding progression continue to form the foundation of successful games regardless of platform or genre.",
+    "At BarkinMad Studios, the goal is not to recreate the past exactly. Instead, the aim is to understand what made classic arcade games enjoyable and apply those lessons to modern mobile devices. By combining timeless gameplay principles with modern features and technology, it becomes possible to create experiences that feel both familiar and fresh.",
+    "The continued popularity of retro-inspired games demonstrates that players still value strong gameplay above all else. Whether on an original arcade cabinet, a home computer, a modern console, or a smartphone, games that are easy to learn, rewarding to master, and enjoyable to replay will always have a place in gaming."
+  ],
+  "lastUpdated": "2026-06-07"
 }

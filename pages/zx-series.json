@@ -1,123 +1,124 @@
 {
-	"title": "ZX Series",
-	"seoTitle": "ZX Series Retro Arcade Games | BarkinMad Studios",
-	"tagline": "Connected retro arcade gaming",
-	"hero": {
-		"image": "/images/retro-banner.png",
-		"alt": "ZX Series arcade game collection featuring ZXSnake, ZXBrick, ZXSpace and ZXPong"
-	},
-	"description": "Explore the BarkinMad Studios ZX Series, including retro arcade games, shared achievements, BarkinMad Coins, leaderboards, PVP features, and the ZX roadmap.",
-	"intro": [
-		"The [ZX Series](/zx-series) is a growing collection of connected retro-inspired arcade games from BarkinMad Studios.",
-		"Play multiple ZX games and build your progress across the entire series.",
-		"Earn BarkinMad Coins, unlock achievements, compete on leaderboards, and challenge other players through local and online PVP modes."
-	],
-	"features": [
-		"Shared achievements",
-		"Shared leaderboards",
-		"BarkinMad Coins",
-		"World PVP",
-		"Local PVP",
-		"Cross-game progression",
-		"Game Center integration",
-		"Multi-language support",
-		"Retro-inspired visuals",
-		"Modern mobile gameplay"
-	],
-	"overviewTitle": "ZX Series Overview",
-	"overview": [
-		"The ZX Series brings together a collection of retro-inspired arcade games designed for iPhone and iPad. Each game is built around simple, easy-to-learn gameplay while adding modern features such as achievements, leaderboards, localisation, multiplayer options, and shared progression systems.",
-		"Inspired by the golden age of arcade gaming and classic home computers, the series focuses on fast play sessions, clear objectives, replayability, and score chasing. The aim is not to recreate the past exactly, but to capture the spirit of classic arcade games while making them feel natural on modern mobile devices.",
-		"Supported titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong). Future titles are planned to expand the series further with new gameplay styles while continuing to use the same shared systems where appropriate."
-	],
-	"sharedSystems": {
-		"title": "Shared Game Systems",
-		"intro": "Supported ZX Series games such as [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong) can share achievements, leaderboards, BarkinMad Coins, PvP modes, and roadmap features across the BarkinMad Studios ecosystem.",
-		"description": [
-			"A major goal of the ZX Series is to make each game feel connected rather than completely separate. Shared systems allow players to build progress across multiple games, compare scores, earn rewards, and unlock achievements as they explore the wider series.",
-			"This shared approach also helps future games launch with a stronger foundation. Features such as wallet support, achievements, leaderboards, localisation, Game Center integration, and PVP flows can be reused and improved across multiple titles."
-		],
-		"gamesTitle": "Games",
-		"achievementsTitle": "Shared Achievements",
-		"achievementsDescription": [
-			"Achievements give players additional goals beyond simply reaching a high score. ZX Series games can include game-specific achievements as well as wider series achievements that reward activity across multiple titles.",
-			"This helps encourage players to explore different games while still feeling that progress contributes to a larger connected experience."
-		],
-		"leaderboardsTitle": "Shared Leaderboards",
-		"leaderboardsDescription": [
-			"Leaderboards are central to arcade-style replayability. Each game can have its own score-based leaderboards, while shared series leaderboards can help track wider progress across supported ZX titles.",
-			"The long-term aim is to make score chasing meaningful both within individual games and across the wider ZX Series."
-		],
-		"coinsTitle": "BarkinMad Coins",
-		"coinsDescription": [
-			"[BarkinMad Coins](/zx-series) are gameplay rewards earned by playing supported BarkinMad Studios games.",
-			"Coins can be used for cosmetic unlocks such as themes, colours, skins, and visual extras. They are designed to reward player engagement without affecting gameplay balance.",
-			"BarkinMad Coins have no cash value, cannot be transferred, cannot be exchanged for real-world goods or services, and are earned through gameplay only."
-		],
-		"pvpTitle": "PVP Modes",
-		"pvpDescription": [
-			"PVP modes allow supported ZX games to offer competitive play alongside traditional solo gameplay.",
-			"The goal is to keep multiplayer simple, fast, and accessible while giving players new ways to compete with friends, family, and other players."
-		],
-		"localPVPTitle": "Local PVP",
-		"localPVPDescription": [
-			"Local PVP is designed for players who are nearby or playing together on the same network. It supports quick competitive sessions without needing complicated setup.",
-			"This works especially well for arcade games where short matches and simple rules make multiplayer easy to understand."
-		],
-		"worldPVPTitle": "World PVP",
-		"worldPVPDescription": [
-			"World PVP allows supported games to connect players beyond the local network, creating opportunities for online challenges and wider competition.",
-			"As the ZX Series grows, shared multiplayer systems will continue to be refined so future games can benefit from the same foundation."
-		],
-		"roadmapTitle": "Roadmap",
-		"roadmapDescription": [
-			"The ZX Series roadmap is focused on expanding the number of supported games while improving the shared systems that connect them.",
-			"Released games provide the foundation, games in development expand the ecosystem, and planned titles will introduce new gameplay styles over time."
-		],
-		"roadmapLiveTitle": "Live",
-		"roadmapDevelopmentTitle": "In Development",
-		"roadmapPlannedTitle": "Planned"
-	},
-	"appsTitle": "ZX Series Games",
-	"sections": [
-		{
-			"heading": "Available Games",
-			"paragraphs": [
-				"[ZXSnake](/apps/zxsnake) and [ZXBrick](/apps/zxbrick) are currently available as part of the ZX Series.",
-				"[ZXSnake](/apps/zxsnake) brings classic snake gameplay to modern mobile devices with achievements, leaderboards, AI opponents, local PVP, and online PVP.",
-				"[ZXBrick](/apps/zxbrick) delivers retro-inspired brick-breaking action with 100 handcrafted levels, power-ups, achievements, leaderboards, and unlockable content."
-			]
-		},
-		{
-			"heading": "Games In Development",
-			"paragraphs": [
-				"[ZXSpace](/apps/zxspace) and [ZXPong](/apps/zxpong) are part of the next stage of the ZX Series.",
-				"[ZXSpace](/apps/zxspace) is a retro-inspired arcade space shooter focused on enemy waves, power-ups, high scores, achievements, and fast-paced gameplay.",
-				"[ZXPong](/apps/zxpong) is a retro-inspired paddle game designed around quick rallies, AI opponents, multiplayer, achievements, and classic arcade competition."
-			]
-		},
-		{
-			"heading": "Future ZX Games",
-			"paragraphs": [
-				"Future ZX Series titles are planned to explore additional arcade-inspired gameplay styles while continuing to use shared systems where appropriate.",
-				"Planned titles currently include ZXMaze, ZXRacer, ZXTank, and ZXLabrador. Dedicated pages will be added for these games as development progresses."
-			]
-		},
-		{
-			"heading": "Why The ZX Series Exists",
-			"paragraphs": [
-				"The ZX Series was created to combine the immediacy of classic arcade gameplay with modern mobile features. Arcade games work best when players can start quickly, understand the objective immediately, and keep returning to improve their score.",
-				"Modern systems such as Game Center, achievements, leaderboards, localisation, shared rewards, and multiplayer features help extend that classic formula without making the games overly complicated.",
-				"Each ZX game is designed to stand on its own while also contributing to the wider BarkinMad Studios ecosystem."
-			]
-		},
-		{
-			"heading": "A Connected Arcade Ecosystem",
-			"paragraphs": [
-				"Instead of treating every game as completely separate, the ZX Series is designed as a connected arcade ecosystem.",
-				"Players can move between supported games, earn rewards, unlock achievements, compare scores, and build progress across the wider series.",
-				"This approach allows each new game to add value to the existing collection while giving players more reasons to return over time."
-			]
-		}
-	]
+  "title": "ZX Series",
+  "seoTitle": "ZX Series Retro Arcade Games | BarkinMad Studios",
+  "tagline": "Connected retro arcade gaming",
+  "hero": {
+    "image": "/images/retro-banner.png",
+    "alt": "ZX Series arcade game collection featuring ZXSnake, ZXBrick, ZXSpace and ZXPong"
+  },
+  "description": "Explore the BarkinMad Studios ZX Series, including retro arcade games, shared achievements, BarkinMad Coins, leaderboards, PVP features, and the ZX roadmap.",
+  "intro": [
+    "The [ZX Series](/zx-series) is a growing collection of connected retro-inspired arcade games from BarkinMad Studios.",
+    "Play multiple ZX games and build your progress across the entire series.",
+    "Earn BarkinMad Coins, unlock achievements, compete on leaderboards, and challenge other players through local and online PVP modes."
+  ],
+  "features": [
+    "Shared achievements",
+    "Shared leaderboards",
+    "BarkinMad Coins",
+    "World PVP",
+    "Local PVP",
+    "Cross-game progression",
+    "Game Center integration",
+    "Multi-language support",
+    "Retro-inspired visuals",
+    "Modern mobile gameplay"
+  ],
+  "overviewTitle": "ZX Series Overview",
+  "overview": [
+    "The ZX Series brings together a collection of retro-inspired arcade games designed for iPhone and iPad. Each game is built around simple, easy-to-learn gameplay while adding modern features such as achievements, leaderboards, localisation, multiplayer options, and shared progression systems.",
+    "Inspired by the golden age of arcade gaming and classic home computers, the series focuses on fast play sessions, clear objectives, replayability, and score chasing. The aim is not to recreate the past exactly, but to capture the spirit of classic arcade games while making them feel natural on modern mobile devices.",
+    "Supported titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong). Future titles are planned to expand the series further with new gameplay styles while continuing to use the same shared systems where appropriate."
+  ],
+  "sharedSystems": {
+    "title": "Shared Game Systems",
+    "intro": "Supported ZX Series games such as [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong) can share achievements, leaderboards, BarkinMad Coins, PvP modes, and roadmap features across the BarkinMad Studios ecosystem.",
+    "description": [
+      "A major goal of the ZX Series is to make each game feel connected rather than completely separate. Shared systems allow players to build progress across multiple games, compare scores, earn rewards, and unlock achievements as they explore the wider series.",
+      "This shared approach also helps future games launch with a stronger foundation. Features such as wallet support, achievements, leaderboards, localisation, Game Center integration, and PVP flows can be reused and improved across multiple titles."
+    ],
+    "gamesTitle": "Games",
+    "achievementsTitle": "Shared Achievements",
+    "achievementsDescription": [
+      "Achievements give players additional goals beyond simply reaching a high score. ZX Series games can include game-specific achievements as well as wider series achievements that reward activity across multiple titles.",
+      "This helps encourage players to explore different games while still feeling that progress contributes to a larger connected experience."
+    ],
+    "leaderboardsTitle": "Shared Leaderboards",
+    "leaderboardsDescription": [
+      "Leaderboards are central to arcade-style replayability. Each game can have its own score-based leaderboards, while shared series leaderboards can help track wider progress across supported ZX titles.",
+      "The long-term aim is to make score chasing meaningful both within individual games and across the wider ZX Series."
+    ],
+    "coinsTitle": "BarkinMad Coins",
+    "coinsDescription": [
+      "[BarkinMad Coins](/zx-series) are gameplay rewards earned by playing supported BarkinMad Studios games.",
+      "Coins can be used for cosmetic unlocks such as themes, colours, skins, and visual extras. They are designed to reward player engagement without affecting gameplay balance.",
+      "BarkinMad Coins have no cash value, cannot be transferred, cannot be exchanged for real-world goods or services, and are earned through gameplay only."
+    ],
+    "pvpTitle": "PVP Modes",
+    "pvpDescription": [
+      "PVP modes allow supported ZX games to offer competitive play alongside traditional solo gameplay.",
+      "The goal is to keep multiplayer simple, fast, and accessible while giving players new ways to compete with friends, family, and other players."
+    ],
+    "localPVPTitle": "Local PVP",
+    "localPVPDescription": [
+      "Local PVP is designed for players who are nearby or playing together on the same network. It supports quick competitive sessions without needing complicated setup.",
+      "This works especially well for arcade games where short matches and simple rules make multiplayer easy to understand."
+    ],
+    "worldPVPTitle": "World PVP",
+    "worldPVPDescription": [
+      "World PVP allows supported games to connect players beyond the local network, creating opportunities for online challenges and wider competition.",
+      "As the ZX Series grows, shared multiplayer systems will continue to be refined so future games can benefit from the same foundation."
+    ],
+    "roadmapTitle": "Roadmap",
+    "roadmapDescription": [
+      "The ZX Series roadmap is focused on expanding the number of supported games while improving the shared systems that connect them.",
+      "Released games provide the foundation, games in development expand the ecosystem, and planned titles will introduce new gameplay styles over time."
+    ],
+    "roadmapLiveTitle": "Live",
+    "roadmapDevelopmentTitle": "In Development",
+    "roadmapPlannedTitle": "Planned"
+  },
+  "appsTitle": "ZX Series Games",
+  "sections": [
+    {
+      "heading": "Available Games",
+      "paragraphs": [
+        "[ZXSnake](/apps/zxsnake) and [ZXBrick](/apps/zxbrick) are currently available as part of the ZX Series.",
+        "[ZXSnake](/apps/zxsnake) brings classic snake gameplay to modern mobile devices with achievements, leaderboards, AI opponents, local PVP, and online PVP.",
+        "[ZXBrick](/apps/zxbrick) delivers retro-inspired brick-breaking action with 100 handcrafted levels, power-ups, achievements, leaderboards, and unlockable content."
+      ]
+    },
+    {
+      "heading": "Games In Development",
+      "paragraphs": [
+        "[ZXSpace](/apps/zxspace) and [ZXPong](/apps/zxpong) are part of the next stage of the ZX Series.",
+        "[ZXSpace](/apps/zxspace) is a retro-inspired arcade space shooter focused on enemy waves, power-ups, high scores, achievements, and fast-paced gameplay.",
+        "[ZXPong](/apps/zxpong) is a retro-inspired paddle game designed around quick rallies, AI opponents, multiplayer, achievements, and classic arcade competition."
+      ]
+    },
+    {
+      "heading": "Future ZX Games",
+      "paragraphs": [
+        "Future ZX Series titles are planned to explore additional arcade-inspired gameplay styles while continuing to use shared systems where appropriate.",
+        "Planned titles currently include ZXMaze, ZXRacer, ZXTank, and ZXLabrador. Dedicated pages will be added for these games as development progresses."
+      ]
+    },
+    {
+      "heading": "Why The ZX Series Exists",
+      "paragraphs": [
+        "The ZX Series was created to combine the immediacy of classic arcade gameplay with modern mobile features. Arcade games work best when players can start quickly, understand the objective immediately, and keep returning to improve their score.",
+        "Modern systems such as Game Center, achievements, leaderboards, localisation, shared rewards, and multiplayer features help extend that classic formula without making the games overly complicated.",
+        "Each ZX game is designed to stand on its own while also contributing to the wider BarkinMad Studios ecosystem."
+      ]
+    },
+    {
+      "heading": "A Connected Arcade Ecosystem",
+      "paragraphs": [
+        "Instead of treating every game as completely separate, the ZX Series is designed as a connected arcade ecosystem.",
+        "Players can move between supported games, earn rewards, unlock achievements, compare scores, and build progress across the wider series.",
+        "This approach allows each new game to add value to the existing collection while giving players more reasons to return over time."
+      ]
+    }
+  ],
+  "lastUpdated": "2026-06-07"
 }
