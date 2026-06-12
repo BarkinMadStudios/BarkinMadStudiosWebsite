@@ -8,7 +8,7 @@
 		"status": "Live",
 		"type": "Retro Snake Game",
 		"image": "apps/zxsnake/zxsnake-icon.png",
-		"appStoreUrl": "https://apps.apple.com/gb/app/zxsnake/id6770932739",
+		"appStoreUrl": "https://apps.apple.com/app/apple-store/id6770932739?pt=128083426&ct=website&mt=8",
 		"testFlightUrl": "",
 		"description": "ZXSnake is a retro-inspired snake game with simple controls, classic arcade pacing, score chasing, achievements, and visuals inspired by early home computer games."
 	},
@@ -20,7 +20,7 @@
 		"appleId": "6771886847",
 		"status": "Live",
 		"type": "Retro Brick Breaker",
-		"image": "apps/zxbrick/zxbrick-icon.png",
+		"image": "https://apps.apple.com/app/apple-store/id6771886847?pt=128083426&ct=website&mt=8",
 		"appStoreUrl": "https://apps.apple.com/gb/app/zxbrick/id6771886847",
 		"testFlightUrl": "",
 		"description": "ZXBrick is a retro brick-breaking arcade game inspired by classic bat-and-ball gameplay with power-ups, achievements, and high-score chasing."
@@ -60,7 +60,7 @@
 		"status": "Live",
 		"type": "Darts Scoring App",
 		"image": "apps/gameofdarts/gameofdarts-icon.png",
-		"appStoreUrl": "https://apps.apple.com/gb/app/the-game-of-darts/id6751581339",
+		"appStoreUrl": "https://apps.apple.com/app/apple-store/id6751581339?pt=128083426&ct=website&mt=8",
 		"testFlightUrl": "",
 		"description": "GameOfDarts is a modern darts scoring app for iPhone and iPad designed for score tracking, statistics, practice, and local multiplayer gameplay."
 	}
