@@ -153,6 +153,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
 
   if (path === "/about") return staticJsonPage("about");
   if (path === "/portfolio") return portfolioJsonPage();
+  if (path === "/docs") return docsJsonPage();
   if (path === "/privacy") return staticJsonPage("privacy");
   if (path === "/cookies") return staticJsonPage("cookies");
   if (path === "/contact") return staticJsonPage("contact");
@@ -644,6 +645,23 @@ function websiteSchema(site = {}) {
   };
 }
 
+function serviceSchema(service, slug, site = DEFAULT_SITE) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title || service.heroTitle || slug,
+    description: cleanMeta(service.description || service.heroSubtitle),
+    url: absoluteSiteUrl(site.website || DEFAULT_SITE.website, `/services/${slug}`),
+    provider: {
+      "@type": "Organization",
+      name: site.name || DEFAULT_SITE.name,
+      url: site.website || DEFAULT_SITE.website
+    },
+    areaServed: "United Kingdom",
+    serviceType: service.title || service.heroTitle || "Software development"
+  };
+}
+
 function appSchema(app, slug, site = DEFAULT_SITE) {
   const name = app.title || app.name || slug;
   const schema = {
@@ -665,6 +683,24 @@ function appSchema(app, slug, site = DEFAULT_SITE) {
   return schema;
 }
 
+function faqSchema(faqs) {
+  const questions = Array.isArray(faqs) ? faqs.filter(item => item?.question && item?.answer) : [];
+  if (!questions.length) return null;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: questions.map(item => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: markdownLinksToText(item.answer)
+      }
+    }))
+  };
+}
+
 function articleSchema(article, slug, site = DEFAULT_SITE) {
   return {
     "@context": "https://schema.org",
@@ -682,6 +718,28 @@ function articleSchema(article, slug, site = DEFAULT_SITE) {
         url: `${IMAGE_BASE}/logos/logo-black-icon.png`
       }
     }
+  };
+}
+
+function projectSchema(projects, site = DEFAULT_SITE) {
+  const website = site.website || DEFAULT_SITE.website;
+  const items = Array.isArray(projects) ? projects.filter(project => project?.title) : [];
+  if (!items.length) return null;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "BarkinMad Studios Portfolio",
+    itemListElement: items.map((project, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "CreativeWork",
+        name: project.title,
+        description: cleanMeta(project.summary || project.outcome || project.type),
+        url: project.href ? absoluteSiteUrl(website, project.href) : absoluteSiteUrl(website, "/portfolio")
+      }
+    }))
   };
 }
 
@@ -831,6 +889,10 @@ ${featuredApps.length ? `
   <div class="grid">${featuredApps.map(appFullCard).join("")}</div>
 </section>` : ""}
 
+${renderHomeServicesSection(homepage.servicesSection)}
+
+${renderHomeZxSection(homepage.zxSeriesSection)}
+
 ${sections.map(renderPromoSection).join("")}
 
 ${homepage.showLatestNews !== false && latestPosts.length ? `
@@ -841,6 +903,45 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
   </div>
 </section>` : ""}
 </main>`;
+}
+
+function renderHomeServicesSection(section) {
+  if (!section || !Array.isArray(section.items) || !section.items.length) return "";
+
+  return `
+<section>
+  <h2>${escapeHtml(section.title || "Software & Development Services")}</h2>
+  ${section.intro ? `<p>${renderContentParagraph(section.intro)}</p>` : ""}
+  <div class="grid">
+    ${section.items.map(item => `
+      <div class="card">
+        <h3>${escapeHtml(item.title)}</h3>
+        ${item.summary ? `<p>${renderContentParagraph(item.summary)}</p>` : ""}
+        ${item.href ? `<a class="btn" href="${escapeHtml(item.href)}">Learn More</a>` : ""}
+      </div>
+    `).join("")}
+  </div>
+  ${section.action ? actionLink(section.action) : ""}
+</section>`;
+}
+
+function renderHomeZxSection(section) {
+  if (!section) return "";
+  const games = Array.isArray(section.games) ? section.games : [];
+  const features = Array.isArray(section.features) ? section.features : [];
+
+  if (!games.length && !features.length && !section.intro) return "";
+
+  return `
+<section>
+  <h2>${escapeHtml(section.title || "ZX Series")}</h2>
+  <div class="card">
+    ${section.intro ? `<p>${renderContentParagraph(section.intro)}</p>` : ""}
+    ${games.length ? `<p><strong>Games:</strong> ${games.map(escapeHtml).join(", ")}</p>` : ""}
+    ${features.length ? `<ul>${features.map(feature => `<li>${renderContentParagraph(feature)}</li>`).join("")}</ul>` : ""}
+    ${section.action ? actionLink(section.action) : ""}
+  </div>
+</section>`;
 }
 
 async function appsPage(page) {
@@ -1128,16 +1229,27 @@ async function appJsonPage(slug) {
     return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
   }
 
-  return pageResponse(`${app.title || app.name} - BarkinMad Studios`, renderAppPage(app), {
+  const relatedApps = apps.filter(item => item.slug && item.slug !== slug).slice(0, 3);
+  const structuredData = [
+    appSchema(app, slug),
+    faqSchema(app.faq),
+    breadcrumbSchema([
+      { name: "Home", path: "/" },
+      { name: "Apps", path: "/apps" },
+      { name: app.title || app.name || slug, path: `/apps/${slug}` }
+    ])
+  ].filter(Boolean);
+
+  return pageResponse(`${app.title || app.name} - BarkinMad Studios`, renderAppPage(app, relatedApps), {
     canonicalPath: `/apps/${slug}`,
     description: app.description || app.shortDescription,
     image: app.heroImage ? `${IMAGE_BASE}/${app.heroImage}` : `${IMAGE_BASE}/logos/social-preview.png`,
     ogType: "website",
-    structuredData: appSchema(app, slug)
+    structuredData
   });
 }
 
-function renderAppPage(app) {
+function renderAppPage(app, relatedApps = []) {
   return `
 <section class="hero hero-retro"${heroBackgroundStyle({ hero: { image: app.heroImage } })}>
   <h2>${escapeHtml(app.title || app.name)}</h2>
@@ -1176,6 +1288,8 @@ ${app.barkinMadCoins?.enabled ? `
 
 ${renderStringListSection("Supported Platforms", app.supportedPlatforms)}
 
+${renderFaqSection(app.faq)}
+
 ${Array.isArray(app.screenshots) && app.screenshots.length ? `
 <section>
   <h2>Screenshots</h2>
@@ -1194,7 +1308,37 @@ ${Array.isArray(app.screenshots) && app.screenshots.length ? `
     }).join("")}
   </div>
 </section>` : ""}
+
+${renderRelatedApps(relatedApps)}
 </main>`;
+}
+
+function renderFaqSection(faqs) {
+  const items = Array.isArray(faqs) ? faqs.filter(item => item?.question && item?.answer) : [];
+  if (!items.length) return "";
+
+  return `
+<section>
+  <h2>FAQ</h2>
+  <div class="card">
+    ${items.map(item => `
+      <h3>${escapeHtml(item.question)}</h3>
+      <p>${renderContentParagraph(item.answer)}</p>
+    `).join("")}
+  </div>
+</section>`;
+}
+
+function renderRelatedApps(apps) {
+  if (!Array.isArray(apps) || !apps.length) return "";
+
+  return `
+<section>
+  <h2>You May Also Like</h2>
+  <div class="grid">
+    ${apps.map(appFullCard).join("")}
+  </div>
+</section>`;
 }
 
 function renderStringListSection(title, items) {
@@ -1226,6 +1370,7 @@ async function serviceJsonPage(slug) {
     }, 404);
   }
 
+  const site = await getSite();
   const heroPage = {
     ...service,
     hero: {
@@ -1239,7 +1384,7 @@ async function serviceJsonPage(slug) {
     description: service.description,
     image: pageHeroImage(heroPage, `${IMAGE_BASE}/service-bg-banner.png`),
     structuredData: [
-      organizationSchema(),
+      serviceSchema(service, serviceSlug, site),
       breadcrumbSchema([
         { name: "Home", path: "/" },
         { name: "Services", path: "/services" },
@@ -1250,6 +1395,13 @@ async function serviceJsonPage(slug) {
 }
 
 function renderServicePage(service) {
+  const cta = service.cta || {
+    title: "Request a Consultation",
+    content: "Contact BarkinMad Studios to discuss your project, requirements, and next steps.",
+    buttonText: "Contact BarkinMad Studios",
+    buttonLink: "/contact"
+  };
+
   return `
 <section class="hero hero-retro"${heroBackgroundStyle(service)}>
   <h2>${escapeHtml(service.heroTitle || service.heading || service.title)}</h2>
@@ -1257,6 +1409,15 @@ function renderServicePage(service) {
 </section>
 
 <main>
+  ${service.description ? `
+    <section>
+      <h2>Overview</h2>
+      <div class="card">
+        <p>${renderContentParagraph(service.description)}</p>
+      </div>
+    </section>
+  ` : ""}
+
   ${Array.isArray(service.sections) ? service.sections.map(section => `
     <section>
       <h2>${escapeHtml(section.heading || section.title)}</h2>
@@ -1266,12 +1427,12 @@ function renderServicePage(service) {
     </section>
   `).join("") : ""}
 
-  ${service.cta ? `
+  ${cta ? `
     <section>
-      <h2>${escapeHtml(service.cta.title)}</h2>
+      <h2>${escapeHtml(cta.title || "Request a Consultation")}</h2>
       <div class="card">
-        ${service.cta.content ? `<p>${renderContentParagraph(service.cta.content)}</p>` : ""}
-        ${actionLink({ label: service.cta.buttonText, href: service.cta.buttonLink })}
+        ${cta.content ? `<p>${renderContentParagraph(cta.content)}</p>` : ""}
+        ${actionLink({ label: cta.buttonText || "Contact BarkinMad Studios", href: cta.buttonLink || "/contact" })}
       </div>
     </section>
   ` : ""}
@@ -1312,7 +1473,36 @@ async function staticJsonPage(slug) {
 
   return pageResponse(page.seoTitle || `${page.title} - BarkinMad Studios`, renderStaticPage(page), {
     canonicalPath: `/${slug}`,
-    description: page.description || page.intro || firstParagraph(page.sections?.[0]?.paragraphs)
+    description: page.description || page.intro || firstParagraph(page.sections?.[0]?.paragraphs),
+    image: pageHeroImage(page, `${IMAGE_BASE}/logos/social-preview.png`),
+    structuredData: [
+      organizationSchema(DEFAULT_SITE),
+      breadcrumbSchema([
+        { name: "Home", path: "/" },
+        { name: page.heading || page.title || slug, path: `/${slug}` }
+      ])
+    ]
+  });
+}
+
+async function docsJsonPage() {
+  const page = await fetchJson(`${PAGES_BASE}/docs.json`);
+
+  if (!page) {
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
+  }
+
+  return pageResponse(page.seoTitle || `${page.title || "Documentation"} - BarkinMad Studios`, renderDocsPage(page), {
+    canonicalPath: "/docs",
+    description: page.description || page.intro,
+    image: pageHeroImage(page, `${IMAGE_BASE}/news-bg-banner.png`),
+    structuredData: [
+      organizationSchema(DEFAULT_SITE),
+      breadcrumbSchema([
+        { name: "Home", path: "/" },
+        { name: page.heading || page.title || "Documentation", path: "/docs" }
+      ])
+    ]
   });
 }
 
@@ -1323,17 +1513,20 @@ async function portfolioJsonPage() {
     return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
   }
 
+  const structuredData = [
+    organizationSchema(DEFAULT_SITE),
+    breadcrumbSchema([
+      { name: "Home", path: "/" },
+      { name: page.heading || page.title || "Portfolio", path: "/portfolio" }
+    ]),
+    projectSchema(page.projects)
+  ].filter(Boolean);
+
   return pageResponse(page.seoTitle || `${page.title || "Portfolio"} - BarkinMad Studios`, renderPortfolioPage(page), {
     canonicalPath: "/portfolio",
     description: page.description || page.intro,
     image: pageHeroImage(page, `${IMAGE_BASE}/apps-hero-banner.png`),
-    structuredData: [
-      organizationSchema(DEFAULT_SITE),
-      breadcrumbSchema([
-        { name: "Home", path: "/" },
-        { name: page.heading || page.title || "Portfolio", path: "/portfolio" }
-      ])
-    ]
+    structuredData
   });
 }
 
@@ -1417,6 +1610,46 @@ function renderPortfolioConfidentiality(confidentiality) {
     ${paragraphs.map(paragraph => `<p>${renderContentParagraph(paragraph)}</p>`).join("")}
   </div>
 </section>`;
+}
+
+function renderDocsPage(page) {
+  const categories = Array.isArray(page.categories) ? page.categories : [];
+  const actions = Array.isArray(page.actions) ? page.actions : [];
+
+  return `
+<section class="hero hero-retro"${heroBackgroundStyle(page)}>
+  <h2>${escapeHtml(page.heading || page.title || "Documentation")}</h2>
+  ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
+</section>
+
+<main>
+  ${categories.length ? categories.map(category => `
+    <section>
+      <h2>${escapeHtml(category.title)}</h2>
+      ${category.description ? `<p>${renderContentParagraph(category.description)}</p>` : ""}
+      <div class="grid">
+        ${(category.documents || []).map(document => `
+          <div class="card">
+            <h3>${escapeHtml(document.title)}</h3>
+            ${document.summary ? `<p>${renderContentParagraph(document.summary)}</p>` : ""}
+            ${Array.isArray(document.tags) && document.tags.length ? `<p><strong>Topics:</strong> ${document.tags.map(escapeHtml).join(", ")}</p>` : ""}
+            ${document.href ? `<a class="btn" href="${escapeHtml(document.href)}">Open Document</a>` : ""}
+          </div>
+        `).join("")}
+      </div>
+    </section>
+  `).join("") : ""}
+
+  ${renderStringListSection("Documentation Platform", page.features)}
+
+  ${actions.length ? `
+    <section>
+      <div class="card">
+        <div class="button-group">${actions.map(actionLink).join("")}</div>
+      </div>
+    </section>
+  ` : ""}
+</main>`;
 }
 
 function renderStaticPage(page) {
@@ -1508,7 +1741,10 @@ async function newsArticleResponse(slug) {
     }, 404);
   }
 
-  return pageResponse(`${article.title} - BarkinMad Studios`, newsArticlePage(slug, article), {
+  const posts = getPublishedValidPosts(await fetchJson(`${NEWS_BASE}/posts.json`));
+  const relatedPosts = posts.filter(post => post.slug !== slug).slice(0, 3);
+
+  return pageResponse(`${article.title} - BarkinMad Studios`, newsArticlePage(slug, article, relatedPosts), {
     canonicalPath: `/news/${slug}`,
     description: articleDescription(article),
     image: article.image ? `${NEWS_BASE}/${slug}/${article.image}` : `${IMAGE_BASE}/logos/social-preview.png`,
@@ -1524,7 +1760,7 @@ async function newsArticleResponse(slug) {
   });
 }
 
-function newsArticlePage(slug, article) {
+function newsArticlePage(slug, article, relatedPosts = []) {
   const paragraphs = Array.isArray(article.content) ? article.content : [];
   const articleActions = Array.isArray(article.actions) ? article.actions : [];
 
@@ -1552,6 +1788,14 @@ function newsArticlePage(slug, article) {
     <a class="btn" href="/news">Back To News</a>
   </div>
 </section>
+
+${relatedPosts.length ? `
+<section>
+  <h2>Related Articles</h2>
+  <div class="grid">
+    ${relatedPosts.map(postCard).join("")}
+  </div>
+</section>` : ""}
 </main>`;
 }
 
@@ -1619,6 +1863,7 @@ async function sitemapResponse() {
     { path: "/news", changefreq: "weekly", priority: "0.8" },
     { path: "/about", changefreq: "monthly", priority: "0.7" },
     { path: "/portfolio", changefreq: "monthly", priority: "0.8" },
+    { path: "/docs", changefreq: "monthly", priority: "0.7" },
     { path: "/services", changefreq: "monthly", priority: "0.7" },
     { path: "/privacy", changefreq: "yearly", priority: "0.5" },
     { path: "/cookies", changefreq: "yearly", priority: "0.5" },

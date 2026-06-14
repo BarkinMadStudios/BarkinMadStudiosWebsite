@@ -59,5 +59,19 @@
   "version": "1.1",
   "genre": "Arcade",
   "developer": "BarkinMad Studios",
+  "faq": [
+    {
+      "question": "Is ZXBrick part of the ZX Series?",
+      "answer": "Yes. ZXBrick is part of the [ZX Series](/zx-series), sharing the wider arcade ecosystem with games such as [ZXSnake](/apps/zxsnake), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong)."
+    },
+    {
+      "question": "How many levels does ZXBrick include?",
+      "answer": "ZXBrick includes 100 handcrafted levels with power-ups, themes, achievements, and leaderboard support."
+    },
+    {
+      "question": "Does ZXBrick include BarkinMad Coins?",
+      "answer": "Yes. ZXBrick supports BarkinMad Coins for cross-game cosmetic unlocks across supported BarkinMad Studios games."
+    }
+  ],
   "lastUpdated": "2026-06-09"
 }

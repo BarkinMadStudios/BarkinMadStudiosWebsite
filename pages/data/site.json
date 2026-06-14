@@ -17,12 +17,20 @@
       "href": "/apps"
     },
     {
+      "label": "ZX Series",
+      "href": "/zx-series"
+    },
+    {
       "label": "Services",
       "href": "/services"
     },
     {
       "label": "Portfolio",
       "href": "/portfolio"
+    },
+    {
+      "label": "Docs",
+      "href": "/docs"
     },
     {
       "label": "News",
@@ -49,6 +57,14 @@
     {
       "label": "Portfolio",
       "href": "/portfolio"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Docs",
+      "href": "/docs"
     },
     {
       "label": "Privacy",

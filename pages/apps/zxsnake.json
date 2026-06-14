@@ -58,5 +58,19 @@
   "version": "1.0",
   "genre": "Arcade",
   "developer": "BarkinMad Studios",
+  "faq": [
+    {
+      "question": "Is ZXSnake part of the ZX Series?",
+      "answer": "Yes. ZXSnake is part of the [ZX Series](/zx-series), a connected collection of retro-inspired arcade games from BarkinMad Studios."
+    },
+    {
+      "question": "Does ZXSnake support achievements and leaderboards?",
+      "answer": "Yes. ZXSnake includes Game Center achievements and leaderboards for score chasing and progression."
+    },
+    {
+      "question": "Can ZXSnake use BarkinMad Coins?",
+      "answer": "Yes. ZXSnake supports BarkinMad Coins as a gameplay reward system for cosmetic unlocks across supported BarkinMad Studios games."
+    }
+  ],
   "lastUpdated": "2026-06-07"
 }

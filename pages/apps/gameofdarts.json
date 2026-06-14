@@ -32,5 +32,19 @@
   "version": "1.0",
   "genre": "Sports",
   "developer": "BarkinMad Studios",
+  "faq": [
+    {
+      "question": "What is The Game of Darts?",
+      "answer": "The Game of Darts is a mobile darts scoring app for iPhone and iPad from [BarkinMad Studios](/about)."
+    },
+    {
+      "question": "Who is The Game of Darts for?",
+      "answer": "The app is designed for casual players and competitive matches where quick score entry, player tracking, and clear match flow are important."
+    },
+    {
+      "question": "Is The Game of Darts available on the App Store?",
+      "answer": "Yes. The Game of Darts is available from the App Store using the link on this page."
+    }
+  ],
   "lastUpdated": "2026-06-09"
 }

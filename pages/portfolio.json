@@ -109,6 +109,23 @@
       "outcome": "Active development project intended to expand the ZX Series with another classic arcade gameplay style."
     },
     {
+      "title": "StudioDash",
+      "status": "Planned",
+      "type": "Business Platform",
+      "href": "/docs",
+      "summary": "A planned documentation and business operations platform for managing studio processes, internal notes, integrations, and future support material.",
+      "challenge": "Create a scalable internal platform that can support documentation, operational workflows, and future product support without relying on disconnected notes and manual processes.",
+      "solution": "Planned as a structured, documentation-led system with setup guides, integration notes, troubleshooting content, and room for future operational tooling.",
+      "technologies": [
+        "Web platform",
+        "JSON-driven content",
+        "Documentation architecture",
+        "Search-ready content model",
+        "Workflow planning"
+      ],
+      "outcome": "Development status: planned. The documentation framework on this website is the first public foundation for future StudioDash content."
+    },
+    {
       "title": "Wi-Fi Survey Tool",
       "status": "Planned",
       "type": "Business / Utility App",

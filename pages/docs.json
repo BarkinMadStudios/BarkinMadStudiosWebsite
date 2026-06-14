@@ -1,0 +1,123 @@
+{
+  "title": "Documentation Library",
+  "seoTitle": "Documentation Library | BarkinMad Studios",
+  "heading": "Documentation Library",
+  "intro": "Guides, support notes, product information, and reference material for BarkinMad Studios games, apps, services, and future StudioDash tooling.",
+  "description": "Browse BarkinMad Studios documentation for the ZX Series, The Game of Darts, services, policies, and future StudioDash setup, integrations, and troubleshooting guides.",
+  "hero": {
+    "image": "/images/news-bg-banner.png",
+    "alt": "BarkinMad Studios documentation library and support resources"
+  },
+  "categories": [
+    {
+      "title": "Games",
+      "description": "Guides and support material for BarkinMad Studios games.",
+      "documents": [
+        {
+          "title": "ZX Series",
+          "summary": "Overview of shared achievements, shared leaderboards, BarkinMad Coins, PVP features, and connected arcade game progression.",
+          "href": "/zx-series",
+          "tags": [
+            "ZX Series",
+            "Games",
+            "Achievements",
+            "Leaderboards"
+          ]
+        },
+        {
+          "title": "The Game of Darts",
+          "summary": "Support information for scoring, player tracking, match setup, and darts app features.",
+          "href": "/apps/gameofdarts",
+          "tags": [
+            "Darts",
+            "Scoring",
+            "Mobile App"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Studio",
+      "description": "Business, service, and policy documentation.",
+      "documents": [
+        {
+          "title": "Services",
+          "summary": "Custom software, mobile app development, internal tools, process improvement, websites, and prototypes.",
+          "href": "/services",
+          "tags": [
+            "Services",
+            "Software Development",
+            "Consultancy"
+          ]
+        },
+        {
+          "title": "Policies",
+          "summary": "Privacy, cookies, terms, and contact information for BarkinMad Studios.",
+          "href": "/privacy",
+          "tags": [
+            "Privacy",
+            "Cookies",
+            "Terms"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "StudioDash",
+      "description": "Future documentation for StudioDash setup, integrations, and troubleshooting.",
+      "documents": [
+        {
+          "title": "Setup",
+          "summary": "Planned setup guides for future StudioDash onboarding and configuration.",
+          "href": "/portfolio",
+          "tags": [
+            "StudioDash",
+            "Setup",
+            "Planned"
+          ]
+        },
+        {
+          "title": "Integrations",
+          "summary": "Planned integration notes for connecting StudioDash with useful business systems.",
+          "href": "/portfolio",
+          "tags": [
+            "StudioDash",
+            "Integrations",
+            "Planned"
+          ]
+        },
+        {
+          "title": "Troubleshooting",
+          "summary": "Future troubleshooting material for common StudioDash setup and operational issues.",
+          "href": "/portfolio",
+          "tags": [
+            "StudioDash",
+            "Troubleshooting",
+            "Planned"
+          ]
+        }
+      ]
+    }
+  ],
+  "features": [
+    "Category filtering ready",
+    "Search-ready JSON structure",
+    "Related document support",
+    "Expandable documentation categories"
+  ],
+  "actions": [
+    {
+      "label": "View Services",
+      "href": "/services"
+    },
+    {
+      "label": "View Portfolio",
+      "href": "/portfolio"
+    },
+    {
+      "label": "Contact BarkinMad Studios",
+      "href": "/contact"
+    }
+  ],
+  "lastUpdated": "2026-06-14"
+}
