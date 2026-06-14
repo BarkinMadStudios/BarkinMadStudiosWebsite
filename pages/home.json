@@ -19,12 +19,38 @@
       "href": "/news"
     }
   ],
-  "featuredApps": [
-    "zxsnake",
-    "zxbrick",
-    "gameofdarts"
+  "featuredProducts": [
+    {
+      "title": "The Game of Darts",
+      "type": "Mobile App",
+      "status": "Live",
+      "href": "/apps/gameofdarts",
+      "image": "apps/gameofdarts/gameofdarts-icon.png",
+      "description": "A modern darts scoring app for iPhone and iPad, built for quick score entry, player statistics, match history, and practical gameplay support."
+    },
+    {
+      "title": "ZX Series",
+      "type": "Retro Arcade Games",
+      "status": "Live and In Development",
+      "href": "/zx-series",
+      "image": "apps/zxsnake/zxsnake-icon.png",
+      "description": "A connected collection of retro-inspired arcade games with shared achievements, leaderboards, BarkinMad Coins, and future cross-game progression."
+    },
+    {
+      "title": "StudioDash",
+      "type": "Developer Analytics Platform",
+      "status": "In Development",
+      "href": "/portfolio/studiodash",
+      "image": "apps/studiodash/studiodash-icon.png",
+      "description": "A native analytics and business intelligence platform for independent developers, creators, and small studios, bringing app, revenue, traffic, performance, and operational metrics into one workspace."
+    }
   ],
-  "featuredAppsTitle": "Featured Apps",
+  "featuredApps": [
+    "gameofdarts",
+    "zxsnake",
+    "studiodash"
+  ],
+  "featuredAppsTitle": "Featured Products",
   "servicesSection": {
     "title": "Software & Development Services",
     "intro": "Commercial software services for businesses that need practical tools, apps, prototypes, and digital platforms.",
@@ -106,5 +132,5 @@
   "showLatestNews": true,
   "latestNewsTitle": "Latest News",
   "newsCount": 3,
-  "lastUpdated": "2026-06-07"
+  "lastUpdated": "2026-06-14"
 }

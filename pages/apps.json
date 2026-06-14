@@ -1,12 +1,12 @@
 {
   "title": "Apps",
   "heading": "Apps & Games",
-  "intro": "Explore BarkinMad Studios apps, retro-inspired arcade games, mobile software, and digital tools for iPhone and iPad.",
+  "intro": "Explore BarkinMad Studios apps, retro-inspired arcade games, mobile software, developer tools, and digital products for iPhone, iPad, macOS, and the web.",
   "hero": {
     "image": "/images/apps-hero-banner.png",
     "alt": "BarkinMad Studios games, mobile applications and software projects"
   },
-  "description": "Browse the growing BarkinMad Studios portfolio, including the ZX Series of connected retro arcade games, standalone mobile apps, productivity tools, and future software projects.",
+  "description": "Browse the growing BarkinMad Studios portfolio, including the ZX Series of connected retro arcade games, standalone mobile apps, developer tools, productivity tools, and future software projects.",
   "sectionsTitle": "Explore Our Apps",
   "content": [
     {
@@ -28,7 +28,7 @@
     {
       "heading": "Beyond Gaming",
       "paragraphs": [
-        "In addition to games, BarkinMad Studios develops practical mobile applications and software solutions including score tracking tools, business utilities, prototypes, and future productivity-focused products.",
+        "In addition to games, BarkinMad Studios develops practical mobile applications and software solutions including score tracking tools, developer analytics products, business utilities, prototypes, and productivity-focused products.",
         "Many of the skills and technologies used to build commercial software and business systems also help shape the architecture, reliability, and user experience of our public applications.",
         "Learn more about our [software development services](/services), custom applications, and business solutions."
       ]
@@ -47,7 +47,7 @@
     },
     {
       "title": "Apps & Tools",
-      "description": "Browse standalone applications, productivity tools, score tracking apps, utilities, prototypes, and future software projects developed by BarkinMad Studios.",
+      "description": "Browse standalone applications, developer tools, productivity tools, score tracking apps, utilities, prototypes, and future software projects developed by BarkinMad Studios.",
       "href": "/apps/non-zx",
       "actionLabel": "View Apps & Tools",
       "filter": {
@@ -56,5 +56,5 @@
       }
     }
   ],
-  "lastUpdated": "2026-06-07"
+  "lastUpdated": "2026-06-14"
 }

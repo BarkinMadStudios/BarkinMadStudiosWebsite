@@ -63,5 +63,19 @@
 		"appStoreUrl": "https://apps.apple.com/app/apple-store/id6751581339?pt=128083426&ct=website&mt=8",
 		"testFlightUrl": "",
 		"description": "GameOfDarts is a modern darts scoring app for iPhone and iPad designed for score tracking, statistics, practice, and local multiplayer gameplay."
+	},
+	{
+		"name": "StudioDash",
+		"slug": "studiodash",
+		"category": "developer-tools",
+		"series": "",
+		"appleId": "",
+		"status": "In Development",
+		"type": "Developer Analytics Platform",
+		"image": "apps/studiodash/studiodash-icon.png",
+		"appStoreUrl": "",
+		"testFlightUrl": "",
+		"href": "/portfolio/studiodash",
+		"description": "StudioDash is an analytics and business intelligence platform for independent developers, creators, and small studios, bringing App Store Connect, Cloudflare, AdMob, AdSense, Search Console, GitHub, and other services into one native workspace."
 	}
 ]

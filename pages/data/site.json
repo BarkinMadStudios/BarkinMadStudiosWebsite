@@ -1,9 +1,9 @@
 {
   "name": "BarkinMad Studios",
   "tagline": "Retro-inspired games and apps",
-  "description": "Independent UK game and app developer creating retro-inspired experiences for modern devices.",
-  "keywords": "retro games, arcade games, iOS games, ZXSnake, ZXBrick, ZXPong, ZXSpace, GameOfDarts",
-  "ogDescription": "Retro games. Modern apps. Built with passion.",
+  "description": "Independent UK game, app, developer tool, and software development studio creating retro-inspired games and practical software products.",
+  "keywords": "retro games, arcade games, iOS games, ZXSnake, ZXBrick, ZXPong, ZXSpace, GameOfDarts, StudioDash, developer dashboard, app analytics, software development",
+  "ogDescription": "Retro games, developer tools, modern apps, and practical software built by BarkinMad Studios.",
   "email": "barry@barkinmad.studio",
   "website": "https://www.barkinmad.studio",
   "copyright": "BarkinMad Studios",
@@ -85,5 +85,5 @@
     "x": "",
     "facebook": "https://www.facebook.com/profile.php?id=61579287944996"
   },
-  "lastUpdated": "2026-06-07"
+  "lastUpdated": "2026-06-14"
 }

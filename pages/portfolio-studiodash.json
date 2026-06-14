@@ -1,0 +1,84 @@
+{
+  "title": "StudioDash",
+  "seoTitle": "StudioDash | Developer Analytics Dashboard | BarkinMad Studios",
+  "description": "StudioDash is a developer analytics platform from BarkinMad Studios, bringing together App Store Connect, Cloudflare, advertising and operational metrics into a single workspace.",
+  "keywords": "developer dashboard, app analytics, app store analytics, cloudflare analytics, indie developer tools, studio dashboard, business intelligence",
+  "heading": "StudioDash",
+  "tagline": "Developer analytics in one workspace",
+  "status": "In Development",
+  "badge": "Public Beta Planned",
+  "type": "Developer Analytics Platform",
+  "hero": {
+    "image": "/images/apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash developer analytics dashboard with revenue, download, traffic and operational metrics"
+  },
+  "icon": "apps/studiodash/studiodash-icon.png",
+  "overview": [
+    "StudioDash is an analytics and business intelligence platform being developed by BarkinMad Studios for independent developers, creators, and small studios.",
+    "It brings together App Store Connect, Cloudflare, AdMob, AdSense, Search Console, GitHub, and other services into a single workspace, helping users monitor downloads, revenue, traffic, performance, and operational health from one dashboard.",
+    "The product is currently in active development by [BarkinMad Studios](/about), with a public beta planned before wider release."
+  ],
+  "sections": [
+    {
+      "heading": "Why It Was Built",
+      "paragraphs": [
+        "Developers often need to switch between multiple services and dashboards to understand how their products and business are performing. This creates fragmented workflows and makes it difficult to identify trends and issues quickly.",
+        "StudioDash provides a unified dashboard experience, consolidating analytics, revenue reporting, service health, and operational metrics into a single native application designed specifically for independent developers."
+      ]
+    },
+    {
+      "heading": "Development Status",
+      "paragraphs": [
+        "StudioDash is actively developed by BarkinMad Studios.",
+        "Development is actively in progress, with Cloudflare and App Store Connect integrations already operational and additional services being added as the platform evolves."
+      ]
+    }
+  ],
+  "features": [
+    "App Store Connect analytics",
+    "Cloudflare integration",
+    "Revenue tracking",
+    "Advertising performance",
+    "Search visibility monitoring",
+    "Multi-service dashboards",
+    "iPad and macOS support",
+    "Developer-focused workflows"
+  ],
+  "integrations": [
+    "Cloudflare",
+    "App Store Connect",
+    "Google AdMob",
+    "Google AdSense",
+    "Google Search Console",
+    "GitHub (in progress)"
+  ],
+  "platforms": [
+    "iPadOS",
+    "macOS"
+  ],
+  "technologies": [
+    "SwiftUI",
+    "Native iPadOS and macOS",
+    "Cloudflare APIs",
+    "App Store Connect API",
+    "Google Service Integrations",
+    "Secure Keychain Storage",
+    "Local-First Data Architecture",
+    "Business Intelligence Dashboards"
+  ],
+  "actions": [
+    {
+      "label": "Back To Portfolio",
+      "href": "/portfolio"
+    },
+    {
+      "label": "Read Announcement",
+      "href": "/news/introducing-studiodash"
+    },
+    {
+      "label": "Software Services",
+      "href": "/services"
+    }
+  ],
+  "lastUpdated": "2026-06-14"
+}

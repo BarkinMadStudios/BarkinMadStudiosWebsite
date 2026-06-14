@@ -1,0 +1,40 @@
+{
+  "title": "Introducing StudioDash",
+  "date": "2026-06-14",
+  "image": "image.png",
+  "excerpt": "StudioDash is a developer analytics platform from BarkinMad Studios, bringing app, revenue, traffic, advertising, search and operational metrics into a single native workspace.",
+  "content": [
+    "BarkinMad Studios is introducing [StudioDash](/portfolio/studiodash), an analytics and business intelligence platform for independent developers, creators, and small studios.",
+    "StudioDash is being built to bring important product and operational data into one workspace. Instead of switching between separate dashboards for app downloads, revenue, advertising, website traffic, search visibility, GitHub activity, and infrastructure health, StudioDash is designed to make those signals easier to monitor from a single native app.",
+    "Why It Was Built",
+    "Independent developers often work across several services at once. App Store Connect, Cloudflare, AdMob, AdSense, Search Console and other platforms all provide useful information, but they do not naturally form one joined-up operational view.",
+    "StudioDash was created to reduce that fragmentation. The goal is to help developers, creators, and small studios understand what is happening across their apps, websites, advertising, revenue streams, source activity, and operational systems without needing to manually check every service one by one.",
+    "Current Progress",
+    "StudioDash is actively in development by BarkinMad Studios.",
+    "Current work is focused on integration reliability, secure credential handling, local-first data architecture, developer-focused dashboard layouts, native iPadOS support, native macOS support, and preparing the product for public beta feedback.",
+    "Planned Integrations",
+    "The current StudioDash roadmap includes integrations for:",
+    "* Cloudflare",
+    "* App Store Connect",
+    "* Google AdMob",
+    "* Google AdSense",
+    "* Google Search Console",
+    "* GitHub",
+    "These integrations are intended to support a joined-up view of downloads, revenue, traffic, performance, advertising performance, search visibility, development activity, and operational health.",
+    "Future Roadmap",
+    "The next stage is to continue refining the dashboard experience, expand integration coverage, improve reporting workflows, and prepare StudioDash for a public beta.",
+    "StudioDash also reflects the broader software engineering work behind BarkinMad Studios. Alongside games such as the [ZX Series](/zx-series) and apps such as [The Game of Darts](/apps/gameofdarts), it demonstrates the studio's capability to build practical software products, developer tools, dashboards, and business systems.",
+    "More information is available on the [StudioDash portfolio page](/portfolio/studiodash)."
+  ],
+  "actions": [
+    {
+      "label": "View StudioDash",
+      "href": "/portfolio/studiodash"
+    },
+    {
+      "label": "View Portfolio",
+      "href": "/portfolio"
+    }
+  ],
+  "lastUpdated": "2026-06-14"
+}

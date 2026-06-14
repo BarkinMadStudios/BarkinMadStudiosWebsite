@@ -2,8 +2,8 @@
   "title": "Portfolio",
   "seoTitle": "Software Development Portfolio | BarkinMad Studios",
   "heading": "Portfolio",
-  "intro": "Explore public BarkinMad Studios projects across mobile apps, retro-inspired games, business tools, prototypes, and digital products.",
-  "description": "A selection of public BarkinMad Studios software development projects, including mobile applications, retro arcade games, prototypes, and planned business tools.",
+  "intro": "Explore public BarkinMad Studios projects across games, developer tools, software services, prototypes, and digital products.",
+  "description": "A selection of public BarkinMad Studios software development projects, including mobile applications, retro arcade games, developer tools, prototypes, and software services.",
   "hero": {
     "image": "/images/apps-hero-banner.png",
     "alt": "BarkinMad Studios software development and mobile app portfolio"
@@ -18,10 +18,16 @@
       ]
     }
   ],
+  "projectCategories": [
+    "Games",
+    "Developer Tools",
+    "Software Services"
+  ],
   "projects": [
     {
       "title": "The Game of Darts",
       "status": "Live",
+      "category": "Games",
       "type": "Mobile App",
       "href": "/apps/gameofdarts",
       "summary": "A modern darts scoring application for iPhone and iPad, designed to support multiple game formats, player statistics, match history, and performance tracking.",
@@ -39,6 +45,7 @@
     {
       "title": "ZXSnake",
       "status": "Live",
+      "category": "Games",
       "type": "Retro Arcade Game",
       "href": "/apps/zxsnake",
       "summary": "A retro-inspired snake game with modern features including achievements, leaderboards, AI opponents, local PVP, online PVP, unlockable content, and shared ZX Series progression.",
@@ -58,6 +65,7 @@
     {
       "title": "ZXBrick",
       "status": "Live",
+      "category": "Games",
       "type": "Retro Arcade Game",
       "href": "/apps/zxbrick",
       "summary": "A retro-inspired brick-breaking game featuring 100 handcrafted levels, power-ups, achievements, leaderboards, unlockable themes, and BarkinMad Coins.",
@@ -77,6 +85,7 @@
     {
       "title": "ZXSpace",
       "status": "In Development",
+      "category": "Games",
       "type": "Retro Arcade Game",
       "href": "/apps/zxspace",
       "summary": "A retro-inspired space shooter focused on fast arcade gameplay, enemy waves, power-ups, score chasing, achievements, and shared ZX Series progression.",
@@ -94,6 +103,7 @@
     {
       "title": "ZXPong",
       "status": "In Development",
+      "category": "Games",
       "type": "Retro Arcade Game",
       "href": "/apps/zxpong",
       "summary": "A retro-inspired paddle game with quick rallies, AI opponents, local multiplayer, online multiplayer, achievements, and shared ZX Series progression.",
@@ -110,24 +120,31 @@
     },
     {
       "title": "StudioDash",
-      "status": "Planned",
-      "type": "Business Platform",
-      "href": "/docs",
-      "summary": "A planned documentation and business operations platform for managing studio processes, internal notes, integrations, and future support material.",
-      "challenge": "Create a scalable internal platform that can support documentation, operational workflows, and future product support without relying on disconnected notes and manual processes.",
-      "solution": "Planned as a structured, documentation-led system with setup guides, integration notes, troubleshooting content, and room for future operational tooling.",
+      "status": "In Development",
+      "badge": "Public Beta Planned",
+      "category": "Developer Tools",
+      "type": "Developer Analytics Platform",
+      "href": "/portfolio/studiodash",
+      "image": "apps/studiodash/studiodash-icon.png",
+      "summary": "StudioDash is an analytics and business intelligence platform being developed by BarkinMad Studios for independent developers, creators, and small studios. It brings together App Store Connect, Cloudflare, AdMob, AdSense, Search Console, GitHub, and other services into a single workspace, helping users monitor downloads, revenue, traffic, performance, and operational health from one dashboard.",
+      "challenge": "Developers often need to switch between multiple services and dashboards to understand how their products and business are performing. This creates fragmented workflows and makes it difficult to identify trends and issues quickly.",
+      "solution": "StudioDash provides a unified dashboard experience, consolidating analytics, revenue reporting, service health, and operational metrics into a single native application designed specifically for independent developers.",
       "technologies": [
-        "Web platform",
-        "JSON-driven content",
-        "Documentation architecture",
-        "Search-ready content model",
-        "Workflow planning"
+        "SwiftUI",
+        "Native iPadOS and macOS",
+        "Cloudflare APIs",
+        "App Store Connect API",
+        "Google Service Integrations",
+        "Secure Keychain Storage",
+        "Local-First Data Architecture",
+        "Business Intelligence Dashboards"
       ],
-      "outcome": "Development status: planned. The documentation framework on this website is the first public foundation for future StudioDash content."
+      "outcome": "Development is actively in progress, with Cloudflare and App Store Connect integrations already operational and additional services being added as the platform evolves."
     },
     {
       "title": "Wi-Fi Survey Tool",
       "status": "Planned",
+      "category": "Developer Tools",
       "type": "Business / Utility App",
       "href": "/services/mobile-app-development",
       "summary": "A planned mobile tool concept for capturing Wi-Fi readings, comparing access point and extender combinations, and helping users understand wireless coverage around a property.",
@@ -141,6 +158,25 @@
         "Potential AI-assisted analysis"
       ],
       "outcome": "Planned as a future product opportunity with potential free, premium, and business-focused features."
+    },
+    {
+      "title": "Custom Software Development",
+      "status": "Available",
+      "category": "Software Services",
+      "type": "Software Service",
+      "href": "/services/custom-software-development",
+      "summary": "Commercial software development services for businesses that need practical internal tools, mobile apps, prototypes, integrations, workflow systems, and digital platforms.",
+      "challenge": "Businesses often rely on manual processes, disconnected spreadsheets, or tools that do not fit the way their teams actually work.",
+      "solution": "BarkinMad Studios designs and builds focused software around real operational requirements, from native apps and dashboards to prototypes and business workflow tools.",
+      "technologies": [
+        "Custom software",
+        "Mobile apps",
+        "Internal business tools",
+        "Workflow automation",
+        "Web platforms",
+        "API integrations"
+      ],
+      "outcome": "Provides a clear services path alongside BarkinMad Studios' public games and product work."
     }
   ],
   "confidentiality": {
@@ -165,5 +201,5 @@
       "href": "/contact"
     }
   ],
-  "lastUpdated": "2026-06-07"
+  "lastUpdated": "2026-06-14"
 }

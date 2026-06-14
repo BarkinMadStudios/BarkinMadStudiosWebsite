@@ -2,8 +2,8 @@
   "title": "Documentation Library",
   "seoTitle": "Documentation Library | BarkinMad Studios",
   "heading": "Documentation Library",
-  "intro": "Guides, support notes, product information, and reference material for BarkinMad Studios games, apps, services, and future StudioDash tooling.",
-  "description": "Browse BarkinMad Studios documentation for the ZX Series, The Game of Darts, services, policies, and future StudioDash setup, integrations, and troubleshooting guides.",
+  "intro": "Guides, support notes, product information, and reference material for BarkinMad Studios games, apps, services, and StudioDash.",
+  "description": "Browse BarkinMad Studios documentation for the ZX Series, The Game of Darts, services, policies, and StudioDash setup, integrations, and troubleshooting guides.",
   "hero": {
     "image": "/images/news-bg-banner.png",
     "alt": "BarkinMad Studios documentation library and support resources"
@@ -64,36 +64,36 @@
     },
     {
       "title": "StudioDash",
-      "description": "Future documentation for StudioDash setup, integrations, and troubleshooting.",
+      "description": "Documentation area for StudioDash setup, integrations, and troubleshooting as the product approaches public beta.",
       "documents": [
         {
           "title": "Setup",
-          "summary": "Planned setup guides for future StudioDash onboarding and configuration.",
-          "href": "/portfolio",
+          "summary": "Setup guides for StudioDash onboarding and configuration will be published as the public beta approaches.",
+          "href": "/portfolio/studiodash",
           "tags": [
             "StudioDash",
             "Setup",
-            "Planned"
+            "Developer Tools"
           ]
         },
         {
           "title": "Integrations",
-          "summary": "Planned integration notes for connecting StudioDash with useful business systems.",
-          "href": "/portfolio",
+          "summary": "Integration notes for connecting StudioDash with App Store Connect, Cloudflare, advertising, search, and developer services.",
+          "href": "/portfolio/studiodash",
           "tags": [
             "StudioDash",
             "Integrations",
-            "Planned"
+            "Developer Tools"
           ]
         },
         {
           "title": "Troubleshooting",
-          "summary": "Future troubleshooting material for common StudioDash setup and operational issues.",
-          "href": "/portfolio",
+          "summary": "Troubleshooting material for StudioDash setup and operational issues will be added as integrations become public.",
+          "href": "/portfolio/studiodash",
           "tags": [
             "StudioDash",
             "Troubleshooting",
-            "Planned"
+            "Developer Tools"
           ]
         }
       ]

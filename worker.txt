@@ -12,7 +12,7 @@ const IMAGE_BASE = `${REPO_BASE}/images`;
 const NEWS_BASE = `${REPO_BASE}/news`;
 const PAGES_BASE = `${REPO_BASE}/pages`;
 const DATA_BASE = `${PAGES_BASE}/data`;
-const SITE_LASTMOD = "2026-06-07";
+const SITE_LASTMOD = "2026-06-14";
 
 const DEFAULT_SITE = {
   name: "BarkinMad Studios",
@@ -152,6 +152,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   }
 
   if (path === "/about") return staticJsonPage("about");
+  if (path === "/portfolio/studiodash") return portfolioDetailJsonPage("studiodash");
   if (path === "/portfolio") return portfolioJsonPage();
   if (path === "/docs") return docsJsonPage();
   if (path === "/privacy") return staticJsonPage("privacy");
@@ -253,7 +254,7 @@ function layout(title, content, site = {}, options = {}, status = 200) {
 <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
 
 <meta name="description" content="${escapeHtml(siteDescription)}">
-${site.keywords ? `<meta name="keywords" content="${escapeHtml(site.keywords)}">` : ""}
+${options.keywords || site.keywords ? `<meta name="keywords" content="${escapeHtml(options.keywords || site.keywords)}">` : ""}
 <meta name="robots" content="${escapeHtml(robots)}">
 
 <meta property="og:title" content="${escapeHtml(title)}">
@@ -503,6 +504,13 @@ footer a {
   margin: 0 0.5rem;
 }
 
+footer p {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem 1rem;
+  flex-wrap: wrap;
+}
+
 .footer-logo {
   height: 56px;
   width: auto;
@@ -683,6 +691,26 @@ function appSchema(app, slug, site = DEFAULT_SITE) {
   return schema;
 }
 
+function softwareProjectSchema(project, slug, site = DEFAULT_SITE) {
+  if (!project || !project.title) return null;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: project.title,
+    applicationCategory: "BusinessApplication",
+    operatingSystem: Array.isArray(project.platforms) ? project.platforms.join(", ") : "iPadOS, macOS",
+    description: cleanMeta(project.description || firstParagraph(project.overview)),
+    url: absoluteSiteUrl(site.website || DEFAULT_SITE.website, `/portfolio/${slug}`),
+    image: pageHeroImage(project, `${IMAGE_BASE}/logos/social-preview.png`),
+    author: {
+      "@type": "Organization",
+      name: site.name || DEFAULT_SITE.name
+    },
+    applicationSubCategory: project.type || "Developer Tools"
+  };
+}
+
 function faqSchema(faqs) {
   const questions = Array.isArray(faqs) ? faqs.filter(item => item?.question && item?.answer) : [];
   if (!questions.length) return null;
@@ -861,11 +889,16 @@ async function homePage() {
   const sections = Array.isArray(homepage.sections) ? homepage.sections : [];
   const actions = Array.isArray(homepage.actions) ? homepage.actions : [];
 
+  const featuredProducts = Array.isArray(homepage.featuredProducts)
+    ? homepage.featuredProducts.filter(item => item?.title)
+    : [];
+
   const featuredSlugs = Array.isArray(homepage.featuredApps)
     ? homepage.featuredApps
     : apps.filter(app => app.status === "Live").slice(0, 3).map(app => app.slug);
 
   const featuredApps = apps.filter(app => featuredSlugs.includes(app.slug));
+  const featuredItems = featuredProducts.length ? featuredProducts : featuredApps;
 
   const latestPosts = getPublishedValidPosts(posts).slice(0, homepage.newsCount || 3);
 
@@ -883,10 +916,10 @@ async function homePage() {
 </section>
 
 <main>
-${featuredApps.length ? `
+${featuredItems.length ? `
 <section>
   <h2>${escapeHtml(homepage.featuredAppsTitle || "Featured Apps")}</h2>
-  <div class="grid">${featuredApps.map(appFullCard).join("")}</div>
+  <div class="grid">${featuredItems.map(item => featuredProducts.length ? productCard(item) : appFullCard(item)).join("")}</div>
 </section>` : ""}
 
 ${renderHomeServicesSection(homepage.servicesSection)}
@@ -942,6 +975,27 @@ function renderHomeZxSection(section) {
     ${section.action ? actionLink(section.action) : ""}
   </div>
 </section>`;
+}
+
+function productCard(product) {
+  if (!product || !product.title) return "";
+  const image = getAppImage(product);
+
+  return `
+<div class="card">
+  ${image ? `
+    <img class="game-image" src="${IMAGE_BASE}/${escapeHtml(image)}" alt="${escapeHtml(product.title)}" loading="lazy">
+  ` : ""}
+
+  ${product.type ? `<span class="badge">${escapeHtml(product.type)}</span>` : ""}
+
+  <h3>${escapeHtml(product.title)}</h3>
+
+  ${product.description ? `<p>${renderContentParagraph(product.description)}</p>` : ""}
+  ${product.status ? `<p><strong>Status:</strong> ${escapeHtml(product.status)}</p>` : ""}
+
+  ${product.href ? actionLink({ label: product.actionLabel || "View Product", href: product.href }) : ""}
+</div>`;
 }
 
 async function appsPage(page) {
@@ -1186,6 +1240,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
 
 function appFullCard(app) {
   const image = getAppImage(app);
+  const detailHref = app.href || (app.slug ? `/apps/${app.slug}` : "");
 
   return `
 <div class="card">
@@ -1202,7 +1257,7 @@ function appFullCard(app) {
   ${app.status ? `<p><strong>Status:</strong> ${escapeHtml(app.status)}</p>` : ""}
 
   <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-    ${app.slug ? `<a class="btn" href="/apps/${escapeHtml(app.slug)}">View App Page</a>` : ""}
+    ${detailHref ? `<a class="btn" href="${escapeHtml(detailHref)}">View App Page</a>` : ""}
 
     ${app.appStoreUrl ? `
       <a class="btn" href="${escapeHtml(app.appStoreUrl)}" target="_blank" rel="noopener">View on App Store</a>
@@ -1530,9 +1585,42 @@ async function portfolioJsonPage() {
   });
 }
 
+async function portfolioDetailJsonPage(slug) {
+  const projectSlug = String(slug || "").trim();
+  if (!/^[a-z0-9-]+$/.test(projectSlug)) {
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
+  }
+
+  const page = await fetchJson(`${PAGES_BASE}/portfolio-${projectSlug}.json`);
+
+  if (!page) {
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), {
+      canonicalPath: `/portfolio/${projectSlug}`,
+      robots: "noindex,follow"
+    }, 404);
+  }
+
+  return pageResponse(page.seoTitle || `${page.title || page.heading || projectSlug} - BarkinMad Studios`, renderPortfolioDetailPage(page), {
+    canonicalPath: `/portfolio/${projectSlug}`,
+    description: page.description || firstParagraph(page.overview),
+    keywords: page.keywords,
+    image: pageHeroImage(page, `${IMAGE_BASE}/logos/social-preview.png`),
+    structuredData: [
+      organizationSchema(DEFAULT_SITE),
+      softwareProjectSchema(page, projectSlug),
+      breadcrumbSchema([
+        { name: "Home", path: "/" },
+        { name: "Portfolio", path: "/portfolio" },
+        { name: page.heading || page.title || projectSlug, path: `/portfolio/${projectSlug}` }
+      ])
+    ].filter(Boolean)
+  });
+}
+
 function renderPortfolioPage(page) {
   const sections = Array.isArray(page.sections) ? page.sections : [];
   const projects = Array.isArray(page.projects) ? page.projects : [];
+  const projectCategories = Array.isArray(page.projectCategories) ? page.projectCategories.filter(Boolean) : [];
   const actions = Array.isArray(page.actions) ? page.actions : [];
 
   return `
@@ -1555,9 +1643,9 @@ function renderPortfolioPage(page) {
   ${projects.length ? `
     <section>
       <h2>Projects</h2>
-      <div class="grid portfolio-grid">
-        ${projects.map(renderPortfolioProjectCard).join("")}
-      </div>
+      ${projectCategories.length
+        ? projectCategories.map(category => renderPortfolioProjectGroup(category, projects.filter(project => project.category === category))).join("")
+        : `<div class="grid portfolio-grid">${projects.map(renderPortfolioProjectCard).join("")}</div>`}
     </section>
   ` : ""}
 
@@ -1573,15 +1661,30 @@ function renderPortfolioPage(page) {
 </main>`;
 }
 
+function renderPortfolioProjectGroup(category, projects) {
+  if (!Array.isArray(projects) || !projects.length) return "";
+
+  return `
+  <h3>${escapeHtml(category)}</h3>
+  <div class="grid portfolio-grid">
+    ${projects.map(renderPortfolioProjectCard).join("")}
+  </div>`;
+}
+
 function renderPortfolioProjectCard(project) {
   if (!project || !project.title) return "";
   const technologies = Array.isArray(project.technologies) ? project.technologies.filter(Boolean) : [];
+  const image = getAppImage(project);
 
   return `
 <div class="card portfolio-card">
+  ${image ? `
+    <img class="game-image" src="${IMAGE_BASE}/${escapeHtml(image)}" alt="${escapeHtml(project.title)}" loading="lazy">
+  ` : ""}
   <div>
-    ${project.status ? `<span class="badge">${renderContentParagraph(project.status)}</span>` : ""}
+    ${project.badge ? `<span class="badge">${renderContentParagraph(project.badge)}</span>` : project.status ? `<span class="badge">${renderContentParagraph(project.status)}</span>` : ""}
     <h3>${renderContentParagraph(project.title)}</h3>
+    ${project.status ? `<p><strong>Status:</strong> ${renderContentParagraph(project.status)}</p>` : ""}
     ${project.type ? `<p><strong>Type:</strong> ${renderContentParagraph(project.type)}</p>` : ""}
     ${project.summary ? `<p>${renderContentParagraph(project.summary)}</p>` : ""}
     ${project.challenge ? `<p><strong>Challenge:</strong> ${renderContentParagraph(project.challenge)}</p>` : ""}
@@ -1596,6 +1699,43 @@ function renderPortfolioProjectCard(project) {
   </div>
   ${project.href ? actionLink({ label: "View Project", href: project.href }) : ""}
 </div>`;
+}
+
+function renderPortfolioDetailPage(page) {
+  const actions = Array.isArray(page.actions) ? page.actions : [];
+
+  return `
+<section class="hero hero-retro"${heroBackgroundStyle(page)}>
+  <h2>${escapeHtml(page.heading || page.title)}</h2>
+  ${page.tagline ? `<p>${renderContentParagraph(page.tagline)}</p>` : ""}
+</section>
+
+<main>
+  <section>
+    <div class="card">
+      ${page.icon ? `<img class="game-image" src="${IMAGE_BASE}/${escapeHtml(page.icon)}" alt="${escapeHtml(page.title || page.heading)} app icon" loading="lazy">` : ""}
+      ${page.badge ? `<span class="badge">${escapeHtml(page.badge)}</span>` : ""}
+      ${page.status ? `<p><strong>Status:</strong> ${escapeHtml(page.status)}</p>` : ""}
+      ${page.type ? `<p><strong>Category:</strong> ${escapeHtml(page.type)}</p>` : ""}
+      ${renderParagraphs(page.overview)}
+    </div>
+  </section>
+
+  ${renderContentSections(page.sections)}
+
+  ${renderStringListSection("Key Features", page.features)}
+  ${renderStringListSection("Current Integrations", page.integrations)}
+  ${renderStringListSection("Platform Support", page.platforms)}
+  ${renderStringListSection("Technology", page.technologies)}
+
+  ${actions.length ? `
+    <section>
+      <div class="card">
+        <div class="button-group">${actions.map(actionLink).join("")}</div>
+      </div>
+    </section>
+  ` : ""}
+</main>`;
 }
 
 function renderPortfolioConfidentiality(confidentiality) {
@@ -1863,6 +2003,7 @@ async function sitemapResponse() {
     { path: "/news", changefreq: "weekly", priority: "0.8" },
     { path: "/about", changefreq: "monthly", priority: "0.7" },
     { path: "/portfolio", changefreq: "monthly", priority: "0.8" },
+    { path: "/portfolio/studiodash", changefreq: "monthly", priority: "0.8" },
     { path: "/docs", changefreq: "monthly", priority: "0.7" },
     { path: "/services", changefreq: "monthly", priority: "0.7" },
     { path: "/privacy", changefreq: "yearly", priority: "0.5" },
@@ -1873,8 +2014,9 @@ async function sitemapResponse() {
   const apps = await getApps();
 
   for (const app of apps) {
-    if (app.slug) {
-      urls.push({ path: `/apps/${app.slug}`, changefreq: "monthly", priority: "0.8", lastmod: SITE_LASTMOD });
+    const appPath = app.href || (app.slug ? `/apps/${app.slug}` : "");
+    if (appPath && !urls.some(url => url.path === appPath)) {
+      urls.push({ path: appPath, changefreq: "monthly", priority: "0.8", lastmod: SITE_LASTMOD });
     }
   }
 
