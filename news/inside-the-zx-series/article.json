@@ -1,0 +1,16 @@
+{
+  "title": "Inside the ZX Series",
+  "date": "2026-07-12",
+  "image": "image.png",
+  "content": [
+    "The ZX Series is BarkinMad Studios' growing collection of retro-inspired arcade games, designed to capture the simplicity, challenge, and replayability of classic gaming while introducing modern features for today's players.",
+    "The project began with a simple goal: create fun, accessible arcade experiences that are easy to pick up but difficult to master. Inspired by the golden age of gaming, each title in the ZX Series focuses on straightforward gameplay mechanics, high-score chasing, and competitive progression.",
+    "ZXSnake and ZXBrick were the first titles released in the series. While both games take inspiration from classic arcade favourites, they introduce modern features such as achievements, leaderboards, player progression, and cloud-based score tracking.",
+    "Development has continued with additional titles including ZXSpace and ZXPong, each bringing a different style of arcade gameplay to the collection. While every game has its own identity, they all share a common philosophy of quick gameplay sessions, responsive controls, and rewarding progression.",
+    "One of the key features connecting the ZX Series is BarkinMad Coins. Players can earn coins while playing supported games and use them across the wider ZX ecosystem. This shared progression system rewards players for exploring multiple games within the collection and helps create a connected experience between titles.",
+    "The ZX Series also shares achievements and leaderboards through Game Center integration. Players can track their accomplishments, compete for high scores, and work towards cross-game milestones as the collection continues to expand.",
+    "Accessibility remains an important part of development. The ZX Series currently supports 32 languages, helping players from around the world enjoy the games in their preferred language.",
+    "Looking ahead, BarkinMad Studios plans to continue expanding the ZX Series with new games, additional shared features, and further improvements to player progression.",
+    "The ZX Series represents more than a collection of games. It is an ongoing project built around classic arcade principles, modern technology, and a passion for creating enjoyable experiences that players can return to again and again."
+  ]
+}
