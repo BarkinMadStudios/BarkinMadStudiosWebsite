@@ -75,6 +75,14 @@
       "href": "/cookies"
     },
     {
+      "label": "Terms",
+      "href": "/terms"
+    },
+    {
+      "label": "Company",
+      "href": "/company"
+    },
+    {
       "label": "Contact",
       "href": "/contact"
     }

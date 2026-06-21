@@ -157,6 +157,8 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   if (path === "/docs") return docsJsonPage();
   if (path === "/privacy") return staticJsonPage("privacy");
   if (path === "/cookies") return staticJsonPage("cookies");
+  if (path === "/terms") return staticJsonPage("terms");
+  if (path === "/company") return staticJsonPage("company");
   if (path === "/contact") return staticJsonPage("contact");
   if (path === "/services") return staticJsonPage("services");
 
@@ -1522,13 +1524,16 @@ async function staticJsonPage(slug) {
     return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
   }
 
-  if (!Array.isArray(page.sections)) {
+  const sections = staticPageSections(page);
+  if (!sections.length) {
     return pageResponse("Page Error - BarkinMad Studios", brokenPage());
   }
 
-  return pageResponse(page.seoTitle || `${page.title} - BarkinMad Studios`, renderStaticPage(page), {
+  const renderablePage = { ...page, sections };
+
+  return pageResponse(page.seoTitle || `${page.title} - BarkinMad Studios`, renderStaticPage(renderablePage), {
     canonicalPath: `/${slug}`,
-    description: page.description || page.intro || firstParagraph(page.sections?.[0]?.paragraphs),
+    description: page.description || page.intro || firstParagraph(sections[0]?.paragraphs),
     image: pageHeroImage(page, `${IMAGE_BASE}/logos/social-preview.png`),
     structuredData: [
       organizationSchema(DEFAULT_SITE),
@@ -1538,6 +1543,21 @@ async function staticJsonPage(slug) {
       ])
     ]
   });
+}
+
+function staticPageSections(page) {
+  if (Array.isArray(page.sections)) return page.sections;
+
+  if (Array.isArray(page.content)) {
+    return page.content
+      .filter(section => section?.heading || section?.title || section?.text)
+      .map(section => ({
+        heading: section.heading || section.title,
+        paragraphs: section.text ? [section.text] : []
+      }));
+  }
+
+  return [];
 }
 
 async function docsJsonPage() {
@@ -2008,6 +2028,8 @@ async function sitemapResponse() {
     { path: "/services", changefreq: "monthly", priority: "0.7" },
     { path: "/privacy", changefreq: "yearly", priority: "0.5" },
     { path: "/cookies", changefreq: "yearly", priority: "0.5" },
+    { path: "/terms", changefreq: "yearly", priority: "0.5" },
+    { path: "/company", changefreq: "yearly", priority: "0.5" },
     { path: "/contact", changefreq: "monthly", priority: "0.7" }
   ].map(url => ({ ...url, lastmod: SITE_LASTMOD }));
 
