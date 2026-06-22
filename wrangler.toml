@@ -1,0 +1,3 @@
+name = "wild-moon-e163"
+main = "worker.js"
+compatibility_date = "2026-06-22"
