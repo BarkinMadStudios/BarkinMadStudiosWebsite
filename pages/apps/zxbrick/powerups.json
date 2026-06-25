@@ -1,0 +1,58 @@
+{
+  "title": "ZXBrick Power-Ups",
+  "seoTitle": "ZXBrick Power-Ups | BarkinMad Studios",
+  "description": "A practical overview of ZXBrick power-ups and how they support replayable brick-breaking arcade gameplay.",
+  "summary": "ZXBrick includes multiple power-ups that add variety and replayability to the brick-breaking arcade experience.",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "sourceNotes": [
+    "Generated from pages/apps/zxbrick.json and news/zxbrick-powerups/article.json.",
+    "Power-up names, exact effects, spawn behavior, scoring interactions, and balancing rules are To Verify from app source before publishing as specific mechanics."
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "paragraphs": [
+        "ZXBrick includes multiple power-ups as part of its retro brick-breaking arcade design. The current website data confirms power-ups as a core feature, alongside 100 handcrafted levels, unlockable themes, achievements, leaderboards, and high score tracking."
+      ]
+    },
+    {
+      "id": "purpose",
+      "heading": "Why Power-Ups Matter",
+      "paragraphs": [
+        "Power-ups help add variety, risk, and replayability to ZXBrick without changing the core arcade focus. The development article [Designing ZXBrick Power-Ups](/news/zxbrick-powerups) explains the design background behind this system."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "apps/zxbrick/zxbrick-gameplay-03.png",
+      "alt": "ZXBrick gameplay screenshot"
+    }
+  ],
+  "futureImages": [
+    "images/apps/zxbrick/zxbrick-powerups.png"
+  ],
+  "relatedLinks": [
+    {
+      "label": "ZXBrick App Page",
+      "href": "/apps/zxbrick"
+    },
+    {
+      "label": "How to Play",
+      "href": "/apps/zxbrick/how-to-play"
+    },
+    {
+      "label": "Designing ZXBrick Power-Ups",
+      "href": "/news/zxbrick-powerups"
+    }
+  ],
+  "help": {
+    "version": 1,
+    "sections": [
+      "overview",
+      "purpose"
+    ]
+  },
+  "lastUpdated": "2026-06-25"
+}

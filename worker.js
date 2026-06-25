@@ -171,7 +171,17 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   }
 
   if (path.startsWith("/apps/")) {
-    return appJsonPage(path.replace("/apps/", ""));
+    const appPathParts = path.replace("/apps/", "").split("/").filter(Boolean);
+
+    if (appPathParts.length === 1) {
+      return appJsonPage(appPathParts[0]);
+    }
+
+    if (appPathParts.length === 2) {
+      return appDocumentationJsonPage(appPathParts[0], appPathParts[1]);
+    }
+
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
   }
 
 if (path === "/news") {
@@ -492,6 +502,70 @@ h3 { color: #ffcc66; }
 
 .btn:hover { background: #ffb347; }
 
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 1rem;
+  color: #cfd2ea;
+  font-size: 0.95rem;
+}
+
+.breadcrumbs a {
+  color: #ffcc66;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover { color: #f39c12; }
+
+.breadcrumb-separator {
+  color: #7d84ad;
+}
+
+.guide-nav {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.guide-nav a {
+  border: 1px solid #333858;
+  border-radius: 8px;
+  color: #f4f4f4;
+  padding: 0.55rem 0.8rem;
+  text-decoration: none;
+}
+
+.guide-nav a[aria-current="page"] {
+  background: #f39c12;
+  border-color: #f39c12;
+  color: #111;
+  font-weight: bold;
+}
+
+.contents-list {
+  columns: 2;
+  margin-bottom: 0;
+}
+
+.contents-list a {
+  color: #ffcc66;
+  text-decoration: none;
+}
+
+.contents-list a:hover { color: #f39c12; }
+
+.prev-next {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.prev-next .card {
+  margin-bottom: 0;
+}
+
 footer {
   background: #000;
   border-top: 1px solid #333858;
@@ -532,6 +606,14 @@ footer p {
   }
 
   .hero h2 { font-size: 2rem; }
+
+  .contents-list {
+    columns: 1;
+  }
+
+  .prev-next {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 </head>
@@ -691,6 +773,28 @@ function appSchema(app, slug, site = DEFAULT_SITE) {
 
   if (app.appStoreUrl) schema.installUrl = app.appStoreUrl;
   return schema;
+}
+
+function howToSchema(page, app, appSlug, detailSlug, site = DEFAULT_SITE) {
+  const steps = Array.isArray(page?.howToSteps)
+    ? page.howToSteps.filter(step => step?.name || step?.text)
+    : [];
+
+  if (page?.schemaType !== "HowTo" || !steps.length) return null;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name: page.title || `${app?.title || app?.name || appSlug} Guide`,
+    description: cleanMeta(page.description || page.summary),
+    url: absoluteSiteUrl(site.website || DEFAULT_SITE.website, `/apps/${appSlug}/${detailSlug}`),
+    step: steps.map((step, index) => ({
+      "@type": "HowToStep",
+      position: index + 1,
+      name: step.name || `Step ${index + 1}`,
+      text: markdownLinksToText(step.text || step.name || "")
+    }))
+  };
 }
 
 function softwareProjectSchema(project, slug, site = DEFAULT_SITE) {
@@ -1306,6 +1410,232 @@ async function appJsonPage(slug) {
   });
 }
 
+async function appDocumentationJsonPage(appSlug, detailSlug) {
+  const normalizedAppSlug = String(appSlug || "").trim();
+  const normalizedDetailSlug = String(detailSlug || "").trim();
+
+  if (!/^[a-z0-9-]+$/.test(normalizedAppSlug) || !/^[a-z0-9-]+$/.test(normalizedDetailSlug)) {
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
+  }
+
+  const apps = await getApps();
+  const listedApp = apps.find(app => app.slug === normalizedAppSlug);
+
+  if (!listedApp) {
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
+  }
+
+  const pageIndex = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}/pages.json`);
+  const indexPages = Array.isArray(pageIndex?.pages) ? pageIndex.pages : [];
+  const listedPage = indexPages.find(page => page?.slug === normalizedDetailSlug);
+
+  if (!listedPage) {
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), {
+      canonicalPath: `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`,
+      robots: "noindex,follow"
+    }, 404);
+  }
+
+  const app = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}.json`);
+  const page = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}/${normalizedDetailSlug}.json`);
+
+  if (!app || !page) {
+    return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), {
+      canonicalPath: `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`,
+      robots: "noindex,follow"
+    }, 404);
+  }
+
+  const site = await getSite();
+  const title = page.seoTitle || `${page.title || listedPage.title} - BarkinMad Studios`;
+  const canonicalPath = `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`;
+  const structuredData = [
+    breadcrumbSchema([
+      { name: "Home", path: "/" },
+      { name: "Apps", path: "/apps" },
+      { name: app.title || app.name || listedApp.name || normalizedAppSlug, path: `/apps/${normalizedAppSlug}` },
+      { name: page.title || listedPage.title || normalizedDetailSlug, path: canonicalPath }
+    ], site),
+    faqSchema(page.faq),
+    howToSchema(page, app, normalizedAppSlug, normalizedDetailSlug, site)
+  ].filter(Boolean);
+
+  return pageResponse(title, renderAppDocumentationPage(app, page, pageIndex, normalizedAppSlug, normalizedDetailSlug), {
+    canonicalPath,
+    description: page.description || listedPage.description || page.summary,
+    image: appDocumentationImage(page, app),
+    ogType: "website",
+    structuredData
+  });
+}
+
+function appDocumentationImage(page, app) {
+  const image = String(page?.heroImage || app?.heroImage || "").trim();
+  if (!image) return `${IMAGE_BASE}/logos/social-preview.png`;
+  if (/^https?:\/\//i.test(image)) return image;
+  if (image.startsWith("/")) return `${REPO_BASE}${image}`;
+  if (image.startsWith("images/")) return `${REPO_BASE}/${image}`;
+  return `${IMAGE_BASE}/${image}`;
+}
+
+function renderAppDocumentationPage(app, page, pageIndex, appSlug, detailSlug) {
+  const title = page.title || "App Guide";
+  const sections = Array.isArray(page.sections) ? page.sections : [];
+  const relatedLinks = Array.isArray(page.relatedLinks) ? page.relatedLinks : [];
+  const images = Array.isArray(page.images) ? page.images.filter(image => image?.src) : [];
+  const otherDocs = Array.isArray(pageIndex?.pages)
+    ? pageIndex.pages.filter(item => item?.slug && item.title)
+    : [];
+  const currentIndex = otherDocs.findIndex(item => item.slug === detailSlug);
+  const previousDoc = currentIndex > 0 ? otherDocs[currentIndex - 1] : null;
+  const nextDoc = currentIndex >= 0 && currentIndex < otherDocs.length - 1 ? otherDocs[currentIndex + 1] : null;
+  const appTitle = app.title || app.name || "App";
+  const sectionLinks = sections
+    .map(section => ({
+      id: section.id || slugify(section.heading || section.title || ""),
+      label: section.heading || section.title || ""
+    }))
+    .filter(item => item.id && item.label);
+
+  return `
+<section class="hero hero-retro"${heroBackgroundStyle({ hero: { image: page.heroImage || app.heroImage } })}>
+  <h2>${escapeHtml(title)}</h2>
+  ${page.summary ? `<p>${renderContentParagraph(page.summary)}</p>` : ""}
+</section>
+
+<main>
+<section>
+  <div class="card">
+    ${renderBreadcrumbs([
+      { label: "Home", href: "/" },
+      { label: "Apps", href: "/apps" },
+      { label: appTitle, href: `/apps/${appSlug}` },
+      { label: title }
+    ])}
+    ${page.description ? `<p>${renderContentParagraph(page.description)}</p>` : ""}
+    ${renderGuideNavigation(otherDocs, appSlug, detailSlug)}
+    <a class="btn" href="/apps/${escapeHtml(appSlug)}">Back to ${escapeHtml(appTitle)}</a>
+  </div>
+</section>
+
+${sectionLinks.length > 1 ? `
+<section>
+  <h2>Contents</h2>
+  <div class="card">
+    <ul class="contents-list">
+      ${sectionLinks.map(item => `<li><a href="#${escapeHtml(item.id)}">${escapeHtml(item.label)}</a></li>`).join("")}
+    </ul>
+  </div>
+</section>` : ""}
+
+${sections.map(section => `
+<section>
+  <h2${section.id || section.heading || section.title ? ` id="${escapeHtml(section.id || slugify(section.heading || section.title || ""))}"` : ""}>${escapeHtml(section.heading || section.title || "")}</h2>
+  <div class="card">
+    ${(section.paragraphs || []).map(paragraph => `<p>${renderContentParagraph(paragraph)}</p>`).join("")}
+    ${Array.isArray(section.bullets) && section.bullets.length ? `
+      <ul>
+        ${section.bullets.map(item => `<li>${renderContentParagraph(item)}</li>`).join("")}
+      </ul>
+    ` : ""}
+  </div>
+</section>`).join("")}
+
+${images.length ? `
+<section>
+  <h2>Screenshots</h2>
+  <div class="grid">
+    ${images.map(image => `
+      <div class="card">
+        <img class="screenshot-image" src="${IMAGE_BASE}/${escapeHtml(image.src)}" alt="${escapeHtml(image.alt || title)}" loading="lazy">
+        ${image.caption ? `<p>${renderContentParagraph(image.caption)}</p>` : ""}
+      </div>
+    `).join("")}
+  </div>
+</section>` : ""}
+
+${renderFaqSection(page.faq)}
+
+${previousDoc || nextDoc ? `
+<section>
+  <h2>Previous / Next</h2>
+  <div class="prev-next">
+    ${previousDoc ? renderGuideStepCard("Previous", previousDoc, appSlug) : `<div></div>`}
+    ${nextDoc ? renderGuideStepCard("Next", nextDoc, appSlug) : `<div></div>`}
+  </div>
+</section>` : ""}
+
+${relatedLinks.length ? `
+<section>
+  <h2>Related Links</h2>
+  <div class="grid">
+    ${relatedLinks.map(link => `
+      <div class="card">
+        <h3>${escapeHtml(link.label || "Related Link")}</h3>
+        ${link.description ? `<p>${renderContentParagraph(link.description)}</p>` : ""}
+        ${link.href ? `<a class="btn" href="${escapeHtml(safeLinkHref(link.href) || "#")}">Open</a>` : ""}
+      </div>
+    `).join("")}
+  </div>
+</section>` : ""}
+
+${otherDocs.length ? `
+<section>
+  <h2>${escapeHtml(pageIndex?.title || "Guides")}</h2>
+  <div class="grid">
+    ${otherDocs.map(item => `
+      <div class="card">
+        <h3>${escapeHtml(item.title)}</h3>
+        ${item.description ? `<p>${renderContentParagraph(item.description)}</p>` : ""}
+        <a class="btn" href="/apps/${escapeHtml(appSlug)}/${escapeHtml(item.slug)}">View Guide</a>
+      </div>
+    `).join("")}
+  </div>
+</section>` : ""}
+</main>`;
+}
+
+function renderBreadcrumbs(items) {
+  const entries = Array.isArray(items) ? items.filter(item => item?.label) : [];
+  if (!entries.length) return "";
+
+  return `
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      ${entries.map((item, index) => {
+        const isLast = index === entries.length - 1 || !item.href;
+        const separator = index > 0 ? `<span class="breadcrumb-separator" aria-hidden="true">/</span>` : "";
+        const crumb = isLast
+          ? `<span aria-current="page">${escapeHtml(item.label)}</span>`
+          : `<a href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>`;
+        return `${separator}${crumb}`;
+      }).join("")}
+    </nav>`;
+}
+
+function renderGuideNavigation(pages, appSlug, currentSlug) {
+  const items = Array.isArray(pages) ? pages.filter(item => item?.slug && item.title) : [];
+  if (!items.length) return "";
+
+  return `
+    <nav class="guide-nav" aria-label="Guide navigation">
+      ${items.map(item => {
+        const href = `/apps/${appSlug}/${item.slug}`;
+        const current = item.slug === currentSlug ? ` aria-current="page"` : "";
+        return `<a href="${escapeHtml(href)}"${current}>${escapeHtml(item.title)}</a>`;
+      }).join("")}
+    </nav>`;
+}
+
+function renderGuideStepCard(label, page, appSlug) {
+  return `
+    <div class="card">
+      <p><strong>${escapeHtml(label)}</strong></p>
+      <h3>${escapeHtml(page.title)}</h3>
+      ${page.description ? `<p>${renderContentParagraph(page.description)}</p>` : ""}
+      <a class="btn" href="/apps/${escapeHtml(appSlug)}/${escapeHtml(page.slug)}">${escapeHtml(label)} Guide</a>
+    </div>`;
+}
+
 function renderAppPage(app, relatedApps = []) {
   return `
 <section class="hero hero-retro"${heroBackgroundStyle({ hero: { image: app.heroImage } })}>
@@ -1343,6 +1673,8 @@ ${app.barkinMadCoins?.enabled ? `
   </div>
 </section>` : ""}
 
+${renderAppDocumentationLinks(app.documentationLinks)}
+
 ${renderStringListSection("Supported Platforms", app.supportedPlatforms)}
 
 ${renderFaqSection(app.faq)}
@@ -1368,6 +1700,25 @@ ${Array.isArray(app.screenshots) && app.screenshots.length ? `
 
 ${renderRelatedApps(relatedApps)}
 </main>`;
+}
+
+function renderAppDocumentationLinks(links) {
+  const items = Array.isArray(links) ? links.filter(link => link?.label && link?.href) : [];
+  if (!items.length) return "";
+
+  return `
+<section>
+  <h2>Guides & Help</h2>
+  <div class="grid">
+    ${items.map(link => `
+      <div class="card">
+        <h3>${escapeHtml(link.label)}</h3>
+        ${link.description ? `<p>${renderContentParagraph(link.description)}</p>` : ""}
+        <a class="btn" href="${escapeHtml(link.href)}">View Guide</a>
+      </div>
+    `).join("")}
+  </div>
+</section>`;
 }
 
 function renderFaqSection(faqs) {
@@ -2040,6 +2391,22 @@ async function sitemapResponse() {
     if (appPath && !urls.some(url => url.path === appPath)) {
       urls.push({ path: appPath, changefreq: "monthly", priority: "0.8", lastmod: SITE_LASTMOD });
     }
+
+    if (app.slug) {
+      const pageIndex = await fetchJson(`${PAGES_BASE}/apps/${app.slug}/pages.json`);
+      const documentationPages = Array.isArray(pageIndex?.pages) ? pageIndex.pages : [];
+
+      for (const page of documentationPages) {
+        if (page?.slug) {
+          urls.push({
+            path: `/apps/${app.slug}/${page.slug}`,
+            changefreq: "monthly",
+            priority: "0.6",
+            lastmod: page.lastUpdated || pageIndex.lastUpdated || SITE_LASTMOD
+          });
+        }
+      }
+    }
   }
 
   const services = await fetchJson(`${PAGES_BASE}/services.json`);
@@ -2135,6 +2502,13 @@ function safeLinkHref(href) {
   }
 
   return "";
+}
+
+function slugify(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }
 
 function escapeHtml(value) {

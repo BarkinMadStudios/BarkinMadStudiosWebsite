@@ -1,0 +1,76 @@
+{
+  "title": "ZXBrick Levels",
+  "seoTitle": "ZXBrick Levels | BarkinMad Studios",
+  "description": "Learn about ZXBrick's 100 handcrafted levels and how level progression fits into the wider arcade experience.",
+  "summary": "ZXBrick includes 100 handcrafted levels built around retro-inspired brick-breaking arcade progression.",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "sourceNotes": [
+    "Generated from pages/apps/zxbrick.json and pages/data/apps.json.",
+    "Level layouts, unlock rules, difficulty curve, scoring rules, and completion behavior are To Verify from app source before publishing as detailed mechanics."
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "paragraphs": [
+        "ZXBrick includes 100 handcrafted levels. The levels are part of the game's retro brick-breaking arcade structure, giving players a clear progression path alongside high score tracking, achievements, leaderboards, unlockable themes, and BarkinMad Coins."
+      ]
+    },
+    {
+      "id": "progress",
+      "heading": "Progress",
+      "paragraphs": [
+        "The current website data confirms the level count and supporting progression systems. ZXBrick level play is part of the wider arcade loop alongside high scores, achievements, leaderboards, unlockable themes, and BarkinMad Coins."
+      ]
+    },
+    {
+      "id": "related-systems",
+      "heading": "Related Systems",
+      "paragraphs": [
+        "ZXBrick level play connects naturally with the wider app systems shown on the main app page, including achievements, leaderboards, high score tracking, unlockable themes, and [BarkinMad Coins](/zx-series)."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "apps/zxbrick/zxbrick-gameplay-01.png",
+      "alt": "ZXBrick loading screen screenshot"
+    },
+    {
+      "src": "apps/zxbrick/zxbrick-gameplay-03.png",
+      "alt": "ZXBrick new game screenshot"
+    }
+  ],
+  "futureImages": [
+    "images/apps/zxbrick/zxbrick-levels.png"
+  ],
+  "relatedLinks": [
+    {
+      "label": "ZXBrick App Page",
+      "href": "/apps/zxbrick"
+    },
+    {
+      "label": "How to Play",
+      "href": "/apps/zxbrick/how-to-play"
+    },
+    {
+      "label": "Power-Ups",
+      "href": "/apps/zxbrick/powerups"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How many levels are in ZXBrick?",
+      "answer": "ZXBrick includes 100 handcrafted levels."
+    }
+  ],
+  "help": {
+    "version": 1,
+    "sections": [
+      "overview",
+      "progress",
+      "related-systems"
+    ]
+  },
+  "lastUpdated": "2026-06-25"
+}

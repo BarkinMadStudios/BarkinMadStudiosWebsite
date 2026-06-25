@@ -1,0 +1,86 @@
+{
+  "title": "How to Play ZXBrick",
+  "seoTitle": "How to Play ZXBrick | BarkinMad Studios",
+  "description": "Learn the basics of ZXBrick, including the game goal, level progression, power-ups, achievements, and leaderboards.",
+  "summary": "ZXBrick is a retro-inspired brick-breaking arcade game focused on fast play sessions, level progression, high scores, power-ups, achievements, and leaderboards.",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "sourceNotes": [
+    "Generated from pages/apps/zxbrick.json, pages/data/apps.json, pages/zx-series.json, and existing ZXBrick news content.",
+    "Specific controls, scoring rules, power-up effects, achievement IDs, leaderboard IDs, and wallet behavior are To Verify from app source or platform metadata."
+  ],
+  "sections": [
+    {
+      "id": "goal",
+      "heading": "Goal",
+      "paragraphs": [
+        "ZXBrick is a classic brick-breaking arcade game from the [ZX Series](/zx-series). The broad goal is to play through brick-breaking levels, chase high scores, collect useful rewards, and build progress through supported achievements and leaderboards."
+      ],
+      "bullets": [
+        "Play retro-inspired brick-breaking arcade sessions.",
+        "Progress through ZXBrick's 100 handcrafted levels.",
+        "Use power-ups as part of the arcade experience.",
+        "Chase high scores and Game Center leaderboard progress."
+      ]
+    },
+    {
+      "id": "progression",
+      "heading": "Progression",
+      "paragraphs": [
+        "ZXBrick includes 100 handcrafted levels, unlockable themes, achievements, high score tracking, and Game Center leaderboard support. It also supports [BarkinMad Coins](/zx-series), which are earned through gameplay and used for cosmetic unlocks across supported BarkinMad Studios games."
+      ]
+    },
+    {
+      "id": "support",
+      "heading": "More Help",
+      "paragraphs": [
+        "For more detail, see the [ZXBrick power-ups guide](/apps/zxbrick/powerups) and [ZXBrick levels guide](/apps/zxbrick/levels)."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "apps/zxbrick/zxbrick-gameplay-02.png",
+      "alt": "ZXBrick main menu screenshot"
+    },
+    {
+      "src": "apps/zxbrick/zxbrick-gameplay-03.png",
+      "alt": "ZXBrick new game screenshot"
+    }
+  ],
+  "futureImages": [
+    "images/apps/zxbrick/zxbrick-how-to-play.png"
+  ],
+  "relatedLinks": [
+    {
+      "label": "ZXBrick App Page",
+      "href": "/apps/zxbrick"
+    },
+    {
+      "label": "Power-Ups",
+      "href": "/apps/zxbrick/powerups"
+    },
+    {
+      "label": "Levels",
+      "href": "/apps/zxbrick/levels"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is ZXBrick part of the ZX Series?",
+      "answer": "Yes. ZXBrick is part of the [ZX Series](/zx-series), alongside games such as [ZXSnake](/apps/zxsnake), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong)."
+    },
+    {
+      "question": "How many levels does ZXBrick include?",
+      "answer": "ZXBrick includes 100 handcrafted levels."
+    }
+  ],
+  "help": {
+    "version": 1,
+    "sections": [
+      "goal",
+      "progression",
+      "support"
+    ]
+  },
+  "lastUpdated": "2026-06-25"
+}

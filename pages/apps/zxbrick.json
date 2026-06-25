@@ -73,5 +73,22 @@
       "answer": "Yes. ZXBrick supports [BarkinMad Coins](/zx-series) for cross-game cosmetic unlocks across supported BarkinMad Studios games."
     }
   ],
+  "documentationLinks": [
+    {
+      "label": "How to Play",
+      "href": "/apps/zxbrick/how-to-play",
+      "description": "Learn the basics of ZXBrick, including progression, power-ups, achievements, and leaderboards."
+    },
+    {
+      "label": "Power-ups",
+      "href": "/apps/zxbrick/powerups",
+      "description": "Read a practical guide to ZXBrick power-ups and how they support replayable arcade sessions."
+    },
+    {
+      "label": "Levels",
+      "href": "/apps/zxbrick/levels",
+      "description": "Learn about ZXBrick's 100 handcrafted levels and related progression systems."
+    }
+  ],
   "lastUpdated": "2026-06-09"
 }

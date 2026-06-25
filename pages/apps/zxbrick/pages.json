@@ -1,0 +1,26 @@
+{
+  "appSlug": "zxbrick",
+  "title": "ZXBrick Guides",
+  "description": "Helpful ZXBrick guides covering how to play, power-ups, and levels.",
+  "pages": [
+    {
+      "slug": "how-to-play",
+      "title": "How to Play ZXBrick",
+      "description": "Learn the basics of ZXBrick, including the game goal, level progression, power-ups, achievements, and leaderboards.",
+      "lastUpdated": "2026-06-25"
+    },
+    {
+      "slug": "powerups",
+      "title": "ZXBrick Power-Ups",
+      "description": "A practical overview of ZXBrick power-ups and how they support replayable brick-breaking arcade gameplay.",
+      "lastUpdated": "2026-06-25"
+    },
+    {
+      "slug": "levels",
+      "title": "ZXBrick Levels",
+      "description": "Learn about ZXBrick's 100 handcrafted levels and how level progression fits into the wider arcade experience.",
+      "lastUpdated": "2026-06-25"
+    }
+  ],
+  "lastUpdated": "2026-06-25"
+}
