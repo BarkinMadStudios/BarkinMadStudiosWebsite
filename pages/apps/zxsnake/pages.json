@@ -1,5 +1,4 @@
 {
-  "documentationSchemaVersion": "1.0.0",
   "appSlug": "zxsnake",
   "title": "ZXSnake Guides",
   "description": "Official player guides for ZXSnake covering core gameplay, controls, multiplayer options, and progression systems.",
@@ -32,12 +31,16 @@
       "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["how-to-play", "controls", "game-modes"]
+      "relatedPages": [
+        "how-to-play",
+        "controls",
+        "game-modes"
+      ]
     },
     {
       "slug": "how-to-play",
       "title": "How to Play",
-      "description": "Learn the core loop, score objectives, and typical session structure for ZXSnake.",
+      "description": "Learn the core loop, score objectives, and game flow from launch to end-of-run decisions.",
       "required": true,
       "status": "required",
       "order": 2,
@@ -45,7 +48,12 @@
       "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["controls", "game-modes", "tips-and-strategy", "achievements"]
+      "relatedPages": [
+        "controls",
+        "game-modes",
+        "tips-and-strategy",
+        "achievements"
+      ]
     },
     {
       "slug": "controls",
@@ -58,7 +66,11 @@
       "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["how-to-play", "tips-and-strategy", "game-modes"]
+      "relatedPages": [
+        "how-to-play",
+        "game-modes",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "game-modes",
@@ -71,7 +83,12 @@
       "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["how-to-play", "controls", "leaderboards"]
+      "relatedPages": [
+        "how-to-play",
+        "controls",
+        "leaderboards",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "barkinmad-coins",
@@ -84,7 +101,11 @@
       "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["achievements", "leaderboards", "tips-and-strategy"]
+      "relatedPages": [
+        "achievements",
+        "leaderboards",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "achievements",
@@ -97,7 +118,11 @@
       "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["leaderboards", "tips-and-strategy", "how-to-play"]
+      "relatedPages": [
+        "leaderboards",
+        "how-to-play",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "leaderboards",
@@ -110,7 +135,11 @@
       "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["achievements", "how-to-play", "tips-and-strategy"]
+      "relatedPages": [
+        "achievements",
+        "how-to-play",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "tips-and-strategy",
@@ -123,7 +152,13 @@
       "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["controls", "how-to-play", "game-modes", "achievements", "leaderboards"]
+      "relatedPages": [
+        "controls",
+        "how-to-play",
+        "game-modes",
+        "achievements",
+        "leaderboards"
+      ]
     },
     {
       "slug": "frequently-asked-questions",
@@ -136,7 +171,12 @@
       "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["overview", "controls", "game-modes", "barkinmad-coins"]
+      "relatedPages": [
+        "overview",
+        "game-modes",
+        "barkinmad-coins",
+        "leaderboards"
+      ]
     }
   ]
 }

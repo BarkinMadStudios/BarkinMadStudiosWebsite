@@ -3,88 +3,17 @@
   "title": "Frequently Asked Questions",
   "seoTitle": "ZXSnake FAQ | BarkinMad Studios",
   "description": "Answers to common ZXSnake questions about gameplay structure, progression, and account-linked services.",
-  "summary": "Quick answers for player onboarding and practical guidance across live and competitive play.",
-  "heroImage": "apps/zxsnake/zxsnake-hero.png",
+  "heroImage": "apps/zxsnake/zxsnake-faq.png",
   "heroImageAlt": "ZXSnake FAQ hero",
-  "sourceNotes": [
-    "Keep answers aligned to shipped app capabilities and remove any unimplemented roadmap text."
-  ],
-  "imageMetadata": [
-    {
-      "src": "apps/zxsnake/zxsnake-hero.png",
-      "alt": "ZXSnake FAQ hero image",
-      "purpose": "hero",
-      "width": 1871,
-      "height": 840,
-      "usage": ["docs", "website"]
-    },
-    {
-      "src": "apps/zxsnake/zxsnake-faq.png",
-      "alt": "ZXSnake FAQ reference image",
-      "purpose": "doc",
-      "width": 1536,
-      "height": 1024,
-      "usage": ["docs", "website"]
-    }
-  ],
-  "sections": [
-    {
-      "id": "app-basics",
-      "heading": "App basics",
-      "paragraphs": [
-        "If this is your first time with ZXSnake, start with the core how-to and controls pages.",
-        "The app is available on iPhone and uses standard ZX Series progression and leaderboard systems."
-      ]
-    },
-    {
-      "id": "progression",
-      "heading": "Progression and rewards",
-      "paragraphs": [
-        "BarkinMad Coins are used as reward progression and can support unlock activity across supported ZX Series titles.",
-        "Achievements and leaderboards remain available as long-term replay targets."
-      ]
-    }
-  ],
-  "faq": [
-    {
-      "question": "What devices are supported?",
-      "answer": "ZXSnake is available on iPhone."
-    },
-    {
-      "question": "Is online PvP currently available?",
-      "answer": "Yes. ZXSnake includes local and online multiplayer modes as part of the published feature set."
-    },
-    {
-      "question": "Do achievements require internet?",
-      "answer": "Achievement visibility is tied to connected service features and score submission flows configured in the app."
-    },
-    {
-      "question": "Can I earn BarkinMad Coins?",
-      "answer": "Yes. Coins are earned through gameplay progression in the shipped app flow."
-    }
-  ],
-  "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
-  "keywords": ["ZXSnake FAQ", "iPhone", "multiplayer", "coins", "achievements", "leaderboards", "snake game"],
-  "relatedPages": ["overview", "game-modes", "barkinmad-coins", "leaderboards"],
-  "relatedLinks": [
-    {
-      "label": "Tips & Strategy",
-      "href": "/apps/zxsnake/tips-and-strategy"
-    },
-    {
-      "label": "Game Modes",
-      "href": "/apps/zxsnake/game-modes"
-    }
-  ],
-  "imageSectionTitle": "Support visuals",
   "images": [
     {
       "src": "apps/zxsnake/zxsnake-faq.png",
-      "alt": "ZXSnake frequently asked questions visual",
-      "caption": "FAQ context image"
+      "alt": "ZXSnake FAQ reference image"
     }
-  ]
+  ],
+  "imageSectionTitle": "FAQ Images",
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26"
 }

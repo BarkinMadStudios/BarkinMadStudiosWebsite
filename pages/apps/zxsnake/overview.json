@@ -1,60 +1,57 @@
 {
   "documentationSchemaVersion": "1.0.0",
-  "title": "ZXSnake Overview",
+  "title": "ZXSnake",
   "seoTitle": "ZXSnake Overview | BarkinMad Studios",
-  "description": "An introduction to ZXSnake, its core loop, and how the game connects to the ZX Series.",
-  "summary": "ZXSnake is a ZX Spectrum-inspired arcade snake title with solo, AI, and multiplayer play across the ZX Series ecosystem.",
+  "description": "ZXSnake is part of the [ZX Series](/zx-series), a retro-inspired arcade snake game featuring classic gameplay, unlockable themes, achievements, and modern controls with a nostalgic ZX Spectrum-inspired visual style.",
+  "summary": "Retro arcade snake action",
+  "shortDescription": "Inspired by classic 1980s gaming.",
+  "tagline": "Retro arcade snake action",
   "heroImage": "apps/zxsnake/zxsnake-hero.png",
-  "heroImageAlt": "ZXSnake hero gameplay frame",
-  "sourceNotes": [
-    "Derived from pages/apps/zxsnake.json and confirmed overview assets.",
-    "Feature-specific implementation details should match final release play logs for exact balance values."
+  "heroImageAlt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space",
+  "icon": "apps/zxsnake/zxsnake-icon.png",
+  "status": "Live",
+  "appStoreUrl": "https://apps.apple.com/app/apple-store/id6770932739?pt=128083426&ct=website&mt=8",
+  "testFlightUrl": "",
+  "supportedPlatforms": [
+    "iPhone"
   ],
-  "imageMetadata": [
-    {
-      "src": "apps/zxsnake/zxsnake-hero.png",
-      "alt": "ZXSnake hero banner",
-      "purpose": "hero",
-      "width": 1871,
-      "height": 840,
-      "usage": ["docs", "website", "news"]
-    },
+  "version": "1.0",
+  "genre": "Arcade",
+  "developer": "BarkinMad Studios",
+  "keywords": [
+    "ZXSnake",
+    "ZX Series",
+    "snake game",
+    "arcade",
+    "iPhone",
+    "BarkinMad Coins",
+    "Game Center"
+  ],
+  "images": [
     {
       "src": "apps/zxsnake/zxsnake-gameplay-01.png",
-      "alt": "ZXSnake gameplay state",
-      "purpose": "gameplay",
-      "width": 1206,
-      "height": 2622,
-      "usage": ["docs", "social", "website"]
+      "alt": "Loading Screen"
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-gameplay-02.png",
+      "alt": "Solo Play"
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-gameplay-03.png",
+      "alt": "Gameplay"
     }
   ],
+  "imageSectionTitle": "Screenshots",
   "sections": [
     {
       "id": "what-is-zxsnake",
       "heading": "What is ZXSnake?",
       "paragraphs": [
-        "ZXSnake is the flagship title in the ZX Series and keeps classic snake gameplay simple, fast, and replayable.",
-        "The game combines solo and competitive match options with shared progression features used across the series."
-      ]
-    },
-    {
-      "id": "guide-structure",
-      "heading": "How this guide is organised",
-      "paragraphs": [
-        "Start with How to Play, then move through Controls and Game Modes before reading the progression pages.",
-        "Use Guide navigation on each page to move between sections quickly."
-      ]
-    },
-    {
-      "id": "series-context",
-      "heading": "Series context",
-      "paragraphs": [
-        "ZXSnake supports shared achievements, leaderboards, and BarkinMad Coins as part of the wider ZX Series.",
-        "This allows players to carry expectations across supported titles without changing conventions when moving between games."
+        "ZXSnake is part of the ZX Series and keeps classic snake movement simple, fast, and replayable.",
+        "Use the guide pages to move through setup, controls, and progression with one short route per topic."
       ]
     }
   ],
-  "keywords": ["ZXSnake", "ZX Series", "snake game", "arcade", "iPhone", "BarkinMad Coins", "Game Center"],
   "estimatedReadTimeMinutes": 2,
   "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
@@ -64,10 +61,6 @@
     {
       "label": "How to Play",
       "href": "/apps/zxsnake/how-to-play"
-    },
-    {
-      "label": "Game Modes",
-      "href": "/apps/zxsnake/game-modes"
     }
   ]
 }
