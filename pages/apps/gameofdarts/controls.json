@@ -5,7 +5,7 @@
   "description": "Understand score entry, keypad flow, external keyboard shortcuts, player selection, and current control limitations in Game of Darts.",
   "summary": "Game of Darts uses mode-specific score entry and hit/miss inputs, with documented keyboard shortcuts for some scoring views.",
   "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Artwork for pending Game of Darts controls image",
+  "heroImageAlt": "Artwork for Game of Darts controls image",
   "sourceNotes": [
     "Control notes are based on HelpView keyboard shortcut copy and inspected keypad/source files.",
     "Mode-specific touch layouts need final screenshot capture."
