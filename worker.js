@@ -13,6 +13,7 @@
   var NEWS_BASE = `${REPO_BASE}/news`;
   var PAGES_BASE = `${REPO_BASE}/pages`;
   var DATA_BASE = `${PAGES_BASE}/data`;
+  var DOCUMENTATION_PLACEHOLDER_IMAGE = "images/shared/placeholder.png";
   var documentationLandingAppSlugs = new Set(["zxsnake", "zxbrick"]);
   var zxSnakeReferenceImageFallbacks = {
     overview: "apps/zxsnake/zxsnake-gameplay-01.png",
@@ -22,7 +23,8 @@
     achievements: "apps/zxsnake/zxsnake-achievements.png",
     leaderboards: "apps/zxsnake/zxsnake-leaderboards.png",
     "frequently-asked-questions": "apps/zxsnake/zxsnake-faq.png",
-    "tips-and-strategy": "images/apps/zxsnake/zxsnake-tips-and-strategy.png"
+    "tips-and-strategy": "images/apps/zxsnake/zxsnake-tips-and-strategy.png",
+    guide: "apps/zxsnake/zxsnake-hero.png"
   };
   var sharedDocumentationReferenceImageFallbacks = {
     "barkinmad-coins": "apps/barkinmadcoins.png"
@@ -32,14 +34,15 @@
     zxbrick: {
       overview: "apps/zxbrick/zxbrick-gameplay-01.png",
       "how-to-play": "apps/zxbrick/zxbrick-how-to-play.png",
-      controls: "apps/zxbrick/zxbrick-hero.png",
-      "game-modes": "apps/zxbrick/zxbrick-hero.png",
-      achievements: "apps/zxbrick/zxbrick-hero.png",
-      leaderboards: "apps/zxbrick/zxbrick-hero.png",
-      "frequently-asked-questions": "apps/zxbrick/zxbrick-hero.png",
-      "tips-and-strategy": "apps/zxbrick/zxbrick-hero.png",
+      controls: "apps/zxbrick/zxbrick-controls.png",
+      "game-modes": "apps/zxbrick/zxbrick-game-modes.png",
+      achievements: "apps/zxbrick/zxbrick-achievements.png",
+      leaderboards: "apps/zxbrick/zxbrick-leaderboards.png",
+      "frequently-asked-questions": "apps/zxbrick/zxbrick-faq.png",
+      "tips-and-strategy": "apps/zxbrick/zxbrick-tips-and-strategy.png",
       levels: "apps/zxbrick/zxbrick-levels.png",
-      powerups: "apps/zxbrick/zxbrick-powerups.png"
+      powerups: "apps/zxbrick/zxbrick-powerups.png",
+      guide: "apps/zxbrick/zxbrick-hero.png"
     }
   };
   var SITE_LASTMOD = "2026-06-14";
@@ -1026,6 +1029,18 @@ ${content}
     return `${IMAGE_BASE}/${normalized}`;
   }
   __name(imageAssetUrl, "imageAssetUrl");
+  function documentationImageFallbackAttribute() {
+    const fallbackUrl = imageAssetUrl(DOCUMENTATION_PLACEHOLDER_IMAGE);
+    return fallbackUrl ? ` onerror="this.onerror=null;this.src='${escapeHtml(fallbackUrl)}';"` : "";
+  }
+  __name(documentationImageFallbackAttribute, "documentationImageFallbackAttribute");
+  function documentationConventionalImagePath(appSlug, detailSlug) {
+    const normalizedAppSlug = String(appSlug || "").trim();
+    const normalizedDetailSlug = String(detailSlug || "").trim();
+    if (!normalizedAppSlug || !normalizedDetailSlug) return "";
+    return `apps/${normalizedAppSlug}/${normalizedAppSlug}-${normalizedDetailSlug}.png`;
+  }
+  __name(documentationConventionalImagePath, "documentationConventionalImagePath");
   function actionLink(action) {
     if (!action || !action.label || !action.href) return "";
     const href = safeLinkHref(action.href);
@@ -1594,11 +1609,12 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     const title = page.title || "App Guide";
     const isTipsAndStrategyPage = appSlug === "zxsnake" && detailSlug === "tips-and-strategy";
     const usesDocumentationLanding = documentationLandingAppSlugs.has(appSlug);
-    const isDocumentationScreenshotPage = usesDocumentationLanding && detailSlug === "screenshots";
-    const isDocumentationOverviewPage = usesDocumentationLanding && (detailSlug === "overview" || options.landingRoute === true || isDocumentationScreenshotPage);
-    const isDocumentationGuidePage = usesDocumentationLanding && detailSlug === "guide";
-    const isDocumentationImageOnlyPage = usesDocumentationLanding && !isDocumentationGuidePage && detailSlug !== "overview";
-    const hideBottomGuideSections = usesDocumentationLanding;
+    const usesDocumentationFramework = usesDocumentationLanding || Array.isArray(pageIndex?.pages);
+    const isDocumentationScreenshotPage = usesDocumentationFramework && detailSlug === "screenshots";
+    const isDocumentationOverviewPage = usesDocumentationFramework && (detailSlug === "overview" || options.landingRoute === true || isDocumentationScreenshotPage);
+    const isDocumentationGuidePage = usesDocumentationFramework && detailSlug === "guide";
+    const isDocumentationImageOnlyPage = usesDocumentationFramework && !isDocumentationGuidePage && detailSlug !== "overview";
+    const hideBottomGuideSections = usesDocumentationFramework;
     const sections = Array.isArray(page.sections) ? page.sections : [];
     const relatedLinks = Array.isArray(page.relatedLinks) ? page.relatedLinks.filter((link) => link && typeof link === "object").map((link) => {
       const rawHref = safeLinkHref(link.href);
@@ -1622,18 +1638,24 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
       if (isTipsAndStrategyPage && image?.src === inlineReferenceImage?.src && !layout) return true;
       return layout === "reference-cheat-sheet";
     };
-    const referenceFallbacks = {
-      ...sharedDocumentationReferenceImageFallbacks,
-      ...(appDocumentationReferenceImageFallbacks[appSlug] || {})
-    };
-    const documentationReferenceImageSrc = usesDocumentationLanding && !isDocumentationOverviewPage
-      ? page.referenceImage?.src || referenceFallbacks[detailSlug] || pageImages[0]?.src || page.heroImage || ""
+    const appReferenceFallbacks = appDocumentationReferenceImageFallbacks[appSlug] || {};
+    const metadataImages = normalizeImageEntries(page.imageMetadata);
+    const explicitDocumentationImageSrc = page.referenceImage?.src || "";
+    const documentationReferenceImageSrc = usesDocumentationFramework && !isDocumentationOverviewPage
+      ? explicitDocumentationImageSrc
+        || sharedDocumentationReferenceImageFallbacks[detailSlug]
+        || appReferenceFallbacks[detailSlug]
+        || pageImages[0]?.src
+        || metadataImages[0]?.src
+        || documentationConventionalImagePath(appSlug, detailSlug)
+        || page.heroImage
+        || DOCUMENTATION_PLACEHOLDER_IMAGE
       : "";
     const referenceImages = isTipsAndStrategyPage ? (inlineReferenceImage?.src ? [{ ...inlineReferenceImage }] : []) : isDocumentationOverviewPage ? [] : [
       ...(inlineReferenceImage?.src ? [{ ...inlineReferenceImage }] : []),
       ...images.filter(isReferenceCheatSheetImage)
     ].filter((image, index, array) => index === array.findIndex((item) => item?.src === image?.src));
-    const regularImages = usesDocumentationLanding
+    const regularImages = usesDocumentationFramework
       ? isDocumentationOverviewPage || isDocumentationScreenshotPage ? [...pageImages, ...screenshotEntries] : []
       : images.filter((image) => !isReferenceCheatSheetImage(image));
     const otherDocs = usesDocumentationLanding ? normaliseZxSnakeGuidePages(Array.isArray(pageIndex?.pages) ? pageIndex.pages : [], appSlug) : Array.isArray(pageIndex?.pages) ? pageIndex.pages.filter((item) => item?.slug && item.title) : [];
@@ -1645,7 +1667,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
       id: section.id || slugify(section.heading || section.title || ""),
       label: section.heading || section.title || ""
     })).filter((item) => item.id && item.label);
-  const hideContentsForPage = usesDocumentationLanding && [
+  const hideContentsForPage = usesDocumentationFramework && [
     "overview",
     "how-to-play",
     "controls",
@@ -1744,9 +1766,9 @@ ${strategySections.length ? `
   </div>
 </section>` : ""}
 
-${usesDocumentationLanding && documentationReferenceImageSrc ? `
+${usesDocumentationFramework && documentationReferenceImageSrc ? `
 <section class="reference-cheat-sheet">
-  <img class="reference-cheat-image" src="${escapeHtml(imageAssetUrl(documentationReferenceImageSrc))}" alt="${escapeHtml(page.referenceImage?.alt || title)}" loading="lazy">
+  <img class="reference-cheat-image" src="${escapeHtml(imageAssetUrl(documentationReferenceImageSrc, imageAssetUrl(DOCUMENTATION_PLACEHOLDER_IMAGE)))}" alt="${escapeHtml(page.referenceImage?.alt || title)}" loading="lazy"${documentationImageFallbackAttribute()}>
 </section>`
   : (referenceImages.length ? `
 <section class="reference-cheat-sheet">
@@ -1755,7 +1777,7 @@ ${usesDocumentationLanding && documentationReferenceImageSrc ? `
     if (!imageUrl) return "";
     return `
   ${!hasSectionContent && image === referenceImages[0] ? `<h2 class="section-title">${escapeHtml(image.alt || title)}</h2>` : ""}
-  <img class="reference-cheat-image" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(image.alt || title)}" loading="lazy">
+  <img class="reference-cheat-image" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(image.alt || title)}" loading="lazy"${documentationImageFallbackAttribute()}>
 `;
   }).join("")}
 </section>` : "")}
@@ -1803,7 +1825,7 @@ ${regularImages.length ? `
   <div class="grid">
     ${regularImages.map((image) => `
       <div class="card">
-        <img class="screenshot-image" src="${escapeHtml(imageAssetUrl(image.src))}" alt="${escapeHtml(image.alt || title)}" loading="lazy">
+        <img class="screenshot-image" src="${escapeHtml(imageAssetUrl(image.src, imageAssetUrl(DOCUMENTATION_PLACEHOLDER_IMAGE)))}" alt="${escapeHtml(image.alt || title)}" loading="lazy"${documentationImageFallbackAttribute()}>
         ${image.caption ? `<p>${renderContentParagraph(image.caption)}</p>` : ""}
       </div>
     `).join("")}

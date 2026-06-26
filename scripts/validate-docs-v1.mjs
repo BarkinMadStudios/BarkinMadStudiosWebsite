@@ -8,6 +8,7 @@ import { fileURLToPath } from "node:url";
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const APPS_DIR = path.join(ROOT_DIR, "pages", "apps");
 const IMAGE_ROOT = path.join(ROOT_DIR, "images", "apps");
+const DOCUMENTATION_PLACEHOLDER_PATH = path.join(ROOT_DIR, "images", "shared", "placeholder.png");
 
 const STRICT = process.argv.includes("--strict");
 const JSON_OUTPUT = process.argv.includes("--json");
@@ -251,6 +252,13 @@ function validateImageReferences(context, values, imageReport) {
     }
 
     imageReport.found.push(source);
+  }
+}
+
+function validateDocumentationPlaceholder() {
+  report.checks.images += 1;
+  if (!existsSync(DOCUMENTATION_PLACEHOLDER_PATH)) {
+    addError("framework.images", "Documentation placeholder image not found", "images/shared/placeholder.png");
   }
 }
 
@@ -710,6 +718,8 @@ function printTextReport() {
 
   return lines.join("\n");
 }
+
+validateDocumentationPlaceholder();
 
 const appMap = await buildAppMap();
 const readCache = new Map();
