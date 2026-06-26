@@ -1448,13 +1448,14 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     if (!listed) {
       return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
     }
-    const app = await fetchJson(`${PAGES_BASE}/apps/${normalizedSlug}.json`);
+    const isZxSnakeApp = normalizedSlug === "zxsnake";
+    const docsIndex = isZxSnakeApp ? await fetchJson(`${PAGES_BASE}/apps/${normalizedSlug}/pages.json`) : null;
+    const app = isZxSnakeApp ? await getZxSnakeAppMetadata(docsIndex, normalizedSlug) : await fetchJson(`${PAGES_BASE}/apps/${normalizedSlug}.json`);
     if (!app) {
       return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
     }
     const appTitle = app.title || app.name || normalizedSlug;
-    if (normalizedSlug === "zxsnake") {
-      const docsIndex = await fetchJson(`${PAGES_BASE}/apps/${normalizedSlug}/pages.json`);
+    if (isZxSnakeApp) {
       const landingPageSlug = typeof docsIndex?.landingPage === "string" ? docsIndex.landingPage.trim() : "";
       const normalizedLandingSlug = /^[a-z0-9-]+$/.test(landingPageSlug) ? landingPageSlug : "overview";
       const landingContentSlug = normalizedLandingSlug || "overview";
@@ -1530,7 +1531,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
         robots: "noindex,follow"
       }, 404);
     }
-    const app = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}.json`);
+    const app = isZxSnakeApp ? await getZxSnakeAppMetadata(pageIndex, normalizedAppSlug) : await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}.json`);
     const pageUrl = `${PAGES_BASE}/apps/${normalizedAppSlug}/${pageLookupSlug}.json`;
     let page = await fetchJson(pageUrl);
     if (!page && isZxSnakeApp && normalizedDetailSlug === "guide") {
