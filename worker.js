@@ -1,8 +1,6 @@
-export default {
-  async fetch(request, env, ctx) {
-    return handleRequest(request);
-  }
-};
+addEventListener("fetch", event => {
+  event.respondWith(handleRequest(event.request));
+});
 
 const ADS_TXT = `google.com, pub-2030137443667873, DIRECT, f08c47fec0942fa0
 `;
