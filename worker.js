@@ -1827,6 +1827,36 @@ ${!isZxSnakeImageOnlyPage ? renderFaqSection(page.faq) : ""}
     return [...filtered, ...extras];
   }
   __name(normaliseZxSnakeGuidePages, "normaliseZxSnakeGuidePages");
+  async function getZxSnakeAppMetadata(pageIndex = null, appSlug = "") {
+    if (String(appSlug || "") !== "zxsnake") {
+      return null;
+    }
+    const apps = await getApps();
+    const appListItem = Array.isArray(apps) ? apps.find((item) => item?.slug === "zxsnake") : null;
+    const landingPageKey = typeof pageIndex?.landingPage === "string" ? pageIndex.landingPage.trim() : "";
+    const normalizedLandingPage = /^[a-z0-9-]+$/.test(landingPageKey) ? landingPageKey : "overview";
+    const landingPageSlug = normalizedLandingPage || "overview";
+    const landingPage = await fetchJson(`${PAGES_BASE}/apps/zxsnake/${landingPageSlug}.json`) || await fetchJson(`${PAGES_BASE}/apps/zxsnake/overview.json`);
+    if (!landingPage && !appListItem) {
+      return null;
+    }
+    const fallback = appListItem ? {
+      title: appListItem.name || "ZXSnake",
+      description: appListItem.description || "",
+      shortDescription: appListItem.shortDescription || appListItem.summary || "",
+      heroImage: appListItem.heroImage || appListItem.image || "apps/zxsnake/zxsnake-hero.png",
+      icon: appListItem.icon || appListItem.image || "apps/zxsnake/zxsnake-icon.png",
+      appStoreUrl: appListItem.appStoreUrl,
+      testFlightUrl: appListItem.testFlightUrl,
+      supportedPlatforms: appListItem.supportedPlatforms,
+      status: appListItem.status,
+      version: appListItem.version || "1.0",
+      genre: appListItem.genre || "Arcade",
+      developer: appListItem.developer || "BarkinMad Studios"
+    } : {};
+    return { ...fallback, ...landingPage };
+  }
+  __name(getZxSnakeAppMetadata, "getZxSnakeAppMetadata");
   function getZxSnakeCanonicalDocPath(appSlug, detailSlug, landingPageSlug = "") {
     const normalizedAppSlug = String(appSlug || "").trim();
     const normalizedDetailSlug = String(detailSlug || "").trim();
