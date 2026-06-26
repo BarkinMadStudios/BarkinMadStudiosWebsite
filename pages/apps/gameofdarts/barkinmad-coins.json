@@ -4,33 +4,14 @@
   "seoTitle": "Game of Darts Premium Access | BarkinMad Studios",
   "description": "Document Game of Darts premium access, Pro, DartBot unlock, 48-hour access, ads, and the current BarkinMad Coins verification status.",
   "summary": "Game of Darts currently documents premium access through Pro, DartBot-only unlock, 48-hour access, ads, and match continuation rather than a verified BarkinMad Coins model.",
-  "heroImage": "images/shared/placeholder.png",
+  "heroImage": "apps/gameofdarts/gameofdarts-premium-access.png",
   "heroImageAlt": "Placeholder artwork for pending Game of Darts premium access image",
   "sourceNotes": [
-    "This page uses the required Website Framework v1.1 core slug `barkinmad-coins`, but Game of Darts-specific BarkinMad Coins usage is not verified.",
     "Premium details are based on Ads-And-IAP.md, AppSettings, IAPManager, and MatchLimitManager documentation."
-  ],
-  "sections": [
-    {
-      "id": "premium-model",
-      "heading": "Premium model",
-      "paragraphs": [
-        "The current documented premium access model includes Pro version, DartBot AI, and a 48-hour unlock.",
-        "Observed premium gates include Pro removing banner ads, Pro or 48-hour access unlocking several game options, and DartBot access being available through Pro, DartBot-only unlock, or 48-hour access."
-      ]
-    },
-    {
-      "id": "coins-status",
-      "heading": "BarkinMad Coins status",
-      "paragraphs": [
-        "No verified Game of Darts BarkinMad Coins gameplay or wallet usage was found in the central Game of Darts documentation used for this rollout.",
-        "This page exists because Website Framework v1.1 requires the core slug. A future v1.2 framework update should allow non-ZX apps to replace irrelevant core slugs cleanly."
-      ]
-    }
   ],
   "images": [
     {
-      "src": "images/shared/placeholder.png",
+      "src": "apps/gameofdarts/gameofdarts-premium-access.png",
       "alt": "Placeholder artwork for Game of Darts premium access",
       "caption": "Premium access artwork pending"
     }
