@@ -7,17 +7,7 @@
   "heroImage": "apps/gameofdarts/gameofdarts-statistics.png",
   "heroImageAlt": "Artwork for Game of Darts statistics image",
   "sourceNotes": [
-    "Based on Docs/Projects/GAMEOFDARTS/Statistics-Engine.md and Data-And-Sync.md.",
-    "Detailed chart formulas and some aggregation behavior are To Verify in central docs."
-  ],
-    {
-      "id": "known-limits",
-      "heading": "Known limits",
-      "paragraphs": [
-        "Several modes have in-game statistics but no persisted session model documented. Some chart, trend, and player-history aggregation details remain To Verify.",
-        "Quit or abandoned games do not count toward the Advanced Statistics completion gate according to the latest release notes."
-      ]
-    }
+    ""
   ],
   "images": [
     {
