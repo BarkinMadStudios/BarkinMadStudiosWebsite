@@ -177,6 +177,42 @@
         "barkinmad-coins",
         "leaderboards"
       ]
+    },
+    {
+      "slug": "guide",
+      "title": "Guide",
+      "description": "Complete ZXSnake walkthrough and key systems reference.",
+      "required": false,
+      "status": "supplemental",
+      "order": 10,
+      "estimatedReadTimeMinutes": 14,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": [
+        "overview",
+        "how-to-play",
+        "controls",
+        "game-modes",
+        "tips-and-strategy",
+        "frequently-asked-questions"
+      ]
+    },
+    {
+      "slug": "screenshots",
+      "title": "Screenshots",
+      "description": "ZXSnake gameplay screenshots.",
+      "required": false,
+      "status": "supplemental",
+      "order": 11,
+      "estimatedReadTimeMinutes": 1,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": [
+        "overview",
+        "guide"
+      ]
     }
   ]
 }

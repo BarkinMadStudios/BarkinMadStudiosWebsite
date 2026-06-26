@@ -879,7 +879,7 @@ ${content}
     const normalizedAppSlug = String(appSlug || "").trim();
     const normalizedDetailSlug = String(detailSlug || "").trim();
     const normalizedLandingSlug = String(landingPageSlug || "").trim();
-    const canonicalPath = normalizedAppSlug === "zxsnake" && normalizedDetailSlug === normalizedLandingSlug && normalizedLandingSlug === "overview" ? `/apps/${normalizedAppSlug}` : `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`;
+    const canonicalPath = getAppDocPath(normalizedAppSlug, normalizedDetailSlug, normalizedLandingSlug);
     return {
       "@context": "https://schema.org",
       "@type": "HowTo",
@@ -1537,14 +1537,6 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     if (!page && isZxSnakeApp && normalizedDetailSlug === "guide") {
       page = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}/guide.json`);
     }
-    if (normalizedAppSlug === "zxsnake" && normalizedDetailSlug === "tips-and-strategy") {
-      console.log("Tips page source:", pageUrl);
-      console.log(
-        "Tips sections:",
-        page?.sections?.length,
-        page?.sections
-      );
-    }
     if (!app || !page) {
       return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), {
         canonicalPath: `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`,
@@ -1554,7 +1546,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     const site = await getSite();
     const title = page.seoTitle || `${page.title || listedPage.title} - BarkinMad Studios`;
     const landingPageSlug = typeof pageIndex?.landingPage === "string" ? pageIndex.landingPage.trim() : "";
-    const resolvedCanonicalPath = getZxSnakeCanonicalDocPath(normalizedAppSlug, normalizedDetailSlug, landingPageSlug);
+    const resolvedCanonicalPath = getAppDocPath(normalizedAppSlug, normalizedDetailSlug, landingPageSlug);
     const structuredData = [
       breadcrumbSchema([
         { name: "Home", path: "/" },
@@ -1592,9 +1584,6 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     const shouldRenderReferenceImage = isZxSnakeDocPage && !isZxSnakeOverviewPage;
     const zxSnakeReferenceImageSrc = shouldRenderReferenceImage ? page.referenceImage?.src || zxSnakeReferenceImageFallbacks[detailSlug] || "" : "";
     const sections = Array.isArray(page.sections) ? page.sections : [];
-    if (isZxSnakeDocPage) {
-      console.log("ZXSnake image", detailSlug, page.referenceImage?.src, zxSnakeReferenceImageSrc, imageAssetUrl(zxSnakeReferenceImageSrc));
-    }
     const relatedLinks = Array.isArray(page.relatedLinks) ? page.relatedLinks.filter((link) => link && typeof link === "object").map((link) => {
       const rawHref = safeLinkHref(link.href);
       const href = rawHref === "/apps/zxsnake/overview" ? "/apps/zxsnake" : rawHref;
@@ -1857,19 +1846,13 @@ ${!isZxSnakeImageOnlyPage ? renderFaqSection(page.faq) : ""}
     return { ...fallback, ...landingPage };
   }
   __name(getZxSnakeAppMetadata, "getZxSnakeAppMetadata");
-  function getZxSnakeCanonicalDocPath(appSlug, detailSlug, landingPageSlug = "") {
+  function isAppLandingDocumentationRoute(appSlug, detailSlug, landingPageSlug = "") {
     const normalizedAppSlug = String(appSlug || "").trim();
     const normalizedDetailSlug = String(detailSlug || "").trim();
     const normalizedLandingSlug = String(landingPageSlug || "").trim();
-    if (normalizedAppSlug !== "zxsnake") {
-      return `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`;
-    }
-    if (normalizedDetailSlug === normalizedLandingSlug && normalizedLandingSlug === "overview") {
-      return `/apps/${normalizedAppSlug}`;
-    }
-    return `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`;
+    return normalizedAppSlug === "zxsnake" && normalizedDetailSlug === normalizedLandingSlug && normalizedLandingSlug === "overview";
   }
-  __name(getZxSnakeCanonicalDocPath, "getZxSnakeCanonicalDocPath");
+  __name(isAppLandingDocumentationRoute, "isAppLandingDocumentationRoute");
   function renderGuideNavigation(pages, appSlug, currentSlug, landingPageSlug = "") {
     const items = Array.isArray(pages) ? normaliseZxSnakeGuidePages(pages, appSlug) : [];
     if (!items.length) return "";
@@ -1887,7 +1870,7 @@ ${!isZxSnakeImageOnlyPage ? renderFaqSection(page.faq) : ""}
     const normalizedAppSlug = String(appSlug || "").trim();
     const normalizedDetailSlug = String(detailSlug || "").trim();
     const normalizedLandingSlug = String(landingPageSlug || "").trim();
-    if (normalizedAppSlug === "zxsnake" && normalizedDetailSlug === normalizedLandingSlug && normalizedLandingSlug === "overview") {
+    if (isAppLandingDocumentationRoute(normalizedAppSlug, normalizedDetailSlug, normalizedLandingSlug)) {
       return `/apps/${normalizedAppSlug}`;
     }
     return `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`;
@@ -2608,7 +2591,7 @@ Sitemap: https://www.barkinmad.studio/sitemap.xml
         const pageIndex = await fetchJson(`${PAGES_BASE}/apps/${app.slug}/pages.json`);
         const documentationPages = Array.isArray(pageIndex?.pages) ? pageIndex.pages : [];
         for (const page of documentationPages) {
-          if (app.slug === "zxsnake" && page?.slug === "overview") {
+          if (isAppLandingDocumentationRoute(app.slug, page?.slug, pageIndex?.landingPage)) {
             continue;
           }
           if (page?.slug) {
