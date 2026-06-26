@@ -10,24 +10,6 @@
     "Rules summaries are based on the in-app GamesRules source.",
     "Only source-backed live modes are described as available release-facing modes."
   ],
-  "sections": [
-    {
-      "id": "match-and-practice",
-      "heading": "Match and practice formats",
-      "paragraphs": [
-        "Match/X01 supports 501, 301, and 701 style countdown play, with legs, sets, checkout rules, and bust handling.",
-        "Practice and training formats include Bob's 27, where players work through doubles from Double 1 to Double 20 and bull, and 1 to 20, where players hit numbers in order."
-      ]
-    },
-    {
-      "id": "alternate-formats",
-      "heading": "Alternate formats",
-      "paragraphs": [
-        "Cricket uses 15-20 and bullseye, with numbers closed after three marks. Snooker mirrors snooker-style reds and colours on the dartboard.",
-        "Party modes include Hare & Hound, Halve It, and All 5s. Development modes such as Baseball, Shanghai, and Killer are not presented as release-facing modes here."
-      ]
-    }
-  ],
   "images": [
     {
       "src": "apps/gameofdarts/gameofdarts-match-types.png",

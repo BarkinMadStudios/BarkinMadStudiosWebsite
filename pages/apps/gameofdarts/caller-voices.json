@@ -10,24 +10,6 @@
     "Caller folder names were verified from TheGameOfDarts/Sounds/Callers.",
     "VoiceSettingsView is currently development-gated in inspected SettingsView code; release-facing availability is To Verify."
   ],
-  "sections": [
-    {
-      "id": "callers",
-      "heading": "Caller assets",
-      "paragraphs": [
-        "Current source includes caller audio folders named Daniel and Serena. The audio files cover many score callouts including a no-score callout.",
-        "The app also stores a `callerEnabled` setting."
-      ]
-    },
-    {
-      "id": "voice-controls",
-      "heading": "Voice controls",
-      "paragraphs": [
-        "App settings include `voiceControlEnabled` and `voiceAutoStart`, and the settings source contains a Voice Settings view for permission handling.",
-        "In the inspected SettingsView, Voice Settings are development-gated. Public release availability and detailed behavior remain To Verify."
-      ]
-    }
-  ],
   "images": [
     {
       "src": "images/shared/placeholder.png",
