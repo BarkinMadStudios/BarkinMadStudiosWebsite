@@ -1,0 +1,45 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Caller Voices",
+  "seoTitle": "Game of Darts Caller Voices | BarkinMad Studios",
+  "description": "Document Game of Darts caller audio assets, caller settings, and voice-control status verified from current source.",
+  "summary": "The app includes caller audio folders for Daniel and Serena plus settings keys for caller and voice control behavior.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending Game of Darts caller voices image",
+  "sourceNotes": [
+    "Caller folder names were verified from TheGameOfDarts/Sounds/Callers.",
+    "VoiceSettingsView is currently development-gated in inspected SettingsView code; release-facing availability is To Verify."
+  ],
+  "sections": [
+    {
+      "id": "callers",
+      "heading": "Caller assets",
+      "paragraphs": [
+        "Current source includes caller audio folders named Daniel and Serena. The audio files cover many score callouts including a no-score callout.",
+        "The app also stores a `callerEnabled` setting."
+      ]
+    },
+    {
+      "id": "voice-controls",
+      "heading": "Voice controls",
+      "paragraphs": [
+        "App settings include `voiceControlEnabled` and `voiceAutoStart`, and the settings source contains a Voice Settings view for permission handling.",
+        "In the inspected SettingsView, Voice Settings are development-gated. Public release availability and detailed behavior remain To Verify."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for Game of Darts caller voices",
+      "caption": "Caller voice artwork pending"
+    }
+  ],
+  "imageSectionTitle": "Caller Voices Image",
+  "keywords": ["Game of Darts", "caller voices", "Daniel", "Serena", "voice control"],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["controls", "settings-customisation", "frequently-asked-questions"]
+}

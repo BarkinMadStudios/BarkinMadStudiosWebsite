@@ -1,0 +1,45 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Game Modes",
+  "seoTitle": "Game of Darts Game Modes | BarkinMad Studios",
+  "description": "Review live, development, hidden, and placeholder Game of Darts modes using the current source-backed mode inventory.",
+  "summary": "Release-facing modes include Match/X01, Cricket, Snooker, Bob's 27, 1 to 20, Hare & Hound, Halve It, and All 5s.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending Game of Darts game modes image",
+  "sourceNotes": [
+    "Mode status is based on Docs/Projects/GAMEOFDARTS/Game-Modes.md and source routing/menu inspection.",
+    "Development and placeholder modes are documented for accuracy but should not be marketed as release-facing features."
+  ],
+  "sections": [
+    {
+      "id": "live-modes",
+      "heading": "Live modes",
+      "paragraphs": [
+        "The current source-backed release menu includes Match/X01, Cricket, Snooker, Bob's 27, 1 to 20, Hare & Hound, Halve It, and All 5s.",
+        "These modes appear across match, train, and party categories and route to implemented game views."
+      ]
+    },
+    {
+      "id": "not-release-facing",
+      "heading": "Development and placeholders",
+      "paragraphs": [
+        "Baseball, Shanghai, and Killer are present as development/debug modes in central documentation. Golf is documented as a placeholder. Online Match, Cricket, and Snooker entries are locked placeholders.",
+        "The hidden `matchOnline` enum case has no confirmed destination implementation and remains To Verify."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for Game of Darts modes",
+      "caption": "Mode menu screenshot pending"
+    }
+  ],
+  "imageSectionTitle": "Game Modes Image",
+  "keywords": ["Game of Darts", "game modes", "X01", "Cricket", "Snooker", "Bob's 27"],
+  "estimatedReadTimeMinutes": 4,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["match-types", "dartbot", "leaderboards", "achievements"]
+}

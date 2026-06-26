@@ -1,0 +1,45 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Match Types",
+  "seoTitle": "Game of Darts Match Types | BarkinMad Studios",
+  "description": "Understand the main darts formats in Game of Darts, including X01, Cricket, Snooker, Bob's 27, 1 to 20, and party modes.",
+  "summary": "Game of Darts covers scoring, practice, and party formats rather than the arcade loops used by the ZX Series.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending Game of Darts match types image",
+  "sourceNotes": [
+    "Rules summaries are based on the in-app GamesRules source.",
+    "Only source-backed live modes are described as available release-facing modes."
+  ],
+  "sections": [
+    {
+      "id": "match-and-practice",
+      "heading": "Match and practice formats",
+      "paragraphs": [
+        "Match/X01 supports 501, 301, and 701 style countdown play, with legs, sets, checkout rules, and bust handling.",
+        "Practice and training formats include Bob's 27, where players work through doubles from Double 1 to Double 20 and bull, and 1 to 20, where players hit numbers in order."
+      ]
+    },
+    {
+      "id": "alternate-formats",
+      "heading": "Alternate formats",
+      "paragraphs": [
+        "Cricket uses 15-20 and bullseye, with numbers closed after three marks. Snooker mirrors snooker-style reds and colours on the dartboard.",
+        "Party modes include Hare & Hound, Halve It, and All 5s. Development modes such as Baseball, Shanghai, and Killer are not presented as release-facing modes here."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for Game of Darts match types",
+      "caption": "Match type artwork pending"
+    }
+  ],
+  "imageSectionTitle": "Match Types Image",
+  "keywords": ["Game of Darts", "match types", "X01", "Cricket", "Snooker"],
+  "estimatedReadTimeMinutes": 4,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["game-modes", "how-to-play", "tips-and-strategy"]
+}

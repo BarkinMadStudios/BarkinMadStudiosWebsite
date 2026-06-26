@@ -1,0 +1,45 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Leaderboards",
+  "seoTitle": "Game of Darts Leaderboards | BarkinMad Studios",
+  "description": "Review Game Center leaderboard support for X01, Cricket, Snooker, Bob's 27, 1 to 20, and Halve It in Game of Darts.",
+  "summary": "Leaderboards require Game Center sign-in and are displayed through the app's Leaderboards screen.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending Game of Darts leaderboards image",
+  "sourceNotes": [
+    "Based on Statistics-Engine.md, LeaderboardRules.swift, HelpView, and GameCenterManager source.",
+    "Some lower-is-better and hidden/unavailable leaderboard behavior remains To Verify in the central issue register."
+  ],
+  "sections": [
+    {
+      "id": "supported-surfaces",
+      "heading": "Supported surfaces",
+      "paragraphs": [
+        "The Leaderboards screen displays Match Darts highest score plus selectable X01 variants, Cricket highest score, Snooker variants, Bob's 27 best score, 1 to 20 least darts, and Halve It highest score.",
+        "Game Center sign-in is required for leaderboards."
+      ]
+    },
+    {
+      "id": "submission-rules",
+      "heading": "Submission rules",
+      "paragraphs": [
+        "Current source has explicit leaderboard rules for X01 highest score, best checkout, best average, most 180s, and 1 to 20 least darts.",
+        "The app has an auto-post setting for leaderboards. Central docs flag some Game Center resource visibility and lower-is-better behavior as To Verify."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for Game of Darts leaderboards",
+      "caption": "Leaderboard screenshot pending"
+    }
+  ],
+  "imageSectionTitle": "Leaderboards Image",
+  "keywords": ["Game of Darts", "leaderboards", "Game Center", "X01", "Cricket"],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["statistics", "achievements", "settings-customisation"]
+}

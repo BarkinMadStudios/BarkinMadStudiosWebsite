@@ -1,0 +1,53 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Statistics",
+  "seoTitle": "Game of Darts Statistics | BarkinMad Studios",
+  "description": "Understand Game of Darts player statistics, persisted session data, advanced statistics access, and current To Verify areas.",
+  "summary": "Statistics are distributed across game view models, session persistence, player history, Player Stats, and Game Center submission.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending Game of Darts statistics image",
+  "sourceNotes": [
+    "Based on Docs/Projects/GAMEOFDARTS/Statistics-Engine.md and Data-And-Sync.md.",
+    "Detailed chart formulas and some aggregation behavior are To Verify in central docs."
+  ],
+  "sections": [
+    {
+      "id": "where-stats-come-from",
+      "heading": "Where stats come from",
+      "paragraphs": [
+        "Game of Darts statistics are not centralized in one engine. They are calculated in per-game view models, persisted session models, Player Stats, and Game Center submission code.",
+        "Persisted session-backed history exists for X01, Snooker, Bob's 27, Cricket, and 1 to 20. Embedded player histories exist for X01, Snooker, Bob's 27, and Cricket."
+      ]
+    },
+    {
+      "id": "advanced-statistics",
+      "heading": "Advanced statistics",
+      "paragraphs": [
+        "Advanced Statistics access is gated by gameplay progression, Pro, or 48-hour access. The current central documentation says five confirmed finished games in a rolling 24-hour window unlock earned Session Stats.",
+        "Earned Session Stats are restricted to that rolling 24-hour window. Historical trends and broader all-time access require Pro or active 48-hour access."
+      ]
+    },
+    {
+      "id": "known-limits",
+      "heading": "Known limits",
+      "paragraphs": [
+        "Several modes have in-game statistics but no persisted session model documented. Some chart, trend, and player-history aggregation details remain To Verify.",
+        "Quit or abandoned games do not count toward the Advanced Statistics completion gate according to the latest release notes."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for Game of Darts statistics",
+      "caption": "Statistics screenshot pending"
+    }
+  ],
+  "imageSectionTitle": "Statistics Image",
+  "keywords": ["Game of Darts", "statistics", "advanced statistics", "sessions"],
+  "estimatedReadTimeMinutes": 4,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["leaderboards", "achievements", "settings-customisation"]
+}

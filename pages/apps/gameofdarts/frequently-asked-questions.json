@@ -1,0 +1,63 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Frequently Asked Questions",
+  "seoTitle": "Game of Darts FAQ | BarkinMad Studios",
+  "description": "Answers to common Game of Darts questions about modes, DartBot, statistics, Game Center, caller voices, premium access, and artwork status.",
+  "summary": "Quick support answers for Game of Darts players and documentation reviewers.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending Game of Darts FAQ image",
+  "sourceNotes": [
+    "FAQ combines website metadata, in-app help copy, and central source-backed Game of Darts documentation.",
+    "Answers avoid unverified release claims."
+  ],
+  "sections": [
+    {
+      "id": "faq-overview",
+      "heading": "FAQ overview",
+      "paragraphs": [
+        "This page collects short answers for common Game of Darts support and documentation questions.",
+        "Where source documentation marks behavior To Verify, the answer keeps that limitation visible."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Game of Darts available on the App Store?",
+      "answer": "Yes. The website metadata marks Game of Darts as Live and includes the public App Store link."
+    },
+    {
+      "question": "Which modes are release-facing?",
+      "answer": "Central documentation identifies Match/X01, Cricket, Snooker, Bob's 27, 1 to 20, Hare & Hound, Halve It, and All 5s as live release-facing modes."
+    },
+    {
+      "question": "Does Game of Darts support DartBot?",
+      "answer": "Yes. DartBot is documented for Match play and is gated by Pro, DartBot-only unlock, 48-hour access, or development access."
+    },
+    {
+      "question": "Do leaderboards and achievements require Game Center?",
+      "answer": "Yes. In-app help states leaderboards and achievements require Game Center sign-in."
+    },
+    {
+      "question": "Does Game of Darts use BarkinMad Coins?",
+      "answer": "No verified BarkinMad Coins usage was found in the central Game of Darts docs for this rollout. Premium access is documented through Pro, DartBot, 48-hour access, and ad-supported play."
+    },
+    {
+      "question": "Why do several pages use placeholder artwork?",
+      "answer": "Only a small Game of Darts artwork set is currently available in the website repository. Pages without dedicated screenshots use the Website Framework placeholder until real artwork is produced."
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for Game of Darts FAQ",
+      "caption": "FAQ artwork pending"
+    }
+  ],
+  "imageSectionTitle": "FAQ Image",
+  "keywords": ["Game of Darts", "FAQ", "DartBot", "Game Center", "premium"],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["overview", "game-modes", "statistics", "settings-customisation"]
+}

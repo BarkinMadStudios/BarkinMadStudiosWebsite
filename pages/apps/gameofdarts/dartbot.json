@@ -1,0 +1,45 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "DartBot",
+  "seoTitle": "Game of Darts DartBot | BarkinMad Studios",
+  "description": "Learn how DartBot appears in Match play, how access is unlocked, and how the current DartBot level setting is exposed.",
+  "summary": "DartBot is the app's AI opponent path for Match play, gated by Pro, DartBot, 48-hour access, or development access.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending Game of Darts DartBot image",
+  "sourceNotes": [
+    "Derived from AppSettings, PlayerManager, GameSetups, SettingsView, and Ads-And-IAP central documentation.",
+    "Detailed DartBot scoring model is To Verify."
+  ],
+  "sections": [
+    {
+      "id": "access",
+      "heading": "Access",
+      "paragraphs": [
+        "DartBot appears as a bot player option for Match play. Source gates DartBot unless Pro, DartBot-only unlock, 48-hour access, or development access is active.",
+        "The in-app copy describes DartBot as a solo match opponent."
+      ]
+    },
+    {
+      "id": "level",
+      "heading": "AI level",
+      "paragraphs": [
+        "The DartBot level is stored in the `dartAILevel` setting and defaults to 5. The Settings view shows a DartBot level slider when DartBot-related access is available.",
+        "Game setup names the generated bot player as `DartBot Lvl {level}`."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for Game of Darts DartBot",
+      "caption": "DartBot artwork pending"
+    }
+  ],
+  "imageSectionTitle": "DartBot Image",
+  "keywords": ["Game of Darts", "DartBot", "AI opponent", "Pro"],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["game-modes", "settings-customisation", "barkinmad-coins"]
+}

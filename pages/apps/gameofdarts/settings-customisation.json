@@ -1,0 +1,45 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Settings & Customisation",
+  "seoTitle": "Game of Darts Settings & Customisation | BarkinMad Studios",
+  "description": "Review Game of Darts appearance, file management, auto-post, DartBot level, voice, tracking, and premium settings.",
+  "summary": "Settings cover data/file management, appearance, Game Center auto-posting, DartBot level, tracking guidance, and gated development-only controls.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending Game of Darts settings image",
+  "sourceNotes": [
+    "Based on AppSettings.swift and settingsView.swift.",
+    "Development-gated controls are identified separately and should not be treated as public release features without verification."
+  ],
+  "sections": [
+    {
+      "id": "release-settings",
+      "heading": "Release-facing settings",
+      "paragraphs": [
+        "The settings screen includes file management, space usage, data deletion/cleanup, appearance settings, leaderboard auto-posting, DartBot level controls when access is available, and tracking guidance.",
+        "Auto-post to leaderboards defaults to enabled in AppSettings unless changed by the user."
+      ]
+    },
+    {
+      "id": "gated-settings",
+      "heading": "Gated settings",
+      "paragraphs": [
+        "High-contrast and voice settings are development-gated in the inspected source. Debug localization appears in debug or simulator builds.",
+        "DartBot level settings are shown when Pro, DartBot, 48-hour access, or development access is active."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for Game of Darts settings",
+      "caption": "Settings screenshot pending"
+    }
+  ],
+  "imageSectionTitle": "Settings Image",
+  "keywords": ["Game of Darts", "settings", "customisation", "auto-post", "DartBot"],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["dartbot", "caller-voices", "statistics", "barkinmad-coins"]
+}

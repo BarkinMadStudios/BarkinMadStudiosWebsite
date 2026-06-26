@@ -1,0 +1,63 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Game of Darts Overview",
+  "seoTitle": "Game of Darts Overview | BarkinMad Studios",
+  "description": "A practical introduction to Game of Darts, its darts scoring workflows, player data, statistics, Game Center support, and current documentation status.",
+  "summary": "Game of Darts is a darts scoring companion for iPhone and iPad with match setup, multiple darts formats, player statistics, cloud-backed data, Game Center support, DartBot, and premium access options.",
+  "heroImage": "apps/gameofdarts/gameofdarts-hero.png",
+  "heroImageAlt": "Game of Darts hero artwork",
+  "sourceNotes": [
+    "Derived from pages/apps/gameofdarts.json, pages/data/apps.json, central Game of Darts docs, release notes, and current source inspection.",
+    "Where detailed behavior remains unclear in central docs, it is marked To Verify rather than expanded."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/gameofdarts/gameofdarts-hero.png",
+      "alt": "Game of Darts hero artwork",
+      "purpose": "hero",
+      "width": 1881,
+      "height": 836,
+      "usage": ["docs", "website", "news"]
+    },
+    {
+      "src": "apps/gameofdarts/gameofdarts.png",
+      "alt": "Game of Darts app artwork",
+      "purpose": "gameplay",
+      "width": 1430,
+      "height": 1100,
+      "usage": ["docs", "website"]
+    }
+  ],
+  "images": [
+    {
+      "src": "apps/gameofdarts/gameofdarts.png",
+      "alt": "Game of Darts app artwork",
+      "caption": "Existing Game of Darts website artwork"
+    }
+  ],
+  "imageSectionTitle": "Artwork",
+  "sections": [
+    {
+      "id": "what-is-game-of-darts",
+      "heading": "What is Game of Darts?",
+      "paragraphs": [
+        "Game of Darts is a modern darts scoring app from [BarkinMad Studios](/about), designed for casual players and competitive matches on iPhone and iPad.",
+        "The app supports player setup, score entry, multiple darts formats, statistics, Game Center leaderboards and achievements, cloud-backed player/session data, DartBot access, and settings for appearance, data, and leaderboard posting."
+      ]
+    },
+    {
+      "id": "documentation-map",
+      "heading": "Documentation map",
+      "paragraphs": [
+        "Use Getting Started for the first-run flow, Game Modes and Match Types for supported formats, and the statistics, leaderboards, achievements, DartBot, caller voices, and settings pages for specific systems.",
+        "This documentation uses the frozen Website Framework v1.1 shared by the ZX app guides, but the page structure is tailored to a darts scoring app."
+      ]
+    }
+  ],
+  "keywords": ["Game of Darts", "darts scoring app", "iPhone", "iPad", "DartBot"],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["how-to-play", "game-modes", "match-types", "statistics", "guide"]
+}

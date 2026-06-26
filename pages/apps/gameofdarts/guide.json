@@ -1,0 +1,64 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Game of Darts Guide",
+  "seoTitle": "Game of Darts Guide | BarkinMad Studios",
+  "description": "Complete Game of Darts guide covering setup, score entry, modes, match types, DartBot, statistics, leaderboards, achievements, and settings.",
+  "summary": "A compact start-to-finish guide for Game of Darts using the Website Framework v1.1 documentation structure.",
+  "heroImage": "apps/gameofdarts/gameofdarts-hero.png",
+  "heroImageAlt": "Game of Darts hero artwork",
+  "sourceNotes": [
+    "Compiled from the Game of Darts documentation pages created in this rollout.",
+    "The guide intentionally avoids unsupported claims for development-only or placeholder modes."
+  ],
+  "sections": [
+    {
+      "id": "start",
+      "heading": "Start here",
+      "paragraphs": [
+        "Game of Darts is for tracking darts sessions, scores, players, and progression across supported local modes.",
+        "Begin with Getting Started, then read Score Entry & Controls, Game Modes, and Match Types before moving into DartBot, statistics, leaderboards, achievements, caller voices, and settings."
+      ]
+    },
+    {
+      "id": "core-path",
+      "heading": "Core guide path",
+      "paragraphs": [
+        "For a normal session, create or select players, choose a mode, configure options, finish the match cleanly, and then review stats and Game Center surfaces where supported.",
+        "For solo Match play, check DartBot access and the DartBot level setting before starting."
+      ],
+      "bullets": [
+        "Setup: players, mode, options, and Game Center sign-in",
+        "Play: score entry, hit/miss input, checkout or mode-specific rules",
+        "Review: player stats, leaderboards, achievements, and saved sessions",
+        "Access: Pro, DartBot-only unlock, 48-hour unlock, and ad-supported flow"
+      ]
+    },
+    {
+      "id": "remaining-gaps",
+      "heading": "Remaining gaps",
+      "paragraphs": [
+        "The implementation is structurally complete. Remaining work is mainly content polish, current screenshots for each page, and final verification of To Verify details in the central Game of Darts docs.",
+        "Framework limitations found during this rollout are recorded as v1.2 candidates rather than changing the frozen v1.1 framework."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "apps/gameofdarts/gameofdarts.png",
+      "alt": "Game of Darts app artwork",
+      "caption": "Existing Game of Darts artwork"
+    },
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for pending Game of Darts documentation images",
+      "caption": "Shared placeholder used for pages without dedicated artwork"
+    }
+  ],
+  "imageSectionTitle": "Guide Images",
+  "keywords": ["Game of Darts", "guide", "darts scoring app", "DartBot", "statistics"],
+  "estimatedReadTimeMinutes": 8,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["overview", "how-to-play", "controls", "game-modes", "match-types", "statistics", "frequently-asked-questions"]
+}
