@@ -4,17 +4,17 @@
   "seoTitle": "Game of Darts Caller Voices | BarkinMad Studios",
   "description": "Document Game of Darts caller audio assets, caller settings, and voice-control status verified from current source.",
   "summary": "The app includes caller audio folders for Daniel and Serena plus settings keys for caller and voice control behavior.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending Game of Darts caller voices image",
+  "heroImage": "apps/gameofdarts/gameofdarts-voice-caller.png",
+  "heroImageAlt": "Artwork for pending Game of Darts caller voices image",
   "sourceNotes": [
     "Caller folder names were verified from TheGameOfDarts/Sounds/Callers.",
     "VoiceSettingsView is currently development-gated in inspected SettingsView code; release-facing availability is To Verify."
   ],
   "images": [
     {
-      "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for Game of Darts caller voices",
-      "caption": "Caller voice artwork pending"
+      "src": "apps/gameofdarts/gameofdarts-voice-caller.png",
+      "alt": "Artwork for Game of Darts caller voices",
+      "caption": "Caller voice artwork"
     }
   ],
   "imageSectionTitle": "Caller Voices Image",
