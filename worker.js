@@ -1787,6 +1787,28 @@ async function getGuidesFromPagesIndex(appSlug, fallbackLinks = []) {
   return Array.isArray(fallbackLinks) ? fallbackLinks : [];
 }
 
+function normalizeDocumentationPages(pages) {
+  if (!Array.isArray(pages)) return [];
+
+  const seen = new Set();
+  const normalized = [];
+
+  for (const page of pages) {
+    if (!page || typeof page !== "object") continue;
+
+    const slug = String(page.slug || "").trim();
+    if (!slug || seen.has(slug)) continue;
+    seen.add(slug);
+
+    normalized.push({
+      ...page,
+      slug
+    });
+  }
+
+  return normalized;
+}
+
 function renderRelatedApps(apps) {
   if (!Array.isArray(apps) || !apps.length) return "";
 
