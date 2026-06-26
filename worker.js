@@ -2568,6 +2568,8 @@ async function sitemapResponse() {
 
       for (const page of documentationPages) {
         if (page?.slug) {
+          const docStatus = String(page.status || page.contentStatus || "").toLowerCase();
+          if (docStatus === "draft") continue;
           urls.push({
             path: `/apps/${app.slug}/${page.slug}`,
             changefreq: "monthly",
