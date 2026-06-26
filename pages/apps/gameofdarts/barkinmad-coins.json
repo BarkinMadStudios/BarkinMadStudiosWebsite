@@ -9,6 +9,53 @@
   "sourceNotes": [
     "Premium details are based on Ads-And-IAP.md, AppSettings, IAPManager, and MatchLimitManager documentation."
   ],
+  "sections": [
+	  {
+		  "id": "overview",
+		  "heading": "Premium Access",
+		  "paragraphs": [
+			  "Game of Darts offers several ways to unlock additional features. Whether you choose the full Pro upgrade, DartBot, or a temporary 48-hour pass, premium access is designed to enhance your experience while keeping the core game available to everyone.",
+			  
+			  "Premium options remove gameplay limitations, unlock additional features and provide the best way to enjoy the complete Game of Darts experience."
+		  ]
+	  },
+	  {
+		  "id": "premium-options",
+		  "heading": "Available Upgrades",
+		  "paragraphs": [
+			  "The app currently supports three premium options depending on how you want to play."
+		  ],
+		  
+		  "bullets": [
+			  "Pro Version – Permanently unlocks premium features.",
+			  "DartBot – Unlocks the AI practice opponent.",
+			  "48 Hour Pass – Temporary access to premium features for 48 hours."
+		  ]
+	  },
+	  {
+		  "id": "benefits",
+		  "heading": "Premium Benefits",
+		  "paragraphs": [
+			  "Premium access provides a smoother playing experience with fewer interruptions while unlocking advanced features throughout the app."
+		  ],
+		  "bullets": [
+			  "Remove gameplay limitations.",
+			  "Unlock DartBot AI.",
+			  "Reduce or remove advertisements depending on your purchase.",
+			  "Access premium-only options.",
+			  "Support continued development of Game of Darts."
+		  ]
+	  },
+	  {
+		  "id": "supporting-development",
+		  "heading": "Supporting BarkinMad Studios",
+		  "paragraphs": [
+			  "Purchasing premium content directly supports the continued development of Game of Darts. Every purchase helps fund new game modes, additional features, bug fixes and future updates.",
+			  
+			  "If premium isn't for you, simply playing the free version and watching the optional advertisements also helps support future development."
+		  ]
+	  }
+  ]
   "images": [
     {
       "src": "apps/gameofdarts/gameofdarts-premium-access.png",

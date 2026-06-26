@@ -10,6 +10,60 @@
     "Based on AppSettings.swift and settingsView.swift.",
     "Development-gated controls are identified separately and should not be treated as public release features without verification."
   ],
+  "sections": [
+	  {
+		  "id": "overview",
+		  "heading": "Personalise Your Experience",
+		  "paragraphs": [
+			  "Game of Darts includes a wide range of settings that allow you to customise gameplay, appearance and accessibility. Most options can be changed at any time without affecting your saved players, statistics or match history.",
+			  "Whether you prefer a faster-paced experience, voice announcements or a personalised appearance, the Settings page lets you tailor the app to suit the way you play."
+		  ]
+	  },
+	  {
+		  "id": "gameplay-settings",
+		  "heading": "Gameplay Settings",
+		  "paragraphs": [
+			  "Gameplay settings control how matches are played and how information is presented during games. Some options become available after purchasing premium features."
+		  ],
+		  "bullets": [
+			  "Configure caller voices.",
+			  "Adjust DartBot difficulty.",
+			  "Enable or disable gameplay options.",
+			  "Choose available premium features.",
+			  "Manage game preferences."
+		  ]
+	  },
+	  {
+		  "id": "appearance-and-audio",
+		  "heading": "Appearance and Audio",
+		  "paragraphs": [
+			  "Choose the appearance that best suits your device and playing environment. Audio settings allow you to control voice announcements and other supported sounds throughout the app.",
+			  "The app remembers your preferences, so you only need to configure them once."
+		  ],
+		  "bullets": [
+			  "Light and Dark Mode support.",
+			  "Caller voice selection.",
+			  "Voice announcement controls.",
+			  "Display preferences."
+		  ]
+	  },
+	  {
+		  "id": "privacy-and-data",
+		  "heading": "Privacy and Data",
+		  "paragraphs": [
+			  "Settings also provide access to privacy information, Game Center features and other app preferences. Player information and statistics are stored for gameplay purposes and can be synchronised across supported devices using the same Apple ID.",
+			  "Advertising preferences are managed through Apple's privacy controls and the app's consent options where supported."
+		  ]
+	  },
+	  {
+		  "id": "changing-settings",
+		  "heading": "Changing Settings",
+		  "paragraphs": [
+			  "You can return to the Settings page whenever you want to update your preferences. Changes take effect immediately for most options, allowing you to customise the app as your playing style evolves.",
+			  "Experiment with different settings to find the combination that provides the most enjoyable Game of Darts experience."
+		  ]
+	  }
+  ]
   "images": [
     {
       "src": "images/shared/placeholder.png",

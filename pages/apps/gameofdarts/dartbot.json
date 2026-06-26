@@ -10,6 +10,45 @@
     "Derived from AppSettings, PlayerManager, GameSetups, SettingsView, and Ads-And-IAP central documentation.",
     "Detailed DartBot scoring model is To Verify."
   ],
+  "sections": [
+	  {
+		  "id": "overview",
+		  "heading": "Meet DartBot",
+		  "paragraphs": [
+			  "DartBot is the built-in AI opponent for Game of Darts, allowing you to practise, improve your game and enjoy a match whenever another player isn't available.",
+			  "Whether you're learning the basics or sharpening your checkout accuracy, DartBot provides a reliable opponent that's always ready to play."
+		  ]
+	  },
+	  {
+		  "id": "difficulty",
+		  "heading": "AI Difficulty",
+		  "paragraphs": [
+			  "DartBot supports multiple skill levels so players of all abilities can enjoy competitive matches. Adjust the difficulty to create anything from a relaxed practice session to a challenging contest.",
+			  "The selected difficulty is remembered by the app until you decide to change it."
+		  ],
+		  "bullets": [
+			  "Suitable for beginners through experienced players.",
+			  "Difficulty can be changed from the Settings page.",
+			  "Your selected level is used when creating new DartBot matches."
+		  ]
+	  },
+	  {
+		  "id": "playing-against-dartbot",
+		  "heading": "Playing Against DartBot",
+		  "paragraphs": [
+			  "Create a new Match game, add yourself as the player, then choose DartBot as your opponent. Once the match begins, DartBot plays using the selected AI difficulty and follows the same rules as a human player.",
+			  "DartBot is ideal for practising checkouts, testing different match formats and improving consistency without needing another person."
+		  ]
+	  },
+	  {
+		  "id": "unlocking-dartbot",
+		  "heading": "Unlocking DartBot",
+		  "paragraphs": [
+			  "DartBot is available through the dedicated DartBot unlock, the full Pro upgrade or the 48-hour premium pass. Once unlocked, it can be used whenever you create a supported Match game.",
+			  "Your unlock is linked to your purchase and does not affect player statistics, saved games or Game Center progress."
+		  ]
+	  }
+  ]
   "images": [
     {
       "src": "apps/gameofdarts/gameofdarts-dartbot.png",

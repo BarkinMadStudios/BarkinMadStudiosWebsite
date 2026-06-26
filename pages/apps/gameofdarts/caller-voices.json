@@ -10,6 +10,43 @@
     "Caller folder names were verified from TheGameOfDarts/Sounds/Callers.",
     "VoiceSettingsView is currently development-gated in inspected SettingsView code; release-facing availability is To Verify."
   ],
+  "sections": [
+	  {
+		  "id": "overview",
+		  "heading": "Caller Voices",
+		  "paragraphs": [
+			  "Game of Darts includes optional match caller voices that announce scores and key moments throughout your games. The feature adds a more immersive match atmosphere while remaining easy to enable or disable.",
+			  "The app uses Apple's built-in speech synthesis, providing clear, natural commentary without requiring additional downloads."
+		  ]
+	  },
+	  {
+		  "id": "available-voices",
+		  "heading": "Available Voices",
+		  "paragraphs": [
+			  "Two caller voices are currently available using Apple's built-in text-to-speech system."
+		  ],
+		  "bullets": [
+			  "Daniel – Natural male match caller.",
+			  "Serena – Natural female match caller.",
+			  "Voice quality may vary slightly depending on your iOS version and installed system voices."
+		  ]
+	  },
+	  {
+		  "id": "how-it-works",
+		  "heading": "How Voice Calling Works",
+		  "paragraphs": [
+			  "During a match, the selected caller announces scores and important game events to provide a more authentic darts experience. Voice announcements happen automatically during supported gameplay and require no additional setup once enabled.",
+			  "The feature works entirely on your device using Apple's speech technology."
+		  ]
+	  },
+	  {
+		  "id": "voice-settings",
+		  "heading": "Voice Settings",
+		  "paragraphs": [
+			  "Caller voices can be enabled, disabled or changed at any time from the app's settings. Players can switch between Daniel and Serena whenever they prefer without affecting saved games, statistics or player data."
+		  ]
+	  }
+  ]
   "images": [
     {
       "src": "apps/gameofdarts/gameofdarts-voice-caller.png",

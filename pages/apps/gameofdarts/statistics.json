@@ -9,6 +9,55 @@
   "sourceNotes": [
     ""
   ],
+  "sections": [
+	  {
+		  "id": "overview",
+		  "heading": "Track Your Progress",
+		  "paragraphs": [
+			  "Game of Darts records detailed statistics to help you understand your performance and improve over time. Every completed match contributes towards your personal history, allowing you to monitor progress across multiple game modes.",
+			  "Statistics are available for supported games and can be viewed from the Player screen, giving you a clear picture of your strengths and areas for improvement."
+		  ]
+	  },
+	  {
+		  "id": "match-statistics",
+		  "heading": "Match Statistics",
+		  "paragraphs": [
+			  "After every completed match you can review performance information for the players involved. The statistics shown depend on the selected game mode, but are designed to highlight both scoring and consistency."
+		  ],
+		  "bullets": [
+			  "Highest score.",
+			  "Match average.",
+			  "Checkout percentage.",
+			  "Best checkout.",
+			  "180s and high-score visits.",
+			  "Game-specific statistics for supported modes."
+		  ]
+	  },
+	  {
+		  "id": "player-history",
+		  "heading": "Player History",
+		  "paragraphs": [
+			  "Statistics are stored for each player, allowing long-term progress to be tracked across multiple sessions. Historical results make it easy to compare current performance with previous games and identify improvements over time.",
+			  "Player statistics are available from the Player screen by selecting a player and then choosing the game mode you want to review."
+		  ]
+	  },
+	  {
+		  "id": "advanced-statistics",
+		  "heading": "Advanced Statistics",
+		  "paragraphs": [
+			  "Advanced Statistics provide a deeper analysis of your performance with additional charts, trends and historical information. Access is unlocked by meeting the gameplay requirements or through premium access.",
+			  "These additional insights are ideal for players looking to analyse their game in greater detail and monitor long-term improvements."
+		  ]
+	  },
+	  {
+		  "id": "improve-your-game",
+		  "heading": "Improve Your Game",
+		  "paragraphs": [
+			  "Reviewing your statistics regularly can help identify patterns in your play. Improving averages, increasing checkout percentages and reducing missed doubles are all excellent indicators that your game is progressing.",
+			  "Combine your statistics with regular practice against DartBot or friends to steadily improve your overall performance."
+		  ]
+	  }
+  ]
   "images": [
     {
       "src": "apps/gameofdarts/gameofdarts-statistics.png",
