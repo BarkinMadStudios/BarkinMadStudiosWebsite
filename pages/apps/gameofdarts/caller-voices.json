@@ -46,7 +46,7 @@
 			  "Caller voices can be enabled, disabled or changed at any time from the app's settings. Players can switch between Daniel and Serena whenever they prefer without affecting saved games, statistics or player data."
 		  ]
 	  }
-  ]
+  ],
   "images": [
     {
       "src": "apps/gameofdarts/gameofdarts-voice-caller.png",
