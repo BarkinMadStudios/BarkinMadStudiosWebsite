@@ -1,0 +1,86 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Tips & Strategy",
+  "seoTitle": "ZXSnake Tips and Strategy | BarkinMad Studios",
+  "description": "Practical tactics for improving score consistency and reducing avoidable mistakes in ZXSnake.",
+  "summary": "Build repeatable habits first, then layer competitive goals for longer sessions.",
+  "heroImage": "apps/zxsnake/zxsnake-hero.png",
+  "heroImageAlt": "ZXSnake tips and strategy image",
+  "sourceNotes": [
+    "These recommendations are practical play habits intended to match current released mechanics.",
+    "Update for future balancing changes if movement response or game pacing evolves."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxsnake/zxsnake-hero.png",
+      "alt": "ZXSnake strategy banner",
+      "purpose": "hero",
+      "width": 1871,
+      "height": 840,
+      "usage": ["docs", "website"]
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-tips-and-strategy.png",
+      "alt": "ZXSnake tips and strategy reference",
+      "purpose": "doc",
+      "width": 1536,
+      "height": 1024,
+      "usage": ["docs", "website"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "before-session",
+      "heading": "Before each session",
+      "paragraphs": [
+        "Start with a short setup run to stabilise control rhythm.",
+        "Keep a simple target and avoid changing several game settings at once."
+      ],
+      "bullets": [
+        "Choose one score goal",
+        "Use a warm-up pass",
+        "Review the outcome against one metric"
+      ]
+    },
+    {
+      "id": "during-session",
+      "heading": "During your run",
+           "paragraphs": [
+        "Focus on reading the lane ahead rather than reacting late.",
+        "Conservation of movement and controlled turns usually outperform sudden corrections."
+      ]
+    },
+    {
+      "id": "after-session",
+      "heading": "After each session",
+      "paragraphs": [
+        "Log one observation for your next attempt.",
+        "If a session includes repeated control instability, use solo mode briefly before returning to PvP."
+      ]
+    }
+  ],
+  "imageSectionTitle": "Strategy Images",
+  "images": [
+    {
+      "src": "apps/zxsnake/zxsnake-tips-and-strategy.png",
+      "alt": "ZXSnake strategic play reference",
+      "caption": "Practical technique reference"
+    }
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXSnake tips", "strategy", "score consistency", "arcade", "snake gameplay"],
+  "relatedPages": ["controls", "how-to-play", "game-modes", "leaderboards", "achievements"],
+  "relatedLinks": [
+    {
+      "label": "Game Modes",
+      "href": "/apps/zxsnake/game-modes"
+    },
+    {
+      "label": "Frequently Asked Questions",
+      "href": "/apps/zxsnake/frequently-asked-questions"
+    }
+  ]
+}

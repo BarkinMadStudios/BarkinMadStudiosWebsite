@@ -1,0 +1,142 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "appSlug": "zxsnake",
+  "title": "ZXSnake Guides",
+  "description": "Official player guides for ZXSnake covering core gameplay, controls, multiplayer options, and progression systems.",
+  "landingPage": "overview",
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 30,
+  "relatedSeries": [
+    "/zx-series"
+  ],
+  "keywords": [
+    "ZXSnake",
+    "retro game",
+    "snake",
+    "arcade",
+    "achievements",
+    "leaderboards",
+    "BarkinMad Coins"
+  ],
+  "pages": [
+    {
+      "slug": "overview",
+      "title": "App Overview",
+      "description": "Get a practical introduction to ZXSnake and how its systems fit into the ZX Series.",
+      "required": true,
+      "status": "required",
+      "order": 1,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["how-to-play", "controls", "game-modes"]
+    },
+    {
+      "slug": "how-to-play",
+      "title": "How to Play",
+      "description": "Learn the core loop, score objectives, and typical session structure for ZXSnake.",
+      "required": true,
+      "status": "required",
+      "order": 2,
+      "estimatedReadTimeMinutes": 4,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["controls", "game-modes", "tips-and-strategy", "achievements"]
+    },
+    {
+      "slug": "controls",
+      "title": "Controls",
+      "description": "Understand practical control rhythm and input expectations for stable snake control.",
+      "required": true,
+      "status": "required",
+      "order": 3,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["how-to-play", "tips-and-strategy", "game-modes"]
+    },
+    {
+      "slug": "game-modes",
+      "title": "Game Modes",
+      "description": "Compare play options and pick the mode that fits your session goal.",
+      "required": true,
+      "status": "required",
+      "order": 4,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["how-to-play", "controls", "leaderboards"]
+    },
+    {
+      "slug": "barkinmad-coins",
+      "title": "BarkinMad Coins",
+      "description": "Understand shared ZX Series coin progression and how coin rewards unlock cosmetic progression.",
+      "required": true,
+      "status": "required",
+      "order": 5,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["achievements", "leaderboards", "tips-and-strategy"]
+    },
+    {
+      "slug": "achievements",
+      "title": "Achievements",
+      "description": "Track reward milestones and understand practical achievement progress planning.",
+      "required": true,
+      "status": "required",
+      "order": 6,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["leaderboards", "tips-and-strategy", "how-to-play"]
+    },
+    {
+      "slug": "leaderboards",
+      "title": "Leaderboards",
+      "description": "Understand how score ranking works and how leaderboard pages are used for replay improvement.",
+      "required": true,
+      "status": "required",
+      "order": 7,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["achievements", "how-to-play", "tips-and-strategy"]
+    },
+    {
+      "slug": "tips-and-strategy",
+      "title": "Tips & Strategy",
+      "description": "Practical tips to improve consistency, reduce avoidable mistakes, and increase score quality.",
+      "required": true,
+      "status": "required",
+      "order": 8,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["controls", "how-to-play", "game-modes", "achievements", "leaderboards"]
+    },
+    {
+      "slug": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "description": "Quick answers for common ZXSnake questions about controls, multiplayer, and progression.",
+      "required": true,
+      "status": "required",
+      "order": 9,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["overview", "controls", "game-modes", "barkinmad-coins"]
+    }
+  ]
+}

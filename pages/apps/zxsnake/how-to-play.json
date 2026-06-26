@@ -1,0 +1,86 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "How to Play ZXSnake",
+  "seoTitle": "How to Play ZXSnake | BarkinMad Studios",
+  "description": "Understand the ZXSnake objective, score structure, and game flow from launch to end-of-run decisions.",
+  "summary": "The goal is survival, growth, and score progression in a fast arcade environment.",
+  "heroImage": "apps/zxsnake/zxsnake-hero.png",
+  "heroImageAlt": "ZXSnake overview gameplay image",
+  "sourceNotes": [
+    "Flow and score wording reflects current published gameplay systems in the app listing.",
+    "Exact scoring modifiers are to verify against in-game telemetry."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxsnake/zxsnake-hero.png",
+      "alt": "ZXSnake gameplay hero image",
+      "purpose": "hero",
+      "width": 1871,
+      "height": 840,
+      "usage": ["docs", "website"]
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-how-to-play.png",
+      "alt": "ZXSnake gameplay reference",
+      "purpose": "doc",
+      "width": 1536,
+      "height": 1024,
+      "usage": ["docs", "website"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "objective",
+      "heading": "Objective",
+      "paragraphs": [
+        "Avoid collisions, collect what is available, and build longer runs for better score opportunities.",
+        "The best sessions are short and repeatable, with small quality improvements carried into the next run."
+      ]
+    },
+    {
+      "id": "game-flow",
+      "heading": "Game flow",
+      "paragraphs": [
+        "A session starts from setup, moves into active movement, and finishes by completion event or collision.",
+        "Use score progress, timing, and lane awareness to maintain consistency over repeated sessions."
+      ],
+      "bullets": [
+        "Start with focused warm-up sessions",
+        "Prioritise clean movement and timing before increasing tempo",
+        "Review score outcome and choose a small improvement target next session"
+      ]
+    },
+    {
+      "id": "progression",
+      "heading": "Progression loop",
+      "paragraphs": [
+        "Score and match quality are the two practical signals for progress.",
+        "Use progression systems and leaderboards as checkpoints rather than single-session goals."
+      ]
+    }
+  ],
+  "imageSectionTitle": "How to Play Screenshots",
+  "images": [
+    {
+      "src": "apps/zxsnake/zxsnake-how-to-play.png",
+      "alt": "ZXSnake how-to-play reference image",
+      "caption": "Core gameplay progression example"
+    }
+  ],
+  "estimatedReadTimeMinutes": 4,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXSnake", "how to play", "score chasing", "arcade", "snake"],
+  "relatedPages": ["controls", "game-modes", "tips-and-strategy", "achievements"],
+  "relatedLinks": [
+    {
+      "label": "Controls",
+      "href": "/apps/zxsnake/controls"
+    },
+    {
+      "label": "Tips & Strategy",
+      "href": "/apps/zxsnake/tips-and-strategy"
+    }
+  ]
+}

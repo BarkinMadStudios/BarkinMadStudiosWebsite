@@ -1,0 +1,88 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Achievements",
+  "seoTitle": "ZXSnake Achievements | BarkinMad Studios",
+  "description": "Understand achievement milestones and practical ways to approach them in regular play.",
+  "summary": "Achievement milestones are designed to support long-form progression and replay consistency.",
+  "heroImage": "apps/zxsnake/zxsnake-hero.png",
+  "heroImageAlt": "ZXSnake achievements hero image",
+  "sourceNotes": [
+    "Achievement list uses the titles exposed in the app overview data.",
+    "Exact completion criteria should be confirmed against latest app build telemetry."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxsnake/zxsnake-hero.png",
+      "alt": "ZXSnake achievements banner",
+      "purpose": "hero",
+      "width": 1871,
+      "height": 840,
+      "usage": ["docs", "website"]
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-achievements.png",
+      "alt": "ZXSnake achievements",
+      "purpose": "doc",
+      "width": 1536,
+      "height": 1024,
+      "usage": ["docs", "website"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "achievement-goals",
+      "heading": "Achievement goals",
+      "paragraphs": [
+        "Achievements help turn short sessions into clear targets.",
+        "Track progress in small increments and convert milestones into repeatable play patterns."
+      ]
+    },
+    {
+      "id": "tracking-method",
+      "heading": "How to progress",
+      "paragraphs": [
+        "Pick one milestone at a time and complete it over multiple runs.",
+        "Use score and session planning together to avoid burnout and keep progression measurable."
+      ],
+      "bullets": [
+        "Prioritise one target metric per session",
+        "Review whether each attempt moves performance forward",
+        "Use a repeatable warm-up before milestone attempts"
+      ]
+    }
+  ],
+  "imageSectionTitle": "Achievement Reference",
+  "images": [
+    {
+      "src": "apps/zxsnake/zxsnake-achievements.png",
+      "alt": "ZXSnake achievement interface",
+      "caption": "Achievement progression targets"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How are achievements unlocked in ZXSnake?",
+      "answer": "Achievements are unlocked by meeting gameplay milestones tracked by the game service."
+    },
+    {
+      "question": "Are achievements tied to one session?",
+      "answer": "No. They are cumulative and designed to reflect repeated play over time."
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXSnake achievements", "milestones", "game progression", "replay goals", "BarkinMad Series"],
+  "relatedPages": ["leaderboards", "how-to-play", "tips-and-strategy"],
+  "relatedLinks": [
+    {
+      "label": "Leaderboards",
+      "href": "/apps/zxsnake/leaderboards"
+    },
+    {
+      "label": "Tips & Strategy",
+      "href": "/apps/zxsnake/tips-and-strategy"
+    }
+  ]
+}
