@@ -1,0 +1,52 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXBrick Controls",
+  "seoTitle": "ZXBrick Controls | BarkinMad Studios",
+  "description": "Understand the control rhythm and input expectations for ZXBrick sessions, including touch timing, paddle movement precision, launch consistency, and session pause behavior.",
+  "summary": "Stable input patterns are the fastest path to better level consistency in ZXBrick.",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "heroImageAlt": "ZXBrick control reference",
+  "sourceNotes": [
+    "Controls details are intentionally high-level until platform input metadata is verified from gameplay telemetry.",
+    "Exact key mappings and any alternative control modes are to verify before publishing fixed mappings."
+  ],
+  "sections": [
+    {
+      "id": "input-rhythm",
+      "heading": "Input rhythm",
+      "paragraphs": [
+        "Settle into a consistent input pace before accelerating gameplay tempo.",
+        "Small, deliberate inputs reduce over-correction and help stabilize run outcomes."
+      ]
+    },
+    {
+      "id": "preflight",
+      "heading": "Session preflight",
+      "paragraphs": [
+        "Before each run, confirm control layout and game settings.",
+        "Use a short warm-up run when control feel changes between sessions."
+      ],
+      "bullets": [
+        "Review sensitivity and preferred input mode",
+        "Start with simpler angles and shorter runs",
+        "Avoid changing multiple control-related settings at once"
+      ]
+    }
+  ],
+  "relatedPages": ["how-to-play", "game-modes", "tips-and-strategy", "leaderboards"],
+  "relatedLinks": [
+    {
+      "label": "How to Play",
+      "href": "/apps/zxbrick/how-to-play"
+    },
+    {
+      "label": "Tips & Strategy",
+      "href": "/apps/zxbrick/tips-and-strategy"
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXBrick controls", "arcade controls", "iPhone"]
+}

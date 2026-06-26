@@ -1,26 +1,150 @@
 {
+  "documentationSchemaVersion": "1.0.0",
   "appSlug": "zxbrick",
   "title": "ZXBrick Guides",
-  "description": "Helpful ZXBrick guides covering how to play, power-ups, and levels.",
+  "description": "Official player guides for ZXBrick covering controls, progression, and support systems.",
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 24,
+  "landingPage": "overview",
+  "relatedSeries": [
+    "/zx-series"
+  ],
   "pages": [
     {
-      "slug": "how-to-play",
-      "title": "How to Play ZXBrick",
-      "description": "Learn the basics of ZXBrick, including the game goal, level progression, power-ups, achievements, and leaderboards.",
-      "lastUpdated": "2026-06-25"
+      "slug": "overview",
+      "title": "App Overview",
+      "description": "Get a practical introduction to ZXBrick and where this guide series fits across the ZX Series.",
+      "required": true,
+      "order": 1,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["how-to-play", "levels", "powerups"]
     },
     {
-      "slug": "powerups",
-      "title": "ZXBrick Power-Ups",
-      "description": "A practical overview of ZXBrick power-ups and how they support replayable brick-breaking arcade gameplay.",
-      "lastUpdated": "2026-06-25"
+      "slug": "how-to-play",
+      "title": "How to Play",
+      "description": "Learn the core loop and progression for classic brick-breaking sessions.",
+      "required": true,
+      "order": 2,
+      "estimatedReadTimeMinutes": 4,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["controls", "levels", "powerups", "achievements", "leaderboards", "tips-and-strategy"]
+    },
+    {
+      "slug": "controls",
+      "title": "Controls",
+      "description": "Understand input expectations and the control rhythm used across all ZXBrick sessions.",
+      "required": true,
+      "order": 3,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["how-to-play", "tips-and-strategy", "powerups"]
+    },
+    {
+      "slug": "game-modes",
+      "title": "Game Modes",
+      "description": "Understand the available mode structure and where progression features are shared.",
+      "required": true,
+      "order": 4,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["how-to-play", "levels", "tips-and-strategy"]
+    },
+    {
+      "slug": "barkinmad-coins",
+      "title": "BarkinMad Coins",
+      "description": "Learn how ZXBrick connects to shared ZX Series wallet behavior and unlock systems.",
+      "required": true,
+      "order": 5,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["achievements", "leaderboards", "how-to-play"]
+    },
+    {
+      "slug": "achievements",
+      "title": "Achievements",
+      "description": "Review achievement goals and where they fit into replay planning.",
+      "required": true,
+      "order": 6,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["leaderboards", "tips-and-strategy"]
+    },
+    {
+      "slug": "leaderboards",
+      "title": "Leaderboards",
+      "description": "Use score leaderboards to support short replay sessions and progression planning.",
+      "required": true,
+      "order": 7,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["achievements", "tips-and-strategy"]
+    },
+    {
+      "slug": "tips-and-strategy",
+      "title": "Tips & Strategy",
+      "description": "Practical tips for improving consistency in short-session play.",
+      "required": true,
+      "order": 8,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["controls", "how-to-play", "game-modes", "achievements", "leaderboards"]
+    },
+    {
+      "slug": "frequently-asked-questions",
+      "title": "Frequently Asked Questions",
+      "description": "Answers to common ZXBrick questions from new and returning players.",
+      "required": true,
+      "order": 9,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["overview", "barkinmad-coins", "controls", "game-modes"]
     },
     {
       "slug": "levels",
-      "title": "ZXBrick Levels",
-      "description": "Learn about ZXBrick's 100 handcrafted levels and how level progression fits into the wider arcade experience.",
-      "lastUpdated": "2026-06-25"
+      "title": "Levels",
+      "description": "How to understand level progression in ZXBrick's 100 handcrafted layouts.",
+      "required": false,
+      "status": "optional",
+      "order": 10,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["overview", "powerups"]
+    },
+    {
+      "slug": "powerups",
+      "title": "Power-ups",
+      "description": "A practical read on why power-ups exist and where they affect gameplay flow.",
+      "required": false,
+      "status": "optional",
+      "order": 11,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["how-to-play", "levels"]
     }
-  ],
-  "lastUpdated": "2026-06-25"
+  ]
 }

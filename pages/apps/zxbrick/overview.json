@@ -1,0 +1,77 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXBrick Overview",
+  "seoTitle": "ZXBrick Overview | BarkinMad Studios",
+  "description": "A practical introduction to ZXBrick, the core gameplay loop, and supporting systems.",
+  "summary": "ZXBrick is a retro brick-breaking arcade game in the ZX Series with level progression, achievements, and shared wallet support.",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "heroImageAlt": "ZXBrick brick-breaking gameplay hero",
+  "sourceNotes": [
+    "Derived from pages/apps/zxbrick.json and pages/data/apps.json.",
+    "Detailed control tuning and exact level pacing details are to verify from app source or QA notes."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxbrick/zxbrick-hero.png",
+      "alt": "ZXBrick overview hero",
+      "purpose": "hero",
+      "width": 1600,
+      "height": 900,
+      "usage": ["docs", "website", "news"]
+    },
+    {
+      "src": "apps/zxbrick/zxbrick-gameplay-03.png",
+      "alt": "ZXBrick gameplay frame",
+      "purpose": "gameplay",
+      "width": 1170,
+      "height": 2532,
+      "usage": ["docs", "social", "website", "news"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "paragraphs": [
+        "ZXBrick is a retro-inspired brick-breaking game in the [ZX Series](/zx-series). It combines level progression, unlock systems, and replay-focused progression loops through achievements, leaderboards, and shared currency support.",
+        "Players typically progress through 100 handcrafted stages, build momentum through repeated sessions, and use achievement and leaderboard feedback to guide improvement over time."
+      ]
+    },
+    {
+      "id": "where-to-start",
+      "heading": "Where to start",
+      "paragraphs": [
+        "Start with How to Play, then read Controls and Game Modes before exploring power-ups and strategy pages.",
+        "Use the guide navigation at the top of each page to move between sections quickly."
+      ]
+    },
+    {
+      "id": "series-context",
+      "heading": "How this connects to the ZX Series",
+      "paragraphs": [
+        "The guide is connected to other ZX Series pages where shared progression systems are used, including [BarkinMad Coins](/zx-series).",
+        "Related titles include [ZXSnake](/apps/zxsnake) and [ZXSpace](/apps/zxspace)."
+      ]
+    }
+  ],
+  "keywords": ["ZXBrick", "brick-breaking", "arcade game", "iPhone", "BarkinMad Series", "achievements", "leaderboards", "BarkinMad Coins"],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["how-to-play", "controls", "game-modes", "levels", "powerups", "barkinmad-coins", "achievements", "leaderboards", "tips-and-strategy", "frequently-asked-questions"],
+  "relatedLinks": [
+    {
+      "label": "How to Play",
+      "href": "/apps/zxbrick/how-to-play"
+    },
+    {
+      "label": "Game Modes",
+      "href": "/apps/zxbrick/game-modes"
+    },
+    {
+      "label": "Levels",
+      "href": "/apps/zxbrick/levels"
+    }
+  ]
+}

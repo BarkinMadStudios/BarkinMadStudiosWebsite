@@ -1,88 +1,82 @@
 {
+  "documentationSchemaVersion": "1.0.0",
   "title": "How to Play ZXBrick",
   "seoTitle": "How to Play ZXBrick | BarkinMad Studios",
-  "description": "Learn the basics of ZXBrick, including the game goal, level progression, power-ups, achievements, and leaderboards.",
-  "summary": "ZXBrick is a retro-inspired brick-breaking arcade game focused on fast play sessions, level progression, high scores, power-ups, achievements, and leaderboards.",
+  "description": "Learn the core objective and flow for every ZXBrick session, from launch and setup through level progression and scoring strategy for strong short-replay sessions.",
+  "summary": "ZXBrick is a focused arcade loop: clear the level, extend your run, and improve replay consistency.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "heroImageAlt": "ZXBrick gameplay introduction",
   "sourceNotes": [
-    "Generated from pages/apps/zxbrick.json, pages/data/apps.json, pages/zx-series.json, and existing ZXBrick news content.",
-    "Specific controls, scoring rules, power-up effects, achievement IDs, leaderboard IDs, and wallet behavior are To Verify from app source or platform metadata."
+    "Derived from pages/apps/zxbrick.json and pages/data/apps.json.",
+    "Detailed scoring coefficients, failure conditions, and exact ball-physics timing are to verify before publication.",
+    "Current implementation details remain at a systems level until gameplay telemetry confirms exact session timing behavior."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxbrick/zxbrick-gameplay-02.png",
+      "alt": "ZXBrick main menu gameplay reference",
+      "purpose": "gameplay",
+      "width": 1170,
+      "height": 2532,
+      "usage": ["docs", "website", "social"]
+    }
   ],
   "sections": [
     {
       "id": "goal",
       "heading": "Goal",
       "paragraphs": [
-        "ZXBrick is a classic brick-breaking arcade game from the [ZX Series](/zx-series). The broad goal is to play through brick-breaking levels, chase high scores, collect useful rewards, and build progress through supported achievements and leaderboards."
+        "The core goal is to clear playable patterns, keep the ball active, and finish levels cleanly.",
+        "Players use short, repeatable sessions to build consistency before attempting longer progression attempts."
+      ]
+    },
+    {
+      "id": "session-flow",
+      "heading": "Session flow",
+      "paragraphs": [
+        "A standard session starts from the game start flow, then moves into active play, level completion checks, and score-based progression loops.",
+        "Use a short session first if you are warming up, then increase play duration as control consistency improves."
       ],
       "bullets": [
-        "Play retro-inspired brick-breaking arcade sessions.",
-        "Progress through ZXBrick's 100 handcrafted levels.",
-        "Use power-ups as part of the arcade experience.",
-        "Chase high scores and Game Center leaderboard progress."
+        "Start a fresh run and focus on steady movement patterns",
+        "Track the immediate replay goal: finish one level cleanly before stretching time",
+        "Use power-ups only to support consistency, not to mask control drift"
       ]
     },
     {
-      "id": "progression",
-      "heading": "Progression",
+      "id": "replay-loop",
+      "heading": "Replay and progression",
       "paragraphs": [
-        "ZXBrick includes 100 handcrafted levels, unlockable themes, achievements, high score tracking, and Game Center leaderboard support. It also supports [BarkinMad Coins](/zx-series), which are earned through gameplay across the ZX Series and stored in a shared wallet for future ZX Series content."
-      ]
-    },
-    {
-      "id": "support",
-      "heading": "More Help",
-      "paragraphs": [
-        "For more detail, see the [ZXBrick power-ups guide](/apps/zxbrick/powerups) and [ZXBrick levels guide](/apps/zxbrick/levels)."
+        "As sessions repeat, aim to improve one goal at a time: fewer mistakes, clearer level starts, or higher score quality in one level type.",
+        "The shared progression systems in the ZX Series are supported as separate sessions and should be treated as long-term goals."
       ]
     }
   ],
+  "imageSectionTitle": "How to Play Screenshots",
   "images": [
     {
-      "src": "/images/apps/zxbrick/zxbrick-how-to-play.png",
-      "alt": "ZXBrick how to play overview"
-    },
-    {
-      "src": "apps/zxbrick/zxbrick-gameplay-02.png",
-      "alt": "ZXBrick main menu screenshot"
-    },
-    {
-      "src": "apps/zxbrick/zxbrick-gameplay-03.png",
-      "alt": "ZXBrick new game screenshot"
+      "src": "apps/zxbrick/zxbrick-how-to-play.png",
+      "alt": "ZXBrick how-to-play reference image",
+      "caption": "High-level game state reference"
     }
   ],
-  "imageSectionTitle": "How to Play Images",
+  "estimatedReadTimeMinutes": 4,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["controls", "tips-and-strategy", "game-modes", "levels", "powerups", "achievements", "leaderboards"],
   "relatedLinks": [
     {
-      "label": "ZXBrick App Page",
-      "href": "/apps/zxbrick"
+      "label": "Controls",
+      "href": "/apps/zxbrick/controls"
     },
     {
-      "label": "Power-Ups",
+      "label": "Power-ups",
       "href": "/apps/zxbrick/powerups"
     },
     {
-      "label": "Levels",
-      "href": "/apps/zxbrick/levels"
+      "label": "Leaderboards",
+      "href": "/apps/zxbrick/leaderboards"
     }
-  ],
-  "faq": [
-    {
-      "question": "Is ZXBrick part of the ZX Series?",
-      "answer": "Yes. ZXBrick is part of the [ZX Series](/zx-series), alongside games such as [ZXSnake](/apps/zxsnake), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong)."
-    },
-    {
-      "question": "How many levels does ZXBrick include?",
-      "answer": "ZXBrick includes 100 handcrafted levels."
-    }
-  ],
-  "help": {
-    "version": 1,
-    "sections": [
-      "goal",
-      "progression",
-      "support"
-    ]
-  },
-  "lastUpdated": "2026-06-25"
+  ]
 }

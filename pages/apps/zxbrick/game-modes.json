@@ -1,0 +1,53 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXBrick Game Modes",
+  "seoTitle": "ZXBrick Game Modes | BarkinMad Studios",
+  "description": "Compare gameplay modes and decide which setup to use for training or scoring sessions.",
+  "summary": "Choose the right mode pattern for your goal: consistency training or focused scoring progression.",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "heroImageAlt": "ZXBrick game modes overview",
+  "sourceNotes": [
+    "Current public metadata indicates level-based and progression-focused play.",
+    "Any multiplayer or alternate mode variants remain to verify from active app configuration."
+  ],
+  "sections": [
+    {
+      "id": "available",
+      "heading": "Available modes",
+      "paragraphs": [
+        "Based on available product information, ZXBrick is primarily a single-player progression game.",
+        "Use mode choice to match your objective: clean practice rounds for consistency or longer sessions for score growth." 
+      ]
+    },
+    {
+      "id": "mode-selection",
+      "heading": "How to select a mode",
+      "paragraphs": [
+        "Use short sessions for control tuning and longer sessions for achievement-oriented progression.",
+        "Keep mode intent stable for at least one run cluster so results remain comparable."
+      ]
+    }
+  ],
+  "relatedPages": ["how-to-play", "tips-and-strategy", "achievements", "leaderboards"],
+  "relatedLinks": [
+    {
+      "label": "Achievements",
+      "href": "/apps/zxbrick/achievements"
+    },
+    {
+      "label": "Leaderboards",
+      "href": "/apps/zxbrick/leaderboards"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do I choose the right mode for practice?",
+      "answer": "Use a short, low-pressure session for control training and switch to a longer score-focused session once controls feel stable."
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXBrick game modes", "single-player", "level progression", "arcade scores"]
+}

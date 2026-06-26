@@ -1,0 +1,56 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Frequently Asked Questions",
+  "seoTitle": "ZXBrick FAQ | BarkinMad Studios",
+  "description": "Quick answers to common ZXBrick player questions covering onboarding, progression, coins, leaderboards, and support for repeated sessions.",
+  "summary": "Find practical answers for progression, controls, and shared systems.",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "heroImageAlt": "ZXBrick help FAQ",
+  "sourceNotes": [
+    "FAQ details are assembled from current app metadata and published docs.",
+    "Account-specific, support, and release-specific questions should be confirmed from support policy and in-app support state."
+  ],
+  "sections": [
+    {
+      "id": "summary",
+      "heading": "Common questions",
+      "paragraphs": [
+        "Use these pages to jump to the relevant section when your question is about gameplay or progression systems."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is ZXBrick part of the ZX Series?",
+      "answer": "Yes. ZXBrick is part of the [ZX Series](/zx-series)."
+    },
+    {
+      "question": "Does ZXBrick include BarkinMad Coins?",
+      "answer": "Yes. ZXBrick supports shared BarkinMad Coins through the ZX Series model."
+    },
+    {
+      "question": "What are the available ZXBrick achievements?",
+      "answer": "The site lists play-count and brick-destruction achievements. Check [Achievements](/apps/zxbrick/achievements) for the current list."
+    },
+    {
+      "question": "Does ZXBrick support leaderboards?",
+      "answer": "Yes. The current published category is the highest score leaderboard."
+    }
+  ],
+  "relatedPages": ["how-to-play", "achievements", "leaderboards", "barkinmad-coins", "overview"],
+  "relatedLinks": [
+    {
+      "label": "How to Play",
+      "href": "/apps/zxbrick/how-to-play"
+    },
+    {
+      "label": "Overview",
+      "href": "/apps/zxbrick/overview"
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXBrick FAQ", "arcade questions", "game help"]
+}

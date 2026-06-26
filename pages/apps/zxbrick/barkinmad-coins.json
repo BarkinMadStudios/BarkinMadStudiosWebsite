@@ -1,0 +1,49 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "BarkinMad Coins in ZXBrick",
+  "seoTitle": "BarkinMad Coins | ZXBrick | BarkinMad Studios",
+  "description": "How shared BarkinMad Coins behavior is represented in ZXBrick, where gameplay rewards support unlock progression and shared cross-title rewards inside the ZX Series ecosystem.",
+  "summary": "BarkinMad Coins are shared within the ZX Series model and are used as a progression-oriented reward currency.",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "heroImageAlt": "BarkinMad Coins in ZXBrick",
+  "sourceNotes": [
+    "Based on pages/apps/zxbrick.json and /zx-series messaging.",
+    "Reward triggers, timing windows, and destination unlock targets are to verify with app source before final confirmation."
+  ],
+  "sections": [
+    {
+      "id": "what-is",
+      "heading": "What it is",
+      "paragraphs": [
+        "BarkinMad Coins are the shared progression token model across supported ZX Series titles.",
+        "In ZXBrick, they connect gameplay participation with broader unlock opportunities."
+      ]
+    },
+    {
+      "id": "how-it-helps",
+      "heading": "How it helps progression",
+      "paragraphs": [
+        "Treat coins as a long-term loop, not a one-off bonus.",
+        "When planning sessions, include coin progression in your weekly targets alongside levels and scores."
+      ]
+    }
+  ],
+  "relatedPages": ["achievements", "leaderboards", "overview"],
+  "relatedLinks": [
+    {
+      "label": "ZX Series",
+      "href": "/zx-series"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do BarkinMad Coins have real-world value?",
+      "answer": "BarkinMad Coins are documented as in-app progression currency and have no cash value."
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["BarkinMad Coins", "ZX Series wallet", "progression"]
+}

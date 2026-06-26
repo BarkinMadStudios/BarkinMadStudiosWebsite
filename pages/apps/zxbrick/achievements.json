@@ -1,0 +1,51 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXBrick Achievements",
+  "seoTitle": "ZXBrick Achievements | BarkinMad Studios",
+  "description": "Review the published ZXBrick achievement list and how to use it in replay loops.",
+  "summary": "Treat achievements as milestone anchors for short, measurable progress in replay sessions.",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "heroImageAlt": "ZXBrick achievements",
+  "sourceNotes": [
+    "Achievement names are taken from pages/apps/zxbrick.json.",
+    "Achievement IDs and unlock criteria are to verify from platform metadata.",
+    "Use this page as a systems reference until exact unlock thresholds are confirmed."
+  ],
+  "sections": [
+    {
+      "id": "available",
+      "heading": "Available achievements",
+      "paragraphs": [
+        "The current public site data includes milestone goals tied to game volume and brick completion milestones."
+      ],
+      "bullets": [
+        "Play 10 Games",
+        "Play 25 Games",
+        "Play 50 Games",
+        "Play 100 Games",
+        "Destroy 500 Bricks",
+        "Destroy 1000 Bricks"
+      ]
+    },
+    {
+      "id": "use-achievements",
+      "heading": "Use achievements in your schedule",
+      "paragraphs": [
+        "Pick one achievement target per session.",
+        "Use short sessions to hit each target with focused goal consistency."
+      ]
+    }
+  ],
+  "relatedPages": ["leaderboards", "tips-and-strategy", "barkinmad-coins", "how-to-play"],
+  "relatedLinks": [
+    {
+      "label": "Leaderboards",
+      "href": "/apps/zxbrick/leaderboards"
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXBrick achievements", "arcade milestones", "progress goals"]
+}
