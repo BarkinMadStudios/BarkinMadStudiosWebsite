@@ -81,14 +81,6 @@
   "appsTitle": "ZX Series Games",
   "sections": [
     {
-      "heading": "Available Games",
-      "paragraphs": [
-        "[ZXSnake](/apps/zxsnake) and [ZXBrick](/apps/zxbrick) are currently available as part of the ZX Series.",
-        "[ZXSnake](/apps/zxsnake) brings classic snake gameplay to modern mobile devices with achievements, leaderboards, AI opponents, local PVP, and online PVP.",
-        "[ZXBrick](/apps/zxbrick) delivers retro-inspired brick-breaking action with 100 handcrafted levels, power-ups, achievements, leaderboards, and unlockable content."
-      ]
-    },
-    {
       "heading": "Games In Development",
       "paragraphs": [
         "[ZXSpace](/apps/zxspace) and [ZXPong](/apps/zxpong) are part of the next stage of the ZX Series.",
