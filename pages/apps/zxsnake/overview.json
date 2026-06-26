@@ -1,0 +1,73 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXSnake Overview",
+  "seoTitle": "ZXSnake Overview | BarkinMad Studios",
+  "description": "An introduction to ZXSnake, its core loop, and how the game connects to the ZX Series.",
+  "summary": "ZXSnake is a ZX Spectrum-inspired arcade snake title with solo, AI, and multiplayer play across the ZX Series ecosystem.",
+  "heroImage": "apps/zxsnake/zxsnake-hero.png",
+  "heroImageAlt": "ZXSnake hero gameplay frame",
+  "sourceNotes": [
+    "Derived from pages/apps/zxsnake.json and confirmed overview assets.",
+    "Feature-specific implementation details should match final release play logs for exact balance values."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxsnake/zxsnake-hero.png",
+      "alt": "ZXSnake hero banner",
+      "purpose": "hero",
+      "width": 1871,
+      "height": 840,
+      "usage": ["docs", "website", "news"]
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-gameplay-01.png",
+      "alt": "ZXSnake gameplay state",
+      "purpose": "gameplay",
+      "width": 1206,
+      "height": 2622,
+      "usage": ["docs", "social", "website"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-zxsnake",
+      "heading": "What is ZXSnake?",
+      "paragraphs": [
+        "ZXSnake is the flagship title in the ZX Series and keeps classic snake gameplay simple, fast, and replayable.",
+        "The game combines solo and competitive match options with shared progression features used across the series."
+      ]
+    },
+    {
+      "id": "guide-structure",
+      "heading": "How this guide is organised",
+      "paragraphs": [
+        "Start with How to Play, then move through Controls and Game Modes before reading the progression pages.",
+        "Use Guide navigation on each page to move between sections quickly."
+      ]
+    },
+    {
+      "id": "series-context",
+      "heading": "Series context",
+      "paragraphs": [
+        "ZXSnake supports shared achievements, leaderboards, and BarkinMad Coins as part of the wider ZX Series.",
+        "This allows players to carry expectations across supported titles without changing conventions when moving between games."
+      ]
+    }
+  ],
+  "keywords": ["ZXSnake", "ZX Series", "snake game", "arcade", "iPhone", "BarkinMad Coins", "Game Center"],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["how-to-play", "controls", "game-modes", "leaderboards", "achievements", "tips-and-strategy"],
+  "relatedLinks": [
+    {
+      "label": "How to Play",
+      "href": "/apps/zxsnake/how-to-play"
+    },
+    {
+      "label": "Game Modes",
+      "href": "/apps/zxsnake/game-modes"
+    }
+  ]
+}

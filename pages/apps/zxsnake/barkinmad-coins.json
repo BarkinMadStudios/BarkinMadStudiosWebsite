@@ -1,0 +1,80 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "BarkinMad Coins",
+  "seoTitle": "ZXSnake BarkinMad Coins | BarkinMad Studios",
+  "description": "How BarkinMad Coins work in ZXSnake and how the shared ZX Series reward model is intended to be used.",
+  "summary": "Coins are a shared progression currency in the ZX Series with cosmetic and account-level utility.",
+  "heroImage": "apps/zxsnake/zxsnake-hero.png",
+  "heroImageAlt": "ZXSnake BarkinMad Coins page header",
+  "sourceNotes": [
+    "Only use wording that matches shipped reward behavior.",
+    "Update this page if coin source rates or unlock rules change in app releases."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxsnake/zxsnake-hero.png",
+      "alt": "ZXSnake BarkinMad Coins banner",
+      "purpose": "hero",
+      "width": 1871,
+      "height": 840,
+      "usage": ["docs", "website"]
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-barkinmad-coins.png",
+      "alt": "ZXSnake BarkinMad Coins screen",
+      "purpose": "doc",
+      "width": 1536,
+      "height": 1024,
+      "usage": ["docs", "website"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "What is the coin system?",
+      "paragraphs": [
+        "BarkinMad Coins are earned through gameplay and support unlock progression for cosmetic content.",
+        "The system is designed to be shared across supported ZX Series titles."
+      ]
+    },
+    {
+      "id": "wallet-and-carry",
+      "heading": "Shared progression model",
+      "paragraphs": [
+        "Coins are intended to move with the player profile in ways aligned with ZX Series design.",
+        "Use this as a long-term progression layer in addition to score and achievement goals."
+      ]
+    },
+    {
+      "id": "best-practice",
+      "heading": "Best practice",
+      "paragraphs": [
+        "Focus first on consistency and completion goals, then convert stronger play sessions into cosmetic unlock progress over time."
+      ]
+    }
+  ],
+  "imageSectionTitle": "BarkinMad Coins Reference",
+  "images": [
+    {
+      "src": "apps/zxsnake/zxsnake-barkinmad-coins.png",
+      "alt": "BarkinMad Coins rewards interface",
+      "caption": "Coin progression and shared-series context"
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["BarkinMad Coins", "ZX Series", "cosmetic unlocks", "progression", "ZXSnake", "rewards"],
+  "relatedPages": ["achievements", "leaderboards", "tips-and-strategy", "overview"],
+  "relatedLinks": [
+    {
+      "label": "BarkinMad Series",
+      "href": "/zx-series"
+    },
+    {
+      "label": "Achievements",
+      "href": "/apps/zxsnake/achievements"
+    }
+  ]
+}

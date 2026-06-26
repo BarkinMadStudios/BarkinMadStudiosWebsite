@@ -1,0 +1,96 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Leaderboards",
+  "seoTitle": "ZXSnake Leaderboards | BarkinMad Studios",
+  "description": "How leaderboard ranking is structured and how to use score comparisons effectively.",
+  "summary": "Leaderboards support score comparison and progression benchmarks.",
+  "heroImage": "apps/zxsnake/zxsnake-hero.png",
+  "heroImageAlt": "ZXSnake leaderboards hero",
+  "sourceNotes": [
+    "Published leaderboard category names should be aligned with current App Store / Game Center configuration.",
+    "Update if additional categories are introduced."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxsnake/zxsnake-hero.png",
+      "alt": "ZXSnake leaderboards banner",
+      "purpose": "hero",
+      "width": 1871,
+      "height": 840,
+      "usage": ["docs", "website"]
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-leaderboards.png",
+      "alt": "ZXSnake leaderboards screen",
+      "purpose": "doc",
+      "width": 1536,
+      "height": 1024,
+      "usage": ["docs", "website"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "how-to-rank",
+      "heading": "How ranking works",
+      "paragraphs": [
+        "Leaderboards compare score outcomes and let players benchmark against others.",
+        "Use these views to set concrete score targets for future sessions."
+      ],
+      "bullets": [
+        "Track your highest score session",
+        "Use leaderboard context to set a realistic next target",
+        "Return regularly to keep score targets fresh"
+      ]
+    },
+    {
+      "id": "recommended-workflow",
+      "heading": "Recommended workflow",
+      "paragraphs": [
+        "Review the board after each short block of sessions.",
+        "If your score dips, simplify goals and return to control-based practice."
+      ]
+    },
+    {
+      "id": "supported-categories",
+      "heading": "Supported categories",
+      "paragraphs": [
+        "The available categories and labels should match shipped game service settings.",
+        "Current documentation references the highest score category."
+      ]
+    }
+  ],
+  "imageSectionTitle": "Leaderboard Reference",
+  "images": [
+    {
+      "src": "apps/zxsnake/zxsnake-leaderboards.png",
+      "alt": "ZXSnake leaderboards list",
+      "caption": "Current leaderboard category example"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How often do leaderboards update?",
+      "answer": "The leaderboard updates after score submission from valid gameplay sessions."
+    },
+    {
+      "question": "What categories are shown in ZXSnake?",
+      "answer": "Current in-app labels should match the active Game Center category for ZXSnake."
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXSnake leaderboards", "highest score", "Game Center", "competitive play", "ranking"],
+  "relatedPages": ["achievements", "tips-and-strategy", "how-to-play"],
+  "relatedLinks": [
+    {
+      "label": "Tips & Strategy",
+      "href": "/apps/zxsnake/tips-and-strategy"
+    },
+    {
+      "label": "Achievements",
+      "href": "/apps/zxsnake/achievements"
+    }
+  ]
+}

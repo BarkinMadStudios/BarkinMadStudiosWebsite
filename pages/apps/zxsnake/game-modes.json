@@ -1,0 +1,85 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Game Modes",
+  "seoTitle": "ZXSnake Game Modes | BarkinMad Studios",
+  "description": "Understand the available ZXSnake play modes and choose the right structure for your session goal.",
+  "summary": "Play solo, train against AI, or compete in local and online PvP where supported.",
+  "heroImage": "apps/zxsnake/zxsnake-hero.png",
+  "heroImageAlt": "ZXSnake game mode reference",
+  "sourceNotes": [
+    "Mode availability is reflected from current published feature list.",
+    "Any future mode additions should be tracked in future changelog updates."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxsnake/zxsnake-hero.png",
+      "alt": "ZXSnake game mode banner",
+      "purpose": "hero",
+      "width": 1871,
+      "height": 840,
+      "usage": ["docs", "website"]
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-game-modes.png",
+      "alt": "ZXSnake game modes reference",
+      "purpose": "doc",
+      "width": 1536,
+      "height": 1024,
+      "usage": ["docs", "website"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "solo-play",
+      "heading": "Solo Play",
+      "paragraphs": [
+        "Solo mode is the baseline path for improving control, timing, and score consistency.",
+        "Use short sessions to build repeatable movement habits before pursuing larger score goals."
+      ]
+    },
+    {
+      "id": "ai-opponents",
+      "heading": "AI Opponents",
+      "paragraphs": [
+        "AI opponents offer an intermediate challenge for skill shaping when no second player is available.",
+        "Use AI to test pressure handling and route planning under competitive-like conditions."
+      ]
+    },
+    {
+      "id": "pvp-modes",
+      "heading": "PvP",
+      "paragraphs": [
+        "PVP mode introduces direct competition and score pressure.",
+        "Local multiplayer and online modes support faster learning through short replay cycles."
+      ],
+      "bullets": [
+        "Choose PvP when you want pressure-focused sessions",
+        "Use solo mode first if your control loop is still stabilising"
+      ]
+    }
+  ],
+  "imageSectionTitle": "Game Mode Visual",
+  "images": [
+    {
+      "src": "apps/zxsnake/zxsnake-game-modes.png",
+      "alt": "ZXSnake game mode options",
+      "caption": "Mode selection and gameplay variations"
+    }
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXSnake", "game modes", "AI", "local PvP", "online PvP", "arcade"],
+  "relatedPages": ["how-to-play", "controls", "leaderboards", "tips-and-strategy"],
+  "relatedLinks": [
+    {
+      "label": "Leaderboards",
+      "href": "/apps/zxsnake/leaderboards"
+    },
+    {
+      "label": "Tips & Strategy",
+      "href": "/apps/zxsnake/tips-and-strategy"
+    }
+  ]
+}

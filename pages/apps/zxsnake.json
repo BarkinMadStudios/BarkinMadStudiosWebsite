@@ -2,7 +2,7 @@
   "title": "ZXSnake",
   "tagline": "Retro arcade snake action",
   "hero": {
-    "image": "/images/zx-series-bg-banner.png",
+    "image": "/images/retro-banner.png",
     "alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
   },
   "shortDescription": "Inspired by classic 1980s gaming.",
@@ -10,12 +10,12 @@
   "status": "Live",
   "appStoreUrl": "https://apps.apple.com/app/apple-store/id6770932739?pt=128083426&ct=website&mt=8",
   "testFlightUrl": "",
-  "icon": "apps/zxsnake/zxsnake.png",
+  "icon": "apps/zxsnake/zxsnake-icon.png",
   "heroImage": "apps/zxsnake/zxsnake-hero.png",
   "screenshots": [
     {
       "image": "apps/zxsnake/zxsnake-gameplay-01.png",
-      "caption": "loading"
+      "caption": "Loading Screen"
     },
     {
       "image": "apps/zxsnake/zxsnake-gameplay-02.png",
@@ -23,7 +23,7 @@
     },
     {
       "image": "apps/zxsnake/zxsnake-gameplay-03.png",
-      "caption": "Solo Play"
+      "caption": "Gameplay"
     }
   ],
   "features": [
@@ -70,6 +70,53 @@
     {
       "question": "Can ZXSnake use BarkinMad Coins?",
       "answer": "Yes. ZXSnake supports [BarkinMad Coins](/zx-series) as a gameplay reward system for cosmetic unlocks across supported BarkinMad Studios games."
+    }
+  ],
+  "documentationLinks": [
+    {
+      "label": "App Overview",
+      "href": "/apps/zxsnake/overview",
+      "description": "Start here for the guide structure and overall ZXSnake gameplay flow."
+    },
+    {
+      "label": "How to Play",
+      "href": "/apps/zxsnake/how-to-play",
+      "description": "Learn the basic objective, controls, and core run structure."
+    },
+    {
+      "label": "Controls",
+      "href": "/apps/zxsnake/controls",
+      "description": "Find practical input guidance for stable snake control."
+    },
+    {
+      "label": "Game Modes",
+      "href": "/apps/zxsnake/game-modes",
+      "description": "Compare solo, AI, and PvP options and when to use each."
+    },
+    {
+      "label": "BarkinMad Coins",
+      "href": "/apps/zxsnake/barkinmad-coins",
+      "description": "Understand how shared currency progress works across the ZX Series."
+    },
+    {
+      "label": "Achievements",
+      "href": "/apps/zxsnake/achievements",
+      "description": "Review reward milestones and practical progression habits."
+    },
+    {
+      "label": "Leaderboards",
+      "href": "/apps/zxsnake/leaderboards",
+      "description": "Understand score ranking and competitive comparison."
+    },
+    {
+      "label": "Tips & Strategy",
+      "href": "/apps/zxsnake/tips-and-strategy",
+      "description": "Practical tips to improve consistency and score quality."
+    },
+    {
+      "label": "FAQ",
+      "href": "/apps/zxsnake/frequently-asked-questions",
+      "description": "Quick answers to common ZXSnake questions."
     }
   ],
   "lastUpdated": "2026-06-07"

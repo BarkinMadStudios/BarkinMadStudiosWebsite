@@ -1,0 +1,78 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXSnake Controls",
+  "seoTitle": "ZXSnake Controls | BarkinMad Studios",
+  "description": "Practical control guidance for building stable movement patterns across all ZXSnake sessions.",
+  "summary": "Controlled direction changes and consistent rhythm are the biggest drivers of longer runs.",
+  "heroImage": "apps/zxsnake/zxsnake-hero.png",
+  "heroImageAlt": "ZXSnake control reference",
+  "sourceNotes": [
+    "Control mapping terminology uses shipped platform terminology where available; verify exact layout before freezing.",
+    "This page intentionally avoids undocumented micro-tuning details."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxsnake/zxsnake-hero.png",
+      "alt": "ZXSnake control-focused scene",
+      "purpose": "hero",
+      "width": 1871,
+      "height": 840,
+      "usage": ["docs", "website"]
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-controls.png",
+      "alt": "ZXSnake controls reference image",
+      "purpose": "doc",
+      "width": 1536,
+      "height": 1024,
+      "usage": ["docs", "website"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "input-basics",
+      "heading": "Input basics",
+      "paragraphs": [
+        "Keep direction changes clean and deliberate.",
+        "Small corrective inputs usually perform better than aggressive, frequent changes."
+      ]
+    },
+    {
+      "id": "consistency-habits",
+      "heading": "Consistency habits",
+      "paragraphs": [
+        "Use shorter sessions to test a single control habit before extending game duration.",
+        "If performance drops, reset your pace and re-establish a simple rhythm."
+      ],
+      "bullets": [
+        "Use a stable start setup",
+        "Avoid over-correcting near tight turns",
+        "Focus on reading movement intent before reacting"
+      ]
+    }
+  ],
+  "imageSectionTitle": "Control Reference",
+  "images": [
+    {
+      "src": "apps/zxsnake/zxsnake-controls.png",
+      "alt": "ZXSnake controls",
+      "caption": "Reference image for control rhythm and screen layout"
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXSnake controls", "touch controls", "arcade controls", "iPhone"],
+  "relatedPages": ["how-to-play", "game-modes", "tips-and-strategy"],
+  "relatedLinks": [
+    {
+      "label": "How to Play",
+      "href": "/apps/zxsnake/how-to-play"
+    },
+    {
+      "label": "Tips & Strategy",
+      "href": "/apps/zxsnake/tips-and-strategy"
+    }
+  ]
+}
