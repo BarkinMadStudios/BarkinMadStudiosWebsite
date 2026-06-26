@@ -1,0 +1,58 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXPong Tips & Strategy",
+  "seoTitle": "ZXPong Tips & Strategy | BarkinMad Studios",
+  "description": "Practical ZXPong tips for steadier paddle movement, cleaner returns, longer rallies, and better Solo or World PVP sessions.",
+  "summary": "Good ZXPong strategy starts with early paddle movement, controlled returns, and repeatable rally habits.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending ZXPong strategy image",
+  "sourceNotes": [
+    "Strategy guidance is limited to behavior supported by current gameplay rules and source-level progression.",
+    "Detailed advanced tactics are To Verify after wider release testing."
+  ],
+  "sections": [
+    {
+      "id": "start-with-control",
+      "heading": "Start with control",
+      "paragraphs": [
+        "The best early improvement comes from reducing panic movement.",
+        "Keep the paddle close to likely return lanes and make smaller corrections as the ball angle becomes clear."
+      ]
+    },
+    {
+      "id": "build-longer-rallies",
+      "heading": "Build longer rallies",
+      "paragraphs": [
+        "Longest Rally is a documented ZXPong ranking focus, so stable returns matter more than risky angle hunting.",
+        "If a rally becomes fast, prioritize getting the ball back safely before trying to force a sharper return."
+      ],
+      "bullets": [
+        "Watch the ball path before moving fully",
+        "Recover toward center after each return",
+        "Practice on lower AI levels before increasing difficulty"
+      ]
+    },
+    {
+      "id": "use-progression",
+      "heading": "Use progression goals",
+      "paragraphs": [
+        "Use achievements and coin progression as secondary goals while your main practice focus stays on paddle consistency.",
+        "Cosmetic unlocks are useful long-term targets, but they should not distract from learning the timing rhythm."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for ZXPong strategy",
+      "caption": "Strategy artwork pending"
+    }
+  ],
+  "imageSectionTitle": "Strategy Images",
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXPong", "strategy", "rallies", "paddle control", "World PVP"],
+  "relatedPages": ["controls", "how-to-play", "game-modes", "achievements", "leaderboards"]
+}

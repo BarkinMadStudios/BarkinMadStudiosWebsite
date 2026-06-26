@@ -1,0 +1,45 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXPong Screenshots",
+  "seoTitle": "ZXPong Screenshots | BarkinMad Studios",
+  "description": "A ZXPong screenshot gallery using current available gameplay and release artwork, with placeholder support for pending page-specific images.",
+  "shortDescription": "ZXPong screenshot gallery",
+  "summary": "A visual reference gallery for ZXPong.",
+  "heroImage": "apps/zxpong/zxpong-gameplay-01.png",
+  "heroImageAlt": "ZXPong gameplay screenshot",
+  "images": [
+    {
+      "src": "apps/zxpong/zxpong-gameplay-01.png",
+      "alt": "ZXPong gameplay screenshot",
+      "caption": "Existing gameplay screenshot"
+    },
+    {
+      "src": "apps/zxpong/zxpong-hero.png",
+      "alt": "ZXPong hero artwork",
+      "caption": "Hero artwork"
+    },
+    {
+      "src": "apps/zxpong/zxpong.png",
+      "alt": "ZXPong artwork",
+      "caption": "Existing ZXPong artwork"
+    }
+  ],
+  "screenshotSectionTitle": "Screenshots",
+  "imageSectionTitle": "Screenshots",
+  "estimatedReadTimeMinutes": 1,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "sections": [
+    {
+      "id": "screenshot-gallery",
+      "heading": "Screenshot Gallery",
+      "paragraphs": [
+        "This gallery uses the ZXPong images already available in the website repository.",
+        "Additional release screenshots can replace placeholder artwork elsewhere in the guide when final images are approved."
+      ]
+    }
+  ],
+  "keywords": ["ZXPong", "screenshots", "gameplay", "ZX Series"],
+  "relatedPages": ["overview", "guide"]
+}

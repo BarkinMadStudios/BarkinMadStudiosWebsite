@@ -1,0 +1,45 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXPong Leaderboards",
+  "seoTitle": "ZXPong Leaderboards | BarkinMad Studios",
+  "description": "Understand known ZXPong leaderboard surfaces, including Longest Rally and shared ZX Series score and coin rankings.",
+  "summary": "ZXPong leaderboard planning focuses on rally consistency and shared ZX Series progression surfaces.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending ZXPong leaderboard image",
+  "sourceNotes": [
+    "Current central ZX Series manifest identifies Longest Rally as the submitted ZXPong app leaderboard.",
+    "Highest Score remains a preserved source constant but is not documented as an active submitted app leaderboard here."
+  ],
+  "sections": [
+    {
+      "id": "known-leaderboards",
+      "heading": "Known leaderboards",
+      "paragraphs": [
+        "Current ZXPong documentation and source identify Longest Rally as the app-specific leaderboard surface.",
+        "ZXPong also participates in shared ZX Series leaderboard surfaces such as total score and total coins through the shared Retro leaderboard model."
+      ]
+    },
+    {
+      "id": "how-to-improve",
+      "heading": "How to improve",
+      "paragraphs": [
+        "For Longest Rally, prioritize safe returns and predictable paddle recovery.",
+        "Treat each session as a consistency attempt: the best leaderboard work usually comes from keeping several rallies stable rather than overplaying the first return."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for ZXPong leaderboards",
+      "caption": "Leaderboard artwork pending"
+    }
+  ],
+  "imageSectionTitle": "Leaderboard Images",
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXPong", "leaderboards", "Longest Rally", "Game Center", "ZX Series"],
+  "relatedPages": ["achievements", "how-to-play", "tips-and-strategy", "barkinmad-coins"]
+}

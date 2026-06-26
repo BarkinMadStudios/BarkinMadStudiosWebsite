@@ -6,7 +6,7 @@
     "alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
   },
   "shortDescription": "Inspired by classic 1980s space shooters.",
-  "description": "ZXSpace is part of the [ZX Series](/zx-series), a retro-inspired arcade space shooter featuring fast paced gameplay, enemy waves, unlockable upgrades, achievements, and classic 1980s inspired visuals.",
+  "description": "ZXSpace is part of the [ZX Series](/zx-series), a retro-inspired city-defence formation shooter featuring alien waves, shield and city damage, power-up drops, unlockable cannon skins, achievements, leaderboards, and classic arcade visuals.",
   "status": "Coming Soon",
   "appStoreUrl": "",
   "testFlightUrl": "",
@@ -19,16 +19,20 @@
     }
   ],
   "features": [
-    "Retro-inspired space shooter gameplay",
-    "Defend Earth from invading alien forces",
-    "Multiple enemy types",
-    "Epic boss battles",
+    "Retro-inspired city-defence formation shooter gameplay",
+    "Defend the city from invading alien waves",
+    "Multiple alien rows with different score values",
+    "UFO bonus target",
+    "Touch-and-drag cannon movement",
+    "Continuous auto-fire",
+    "Segmented shield defence",
+    "City damage and restoration through rewarded continue",
+    "Double Laser and Shield Repair power-up drops",
+    "Wave completion coin rewards",
     "Unlockable ship skins",
-    "Multiple visual themes",
     "BarkinMad Coins for cross-game cosmetic unlocks",
     "Game Center achievements",
     "Game Center leaderboards",
-    "Global high score competition",
     "32 language support",
     "Classic arcade visuals"
   ],
@@ -36,13 +40,11 @@
     "Play 10 Games",
     "Play 25 Games",
     "Play 50 Games",
-    "Play 100 Games",
-    "Destroy 100 Enemies",
-    "Destroy 500 Enemies",
-    "Survive 5 Waves"
+    "Play 100 Games"
   ],
   "leaderboards": [
-    "Highest Score"
+    "Highest Score",
+    "ZX Series Total Score"
   ],
   "barkinMadCoins": {
     "enabled": true,
@@ -54,5 +56,51 @@
   "version": "0.1",
   "genre": "Arcade",
   "developer": "BarkinMad Studios",
-  "lastUpdated": "2026-06-07"
+  "lastUpdated": "2026-06-26",
+  "documentationLinks": [
+    {
+      "label": "Overview",
+      "href": "/apps/zxspace/overview"
+    },
+    {
+      "label": "How to Play",
+      "href": "/apps/zxspace/how-to-play"
+    },
+    {
+      "label": "Controls",
+      "href": "/apps/zxspace/controls"
+    },
+    {
+      "label": "Game Modes",
+      "href": "/apps/zxspace/game-modes"
+    },
+    {
+      "label": "BarkinMad Coins",
+      "href": "/apps/zxspace/barkinmad-coins"
+    },
+    {
+      "label": "Achievements",
+      "href": "/apps/zxspace/achievements"
+    },
+    {
+      "label": "Leaderboards",
+      "href": "/apps/zxspace/leaderboards"
+    },
+    {
+      "label": "Tips & Strategy",
+      "href": "/apps/zxspace/tips-and-strategy"
+    },
+    {
+      "label": "FAQ",
+      "href": "/apps/zxspace/frequently-asked-questions"
+    },
+    {
+      "label": "Guide",
+      "href": "/apps/zxspace/guide"
+    },
+    {
+      "label": "Screenshots",
+      "href": "/apps/zxspace/screenshots"
+    }
+  ]
 }

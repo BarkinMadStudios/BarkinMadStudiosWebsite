@@ -1,0 +1,54 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXPong Achievements",
+  "seoTitle": "ZXPong Achievements | BarkinMad Studios",
+  "description": "Review known ZXPong achievement milestones for repeat play, Solo wins, hard AI wins, and rally consistency.",
+  "summary": "ZXPong achievements reward repeat sessions, Solo wins, hard AI success, and long rallies.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending ZXPong achievements image",
+  "sourceNotes": [
+    "Achievement IDs are derived from current ZXPong source constants.",
+    "Display names in App Store Connect are To Verify before public release."
+  ],
+  "sections": [
+    {
+      "id": "known-achievements",
+      "heading": "Known achievements",
+      "paragraphs": [
+        "Current ZXPong source includes play-count achievement definitions and specific Solo/rally milestone constants.",
+        "Use this page as a practical planning guide until final public Game Center display names are verified."
+      ],
+      "bullets": [
+        "Play 10 games",
+        "Play 25 games",
+        "Play 50 games",
+        "Play 100 games",
+        "First Solo win",
+        "Hard Solo win",
+        "20-rally milestone"
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning progress",
+      "paragraphs": [
+        "For repeat-play milestones, keep sessions short and consistent rather than trying to force every goal in one long run.",
+        "For Solo and rally achievements, use AI difficulty settings to practice timing before attempting harder goals."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for ZXPong achievements",
+      "caption": "Achievements artwork pending"
+    }
+  ],
+  "imageSectionTitle": "Achievement Images",
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXPong", "achievements", "Game Center", "rally", "Solo win"],
+  "relatedPages": ["leaderboards", "how-to-play", "tips-and-strategy", "barkinmad-coins"]
+}

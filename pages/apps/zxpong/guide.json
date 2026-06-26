@@ -1,0 +1,64 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXPong Guide",
+  "seoTitle": "ZXPong Guide | BarkinMad Studios",
+  "description": "Complete ZXPong guide covering the release-facing match loop, controls, Solo play, World PVP, coins, achievements, and leaderboards.",
+  "summary": "A compact ZXPong guide for players while the app is Awaiting App Store approval.",
+  "heroImage": "apps/zxpong/zxpong-hero.png",
+  "heroImageAlt": "ZXPong guide hero artwork",
+  "sourceNotes": [
+    "Compiled from the ZXPong v1.1 documentation pages in this rollout.",
+    "Public status is Awaiting App Store approval. Final App Store metadata remains To Verify after Apple approval."
+  ],
+  "sections": [
+    {
+      "id": "start",
+      "heading": "Start here",
+      "paragraphs": [
+        "ZXPong is a short-session arcade paddle game: defend your side, return the ball, and build longer rallies.",
+        "For the current release-facing build, focus on Solo play and World PVP. Local PVP is not advertised here because it is hidden by the current release flag."
+      ]
+    },
+    {
+      "id": "core-path",
+      "heading": "Core guide path",
+      "paragraphs": [
+        "Read How to Play for the match loop, Controls for paddle discipline, and Game Modes for release-facing mode status.",
+        "After that, use Coins, Achievements, Leaderboards, and Tips & Strategy to plan repeat sessions."
+      ],
+      "bullets": [
+        "How to Play: goal, session flow, scoring, and rallies",
+        "Controls: paddle movement, positioning, and timing",
+        "Game Modes: Solo play, World PVP, and Local PVP status",
+        "Progression: BarkinMad Coins, achievements, leaderboards, and skins"
+      ]
+    },
+    {
+      "id": "release-check",
+      "heading": "Release check",
+      "paragraphs": [
+        "This documentation is ready for release while ZXPong is Awaiting App Store approval, with only final approval-dependent metadata or artwork updates expected.",
+        "Pages that lack final artwork use the shared placeholder until replacement ZXPong-specific images are available."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "apps/zxpong/zxpong-gameplay-01.png",
+      "alt": "ZXPong gameplay screenshot",
+      "caption": "Existing ZXPong gameplay artwork"
+    },
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for pending ZXPong documentation images",
+      "caption": "Shared placeholder used for pending page artwork"
+    }
+  ],
+  "imageSectionTitle": "Guide Images",
+  "estimatedReadTimeMinutes": 8,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXPong", "guide", "World PVP", "BarkinMad Coins", "Game Center"],
+  "relatedPages": ["overview", "how-to-play", "controls", "game-modes", "tips-and-strategy", "frequently-asked-questions"]
+}

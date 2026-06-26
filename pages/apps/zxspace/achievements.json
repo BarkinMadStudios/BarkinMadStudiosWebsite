@@ -1,0 +1,51 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXSpace Achievements",
+  "seoTitle": "ZXSpace Achievements | BarkinMad Studios",
+  "description": "Review known ZXSpace Game Center achievement milestones for repeat play and plan progress around supported play-count goals.",
+  "summary": "ZXSpace achievements currently reward repeat sessions through known play-count milestones.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending ZXSpace achievements image",
+  "sourceNotes": [
+    "Achievement IDs are derived from current ZXSpace source constants.",
+    "Older website metadata listed enemy and wave achievements, but current source constants only verify play-count achievements."
+  ],
+  "sections": [
+    {
+      "id": "known-achievements",
+      "heading": "Known achievements",
+      "paragraphs": [
+        "Current ZXSpace source includes Game Center play-count achievement definitions.",
+        "Use this page as a practical planning guide until final public Game Center display names are verified."
+      ],
+      "bullets": [
+        "Play 10 games",
+        "Play 25 games",
+        "Play 50 games",
+        "Play 100 games"
+      ]
+    },
+    {
+      "id": "planning",
+      "heading": "Planning progress",
+      "paragraphs": [
+        "For repeat-play milestones, focus on clean short sessions and steady learning rather than forcing one long run.",
+        "Use each run to improve one habit: cannon positioning, shield preservation, UFO timing, or power-up collection."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for ZXSpace achievements",
+      "caption": "Achievements artwork pending"
+    }
+  ],
+  "imageSectionTitle": "Achievement Images",
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXSpace", "achievements", "Game Center", "play count"],
+  "relatedPages": ["leaderboards", "how-to-play", "tips-and-strategy", "barkinmad-coins"]
+}

@@ -1,0 +1,68 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXSpace Controls",
+  "seoTitle": "ZXSpace Controls | BarkinMad Studios",
+  "description": "Understand ZXSpace touch-and-drag cannon movement, continuous auto-fire, horizontal positioning, and practical aiming habits.",
+  "summary": "ZXSpace control is about smooth cannon movement, lane prediction, and staying ready for alien fire and power-up drops.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending ZXSpace controls image",
+  "sourceNotes": [
+    "Derived from current ZXSpace source behavior and ZXSPACE-IMPL-CONTROLS-001 release notes.",
+    "A final controls screenshot is pending and currently uses the shared placeholder."
+  ],
+  "imageMetadata": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "ZXSpace controls placeholder",
+      "purpose": "doc",
+      "width": 1774,
+      "height": 887,
+      "usage": ["docs"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "basic-input",
+      "heading": "Basic input",
+      "paragraphs": [
+        "Drag horizontally to move the cannon along the lower playfield.",
+        "The current source uses continuous auto-fire, so your main control job is positioning rather than tapping every shot."
+      ]
+    },
+    {
+      "id": "positioning",
+      "heading": "Positioning",
+      "paragraphs": [
+        "Keep the cannon under useful firing lanes and move early when the alien formation shifts.",
+        "Avoid overcommitting to one side unless a high-value target, power-up, or immediate threat makes it worthwhile."
+      ],
+      "bullets": [
+        "Track the formation direction before moving",
+        "Stay near lanes with clustered aliens",
+        "Leave room to dodge alien fire and collect power-ups"
+      ]
+    },
+    {
+      "id": "auto-fire",
+      "heading": "Auto-fire rhythm",
+      "paragraphs": [
+        "Because the cannon fires automatically, good aim comes from staying in the right lane long enough for shots to connect.",
+        "Double Laser increases shot coverage for a limited time, making calm positioning even more useful."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for ZXSpace controls",
+      "caption": "Controls artwork pending"
+    }
+  ],
+  "imageSectionTitle": "Controls Images",
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXSpace", "controls", "touch controls", "auto-fire", "cannon movement"],
+  "relatedPages": ["how-to-play", "game-modes", "tips-and-strategy"]
+}

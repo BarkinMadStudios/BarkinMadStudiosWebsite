@@ -1,0 +1,58 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXSpace Tips & Strategy",
+  "seoTitle": "ZXSpace Tips & Strategy | BarkinMad Studios",
+  "description": "Practical ZXSpace tips for steadier cannon movement, shield preservation, UFO timing, power-up use, and higher scores.",
+  "summary": "Good ZXSpace strategy starts with controlled cannon movement, shield discipline, and clearing waves without exposing the city.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending ZXSpace strategy image",
+  "sourceNotes": [
+    "Strategy guidance is limited to behavior supported by current gameplay rules, source, and TestFlight notes.",
+    "Detailed advanced tactics are To Verify after wider release testing."
+  ],
+  "sections": [
+    {
+      "id": "protect-the-city",
+      "heading": "Protect the city",
+      "paragraphs": [
+        "Survival depends on more than shooting aliens quickly. The city and shield line buy time, and losing that protection makes later waves harder.",
+        "Move early enough to clear lanes before aliens descend into dangerous positions."
+      ]
+    },
+    {
+      "id": "use-the-shields",
+      "heading": "Use the shields",
+      "paragraphs": [
+        "Shields absorb alien fire and alien overlap damage, but they are segmented and can be worn down.",
+        "Do not treat shields as permanent cover. Use them to recover position, then move back into useful firing lanes."
+      ],
+      "bullets": [
+        "Repair damaged shield segments when Shield Repair appears",
+        "Avoid letting aliens overlap shield segments repeatedly",
+        "Keep enough distance between the formation and the city"
+      ]
+    },
+    {
+      "id": "score-better",
+      "heading": "Score better",
+      "paragraphs": [
+        "Top-row aliens are worth more than lower rows, and UFO targets are useful bonus-score opportunities.",
+        "Double Laser is best used for clearing clustered aliens or catching up when the formation starts to press downward."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for ZXSpace strategy",
+      "caption": "Strategy artwork pending"
+    }
+  ],
+  "imageSectionTitle": "Strategy Images",
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXSpace", "strategy", "city defence", "shields", "UFO", "power-ups"],
+  "relatedPages": ["controls", "how-to-play", "game-modes", "achievements", "leaderboards"]
+}

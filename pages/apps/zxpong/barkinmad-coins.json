@@ -1,0 +1,65 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "BarkinMad Coins in ZXPong",
+  "seoTitle": "BarkinMad Coins | ZXPong | BarkinMad Studios",
+  "description": "How BarkinMad Coins work with ZXPong sessions, collectible court coins, cosmetic unlocks, and shared ZX Series wallet progression.",
+  "summary": "BarkinMad Coins connect ZXPong gameplay rewards with shared ZX Series progression and cosmetic unlocks.",
+  "heroImage": "images/shared/barkinmadcoins.png",
+  "heroImageAlt": "BarkinMad Coins shared ZX Series documentation asset",
+  "images": [
+    {
+      "src": "images/shared/barkinmadcoins.png",
+      "alt": "BarkinMad Coins shared ZX Series reference",
+      "caption": "Shared BarkinMad Coins artwork"
+    }
+  ],
+  "imageSectionTitle": "BarkinMad Coins Images",
+  "sourceNotes": [
+    "Uses the shared `images/shared/barkinmadcoins.png` asset requested for this rollout.",
+    "Coin reward amounts and final release wording are To Verify after Apple approval."
+  ],
+  "sections": [
+    {
+      "id": "what-is",
+      "heading": "What it is",
+      "paragraphs": [
+        "BarkinMad Coins are the shared progression currency model used across supported ZX Series games.",
+        "In ZXPong, coins support long-term progression and cosmetic unlocks such as paddle skins."
+      ]
+    },
+    {
+      "id": "how-zxpong-uses-coins",
+      "heading": "How ZXPong uses coins",
+      "paragraphs": [
+        "Current ZXPong source includes collectible court coins and Solo reward calculations based on match results, AI difficulty, and longest rally.",
+        "The app also uses the shared ZX wallet, so coin balance is part of the wider ZX Series progression surface."
+      ]
+    },
+    {
+      "id": "cosmetic-unlocks",
+      "heading": "Cosmetic unlocks",
+      "paragraphs": [
+        "ZXPong includes unlockable paddle skins. Classic is the default skin, with additional skins unlocked through coins.",
+        "Known skin names in source are Classic, Red, Neon, Cyanic, Golden, and Obsidian."
+      ]
+    }
+  ],
+  "relatedPages": ["achievements", "leaderboards", "overview", "tips-and-strategy"],
+  "relatedLinks": [
+    {
+      "label": "ZX Series",
+      "href": "/zx-series"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do BarkinMad Coins have real-world value?",
+      "answer": "No. BarkinMad Coins are in-app progression currency and have no cash value."
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["BarkinMad Coins", "ZXPong", "ZX Series wallet", "cosmetic unlocks", "paddle skins"]
+}

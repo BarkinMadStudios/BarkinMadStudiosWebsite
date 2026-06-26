@@ -1,0 +1,65 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "BarkinMad Coins in ZXSpace",
+  "seoTitle": "BarkinMad Coins | ZXSpace | BarkinMad Studios",
+  "description": "How BarkinMad Coins work with ZXSpace wave rewards, cosmetic skin unlocks, shared wallet progression, and ZX Series support.",
+  "summary": "BarkinMad Coins connect ZXSpace wave rewards with shared ZX Series progression and cosmetic unlocks.",
+  "heroImage": "images/shared/barkinmadcoins.png",
+  "heroImageAlt": "BarkinMad Coins shared ZX Series documentation asset",
+  "images": [
+    {
+      "src": "images/shared/barkinmadcoins.png",
+      "alt": "BarkinMad Coins shared ZX Series reference",
+      "caption": "Shared BarkinMad Coins artwork"
+    }
+  ],
+  "imageSectionTitle": "BarkinMad Coins Images",
+  "sourceNotes": [
+    "Uses the shared `images/shared/barkinmadcoins.png` asset requested for this rollout.",
+    "Coin reward amounts and final release wording are To Verify before public release."
+  ],
+  "sections": [
+    {
+      "id": "what-is",
+      "heading": "What it is",
+      "paragraphs": [
+        "BarkinMad Coins are the shared progression currency model used across supported ZX Series games.",
+        "In ZXSpace, coins support long-term progression and cosmetic unlocks such as cannon skins."
+      ]
+    },
+    {
+      "id": "how-zxspace-uses-coins",
+      "heading": "How ZXSpace uses coins",
+      "paragraphs": [
+        "Current ZXSpace source awards coins when waves are completed and syncs the balance through the shared ZX wallet.",
+        "Alien and UFO kills award score, while coin rewards are handled separately so score chasing and wallet progression remain distinct."
+      ]
+    },
+    {
+      "id": "cosmetic-unlocks",
+      "heading": "Cosmetic unlocks",
+      "paragraphs": [
+        "ZXSpace includes unlockable cannon skins. Classic is the default skin, with additional skins unlocked through coins.",
+        "Known skin names in source are Classic, Red, Neon, Cyanic, Golden, and Obsidian."
+      ]
+    }
+  ],
+  "relatedPages": ["achievements", "leaderboards", "overview", "tips-and-strategy"],
+  "relatedLinks": [
+    {
+      "label": "ZX Series",
+      "href": "/zx-series"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do BarkinMad Coins have real-world value?",
+      "answer": "No. BarkinMad Coins are in-app progression currency and have no cash value."
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["BarkinMad Coins", "ZXSpace", "ZX Series wallet", "cosmetic unlocks", "cannon skins"]
+}

@@ -1,0 +1,55 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Frequently Asked Questions",
+  "seoTitle": "ZXPong FAQ | BarkinMad Studios",
+  "description": "Answers to common ZXPong questions about release status, controls, Solo play, World PVP, Local PVP, coins, and leaderboards.",
+  "summary": "Quick ZXPong answers for release-ready player support.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending ZXPong FAQ image",
+  "sourceNotes": [
+    "FAQ answers are based on current ZXPong source and website metadata.",
+    "Public status is Awaiting App Store approval. Final public App Store URL is To Verify after Apple approval."
+  ],
+  "sections": [
+    {
+      "id": "faq-overview",
+      "heading": "FAQ overview",
+      "paragraphs": [
+        "This page collects release-ready answers for the most common ZXPong support questions.",
+        "Approval-dependent App Store details should be checked again once Apple completes review."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is ZXPong live on the App Store?",
+      "answer": "No. ZXPong is Awaiting App Store approval, and no download button should be shown until Apple approval and the public App Store URL are confirmed."
+    },
+    {
+      "question": "What modes are documented for release?",
+      "answer": "Solo play and World PVP are documented. Local PVP is retained in code but hidden from the current release-facing menu."
+    },
+    {
+      "question": "Does ZXPong use BarkinMad Coins?",
+      "answer": "Yes. ZXPong uses the shared ZX Series wallet model and includes coin-based cosmetic progression."
+    },
+    {
+      "question": "What leaderboard should players focus on?",
+      "answer": "Current central documentation identifies Longest Rally as the ZXPong app-specific leaderboard focus, with shared ZX Series score and coin leaderboards also available through the shared leaderboard model."
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for ZXPong FAQ",
+      "caption": "FAQ artwork pending"
+    }
+  ],
+  "imageSectionTitle": "FAQ Images",
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXPong", "FAQ", "World PVP", "BarkinMad Coins", "leaderboards"],
+  "relatedPages": ["overview", "game-modes", "barkinmad-coins", "leaderboards"]
+}

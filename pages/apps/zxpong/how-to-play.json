@@ -1,0 +1,78 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "How to Play ZXPong",
+  "seoTitle": "How to Play ZXPong | BarkinMad Studios",
+  "description": "Learn the ZXPong session loop, rally scoring rhythm, paddle goal, and release-facing flow for Solo and World PVP play.",
+  "summary": "ZXPong is built around defending your paddle, returning the ball, extending rallies, and improving match consistency.",
+  "heroImage": "apps/zxpong/zxpong-gameplay-01.png",
+  "heroImageAlt": "ZXPong gameplay screenshot",
+  "sourceNotes": [
+    "Derived from current ZXPong gameplay rules, source constants, and progression helper.",
+    "Exact App Store release copy is To Verify after Apple approval."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxpong/zxpong-gameplay-01.png",
+      "alt": "ZXPong gameplay reference",
+      "purpose": "gameplay",
+      "width": 1242,
+      "height": 2688,
+      "usage": ["docs", "website", "social"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "goal",
+      "heading": "Goal",
+      "paragraphs": [
+        "Move your paddle to defend your side, return the ball, and keep each rally alive for as long as possible.",
+        "Longer rallies improve the quality of a session because ZXPong tracks rally performance alongside score and match outcomes."
+      ]
+    },
+    {
+      "id": "session-flow",
+      "heading": "Session flow",
+      "paragraphs": [
+        "A normal session starts from the menu, enters the selected mode, runs through the pre-game countdown, and then moves into active paddle play.",
+        "After a match ends, use the game-over flow to review rewards, coins, and next steps before starting again or returning to the menu."
+      ],
+      "bullets": [
+        "Choose Solo play for practice against AI difficulty levels",
+        "Choose World PVP when you want the visible release-facing multiplayer route",
+        "Use each rally to practice controlled paddle positioning rather than only chasing the ball late"
+      ]
+    },
+    {
+      "id": "scoring-and-rallies",
+      "heading": "Scoring and rallies",
+      "paragraphs": [
+        "ZXPong rewards successful returns and uses rally length as a practical measure of consistency.",
+        "In Solo play, progression rewards are calculated from match summary details such as win state, AI difficulty, arcade score, and longest rally."
+      ]
+    }
+  ],
+  "imageSectionTitle": "How to Play Images",
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for pending ZXPong how-to-play image",
+      "caption": "How-to-play artwork pending"
+    }
+  ],
+  "estimatedReadTimeMinutes": 4,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXPong", "how to play", "rallies", "paddle controls", "Solo play", "World PVP"],
+  "relatedPages": ["controls", "game-modes", "tips-and-strategy", "achievements", "leaderboards"],
+  "relatedLinks": [
+    {
+      "label": "Controls",
+      "href": "/apps/zxpong/controls"
+    },
+    {
+      "label": "Game Modes",
+      "href": "/apps/zxpong/game-modes"
+    }
+  ]
+}

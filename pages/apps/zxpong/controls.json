@@ -1,0 +1,68 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXPong Controls",
+  "seoTitle": "ZXPong Controls | BarkinMad Studios",
+  "description": "Understand ZXPong paddle control basics, timing, positioning, and practical movement habits for Solo and World PVP sessions.",
+  "summary": "ZXPong control is about smooth paddle movement, early positioning, and reacting before the ball reaches your side.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending ZXPong controls image",
+  "sourceNotes": [
+    "Derived from ZXPong gameplay rules and current source behavior.",
+    "A final controls screenshot is pending and currently uses the shared placeholder."
+  ],
+  "imageMetadata": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "ZXPong controls placeholder",
+      "purpose": "doc",
+      "width": 1774,
+      "height": 887,
+      "usage": ["docs"]
+    }
+  ],
+  "sections": [
+    {
+      "id": "basic-input",
+      "heading": "Basic input",
+      "paragraphs": [
+        "Move the paddle by dragging or positioning it across your side of the court.",
+        "The important habit is to start moving early enough that the paddle is already near the likely return point."
+      ]
+    },
+    {
+      "id": "positioning",
+      "heading": "Positioning",
+      "paragraphs": [
+        "Keep the paddle centered enough to cover the next bounce, then adjust as the ball angle becomes clear.",
+        "Over-correcting can leave the opposite side open, especially as rallies speed up."
+      ],
+      "bullets": [
+        "Move early, then make smaller corrections",
+        "Use the ball angle to predict the return lane",
+        "Avoid chasing every movement at full speed"
+      ]
+    },
+    {
+      "id": "timing",
+      "heading": "Timing",
+      "paragraphs": [
+        "Better timing comes from watching the ball path before it crosses into your side.",
+        "In World PVP, the same paddle discipline matters, but networked play can make stable positioning more important than dramatic last-second saves."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for ZXPong controls",
+      "caption": "Controls artwork pending"
+    }
+  ],
+  "imageSectionTitle": "Controls Images",
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXPong", "controls", "paddle", "World PVP"],
+  "relatedPages": ["how-to-play", "game-modes", "tips-and-strategy"]
+}

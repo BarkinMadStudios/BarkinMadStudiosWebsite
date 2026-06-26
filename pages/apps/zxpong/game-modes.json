@@ -1,0 +1,59 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXPong Game Modes",
+  "seoTitle": "ZXPong Game Modes | BarkinMad Studios",
+  "description": "Compare ZXPong Solo play and World PVP, with release notes for hidden Local PVP code that is not exposed in the current public menu.",
+  "summary": "ZXPong release-facing play is centered on Solo play and World PVP.",
+  "heroImage": "images/shared/placeholder.png",
+  "heroImageAlt": "Placeholder artwork for pending ZXPong game modes image",
+  "sourceNotes": [
+    "Current source has `enableWorldPVP = true` and `enableLocalPVP = false`.",
+    "Local PVP is retained in code but hidden from the release-facing menu. Do not advertise it as a public mode until the flag changes."
+  ],
+  "sections": [
+    {
+      "id": "solo-play",
+      "heading": "Solo play",
+      "paragraphs": [
+        "Solo play is the practical starting point for learning paddle control, rally timing, and scoring rhythm.",
+        "The current source includes AI difficulty selection with levels 1 through 10, which changes how strongly the AI responds."
+      ]
+    },
+    {
+      "id": "world-pvp",
+      "heading": "World PVP",
+      "paragraphs": [
+        "World PVP is the visible multiplayer route in the current release-facing build.",
+        "Use World PVP after you are comfortable with paddle timing and can keep rallies stable under pressure."
+      ]
+    },
+    {
+      "id": "local-pvp-status",
+      "heading": "Local PVP status",
+      "paragraphs": [
+        "Local PVP support is retained in code, but the current release-facing feature flag hides it from the menu.",
+        "This documentation does not present Local PVP as a public mode until the release configuration changes."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "images/shared/placeholder.png",
+      "alt": "Placeholder artwork for ZXPong game modes",
+      "caption": "Game modes artwork pending"
+    }
+  ],
+  "imageSectionTitle": "Game Modes Images",
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXPong", "Solo play", "World PVP", "AI difficulty", "Local PVP"],
+  "relatedPages": ["how-to-play", "controls", "leaderboards", "tips-and-strategy"],
+  "faq": [
+    {
+      "question": "Is Local PVP available in the current release-facing menu?",
+      "answer": "No. Current source keeps Local PVP hidden through the release-facing feature flag, while World PVP is enabled."
+    }
+  ]
+}
