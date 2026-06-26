@@ -4,7 +4,7 @@
   "seoTitle": "Game of Darts DartBot | BarkinMad Studios",
   "description": "Learn how DartBot appears in Match play, how access is unlocked, and how the current DartBot level setting is exposed.",
   "summary": "DartBot is the app's AI opponent path for Match play, gated by Pro, DartBot, 48-hour access, or development access.",
-  "heroImage": "images/shared/placeholder.png",
+  "heroImage": "apps/gameofdarts/gameofdarts-darbot.png",
   "heroImageAlt": "Placeholder artwork for pending Game of Darts DartBot image",
   "sourceNotes": [
     "Derived from AppSettings, PlayerManager, GameSetups, SettingsView, and Ads-And-IAP central documentation.",
@@ -30,7 +30,7 @@
   ],
   "images": [
     {
-      "src": "images/shared/placeholder.png",
+      "src": "apps/gameofdarts/gameofdarts-darbot.png",
       "alt": "Placeholder artwork for Game of Darts DartBot",
       "caption": "DartBot artwork pending"
     }

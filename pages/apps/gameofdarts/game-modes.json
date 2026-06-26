@@ -30,7 +30,7 @@
   ],
   "images": [
     {
-      "src": "images/shared/placeholder.png",
+      "src": "apps/gameofdarts/gameofdarts-game-modes.png",
       "alt": "Placeholder artwork for Game of Darts modes",
       "caption": "Mode menu screenshot pending"
     }
