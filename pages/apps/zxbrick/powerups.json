@@ -26,13 +26,56 @@
   ],
   "images": [
     {
+      "src": "/images/apps/zxbrick/zxbrick-powerups.png",
+      "alt": "ZXBrick power-ups overview",
+      "caption": "Power-ups overview"
+    },
+    {
+      "src": "/images/apps/zxbrick/zxbrick-powerup-berserker.png",
+      "alt": "ZXBrick berserker power-up",
+      "caption": "Berserker"
+    },
+    {
+      "src": "/images/apps/zxbrick/zxbrick-powerup-fast.png",
+      "alt": "ZXBrick fast ball power-up",
+      "caption": "Fast Ball"
+    },
+    {
+      "src": "/images/apps/zxbrick/zxbrick-powerup-grow.png",
+      "alt": "ZXBrick grow wide paddle power-up",
+      "caption": "Grow/Wide Paddle"
+    },
+    {
+      "src": "/images/apps/zxbrick/zxbrick-powerup-laser.png",
+      "alt": "ZXBrick laser power-up",
+      "caption": "Laser"
+    },
+    {
+      "src": "/images/apps/zxbrick/zxbrick-powerup-multi.png",
+      "alt": "ZXBrick multi ball power-up",
+      "caption": "Multi Ball"
+    },
+    {
+      "src": "/images/apps/zxbrick/zxbrick-powerup-shield.png",
+      "alt": "ZXBrick shield power-up",
+      "caption": "Shield"
+    },
+    {
+      "src": "/images/apps/zxbrick/zxbrick-powerup-shrink.png",
+      "alt": "ZXBrick shrink power-up",
+      "caption": "Shrink"
+    },
+    {
+      "src": "/images/apps/zxbrick/zxbrick-powerup-slow.png",
+      "alt": "ZXBrick slow ball power-up",
+      "caption": "Slow Ball"
+    },
+    {
       "src": "apps/zxbrick/zxbrick-gameplay-03.png",
       "alt": "ZXBrick gameplay screenshot"
     }
   ],
-  "futureImages": [
-    "images/apps/zxbrick/zxbrick-powerups.png"
-  ],
+  "imageSectionTitle": "Power-Up Images",
   "relatedLinks": [
     {
       "label": "ZXBrick App Page",

@@ -764,7 +764,7 @@ function appSchema(app, slug, site = DEFAULT_SITE) {
     operatingSystem: Array.isArray(app.supportedPlatforms) ? app.supportedPlatforms.join(", ") : "iOS",
     description: cleanMeta(app.description || app.shortDescription),
     url: absoluteSiteUrl(site.website || DEFAULT_SITE.website, `/apps/${slug}`),
-    image: app.heroImage ? `${IMAGE_BASE}/${app.heroImage}` : `${IMAGE_BASE}/logos/social-preview.png`,
+    image: imageAssetUrl(app.heroImage, `${IMAGE_BASE}/logos/social-preview.png`),
     author: {
       "@type": "Organization",
       name: app.developer || site.name || DEFAULT_SITE.name
@@ -905,6 +905,16 @@ function articleDescription(article) {
 
 function getAppImage(app) {
   return app.cardImage || app.image || app.icon || "";
+}
+
+function imageAssetUrl(image, fallback = "") {
+  const value = String(image || "").trim();
+  if (!value) return fallback;
+  if (/^https?:\/\//i.test(value)) return value;
+
+  const normalized = value.replace(/^\/+/, "");
+  if (normalized.startsWith("images/")) return `${REPO_BASE}/${normalized}`;
+  return `${IMAGE_BASE}/${normalized}`;
 }
 
 function actionLink(action) {
@@ -1404,7 +1414,7 @@ async function appJsonPage(slug) {
   return pageResponse(`${app.title || app.name} - BarkinMad Studios`, renderAppPage(app, relatedApps), {
     canonicalPath: `/apps/${slug}`,
     description: app.description || app.shortDescription,
-    image: app.heroImage ? `${IMAGE_BASE}/${app.heroImage}` : `${IMAGE_BASE}/logos/social-preview.png`,
+    image: imageAssetUrl(app.heroImage, `${IMAGE_BASE}/logos/social-preview.png`),
     ogType: "website",
     structuredData
   });
@@ -1470,12 +1480,7 @@ async function appDocumentationJsonPage(appSlug, detailSlug) {
 }
 
 function appDocumentationImage(page, app) {
-  const image = String(page?.heroImage || app?.heroImage || "").trim();
-  if (!image) return `${IMAGE_BASE}/logos/social-preview.png`;
-  if (/^https?:\/\//i.test(image)) return image;
-  if (image.startsWith("/")) return `${REPO_BASE}${image}`;
-  if (image.startsWith("images/")) return `${REPO_BASE}/${image}`;
-  return `${IMAGE_BASE}/${image}`;
+  return imageAssetUrl(page?.heroImage || app?.heroImage, `${IMAGE_BASE}/logos/social-preview.png`);
 }
 
 function renderAppDocumentationPage(app, page, pageIndex, appSlug, detailSlug) {
@@ -1543,11 +1548,11 @@ ${sections.map(section => `
 
 ${images.length ? `
 <section>
-  <h2>Screenshots</h2>
+  <h2>${escapeHtml(page.imageSectionTitle || "Images")}</h2>
   <div class="grid">
     ${images.map(image => `
       <div class="card">
-        <img class="screenshot-image" src="${IMAGE_BASE}/${escapeHtml(image.src)}" alt="${escapeHtml(image.alt || title)}" loading="lazy">
+        <img class="screenshot-image" src="${escapeHtml(imageAssetUrl(image.src))}" alt="${escapeHtml(image.alt || title)}" loading="lazy">
         ${image.caption ? `<p>${renderContentParagraph(image.caption)}</p>` : ""}
       </div>
     `).join("")}
@@ -1647,7 +1652,7 @@ function renderAppPage(app, relatedApps = []) {
 <section>
   <div class="card">
     ${app.heroImage ? `
-      <img class="article-image" src="${IMAGE_BASE}/${escapeHtml(app.heroImage)}" alt="${escapeHtml(app.title || app.name)}" loading="lazy">
+      <img class="article-image" src="${escapeHtml(imageAssetUrl(app.heroImage))}" alt="${escapeHtml(app.title || app.name)}" loading="lazy">
     ` : ""}
 
     ${app.status ? `<span class="badge">${escapeHtml(app.status)}</span>` : ""}
@@ -1669,7 +1674,7 @@ ${app.barkinMadCoins?.enabled ? `
 <section>
   <h2>BarkinMad Coins</h2>
   <div class="card">
-    <p>${escapeHtml(app.barkinMadCoins.description)}</p>
+    <p>${renderContentParagraph(app.barkinMadCoins.description)}</p>
   </div>
 </section>` : ""}
 
@@ -1691,7 +1696,7 @@ ${Array.isArray(app.screenshots) && app.screenshots.length ? `
 
       return `
       <div class="card">
-        <img class="screenshot-image" src="${IMAGE_BASE}/${escapeHtml(image)}" alt="${escapeHtml(caption || (app.title || app.name) + " screenshot")}" loading="lazy">
+        <img class="screenshot-image" src="${escapeHtml(imageAssetUrl(image))}" alt="${escapeHtml(caption || (app.title || app.name) + " screenshot")}" loading="lazy">
         ${caption ? `<p>${renderContentParagraph(caption)}</p>` : ""}
       </div>`;
     }).join("")}

@@ -24,6 +24,10 @@
     {
       "image": "apps/zxbrick/zxbrick-gameplay-03.png",
       "caption": "New Game"
+    },
+    {
+      "image": "apps/zxbrick/zxbrick-gameplay-04.png",
+      "caption": "Gameplay"
     }
   ],
   "features": [
@@ -32,7 +36,7 @@
     "100 handcrafted levels",
     "Multiple power-ups",
     "Unlockable themes",
-    "BarkinMad Coins for cross-game cosmetic unlocks",
+    "BarkinMad Coins earned through ZX Series gameplay",
     "Game Center achievements",
     "Game Center leaderboards",
     "High score tracking",
@@ -51,7 +55,7 @@
   ],
   "barkinMadCoins": {
     "enabled": true,
-    "description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
+    "description": "Earn [BarkinMad Coins](/zx-series) through gameplay across the ZX Series. Your coins are stored in a shared wallet and will unlock additional content as new ZX Series games and updates are released. Coins have no cash value and can only be earned by playing."
   },
   "supportedPlatforms": [
     "iPhone"
@@ -70,7 +74,7 @@
     },
     {
       "question": "Does ZXBrick include BarkinMad Coins?",
-      "answer": "Yes. ZXBrick supports [BarkinMad Coins](/zx-series) for cross-game cosmetic unlocks across supported BarkinMad Studios games."
+      "answer": "Yes. ZXBrick supports [BarkinMad Coins](/zx-series), which are earned through gameplay across the ZX Series and stored in a shared wallet for future ZX Series content."
     }
   ],
   "documentationLinks": [

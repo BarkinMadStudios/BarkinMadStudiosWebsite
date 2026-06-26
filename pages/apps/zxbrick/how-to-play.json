@@ -26,7 +26,7 @@
       "id": "progression",
       "heading": "Progression",
       "paragraphs": [
-        "ZXBrick includes 100 handcrafted levels, unlockable themes, achievements, high score tracking, and Game Center leaderboard support. It also supports [BarkinMad Coins](/zx-series), which are earned through gameplay and used for cosmetic unlocks across supported BarkinMad Studios games."
+        "ZXBrick includes 100 handcrafted levels, unlockable themes, achievements, high score tracking, and Game Center leaderboard support. It also supports [BarkinMad Coins](/zx-series), which are earned through gameplay across the ZX Series and stored in a shared wallet for future ZX Series content."
       ]
     },
     {
@@ -39,6 +39,10 @@
   ],
   "images": [
     {
+      "src": "/images/apps/zxbrick/zxbrick-how-to-play.png",
+      "alt": "ZXBrick how to play overview"
+    },
+    {
       "src": "apps/zxbrick/zxbrick-gameplay-02.png",
       "alt": "ZXBrick main menu screenshot"
     },
@@ -47,9 +51,7 @@
       "alt": "ZXBrick new game screenshot"
     }
   ],
-  "futureImages": [
-    "images/apps/zxbrick/zxbrick-how-to-play.png"
-  ],
+  "imageSectionTitle": "How to Play Images",
   "relatedLinks": [
     {
       "label": "ZXBrick App Page",
