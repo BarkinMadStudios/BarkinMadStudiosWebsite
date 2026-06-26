@@ -10,24 +10,6 @@
     "Derived from AppSettings, PlayerManager, GameSetups, SettingsView, and Ads-And-IAP central documentation.",
     "Detailed DartBot scoring model is To Verify."
   ],
-  "sections": [
-    {
-      "id": "access",
-      "heading": "Access",
-      "paragraphs": [
-        "DartBot appears as a bot player option for Match play. Source gates DartBot unless Pro, DartBot-only unlock, 48-hour access, or development access is active.",
-        "The in-app copy describes DartBot as a solo match opponent."
-      ]
-    },
-    {
-      "id": "level",
-      "heading": "AI level",
-      "paragraphs": [
-        "The DartBot level is stored in the `dartAILevel` setting and defaults to 5. The Settings view shows a DartBot level slider when DartBot-related access is available.",
-        "Game setup names the generated bot player as `DartBot Lvl {level}`."
-      ]
-    }
-  ],
   "images": [
     {
       "src": "apps/gameofdarts/gameofdarts-dartbot.png",
