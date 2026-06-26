@@ -5,14 +5,14 @@
   "description": "Document Game of Darts premium access, Pro, DartBot unlock, 48-hour access, ads, and the current BarkinMad Coins verification status.",
   "summary": "Game of Darts currently documents premium access through Pro, DartBot-only unlock, 48-hour access, ads, and match continuation rather than a verified BarkinMad Coins model.",
   "heroImage": "apps/gameofdarts/gameofdarts-premium-access.png",
-  "heroImageAlt": "Placeholder artwork for pending Game of Darts premium access image",
+  "heroImageAlt": "Artwork for pending Game of Darts premium access image",
   "sourceNotes": [
     "Premium details are based on Ads-And-IAP.md, AppSettings, IAPManager, and MatchLimitManager documentation."
   ],
   "images": [
     {
       "src": "apps/gameofdarts/gameofdarts-premium-access.png",
-      "alt": "Placeholder artwork for Game of Darts premium access",
+      "alt": "Artwork for Game of Darts premium access",
       "caption": "Premium access artwork pending"
     }
   ],

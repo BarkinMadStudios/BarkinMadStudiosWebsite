@@ -4,8 +4,8 @@
   "seoTitle": "Game of Darts Leaderboards | BarkinMad Studios",
   "description": "Review Game Center leaderboard support for X01, Cricket, Snooker, Bob's 27, 1 to 20, and Halve It in Game of Darts.",
   "summary": "Leaderboards require Game Center sign-in and are displayed through the app's Leaderboards screen.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending Game of Darts leaderboards image",
+  "heroImage": "apps/gameofdarts/gameofdarts-leaderboards.png",
+  "heroImageAlt": "Artwork for pending Game of Darts leaderboards image",
   "sourceNotes": [
     "Based on Statistics-Engine.md, LeaderboardRules.swift, HelpView, and GameCenterManager source.",
     "Some lower-is-better and hidden/unavailable leaderboard behavior remains To Verify in the central issue register."
@@ -30,8 +30,8 @@
   ],
   "images": [
     {
-      "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for Game of Darts leaderboards",
+      "src": "apps/gameofdarts/gameofdarts-leaderboards.png",
+      "alt": "Artwork for Game of Darts leaderboards",
       "caption": "Leaderboard screenshot pending"
     }
   ],
