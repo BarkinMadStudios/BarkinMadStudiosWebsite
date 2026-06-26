@@ -1,64 +1,92 @@
 {
-  "documentationSchemaVersion": "1.0.0",
-  "title": "Game of Darts Guide",
-  "seoTitle": "Game of Darts Guide | BarkinMad Studios",
-  "description": "Complete Game of Darts guide covering setup, score entry, modes, match types, DartBot, statistics, leaderboards, achievements, and settings.",
-  "summary": "A compact start-to-finish guide for Game of Darts using the Website Framework v1.1 documentation structure.",
-  "heroImage": "apps/gameofdarts/gameofdarts-hero.png",
-  "heroImageAlt": "Game of Darts hero artwork",
-  "sourceNotes": [
-    "Compiled from the Game of Darts documentation pages created in this rollout.",
-    "The guide intentionally avoids unsupported claims for development-only or placeholder modes."
-  ],
-  "sections": [
-    {
-      "id": "start",
-      "heading": "Start here",
-      "paragraphs": [
-        "Game of Darts is for tracking darts sessions, scores, players, and progression across supported local modes.",
-        "Begin with Getting Started, then read Score Entry & Controls, Game Modes, and Match Types before moving into DartBot, statistics, leaderboards, achievements, caller voices, and settings."
-      ]
-    },
-    {
-      "id": "core-path",
-      "heading": "Core guide path",
-      "paragraphs": [
-        "For a normal session, create or select players, choose a mode, configure options, finish the match cleanly, and then review stats and Game Center surfaces where supported.",
-        "For solo Match play, check DartBot access and the DartBot level setting before starting."
-      ],
-      "bullets": [
-        "Setup: players, mode, options, and Game Center sign-in",
-        "Play: score entry, hit/miss input, checkout or mode-specific rules",
-        "Review: player stats, leaderboards, achievements, and saved sessions",
-        "Access: Pro, DartBot-only unlock, 48-hour unlock, and ad-supported flow"
-      ]
-    },
-    {
-      "id": "remaining-gaps",
-      "heading": "Remaining gaps",
-      "paragraphs": [
-        "The implementation is structurally complete. Remaining work is mainly content polish, current screenshots for each page, and final verification of To Verify details in the central Game of Darts docs.",
-        "Framework limitations found during this rollout are recorded as v1.2 candidates rather than changing the frozen v1.1 framework."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts.png",
-      "alt": "Game of Darts app artwork",
-      "caption": "Existing Game of Darts artwork"
-    },
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for pending Game of Darts documentation images",
-      "caption": "Shared placeholder used for pages without dedicated artwork"
-    }
-  ],
-  "imageSectionTitle": "Guide Images",
-  "keywords": ["Game of Darts", "guide", "darts scoring app", "DartBot", "statistics"],
-  "estimatedReadTimeMinutes": 8,
-  "contentStatus": "needs-review",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
-  "relatedPages": ["overview", "how-to-play", "controls", "game-modes", "match-types", "statistics", "frequently-asked-questions"]
+	“documentationSchemaVersion”: “1.0.0”,
+	“title”: “Game of Darts Guide”,
+	“seoTitle”: “Game of Darts Guide | BarkinMad Studios”,
+	“description”: “Complete Game of Darts guide covering game modes, scoring, DartBot, statistics, leaderboards, achievements, settings, and gameplay tips.”,
+	“summary”: “A complete player guide to Game of Darts, helping you learn the rules, master every game mode, improve your scoring, and make the most of every feature.”,
+	
+	“heroImage”: “apps/gameofdarts/gameofdarts-hero.png”,
+	“heroImageAlt”: “Game of Darts hero artwork”,
+	
+	“sourceNotes”: [
+		“Created from the current Game of Darts documentation.”,
+		“Content reflects features available in the current version of the app.”
+	],
+	
+	“sections”: [
+		{
+			“id”: “welcome”,
+			“heading”: “Welcome”,
+			“paragraphs”: [
+				“Welcome to the complete Game of Darts player guide. Whether you’re picking up a dart for the first time or competing for your next personal best, these guides will help you get the most from every match.”,
+				“Game of Darts combines accurate scoring, multiple game modes, detailed player statistics, achievements, Game Center integration, DartBot opponents, and a range of customisation options to create a complete darts experience.”
+			]
+		},
+		{
+			“id”: “getting-the-most-from-game-of-darts”,
+			“heading”: “Getting the Most from Game of Darts”,
+			“paragraphs”: [
+				“The guides have been organised to help you quickly find the information you need. Start with the basics before exploring the different game modes, advanced features, and player tools available throughout the app.”,
+				“You’ll find detailed information about controls, match types, DartBot, player statistics, leaderboards, achievements, settings, and plenty of tips to help improve your game.”
+			],
+			“bullets”: [
+				“Learn the controls and score entry.”,
+				“Discover every supported game mode.”,
+				“Challenge yourself against DartBot.”,
+				“Track your statistics and personal progress.”,
+				“Unlock achievements and climb the Game Center leaderboards.”,
+				“Customise the app to suit the way you play.”
+			]
+		},
+		{
+			“id”: “continue-your-journey”,
+			“heading”: “Continue Your Journey”,
+			“paragraphs”: [
+				“Whether you’re practising on your own, competing with friends, or playing in league matches, Game of Darts is designed to help you improve over time.”,
+				“Explore each guide to discover new features, learn advanced gameplay tips, and make the most of everything Game of Darts has to offer. New guides, screenshots, and helpful content will continue to be added as the game evolves.”
+			]
+		}
+	],
+	
+	“images”: [
+		{
+			“src”: “apps/gameofdarts/gameofdarts.png”,
+			“alt”: “Game of Darts app artwork”,
+			“caption”: “Game of Darts”
+		},
+		{
+			“src”: “images/shared/placeholder.png”,
+			“alt”: “Additional guide artwork coming soon”,
+			“caption”: “More screenshots and illustrations will be added over time.”
+		}
+	],
+	
+	“imageSectionTitle”: “Guide Images”,
+	
+	“keywords”: [
+		“Game of Darts”,
+		“darts guide”,
+		“game modes”,
+		“DartBot”,
+		“leaderboards”,
+		“statistics”,
+		“achievements”
+	],
+	
+	“estimatedReadTimeMinutes”: 8,
+	
+	“contentStatus”: “published”,
+	
+	“lastUpdated”: “2026-06-26”,
+	“lastVerified”: “2026-06-26”,
+	
+	“relatedPages”: [
+		“overview”,
+		“how-to-play”,
+		“controls”,
+		“game-modes”,
+		“match-types”,
+		“statistics”,
+		“frequently-asked-questions”
+	]
 }

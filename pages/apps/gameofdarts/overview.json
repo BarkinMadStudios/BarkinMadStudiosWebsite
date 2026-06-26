@@ -41,17 +41,20 @@
       "id": "what-is-game-of-darts",
       "heading": "What is Game of Darts?",
       "paragraphs": [
-        "Game of Darts is a modern darts scoring app from [BarkinMad Studios](/about), designed for casual players and competitive matches on iPhone and iPad.",
-        "The app supports player setup, score entry, multiple darts formats, statistics, Game Center leaderboards and achievements, cloud-backed player/session data, DartBot access, and settings for appearance, data, and leaderboard posting."
-      ]
+		  "Game of Darts is a modern darts scoring app from [BarkinMad Studios](/about), designed for casual players, league nights, practice sessions, and competitive matches on iPhone and iPad.",
+		  
+		  "Whether you're playing X01, Cricket, Bob's 27, Snooker Darts, or one of the many other game modes, Game of Darts helps you keep score, track your performance, compete on Game Center leaderboards, unlock achievements, and improve your game over time."
+	  ]
     },
     {
       "id": "documentation-map",
       "heading": "Documentation map",
       "paragraphs": [
-        "Use Getting Started for the first-run flow, Game Modes and Match Types for supported formats, and the statistics, leaderboards, achievements, DartBot, caller voices, and settings pages for specific systems.",
-        "This documentation uses the frozen Website Framework v1.1 shared by the ZX app guides, but the page structure is tailored to a darts scoring app."
-      ]
+		  "Everything you need to get the most from Game of Darts can be found in the guides below. Learn the controls, explore every game mode, discover match types, challenge DartBot, track your statistics, customise your experience, and climb the leaderboards.",
+		  
+		  "Whether you're a beginner learning the basics or an experienced player chasing your next personal best, these guides are designed to help you enjoy every aspect of the game."
+		  
+	  ]
     }
   ],
   "keywords": ["Game of Darts", "darts scoring app", "iPhone", "iPad", "DartBot"],
