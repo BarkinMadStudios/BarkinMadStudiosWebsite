@@ -47,7 +47,7 @@
       "status": "Live",
       "category": "Games",
       "type": "Retro Arcade Game",
-      "href": "/apps/zxsnake",
+      "href": "/apps/zxsnake/overview",
       "summary": "A retro-inspired snake game with modern features including achievements, leaderboards, AI opponents, local PVP, online PVP, unlockable content, and shared ZX Series progression.",
       "challenge": "Modernise a classic arcade concept while preserving the simple gameplay that made Snake instantly recognisable.",
       "solution": "Developed a polished mobile arcade game with responsive controls, Game Center integration, multiplayer features, localisation, and shared progression systems.",
