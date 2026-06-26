@@ -6,7 +6,7 @@
   "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "estimatedReadTimeMinutes": 24,
+  "estimatedReadTimeMinutes": 36,
   "landingPage": "overview",
   "relatedSeries": [
     "/zx-series"
@@ -145,6 +145,32 @@
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": ["how-to-play", "levels"]
+    },
+    {
+      "slug": "guide",
+      "title": "Guide",
+      "description": "Complete ZXBrick walkthrough and key systems reference.",
+      "required": false,
+      "status": "optional",
+      "order": 12,
+      "estimatedReadTimeMinutes": 11,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["overview", "how-to-play", "controls", "game-modes", "levels", "powerups", "tips-and-strategy", "frequently-asked-questions"]
+    },
+    {
+      "slug": "screenshots",
+      "title": "Screenshots",
+      "description": "ZXBrick gameplay screenshots.",
+      "required": false,
+      "status": "optional",
+      "order": 13,
+      "estimatedReadTimeMinutes": 1,
+      "contentStatus": "needs-review",
+      "lastUpdated": "2026-06-26",
+      "lastVerified": "2026-06-26",
+      "relatedPages": ["overview", "guide"]
     }
   ]
 }

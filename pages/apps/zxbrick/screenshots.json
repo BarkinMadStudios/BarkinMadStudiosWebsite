@@ -1,0 +1,44 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Screenshots",
+  "seoTitle": "ZXBrick Screenshots | BarkinMad Studios",
+  "description": "A curated gallery of ZXBrick gameplay and interface screenshots with a focus on level flow, menus, and active brick-breaking play.",
+  "shortDescription": "ZXBrick screenshot gallery",
+  "summary": "A screenshot gallery for ZXBrick.",
+  "heroImage": "apps/zxbrick/zxbrick-gameplay-01.png",
+  "heroImageAlt": "ZXBrick gameplay screenshot",
+  "images": [
+    {
+      "src": "apps/zxbrick/zxbrick-gameplay-01.png",
+      "alt": "ZXBrick loading screen"
+    },
+    {
+      "src": "apps/zxbrick/zxbrick-gameplay-02.png",
+      "alt": "ZXBrick main menu"
+    },
+    {
+      "src": "apps/zxbrick/zxbrick-gameplay-03.png",
+      "alt": "ZXBrick new game screen"
+    },
+    {
+      "src": "apps/zxbrick/zxbrick-gameplay-04.png",
+      "alt": "ZXBrick gameplay"
+    }
+  ],
+  "screenshotSectionTitle": "Screenshots",
+  "imageSectionTitle": "Screenshots",
+  "estimatedReadTimeMinutes": 1,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "sections": [
+    {
+      "id": "screenshot-gallery",
+      "heading": "Screenshot Gallery",
+      "paragraphs": [
+        "A quick gallery showing launch, menu, setup, and gameplay states in ZXBrick.",
+        "Use this as a visual reference while checking visual style continuity across sessions."
+      ]
+    }
+  ]
+}

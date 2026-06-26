@@ -4,8 +4,15 @@
   "seoTitle": "BarkinMad Coins | ZXBrick | BarkinMad Studios",
   "description": "How shared BarkinMad Coins behavior is represented in ZXBrick, where gameplay rewards support unlock progression and shared cross-title rewards inside the ZX Series ecosystem.",
   "summary": "BarkinMad Coins are shared within the ZX Series model and are used as a progression-oriented reward currency.",
-  "heroImage": "apps/zxbrick/zxbrick-hero.png",
-  "heroImageAlt": "BarkinMad Coins in ZXBrick",
+  "heroImage": "apps/barkinmadcoins.png",
+  "heroImageAlt": "BarkinMad Coins shared ZX Series documentation asset",
+  "images": [
+    {
+      "src": "apps/barkinmadcoins.png",
+      "alt": "BarkinMad Coins shared ZX Series reference"
+    }
+  ],
+  "imageSectionTitle": "BarkinMad Coins Images",
   "sourceNotes": [
     "Based on pages/apps/zxbrick.json and /zx-series messaging.",
     "Reward triggers, timing windows, and destination unlock targets are to verify with app source before final confirmation."

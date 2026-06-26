@@ -13,16 +13,34 @@
   var NEWS_BASE = `${REPO_BASE}/news`;
   var PAGES_BASE = `${REPO_BASE}/pages`;
   var DATA_BASE = `${PAGES_BASE}/data`;
+  var documentationLandingAppSlugs = new Set(["zxsnake", "zxbrick"]);
   var zxSnakeReferenceImageFallbacks = {
     overview: "apps/zxsnake/zxsnake-gameplay-01.png",
     "how-to-play": "apps/zxsnake/zxsnake-how-to-play.png",
     controls: "apps/zxsnake/zxsnake-controls.png",
     "game-modes": "apps/zxsnake/zxsnake-game-modes.png",
-    "barkinmad-coins": "apps/zxsnake/zxsnake-barkinmad-coins.png",
     achievements: "apps/zxsnake/zxsnake-achievements.png",
     leaderboards: "apps/zxsnake/zxsnake-leaderboards.png",
     "frequently-asked-questions": "apps/zxsnake/zxsnake-faq.png",
     "tips-and-strategy": "images/apps/zxsnake/zxsnake-tips-and-strategy.png"
+  };
+  var sharedDocumentationReferenceImageFallbacks = {
+    "barkinmad-coins": "apps/barkinmadcoins.png"
+  };
+  var appDocumentationReferenceImageFallbacks = {
+    zxsnake: zxSnakeReferenceImageFallbacks,
+    zxbrick: {
+      overview: "apps/zxbrick/zxbrick-gameplay-01.png",
+      "how-to-play": "apps/zxbrick/zxbrick-how-to-play.png",
+      controls: "apps/zxbrick/zxbrick-hero.png",
+      "game-modes": "apps/zxbrick/zxbrick-hero.png",
+      achievements: "apps/zxbrick/zxbrick-hero.png",
+      leaderboards: "apps/zxbrick/zxbrick-hero.png",
+      "frequently-asked-questions": "apps/zxbrick/zxbrick-hero.png",
+      "tips-and-strategy": "apps/zxbrick/zxbrick-hero.png",
+      levels: "apps/zxbrick/zxbrick-levels.png",
+      powerups: "apps/zxbrick/zxbrick-powerups.png"
+    }
   };
   var SITE_LASTMOD = "2026-06-14";
   var DEFAULT_SITE = {
@@ -164,7 +182,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
         return appJsonPage(appPathParts[0]);
       }
       if (appPathParts.length === 2) {
-        if (appPathParts[0] === "zxsnake" && appPathParts[1] === "overview") {
+        if (documentationLandingAppSlugs.has(appPathParts[0]) && appPathParts[1] === "overview") {
           return Response.redirect(`${url.origin}/apps/${appPathParts[0]}`, 301);
         }
         return appDocumentationJsonPage(appPathParts[0], appPathParts[1]);
@@ -1448,14 +1466,14 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     if (!listed) {
       return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
     }
-    const isZxSnakeApp = normalizedSlug === "zxsnake";
-    const docsIndex = isZxSnakeApp ? await fetchJson(`${PAGES_BASE}/apps/${normalizedSlug}/pages.json`) : null;
-    const app = isZxSnakeApp ? await getZxSnakeAppMetadata(docsIndex, normalizedSlug) : await fetchJson(`${PAGES_BASE}/apps/${normalizedSlug}.json`);
+    const usesDocumentationLanding = documentationLandingAppSlugs.has(normalizedSlug);
+    const docsIndex = usesDocumentationLanding ? await fetchJson(`${PAGES_BASE}/apps/${normalizedSlug}/pages.json`) : null;
+    const app = usesDocumentationLanding ? await getDocumentationAppMetadata(docsIndex, normalizedSlug) : await fetchJson(`${PAGES_BASE}/apps/${normalizedSlug}.json`);
     if (!app) {
       return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
     }
     const appTitle = app.title || app.name || normalizedSlug;
-    if (isZxSnakeApp) {
+    if (usesDocumentationLanding) {
       const landingPageSlug = typeof docsIndex?.landingPage === "string" ? docsIndex.landingPage.trim() : "";
       const normalizedLandingSlug = /^[a-z0-9-]+$/.test(landingPageSlug) ? landingPageSlug : "overview";
       const landingContentSlug = normalizedLandingSlug || "overview";
@@ -1515,26 +1533,26 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     }
     const pageIndex = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}/pages.json`);
     const indexPages = Array.isArray(pageIndex?.pages) ? pageIndex.pages : [];
-    const isZxSnakeApp = normalizedAppSlug === "zxsnake";
-    const normalizedDisplayPages = isZxSnakeApp ? normaliseZxSnakeGuidePages(indexPages, normalizedAppSlug) : indexPages;
+    const usesDocumentationLanding = documentationLandingAppSlugs.has(normalizedAppSlug);
+    const normalizedDisplayPages = usesDocumentationLanding ? normaliseZxSnakeGuidePages(indexPages, normalizedAppSlug) : indexPages;
     let listedPage = normalizedDisplayPages.find((page2) => page2?.slug === normalizedDetailSlug);
-    if (!listedPage && isZxSnakeApp && normalizedDetailSlug === "guide") {
-      listedPage = { slug: "guide", title: "Guide", description: "Complete ZXSnake walkthrough and key systems reference." };
+    if (!listedPage && usesDocumentationLanding && normalizedDetailSlug === "guide") {
+      listedPage = { slug: "guide", title: "Guide", description: `Complete ${listedApp.name || normalizedAppSlug} walkthrough and key systems reference.` };
     }
-    if (!listedPage && isZxSnakeApp && normalizedDetailSlug === "screenshots") {
-      listedPage = { slug: "screenshots", title: "Screenshots", description: "ZXSnake gameplay screenshots." };
+    if (!listedPage && usesDocumentationLanding && normalizedDetailSlug === "screenshots") {
+      listedPage = { slug: "screenshots", title: "Screenshots", description: `${listedApp.name || normalizedAppSlug} gameplay screenshots.` };
     }
-    const pageLookupSlug = isZxSnakeApp && normalizedDetailSlug === "screenshots" ? "screenshots" : normalizedDetailSlug;
+    const pageLookupSlug = usesDocumentationLanding && normalizedDetailSlug === "screenshots" ? "screenshots" : normalizedDetailSlug;
     if (!listedPage) {
       return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), {
         canonicalPath: `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`,
         robots: "noindex,follow"
       }, 404);
     }
-    const app = isZxSnakeApp ? await getZxSnakeAppMetadata(pageIndex, normalizedAppSlug) : await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}.json`);
+    const app = usesDocumentationLanding ? await getDocumentationAppMetadata(pageIndex, normalizedAppSlug) : await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}.json`);
     const pageUrl = `${PAGES_BASE}/apps/${normalizedAppSlug}/${pageLookupSlug}.json`;
     let page = await fetchJson(pageUrl);
-    if (!page && isZxSnakeApp && normalizedDetailSlug === "guide") {
+    if (!page && usesDocumentationLanding && normalizedDetailSlug === "guide") {
       page = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}/guide.json`);
     }
     if (!app || !page) {
@@ -1558,7 +1576,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
       howToSchema(page, app, normalizedAppSlug, normalizedDetailSlug, site, landingPageSlug)
     ].filter(Boolean);
     return pageResponse(title, renderAppDocumentationPage(app, page, pageIndex, normalizedAppSlug, normalizedDetailSlug, landingPageSlug, {
-      landingRoute: isZxSnakeApp && normalizedDetailSlug === "overview"
+      landingRoute: usesDocumentationLanding && normalizedDetailSlug === "overview"
     }), {
       canonicalPath: resolvedCanonicalPath,
       description: page.description || listedPage.description || page.summary,
@@ -1575,18 +1593,17 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
   function renderAppDocumentationPage(app, page, pageIndex, appSlug, detailSlug, landingPageSlug = "", options = {}) {
     const title = page.title || "App Guide";
     const isTipsAndStrategyPage = appSlug === "zxsnake" && detailSlug === "tips-and-strategy";
-    const isZxSnakeDocPage = appSlug === "zxsnake";
-    const isZxSnakeScreenshotPage = isZxSnakeDocPage && detailSlug === "screenshots";
-    const isZxSnakeOverviewPage = isZxSnakeDocPage && (detailSlug === "overview" || options.landingRoute === true || isZxSnakeScreenshotPage);
-    const isZxSnakeGuidePage = appSlug === "zxsnake" && detailSlug === "guide";
-    const isZxSnakeImageOnlyPage = appSlug === "zxsnake" && !isZxSnakeGuidePage && detailSlug !== "overview";
-    const hideBottomGuideSections = appSlug === "zxsnake";
-    const shouldRenderReferenceImage = isZxSnakeDocPage && !isZxSnakeOverviewPage;
-    const zxSnakeReferenceImageSrc = shouldRenderReferenceImage ? page.referenceImage?.src || zxSnakeReferenceImageFallbacks[detailSlug] || "" : "";
+    const usesDocumentationLanding = documentationLandingAppSlugs.has(appSlug);
+    const isDocumentationScreenshotPage = usesDocumentationLanding && detailSlug === "screenshots";
+    const isDocumentationOverviewPage = usesDocumentationLanding && (detailSlug === "overview" || options.landingRoute === true || isDocumentationScreenshotPage);
+    const isDocumentationGuidePage = usesDocumentationLanding && detailSlug === "guide";
+    const isDocumentationImageOnlyPage = usesDocumentationLanding && !isDocumentationGuidePage && detailSlug !== "overview";
+    const hideBottomGuideSections = usesDocumentationLanding;
     const sections = Array.isArray(page.sections) ? page.sections : [];
     const relatedLinks = Array.isArray(page.relatedLinks) ? page.relatedLinks.filter((link) => link && typeof link === "object").map((link) => {
       const rawHref = safeLinkHref(link.href);
-      const href = rawHref === "/apps/zxsnake/overview" ? "/apps/zxsnake" : rawHref;
+      const landingHref = landingPageSlug ? `/apps/${appSlug}/${landingPageSlug}` : "";
+      const href = rawHref === landingHref ? `/apps/${appSlug}` : rawHref;
       return { ...link, href };
     }) : [];
     const normalizeImageEntries = (images) => {
@@ -1605,14 +1622,21 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
       if (isTipsAndStrategyPage && image?.src === inlineReferenceImage?.src && !layout) return true;
       return layout === "reference-cheat-sheet";
     };
-    const referenceImages = isTipsAndStrategyPage ? (inlineReferenceImage?.src ? [{ ...inlineReferenceImage }] : []) : isZxSnakeOverviewPage ? [] : [
+    const referenceFallbacks = {
+      ...sharedDocumentationReferenceImageFallbacks,
+      ...(appDocumentationReferenceImageFallbacks[appSlug] || {})
+    };
+    const documentationReferenceImageSrc = usesDocumentationLanding && !isDocumentationOverviewPage
+      ? page.referenceImage?.src || referenceFallbacks[detailSlug] || pageImages[0]?.src || page.heroImage || ""
+      : "";
+    const referenceImages = isTipsAndStrategyPage ? (inlineReferenceImage?.src ? [{ ...inlineReferenceImage }] : []) : isDocumentationOverviewPage ? [] : [
       ...(inlineReferenceImage?.src ? [{ ...inlineReferenceImage }] : []),
       ...images.filter(isReferenceCheatSheetImage)
     ].filter((image, index, array) => index === array.findIndex((item) => item?.src === image?.src));
-    const regularImages = isZxSnakeDocPage
-      ? isZxSnakeOverviewPage || isZxSnakeScreenshotPage ? [...pageImages, ...screenshotEntries] : []
+    const regularImages = usesDocumentationLanding
+      ? isDocumentationOverviewPage || isDocumentationScreenshotPage ? [...pageImages, ...screenshotEntries] : []
       : images.filter((image) => !isReferenceCheatSheetImage(image));
-    const otherDocs = isZxSnakeDocPage ? normaliseZxSnakeGuidePages(Array.isArray(pageIndex?.pages) ? pageIndex.pages : []) : Array.isArray(pageIndex?.pages) ? pageIndex.pages.filter((item) => item?.slug && item.title) : [];
+    const otherDocs = usesDocumentationLanding ? normaliseZxSnakeGuidePages(Array.isArray(pageIndex?.pages) ? pageIndex.pages : [], appSlug) : Array.isArray(pageIndex?.pages) ? pageIndex.pages.filter((item) => item?.slug && item.title) : [];
     const currentIndex = otherDocs.findIndex((item) => item.slug === detailSlug);
     const previousDoc = currentIndex > 0 ? otherDocs[currentIndex - 1] : null;
     const nextDoc = currentIndex >= 0 && currentIndex < otherDocs.length - 1 ? otherDocs[currentIndex + 1] : null;
@@ -1621,7 +1645,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
       id: section.id || slugify(section.heading || section.title || ""),
       label: section.heading || section.title || ""
     })).filter((item) => item.id && item.label);
-  const hideContentsForPage = appSlug === "zxsnake" && [
+  const hideContentsForPage = usesDocumentationLanding && [
     "overview",
     "how-to-play",
     "controls",
@@ -1630,7 +1654,10 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     "achievements",
     "leaderboards",
     "tips-and-strategy",
-    "frequently-asked-questions"
+    "frequently-asked-questions",
+    "levels",
+    "powerups",
+    "screenshots"
   ].includes(detailSlug);
     const strategySectionTitles = new Set([
       "before each session",
@@ -1639,7 +1666,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     ]);
     const normaliseSectionTitle = (value) => String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ").trim();
     const isStrategySection = (section) => strategySectionTitles.has(normaliseSectionTitle(section?.heading || section?.title || ""));
-    const strategySections = isTipsAndStrategyPage || isZxSnakeImageOnlyPage ? [] : sections.filter(isStrategySection);
+    const strategySections = isTipsAndStrategyPage || isDocumentationImageOnlyPage ? [] : sections.filter(isStrategySection);
     const remainingSections = sections.filter((section) => !isStrategySection(section));
     const strategyIconFor = (title) => {
       const sectionLabel = normaliseSectionTitle(title);
@@ -1649,7 +1676,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     };
     const hasContentHeadings = sections.some((section) => Boolean(section?.heading || section?.title));
     const hasSectionContent = Boolean(hasContentHeadings || strategySections.length || regularImages.length || page.faq?.length);
-    const screenshotSectionTitle = isZxSnakeOverviewPage || isZxSnakeScreenshotPage ? "Screenshots" : page.imageSectionTitle || "Images";
+    const screenshotSectionTitle = isDocumentationOverviewPage || isDocumentationScreenshotPage ? "Screenshots" : page.imageSectionTitle || "Images";
     const renderSectionContent = (section) => {
       const sectionId = section.id || section.heading || section.title ? section.id || slugify(section.heading || section.title || "") : "";
       const sectionTitle = section.heading || section.title || "";
@@ -1693,7 +1720,7 @@ ${sectionLinks.length > 1 && !isTipsAndStrategyPage && !hideContentsForPage ? `
   </div>
 </section>` : ""}
 
-${!isZxSnakeImageOnlyPage ? remainingSections.map((section) => renderSectionContent(section)).join("") : ""}
+${!isDocumentationImageOnlyPage ? remainingSections.map((section) => renderSectionContent(section)).join("") : ""}
 
 ${strategySections.length ? `
 <section>
@@ -1717,9 +1744,9 @@ ${strategySections.length ? `
   </div>
 </section>` : ""}
 
-${isZxSnakeDocPage && zxSnakeReferenceImageSrc ? `
+${usesDocumentationLanding && documentationReferenceImageSrc ? `
 <section class="reference-cheat-sheet">
-  <img class="reference-cheat-image" src="${escapeHtml(imageAssetUrl(zxSnakeReferenceImageSrc))}" alt="${escapeHtml(page.referenceImage?.alt || title)}" loading="lazy">
+  <img class="reference-cheat-image" src="${escapeHtml(imageAssetUrl(documentationReferenceImageSrc))}" alt="${escapeHtml(page.referenceImage?.alt || title)}" loading="lazy">
 </section>`
   : (referenceImages.length ? `
 <section class="reference-cheat-sheet">
@@ -1783,7 +1810,7 @@ ${regularImages.length ? `
   </div>
 </section>` : ""}
 
-${!isZxSnakeImageOnlyPage ? renderFaqSection(page.faq) : ""}
+${!isDocumentationImageOnlyPage ? renderFaqSection(page.faq) : ""}
 </main>`;
   }
   __name(renderAppDocumentationPage, "renderAppDocumentationPage");
@@ -1802,39 +1829,43 @@ ${!isZxSnakeImageOnlyPage ? renderFaqSection(page.faq) : ""}
   }
   __name(renderBreadcrumbs, "renderBreadcrumbs");
   function normaliseZxSnakeGuidePages(pages, appSlug = "") {
-    if (String(appSlug || "") !== "zxsnake") return Array.isArray(pages) ? pages.filter((item) => item?.slug && item.title) : [];
+    const normalizedAppSlug = String(appSlug || "").trim();
+    if (!documentationLandingAppSlugs.has(normalizedAppSlug)) return Array.isArray(pages) ? pages.filter((item) => item?.slug && item.title) : [];
     const filtered = Array.isArray(pages) ? pages.filter((item) => item?.slug && item.title) : [];
     const hasScreenshot = filtered.some((item) => item.slug === "screenshots");
     const hasGuide = filtered.some((item) => item.slug === "guide");
+    const appTitle = normalizedAppSlug === "zxbrick" ? "ZXBrick" : "ZXSnake";
     const extras = [];
     if (!hasScreenshot) {
-      extras.push({ slug: "screenshots", title: "Screenshots", description: "ZXSnake gameplay screenshots." });
+      extras.push({ slug: "screenshots", title: "Screenshots", description: `${appTitle} gameplay screenshots.` });
     }
     if (!hasGuide) {
-      extras.push({ slug: "guide", title: "Guide", description: "Complete ZXSnake walkthrough and key systems reference." });
+      extras.push({ slug: "guide", title: "Guide", description: `Complete ${appTitle} walkthrough and key systems reference.` });
     }
     return [...filtered, ...extras];
   }
   __name(normaliseZxSnakeGuidePages, "normaliseZxSnakeGuidePages");
-  async function getZxSnakeAppMetadata(pageIndex = null, appSlug = "") {
-    if (String(appSlug || "") !== "zxsnake") {
+  async function getDocumentationAppMetadata(pageIndex = null, appSlug = "") {
+    const normalizedAppSlug = String(appSlug || "").trim();
+    if (!documentationLandingAppSlugs.has(normalizedAppSlug)) {
       return null;
     }
     const apps = await getApps();
-    const appListItem = Array.isArray(apps) ? apps.find((item) => item?.slug === "zxsnake") : null;
+    const appListItem = Array.isArray(apps) ? apps.find((item) => item?.slug === normalizedAppSlug) : null;
+    const appJson = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}.json`);
     const landingPageKey = typeof pageIndex?.landingPage === "string" ? pageIndex.landingPage.trim() : "";
     const normalizedLandingPage = /^[a-z0-9-]+$/.test(landingPageKey) ? landingPageKey : "overview";
     const landingPageSlug = normalizedLandingPage || "overview";
-    const landingPage = await fetchJson(`${PAGES_BASE}/apps/zxsnake/${landingPageSlug}.json`) || await fetchJson(`${PAGES_BASE}/apps/zxsnake/overview.json`);
-    if (!landingPage && !appListItem) {
+    const landingPage = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}/${landingPageSlug}.json`) || await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}/overview.json`);
+    if (!landingPage && !appListItem && !appJson) {
       return null;
     }
     const fallback = appListItem ? {
-      title: appListItem.name || "ZXSnake",
+      title: appListItem.name || appJson?.title || normalizedAppSlug,
       description: appListItem.description || "",
       shortDescription: appListItem.shortDescription || appListItem.summary || "",
-      heroImage: appListItem.heroImage || appListItem.image || "apps/zxsnake/zxsnake-hero.png",
-      icon: appListItem.icon || appListItem.image || "apps/zxsnake/zxsnake-icon.png",
+      heroImage: appListItem.heroImage || appListItem.image || appJson?.heroImage,
+      icon: appListItem.icon || appListItem.image || appJson?.icon,
       appStoreUrl: appListItem.appStoreUrl,
       testFlightUrl: appListItem.testFlightUrl,
       supportedPlatforms: appListItem.supportedPlatforms,
@@ -1843,14 +1874,15 @@ ${!isZxSnakeImageOnlyPage ? renderFaqSection(page.faq) : ""}
       genre: appListItem.genre || "Arcade",
       developer: appListItem.developer || "BarkinMad Studios"
     } : {};
-    return { ...fallback, ...landingPage };
+    const baseTitle = appJson?.title || fallback.title || landingPage?.title || normalizedAppSlug;
+    return { ...fallback, ...(appJson || {}), ...(landingPage || {}), title: baseTitle, name: baseTitle };
   }
-  __name(getZxSnakeAppMetadata, "getZxSnakeAppMetadata");
+  __name(getDocumentationAppMetadata, "getDocumentationAppMetadata");
   function isAppLandingDocumentationRoute(appSlug, detailSlug, landingPageSlug = "") {
     const normalizedAppSlug = String(appSlug || "").trim();
     const normalizedDetailSlug = String(detailSlug || "").trim();
     const normalizedLandingSlug = String(landingPageSlug || "").trim();
-    return normalizedAppSlug === "zxsnake" && normalizedDetailSlug === normalizedLandingSlug && normalizedLandingSlug === "overview";
+    return documentationLandingAppSlugs.has(normalizedAppSlug) && normalizedDetailSlug === normalizedLandingSlug && normalizedLandingSlug === "overview";
   }
   __name(isAppLandingDocumentationRoute, "isAppLandingDocumentationRoute");
   function renderGuideNavigation(pages, appSlug, currentSlug, landingPageSlug = "") {

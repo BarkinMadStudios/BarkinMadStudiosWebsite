@@ -3,12 +3,12 @@
   "title": "BarkinMad Coins",
   "seoTitle": "ZXSnake BarkinMad Coins | BarkinMad Studios",
   "description": "How BarkinMad Coins work in ZXSnake and how the shared ZX Series reward model is intended to be used.",
-  "heroImage": "apps/zxsnake/zxsnake-barkinmad-coins.png",
-  "heroImageAlt": "ZXSnake BarkinMad Coins page header",
+  "heroImage": "apps/barkinmadcoins.png",
+  "heroImageAlt": "BarkinMad Coins shared ZX Series documentation asset",
   "images": [
     {
-      "src": "apps/zxsnake/zxsnake-barkinmad-coins.png",
-      "alt": "ZXSnake BarkinMad Coins screen"
+      "src": "apps/barkinmadcoins.png",
+      "alt": "BarkinMad Coins shared ZX Series reference"
     }
   ],
   "imageSectionTitle": "BarkinMad Coins Images",
