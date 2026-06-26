@@ -1387,32 +1387,38 @@ function appFullCard(app) {
 }
 
 async function appJsonPage(slug) {
+  const normalizedAppSlug = String(slug || "").trim();
   const apps = await getApps();
-  const listed = apps.some(app => app.slug === slug);
+  const listed = apps.some(app => app.slug === normalizedAppSlug);
 
   if (!listed) {
     return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
   }
 
-  const app = await fetchJson(`${PAGES_BASE}/apps/${slug}.json`);
+  const app = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}.json`);
 
   if (!app) {
     return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
   }
 
-  const relatedApps = apps.filter(item => item.slug && item.slug !== slug).slice(0, 3);
+  const documentationLinks = await getGuidesFromPagesIndex(
+    normalizedAppSlug,
+    normalizedAppSlug === "zxsnake" ? [] : app.documentationLinks
+  );
+
+  const relatedApps = apps.filter(item => item.slug && item.slug !== normalizedAppSlug).slice(0, 3);
   const structuredData = [
-    appSchema(app, slug),
+    appSchema(app, normalizedAppSlug),
     faqSchema(app.faq),
     breadcrumbSchema([
       { name: "Home", path: "/" },
       { name: "Apps", path: "/apps" },
-      { name: app.title || app.name || slug, path: `/apps/${slug}` }
+      { name: app.title || app.name || normalizedAppSlug, path: `/apps/${normalizedAppSlug}` }
     ])
   ].filter(Boolean);
 
-  return pageResponse(`${app.title || app.name} - BarkinMad Studios`, renderAppPage(app, relatedApps), {
-    canonicalPath: `/apps/${slug}`,
+  return pageResponse(`${app.title || app.name} - BarkinMad Studios`, renderAppPage(app, relatedApps, documentationLinks), {
+    canonicalPath: `/apps/${normalizedAppSlug}`,
     description: app.description || app.shortDescription,
     image: imageAssetUrl(app.heroImage, `${IMAGE_BASE}/logos/social-preview.png`),
     ogType: "website",
@@ -1806,7 +1812,9 @@ function renderGuideStepCard(label, page, appSlug) {
     </div>`;
 }
 
-function renderAppPage(app, relatedApps = []) {
+function renderAppPage(app, relatedApps = [], guideLinks = null) {
+  const sectionGuideLinks = Array.isArray(guideLinks) ? guideLinks : app.documentationLinks;
+
   return `
 <section class="hero hero-retro"${heroBackgroundStyle({ hero: { image: app.heroImage } })}>
   <h2>${escapeHtml(app.title || app.name)}</h2>
@@ -1843,7 +1851,7 @@ ${app.barkinMadCoins?.enabled ? `
   </div>
 </section>` : ""}
 
-${renderAppDocumentationLinks(app.documentationLinks)}
+${renderAppDocumentationLinks(sectionGuideLinks)}
 
 ${renderStringListSection("Supported Platforms", app.supportedPlatforms)}
 
@@ -1905,6 +1913,41 @@ function renderFaqSection(faqs) {
     `).join("")}
   </div>
 </section>`;
+}
+
+async function getGuidesFromPagesIndex(appSlug, fallbackLinks = []) {
+  if (!appSlug) return Array.isArray(fallbackLinks) ? fallbackLinks : [];
+
+  const index = await fetchJson(`${PAGES_BASE}/apps/${appSlug}/pages.json`);
+  const pages = normalizeDocumentationPages(index?.pages);
+
+  if (!pages.length) {
+    return Array.isArray(fallbackLinks) ? fallbackLinks : [];
+  }
+
+  const links = [];
+  const seen = new Set();
+
+  for (const page of pages) {
+    if (!page?.slug) continue;
+
+    const status = String(page.status || page.contentStatus || "").toLowerCase();
+    if (status === "draft") continue;
+
+    const href = `/apps/${appSlug}/${page.slug}`;
+    if (seen.has(href)) continue;
+    seen.add(href);
+
+    links.push({
+      label: page.title || page.slug,
+      href,
+      description: page.description || ""
+    });
+  }
+
+  if (links.length) return links;
+
+  return Array.isArray(fallbackLinks) ? fallbackLinks : [];
 }
 
 function renderRelatedApps(apps) {
