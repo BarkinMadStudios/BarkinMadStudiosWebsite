@@ -6,6 +6,7 @@
   "summary": "Statistics are distributed across game view models, session persistence, player history, Player Stats, and Game Center submission.",
   "heroImage": "apps/gameofdarts/gameofdarts-statistics.png",
   "heroImageAlt": "Artwork for Game of Darts statistics image",
+  "showContents": false,
   "sourceNotes": [
     ""
   ],
