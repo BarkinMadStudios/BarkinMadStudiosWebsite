@@ -4,8 +4,8 @@
   "seoTitle": "Game of Darts Match Types | BarkinMad Studios",
   "description": "Understand the main darts formats in Game of Darts, including X01, Cricket, Snooker, Bob's 27, 1 to 20, and party modes.",
   "summary": "Game of Darts covers scoring, practice, and party formats rather than the arcade loops used by the ZX Series.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending Game of Darts match types image",
+  "heroImage": "apps/gameofdarts/gameofdarts-match-types.png",
+  "heroImageAlt": "Artwork for pending Game of Darts match types image",
   "sourceNotes": [
     "Rules summaries are based on the in-app GamesRules source.",
     "Only source-backed live modes are described as available release-facing modes."
@@ -30,8 +30,8 @@
   ],
   "images": [
     {
-      "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for Game of Darts match types",
+      "src": "apps/gameofdarts/gameofdarts-match-types.png",
+      "alt": "Artwork for Game of Darts match types",
       "caption": "Match type artwork pending"
     }
   ],

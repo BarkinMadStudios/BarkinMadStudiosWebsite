@@ -4,8 +4,8 @@
   "seoTitle": "Game of Darts Statistics | BarkinMad Studios",
   "description": "Understand Game of Darts player statistics, persisted session data, advanced statistics access, and current To Verify areas.",
   "summary": "Statistics are distributed across game view models, session persistence, player history, Player Stats, and Game Center submission.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending Game of Darts statistics image",
+  "heroImage": "apps/gameofdarts/gameofdarts-statistics.png",
+  "heroImageAlt": "Artwork for pending Game of Darts statistics image",
   "sourceNotes": [
     "Based on Docs/Projects/GAMEOFDARTS/Statistics-Engine.md and Data-And-Sync.md.",
     "Detailed chart formulas and some aggregation behavior are To Verify in central docs."
@@ -38,9 +38,9 @@
   ],
   "images": [
     {
-      "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for Game of Darts statistics",
-      "caption": "Statistics screenshot pending"
+      "src": "apps/gameofdarts/gameofdarts-statistics.png",
+      "alt": "Artwork for Game of Darts statistics",
+      "caption": "Statistics screenshot"
     }
   ],
   "imageSectionTitle": "Statistics Image",
