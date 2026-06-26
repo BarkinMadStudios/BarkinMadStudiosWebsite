@@ -1,0 +1,40 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "Screenshots",
+  "seoTitle": "ZXSnake Screenshots | BarkinMad Studios",
+  "description": "A curated gallery of ZXSnake gameplay and interface screenshots with a focus on movement, progression, and leaderboard moments.",
+  "shortDescription": "ZXSnake screenshot gallery",
+  "summary": "A screenshot gallery for ZXSnake.",
+  "heroImage": "apps/zxsnake/zxsnake-gameplay-01.png",
+  "heroImageAlt": "ZXSnake gameplay screenshot",
+  "images": [
+    {
+      "src": "apps/zxsnake/zxsnake-gameplay-01.png",
+      "alt": "ZXSnake gameplay overview"
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-gameplay-02.png",
+      "alt": "ZXSnake solo play"
+    },
+    {
+      "src": "apps/zxsnake/zxsnake-gameplay-03.png",
+      "alt": "ZXSnake gameplay progression"
+    }
+  ],
+  "screenshotSectionTitle": "Screenshots",
+  "imageSectionTitle": "Screenshots",
+  "estimatedReadTimeMinutes": 1,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "sections": [
+    {
+      "id": "screenshot-gallery",
+      "heading": "Screenshot Gallery",
+      "paragraphs": [
+        "A quick gallery showing gameplay, movement flow, and UI states in ZXSnake.",
+        "Use this as a visual reference while testing new modes or checking visual style continuity across sessions."
+      ]
+    }
+  ]
+}
