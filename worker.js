@@ -1436,7 +1436,7 @@ async function appDocumentationJsonPage(appSlug, detailSlug) {
   }
 
   const pageIndex = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}/pages.json`);
-  const indexPages = Array.isArray(pageIndex?.pages) ? pageIndex.pages : [];
+  const indexPages = normalizeDocumentationPages(pageIndex?.pages);
   const listedPage = indexPages.find(page => page?.slug === normalizedDetailSlug);
 
   if (!listedPage) {
@@ -1448,17 +1448,31 @@ async function appDocumentationJsonPage(appSlug, detailSlug) {
 
   const app = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}.json`);
   const page = await fetchJson(`${PAGES_BASE}/apps/${normalizedAppSlug}/${normalizedDetailSlug}.json`);
+  const contentStatus = resolveDocumentationContentStatus(
+    page?.contentStatus || listedPage?.contentStatus || pageIndex?.contentStatus || "verified"
+  );
+  const canonicalPath = `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`;
+  const pageDescription = page?.description || listedPage?.description || page?.summary || listedPage?.summary || "";
+  const pageKeywords = Array.isArray(page?.keywords)
+    ? page.keywords.join(", ")
+    : Array.isArray(pageIndex?.keywords)
+      ? pageIndex.keywords.join(", ")
+      : "";
+  const robots = contentStatus === "draft"
+    ? "noindex,follow"
+    : contentStatus === "stale"
+      ? "noindex,follow"
+      : "index,follow";
 
   if (!app || !page) {
     return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), {
-      canonicalPath: `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`,
+      canonicalPath,
       robots: "noindex,follow"
     }, 404);
   }
 
   const site = await getSite();
-  const title = page.seoTitle || `${page.title || listedPage.title} - BarkinMad Studios`;
-  const canonicalPath = `/apps/${normalizedAppSlug}/${normalizedDetailSlug}`;
+  const title = `${page.title || listedPage.title || "App Guide"} - BarkinMad Studios`;
   const structuredData = [
     breadcrumbSchema([
       { name: "Home", path: "/" },
@@ -1472,7 +1486,9 @@ async function appDocumentationJsonPage(appSlug, detailSlug) {
 
   return pageResponse(title, renderAppDocumentationPage(app, page, pageIndex, normalizedAppSlug, normalizedDetailSlug), {
     canonicalPath,
-    description: page.description || listedPage.description || page.summary,
+    description: pageDescription,
+    keywords: pageKeywords,
+    robots,
     image: appDocumentationImage(page, app),
     ogType: "website",
     structuredData
@@ -1485,12 +1501,21 @@ function appDocumentationImage(page, app) {
 
 function renderAppDocumentationPage(app, page, pageIndex, appSlug, detailSlug) {
   const title = page.title || "App Guide";
+  const contentStatus = resolveDocumentationContentStatus(
+    page?.contentStatus || pageIndex?.contentStatus || "verified"
+  );
+  const estimatedReadTime = normalizeEstimatedReadTime(
+    page?.estimatedReadTimeMinutes || page?.estimatedReadTime || page?.readTime
+  );
+  const lastUpdated = page?.lastUpdated || pageIndex?.lastUpdated || "";
+  const lastVerified = page?.lastVerified || page?.lastUpdated || pageIndex?.lastVerified || "";
   const sections = Array.isArray(page.sections) ? page.sections : [];
   const relatedLinks = Array.isArray(page.relatedLinks) ? page.relatedLinks : [];
+  const resolvedRelatedPages = resolveRelatedLinks(page.relatedPages, pageIndex?.pages, appSlug);
+  const mergedRelatedLinks = mergeRelatedLinks(relatedLinks, resolvedRelatedPages);
   const images = Array.isArray(page.images) ? page.images.filter(image => image?.src) : [];
-  const otherDocs = Array.isArray(pageIndex?.pages)
-    ? pageIndex.pages.filter(item => item?.slug && item.title)
-    : [];
+  const sourceNotes = Array.isArray(page.sourceNotes) ? page.sourceNotes : [];
+  const otherDocs = normalizeDocumentationPages(pageIndex?.pages);
   const currentIndex = otherDocs.findIndex(item => item.slug === detailSlug);
   const previousDoc = currentIndex > 0 ? otherDocs[currentIndex - 1] : null;
   const nextDoc = currentIndex >= 0 && currentIndex < otherDocs.length - 1 ? otherDocs[currentIndex + 1] : null;
@@ -1511,6 +1536,12 @@ function renderAppDocumentationPage(app, page, pageIndex, appSlug, detailSlug) {
 <main>
 <section>
   <div class="card">
+    <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:0.8rem;">
+      <span class="badge">Status: ${escapeHtml(contentStatus)}</span>
+      ${estimatedReadTime ? `<span class="badge">Read Time: ${escapeHtml(String(estimatedReadTime))} min</span>` : ""}
+      ${lastUpdated ? `<span class="badge">Updated: ${escapeHtml(lastUpdated)}</span>` : ""}
+      ${lastVerified ? `<span class="badge">Verified: ${escapeHtml(lastVerified)}</span>` : ""}
+    </div>
     ${renderBreadcrumbs([
       { label: "Home", href: "/" },
       { label: "Apps", href: "/apps" },
@@ -1518,8 +1549,15 @@ function renderAppDocumentationPage(app, page, pageIndex, appSlug, detailSlug) {
       { label: title }
     ])}
     ${page.description ? `<p>${renderContentParagraph(page.description)}</p>` : ""}
+    ${sourceNotes.length ? `
+    <details>
+      <summary>Source notes</summary>
+      ${sourceNotes.map(note => `<p>${renderContentParagraph(String(note))}</p>`).join("")}
+    </details>` : ""}
     ${renderGuideNavigation(otherDocs, appSlug, detailSlug)}
     <a class="btn" href="/apps/${escapeHtml(appSlug)}">Back to ${escapeHtml(appTitle)}</a>
+    <a class="btn" href="/apps">Back to Apps</a>
+    <a class="btn" href="/docs">Return to Docs</a>
   </div>
 </section>
 
@@ -1570,11 +1608,11 @@ ${previousDoc || nextDoc ? `
   </div>
 </section>` : ""}
 
-${relatedLinks.length ? `
+${(mergedRelatedLinks.length ? true : false) ? `
 <section>
   <h2>Related Links</h2>
   <div class="grid">
-    ${relatedLinks.map(link => `
+    ${mergedRelatedLinks.map(link => `
       <div class="card">
         <h3>${escapeHtml(link.label || "Related Link")}</h3>
         ${link.description ? `<p>${renderContentParagraph(link.description)}</p>` : ""}
@@ -1627,8 +1665,135 @@ function renderGuideNavigation(pages, appSlug, currentSlug) {
         const href = `/apps/${appSlug}/${item.slug}`;
         const current = item.slug === currentSlug ? ` aria-current="page"` : "";
         return `<a href="${escapeHtml(href)}"${current}>${escapeHtml(item.title)}</a>`;
-      }).join("")}
+    }).join("")}
     </nav>`;
+}
+
+function resolveRelatedLinks(relatedPages = [], pageIndexPages = [], appSlug) {
+  const bySlug = new Map(
+    Array.isArray(pageIndexPages)
+      ? pageIndexPages
+        .filter(entry => entry?.slug && entry?.title)
+        .map(entry => [entry.slug, entry])
+      : []
+  );
+
+  const links = [];
+  const seen = new Set();
+
+  for (const item of Array.isArray(relatedPages) ? relatedPages : []) {
+    if (!item) continue;
+
+    if (typeof item === "string") {
+      const doc = bySlug.get(item);
+      if (!doc) continue;
+      const href = `/apps/${appSlug}/${doc.slug}`;
+      if (seen.has(href)) continue;
+      seen.add(href);
+      links.push({
+        label: doc.title,
+        href,
+        description: doc.description
+      });
+      continue;
+    }
+
+    if (typeof item !== "object") continue;
+
+    if (typeof item.slug === "string" && bySlug.has(item.slug)) {
+      const doc = bySlug.get(item.slug);
+      const href = safeLinkHref(item.href) || `/apps/${appSlug}/${item.slug}`;
+      if (seen.has(href)) continue;
+      seen.add(href);
+      links.push({
+        label: item.label || doc.title,
+        href,
+        description: item.description || doc.description
+      });
+      continue;
+    }
+
+    if (item.label && item.href) {
+      const href = safeLinkHref(item.href);
+      if (!href || seen.has(href)) continue;
+      seen.add(href);
+      links.push({
+        label: item.label,
+        href,
+        description: item.description
+      });
+    }
+  }
+
+  return links;
+}
+
+function normalizeDocumentationPages(pages = []) {
+  const normalized = Array.isArray(pages)
+    ? pages
+      .filter(item => item?.slug)
+      .map((item, index) => ({
+        ...item,
+        _indexOrder: index
+      }))
+    : [];
+
+  return normalized.sort((a, b) => {
+    const aOrder = Number(a.order);
+    const bOrder = Number(b.order);
+    const aHasOrder = Number.isInteger(aOrder) && aOrder > 0;
+    const bHasOrder = Number.isInteger(bOrder) && bOrder > 0;
+
+    if (aHasOrder && bHasOrder && aOrder !== bOrder) {
+      return aOrder - bOrder;
+    }
+
+    if (aHasOrder && !bHasOrder) return -1;
+    if (!aHasOrder && bHasOrder) return 1;
+
+    if (aOrder !== bOrder) {
+      return aOrder - bOrder;
+    }
+
+    return a._indexOrder - b._indexOrder;
+  });
+}
+
+function mergeRelatedLinks(legacyLinks = [], relatedLinks = []) {
+  const seen = new Set();
+  const merged = [];
+
+  for (const item of Array.isArray(legacyLinks) ? legacyLinks : []) {
+    if (!item || !item.label || !item.href) continue;
+    const href = safeLinkHref(item.href);
+    if (!href || seen.has(href)) continue;
+    seen.add(href);
+    merged.push({
+      label: item.label,
+      href,
+      description: item.description
+    });
+  }
+
+  for (const item of Array.isArray(relatedLinks) ? relatedLinks : []) {
+    if (!item || !item.label || !item.href) continue;
+    if (seen.has(item.href)) continue;
+    seen.add(item.href);
+    merged.push(item);
+  }
+
+  return merged;
+}
+
+function normalizeEstimatedReadTime(value) {
+  const numeric = Number(value);
+  return Number.isFinite(numeric) && numeric > 0 ? Math.max(1, Math.round(numeric)) : 0;
+}
+
+function resolveDocumentationContentStatus(status = "verified") {
+  const value = String(status || "verified").toLowerCase().trim();
+  const valid = new Set(["verified", "needs-review", "stale", "draft"]);
+  return valid.has(value) ? value : "needs-review";
 }
 
 function renderGuideStepCard(label, page, appSlug) {

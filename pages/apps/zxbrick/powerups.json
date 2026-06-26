@@ -1,101 +1,94 @@
 {
+  "documentationSchemaVersion": "1.0.0",
   "title": "ZXBrick Power-Ups",
   "seoTitle": "ZXBrick Power-Ups | BarkinMad Studios",
-  "description": "A practical overview of ZXBrick power-ups and how they support replayable brick-breaking arcade gameplay.",
-  "summary": "ZXBrick includes multiple power-ups that add variety and replayability to the brick-breaking arcade experience.",
+  "description": "A practical guide to ZXBrick power-up examples, when to use them, and how they change pacing, risk, and scoring opportunities during gameplay.",
+  "summary": "Power-ups are designed to alter risk and reward loops in short, replay-friendly intervals.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "heroImageAlt": "ZXBrick power-up showcase",
   "sourceNotes": [
-    "Generated from pages/apps/zxbrick.json and news/zxbrick-powerups/article.json.",
-    "Power-up names, exact effects, spawn behavior, scoring interactions, and balancing rules are To Verify from app source before publishing as specific mechanics."
+    "Based on pages/apps/zxbrick.json, news/zxbrick-powerups/article.json, and shipped screenshots.",
+    "Exact spawn rates, durations, stack behavior, and score interactions are to verify from app source.",
+    "Use these details as implementation guidance only until confirmed in build QA."
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/zxbrick/zxbrick-powerups.png",
+      "alt": "ZXBrick power-up overview",
+      "purpose": "marketing",
+      "width": 1600,
+      "height": 900,
+      "usage": ["docs", "news", "social", "website"]
+    },
+    {
+      "src": "apps/zxbrick/zxbrick-powerup-berserker.png",
+      "alt": "ZXBrick berserker power-up",
+      "purpose": "gameplay",
+      "width": 1170,
+      "height": 2532,
+      "usage": ["docs", "website", "social"]
+    }
   ],
   "sections": [
     {
       "id": "overview",
       "heading": "Overview",
       "paragraphs": [
-        "ZXBrick includes multiple power-ups as part of its retro brick-breaking arcade design. The current website data confirms power-ups as a core feature, alongside 100 handcrafted levels, unlockable themes, achievements, leaderboards, and high score tracking."
+        "Power-ups are support systems that can alter risk windows and pace within level sessions.",
+        "They are available at the game-design level and are intended to reinforce replay habits, not replace basic movement control discipline."
       ]
     },
     {
-      "id": "purpose",
-      "heading": "Why Power-Ups Matter",
+      "id": "strategy",
+      "heading": "Use power-ups with intent",
       "paragraphs": [
-        "Power-ups help add variety, risk, and replayability to ZXBrick without changing the core arcade focus. The development article [Designing ZXBrick Power-Ups](/news/zxbrick-powerups) explains the design background behind this system."
+        "Avoid using power-ups as a substitute for good movement discipline. Build one repeatable rhythm, then incorporate the available boosts deliberately.",
+        "If a boost changes ball timing unexpectedly, reset and start a short controlled set."
+      ],
+      "bullets": [
+        "Pick a single variable and keep it stable for one replay cycle",
+        "Use shorter sessions when testing a new power-up",
+        "Record one thing that improved or worsened performance"
       ]
     }
   ],
+  "imageSectionTitle": "Power-Up Gallery",
   "images": [
     {
-      "src": "/images/apps/zxbrick/zxbrick-powerups.png",
-      "alt": "ZXBrick power-ups overview",
-      "caption": "Power-ups overview"
-    },
-    {
-      "src": "/images/apps/zxbrick/zxbrick-powerup-berserker.png",
+      "src": "apps/zxbrick/zxbrick-powerup-berserker.png",
       "alt": "ZXBrick berserker power-up",
       "caption": "Berserker"
     },
     {
-      "src": "/images/apps/zxbrick/zxbrick-powerup-fast.png",
+      "src": "apps/zxbrick/zxbrick-powerup-fast.png",
       "alt": "ZXBrick fast ball power-up",
       "caption": "Fast Ball"
     },
     {
-      "src": "/images/apps/zxbrick/zxbrick-powerup-grow.png",
-      "alt": "ZXBrick grow wide paddle power-up",
-      "caption": "Grow/Wide Paddle"
-    },
-    {
-      "src": "/images/apps/zxbrick/zxbrick-powerup-laser.png",
-      "alt": "ZXBrick laser power-up",
-      "caption": "Laser"
-    },
-    {
-      "src": "/images/apps/zxbrick/zxbrick-powerup-multi.png",
-      "alt": "ZXBrick multi ball power-up",
-      "caption": "Multi Ball"
-    },
-    {
-      "src": "/images/apps/zxbrick/zxbrick-powerup-shield.png",
-      "alt": "ZXBrick shield power-up",
-      "caption": "Shield"
-    },
-    {
-      "src": "/images/apps/zxbrick/zxbrick-powerup-shrink.png",
-      "alt": "ZXBrick shrink power-up",
-      "caption": "Shrink"
-    },
-    {
-      "src": "/images/apps/zxbrick/zxbrick-powerup-slow.png",
-      "alt": "ZXBrick slow ball power-up",
-      "caption": "Slow Ball"
-    },
-    {
-      "src": "apps/zxbrick/zxbrick-gameplay-03.png",
-      "alt": "ZXBrick gameplay screenshot"
+      "src": "apps/zxbrick/zxbrick-powerup-grow.png",
+      "alt": "ZXBrick wide paddle power-up",
+      "caption": "Wide Paddle"
     }
   ],
-  "imageSectionTitle": "Power-Up Images",
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "relatedPages": ["how-to-play", "game-modes", "tips-and-strategy", "levels"],
   "relatedLinks": [
     {
-      "label": "ZXBrick App Page",
-      "href": "/apps/zxbrick"
+      "label": "Levels",
+      "href": "/apps/zxbrick/levels"
     },
     {
       "label": "How to Play",
       "href": "/apps/zxbrick/how-to-play"
-    },
-    {
-      "label": "Designing ZXBrick Power-Ups",
-      "href": "/news/zxbrick-powerups"
     }
   ],
-  "help": {
-    "version": 1,
-    "sections": [
-      "overview",
-      "purpose"
-    ]
-  },
-  "lastUpdated": "2026-06-25"
+  "faq": [
+    {
+      "question": "Do power-ups affect progression?",
+      "answer": "Power-ups are intended as gameplay tools within sessions and are part of the replay planning loop, alongside level progression and achievements."
+    }
+  ]
 }

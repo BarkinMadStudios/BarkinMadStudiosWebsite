@@ -1,0 +1,56 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXBrick Leaderboards",
+  "seoTitle": "ZXBrick Leaderboards | BarkinMad Studios",
+  "description": "How to use the ZXBrick leaderboard flow to compare scores, track sessions, and improve play quality over repeated short games.",
+  "summary": "Leaderboards provide short-term comparison points and help convert short sessions into long-term progression loops.",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "heroImageAlt": "ZXBrick leaderboards overview",
+  "sourceNotes": [
+    "Leaderboard list is confirmed by the public app metadata.",
+    "Exact filtering, ranking regions, and seasonality rules are to verify in game center metadata."
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "paragraphs": [
+        "ZXBrick currently publishes a highest-score leaderboard.",
+        "Use this list to compare replay consistency across sessions and validate training results."
+      ],
+      "bullets": [
+        "Highest Score"
+      ]
+    },
+    {
+      "id": "comparison-flow",
+      "heading": "Build reusable comparisons",
+      "paragraphs": [
+        "Use one leaderboard goal per short cycle to prevent noisy comparison behavior.",
+        "Track session date and focus mode for each score comparison."
+      ]
+    }
+  ],
+  "relatedPages": ["achievements", "tips-and-strategy", "how-to-play", "game-modes"],
+  "relatedLinks": [
+    {
+      "label": "Achievements",
+      "href": "/apps/zxbrick/achievements"
+    },
+    {
+      "label": "How to Play",
+      "href": "/apps/zxbrick/how-to-play"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is shown on the ZXBrick leaderboard?",
+      "answer": "The current published category is highest score."
+    }
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXBrick leaderboard", "highest score", "score comparison"]
+}

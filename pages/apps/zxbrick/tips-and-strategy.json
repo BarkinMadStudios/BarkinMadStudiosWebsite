@@ -1,0 +1,58 @@
+{
+  "documentationSchemaVersion": "1.0.0",
+  "title": "ZXBrick Tips & Strategy",
+  "seoTitle": "ZXBrick Tips & Strategy | BarkinMad Studios",
+  "description": "Practical improvement guidance for short and repeatable ZXBrick sessions, with pacing, setup, and decision habits that improve score consistency over time.",
+  "summary": "Small consistency gains in early sessions usually create the largest score gains over time.",
+  "heroImage": "apps/zxbrick/zxbrick-hero.png",
+  "heroImageAlt": "ZXBrick strategy reference",
+  "sourceNotes": [
+    "Strategy notes are based on public documentation and documented gameplay loop metadata.",
+    "Exact high-level strategy is intentionally conservative until detailed play telemetry can be confirmed."
+  ],
+  "sections": [
+    {
+      "id": "consistency",
+      "heading": "Consistency first",
+      "paragraphs": [
+        "Keep one control rhythm for your opening two sessions.",
+        "Increase complexity only after the first objective is repeatable across multiple runs."
+      ],
+      "bullets": [
+        "Set one metric goal per session",
+        "Use short debrief notes after each run",
+        "Stop when you begin adding avoidable risk"
+      ]
+    },
+    {
+      "id": "progression-loop",
+      "heading": "Build a progression loop",
+      "paragraphs": [
+        "Pick a small objective, complete three consistent runs, then reset the objective for the next cluster.",
+        "This creates a reliable loop with fewer setup-related regressions."
+      ]
+    }
+  ],
+  "relatedPages": ["controls", "game-modes", "achievements", "leaderboards", "barkinmad-coins"],
+  "relatedLinks": [
+    {
+      "label": "How to Play",
+      "href": "/apps/zxbrick/how-to-play"
+    },
+    {
+      "label": "BarkinMad Coins",
+      "href": "/apps/zxbrick/barkinmad-coins"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How can I improve consistency quickly?",
+      "answer": "Use two short sessions with fixed inputs, then compare outcomes only once your control baseline is stable."
+    }
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "needs-review",
+  "lastUpdated": "2026-06-26",
+  "lastVerified": "2026-06-26",
+  "keywords": ["ZXBrick strategy", "arcade tips", "consistency", "progression loop"]
+}
