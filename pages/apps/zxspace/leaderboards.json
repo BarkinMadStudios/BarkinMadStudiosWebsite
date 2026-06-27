@@ -7,22 +7,22 @@
   "heroImage": "images/shared/placeholder.png",
   "heroImageAlt": "ZXSpace leaderboard gameplay screenshot",
   "sections": [
-    {
-      "id": "known-leaderboards",
-      "heading": "Known leaderboards",
-      "paragraphs": [
-        "Current documentation identifies Highest Score as the ZXSpace app-specific leaderboard.",
-        "ZXSpace also participates in shared ZX Series Total Score through the shared Retro leaderboard model."
-      ]
-    },
-    {
-      "id": "how-to-improve",
-      "heading": "How to improve",
-      "paragraphs": [
-        "For Highest Score, prioritize survival, wave completion, and efficient alien clearing.",
-        "UFO targets and higher-value alien rows help score, but protecting the city and shields keeps a run alive long enough to matter."
-      ]
-    }
+	  {
+		  "id": "leaderboards",
+		  "heading": "Leaderboards",
+		  "paragraphs": [
+			  "Highest Score is the main Game Center leaderboard for ZXSpace, challenging players to survive longer, clear more waves and achieve the highest score possible.",
+			  "Your progress also contributes to the shared ZX Series Total Score leaderboard, allowing you to compete across the entire ZX Series."
+		  ]
+	  },
+	  {
+		  "id": "improve-your-ranking",
+		  "heading": "Improve Your Ranking",
+		  "paragraphs": [
+			  "Focus on surviving for as long as possible, protecting your shields and clearing each wave efficiently. Longer runs naturally lead to higher scores and better leaderboard positions.",
+			  "Collect power-ups, destroy UFOs when it is safe to do so and minimise unnecessary damage to keep your score increasing throughout every game."
+		  ]
+	  }
   ],
   "images": [
     {
