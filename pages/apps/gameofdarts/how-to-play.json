@@ -1,15 +1,10 @@
 {
-  "documentationSchemaVersion": "1.0.0",
   "title": "Getting Started",
   "seoTitle": "Game of Darts Getting Started | BarkinMad Studios",
   "description": "Set up players, choose a darts mode, start play, enter scores, and find statistics and leaderboards after a Game of Darts session.",
   "summary": "Start by adding players, selecting a mode, confirming options, playing the match, then reviewing stats, results, and Game Center surfaces.",
   "heroImage": "apps/gameofdarts/gameofdarts.png",
   "heroImageAlt": "Game of Darts app artwork",
-  "sourceNotes": [
-    "Getting-started flow is based on the app HelpView and central App-Code-Map.",
-    "Exact per-screen labels can change with app releases and should be rechecked before final copy polish."
-  ],
   "sections": [
     {
       "id": "basic-flow",
@@ -21,15 +16,15 @@
       "bullets": [
         "Quick Start 501 is available from the main menu for fast X01 setup.",
         "Game Center sign-in enables leaderboards and achievements.",
-        "Players and supported session data can sync through iCloud key-value storage."
+        "Players and supported session data sync automatically when you are connected."
       ]
     },
     {
       "id": "online-offline",
       "heading": "Online and offline",
       "paragraphs": [
-        "The app monitors internet connectivity and uses cloud sync for players, supported sessions, leaderboards, and stats where available.",
-        "Central help copy says offline use may apply limits to reduce data and stability risk. Detailed offline gating is To Verify for each game mode."
+        "When you are online, sessions, leaderboards, and stats can sync across supported devices.",
+        "When offline, most of the game stays available while optional features may be limited."
       ]
     }
   ],
@@ -41,10 +36,20 @@
     }
   ],
   "imageSectionTitle": "Getting Started Image",
-  "keywords": ["Game of Darts", "getting started", "players", "Quick Start 501"],
+  "keywords": [
+    "Game of Darts",
+    "getting started",
+    "players",
+    "Quick Start 501"
+  ],
   "estimatedReadTimeMinutes": 3,
-  "contentStatus": "needs-review",
+  "contentStatus": "published",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["controls", "game-modes", "match-types", "statistics"]
+  "relatedPages": [
+    "controls",
+    "game-modes",
+    "match-types",
+    "statistics"
+  ]
 }

@@ -6,17 +6,13 @@
   "summary": "Choose the right mode pattern for your goal: consistency training or focused scoring progression.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
   "heroImageAlt": "ZXBrick game modes overview",
-  "sourceNotes": [
-    "Current public metadata indicates level-based and progression-focused play.",
-    "Any multiplayer or alternate mode variants remain to verify from active app configuration."
-  ],
   "sections": [
     {
       "id": "available",
       "heading": "Available modes",
       "paragraphs": [
-        "Based on available product information, ZXBrick is primarily a single-player progression game.",
-        "Use mode choice to match your objective: clean practice rounds for consistency or longer sessions for score growth." 
+        "ZXBrick focuses on a single-player progression loop for the documented modes.",
+        "Use mode choice to match your objective: clean practice rounds for consistency or longer sessions for score growth."
       ]
     },
     {
@@ -28,7 +24,12 @@
       ]
     }
   ],
-  "relatedPages": ["how-to-play", "tips-and-strategy", "achievements", "leaderboards"],
+  "relatedPages": [
+    "how-to-play",
+    "tips-and-strategy",
+    "achievements",
+    "leaderboards"
+  ],
   "relatedLinks": [
     {
       "label": "Achievements",
@@ -46,8 +47,12 @@
     }
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXBrick game modes", "single-player", "level progression", "arcade scores"]
+  "keywords": [
+    "ZXBrick game modes",
+    "single-player",
+    "level progression",
+    "arcade scores"
+  ]
 }

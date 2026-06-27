@@ -6,10 +6,6 @@
   "summary": "Leaderboards provide short-term comparison points and help convert short sessions into long-term progression loops.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
   "heroImageAlt": "ZXBrick leaderboards overview",
-  "sourceNotes": [
-    "Leaderboard list is confirmed by the public app metadata.",
-    "Exact filtering, ranking regions, and seasonality rules are to verify in game center metadata."
-  ],
   "sections": [
     {
       "id": "overview",
@@ -31,7 +27,12 @@
       ]
     }
   ],
-  "relatedPages": ["achievements", "tips-and-strategy", "how-to-play", "game-modes"],
+  "relatedPages": [
+    "achievements",
+    "tips-and-strategy",
+    "how-to-play",
+    "game-modes"
+  ],
   "relatedLinks": [
     {
       "label": "Achievements",
@@ -49,8 +50,11 @@
     }
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXBrick leaderboard", "highest score", "score comparison"]
+  "keywords": [
+    "ZXBrick leaderboard",
+    "highest score",
+    "score comparison"
+  ]
 }

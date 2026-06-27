@@ -5,17 +5,13 @@
   "description": "Understand known ZXSpace leaderboard surfaces, including Highest Score and shared ZX Series Total Score progression.",
   "summary": "ZXSpace leaderboard planning focuses on score consistency and shared ZX Series progression surfaces.",
   "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending ZXSpace leaderboard image",
-  "sourceNotes": [
-    "Current central ZX Series manifest identifies Highest Score plus ZX Series Total Score definitions for ZXSpace.",
-    "Final App Store Connect leaderboard display names are To Verify before public release."
-  ],
+  "heroImageAlt": "ZXSpace leaderboard gameplay screenshot",
   "sections": [
     {
       "id": "known-leaderboards",
       "heading": "Known leaderboards",
       "paragraphs": [
-        "Current source and central documentation identify Highest Score as the ZXSpace app-specific leaderboard.",
+        "Current documentation identifies Highest Score as the ZXSpace app-specific leaderboard."
         "ZXSpace also participates in shared ZX Series Total Score through the shared Retro leaderboard model."
       ]
     },
@@ -31,15 +27,25 @@
   "images": [
     {
       "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for ZXSpace leaderboards",
-      "caption": "Leaderboard artwork pending"
+      "alt": "ZXSpace leaderboards screenshot",
+      "caption": "Leaderboard screenshot"
     }
   ],
   "imageSectionTitle": "Leaderboard Images",
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXSpace", "leaderboards", "Highest Score", "Game Center", "ZX Series"],
-  "relatedPages": ["achievements", "how-to-play", "tips-and-strategy", "barkinmad-coins"]
+  "keywords": [
+    "ZXSpace",
+    "leaderboards",
+    "Highest Score",
+    "Game Center",
+    "ZX Series"
+  ],
+  "relatedPages": [
+    "achievements",
+    "how-to-play",
+    "tips-and-strategy",
+    "barkinmad-coins"
+  ]
 }

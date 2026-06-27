@@ -6,10 +6,6 @@
   "summary": "Find practical answers for progression, controls, and shared systems.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
   "heroImageAlt": "ZXBrick help FAQ",
-  "sourceNotes": [
-    "FAQ details are assembled from current app metadata and published docs.",
-    "Account-specific, support, and release-specific questions should be confirmed from support policy and in-app support state."
-  ],
   "sections": [
     {
       "id": "summary",
@@ -37,7 +33,13 @@
       "answer": "Yes. The current published category is the highest score leaderboard."
     }
   ],
-  "relatedPages": ["how-to-play", "achievements", "leaderboards", "barkinmad-coins", "overview"],
+  "relatedPages": [
+    "how-to-play",
+    "achievements",
+    "leaderboards",
+    "barkinmad-coins",
+    "overview"
+  ],
   "relatedLinks": [
     {
       "label": "How to Play",
@@ -49,8 +51,11 @@
     }
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXBrick FAQ", "arcade questions", "game help"]
+  "keywords": [
+    "ZXBrick FAQ",
+    "arcade questions",
+    "game help"
+  ]
 }

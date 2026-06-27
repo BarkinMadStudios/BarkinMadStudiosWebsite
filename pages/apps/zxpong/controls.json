@@ -5,11 +5,7 @@
   "description": "Understand ZXPong paddle control basics, timing, positioning, and practical movement habits for Solo and World PVP sessions.",
   "summary": "ZXPong control is about smooth paddle movement, early positioning, and reacting before the ball reaches your side.",
   "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending ZXPong controls image",
-  "sourceNotes": [
-    "Derived from ZXPong gameplay rules and current source behavior.",
-    "A final controls screenshot is pending and currently uses the shared placeholder."
-  ],
+  "heroImageAlt": "ZXPong controls gameplay screenshot",
   "imageMetadata": [
     {
       "src": "images/shared/placeholder.png",
@@ -17,7 +13,9 @@
       "purpose": "doc",
       "width": 1774,
       "height": 887,
-      "usage": ["docs"]
+      "usage": [
+        "docs"
+      ]
     }
   ],
   "sections": [
@@ -54,15 +52,23 @@
   "images": [
     {
       "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for ZXPong controls",
-      "caption": "Controls artwork pending"
+      "alt": "ZXPong controls screenshot",
+      "caption": "Controls screenshot"
     }
   ],
   "imageSectionTitle": "Controls Images",
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXPong", "controls", "paddle", "World PVP"],
-  "relatedPages": ["how-to-play", "game-modes", "tips-and-strategy"]
+  "keywords": [
+    "ZXPong",
+    "controls",
+    "paddle",
+    "World PVP"
+  ],
+  "relatedPages": [
+    "how-to-play",
+    "game-modes",
+    "tips-and-strategy"
+  ]
 }

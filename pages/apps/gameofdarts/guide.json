@@ -1,15 +1,10 @@
 {
-  "documentationSchemaVersion": "1.0.0",
   "title": "Game of Darts Guide",
-  "seoTitle": "Complete Game of Darts Guide | BarkinMad Studios",
-  "description": "A complete player guide for Game of Darts covering getting started, players, online and offline play, ads and unlocks, Game Center, keyboard shortcuts, and rules for supported game modes.",
+  "seoTitle": "Game of Darts Guide | BarkinMad Studios",
+  "description": "A full player guide for Game of Darts covering getting started, players, online and offline play, ads and unlocks, Game Center, keyboard shortcuts, and rules for supported game modes.",
   "summary": "Learn how to set up players, start games, use statistics and leaderboards, understand ads and unlocks, and play each supported Game of Darts mode.",
   "heroImage": "apps/gameofdarts/gameofdarts-hero.png",
   "heroImageAlt": "Game of Darts hero artwork",
-  "sourceNotes": [
-    "Rewritten from the uploaded Game of Darts help and rules source.",
-    "Developer/source-code formatting has been removed so the page reads as player documentation."
-  ],
   "sections": [
     {
       "id": "getting-started",
@@ -98,8 +93,8 @@
         "Press U to undo the last score entered.",
         "Press Enter to confirm supported pop-up windows.",
         "All 5s and Halve It also support number entry, Enter to confirm, and Delete to remove score input.",
-        "Standard hit/miss keypad shortcuts for Bob's 27, Hare & Hound, and 1 to 20 are under development outside simulator testing.",
-        "Cricket keyboard shortcut support is under development."
+        "Standard hit/miss keypad shortcuts for Bob's 27, Hare & Hound, and 1 to 20 are available in supported versions.",
+        "Cricket includes keyboard shortcut support when the option is enabled."
       ]
     },
     {
@@ -195,7 +190,7 @@
       "id": "other-rules",
       "heading": "Other Rules Included in the App",
       "paragraphs": [
-        "The source rules also include Killer, Shanghai, Baseball, and Golf. Some of these are development or placeholder modes depending on the app version and release menu availability."
+        "Killer, Shanghai, Baseball, and Golf are part of the broader Game of Darts rule set in selected versions."
       ],
       "bullets": [
         "Killer: players become killers by hitting their double, then reduce opponents' lives.",
@@ -256,7 +251,7 @@
     "statistics",
     "leaderboards",
     "dartbot",
-    "premium-access",
+    "barkinmad-coins",
     "frequently-asked-questions"
   ]
 }

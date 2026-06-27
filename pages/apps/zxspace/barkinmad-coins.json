@@ -14,10 +14,6 @@
     }
   ],
   "imageSectionTitle": "BarkinMad Coins Images",
-  "sourceNotes": [
-    "Uses the shared `images/shared/barkinmadcoins.png` asset requested for this rollout.",
-    "Coin reward amounts and final release wording are To Verify before public release."
-  ],
   "sections": [
     {
       "id": "what-is",
@@ -31,7 +27,7 @@
       "id": "how-zxspace-uses-coins",
       "heading": "How ZXSpace uses coins",
       "paragraphs": [
-        "Current ZXSpace source awards coins when waves are completed and syncs the balance through the shared ZX wallet.",
+        "ZXSpace gameplay awards coins when waves are completed and updates the shared ZX wallet balance."
         "Alien and UFO kills award score, while coin rewards are handled separately so score chasing and wallet progression remain distinct."
       ]
     },
@@ -40,11 +36,16 @@
       "heading": "Cosmetic unlocks",
       "paragraphs": [
         "ZXSpace includes unlockable cannon skins. Classic is the default skin, with additional skins unlocked through coins.",
-        "Known skin names in source are Classic, Red, Neon, Cyanic, Golden, and Obsidian."
+        "Playable skin names include Classic, Red, Neon, Cyanic, Golden, and Obsidian."
       ]
     }
   ],
-  "relatedPages": ["achievements", "leaderboards", "overview", "tips-and-strategy"],
+  "relatedPages": [
+    "achievements",
+    "leaderboards",
+    "overview",
+    "tips-and-strategy"
+  ],
   "relatedLinks": [
     {
       "label": "ZX Series",
@@ -58,8 +59,13 @@
     }
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["BarkinMad Coins", "ZXSpace", "ZX Series wallet", "cosmetic unlocks", "cannon skins"]
+  "keywords": [
+    "BarkinMad Coins",
+    "ZXSpace",
+    "ZX Series wallet",
+    "cosmetic unlocks",
+    "cannon skins"
+  ]
 }

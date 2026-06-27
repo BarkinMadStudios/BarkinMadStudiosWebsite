@@ -4,7 +4,6 @@
   "title": "ZXPong Guides",
   "description": "Official player guides for ZXPong covering paddle controls, Solo play, World PVP, coins, achievements, leaderboards, and release-ready support notes.",
   "landingPage": "overview",
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "estimatedReadTimeMinutes": 30,
@@ -20,10 +19,6 @@
     "BarkinMad Coins",
     "Game Center"
   ],
-  "sourceNotes": [
-    "Prepared from pages/apps/zxpong.json, pages/data/apps.json, central ZX Series documentation, and current ZXPong source constants.",
-    "Public status is Awaiting App Store approval. Final public App Store URL is To Verify after Apple approval."
-  ],
   "pages": [
     {
       "slug": "overview",
@@ -33,10 +28,13 @@
       "status": "required",
       "order": 1,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["how-to-play", "controls", "game-modes"]
+      "relatedPages": [
+        "how-to-play",
+        "controls",
+        "game-modes"
+      ]
     },
     {
       "slug": "how-to-play",
@@ -46,10 +44,14 @@
       "status": "required",
       "order": 2,
       "estimatedReadTimeMinutes": 4,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["controls", "game-modes", "tips-and-strategy", "achievements"]
+      "relatedPages": [
+        "controls",
+        "game-modes",
+        "tips-and-strategy",
+        "achievements"
+      ]
     },
     {
       "slug": "controls",
@@ -59,10 +61,13 @@
       "status": "required",
       "order": 3,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["how-to-play", "game-modes", "tips-and-strategy"]
+      "relatedPages": [
+        "how-to-play",
+        "game-modes",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "game-modes",
@@ -72,10 +77,14 @@
       "status": "required",
       "order": 4,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["how-to-play", "controls", "leaderboards", "tips-and-strategy"]
+      "relatedPages": [
+        "how-to-play",
+        "controls",
+        "leaderboards",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "barkinmad-coins",
@@ -85,10 +94,13 @@
       "status": "required",
       "order": 5,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["achievements", "leaderboards", "tips-and-strategy"]
+      "relatedPages": [
+        "achievements",
+        "leaderboards",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "achievements",
@@ -98,10 +110,13 @@
       "status": "required",
       "order": 6,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["leaderboards", "how-to-play", "tips-and-strategy"]
+      "relatedPages": [
+        "leaderboards",
+        "how-to-play",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "leaderboards",
@@ -111,10 +126,13 @@
       "status": "required",
       "order": 7,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["achievements", "how-to-play", "tips-and-strategy"]
+      "relatedPages": [
+        "achievements",
+        "how-to-play",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "tips-and-strategy",
@@ -124,10 +142,15 @@
       "status": "required",
       "order": 8,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["controls", "how-to-play", "game-modes", "achievements", "leaderboards"]
+      "relatedPages": [
+        "controls",
+        "how-to-play",
+        "game-modes",
+        "achievements",
+        "leaderboards"
+      ]
     },
     {
       "slug": "frequently-asked-questions",
@@ -137,10 +160,14 @@
       "status": "required",
       "order": 9,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["overview", "game-modes", "barkinmad-coins", "leaderboards"]
+      "relatedPages": [
+        "overview",
+        "game-modes",
+        "barkinmad-coins",
+        "leaderboards"
+      ]
     },
     {
       "slug": "guide",
@@ -150,10 +177,16 @@
       "status": "optional",
       "order": 10,
       "estimatedReadTimeMinutes": 8,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["overview", "how-to-play", "controls", "game-modes", "tips-and-strategy", "frequently-asked-questions"]
+      "relatedPages": [
+        "overview",
+        "how-to-play",
+        "controls",
+        "game-modes",
+        "tips-and-strategy",
+        "frequently-asked-questions"
+      ]
     },
     {
       "slug": "screenshots",
@@ -163,10 +196,12 @@
       "status": "optional",
       "order": 11,
       "estimatedReadTimeMinutes": 1,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["overview", "guide"]
+      "relatedPages": [
+        "overview",
+        "guide"
+      ]
     }
   ]
 }

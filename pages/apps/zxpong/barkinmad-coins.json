@@ -14,10 +14,6 @@
     }
   ],
   "imageSectionTitle": "BarkinMad Coins Images",
-  "sourceNotes": [
-    "Uses the shared `images/shared/barkinmadcoins.png` asset requested for this rollout.",
-    "Coin reward amounts and final release wording are To Verify after Apple approval."
-  ],
   "sections": [
     {
       "id": "what-is",
@@ -31,7 +27,7 @@
       "id": "how-zxpong-uses-coins",
       "heading": "How ZXPong uses coins",
       "paragraphs": [
-        "Current ZXPong source includes collectible court coins and Solo reward calculations based on match results, AI difficulty, and longest rally.",
+        "The ZXPong gameplay model includes collectible coins and Solo reward calculations based on match results, AI difficulty, and longest rally.",
         "The app also uses the shared ZX wallet, so coin balance is part of the wider ZX Series progression surface."
       ]
     },
@@ -40,11 +36,16 @@
       "heading": "Cosmetic unlocks",
       "paragraphs": [
         "ZXPong includes unlockable paddle skins. Classic is the default skin, with additional skins unlocked through coins.",
-        "Known skin names in source are Classic, Red, Neon, Cyanic, Golden, and Obsidian."
+        "Playable skin names include Classic, Red, Neon, Cyanic, Golden, and Obsidian."
       ]
     }
   ],
-  "relatedPages": ["achievements", "leaderboards", "overview", "tips-and-strategy"],
+  "relatedPages": [
+    "achievements",
+    "leaderboards",
+    "overview",
+    "tips-and-strategy"
+  ],
   "relatedLinks": [
     {
       "label": "ZX Series",
@@ -58,8 +59,13 @@
     }
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["BarkinMad Coins", "ZXPong", "ZX Series wallet", "cosmetic unlocks", "paddle skins"]
+  "keywords": [
+    "BarkinMad Coins",
+    "ZXPong",
+    "ZX Series wallet",
+    "cosmetic unlocks",
+    "paddle skins"
+  ]
 }

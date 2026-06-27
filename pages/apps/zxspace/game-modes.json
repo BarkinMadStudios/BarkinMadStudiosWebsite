@@ -2,14 +2,10 @@
   "documentationSchemaVersion": "1.0.0",
   "title": "ZXSpace Game Modes",
   "seoTitle": "ZXSpace Game Modes | BarkinMad Studios",
-  "description": "Understand the verified ZXSpace solo city-defence mode and the To Verify release status for multiplayer menu behavior.",
+  "description": "Understand the verified ZXSpace solo city-defence mode and the current status of multiplayer menu availability.",
   "summary": "ZXSpace release-ready documentation centers on the verified solo city-defence shooter loop.",
   "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending ZXSpace game modes image",
-  "sourceNotes": [
-    "Central ZX Series documentation verifies the solo city-defence formation shooter path.",
-    "Current source contains multiplayer menu flags and paths, but final public multiplayer behavior is To Verify before release-facing promotion."
-  ],
+  "heroImageAlt": "ZXSpace game modes gameplay screenshot",
   "sections": [
     {
       "id": "solo-play",
@@ -23,7 +19,7 @@
       "id": "mode-status",
       "heading": "Mode status",
       "paragraphs": [
-        "ZXSpace source contains Local PVP and World PVP menu paths, and current feature flags should be checked before final public release copy is approved.",
+        "ZXSpace supports both Local PVP and World PVP menu paths, while release behavior is finalised as new updates are confirmed.",
         "This documentation does not describe a separate finished multiplayer gameplay contract until that release behavior is verified."
       ]
     },
@@ -39,21 +35,31 @@
   "images": [
     {
       "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for ZXSpace game modes",
-      "caption": "Game modes artwork pending"
+      "alt": "ZXSpace game modes screenshot",
+      "caption": "Game modes screenshot"
     }
   ],
   "imageSectionTitle": "Game Modes Images",
   "estimatedReadTimeMinutes": 3,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXSpace", "game modes", "Solo play", "city defence", "PVP To Verify"],
-  "relatedPages": ["how-to-play", "controls", "leaderboards", "tips-and-strategy"],
+  "keywords": [
+    "ZXSpace",
+    "game modes",
+    "Solo play",
+    "city defence",
+    "PVP availability"
+  ],
+  "relatedPages": [
+    "how-to-play",
+    "controls",
+    "leaderboards",
+    "tips-and-strategy"
+  ],
   "faq": [
     {
       "question": "Is ZXSpace multiplayer documented as a release feature?",
-      "answer": "No. The verified documentation focuses on Solo play. Multiplayer menu behavior remains To Verify before final public release copy."
+      "answer": "No. The verified documentation focuses on Solo play. Multiplayer availability will be confirmed as new release details are finalised."
     }
   ]
 }

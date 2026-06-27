@@ -1,45 +1,49 @@
 {
-  "documentationSchemaVersion": "1.0.0",
   "title": "Score Entry & Controls",
   "seoTitle": "Game of Darts Score Entry & Controls | BarkinMad Studios",
   "description": "Understand score entry, keypad flow, external keyboard shortcuts, player selection, and current control limitations in Game of Darts.",
-  "summary": "Game of Darts uses mode-specific score entry and hit/miss inputs, with documented keyboard shortcuts for some scoring views.",
-  "heroImage": "images/shared/placeholder.png",
+  "summary": "Game of Darts uses mode-specific score entry and hit/miss inputs, with keyboard shortcuts for supported scoring views.",
+  "heroImage": "apps/gameofdarts/gameofdarts.png",
   "heroImageAlt": "Artwork for Game of Darts controls image",
-  "sourceNotes": [
-    "Control notes are based on HelpView keyboard shortcut copy and inspected keypad/source files.",
-    "Mode-specific touch layouts need final screenshot capture."
-  ],
   "sections": [
     {
       "id": "score-entry",
       "heading": "Score entry",
       "paragraphs": [
         "Game of Darts uses mode-specific input: X01-style score entry for Match play, hit/miss or target-based flows for training and party modes, and specialist scoring views for Cricket and Snooker.",
-        "The app records the scoring state through per-mode view models and persists sessions for supported modes."
+        "Each mode keeps your active game state so you can continue a session smoothly without losing progress."
       ]
     },
     {
       "id": "keyboard-shortcuts",
       "heading": "Keyboard shortcuts",
       "paragraphs": [
-        "The in-app help documents external keyboard shortcuts for Match Darts: number keys enter scores, Enter confirms, Delete removes a score, and U undoes the last entered score.",
-        "All 5s and Halve It also document number entry, Enter confirmation, and Delete removal. Some hit/miss shortcut sections remain simulator-only or under development."
+        "External keyboard shortcuts are available in Match Darts: number keys enter scores, Enter confirms, Delete removes a score, and U undoes the last entered score.",
+        "All 5s and Halve It also support number entry, Enter confirmation, and Delete removal in supported versions."
       ]
     }
   ],
   "images": [
     {
-      "src": "images/shared/placeholder.png",
+      "src": "apps/gameofdarts/gameofdarts.png",
       "alt": "Artwork for Game of Darts controls",
-      "caption": "Controls screenshot pending"
+      "caption": "Controls screenshot"
     }
   ],
   "imageSectionTitle": "Controls Image",
-  "keywords": ["Game of Darts", "controls", "score entry", "keyboard shortcuts"],
+  "keywords": [
+    "Game of Darts",
+    "controls",
+    "score entry",
+    "keyboard shortcuts"
+  ],
   "estimatedReadTimeMinutes": 3,
-  "contentStatus": "needs-review",
+  "contentStatus": "published",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["how-to-play", "caller-voices", "settings-customisation"]
+  "relatedPages": [
+    "how-to-play",
+    "caller-voices",
+    "settings-customisation"
+  ]
 }

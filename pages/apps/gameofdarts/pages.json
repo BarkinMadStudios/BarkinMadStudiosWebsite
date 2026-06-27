@@ -1,18 +1,23 @@
 {
-  "documentationSchemaVersion": "1.0.0",
   "appSlug": "gameofdarts",
   "title": "Game of Darts Guides",
   "description": "Official Game of Darts guides covering setup, game modes, match types, DartBot, statistics, leaderboards, achievements, caller voices, settings, and screenshots.",
   "landingPage": "overview",
-  "contentStatus": "needs-review",
+  "contentStatus": "published",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "estimatedReadTimeMinutes": 39,
-  "relatedSeries": ["/apps/non-zx"],
-  "keywords": ["Game of Darts", "darts scoring app", "DartBot", "statistics", "Game Center", "iPhone", "iPad"],
-  "sourceNotes": [
-    "Prepared from pages/apps/gameofdarts.json, pages/data/apps.json, central Game of Darts documentation, current Game of Darts source, and available website artwork.",
-    "Website Framework v1.1 requires the standard core documentation slugs; Game of Darts-specific page titles are used where appropriate."
+  "relatedSeries": [
+    "/apps/non-zx"
+  ],
+  "keywords": [
+    "Game of Darts",
+    "darts scoring app",
+    "DartBot",
+    "statistics",
+    "Game Center",
+    "iPhone",
+    "iPad"
   ],
   "pages": [
     {
@@ -23,12 +28,20 @@
       "status": "required",
       "order": 1,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Overview | BarkinMad Studios",
-      "keywords": ["Game of Darts", "darts app", "overview"],
-      "relatedPages": ["how-to-play", "game-modes", "match-types"]
+      "keywords": [
+        "Game of Darts",
+        "darts app",
+        "overview"
+      ],
+      "relatedPages": [
+        "how-to-play",
+        "game-modes",
+        "match-types"
+      ]
     },
     {
       "slug": "how-to-play",
@@ -38,12 +51,22 @@
       "status": "required",
       "order": 2,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Getting Started | BarkinMad Studios",
-      "keywords": ["Game of Darts", "getting started", "players", "score entry"],
-      "relatedPages": ["controls", "game-modes", "match-types", "statistics"]
+      "keywords": [
+        "Game of Darts",
+        "getting started",
+        "players",
+        "score entry"
+      ],
+      "relatedPages": [
+        "controls",
+        "game-modes",
+        "match-types",
+        "statistics"
+      ]
     },
     {
       "slug": "controls",
@@ -53,27 +76,47 @@
       "status": "required",
       "order": 3,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Score Entry & Controls | BarkinMad Studios",
-      "keywords": ["Game of Darts", "score entry", "keyboard shortcuts", "controls"],
-      "relatedPages": ["how-to-play", "caller-voices", "settings-customisation"]
+      "keywords": [
+        "Game of Darts",
+        "score entry",
+        "keyboard shortcuts",
+        "controls"
+      ],
+      "relatedPages": [
+        "how-to-play",
+        "caller-voices",
+        "settings-customisation"
+      ]
     },
     {
       "slug": "game-modes",
       "title": "Game Modes",
-      "description": "Review live, development, placeholder, and hidden Game of Darts modes using the current source-backed inventory.",
+      "description": "Review the Game of Darts match formats available to play.",
       "required": true,
       "status": "required",
       "order": 4,
       "estimatedReadTimeMinutes": 4,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Game Modes | BarkinMad Studios",
-      "keywords": ["Game of Darts", "X01", "Cricket", "Snooker", "Bob's 27"],
-      "relatedPages": ["match-types", "dartbot", "leaderboards", "achievements"]
+      "keywords": [
+        "Game of Darts",
+        "X01",
+        "Cricket",
+        "Snooker",
+        "Bob's 27"
+      ],
+      "relatedPages": [
+        "match-types",
+        "dartbot",
+        "leaderboards",
+        "achievements"
+      ]
     },
     {
       "slug": "match-types",
@@ -83,12 +126,20 @@
       "status": "optional",
       "order": 5,
       "estimatedReadTimeMinutes": 4,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Match Types | BarkinMad Studios",
-      "keywords": ["Game of Darts", "match types", "darts rules"],
-      "relatedPages": ["game-modes", "how-to-play", "tips-and-strategy"]
+      "keywords": [
+        "Game of Darts",
+        "match types",
+        "darts rules"
+      ],
+      "relatedPages": [
+        "game-modes",
+        "how-to-play",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "dartbot",
@@ -98,27 +149,44 @@
       "status": "optional",
       "order": 6,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts DartBot | BarkinMad Studios",
-      "keywords": ["Game of Darts", "DartBot", "AI opponent"],
-      "relatedPages": ["game-modes", "settings-customisation", "barkinmad-coins"]
+      "keywords": [
+        "Game of Darts",
+        "DartBot",
+        "AI opponent"
+      ],
+      "relatedPages": [
+        "game-modes",
+        "settings-customisation",
+        "barkinmad-coins"
+      ]
     },
     {
       "slug": "statistics",
       "title": "Statistics",
-      "description": "Understand player statistics, persisted session data, advanced statistics access, and current To Verify areas.",
+      "description": "Understand player statistics, session data, and advanced statistics access in Game of Darts.",
       "required": false,
       "status": "optional",
       "order": 7,
       "estimatedReadTimeMinutes": 4,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Statistics | BarkinMad Studios",
-      "keywords": ["Game of Darts", "statistics", "advanced stats", "sessions"],
-      "relatedPages": ["leaderboards", "achievements", "settings-customisation"]
+      "keywords": [
+        "Game of Darts",
+        "statistics",
+        "advanced stats",
+        "sessions"
+      ],
+      "relatedPages": [
+        "leaderboards",
+        "achievements",
+        "settings-customisation"
+      ]
     },
     {
       "slug": "leaderboards",
@@ -128,42 +196,68 @@
       "status": "required",
       "order": 8,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Leaderboards | BarkinMad Studios",
-      "keywords": ["Game of Darts", "leaderboards", "Game Center"],
-      "relatedPages": ["statistics", "achievements", "settings-customisation"]
+      "keywords": [
+        "Game of Darts",
+        "leaderboards",
+        "Game Center"
+      ],
+      "relatedPages": [
+        "statistics",
+        "achievements",
+        "settings-customisation"
+      ]
     },
     {
       "slug": "achievements",
       "title": "Achievements",
-      "description": "Understand Game Center achievement tracking across supported game modes and current source-backed achievement behavior.",
+      "description": "Understand Game Center achievement tracking across supported Game of Darts modes.",
       "required": true,
       "status": "required",
       "order": 9,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Achievements | BarkinMad Studios",
-      "keywords": ["Game of Darts", "achievements", "Game Center"],
-      "relatedPages": ["leaderboards", "statistics", "game-modes"]
+      "keywords": [
+        "Game of Darts",
+        "achievements",
+        "Game Center"
+      ],
+      "relatedPages": [
+        "leaderboards",
+        "statistics",
+        "game-modes"
+      ]
     },
     {
       "slug": "caller-voices",
       "title": "Caller Voices",
-      "description": "Document the current caller audio assets, caller setting, and voice-control status verified from source.",
+      "description": "Learn the caller voice options and how to use voice controls during matches.",
       "required": false,
       "status": "optional",
       "order": 10,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Caller Voices | BarkinMad Studios",
-      "keywords": ["Game of Darts", "caller voices", "Daniel", "Serena", "voice control"],
-      "relatedPages": ["controls", "settings-customisation", "frequently-asked-questions"]
+      "keywords": [
+        "Game of Darts",
+        "caller voices",
+        "Daniel",
+        "Serena",
+        "voice control"
+      ],
+      "relatedPages": [
+        "controls",
+        "settings-customisation",
+        "frequently-asked-questions"
+      ]
     },
     {
       "slug": "settings-customisation",
@@ -173,27 +267,46 @@
       "status": "optional",
       "order": 11,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Settings & Customisation | BarkinMad Studios",
-      "keywords": ["Game of Darts", "settings", "customisation", "DartBot"],
-      "relatedPages": ["dartbot", "caller-voices", "statistics"]
+      "keywords": [
+        "Game of Darts",
+        "settings",
+        "customisation",
+        "DartBot"
+      ],
+      "relatedPages": [
+        "dartbot",
+        "caller-voices",
+        "statistics"
+      ]
     },
     {
       "slug": "barkinmad-coins",
       "title": "Premium Access",
-      "description": "Document the app's current premium access model and note that BarkinMad Coins usage is not verified for Game of Darts.",
+      "description": "Learn how to unlock premium features through Pro, DartBot access, and 48-hour passes, and how premium fits your play style.",
       "required": true,
       "status": "required",
       "order": 12,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Premium Access | BarkinMad Studios",
-      "keywords": ["Game of Darts", "premium", "Pro", "DartBot", "48-hour unlock"],
-      "relatedPages": ["dartbot", "settings-customisation", "frequently-asked-questions"]
+      "keywords": [
+        "Game of Darts",
+        "premium",
+        "Pro",
+        "DartBot",
+        "48-hour unlock"
+      ],
+      "relatedPages": [
+        "dartbot",
+        "settings-customisation",
+        "frequently-asked-questions"
+      ]
     },
     {
       "slug": "tips-and-strategy",
@@ -203,12 +316,21 @@
       "status": "required",
       "order": 13,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Tips & Strategy | BarkinMad Studios",
-      "keywords": ["Game of Darts", "tips", "strategy", "darts practice"],
-      "relatedPages": ["match-types", "statistics", "leaderboards"]
+      "keywords": [
+        "Game of Darts",
+        "tips",
+        "strategy",
+        "darts practice"
+      ],
+      "relatedPages": [
+        "match-types",
+        "statistics",
+        "leaderboards"
+      ]
     },
     {
       "slug": "frequently-asked-questions",
@@ -218,27 +340,49 @@
       "status": "required",
       "order": 14,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts FAQ | BarkinMad Studios",
-      "keywords": ["Game of Darts", "FAQ", "DartBot", "statistics", "Game Center"],
-      "relatedPages": ["overview", "game-modes", "statistics", "settings-customisation"]
+      "keywords": [
+        "Game of Darts",
+        "FAQ",
+        "DartBot",
+        "statistics",
+        "Game Center"
+      ],
+      "relatedPages": [
+        "overview",
+        "game-modes",
+        "statistics",
+        "settings-customisation"
+      ]
     },
     {
       "slug": "guide",
       "title": "Guide",
-      "description": "Complete Game of Darts guide linking the main setup, scoring, modes, DartBot, statistics, and support pages.",
+      "description": "Comprehensive Game of Darts guide linking the main setup, scoring, modes, DartBot, statistics, and support pages.",
       "required": false,
       "status": "optional",
       "order": 15,
       "estimatedReadTimeMinutes": 8,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Guide | BarkinMad Studios",
-      "keywords": ["Game of Darts", "guide", "darts scoring app"],
-      "relatedPages": ["overview", "how-to-play", "game-modes", "match-types", "statistics", "frequently-asked-questions"]
+      "keywords": [
+        "Game of Darts",
+        "guide",
+        "darts scoring app"
+      ],
+      "relatedPages": [
+        "overview",
+        "how-to-play",
+        "game-modes",
+        "match-types",
+        "statistics",
+        "frequently-asked-questions"
+      ]
     },
     {
       "slug": "screenshots",
@@ -248,12 +392,19 @@
       "status": "optional",
       "order": 16,
       "estimatedReadTimeMinutes": 1,
-      "contentStatus": "needs-review",
+      "contentStatus": "published",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "seoTitle": "Game of Darts Screenshots | BarkinMad Studios",
-      "keywords": ["Game of Darts", "screenshots", "artwork"],
-      "relatedPages": ["overview", "guide"]
+      "keywords": [
+        "Game of Darts",
+        "screenshots",
+        "artwork"
+      ],
+      "relatedPages": [
+        "overview",
+        "guide"
+      ]
     }
   ]
 }

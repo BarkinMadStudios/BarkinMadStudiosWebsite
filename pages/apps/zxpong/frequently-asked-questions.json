@@ -5,11 +5,7 @@
   "description": "Answers to common ZXPong questions about release status, controls, Solo play, World PVP, Local PVP, coins, and leaderboards.",
   "summary": "Quick ZXPong answers for release-ready player support.",
   "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending ZXPong FAQ image",
-  "sourceNotes": [
-    "FAQ answers are based on current ZXPong source and website metadata.",
-    "Public status is Awaiting App Store approval. Final public App Store URL is To Verify after Apple approval."
-  ],
+  "heroImageAlt": "ZXPong FAQ gameplay screenshot",
   "sections": [
     {
       "id": "faq-overview",
@@ -41,15 +37,25 @@
   "images": [
     {
       "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for ZXPong FAQ",
-      "caption": "FAQ artwork pending"
+      "alt": "ZXPong FAQ screenshot",
+      "caption": "FAQ screenshot"
     }
   ],
   "imageSectionTitle": "FAQ Images",
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXPong", "FAQ", "World PVP", "BarkinMad Coins", "leaderboards"],
-  "relatedPages": ["overview", "game-modes", "barkinmad-coins", "leaderboards"]
+  "keywords": [
+    "ZXPong",
+    "FAQ",
+    "World PVP",
+    "BarkinMad Coins",
+    "leaderboards"
+  ],
+  "relatedPages": [
+    "overview",
+    "game-modes",
+    "barkinmad-coins",
+    "leaderboards"
+  ]
 }

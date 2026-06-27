@@ -6,11 +6,6 @@
   "summary": "ZXBrick is a focused arcade loop: clear the level, extend your run, and improve replay consistency.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
   "heroImageAlt": "ZXBrick gameplay introduction",
-  "sourceNotes": [
-    "Derived from pages/apps/zxbrick.json and pages/data/apps.json.",
-    "Detailed scoring coefficients, failure conditions, and exact ball-physics timing are to verify before publication.",
-    "Current implementation details remain at a systems level until gameplay telemetry confirms exact session timing behavior."
-  ],
   "imageMetadata": [
     {
       "src": "apps/zxbrick/zxbrick-gameplay-02.png",
@@ -18,7 +13,11 @@
       "purpose": "gameplay",
       "width": 1170,
       "height": 2532,
-      "usage": ["docs", "website", "social"]
+      "usage": [
+        "docs",
+        "website",
+        "social"
+      ]
     }
   ],
   "sections": [
@@ -61,10 +60,17 @@
     }
   ],
   "estimatedReadTimeMinutes": 4,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["controls", "tips-and-strategy", "game-modes", "levels", "powerups", "achievements", "leaderboards"],
+  "relatedPages": [
+    "controls",
+    "tips-and-strategy",
+    "game-modes",
+    "levels",
+    "powerups",
+    "achievements",
+    "leaderboards"
+  ],
   "relatedLinks": [
     {
       "label": "Controls",

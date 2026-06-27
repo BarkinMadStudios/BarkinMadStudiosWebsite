@@ -35,8 +35,6 @@
       "solution": "Built a mobile scoring app supporting multiple darts formats, player tracking, match history, statistics, and a user interface focused on quick score entry.",
       "technologies": [
         "iOS",
-        "Swift",
-        "SwiftUI",
         "Local data storage",
         "Statistics tracking"
       ],
@@ -53,8 +51,6 @@
       "solution": "Developed a polished mobile arcade game with responsive controls, Game Center integration, multiplayer features, localisation, and shared progression systems.",
       "technologies": [
         "iOS",
-        "Swift",
-        "SwiftUI",
         "SpriteKit",
         "Game Center",
         "StoreKit",
@@ -73,8 +69,6 @@
       "solution": "Built a mobile arcade game with handcrafted levels, power-ups, score chasing, achievements, Game Center integration, localisation, and shared ZX Series systems.",
       "technologies": [
         "iOS",
-        "Swift",
-        "SwiftUI",
         "SpriteKit",
         "Game Center",
         "StoreKit",
@@ -93,8 +87,6 @@
       "solution": "Developing a mobile arcade shooter using shared systems for progression, achievements, localisation, leaderboards, and BarkinMad Coins.",
       "technologies": [
         "iOS",
-        "Swift",
-        "SwiftUI",
         "SpriteKit",
         "Game Center"
       ],
@@ -111,8 +103,6 @@
       "solution": "Developing ZXPong around shared PVP, achievements, leaderboards, wallet, localisation, and Game Center systems.",
       "technologies": [
         "iOS",
-        "Swift",
-        "SwiftUI",
         "SpriteKit",
         "Game Center"
       ],
@@ -130,7 +120,6 @@
       "challenge": "Developers often need to switch between multiple services and dashboards to understand how their products and business are performing. This creates fragmented workflows and makes it difficult to identify trends and issues quickly.",
       "solution": "StudioDash provides a unified dashboard experience, consolidating analytics, revenue reporting, service health, and operational metrics into a single native application designed specifically for independent developers.",
       "technologies": [
-        "SwiftUI",
         "Native iPadOS and macOS",
         "Cloudflare APIs",
         "App Store Connect API",
@@ -152,7 +141,6 @@
       "solution": "Planned app concept focused on guided data capture, structured test points, report generation, and future analysis features.",
       "technologies": [
         "iOS",
-        "SwiftUI",
         "Data capture",
         "Reporting",
         "Potential AI-assisted analysis"

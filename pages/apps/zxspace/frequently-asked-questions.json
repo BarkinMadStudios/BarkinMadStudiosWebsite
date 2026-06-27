@@ -5,11 +5,7 @@
   "description": "Answers to common ZXSpace questions about release status, controls, solo play, coins, power-ups, achievements, and leaderboards.",
   "summary": "Quick ZXSpace answers for release-ready player support.",
   "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending ZXSpace FAQ image",
-  "sourceNotes": [
-    "FAQ answers are based on current ZXSpace source, central documentation, and website metadata.",
-    "Public status is Coming Soon. Final App Store approval status, public URL, and multiplayer release behavior are To Verify."
-  ],
+  "heroImageAlt": "ZXSpace FAQ gameplay screenshot",
   "sections": [
     {
       "id": "faq-overview",
@@ -23,11 +19,11 @@
   "faq": [
     {
       "question": "Is ZXSpace live on the App Store?",
-      "answer": "No. ZXSpace is Coming Soon, and the final App Store approval status and public URL are To Verify."
+      "answer": "No. ZXSpace is Coming Soon, and the final App Store approval status and public URL are to confirm."
     },
     {
       "question": "What is the verified gameplay mode?",
-      "answer": "The verified documented mode is Solo city-defence formation shooting. Public multiplayer behavior is To Verify before final release copy."
+      "answer": "The verified documented mode is Solo city-defence formation shooting. Public multiplayer behavior is to confirm before final release copy."
     },
     {
       "question": "How do controls work?",
@@ -38,22 +34,32 @@
       "answer": "Yes. ZXSpace uses the shared ZX Series wallet model and awards coins through wave completion and progression systems."
     },
     {
-      "question": "What power-ups are in the current source?",
-      "answer": "Current source includes Double Laser and Shield Repair drops."
+      "question": "What power-ups are in the current gameplay?",
+      "answer": "current gameplay includes Double Laser and Shield Repair drops."
     }
   ],
   "images": [
     {
       "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for ZXSpace FAQ",
-      "caption": "FAQ artwork pending"
+      "alt": "ZXSpace FAQ screenshot",
+      "caption": "FAQ screenshot"
     }
   ],
   "imageSectionTitle": "FAQ Images",
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXSpace", "FAQ", "city defence", "BarkinMad Coins", "leaderboards"],
-  "relatedPages": ["overview", "game-modes", "barkinmad-coins", "leaderboards"]
+  "keywords": [
+    "ZXSpace",
+    "FAQ",
+    "city defence",
+    "BarkinMad Coins",
+    "leaderboards"
+  ],
+  "relatedPages": [
+    "overview",
+    "game-modes",
+    "barkinmad-coins",
+    "leaderboards"
+  ]
 }

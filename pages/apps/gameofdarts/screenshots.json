@@ -1,5 +1,4 @@
 {
-  "documentationSchemaVersion": "1.0.0",
   "title": "Game of Darts Screenshots",
   "seoTitle": "Game of Darts Screenshots | BarkinMad Studios",
   "description": "Game of Darts artwork and screenshot references using the image assets currently available in the website repository.",
@@ -7,10 +6,6 @@
   "summary": "A visual reference gallery for Game of Darts using available website artwork.",
   "heroImage": "apps/gameofdarts/gameofdarts.png",
   "heroImageAlt": "Game of Darts app artwork",
-  "sourceNotes": [
-    "Current website assets are gameofdarts-hero.png, gameofdarts-icon.png, gameofdarts.png, and gameofdarts1.png.",
-    "Dedicated page screenshots for modes, controls, stats, leaderboards, achievements, settings, caller voices, and DartBot are pending."
-  ],
   "imageMetadata": [
     {
       "src": "apps/gameofdarts/gameofdarts-hero.png",
@@ -18,7 +13,10 @@
       "purpose": "hero",
       "width": 1881,
       "height": 836,
-      "usage": ["docs", "website"]
+      "usage": [
+        "docs",
+        "website"
+      ]
     },
     {
       "src": "apps/gameofdarts/gameofdarts-icon.png",
@@ -26,7 +24,11 @@
       "purpose": "marketing",
       "width": 1254,
       "height": 1254,
-      "usage": ["docs", "website", "social"]
+      "usage": [
+        "docs",
+        "website",
+        "social"
+      ]
     },
     {
       "src": "apps/gameofdarts/gameofdarts.png",
@@ -34,7 +36,10 @@
       "purpose": "gameplay",
       "width": 1430,
       "height": 1100,
-      "usage": ["docs", "website"]
+      "usage": [
+        "docs",
+        "website"
+      ]
     },
     {
       "src": "apps/gameofdarts/gameofdarts1.png",
@@ -42,7 +47,11 @@
       "purpose": "marketing",
       "width": 1254,
       "height": 1254,
-      "usage": ["docs", "website", "social"]
+      "usage": [
+        "docs",
+        "website",
+        "social"
+      ]
     }
   ],
   "images": [
@@ -75,14 +84,21 @@
       "heading": "Screenshot Gallery",
       "paragraphs": [
         "This gallery uses the Game of Darts images already available in the website repository.",
-        "Additional release screenshots should replace placeholder artwork on individual pages when final images are approved."
+        "Additional gameplay screenshots will be added as new capture sets are made available."
       ]
     }
   ],
-  "keywords": ["Game of Darts", "screenshots", "artwork"],
+  "keywords": [
+    "Game of Darts",
+    "screenshots",
+    "artwork"
+  ],
   "estimatedReadTimeMinutes": 1,
-  "contentStatus": "needs-review",
+  "contentStatus": "published",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["overview", "guide"]
+  "relatedPages": [
+    "overview",
+    "guide"
+  ]
 }

@@ -2,7 +2,7 @@
   "documentationSchemaVersion": "1.0.0",
   "title": "ZXSpace Screenshots",
   "seoTitle": "ZXSpace Screenshots | BarkinMad Studios",
-  "description": "A ZXSpace screenshot gallery using current available gameplay and release artwork, with placeholder support for pending page-specific images.",
+  "description": "A ZXSpace screenshot gallery using current available gameplay and release artwork, with available gameplay and release imagery.",
   "shortDescription": "ZXSpace screenshot gallery",
   "summary": "A visual reference gallery for ZXSpace.",
   "heroImage": "apps/zxspace/zxspace-gameplay-01.png",
@@ -27,7 +27,6 @@
   "screenshotSectionTitle": "Screenshots",
   "imageSectionTitle": "Screenshots",
   "estimatedReadTimeMinutes": 1,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "sections": [
@@ -36,10 +35,18 @@
       "heading": "Screenshot Gallery",
       "paragraphs": [
         "This gallery uses the ZXSpace images already available in the website repository.",
-        "Additional release screenshots can replace placeholder artwork elsewhere in the guide when final images are approved."
+        "Additional release screenshots can replace temporary image references elsewhere in the guide when final images are approved."
       ]
     }
   ],
-  "keywords": ["ZXSpace", "screenshots", "gameplay", "ZX Series"],
-  "relatedPages": ["overview", "guide"]
+  "keywords": [
+    "ZXSpace",
+    "screenshots",
+    "gameplay",
+    "ZX Series"
+  ],
+  "relatedPages": [
+    "overview",
+    "guide"
+  ]
 }

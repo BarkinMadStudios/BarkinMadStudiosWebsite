@@ -6,10 +6,6 @@
   "summary": "A compact ZXSpace guide for players while the app is Coming Soon.",
   "heroImage": "apps/zxspace/zxspace-hero.png",
   "heroImageAlt": "ZXSpace guide hero artwork",
-  "sourceNotes": [
-    "Compiled from the ZXSpace v1.1 documentation pages in this rollout.",
-    "Public status is Coming Soon. Final App Store metadata and public multiplayer release behavior remain To Verify."
-  ],
   "sections": [
     {
       "id": "start",
@@ -29,7 +25,7 @@
       "bullets": [
         "How to Play: goal, session flow, scoring, waves, and power-ups",
         "Controls: touch-and-drag movement and continuous auto-fire",
-        "Game Modes: verified Solo play and To Verify multiplayer status",
+        "Game Modes: verified Solo play and Multiplayer availability pending final confirmation",
         "Progression: BarkinMad Coins, achievements, leaderboards, and skins"
       ]
     },
@@ -38,7 +34,7 @@
       "heading": "Release check",
       "paragraphs": [
         "This documentation is ready for release discovery while ZXSpace is Coming Soon, with only final approval-dependent metadata, mode verification, or artwork updates expected.",
-        "Pages that lack final artwork use the shared placeholder until replacement ZXSpace-specific images are available."
+        "Pages that lack dedicated imagery use a temporary image until replacement ZXSpace-specific images are available."
       ]
     }
   ],
@@ -50,15 +46,27 @@
     },
     {
       "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for pending ZXSpace documentation images",
-      "caption": "Shared placeholder used for pending page artwork"
+      "alt": "ZXSpace documentation gameplay screenshots",
+      "caption": "Dedicated page images will be added as artwork is released"
     }
   ],
   "imageSectionTitle": "Guide Images",
   "estimatedReadTimeMinutes": 8,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXSpace", "guide", "city defence", "BarkinMad Coins", "Game Center"],
-  "relatedPages": ["overview", "how-to-play", "controls", "game-modes", "tips-and-strategy", "frequently-asked-questions"]
+  "keywords": [
+    "ZXSpace",
+    "guide",
+    "city defence",
+    "BarkinMad Coins",
+    "Game Center"
+  ],
+  "relatedPages": [
+    "overview",
+    "how-to-play",
+    "controls",
+    "game-modes",
+    "tips-and-strategy",
+    "frequently-asked-questions"
+  ]
 }

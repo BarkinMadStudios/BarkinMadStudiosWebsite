@@ -3,7 +3,6 @@
   "appSlug": "zxbrick",
   "title": "ZXBrick Guides",
   "description": "Official player guides for ZXBrick covering controls, progression, and support systems.",
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "estimatedReadTimeMinutes": 36,
@@ -19,10 +18,13 @@
       "required": true,
       "order": 1,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["how-to-play", "levels", "powerups"]
+      "relatedPages": [
+        "how-to-play",
+        "levels",
+        "powerups"
+      ]
     },
     {
       "slug": "how-to-play",
@@ -31,10 +33,16 @@
       "required": true,
       "order": 2,
       "estimatedReadTimeMinutes": 4,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["controls", "levels", "powerups", "achievements", "leaderboards", "tips-and-strategy"]
+      "relatedPages": [
+        "controls",
+        "levels",
+        "powerups",
+        "achievements",
+        "leaderboards",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "controls",
@@ -43,10 +51,13 @@
       "required": true,
       "order": 3,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["how-to-play", "tips-and-strategy", "powerups"]
+      "relatedPages": [
+        "how-to-play",
+        "tips-and-strategy",
+        "powerups"
+      ]
     },
     {
       "slug": "game-modes",
@@ -55,10 +66,13 @@
       "required": true,
       "order": 4,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["how-to-play", "levels", "tips-and-strategy"]
+      "relatedPages": [
+        "how-to-play",
+        "levels",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "barkinmad-coins",
@@ -67,10 +81,13 @@
       "required": true,
       "order": 5,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["achievements", "leaderboards", "how-to-play"]
+      "relatedPages": [
+        "achievements",
+        "leaderboards",
+        "how-to-play"
+      ]
     },
     {
       "slug": "achievements",
@@ -79,10 +96,12 @@
       "required": true,
       "order": 6,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["leaderboards", "tips-and-strategy"]
+      "relatedPages": [
+        "leaderboards",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "leaderboards",
@@ -91,10 +110,12 @@
       "required": true,
       "order": 7,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["achievements", "tips-and-strategy"]
+      "relatedPages": [
+        "achievements",
+        "tips-and-strategy"
+      ]
     },
     {
       "slug": "tips-and-strategy",
@@ -103,10 +124,15 @@
       "required": true,
       "order": 8,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["controls", "how-to-play", "game-modes", "achievements", "leaderboards"]
+      "relatedPages": [
+        "controls",
+        "how-to-play",
+        "game-modes",
+        "achievements",
+        "leaderboards"
+      ]
     },
     {
       "slug": "frequently-asked-questions",
@@ -115,10 +141,14 @@
       "required": true,
       "order": 9,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["overview", "barkinmad-coins", "controls", "game-modes"]
+      "relatedPages": [
+        "overview",
+        "barkinmad-coins",
+        "controls",
+        "game-modes"
+      ]
     },
     {
       "slug": "levels",
@@ -128,10 +158,12 @@
       "status": "optional",
       "order": 10,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["overview", "powerups"]
+      "relatedPages": [
+        "overview",
+        "powerups"
+      ]
     },
     {
       "slug": "powerups",
@@ -141,10 +173,12 @@
       "status": "optional",
       "order": 11,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["how-to-play", "levels"]
+      "relatedPages": [
+        "how-to-play",
+        "levels"
+      ]
     },
     {
       "slug": "guide",
@@ -154,10 +188,18 @@
       "status": "optional",
       "order": 12,
       "estimatedReadTimeMinutes": 11,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["overview", "how-to-play", "controls", "game-modes", "levels", "powerups", "tips-and-strategy", "frequently-asked-questions"]
+      "relatedPages": [
+        "overview",
+        "how-to-play",
+        "controls",
+        "game-modes",
+        "levels",
+        "powerups",
+        "tips-and-strategy",
+        "frequently-asked-questions"
+      ]
     },
     {
       "slug": "screenshots",
@@ -167,10 +209,12 @@
       "status": "optional",
       "order": 13,
       "estimatedReadTimeMinutes": 1,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
-      "relatedPages": ["overview", "guide"]
+      "relatedPages": [
+        "overview",
+        "guide"
+      ]
     }
   ]
 }

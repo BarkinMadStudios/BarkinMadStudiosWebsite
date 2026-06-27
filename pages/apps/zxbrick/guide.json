@@ -6,10 +6,6 @@
   "summary": "This page holds the complete readable guide content for ZXBrick so search engines and accessibility users can access the full details in HTML text.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
   "heroImageAlt": "ZXBrick brick-breaking gameplay hero",
-  "sourceNotes": [
-    "This page consolidates existing ZXBrick guide sections into the ZXSnake-approved complete-guide pattern.",
-    "Detailed scoring coefficients, exact level pacing, power-up spawn rates, and timing behavior remain to verify from app source or QA notes."
-  ],
   "imageMetadata": [
     {
       "src": "apps/zxbrick/zxbrick-hero.png",
@@ -17,7 +13,11 @@
       "purpose": "hero",
       "width": 1600,
       "height": 900,
-      "usage": ["docs", "website", "news"]
+      "usage": [
+        "docs",
+        "website",
+        "news"
+      ]
     }
   ],
   "sections": [
@@ -69,7 +69,7 @@
       "id": "game-modes",
       "heading": "Game modes and session intent",
       "paragraphs": [
-        "Based on available product information, ZXBrick is primarily a single-player progression game.",
+        "ZXBrick focuses on a single-player progression loop for the documented modes.",
         "Use mode choice to match your objective: clean practice rounds for consistency or longer sessions for score growth.",
         "Keep mode intent stable for at least one run cluster so results remain comparable."
       ]
@@ -169,7 +169,6 @@
     }
   ],
   "estimatedReadTimeMinutes": 11,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "keywords": [

@@ -1,15 +1,10 @@
 {
-  "documentationSchemaVersion": "1.0.0",
   "title": "Game of Darts Overview",
   "seoTitle": "Game of Darts Overview | BarkinMad Studios",
-  "description": "A practical introduction to Game of Darts, its darts scoring workflows, player data, statistics, Game Center support, and current documentation status.",
+  "description": "A practical introduction to Game of Darts, its score tracking, player statistics, and Game Center features.",
   "summary": "Game of Darts is a darts scoring companion for iPhone and iPad with match setup, multiple darts formats, player statistics, cloud-backed data, Game Center support, DartBot, and premium access options.",
   "heroImage": "apps/gameofdarts/gameofdarts-hero.png",
   "heroImageAlt": "Game of Darts hero artwork",
-  "sourceNotes": [
-    "Derived from pages/apps/gameofdarts.json, pages/data/apps.json, central Game of Darts docs, release notes, and current source inspection.",
-    "Where detailed behavior remains unclear in central docs, it is marked To Verify rather than expanded."
-  ],
   "imageMetadata": [
     {
       "src": "apps/gameofdarts/gameofdarts-hero.png",
@@ -17,7 +12,11 @@
       "purpose": "hero",
       "width": 1881,
       "height": 836,
-      "usage": ["docs", "website", "news"]
+      "usage": [
+        "docs",
+        "website",
+        "news"
+      ]
     },
     {
       "src": "apps/gameofdarts/gameofdarts.png",
@@ -25,7 +24,10 @@
       "purpose": "gameplay",
       "width": 1430,
       "height": 1100,
-      "usage": ["docs", "website"]
+      "usage": [
+        "docs",
+        "website"
+      ]
     }
   ],
   "images": [
@@ -41,26 +43,35 @@
       "id": "what-is-game-of-darts",
       "heading": "What is Game of Darts?",
       "paragraphs": [
-		  "Game of Darts is a modern darts scoring app from [BarkinMad Studios](/about), designed for casual players, league nights, practice sessions, and competitive matches on iPhone and iPad.",
-		  
-		  "Whether you're playing X01, Cricket, Bob's 27, Snooker Darts, or one of the many other game modes, Game of Darts helps you keep score, track your performance, compete on Game Center leaderboards, unlock achievements, and improve your game over time."
-	  ]
+        "Game of Darts is a modern darts scoring app from [BarkinMad Studios](/about), designed for casual players, league nights, practice sessions, and competitive matches on iPhone and iPad.",
+        "Whether you're playing X01, Cricket, Bob's 27, Snooker Darts, or one of the many other game modes, Game of Darts helps you keep score, track your performance, compete on Game Center leaderboards, unlock achievements, and improve your game over time."
+      ]
     },
     {
-      "id": "documentation-map",
-      "heading": "Documentation map",
+      "id": "guide-map",
+      "heading": "Guide map",
       "paragraphs": [
-		  "Everything you need to get the most from Game of Darts can be found in the guides below. Learn the controls, explore every game mode, discover match types, challenge DartBot, track your statistics, customise your experience, and climb the leaderboards.",
-		  
-		  "Whether you're a beginner learning the basics or an experienced player chasing your next personal best, these guides are designed to help you enjoy every aspect of the game."
-		  
-	  ]
+        "Everything you need to get the most from Game of Darts can be found in the guides below. Learn the controls, explore every game mode, discover match types, challenge DartBot, track your statistics, customise your experience, and climb the leaderboards.",
+        "Whether you're a beginner learning the basics or an experienced player chasing your next personal best, these guides are designed to help you enjoy every aspect of the game."
+      ]
     }
   ],
-  "keywords": ["Game of Darts", "darts scoring app", "iPhone", "iPad", "DartBot"],
+  "keywords": [
+    "Game of Darts",
+    "darts scoring app",
+    "iPhone",
+    "iPad",
+    "DartBot"
+  ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
+  "contentStatus": "published",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["how-to-play", "game-modes", "match-types", "statistics", "guide"]
+  "relatedPages": [
+    "how-to-play",
+    "game-modes",
+    "match-types",
+    "statistics",
+    "guide"
+  ]
 }

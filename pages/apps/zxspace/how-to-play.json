@@ -6,10 +6,6 @@
   "summary": "ZXSpace is built around defending the city, clearing alien formations, protecting shields, and improving score across waves.",
   "heroImage": "apps/zxspace/zxspace-gameplay-01.png",
   "heroImageAlt": "ZXSpace gameplay screenshot",
-  "sourceNotes": [
-    "Derived from current ZXSpace source behavior and ZXSpace TestFlight 1.0 build 6 notes.",
-    "Exact final App Store release copy is To Verify."
-  ],
   "imageMetadata": [
     {
       "src": "apps/zxspace/zxspace-gameplay-01.png",
@@ -17,7 +13,11 @@
       "purpose": "gameplay",
       "width": 887,
       "height": 1774,
-      "usage": ["docs", "website", "social"]
+      "usage": [
+        "docs",
+        "website",
+        "social"
+      ]
     }
   ],
   "sections": [
@@ -55,7 +55,7 @@
       "id": "power-ups",
       "heading": "Power-ups",
       "paragraphs": [
-        "Current source includes Double Laser and Shield Repair drops.",
+        "Gameplay includes Double Laser and Shield Repair drops."
         "Double Laser temporarily fires two shots, while Shield Repair restores damaged shield protection when repairable segments exist."
       ]
     }
@@ -69,11 +69,23 @@
     }
   ],
   "estimatedReadTimeMinutes": 4,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXSpace", "how to play", "city defence", "alien waves", "power-ups", "BarkinMad Coins"],
-  "relatedPages": ["controls", "game-modes", "tips-and-strategy", "achievements", "leaderboards"],
+  "keywords": [
+    "ZXSpace",
+    "how to play",
+    "city defence",
+    "alien waves",
+    "power-ups",
+    "BarkinMad Coins"
+  ],
+  "relatedPages": [
+    "controls",
+    "game-modes",
+    "tips-and-strategy",
+    "achievements",
+    "leaderboards"
+  ],
   "relatedLinks": [
     {
       "label": "Controls",

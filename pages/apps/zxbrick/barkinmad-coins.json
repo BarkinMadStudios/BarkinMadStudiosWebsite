@@ -13,10 +13,6 @@
     }
   ],
   "imageSectionTitle": "BarkinMad Coins Images",
-  "sourceNotes": [
-    "Based on pages/apps/zxbrick.json and /zx-series messaging.",
-    "Reward triggers, timing windows, and destination unlock targets are to verify with app source before final confirmation."
-  ],
   "sections": [
     {
       "id": "what-is",
@@ -35,7 +31,11 @@
       ]
     }
   ],
-  "relatedPages": ["achievements", "leaderboards", "overview"],
+  "relatedPages": [
+    "achievements",
+    "leaderboards",
+    "overview"
+  ],
   "relatedLinks": [
     {
       "label": "ZX Series",
@@ -49,8 +49,11 @@
     }
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["BarkinMad Coins", "ZX Series wallet", "progression"]
+  "keywords": [
+    "BarkinMad Coins",
+    "ZX Series wallet",
+    "progression"
+  ]
 }

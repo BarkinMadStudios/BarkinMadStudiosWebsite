@@ -1,15 +1,10 @@
 {
-  "documentationSchemaVersion": "1.0.0",
   "title": "Tips & Strategy",
   "seoTitle": "Game of Darts Tips & Strategy | BarkinMad Studios",
   "description": "Practical Game of Darts setup, scoring, statistics, and match-flow tips for better local darts sessions.",
   "summary": "Use consistent player setup, pick the right mode, finish matches cleanly, and check stats and leaderboards after supported games.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending Game of Darts tips image",
-  "sourceNotes": [
-    "Strategy is intentionally practical and app-flow focused rather than inventing darts coaching features.",
-    "Mode rules are based on in-app rule summaries."
-  ],
+  "heroImage": "apps/gameofdarts/gameofdarts.png",
+  "heroImageAlt": "Artwork for Game of Darts tips image",
   "sections": [
     {
       "id": "session-setup",
@@ -23,7 +18,7 @@
       "id": "data-quality",
       "heading": "Data quality",
       "paragraphs": [
-        "Finish games cleanly where possible. The latest release notes say quit or abandoned games do not count toward the five-game Advanced Statistics progression gate.",
+        "Finish games cleanly where possible. A quit or abandoned game does not count toward the five-game Advanced Statistics progression gate.",
         "Use Game Center sign-in and auto-post settings deliberately if you want leaderboard and achievement progress to be recorded."
       ]
     },
@@ -32,22 +27,33 @@
       "heading": "Mode focus",
       "paragraphs": [
         "For X01, watch checkout attempts, averages, best checkout, highest score, and 180 count. For Cricket, watch closure and hit-rate behavior. For Bob's 27 and 1 to 20, use repeated practice sessions to compare consistency.",
-        "Development and placeholder modes should be treated as To Verify until they are confirmed in the public release menu."
+        "Focus on your preferred mode first and build consistency before switching formats."
       ]
     }
   ],
   "images": [
     {
-      "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for Game of Darts tips",
-      "caption": "Tips artwork pending"
+      "src": "apps/gameofdarts/gameofdarts.png",
+      "alt": "Player-focused Game of Darts tips artwork",
+      "caption": "Tips screenshot"
     }
   ],
   "imageSectionTitle": "Tips Image",
-  "keywords": ["Game of Darts", "tips", "strategy", "statistics", "leaderboards"],
+  "keywords": [
+    "Game of Darts",
+    "tips",
+    "strategy",
+    "statistics",
+    "leaderboards"
+  ],
   "estimatedReadTimeMinutes": 3,
-  "contentStatus": "needs-review",
+  "contentStatus": "published",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["match-types", "statistics", "leaderboards", "guide"]
+  "relatedPages": [
+    "match-types",
+    "statistics",
+    "leaderboards",
+    "guide"
+  ]
 }

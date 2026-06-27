@@ -6,10 +6,6 @@
   "summary": "ZXPong is a retro-inspired paddle arcade game in the ZX Series with Solo play, World PVP, skins, coins, achievements, and Game Center support.",
   "heroImage": "apps/zxpong/zxpong-hero.png",
   "heroImageAlt": "ZXPong retro paddle game hero artwork",
-  "sourceNotes": [
-    "Derived from pages/apps/zxpong.json, pages/data/apps.json, central ZX Series release notes, and current ZXPong source constants.",
-    "Public status is Awaiting App Store approval. Final public App Store URL is To Verify after Apple approval."
-  ],
   "imageMetadata": [
     {
       "src": "apps/zxpong/zxpong-hero.png",
@@ -17,7 +13,11 @@
       "purpose": "hero",
       "width": 1536,
       "height": 1024,
-      "usage": ["docs", "website", "news"]
+      "usage": [
+        "docs",
+        "website",
+        "news"
+      ]
     },
     {
       "src": "apps/zxpong/zxpong-gameplay-01.png",
@@ -25,7 +25,11 @@
       "purpose": "gameplay",
       "width": 1242,
       "height": 2688,
-      "usage": ["docs", "website", "social"]
+      "usage": [
+        "docs",
+        "website",
+        "social"
+      ]
     }
   ],
   "images": [
@@ -62,12 +66,28 @@
       ]
     }
   ],
-  "keywords": ["ZXPong", "ZX Series", "pong game", "arcade", "World PVP", "BarkinMad Coins", "Game Center"],
+  "keywords": [
+    "ZXPong",
+    "ZX Series",
+    "pong game",
+    "arcade",
+    "World PVP",
+    "BarkinMad Coins",
+    "Game Center"
+  ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["how-to-play", "controls", "game-modes", "barkinmad-coins", "achievements", "leaderboards", "tips-and-strategy", "frequently-asked-questions"],
+  "relatedPages": [
+    "how-to-play",
+    "controls",
+    "game-modes",
+    "barkinmad-coins",
+    "achievements",
+    "leaderboards",
+    "tips-and-strategy",
+    "frequently-asked-questions"
+  ],
   "relatedLinks": [
     {
       "label": "How to Play",

@@ -6,10 +6,6 @@
   "summary": "ZXBrick is a retro brick-breaking arcade game in the ZX Series with level progression, achievements, and shared wallet support.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
   "heroImageAlt": "ZXBrick brick-breaking gameplay hero",
-  "sourceNotes": [
-    "Derived from pages/apps/zxbrick.json and pages/data/apps.json.",
-    "Detailed control tuning and exact level pacing details are to verify from app source or QA notes."
-  ],
   "imageMetadata": [
     {
       "src": "apps/zxbrick/zxbrick-hero.png",
@@ -17,7 +13,11 @@
       "purpose": "hero",
       "width": 1600,
       "height": 900,
-      "usage": ["docs", "website", "news"]
+      "usage": [
+        "docs",
+        "website",
+        "news"
+      ]
     },
     {
       "src": "apps/zxbrick/zxbrick-gameplay-03.png",
@@ -25,7 +25,12 @@
       "purpose": "gameplay",
       "width": 1170,
       "height": 2532,
-      "usage": ["docs", "social", "website", "news"]
+      "usage": [
+        "docs",
+        "social",
+        "website",
+        "news"
+      ]
     }
   ],
   "images": [
@@ -73,12 +78,31 @@
       ]
     }
   ],
-  "keywords": ["ZXBrick", "brick-breaking", "arcade game", "iPhone", "BarkinMad Series", "achievements", "leaderboards", "BarkinMad Coins"],
+  "keywords": [
+    "ZXBrick",
+    "brick-breaking",
+    "arcade game",
+    "iPhone",
+    "BarkinMad Series",
+    "achievements",
+    "leaderboards",
+    "BarkinMad Coins"
+  ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["how-to-play", "controls", "game-modes", "levels", "powerups", "barkinmad-coins", "achievements", "leaderboards", "tips-and-strategy", "frequently-asked-questions"],
+  "relatedPages": [
+    "how-to-play",
+    "controls",
+    "game-modes",
+    "levels",
+    "powerups",
+    "barkinmad-coins",
+    "achievements",
+    "leaderboards",
+    "tips-and-strategy",
+    "frequently-asked-questions"
+  ],
   "relatedLinks": [
     {
       "label": "How to Play",

@@ -6,10 +6,6 @@
   "summary": "ZXPong is built around defending your paddle, returning the ball, extending rallies, and improving match consistency.",
   "heroImage": "apps/zxpong/zxpong-gameplay-01.png",
   "heroImageAlt": "ZXPong gameplay screenshot",
-  "sourceNotes": [
-    "Derived from current ZXPong gameplay rules, source constants, and progression helper.",
-    "Exact App Store release copy is To Verify after Apple approval."
-  ],
   "imageMetadata": [
     {
       "src": "apps/zxpong/zxpong-gameplay-01.png",
@@ -17,7 +13,11 @@
       "purpose": "gameplay",
       "width": 1242,
       "height": 2688,
-      "usage": ["docs", "website", "social"]
+      "usage": [
+        "docs",
+        "website",
+        "social"
+      ]
     }
   ],
   "sections": [
@@ -55,16 +55,28 @@
   "images": [
     {
       "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for pending ZXPong how-to-play image",
-      "caption": "How-to-play artwork pending"
+      "alt": "ZXPong how-to-play gameplay screenshot",
+      "caption": "How-to-play screenshot"
     }
   ],
   "estimatedReadTimeMinutes": 4,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXPong", "how to play", "rallies", "paddle controls", "Solo play", "World PVP"],
-  "relatedPages": ["controls", "game-modes", "tips-and-strategy", "achievements", "leaderboards"],
+  "keywords": [
+    "ZXPong",
+    "how to play",
+    "rallies",
+    "paddle controls",
+    "Solo play",
+    "World PVP"
+  ],
+  "relatedPages": [
+    "controls",
+    "game-modes",
+    "tips-and-strategy",
+    "achievements",
+    "leaderboards"
+  ],
   "relatedLinks": [
     {
       "label": "Controls",

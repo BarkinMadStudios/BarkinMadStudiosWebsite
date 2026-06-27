@@ -6,10 +6,6 @@
   "summary": "ZXSpace is a retro city-defence formation shooter in the ZX Series with alien waves, shields, skins, coins, achievements, and Game Center support.",
   "heroImage": "apps/zxspace/zxspace-hero.png",
   "heroImageAlt": "ZXSpace retro space shooter hero artwork",
-  "sourceNotes": [
-    "Derived from pages/apps/zxspace.json, pages/data/apps.json, central ZX Series release notes, and current ZXSpace source constants.",
-    "Public status is Coming Soon. Final App Store URL, Apple approval status, and public PVP release status are To Verify."
-  ],
   "imageMetadata": [
     {
       "src": "apps/zxspace/zxspace-hero.png",
@@ -17,7 +13,11 @@
       "purpose": "hero",
       "width": 1659,
       "height": 948,
-      "usage": ["docs", "website", "news"]
+      "usage": [
+        "docs",
+        "website",
+        "news"
+      ]
     },
     {
       "src": "apps/zxspace/zxspace-gameplay-01.png",
@@ -25,7 +25,11 @@
       "purpose": "gameplay",
       "width": 887,
       "height": 1774,
-      "usage": ["docs", "website", "social"]
+      "usage": [
+        "docs",
+        "website",
+        "social"
+      ]
     }
   ],
   "images": [
@@ -58,17 +62,32 @@
       "heading": "Release notes",
       "paragraphs": [
         "ZXSpace is Coming Soon.",
-        "The documentation is prepared for release-facing discovery while final App Store delivery and approval details remain To Verify.",
-        "The current source and central notes verify the solo city-defence shooter path. Public multiplayer release behavior should be checked again before advertising it as a final released mode."
+        "The documentation is prepared for release-facing discovery while final App Store delivery and approval details are still being confirmed.",
+        "Current central notes confirm the solo city-defence path. Multiplayer behavior may be updated in release notes as the game evolves."
       ]
     }
   ],
-  "keywords": ["ZXSpace", "ZX Series", "space shooter", "city defence", "BarkinMad Coins", "Game Center"],
+  "keywords": [
+    "ZXSpace",
+    "ZX Series",
+    "space shooter",
+    "city defence",
+    "BarkinMad Coins",
+    "Game Center"
+  ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["how-to-play", "controls", "game-modes", "barkinmad-coins", "achievements", "leaderboards", "tips-and-strategy", "frequently-asked-questions"],
+  "relatedPages": [
+    "how-to-play",
+    "controls",
+    "game-modes",
+    "barkinmad-coins",
+    "achievements",
+    "leaderboards",
+    "tips-and-strategy",
+    "frequently-asked-questions"
+  ],
   "relatedLinks": [
     {
       "label": "How to Play",

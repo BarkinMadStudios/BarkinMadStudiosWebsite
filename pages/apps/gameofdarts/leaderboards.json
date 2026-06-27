@@ -1,14 +1,10 @@
 {
-  "documentationSchemaVersion": "1.0.0",
   "title": "Leaderboards",
   "seoTitle": "Game of Darts Leaderboards | BarkinMad Studios",
   "description": "Review Game Center leaderboard support for X01, Cricket, Snooker, Bob's 27, 1 to 20, and Halve It in Game of Darts.",
   "summary": "Leaderboards require Game Center sign-in and are displayed through the app's Leaderboards screen.",
   "heroImage": "apps/gameofdarts/gameofdarts-leaderboards.png",
   "heroImageAlt": "Artwork for Game of Darts leaderboards image",
-  "sourceNotes": [
-    ""
-  ],
   "sections": [
     {
       "id": "supported-surfaces",
@@ -22,8 +18,8 @@
       "id": "submission-rules",
       "heading": "Submission rules",
       "paragraphs": [
-        "Current source has explicit leaderboard rules for X01 highest score, best checkout, best average, most 180s, and 1 to 20 least darts.",
-        "The app has an auto-post setting for leaderboards. Central docs flag some Game Center resource visibility and lower-is-better behavior as To Verify."
+        "Leaderboards track formats such as X01 highest score, best checkout, best average, most 180s, and 1 to 20 least darts.",
+        "You can control leaderboard auto-posting in the app settings."
       ]
     }
   ],
@@ -35,10 +31,20 @@
     }
   ],
   "imageSectionTitle": "Leaderboards Image",
-  "keywords": ["Game of Darts", "leaderboards", "Game Center", "X01", "Cricket"],
+  "keywords": [
+    "Game of Darts",
+    "leaderboards",
+    "Game Center",
+    "X01",
+    "Cricket"
+  ],
   "estimatedReadTimeMinutes": 3,
-  "contentStatus": "needs-review",
+  "contentStatus": "published",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["statistics", "achievements", "settings-customisation"]
+  "relatedPages": [
+    "statistics",
+    "achievements",
+    "settings-customisation"
+  ]
 }

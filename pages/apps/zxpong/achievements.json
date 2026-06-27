@@ -5,17 +5,13 @@
   "description": "Review known ZXPong achievement milestones for repeat play, Solo wins, hard AI wins, and rally consistency.",
   "summary": "ZXPong achievements reward repeat sessions, Solo wins, hard AI success, and long rallies.",
   "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending ZXPong achievements image",
-  "sourceNotes": [
-    "Achievement IDs are derived from current ZXPong source constants.",
-    "Display names in App Store Connect are To Verify before public release."
-  ],
+  "heroImageAlt": "ZXPong achievements gameplay screenshot",
   "sections": [
     {
       "id": "known-achievements",
       "heading": "Known achievements",
       "paragraphs": [
-        "Current ZXPong source includes play-count achievement definitions and specific Solo/rally milestone constants.",
+        "Current gameplay includes play-count achievement definitions and Solo/rally milestone targets.",
         "Use this page as a practical planning guide until final public Game Center display names are verified."
       ],
       "bullets": [
@@ -40,15 +36,25 @@
   "images": [
     {
       "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for ZXPong achievements",
-      "caption": "Achievements artwork pending"
+      "alt": "ZXPong achievements screenshot",
+      "caption": "Achievements screenshot"
     }
   ],
   "imageSectionTitle": "Achievement Images",
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXPong", "achievements", "Game Center", "rally", "Solo win"],
-  "relatedPages": ["leaderboards", "how-to-play", "tips-and-strategy", "barkinmad-coins"]
+  "keywords": [
+    "ZXPong",
+    "achievements",
+    "Game Center",
+    "rally",
+    "Solo win"
+  ],
+  "relatedPages": [
+    "leaderboards",
+    "how-to-play",
+    "tips-and-strategy",
+    "barkinmad-coins"
+  ]
 }

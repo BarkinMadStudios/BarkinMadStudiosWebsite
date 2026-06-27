@@ -6,10 +6,6 @@
   "summary": "This page holds the complete readable guide content for ZXSnake so search engines and accessibility users can access the full details in HTML text.",
   "heroImage": "apps/zxsnake/zxsnake-hero.png",
   "heroImageAlt": "ZXSnake gameplay screen with retro visuals",
-  "sourceNotes": [
-    "This page is intentionally text-heavy to support accessibility and SEO while preserving image-led human pages.",
-    "Keep in sync with gameplay details when title updates or systems change."
-  ],
   "imageMetadata": [
     {
       "src": "apps/zxsnake/zxsnake-hero.png",
@@ -17,7 +13,11 @@
       "purpose": "hero",
       "width": 1871,
       "height": 840,
-      "usage": ["docs", "website", "news"]
+      "usage": [
+        "docs",
+        "website",
+        "news"
+      ]
     }
   ],
   "sections": [
@@ -160,7 +160,6 @@
     }
   ],
   "estimatedReadTimeMinutes": 14,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "keywords": [

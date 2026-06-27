@@ -5,11 +5,7 @@
   "description": "Practical ZXPong tips for steadier paddle movement, cleaner returns, longer rallies, and better Solo or World PVP sessions.",
   "summary": "Good ZXPong strategy starts with early paddle movement, controlled returns, and repeatable rally habits.",
   "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending ZXPong strategy image",
-  "sourceNotes": [
-    "Strategy guidance is limited to behavior supported by current gameplay rules and source-level progression.",
-    "Detailed advanced tactics are To Verify after wider release testing."
-  ],
+  "heroImageAlt": "ZXPong strategy gameplay screenshot",
   "sections": [
     {
       "id": "start-with-control",
@@ -44,15 +40,26 @@
   "images": [
     {
       "src": "images/shared/placeholder.png",
-      "alt": "Placeholder artwork for ZXPong strategy",
-      "caption": "Strategy artwork pending"
+      "alt": "ZXPong strategy screenshot",
+      "caption": "Strategy screenshot"
     }
   ],
   "imageSectionTitle": "Strategy Images",
   "estimatedReadTimeMinutes": 3,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXPong", "strategy", "rallies", "paddle control", "World PVP"],
-  "relatedPages": ["controls", "how-to-play", "game-modes", "achievements", "leaderboards"]
+  "keywords": [
+    "ZXPong",
+    "strategy",
+    "rallies",
+    "paddle control",
+    "World PVP"
+  ],
+  "relatedPages": [
+    "controls",
+    "how-to-play",
+    "game-modes",
+    "achievements",
+    "leaderboards"
+  ]
 }

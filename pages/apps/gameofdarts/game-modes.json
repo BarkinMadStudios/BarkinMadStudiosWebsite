@@ -1,43 +1,51 @@
 {
-  "documentationSchemaVersion": "1.0.0",
   "title": "Game Modes",
   "seoTitle": "Game of Darts Game Modes | BarkinMad Studios",
-  "description": "Review live, development, hidden, and placeholder Game of Darts modes using the current source-backed mode inventory.",
+  "description": "Explore the Game of Darts match formats available in the app.",
   "summary": "Release-facing modes include Match/X01, Cricket, Snooker, Bob's 27, 1 to 20, Hare & Hound, Halve It, and All 5s.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Placeholder artwork for pending Game of Darts game modes image",
-  "sourceNotes": [
-    ""
-  ],
+  "heroImage": "apps/gameofdarts/gameofdarts.png",
+  "heroImageAlt": "Artwork for Game of Darts game modes",
   "sections": [
     {
       "id": "live-modes",
       "heading": "Live modes",
       "paragraphs": [
         "Menu includes Match/X01, Cricket, Snooker, Bob's 27, 1 to 20, Hare & Hound, Halve It, and All 5s.",
-        "These modes appear across match, train, and party categories and route to implemented game views."
+        "These modes appear across match, practice, and party categories."
       ]
     },
     {
-      "id": "not-release-facing",
-      "heading": "",
+      "id": "more-modes",
+      "heading": "More modes",
       "paragraphs": [
-        ""
+        "Additional modes and event formats may be added as new updates arrive."
       ]
     }
   ],
   "images": [
     {
       "src": "apps/gameofdarts/gameofdarts-game-modes.png",
-      "alt": "Placeholder artwork for Game of Darts modes",
-      "caption": "Mode menu screenshot pending"
+      "alt": "Game of Darts modes artwork",
+      "caption": "Mode overview"
     }
   ],
   "imageSectionTitle": "Game Modes Image",
-  "keywords": ["Game of Darts", "game modes", "X01", "Cricket", "Snooker", "Bob's 27"],
+  "keywords": [
+    "Game of Darts",
+    "game modes",
+    "X01",
+    "Cricket",
+    "Snooker",
+    "Bob's 27"
+  ],
   "estimatedReadTimeMinutes": 4,
-  "contentStatus": "needs-review",
+  "contentStatus": "published",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["match-types", "dartbot", "leaderboards", "achievements"]
+  "relatedPages": [
+    "match-types",
+    "dartbot",
+    "leaderboards",
+    "achievements"
+  ]
 }

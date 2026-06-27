@@ -3,7 +3,6 @@
   "title": "ZXSnake Guides",
   "description": "Official player guides for ZXSnake covering core gameplay, controls, multiplayer options, and progression systems.",
   "landingPage": "overview",
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "estimatedReadTimeMinutes": 30,
@@ -28,7 +27,6 @@
       "status": "required",
       "order": 1,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": [
@@ -45,7 +43,6 @@
       "status": "required",
       "order": 2,
       "estimatedReadTimeMinutes": 4,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": [
@@ -63,7 +60,6 @@
       "status": "required",
       "order": 3,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": [
@@ -80,7 +76,6 @@
       "status": "required",
       "order": 4,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": [
@@ -98,7 +93,6 @@
       "status": "required",
       "order": 5,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": [
@@ -115,7 +109,6 @@
       "status": "required",
       "order": 6,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": [
@@ -132,7 +125,6 @@
       "status": "required",
       "order": 7,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": [
@@ -149,7 +141,6 @@
       "status": "required",
       "order": 8,
       "estimatedReadTimeMinutes": 3,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": [
@@ -168,7 +159,6 @@
       "status": "required",
       "order": 9,
       "estimatedReadTimeMinutes": 2,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": [
@@ -186,7 +176,6 @@
       "status": "supplemental",
       "order": 10,
       "estimatedReadTimeMinutes": 14,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": [
@@ -206,7 +195,6 @@
       "status": "supplemental",
       "order": 11,
       "estimatedReadTimeMinutes": 1,
-      "contentStatus": "needs-review",
       "lastUpdated": "2026-06-26",
       "lastVerified": "2026-06-26",
       "relatedPages": [

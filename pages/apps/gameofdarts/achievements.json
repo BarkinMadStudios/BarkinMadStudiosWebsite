@@ -1,45 +1,48 @@
 {
-  "documentationSchemaVersion": "1.0.0",
   "title": "Achievements",
   "seoTitle": "Game of Darts Achievements | BarkinMad Studios",
-  "description": "Understand Game Center achievement tracking across Game of Darts modes and current source-backed achievement behavior.",
+  "description": "Understand Game Center achievement tracking across Game of Darts modes.",
   "summary": "Game Center achievements are tracked per mode using played-game counts and Game Center achievement descriptions.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "Artwork for pending Game of Darts achievements image",
-  "sourceNotes": [
-    "Based on GameCenterManager and Statistics-Engine.md.",
-    "Exact App Store/Game Center achievement titles are loaded from Game Center descriptions and should be verified in Game Center before final public copy."
-  ],
+  "heroImage": "apps/gameofdarts/gameofdarts.png",
+  "heroImageAlt": "Artwork for Game of Darts achievements image",
   "sections": [
     {
       "id": "tracking",
       "heading": "How achievements are tracked",
       "paragraphs": [
-        "When a game finishes, GameCenterManager increments the played count for that mode and reports progress against the mode's achievement IDs.",
-        "The central statistics documentation identifies achievement tracking for darts, cricket, snooker, golf, baseball, halveIt, bobs27, hareAndHound, oneTo20, killer, shanghai, and all5s."
+        "When a match ends, the played count for that mode updates and your progress is pushed through Game Center.",
+        "Achievement tracking is available across the same match formats you can play in Game of Darts."
       ]
     },
     {
-      "id": "what-to-verify",
-      "heading": "What to verify",
+      "id": "achievement-details",
+      "heading": "Achievement details",
       "paragraphs": [
-        "Achievement descriptions are loaded from Game Center and sorted by title in the app. Final public-facing achievement names should be verified from Game Center metadata.",
-        "Development and placeholder modes should not be promoted as release-facing achievement paths until their public availability is confirmed."
+        "Achievement names and progress are driven by the Game Center data shown in the app.",
+        "Only modes available in your current Game of Darts release are shown in the achievement list."
       ]
     }
   ],
   "images": [
     {
-      "src": "images/shared/placeholder.png",
+      "src": "apps/gameofdarts/gameofdarts.png",
       "alt": "Artwork for Game of Darts achievements",
       "caption": "Achievement screenshot"
     }
   ],
   "imageSectionTitle": "Achievements Image",
-  "keywords": ["Game of Darts", "achievements", "Game Center"],
+  "keywords": [
+    "Game of Darts",
+    "achievements",
+    "Game Center"
+  ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
+  "contentStatus": "published",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["leaderboards", "statistics", "game-modes"]
+  "relatedPages": [
+    "leaderboards",
+    "statistics",
+    "game-modes"
+  ]
 }

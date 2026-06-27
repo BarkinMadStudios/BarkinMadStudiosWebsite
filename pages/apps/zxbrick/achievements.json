@@ -6,11 +6,6 @@
   "summary": "Treat achievements as milestone anchors for short, measurable progress in replay sessions.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
   "heroImageAlt": "ZXBrick achievements",
-  "sourceNotes": [
-    "Achievement names are taken from pages/apps/zxbrick.json.",
-    "Achievement IDs and unlock criteria are to verify from platform metadata.",
-    "Use this page as a systems reference until exact unlock thresholds are confirmed."
-  ],
   "sections": [
     {
       "id": "available",
@@ -36,7 +31,12 @@
       ]
     }
   ],
-  "relatedPages": ["leaderboards", "tips-and-strategy", "barkinmad-coins", "how-to-play"],
+  "relatedPages": [
+    "leaderboards",
+    "tips-and-strategy",
+    "barkinmad-coins",
+    "how-to-play"
+  ],
   "relatedLinks": [
     {
       "label": "Leaderboards",
@@ -44,8 +44,11 @@
     }
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXBrick achievements", "arcade milestones", "progress goals"]
+  "keywords": [
+    "ZXBrick achievements",
+    "arcade milestones",
+    "progress goals"
+  ]
 }

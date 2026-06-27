@@ -6,10 +6,6 @@
   "summary": "Stable input patterns are the fastest path to better level consistency in ZXBrick.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
   "heroImageAlt": "ZXBrick control reference",
-  "sourceNotes": [
-    "Controls details are intentionally high-level until platform input metadata is verified from gameplay telemetry.",
-    "Exact key mappings and any alternative control modes are to verify before publishing fixed mappings."
-  ],
   "sections": [
     {
       "id": "input-rhythm",
@@ -33,7 +29,12 @@
       ]
     }
   ],
-  "relatedPages": ["how-to-play", "game-modes", "tips-and-strategy", "leaderboards"],
+  "relatedPages": [
+    "how-to-play",
+    "game-modes",
+    "tips-and-strategy",
+    "leaderboards"
+  ],
   "relatedLinks": [
     {
       "label": "How to Play",
@@ -45,8 +46,11 @@
     }
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "keywords": ["ZXBrick controls", "arcade controls", "iPhone"]
+  "keywords": [
+    "ZXBrick controls",
+    "arcade controls",
+    "iPhone"
+  ]
 }

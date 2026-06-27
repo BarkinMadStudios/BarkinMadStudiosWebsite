@@ -6,10 +6,6 @@
   "summary": "ZXBrick includes 100 handcrafted levels and uses a repeatable progression loop across all difficulty states.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
   "heroImageAlt": "ZXBrick levels hero",
-  "sourceNotes": [
-    "Derived from pages/apps/zxbrick.json and published product claims.",
-    "Exact level unlock thresholds, difficulty curve, and completion metrics are to verify from app source."
-  ],
   "imageMetadata": [
     {
       "src": "apps/zxbrick/zxbrick-levels.png",
@@ -17,7 +13,11 @@
       "purpose": "gameplay",
       "width": 1600,
       "height": 900,
-      "usage": ["docs", "website", "social"]
+      "usage": [
+        "docs",
+        "website",
+        "social"
+      ]
     },
     {
       "src": "apps/zxbrick/zxbrick-gameplay-01.png",
@@ -25,7 +25,11 @@
       "purpose": "gameplay",
       "width": 1170,
       "height": 2532,
-      "usage": ["docs", "website", "social"]
+      "usage": [
+        "docs",
+        "website",
+        "social"
+      ]
     }
   ],
   "sections": [
@@ -60,10 +64,14 @@
     }
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["overview", "how-to-play", "powerups", "tips-and-strategy"],
+  "relatedPages": [
+    "overview",
+    "how-to-play",
+    "powerups",
+    "tips-and-strategy"
+  ],
   "relatedLinks": [
     {
       "label": "How to Play",

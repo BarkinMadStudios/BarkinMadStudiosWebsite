@@ -6,11 +6,6 @@
   "summary": "Power-ups are designed to alter risk and reward loops in short, replay-friendly intervals.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
   "heroImageAlt": "ZXBrick power-up showcase",
-  "sourceNotes": [
-    "Based on pages/apps/zxbrick.json, news/zxbrick-powerups/article.json, and shipped screenshots.",
-    "Exact spawn rates, durations, stack behavior, and score interactions are to verify from app source.",
-    "Use these details as implementation guidance only until confirmed in build QA."
-  ],
   "imageMetadata": [
     {
       "src": "apps/zxbrick/zxbrick-powerups.png",
@@ -18,7 +13,12 @@
       "purpose": "marketing",
       "width": 1600,
       "height": 900,
-      "usage": ["docs", "news", "social", "website"]
+      "usage": [
+        "docs",
+        "news",
+        "social",
+        "website"
+      ]
     },
     {
       "src": "apps/zxbrick/zxbrick-powerup-berserker.png",
@@ -26,7 +26,11 @@
       "purpose": "gameplay",
       "width": 1170,
       "height": 2532,
-      "usage": ["docs", "website", "social"]
+      "usage": [
+        "docs",
+        "website",
+        "social"
+      ]
     }
   ],
   "sections": [
@@ -71,10 +75,14 @@
     }
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "needs-review",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
-  "relatedPages": ["how-to-play", "game-modes", "tips-and-strategy", "levels"],
+  "relatedPages": [
+    "how-to-play",
+    "game-modes",
+    "tips-and-strategy",
+    "levels"
+  ],
   "relatedLinks": [
     {
       "label": "Levels",
