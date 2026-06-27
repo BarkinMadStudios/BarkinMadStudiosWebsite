@@ -8,11 +8,11 @@
   "heroImageAlt": "ZXSpace achievements gameplay screenshot",
   "sections": [
     {
-      "id": "known-achievements",
-      "heading": "Known achievements",
+      "id": "available-achievements",
+      "heading": "Available achievements",
       "paragraphs": [
-        "Current gameplay includes Game Center play-count achievement definitions.",
-        "Use this page as a practical planning guide until final public Game Center display names are verified."
+		  "Unlock achievements by playing ZXSpace and reaching important gameplay milestones.",
+		  "Game Center achievements reward regular play and encourage you to improve your skills over time."
       ],
       "bullets": [
         "Play 10 games",
