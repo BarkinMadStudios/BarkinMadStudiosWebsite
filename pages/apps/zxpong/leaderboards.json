@@ -10,10 +10,11 @@
     {
       "id": "known-leaderboards",
       "heading": "Known leaderboards",
-      "paragraphs": [
-        "Current documentation identifies Longest Rally as the app-specific leaderboard surface."
-        "ZXPong also participates in shared ZX Series leaderboard surfaces such as total score and total coins through the shared Retro leaderboard model."
-      ]
+	  "paragraphs": [
+		  "Longest Rally is the primary Game Center leaderboard for ZXPong, rewarding players who can keep the ball in play the longest.",
+		  "ZXPong also participates in shared ZX Series leaderboard surfaces such as total score and total coins through the shared ZX Series leaderboard model."
+		  
+	  ]
     },
     {
       "id": "how-to-improve",
