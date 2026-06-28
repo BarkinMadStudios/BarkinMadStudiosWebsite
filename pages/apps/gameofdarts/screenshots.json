@@ -8,8 +8,8 @@
   "heroImageAlt": "Game of Darts app artwork",
   "imageMetadata": [
     {
-      "src": "apps/gameofdarts/gameofdarts-hero.png",
-      "alt": "Game of Darts hero artwork",
+      "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
+      "alt": "Game of Darts splash Screen",
       "purpose": "hero",
       "width": 1881,
       "height": 836,
@@ -19,8 +19,8 @@
       ]
     },
     {
-      "src": "apps/gameofdarts/gameofdarts-icon.png",
-      "alt": "Game of Darts icon artwork",
+      "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+      "alt": "Game of Darts Main view",
       "purpose": "marketing",
       "width": 1254,
       "height": 1254,
@@ -31,8 +31,8 @@
       ]
     },
     {
-      "src": "apps/gameofdarts/gameofdarts.png",
-      "alt": "Game of Darts app artwork",
+      "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+      "alt": "Setting and Customisations",
       "purpose": "gameplay",
       "width": 1430,
       "height": 1100,
@@ -42,8 +42,8 @@
       ]
     },
     {
-      "src": "apps/gameofdarts/gameofdarts1.png",
-      "alt": "Game of Darts square artwork",
+      "src": "apps/gameofdarts/gameofdarts-screenshot-IAP.png",
+      "alt": "Game of Darts In App Purchases",
       "purpose": "marketing",
       "width": 1254,
       "height": 1254,
@@ -66,18 +66,18 @@
       "caption": "Main Menu / Game Setup"
     },
     {
-      "src": "gameofdarts-screenshot-settings.png",
-      "alt": "Setting and Customisations",
+      "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+      "alt": "Game of Darts - Setting and Customisations",
       "caption": "Settings"
     },
     {
       "src": "apps/gameofdarts/gameofdarts-screenshot-IAP.png",
-      "alt": "In App Purchases",
+      "alt": "Game of Darts In App Purchases",
       "caption": "In App Purchases"
     },
 	{
 	  "src": "apps/gameofdarts/gameofdarts-screenshot-help.png",
-	  "alt": "Help screen - find out more about this app",
+	  "alt": "Game of Darts Help screen - find out more about this app",
 	  "caption": "Game rules and app help"
 	},
 	{
