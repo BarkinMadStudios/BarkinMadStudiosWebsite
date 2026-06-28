@@ -7,8 +7,8 @@
   "heroImageAlt": "Game of Darts hero artwork",
   "imageMetadata": [
     {
-      "src": "apps/gameofdarts/gameofdarts-hero.png",
-      "alt": "Game of Darts hero artwork",
+      "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
+      "alt": "Game of Darts Splash Screen",
       "purpose": "hero",
       "width": 1881,
       "height": 836,
@@ -19,8 +19,8 @@
       ]
     },
     {
-      "src": "apps/gameofdarts/gameofdarts.png",
-      "alt": "Game of Darts app artwork",
+      "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+      "alt": "Game of Darts main setup/ game configuration screen",
       "purpose": "gameplay",
       "width": 1430,
       "height": 1100,
@@ -32,12 +32,12 @@
   ],
   "images": [
     {
-      "src": "apps/gameofdarts/gameofdarts.png",
-      "alt": "Game of Darts app artwork",
-      "caption": "Existing Game of Darts website artwork"
+      "src": "apps/gameofdarts/gameofdarts-screenshot-setting.png",
+      "alt": "Game of Darts - Settings - customised app settings",
+      "caption": "Game of Darts Setting view"
     }
   ],
-  "imageSectionTitle": "Artwork",
+  "imageSectionTitle": "Screenshots",
   "sections": [
     {
       "id": "what-is-game-of-darts",
