@@ -10,8 +10,8 @@
       "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
       "alt": "Game of Darts Splash Screen",
       "purpose": "hero",
-      "width": 1881,
-      "height": 836,
+      "width": 681,
+      "height": 336,
       "usage": [
         "docs",
         "website",
@@ -32,10 +32,20 @@
   ],
   "images": [
     {
-	"src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
-	"alt": "Game of Darts main setup/ game configuration screen",
-      "caption": "Game of Darts Main Screen"
-    }
+	  "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
+	  "alt": "Game of Darts splash screen",
+      "caption": "Game of Darts splash Screen"
+    },
+	{
+		"src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+		"alt": "Game of Darts main setup/ game configuration screen",
+		"caption": "Game of Darts Main Screen"
+	},
+	{
+		"src": "apps/gameofdarts/gameofdarts-screenshot-setting.png",
+		"alt": "Game of Darts settings and customisation screen",
+		"caption": "Game of Darts settings Screen"
+	}
   ],
   "imageSectionTitle": "Screenshots",
   "sections": [
