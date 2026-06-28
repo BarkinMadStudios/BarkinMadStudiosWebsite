@@ -56,25 +56,35 @@
   ],
   "images": [
     {
-      "src": "apps/gameofdarts/gameofdarts.png",
-      "alt": "Game of Darts app artwork",
-      "caption": "Existing Game of Darts artwork"
+      "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
+      "alt": "Game of Darts Setup Screen",
+      "caption": "Splash Screen"
     },
     {
-      "src": "apps/gameofdarts/gameofdarts-hero.png",
-      "alt": "Game of Darts hero artwork",
-      "caption": "Hero artwork"
+      "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+      "alt": "Game of Darts Main view",
+      "caption": "Main Menu / Game Setup"
     },
     {
-      "src": "apps/gameofdarts/gameofdarts-icon.png",
-      "alt": "Game of Darts icon artwork",
-      "caption": "Icon artwork"
+      "src": "gameofdarts-screenshot-settings.png",
+      "alt": "Setting and Customisations",
+      "caption": "Settings"
     },
     {
-      "src": "apps/gameofdarts/gameofdarts1.png",
-      "alt": "Game of Darts square artwork",
-      "caption": "Square artwork"
-    }
+      "src": "apps/gameofdarts/gameofdarts-screenshot-IAP.png",
+      "alt": "In App Purchases",
+      "caption": "In App Purchases"
+    },
+	{
+	  "src": "apps/gameofdarts/gameofdarts-screenshot-help.png",
+	  "alt": "Help screen - find out more about this app",
+	  "caption": "Game rules and app help"
+	},
+	{
+	  "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+	  "alt": "Game of Darts leaderboards",
+	  "caption": "Leaderboards"
+	}
   ],
   "screenshotSectionTitle": "Screenshots",
   "imageSectionTitle": "Screenshots",
