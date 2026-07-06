@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXBrick Levels",
   "seoTitle": "ZXBrick Levels | BarkinMad Studios",
   "description": "Learn the structure and goals of ZXBrick's handcrafted level progression, including how each stage unlocks new challenges and reinforces repeatable skill patterns.",
@@ -81,5 +81,6 @@
       "label": "Power-ups",
       "href": "/apps/zxbrick/powerups"
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

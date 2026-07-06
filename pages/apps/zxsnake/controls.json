@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXSnake Controls",
   "seoTitle": "ZXSnake Controls | BarkinMad Studios",
   "description": "Practical control guidance for building stable movement patterns across all ZXSnake sessions.",
@@ -14,5 +14,15 @@
   "imageSectionTitle": "Controls Images",
   "estimatedReadTimeMinutes": 2,
   "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26"
+  "lastVerified": "2026-06-26",
+  "contentStatus": "verified",
+  "sections": [
+    {
+      "id": "controls-summary",
+      "heading": "ZXSnake Controls",
+      "paragraphs": [
+        "Practical control guidance for building stable movement patterns across all ZXSnake sessions."
+      ]
+    }
+  ]
 }

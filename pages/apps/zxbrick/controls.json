@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXBrick Controls",
   "seoTitle": "ZXBrick Controls | BarkinMad Studios",
   "description": "Understand the control rhythm and input expectations for ZXBrick sessions, including touch timing, paddle movement precision, launch consistency, and session pause behavior.",
@@ -52,5 +52,6 @@
     "ZXBrick controls",
     "arcade controls",
     "iPhone"
-  ]
+  ],
+  "contentStatus": "verified"
 }

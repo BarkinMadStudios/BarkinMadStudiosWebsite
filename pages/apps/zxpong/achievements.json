@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXPong Achievements",
   "seoTitle": "ZXPong Achievements | BarkinMad Studios",
   "description": "Review known ZXPong achievement milestones for repeat play, Solo wins, hard AI wins, and rally consistency.",
@@ -56,5 +56,6 @@
     "how-to-play",
     "tips-and-strategy",
     "barkinmad-coins"
-  ]
+  ],
+  "contentStatus": "verified"
 }

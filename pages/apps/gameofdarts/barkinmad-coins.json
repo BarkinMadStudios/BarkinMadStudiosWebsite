@@ -65,12 +65,13 @@
     "48-hour unlock"
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "published",
+  "contentStatus": "verified",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "relatedPages": [
     "dartbot",
     "settings-customisation",
     "frequently-asked-questions"
-  ]
+  ],
+  "documentationSchemaVersion": "1.1.0"
 }

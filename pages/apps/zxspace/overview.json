@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXSpace Overview",
   "seoTitle": "ZXSpace Overview | BarkinMad Studios",
   "description": "A practical introduction to ZXSpace, its city-defence formation shooter loop, release status, and ZX Series support systems.",
@@ -101,5 +101,6 @@
       "label": "ZX Series",
       "href": "/zx-series"
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

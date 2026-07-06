@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "Screenshots",
   "seoTitle": "ZXBrick Screenshots | BarkinMad Studios",
   "description": "A curated gallery of ZXBrick gameplay and interface screenshots with a focus on level flow, menus, and active brick-breaking play.",
@@ -39,5 +39,6 @@
         "Use this as a visual reference while checking visual style continuity across sessions."
       ]
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

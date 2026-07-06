@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "How to Play ZXSnake",
   "seoTitle": "How to Play ZXSnake | BarkinMad Studios",
   "description": "Understand the ZXSnake objective, score structure, and game flow from launch to end-of-run decisions.",
@@ -14,5 +14,15 @@
   "imageSectionTitle": "How to Play Images",
   "estimatedReadTimeMinutes": 4,
   "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26"
+  "lastVerified": "2026-06-26",
+  "contentStatus": "verified",
+  "sections": [
+    {
+      "id": "how-to-play-summary",
+      "heading": "How to Play ZXSnake",
+      "paragraphs": [
+        "Understand the ZXSnake objective, score structure, and game flow from launch to end-of-run decisions."
+      ]
+    }
+  ]
 }

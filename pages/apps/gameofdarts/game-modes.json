@@ -1,7 +1,7 @@
 {
   "title": "Game Modes",
   "seoTitle": "Game of Darts Game Modes | BarkinMad Studios",
-  "description": "Explore the Game of Darts match formats available in the app.",
+  "description": "Release-facing modes include Match/X01, Cricket, Snooker, Bob's 27, 1 to 20, Hare & Hound, Halve It, and All 5s.",
   "summary": "Release-facing modes include Match/X01, Cricket, Snooker, Bob's 27, 1 to 20, Hare & Hound, Halve It, and All 5s.",
   "heroImage": "apps/gameofdarts/gameofdarts.png",
   "heroImageAlt": "Artwork for Game of Darts game modes",
@@ -39,7 +39,7 @@
     "Bob's 27"
   ],
   "estimatedReadTimeMinutes": 4,
-  "contentStatus": "published",
+  "contentStatus": "verified",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "relatedPages": [
@@ -47,5 +47,6 @@
     "dartbot",
     "leaderboards",
     "achievements"
-  ]
+  ],
+  "documentationSchemaVersion": "1.1.0"
 }

@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "BarkinMad Coins in ZXSpace",
   "seoTitle": "BarkinMad Coins | ZXSpace | BarkinMad Studios",
   "description": "How BarkinMad Coins work with ZXSpace wave rewards, cosmetic skin unlocks, shared wallet progression, and ZX Series support.",
@@ -26,10 +26,10 @@
     {
       "id": "how-zxspace-uses-coins",
       "heading": "How ZXSpace uses coins",
-	  "paragraphs": [
-		  "ZXSpace gameplay awards coins when waves are completed and updates the shared ZX wallet balance.",
-		  "Alien and UFO kills award score, while coin rewards are handled separately so score chasing and wallet progression remain distinct."
-	  ]
+      "paragraphs": [
+        "ZXSpace gameplay awards coins when waves are completed and updates the shared ZX wallet balance.",
+        "Alien and UFO kills award score, while coin rewards are handled separately so score chasing and wallet progression remain distinct."
+      ]
     },
     {
       "id": "cosmetic-unlocks",
@@ -67,5 +67,6 @@
     "ZX Series wallet",
     "cosmetic unlocks",
     "cannon skins"
-  ]
+  ],
+  "contentStatus": "verified"
 }

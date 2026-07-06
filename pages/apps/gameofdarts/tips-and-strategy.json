@@ -47,7 +47,7 @@
     "leaderboards"
   ],
   "estimatedReadTimeMinutes": 3,
-  "contentStatus": "published",
+  "contentStatus": "verified",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "relatedPages": [
@@ -55,5 +55,6 @@
     "statistics",
     "leaderboards",
     "guide"
-  ]
+  ],
+  "documentationSchemaVersion": "1.1.0"
 }

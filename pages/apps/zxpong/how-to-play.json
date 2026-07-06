@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "How to Play ZXPong",
   "seoTitle": "How to Play ZXPong | BarkinMad Studios",
   "description": "Learn the ZXPong session loop, rally scoring rhythm, paddle goal, and release-facing flow for Solo and World PVP play.",
@@ -86,5 +86,6 @@
       "label": "Game Modes",
       "href": "/apps/zxpong/game-modes"
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

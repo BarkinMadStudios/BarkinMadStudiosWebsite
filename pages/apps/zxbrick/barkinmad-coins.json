@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "BarkinMad Coins in ZXBrick",
   "seoTitle": "BarkinMad Coins | ZXBrick | BarkinMad Studios",
   "description": "How shared BarkinMad Coins behavior is represented in ZXBrick, where gameplay rewards support unlock progression and shared cross-title rewards inside the ZX Series ecosystem.",
@@ -55,5 +55,6 @@
     "BarkinMad Coins",
     "ZX Series wallet",
     "progression"
-  ]
+  ],
+  "contentStatus": "verified"
 }

@@ -972,6 +972,15 @@ ${content}
     };
   }
   __name(articleSchema, "articleSchema");
+  function isPublishedDate(dateString) {
+    const publishedDate = new Date(dateString);
+    if (Number.isNaN(publishedDate.getTime())) return false;
+    publishedDate.setHours(0, 0, 0, 0);
+    const today = /* @__PURE__ */ new Date();
+    today.setHours(0, 0, 0, 0);
+    return publishedDate <= today;
+  }
+  __name(isPublishedDate, "isPublishedDate");
   function projectSchema(projects, site = DEFAULT_SITE) {
     const website = site.website || DEFAULT_SITE.website;
     const items = Array.isArray(projects) ? projects.filter((project) => project?.title) : [];
@@ -2507,9 +2516,8 @@ ${renderRelatedApps(relatedApps)}
   __name(postCard, "postCard");
   async function newsArticleResponse(slug) {
     const article = await fetchJson(`${NEWS_BASE}/${slug}/article.json`);
-    if (!article) {
+    if (!article || !isPublishedDate(article.date)) {
       return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), {
-        canonicalPath: `/news/${slug}`,
         robots: "noindex,follow"
       }, 404);
     }
@@ -2597,14 +2605,9 @@ ${relatedPosts.length ? `
   __name(newsArchivePage, "newsArchivePage");
   function getPublishedValidPosts(posts) {
     if (!Array.isArray(posts)) return [];
-    const today = /* @__PURE__ */ new Date();
-    today.setHours(0, 0, 0, 0);
     return posts.filter((post) => {
       if (!post || !post.slug || !post.title || !post.date || !post.excerpt || !post.image) return false;
-      const postDate = new Date(post.date);
-      if (Number.isNaN(postDate.getTime())) return false;
-      postDate.setHours(0, 0, 0, 0);
-      return postDate <= today;
+      return isPublishedDate(post.date);
     }).sort((a, b) => new Date(b.date) - new Date(a.date));
   }
   __name(getPublishedValidPosts, "getPublishedValidPosts");

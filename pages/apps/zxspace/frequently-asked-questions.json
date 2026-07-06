@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "Frequently Asked Questions",
   "seoTitle": "ZXSpace FAQ | BarkinMad Studios",
   "description": "Answers to common ZXSpace questions about release status, controls, solo play, coins, power-ups, achievements, and leaderboards.",
@@ -61,5 +61,6 @@
     "game-modes",
     "barkinmad-coins",
     "leaderboards"
-  ]
+  ],
+  "contentStatus": "verified"
 }

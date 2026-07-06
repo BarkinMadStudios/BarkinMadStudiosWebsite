@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "Leaderboards",
   "seoTitle": "ZXSnake Leaderboards | BarkinMad Studios",
   "description": "How leaderboard ranking is structured and how to use score comparisons effectively.",
@@ -14,5 +14,15 @@
   "imageSectionTitle": "Leaderboards Images",
   "estimatedReadTimeMinutes": 2,
   "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26"
+  "lastVerified": "2026-06-26",
+  "contentStatus": "verified",
+  "sections": [
+    {
+      "id": "leaderboards-summary",
+      "heading": "Leaderboards",
+      "paragraphs": [
+        "How leaderboard ranking is structured and how to use score comparisons effectively."
+      ]
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXPong Overview",
   "seoTitle": "ZXPong Overview | BarkinMad Studios",
   "description": "A practical introduction to ZXPong, the core paddle-and-ball loop, release-facing modes, and ZX Series support systems.",
@@ -101,5 +101,6 @@
       "label": "ZX Series",
       "href": "/zx-series"
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

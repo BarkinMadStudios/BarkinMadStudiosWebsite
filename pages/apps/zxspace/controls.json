@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXSpace Controls",
   "seoTitle": "ZXSpace Controls | BarkinMad Studios",
   "description": "Understand ZXSpace touch-and-drag cannon movement, continuous auto-fire, horizontal positioning, and practical aiming habits.",
@@ -71,5 +71,6 @@
     "how-to-play",
     "game-modes",
     "tips-and-strategy"
-  ]
+  ],
+  "contentStatus": "verified"
 }

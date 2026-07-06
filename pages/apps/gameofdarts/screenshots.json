@@ -75,16 +75,16 @@
       "alt": "Game of Darts In App Purchases",
       "caption": "In App Purchases"
     },
-	{
-	  "src": "apps/gameofdarts/gameofdarts-screenshot-help.png",
-	  "alt": "Game of Darts Help screen - find out more about this app",
-	  "caption": "Game rules and app help"
-	},
-	{
-	  "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
-	  "alt": "Game of Darts leaderboards",
-	  "caption": "Leaderboards"
-	}
+    {
+      "src": "apps/gameofdarts/gameofdarts-screenshot-help.png",
+      "alt": "Game of Darts Help screen - find out more about this app",
+      "caption": "Game rules and app help"
+    },
+    {
+      "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+      "alt": "Game of Darts leaderboards",
+      "caption": "Leaderboards"
+    }
   ],
   "screenshotSectionTitle": "Screenshots",
   "imageSectionTitle": "Screenshots",
@@ -104,11 +104,12 @@
     "artwork"
   ],
   "estimatedReadTimeMinutes": 1,
-  "contentStatus": "published",
+  "contentStatus": "verified",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "relatedPages": [
     "overview",
     "guide"
-  ]
+  ],
+  "documentationSchemaVersion": "1.1.0"
 }

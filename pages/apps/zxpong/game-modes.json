@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXPong Game Modes",
   "seoTitle": "ZXPong Game Modes | BarkinMad Studios",
   "description": "Compare ZXPong Solo play and World PVP. World PVP is the multiplayer option currently available in the documented build.",
@@ -61,5 +61,6 @@
       "question": "Is Local PVP available right now?",
       "answer": "No. World PVP is currently available. Local PVP will be introduced in a later update."
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

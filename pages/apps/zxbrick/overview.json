@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXBrick Overview",
   "seoTitle": "ZXBrick Overview | BarkinMad Studios",
   "description": "A practical introduction to ZXBrick, the core gameplay loop, and supporting systems.",
@@ -116,5 +116,6 @@
       "label": "Levels",
       "href": "/apps/zxbrick/levels"
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

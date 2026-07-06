@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXSpace Achievements",
   "seoTitle": "ZXSpace Achievements | BarkinMad Studios",
   "description": "Review known ZXSpace Game Center achievement milestones for repeat play and plan progress around supported play-count goals.",
@@ -11,8 +11,8 @@
       "id": "available-achievements",
       "heading": "Available achievements",
       "paragraphs": [
-		  "Unlock achievements by playing ZXSpace and reaching important gameplay milestones.",
-		  "Game Center achievements reward regular play and encourage you to improve your skills over time."
+        "Unlock achievements by playing ZXSpace and reaching important gameplay milestones.",
+        "Game Center achievements reward regular play and encourage you to improve your skills over time."
       ],
       "bullets": [
         "Play 10 games",
@@ -52,5 +52,6 @@
     "how-to-play",
     "tips-and-strategy",
     "barkinmad-coins"
-  ]
+  ],
+  "contentStatus": "verified"
 }

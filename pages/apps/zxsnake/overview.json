@@ -1,8 +1,8 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXSnake",
   "seoTitle": "ZXSnake Overview | BarkinMad Studios",
-  "description": "ZXSnake is part of the [ZX Series](/zx-series), a retro-inspired arcade snake game featuring classic gameplay, unlockable themes, achievements, and modern controls with a nostalgic ZX Spectrum-inspired visual style.",
+  "description": "ZXSnake is a retro-inspired arcade snake game in the ZX Series, featuring classic gameplay, unlockable themes, achievements, and modern controls.",
   "summary": "Retro arcade snake action",
   "shortDescription": "Inspired by classic 1980s gaming.",
   "tagline": "Retro arcade snake action",
@@ -68,5 +68,6 @@
       "label": "How to Play",
       "href": "/apps/zxsnake/how-to-play"
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

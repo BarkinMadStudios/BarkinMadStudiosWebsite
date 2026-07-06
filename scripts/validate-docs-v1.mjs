@@ -550,17 +550,34 @@ async function buildAppMap() {
   const map = new Map();
 
   for (const entry of entries) {
+    if (entry.isDirectory()) {
+      const pagesFile = path.join(APPS_DIR, entry.name, "pages.json");
+      if (existsSync(pagesFile)) {
+        const existing = map.get(entry.name) || {};
+        map.set(entry.name, {
+          ...existing,
+          appJson: existing.appJson || null,
+          appJsonPath: existing.appJsonPath || null,
+          hasPages: true,
+          pagesFile,
+        });
+      }
+
+      continue;
+    }
+
     if (!entry.isFile() || !entry.name.endsWith(".json")) continue;
 
     const slug = entry.name.replace(/\.json$/i, "");
     const filePath = path.join(APPS_DIR, entry.name);
-  const appJson = await readJson(filePath);
+    const appJson = await readJson(filePath);
 
     const docDir = path.join(APPS_DIR, slug);
     const pagesFile = path.join(docDir, "pages.json");
     const hasPages = existsSync(pagesFile);
 
     map.set(slug, {
+      ...map.get(slug),
       appJson,
       appJsonPath: filePath,
       hasPages,
@@ -575,11 +592,6 @@ async function validateApp(appSlug, appData) {
   report.appsScanned += 1;
   const appContext = `apps/${appSlug}`;
   const { appJson, hasPages, pagesFile } = appData;
-
-  if (!appJson) {
-    addWarning(appContext, "Could not parse app overview json");
-    return;
-  }
 
   if (!hasPages) {
     addWarning(appContext, "No documentation index found", "pages.json");
@@ -662,8 +674,8 @@ async function validateApp(appSlug, appData) {
     }
   }
 
-  const linksToCheck = Array.isArray(appJson.documentationLinks) ? appJson.documentationLinks : [];
-  if (Array.isArray(linksToCheck) && linksToCheck.length > 0) {
+  const linksToCheck = Array.isArray(appJson?.documentationLinks) ? appJson.documentationLinks : [];
+  if (linksToCheck.length > 0) {
     const linkedSlugs = new Set();
     for (const link of linksToCheck) {
       if (!isObject(link) || !isString(link.href)) continue;
@@ -678,7 +690,7 @@ async function validateApp(appSlug, appData) {
         addWarning(appContext, `App overview does not link to core doc slug`, requiredSlug);
       }
     }
-  } else {
+  } else if (appJson) {
     addWarning(appContext, "App overview has no documentationLinks");
   }
 }

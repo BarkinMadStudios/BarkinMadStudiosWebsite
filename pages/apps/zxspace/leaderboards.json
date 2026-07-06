@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXSpace Leaderboards",
   "seoTitle": "ZXSpace Leaderboards | BarkinMad Studios",
   "description": "Understand known ZXSpace leaderboard surfaces, including Highest Score and shared ZX Series Total Score progression.",
@@ -7,22 +7,22 @@
   "heroImage": "images/shared/placeholder.png",
   "heroImageAlt": "ZXSpace leaderboard gameplay screenshot",
   "sections": [
-	  {
-		  "id": "leaderboards",
-		  "heading": "Leaderboards",
-		  "paragraphs": [
-			  "Highest Score is the main Game Center leaderboard for ZXSpace, challenging players to survive longer, clear more waves and achieve the highest score possible.",
-			  "Your progress also contributes to the shared ZX Series Total Score leaderboard, allowing you to compete across the entire ZX Series."
-		  ]
-	  },
-	  {
-		  "id": "improve-your-ranking",
-		  "heading": "Improve Your Ranking",
-		  "paragraphs": [
-			  "Focus on surviving for as long as possible, protecting your shields and clearing each wave efficiently. Longer runs naturally lead to higher scores and better leaderboard positions.",
-			  "Collect power-ups, destroy UFOs when it is safe to do so and minimise unnecessary damage to keep your score increasing throughout every game."
-		  ]
-	  }
+    {
+      "id": "leaderboards",
+      "heading": "Leaderboards",
+      "paragraphs": [
+        "Highest Score is the main Game Center leaderboard for ZXSpace, challenging players to survive longer, clear more waves and achieve the highest score possible.",
+        "Your progress also contributes to the shared ZX Series Total Score leaderboard, allowing you to compete across the entire ZX Series."
+      ]
+    },
+    {
+      "id": "improve-your-ranking",
+      "heading": "Improve Your Ranking",
+      "paragraphs": [
+        "Focus on surviving for as long as possible, protecting your shields and clearing each wave efficiently. Longer runs naturally lead to higher scores and better leaderboard positions.",
+        "Collect power-ups, destroy UFOs when it is safe to do so and minimise unnecessary damage to keep your score increasing throughout every game."
+      ]
+    }
   ],
   "images": [
     {
@@ -47,5 +47,6 @@
     "how-to-play",
     "tips-and-strategy",
     "barkinmad-coins"
-  ]
+  ],
+  "contentStatus": "verified"
 }

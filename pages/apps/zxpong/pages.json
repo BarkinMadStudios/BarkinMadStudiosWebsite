@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "appSlug": "zxpong",
   "title": "ZXPong Guides",
   "description": "Official player guides for ZXPong covering paddle controls, Solo play, World PVP, coins, achievements, leaderboards, and release-ready support notes.",
@@ -34,7 +34,8 @@
         "how-to-play",
         "controls",
         "game-modes"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "how-to-play",
@@ -51,7 +52,8 @@
         "game-modes",
         "tips-and-strategy",
         "achievements"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "controls",
@@ -67,7 +69,8 @@
         "how-to-play",
         "game-modes",
         "tips-and-strategy"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "game-modes",
@@ -84,7 +87,8 @@
         "controls",
         "leaderboards",
         "tips-and-strategy"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "barkinmad-coins",
@@ -100,7 +104,8 @@
         "achievements",
         "leaderboards",
         "tips-and-strategy"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "achievements",
@@ -116,7 +121,8 @@
         "leaderboards",
         "how-to-play",
         "tips-and-strategy"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "leaderboards",
@@ -132,7 +138,8 @@
         "achievements",
         "how-to-play",
         "tips-and-strategy"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "tips-and-strategy",
@@ -150,7 +157,8 @@
         "game-modes",
         "achievements",
         "leaderboards"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "frequently-asked-questions",
@@ -167,7 +175,8 @@
         "game-modes",
         "barkinmad-coins",
         "leaderboards"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "guide",
@@ -186,7 +195,8 @@
         "game-modes",
         "tips-and-strategy",
         "frequently-asked-questions"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "screenshots",
@@ -201,7 +211,9 @@
       "relatedPages": [
         "overview",
         "guide"
-      ]
+      ],
+      "contentStatus": "verified"
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "Achievements",
   "seoTitle": "ZXSnake Achievements | BarkinMad Studios",
   "description": "Understand achievement milestones and practical ways to approach them in regular play.",
@@ -14,5 +14,15 @@
   "imageSectionTitle": "Achievements Images",
   "estimatedReadTimeMinutes": 2,
   "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26"
+  "lastVerified": "2026-06-26",
+  "contentStatus": "verified",
+  "sections": [
+    {
+      "id": "achievements-summary",
+      "heading": "Achievements",
+      "paragraphs": [
+        "Understand achievement milestones and practical ways to approach them in regular play."
+      ]
+    }
+  ]
 }

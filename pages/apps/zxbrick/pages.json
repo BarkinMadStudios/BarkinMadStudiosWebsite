@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "appSlug": "zxbrick",
   "title": "ZXBrick Guides",
   "description": "Official player guides for ZXBrick covering controls, progression, and support systems.",
@@ -24,7 +24,8 @@
         "how-to-play",
         "levels",
         "powerups"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "how-to-play",
@@ -42,7 +43,8 @@
         "achievements",
         "leaderboards",
         "tips-and-strategy"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "controls",
@@ -57,7 +59,8 @@
         "how-to-play",
         "tips-and-strategy",
         "powerups"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "game-modes",
@@ -72,7 +75,8 @@
         "how-to-play",
         "levels",
         "tips-and-strategy"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "barkinmad-coins",
@@ -87,7 +91,8 @@
         "achievements",
         "leaderboards",
         "how-to-play"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "achievements",
@@ -101,7 +106,8 @@
       "relatedPages": [
         "leaderboards",
         "tips-and-strategy"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "leaderboards",
@@ -115,7 +121,8 @@
       "relatedPages": [
         "achievements",
         "tips-and-strategy"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "tips-and-strategy",
@@ -132,7 +139,8 @@
         "game-modes",
         "achievements",
         "leaderboards"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "frequently-asked-questions",
@@ -148,7 +156,8 @@
         "barkinmad-coins",
         "controls",
         "game-modes"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "levels",
@@ -163,7 +172,8 @@
       "relatedPages": [
         "overview",
         "powerups"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "powerups",
@@ -178,7 +188,8 @@
       "relatedPages": [
         "how-to-play",
         "levels"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "guide",
@@ -199,7 +210,8 @@
         "powerups",
         "tips-and-strategy",
         "frequently-asked-questions"
-      ]
+      ],
+      "contentStatus": "verified"
     },
     {
       "slug": "screenshots",
@@ -214,7 +226,9 @@
       "relatedPages": [
         "overview",
         "guide"
-      ]
+      ],
+      "contentStatus": "verified"
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

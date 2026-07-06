@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "How to Play ZXSpace",
   "seoTitle": "How to Play ZXSpace | BarkinMad Studios",
   "description": "Learn the ZXSpace session loop, city-defence objective, alien waves, shields, lives, scoring, power-ups, and wave rewards.",
@@ -95,5 +95,6 @@
       "label": "Game Modes",
       "href": "/apps/zxspace/game-modes"
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

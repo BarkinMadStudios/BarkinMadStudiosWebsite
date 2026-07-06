@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXSpace Guide",
   "seoTitle": "ZXSpace Guide | BarkinMad Studios",
   "description": "Complete ZXSpace guide covering city-defence shooting, controls, solo play, coins, achievements, leaderboards, and strategy.",
@@ -68,5 +68,6 @@
     "game-modes",
     "tips-and-strategy",
     "frequently-asked-questions"
-  ]
+  ],
+  "contentStatus": "verified"
 }

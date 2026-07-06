@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "Game Modes",
   "seoTitle": "ZXSnake Game Modes | BarkinMad Studios",
   "description": "Understand the available ZXSnake play modes and choose the right structure for your session goal.",
@@ -14,5 +14,15 @@
   "imageSectionTitle": "Game Modes Images",
   "estimatedReadTimeMinutes": 3,
   "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26"
+  "lastVerified": "2026-06-26",
+  "contentStatus": "verified",
+  "sections": [
+    {
+      "id": "game-modes-summary",
+      "heading": "Game Modes",
+      "paragraphs": [
+        "Understand the available ZXSnake play modes and choose the right structure for your session goal."
+      ]
+    }
+  ]
 }

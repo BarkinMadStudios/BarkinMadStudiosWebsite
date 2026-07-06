@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXPong Guide",
   "seoTitle": "ZXPong Guide | BarkinMad Studios",
   "description": "Complete ZXPong guide covering the release-facing match loop, controls, Solo play, World PVP, coins, achievements, and leaderboards.",
@@ -68,5 +68,6 @@
     "game-modes",
     "tips-and-strategy",
     "frequently-asked-questions"
-  ]
+  ],
+  "contentStatus": "verified"
 }

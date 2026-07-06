@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXPong Leaderboards",
   "seoTitle": "ZXPong Leaderboards | BarkinMad Studios",
   "description": "Understand known ZXPong leaderboard surfaces, including Longest Rally and shared ZX Series score and coin rankings.",
@@ -10,11 +10,10 @@
     {
       "id": "known-leaderboards",
       "heading": "Known leaderboards",
-	  "paragraphs": [
-		  "Longest Rally is the primary Game Center leaderboard for ZXPong, rewarding players who can keep the ball in play the longest.",
-		  "ZXPong also participates in shared ZX Series leaderboard surfaces such as total score and total coins through the shared ZX Series leaderboard model."
-		  
-	  ]
+      "paragraphs": [
+        "Longest Rally is the primary Game Center leaderboard for ZXPong, rewarding players who can keep the ball in play the longest.",
+        "ZXPong also participates in shared ZX Series leaderboard surfaces such as total score and total coins through the shared ZX Series leaderboard model."
+      ]
     },
     {
       "id": "how-to-improve",
@@ -48,5 +47,6 @@
     "how-to-play",
     "tips-and-strategy",
     "barkinmad-coins"
-  ]
+  ],
+  "contentStatus": "verified"
 }

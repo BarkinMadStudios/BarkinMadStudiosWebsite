@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "Frequently Asked Questions",
   "seoTitle": "ZXPong FAQ | BarkinMad Studios",
   "description": "Answers to common ZXPong questions about release status, controls, Solo play, World PVP, Local PVP, coins, and leaderboards.",
@@ -57,5 +57,6 @@
     "game-modes",
     "barkinmad-coins",
     "leaderboards"
-  ]
+  ],
+  "contentStatus": "verified"
 }

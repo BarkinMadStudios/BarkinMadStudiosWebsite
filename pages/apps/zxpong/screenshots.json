@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXPong Screenshots",
   "seoTitle": "ZXPong Screenshots | BarkinMad Studios",
   "description": "A ZXPong screenshot gallery using current available gameplay and release artwork, with available gameplay and release imagery.",
@@ -48,5 +48,6 @@
   "relatedPages": [
     "overview",
     "guide"
-  ]
+  ],
+  "contentStatus": "verified"
 }

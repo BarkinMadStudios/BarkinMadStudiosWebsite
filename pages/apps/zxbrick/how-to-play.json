@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "How to Play ZXBrick",
   "seoTitle": "How to Play ZXBrick | BarkinMad Studios",
   "description": "Learn the core objective and flow for every ZXBrick session, from launch and setup through level progression and scoring strategy for strong short-replay sessions.",
@@ -84,5 +84,6 @@
       "label": "Leaderboards",
       "href": "/apps/zxbrick/leaderboards"
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

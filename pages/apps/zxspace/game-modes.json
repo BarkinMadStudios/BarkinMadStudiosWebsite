@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXSpace Game Modes",
   "seoTitle": "ZXSpace Game Modes | BarkinMad Studios",
   "description": "Understand the verified ZXSpace solo city-defence mode and the current status of multiplayer menu availability.",
@@ -61,5 +61,6 @@
       "question": "Is ZXSpace multiplayer documented as a release feature?",
       "answer": "No. The verified documentation focuses on Solo play. Multiplayer availability will be confirmed as new release details are finalised."
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXSnake Complete Guide",
   "seoTitle": "ZXSnake Complete Guide | BarkinMad Studios",
   "description": "A full text guide for ZXSnake covering controls, game flow, scoring, progression systems, and practical improvement methods.",
@@ -185,5 +185,6 @@
     "leaderboards",
     "tips-and-strategy",
     "frequently-asked-questions"
-  ]
+  ],
+  "contentStatus": "verified"
 }

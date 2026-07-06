@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXBrick Complete Guide",
   "seoTitle": "ZXBrick Complete Guide | BarkinMad Studios",
   "description": "A full text guide for ZXBrick covering gameplay flow, controls, levels, power-ups, progression systems, and practical improvement methods.",
@@ -195,5 +195,6 @@
     "leaderboards",
     "tips-and-strategy",
     "frequently-asked-questions"
-  ]
+  ],
+  "contentStatus": "verified"
 }

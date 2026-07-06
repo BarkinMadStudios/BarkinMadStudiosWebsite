@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXBrick Power-Ups",
   "seoTitle": "ZXBrick Power-Ups | BarkinMad Studios",
   "description": "A practical guide to ZXBrick power-up examples, when to use them, and how they change pacing, risk, and scoring opportunities during gameplay.",
@@ -98,5 +98,6 @@
       "question": "Do power-ups affect progression?",
       "answer": "Power-ups are intended as gameplay tools within sessions and are part of the replay planning loop, alongside level progression and achievements."
     }
-  ]
+  ],
+  "contentStatus": "verified"
 }

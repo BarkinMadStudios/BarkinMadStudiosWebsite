@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXPong Tips & Strategy",
   "seoTitle": "ZXPong Tips & Strategy | BarkinMad Studios",
   "description": "Practical ZXPong tips for steadier paddle movement, cleaner returns, longer rallies, and better Solo or World PVP sessions.",
@@ -61,5 +61,6 @@
     "game-modes",
     "achievements",
     "leaderboards"
-  ]
+  ],
+  "contentStatus": "verified"
 }

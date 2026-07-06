@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "Frequently Asked Questions",
   "seoTitle": "ZXBrick FAQ | BarkinMad Studios",
   "description": "Quick answers to common ZXBrick player questions covering onboarding, progression, coins, leaderboards, and support for repeated sessions.",
@@ -57,5 +57,6 @@
     "ZXBrick FAQ",
     "arcade questions",
     "game help"
-  ]
+  ],
+  "contentStatus": "verified"
 }

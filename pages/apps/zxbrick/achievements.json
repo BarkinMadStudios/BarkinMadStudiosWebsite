@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXBrick Achievements",
   "seoTitle": "ZXBrick Achievements | BarkinMad Studios",
   "description": "Review the published ZXBrick achievement list and how to use it in replay loops.",
@@ -50,5 +50,6 @@
     "ZXBrick achievements",
     "arcade milestones",
     "progress goals"
-  ]
+  ],
+  "contentStatus": "verified"
 }

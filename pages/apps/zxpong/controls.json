@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXPong Controls",
   "seoTitle": "ZXPong Controls | BarkinMad Studios",
   "description": "Understand ZXPong paddle control basics, timing, positioning, and practical movement habits for Solo and World PVP sessions.",
@@ -70,5 +70,6 @@
     "how-to-play",
     "game-modes",
     "tips-and-strategy"
-  ]
+  ],
+  "contentStatus": "verified"
 }

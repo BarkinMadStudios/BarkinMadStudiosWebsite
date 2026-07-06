@@ -1,7 +1,7 @@
 {
   "title": "Achievements",
   "seoTitle": "Game of Darts Achievements | BarkinMad Studios",
-  "description": "Understand Game Center achievement tracking across Game of Darts modes.",
+  "description": "Game Center achievements are tracked per mode using played-game counts and Game Center achievement descriptions.",
   "summary": "Game Center achievements are tracked per mode using played-game counts and Game Center achievement descriptions.",
   "heroImage": "apps/gameofdarts/gameofdarts.png",
   "heroImageAlt": "Artwork for Game of Darts achievements image",
@@ -37,12 +37,13 @@
     "Game Center"
   ],
   "estimatedReadTimeMinutes": 2,
-  "contentStatus": "published",
+  "contentStatus": "verified",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "relatedPages": [
     "leaderboards",
     "statistics",
     "game-modes"
-  ]
+  ],
+  "documentationSchemaVersion": "1.1.0"
 }

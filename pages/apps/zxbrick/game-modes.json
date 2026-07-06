@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXBrick Game Modes",
   "seoTitle": "ZXBrick Game Modes | BarkinMad Studios",
   "description": "Compare gameplay modes and decide which setup to use for training or scoring sessions.",
@@ -54,5 +54,6 @@
     "single-player",
     "level progression",
     "arcade scores"
-  ]
+  ],
+  "contentStatus": "verified"
 }

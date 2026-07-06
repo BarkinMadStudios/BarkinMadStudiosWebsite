@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXSpace Tips & Strategy",
   "seoTitle": "ZXSpace Tips & Strategy | BarkinMad Studios",
   "description": "Practical ZXSpace tips for steadier cannon movement, shield preservation, UFO timing, power-up use, and higher scores.",
@@ -62,5 +62,6 @@
     "game-modes",
     "achievements",
     "leaderboards"
-  ]
+  ],
+  "contentStatus": "verified"
 }

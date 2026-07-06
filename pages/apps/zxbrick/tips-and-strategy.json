@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXBrick Tips & Strategy",
   "seoTitle": "ZXBrick Tips & Strategy | BarkinMad Studios",
   "description": "Practical improvement guidance for short and repeatable ZXBrick sessions, with pacing, setup, and decision habits that improve score consistency over time.",
@@ -60,5 +60,6 @@
     "arcade tips",
     "consistency",
     "progression loop"
-  ]
+  ],
+  "contentStatus": "verified"
 }

@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "ZXBrick Leaderboards",
   "seoTitle": "ZXBrick Leaderboards | BarkinMad Studios",
   "description": "How to use the ZXBrick leaderboard flow to compare scores, track sessions, and improve play quality over repeated short games.",
@@ -56,5 +56,6 @@
     "ZXBrick leaderboard",
     "highest score",
     "score comparison"
-  ]
+  ],
+  "contentStatus": "verified"
 }

@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.0.0",
+  "documentationSchemaVersion": "1.1.0",
   "title": "BarkinMad Coins in ZXPong",
   "seoTitle": "BarkinMad Coins | ZXPong | BarkinMad Studios",
   "description": "How BarkinMad Coins work with ZXPong sessions, collectible court coins, cosmetic unlocks, and shared ZX Series wallet progression.",
@@ -67,5 +67,6 @@
     "ZX Series wallet",
     "cosmetic unlocks",
     "paddle skins"
-  ]
+  ],
+  "contentStatus": "verified"
 }

@@ -39,12 +39,13 @@
     "Cricket"
   ],
   "estimatedReadTimeMinutes": 3,
-  "contentStatus": "published",
+  "contentStatus": "verified",
   "lastUpdated": "2026-06-26",
   "lastVerified": "2026-06-26",
   "relatedPages": [
     "statistics",
     "achievements",
     "settings-customisation"
-  ]
+  ],
+  "documentationSchemaVersion": "1.1.0"
 }
