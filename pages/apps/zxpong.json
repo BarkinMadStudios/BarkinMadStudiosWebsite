@@ -7,8 +7,8 @@
   },
   "shortDescription": "Inspired by the classic 1970s arcade paddle game.",
   "description": "ZXPong is part of the [ZX Series](/zx-series), a retro-inspired arcade paddle game featuring fast-paced rallies, AI opponents, World PVP, unlockable paddle skins, collectible court coins, achievements, leaderboards, and classic retro visuals inspired by the golden age of arcade gaming.",
-  "status": "Awaiting App Store approval",
-  "appStoreUrl": "",
+  "status": "Live",
+  "appStoreUrl": "https://apps.apple.com/app/apple-store/id6775177936?pt=128083426&ct=website&mt=8",
   "testFlightUrl": "",
   "icon": "apps/zxpong/zxpong-icon.png",
   "heroImage": "apps/zxpong/zxpong-hero.png",
@@ -57,7 +57,7 @@
   "version": "1.0",
   "genre": "Arcade",
   "developer": "BarkinMad Studios",
-  "lastUpdated": "2026-06-26",
+  "lastUpdated": "2026-07-06",
   "documentationLinks": [
     {
       "label": "Overview",

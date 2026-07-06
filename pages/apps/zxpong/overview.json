@@ -61,7 +61,7 @@
       "id": "release-notes",
       "heading": "Release notes",
       "paragraphs": [
-        "ZXPong is Awaiting App Store approval.",
+        "ZXPong is live on the App Store.",
         "Local PVP exists in retained app code but is not shown in the current release-facing menu. World PVP is the visible multiplayer route documented here."
       ]
     }
@@ -76,8 +76,8 @@
     "Game Center"
   ],
   "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-06",
+  "lastVerified": "2026-07-06",
   "relatedPages": [
     "how-to-play",
     "controls",

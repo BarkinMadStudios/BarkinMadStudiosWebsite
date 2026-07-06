@@ -12,14 +12,14 @@
       "heading": "FAQ overview",
       "paragraphs": [
         "This page collects release-ready answers for the most common ZXPong support questions.",
-        "Approval-dependent App Store details should be checked again once Apple completes review."
+        "Current App Store details were verified after the public ZXPong release."
       ]
     }
   ],
   "faq": [
     {
       "question": "Is ZXPong live on the App Store?",
-      "answer": "No. ZXPong is Awaiting App Store approval, and no download button should be shown until Apple approval and the public App Store URL are confirmed."
+      "answer": "Yes. ZXPong is live on the App Store and the website download button now points to the public campaign URL."
     },
     {
       "question": "What modes are documented for release?",
@@ -43,8 +43,8 @@
   ],
   "imageSectionTitle": "FAQ Images",
   "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-06",
+  "lastVerified": "2026-07-06",
   "keywords": [
     "ZXPong",
     "FAQ",

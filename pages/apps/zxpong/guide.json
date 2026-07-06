@@ -3,7 +3,7 @@
   "title": "ZXPong Guide",
   "seoTitle": "ZXPong Guide | BarkinMad Studios",
   "description": "Complete ZXPong guide covering the release-facing match loop, controls, Solo play, World PVP, coins, achievements, and leaderboards.",
-  "summary": "A compact ZXPong guide for players while the app is Awaiting App Store approval.",
+  "summary": "A compact ZXPong guide for players now that the app is live on the App Store.",
   "heroImage": "apps/zxpong/zxpong-hero.png",
   "heroImageAlt": "ZXPong guide hero artwork",
   "sections": [
@@ -33,7 +33,7 @@
       "id": "release-check",
       "heading": "Release check",
       "paragraphs": [
-        "This documentation is ready for release while ZXPong is Awaiting App Store approval, with only final approval-dependent metadata or artwork updates expected.",
+        "This documentation is aligned to the live App Store release, with only future artwork updates expected.",
         "Pages that lack dedicated imagery use a temporary image until replacement ZXPong-specific images are available."
       ]
     }
@@ -52,8 +52,8 @@
   ],
   "imageSectionTitle": "Guide Images",
   "estimatedReadTimeMinutes": 8,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-06",
+  "lastVerified": "2026-07-06",
   "keywords": [
     "ZXPong",
     "guide",

@@ -94,19 +94,19 @@
     },
     {
       "title": "ZXPong",
-      "status": "In Development",
+      "status": "Live",
       "category": "Games",
       "type": "Retro Arcade Game",
       "href": "/apps/zxpong",
       "summary": "A retro-inspired paddle game with quick rallies, AI opponents, local multiplayer, online multiplayer, achievements, and shared ZX Series progression.",
       "challenge": "Create a fast and accessible arcade paddle game while reusing shared systems from the wider ZX Series.",
-      "solution": "Developing ZXPong around shared PVP, achievements, leaderboards, wallet, localisation, and Game Center systems.",
+      "solution": "Released ZXPong around shared PVP, achievements, leaderboards, wallet, localisation, and Game Center systems.",
       "technologies": [
         "iOS",
         "SpriteKit",
         "Game Center"
       ],
-      "outcome": "Active development project intended to expand the [ZX Series](/zx-series) with another classic arcade gameplay style."
+      "outcome": "Live on the App Store as part of the expanding [ZX Series](/zx-series)."
     },
     {
       "title": "StudioDash",
