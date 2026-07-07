@@ -58,7 +58,11 @@
       },
       "links": [
         {
-          "label": "View overview",
+          "label": "Read the ZXSnake Guide",
+          "href": "/apps/zxsnake/guide"
+        },
+        {
+          "label": "Open ZXSnake Overview",
           "href": "/apps/zxsnake"
         }
       ]
@@ -81,7 +85,12 @@
         "alt": "ZXSnake Player action view",
         "caption": "Player action view for ZXSnake."
       },
-      "links": [],
+      "links": [
+        {
+          "label": "Learn ZXSnake Controls",
+          "href": "/apps/zxsnake/controls"
+        }
+      ],
       "layout": "textRight"
     },
     {
@@ -102,7 +111,12 @@
         "alt": "ZXSnake Progression view",
         "caption": "Progression view for ZXSnake."
       },
-      "links": []
+      "links": [
+        {
+          "label": "Review ZXSnake Leaderboards",
+          "href": "/apps/zxsnake/leaderboards"
+        }
+      ]
     }
   ]
 }

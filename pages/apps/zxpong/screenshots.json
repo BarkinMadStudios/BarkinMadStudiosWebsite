@@ -71,7 +71,11 @@
       },
       "links": [
         {
-          "label": "View overview",
+          "label": "Read the ZXPong Guide",
+          "href": "/apps/zxpong/guide"
+        },
+        {
+          "label": "Open ZXPong Overview",
           "href": "/apps/zxpong"
         }
       ]
@@ -94,7 +98,12 @@
         "alt": "ZXPong Player action view",
         "caption": "Player action view for ZXPong."
       },
-      "links": [],
+      "links": [
+        {
+          "label": "Learn ZXPong Controls",
+          "href": "/apps/zxpong/controls"
+        }
+      ],
       "layout": "textRight"
     },
     {
@@ -115,7 +124,12 @@
         "alt": "ZXPong Progression view",
         "caption": "Progression view for ZXPong."
       },
-      "links": []
+      "links": [
+        {
+          "label": "Review ZXPong Leaderboards",
+          "href": "/apps/zxpong/leaderboards"
+        }
+      ]
     }
   ]
 }

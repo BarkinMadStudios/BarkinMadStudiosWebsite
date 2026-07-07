@@ -107,11 +107,11 @@
   ],
   "actions": [
     {
-      "label": "View Services",
+      "label": "Explore Software Services",
       "href": "/services"
     },
     {
-      "label": "View Apps",
+      "label": "Browse App Documentation",
       "href": "/apps"
     },
     {

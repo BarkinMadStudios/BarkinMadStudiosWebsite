@@ -71,7 +71,11 @@
       },
       "links": [
         {
-          "label": "View overview",
+          "label": "Read the ZXSpace Guide",
+          "href": "/apps/zxspace/guide"
+        },
+        {
+          "label": "Open ZXSpace Overview",
           "href": "/apps/zxspace"
         }
       ]
@@ -94,7 +98,12 @@
         "alt": "ZXSpace Player action view",
         "caption": "Player action view for ZXSpace."
       },
-      "links": [],
+      "links": [
+        {
+          "label": "Learn ZXSpace Controls",
+          "href": "/apps/zxspace/controls"
+        }
+      ],
       "layout": "textRight"
     },
     {
@@ -115,7 +124,12 @@
         "alt": "ZXSpace Progression view",
         "caption": "Progression view for ZXSpace."
       },
-      "links": []
+      "links": [
+        {
+          "label": "Review ZXSpace Leaderboards",
+          "href": "/apps/zxspace/leaderboards"
+        }
+      ]
     }
   ]
 }

@@ -62,7 +62,11 @@
       },
       "links": [
         {
-          "label": "View overview",
+          "label": "Read the ZXBrick Guide",
+          "href": "/apps/zxbrick/guide"
+        },
+        {
+          "label": "Open ZXBrick Overview",
           "href": "/apps/zxbrick"
         }
       ]
@@ -85,7 +89,12 @@
         "alt": "ZXBrick Player action view",
         "caption": "Player action view for ZXBrick."
       },
-      "links": [],
+      "links": [
+        {
+          "label": "Learn ZXBrick Controls",
+          "href": "/apps/zxbrick/controls"
+        }
+      ],
       "layout": "textRight"
     },
     {
@@ -106,7 +115,12 @@
         "alt": "ZXBrick Progression view",
         "caption": "Progression view for ZXBrick."
       },
-      "links": []
+      "links": [
+        {
+          "label": "Review ZXBrick Leaderboards",
+          "href": "/apps/zxbrick/leaderboards"
+        }
+      ]
     },
     {
       "id": "visual-4",
@@ -126,7 +140,12 @@
         "alt": "ZXBrick Reference artwork",
         "caption": "Reference artwork for ZXBrick."
       },
-      "links": [],
+      "links": [
+        {
+          "label": "Explore ZXBrick Power-ups",
+          "href": "/apps/zxbrick/powerups"
+        }
+      ],
       "layout": "textRight"
     }
   ]

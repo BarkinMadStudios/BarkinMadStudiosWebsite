@@ -11,7 +11,7 @@
       "href": "/apps"
     },
     {
-      "label": "View Services",
+      "label": "Explore Software Services",
       "href": "/services"
     },
     {
@@ -58,21 +58,24 @@
       {
         "title": "Custom Software Development",
         "summary": "Tailored software designed around specific workflows, operational requirements, and business goals.",
-        "href": "/services/custom-software-development"
+        "href": "/services/custom-software-development",
+        "actionLabel": "Learn about Custom Software Development"
       },
       {
         "title": "Mobile App Development",
         "summary": "Native iPhone and iPad application development from concept through to App Store release.",
-        "href": "/services/mobile-app-development"
+        "href": "/services/mobile-app-development",
+        "actionLabel": "Learn about Mobile App Development"
       },
       {
         "title": "Internal Business Tools",
         "summary": "Dashboards, workflow systems, reporting tools, and internal platforms built around how teams work.",
-        "href": "/services/internal-business-tools"
+        "href": "/services/internal-business-tools",
+        "actionLabel": "Learn about Internal Business Tools"
       }
     ],
     "action": {
-      "label": "View Services",
+      "label": "Explore Software Services",
       "href": "/services"
     }
   },
@@ -108,7 +111,7 @@
       "title": "Mobile Apps",
       "description": "Browse BarkinMad Studios [apps](/apps), including retro arcade games, productivity tools, score tracking applications, and future software projects designed for iPhone and iPad.",
       "action": {
-        "label": "View Apps",
+        "label": "Browse BarkinMad Apps",
         "href": "/apps"
       }
     },
@@ -116,7 +119,7 @@
       "title": "Software Development Services",
       "description": "BarkinMad Studios also provides [custom software development](/services/custom-software-development), [mobile app development](/services/mobile-app-development), [internal business tools](/services/internal-business-tools), workflow automation, websites, and prototype development services.",
       "action": {
-        "label": "View Services",
+        "label": "Explore Software Services",
         "href": "/services"
       }
     },

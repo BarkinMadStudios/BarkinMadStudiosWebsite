@@ -358,6 +358,11 @@ nav a {
   padding: 0.1rem 0.3rem;
 }
 
+main a:visited,
+footer a:visited {
+  color: #c98a1a;
+}
+
 nav a:hover { color: #f39c12; }
 
 .hero {
@@ -1875,13 +1880,16 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
   <h2>${escapeHtml(section.title || "Software & Development Services")}</h2>
   ${section.intro ? `<p>${renderContentParagraph(section.intro)}</p>` : ""}
   <div class="grid">
-    ${section.items.map((item) => `
+    ${section.items.map((item) => {
+      const actionLabel = item.actionLabel || `Learn about ${item.title}`;
+      return `
       <div class="card">
         <h3>${escapeHtml(item.title)}</h3>
         ${item.summary ? `<p>${renderContentParagraph(item.summary)}</p>` : ""}
-        ${item.href ? `<a class="btn" href="${escapeHtml(item.href)}">Learn More</a>` : ""}
+        ${item.href ? `<a class="btn" href="${escapeHtml(item.href)}">${escapeHtml(actionLabel)}</a>` : ""}
       </div>
-    `).join("")}
+    `;
+    }).join("")}
   </div>
   ${section.action ? actionLink(section.action) : ""}
 </section>`;
@@ -1920,7 +1928,7 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
   ${product.description ? `<p>${renderContentParagraph(product.description)}</p>` : ""}
   ${product.status ? `<p><strong>Status:</strong> ${escapeHtml(product.status)}</p>` : ""}
 
-  ${product.href ? actionLink({ label: product.actionLabel || "View Product", href: product.href }) : ""}
+  ${product.href ? actionLink({ label: product.actionLabel || `Open ${product.title || "Product"} Page`, href: product.href }) : ""}
 </div>`;
   }
   __name(productCard, "productCard");
@@ -2167,7 +2175,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
   ${app.status ? `<p><strong>Status:</strong> ${escapeHtml(app.status)}</p>` : ""}
 
   <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-    ${detailHref ? `<a class="btn" href="${escapeHtml(detailHref)}">View App Page</a>` : ""}
+    ${detailHref ? `<a class="btn" href="${escapeHtml(detailHref)}">Open ${escapeHtml(app.name || app.title)} App Page</a>` : ""}
 
     ${app.appStoreUrl ? `
       <a class="btn" href="${escapeHtml(app.appStoreUrl)}" target="_blank" rel="noopener">View on App Store</a>
@@ -2550,7 +2558,7 @@ ${relatedLinks.length && !hideBottomGuideSections ? `
       <div class="card">
         <h3>${escapeHtml(link.label || "Related Link")}</h3>
         ${link.description ? `<p>${renderContentParagraph(link.description)}</p>` : ""}
-        ${link.href ? `<a class="btn" href="${escapeHtml(link.href)}">Open</a>` : ""}
+        ${link.href ? `<a class="btn" href="${escapeHtml(link.href)}">Open ${escapeHtml(link.label || "Related Link")}</a>` : ""}
       </div>
     `).join("")}
   </div>
@@ -2564,7 +2572,7 @@ ${otherDocs.length && !hideBottomGuideSections ? `
       <div class="card">
         <h3>${escapeHtml(item.title)}</h3>
         ${item.description ? `<p>${renderContentParagraph(item.description)}</p>` : ""}
-        <a class="btn" href="/apps/${escapeHtml(appSlug)}/${escapeHtml(item.slug)}">View Guide</a>
+        <a class="btn" href="/apps/${escapeHtml(appSlug)}/${escapeHtml(item.slug)}">Open ${escapeHtml(item.title)} Guide</a>
       </div>
     `).join("")}
   </div>
@@ -2767,7 +2775,7 @@ ${renderRelatedApps(relatedApps)}
       <div class="card">
         <h3>${escapeHtml(link.label)}</h3>
         ${link.description ? `<p>${renderContentParagraph(link.description)}</p>` : ""}
-        <a class="btn" href="${escapeHtml(link.href)}">View Guide</a>
+        <a class="btn" href="${escapeHtml(link.href)}">Open ${escapeHtml(link.label)} Guide</a>
       </div>
     `).join("")}
   </div>
@@ -3087,7 +3095,7 @@ ${renderRelatedApps(relatedApps)}
     ` : ""}
     ${project.outcome ? `<p><strong>Outcome:</strong> ${renderContentParagraph(project.outcome)}</p>` : ""}
   </div>
-  ${project.href ? actionLink({ label: project.actionLabel || "View Product", href: project.href }) : ""}
+  ${project.href ? actionLink({ label: project.actionLabel || `Open ${project.title || "Project"} Page`, href: project.href }) : ""}
 </div>`;
   }
   __name(renderPortfolioProjectCard, "renderPortfolioProjectCard");
@@ -3160,7 +3168,7 @@ ${renderRelatedApps(relatedApps)}
             <h3>${escapeHtml(document.title)}</h3>
             ${document.summary ? `<p>${renderContentParagraph(document.summary)}</p>` : ""}
             ${Array.isArray(document.tags) && document.tags.length ? `<p><strong>Topics:</strong> ${document.tags.map(escapeHtml).join(", ")}</p>` : ""}
-            ${document.href ? `<a class="btn" href="${escapeHtml(document.href)}">Open Document</a>` : ""}
+            ${document.href ? `<a class="btn" href="${escapeHtml(document.href)}">Open ${escapeHtml(document.title)}</a>` : ""}
           </div>
         `).join("")}
       </div>
@@ -3238,7 +3246,7 @@ ${renderRelatedApps(relatedApps)}
 
   ${hasArchive ? `
     <p style="margin-top:2rem;text-align:center;">
-      <a class="btn" href="/news/archive">View News Archive</a>
+      <a class="btn" href="/news/archive">Browse News Archive</a>
     </p>
   ` : ""}
 </section>
@@ -3252,7 +3260,7 @@ ${renderRelatedApps(relatedApps)}
   <span class="badge">${formatDate(post.date)}</span>
   <h3>${escapeHtml(post.title)}</h3>
   <p>${escapeHtml(post.excerpt)}</p>
-  <a class="btn" href="/news/${escapeHtml(post.slug)}">Read Article</a>
+  <a class="btn" href="/news/${escapeHtml(post.slug)}">Read ${escapeHtml(post.title)}</a>
 </div>`;
   }
   __name(postCard, "postCard");
@@ -3305,7 +3313,7 @@ ${renderRelatedApps(relatedApps)}
       <p>${articleActions.map(actionLink).join("")}</p>
     ` : ""}
 
-    <a class="btn" href="/news">Back To News</a>
+    <a class="btn" href="/news">Back To Latest News</a>
   </div>
 </section>
 
@@ -3498,7 +3506,7 @@ ${urls.map((path) => `
   <h2>Page Not Found</h2>
   <div class="card">
     <p>The page you requested could not be found.</p>
-    <a class="btn" href="/">Back Home</a>
+    <a class="btn" href="/">Back To BarkinMad Studios Home</a>
   </div>
 </section>
 </main>`;
@@ -3511,7 +3519,7 @@ ${urls.map((path) => `
   <h2>Page Error</h2>
   <div class="card">
     <p>This page could not be displayed because its content file is not in the correct format.</p>
-    <a class="btn" href="/">Back Home</a>
+    <a class="btn" href="/">Back To BarkinMad Studios Home</a>
   </div>
 </section>
 </main>`;
