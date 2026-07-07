@@ -1,86 +1,86 @@
 {
-  "documentationSchemaVersion": "1.1.0",
-  "title": "StudioDash Features",
-  "seoTitle": "StudioDash Features | BarkinMad Studios",
-  "description": "StudioDash feature areas for revenue, app status, website analytics, provider health, trends, and reporting.",
-  "summary": "StudioDash combines portfolio metrics, provider health, analytics summaries, and reporting tools into a native workspace for indie developers.",
-  "heroImage": "apps/studiodash/studiodash-hero.png",
-  "heroImageAlt": "StudioDash feature overview dashboard",
-  "referenceImage": {
-    "src": "apps/studiodash/studiodash-hero.png",
-    "alt": "StudioDash feature overview dashboard"
-  },
-  "featureShowcases": [
-    {
-      "id": "feature-workspace",
-      "heading": "Feature workspace built around recurring developer questions",
-      "summary": "The feature set is organised around the checks developers repeat most often: revenue movement, app status, website visibility, provider health, and reporting.",
-      "body": "StudioDash is not presented as a decorative dashboard. The feature workflow is designed to help a developer move from a broad portfolio scan to the provider, app, revenue, or website detail that explains what changed.",
-      "bullets": [
-        "Groups revenue, app, website, and provider signals into one operating model.",
-        "Supports quick scanning while keeping deeper feature pages available.",
-        "Uses clear setup and roadmap language where a provider is not yet live."
-      ],
-      "image": {
-        "src": "apps/studiodash/Screenshot1.png",
-        "alt": "StudioDash feature workspace showing product health and analytics summary cards",
-        "caption": "Feature areas are designed around repeated operating checks for indie app developers."
-      },
-      "layout": "textLeft",
-      "links": [
-        {
-          "label": "View dashboard",
-          "href": "/apps/studiodash/dashboard"
-        }
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "feature-areas",
-      "heading": "Feature areas",
-      "paragraphs": [
-        "StudioDash is organised around the practical questions developers ask while running apps and games: how revenue is moving, what app statuses need attention, whether provider data is healthy, and how website visibility is changing.",
-        "The product direction is intentionally operational rather than decorative. The dashboard is designed for repeated review, comparison, and action across a product portfolio."
-      ],
-      "bullets": [
-        "Revenue summary cards for App Store, advertising, and website monetisation data where provider data is available.",
-        "App status views for App Store Connect metadata, lifecycle states, downloads, ratings, reviews, and release signals.",
-        "Website and SEO analytics using Cloudflare and Google Search Console coverage.",
-        "Integration health, sync status, and provider attention items.",
-        "Historical trends and selected-period summaries for comparing performance over time."
-      ]
-    },
-    {
-      "id": "native-workspace",
-      "heading": "Native workspace",
-      "paragraphs": [
-        "StudioDash is built as an Apple-platform app for Mac and iPad. The product is intended to provide a focused native workspace rather than another browser tab that competes with the provider dashboards it summarises.",
-        "The dashboard layout brings high-level cards, provider-specific views, and detailed tables together so developers can scan quickly and drill into the areas that need attention."
-      ]
-    },
-    {
-      "id": "roadmap-context",
-      "heading": "Roadmap context",
-      "paragraphs": [
-        "Some feature areas are represented as roadmap or pre-release coverage while the product remains in development. Planned functionality is documented as planned, not as currently live.",
-        "Future work is expected to expand reporting, automation, and provider coverage while preserving the core goal: a useful, player-facing dashboard for developers running real products."
-      ]
-    }
-  ],
-  "keywords": [
-    "StudioDash features",
-    "developer analytics",
-    "portfolio dashboard",
-    "provider health"
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "overview",
-    "dashboard",
-    "integrations"
-  ]
+	"documentationSchemaVersion": "1.1.0",
+	"title": "StudioDash Features",
+	"seoTitle": "StudioDash Features | BarkinMad Studios",
+	"description": "Discover the features that make StudioDash the central workspace for managing apps, revenue, websites, and developer services.",
+	"summary": "StudioDash combines analytics, portfolio management, provider health, reporting, and historical trends into one native workspace for independent developers.",
+	"heroImage": "apps/studiodash/studiodash-hero.png",
+	"heroImageAlt": "StudioDash feature overview dashboard",
+	"referenceImage": {
+		"src": "apps/studiodash/studiodash-hero.png",
+		"alt": "StudioDash feature overview dashboard"
+	},
+	"featureShowcases": [
+		{
+			"id": "feature-workspace",
+			"heading": "Everything You Need in One Workspace",
+			"summary": "StudioDash brings together the information developers check every day, helping you stay focused on building great apps instead of switching between dashboards.",
+			"body": "Revenue, App Store performance, website analytics, provider health, and reporting all work together in a single native workspace. Start with a quick overview, then drill into the areas that need your attention without losing context.",
+			"bullets": [
+				"Monitor apps, revenue, websites, and providers together.",
+				"Quickly move from summary cards to detailed analytics.",
+				"Clear status information for configured, unavailable, and planned providers."
+			],
+			"image": {
+				"src": "apps/studiodash/Screenshot1.png",
+				"alt": "StudioDash dashboard showing portfolio health and analytics overview",
+				"caption": "One workspace for your entire developer portfolio."
+			},
+			"layout": "textLeft",
+			"links": [
+				{
+					"label": "Explore the Dashboard",
+					"href": "/apps/studiodash/dashboard"
+				}
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "feature-areas",
+			"heading": "Built Around the Way Developers Work",
+			"paragraphs": [
+				"StudioDash is organised around the questions developers ask every day: How are my apps performing? Has revenue changed? Are my integrations healthy? Is my website attracting visitors?",
+				"Instead of switching between multiple services, StudioDash brings the answers together in one place, making it easier to understand what needs attention and what is performing well."
+			],
+			"bullets": [
+				"Revenue summaries from connected providers.",
+				"App Store Connect downloads, ratings, reviews, and lifecycle status.",
+				"Website and SEO insights from Cloudflare and Google Search Console.",
+				"Integration health and synchronisation status.",
+				"Historical trends and period comparisons."
+			]
+		},
+		{
+			"id": "native-workspace",
+			"heading": "Designed for Mac and iPad",
+			"paragraphs": [
+				"StudioDash is built as a native application for macOS and iPadOS, providing a focused experience that feels at home on Apple devices.",
+				"The interface combines high-level dashboards with detailed reports, allowing you to move naturally from a quick overview to in-depth analysis whenever you need more information."
+			]
+		},
+		{
+			"id": "roadmap-context",
+			"heading": "Growing with Every Release",
+			"paragraphs": [
+				"StudioDash continues to evolve with new integrations, reports, automation, and developer tools being added over time.",
+				"Features that are still in development are clearly identified, ensuring you always know which capabilities are available today and which are planned for future releases."
+			]
+		}
+	],
+	"keywords": [
+		"StudioDash features",
+		"developer analytics",
+		"portfolio dashboard",
+		"provider health"
+	],
+	"estimatedReadTimeMinutes": 3,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"overview",
+		"dashboard",
+		"integrations"
+	]
 }

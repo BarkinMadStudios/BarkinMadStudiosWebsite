@@ -1,85 +1,85 @@
 {
-  "documentationSchemaVersion": "1.1.0",
-  "title": "StudioDash Dashboard",
-  "seoTitle": "StudioDash Dashboard | BarkinMad Studios",
-  "description": "How StudioDash brings app, revenue, website, provider, sync, and trend signals into one dashboard workspace.",
-  "summary": "The StudioDash dashboard is designed as a command centre for developers who want one place to monitor portfolio health and performance.",
-  "heroImage": "apps/studiodash/studiodash-hero.png",
-  "heroImageAlt": "StudioDash dashboard workspace",
-  "referenceImage": {
-    "src": "apps/studiodash/studiodash-hero.png",
-    "alt": "StudioDash dashboard workspace"
-  },
-  "featureShowcases": [
-    {
-      "id": "daily-operating-view",
-      "heading": "Daily operating view",
-      "summary": "The dashboard screen is the starting point for reviewing app, revenue, website, provider, sync, and trend signals.",
-      "body": "This view solves the common problem of scattered operational data. Developers can begin with a single workspace, see whether a product or provider needs attention, and then open the specialist analytics page that explains the change.",
-      "bullets": [
-        "Highlights revenue, app status, website activity, provider health, and sync state.",
-        "Keeps cards visible when setup or provider data is missing.",
-        "Shows how daily review to dedicated analytics and reporting pages."
-      ],
-      "image": {
-        "src": "apps/studiodash/Screenshot1.png",
-        "alt": "StudioDash daily dashboard with revenue, app status, website activity, provider health, and sync cards",
-        "caption": "The dashboard is designed for fast scanning before deeper analysis."
-      },
-      "layout": "textLeft",
-      "links": [
-        {
-          "label": "View revenue analytics",
-          "href": "/apps/studiodash/revenue-analytics"
-        }
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "dashboard-purpose",
-      "heading": "Dashboard purpose",
-      "paragraphs": [
-        "StudioDash is built around a dashboard-first operating view. Instead of opening several provider consoles to understand what changed, developers can review a unified workspace that highlights revenue, app status, website activity, provider health, and sync state.",
-        "The dashboard is designed for fast scanning first, then deeper review through dedicated pages for revenue, apps, website analytics, integrations, and reporting."
-      ]
-    },
-    {
-      "id": "dashboard-signals",
-      "heading": "Dashboard signals",
-      "paragraphs": [
-        "The dashboard brings together current operational state and selected-period analytics. Some signals are current-state values, while historical metrics can be filtered by period where provider data is available."
-      ],
-      "bullets": [
-        "Revenue totals and provider breakdowns.",
-        "Downloads, app status, lifecycle, ratings, and reviews where available.",
-        "Website traffic, search clicks, impressions, indexing, and validation signals.",
-        "Provider health, attention items, and sync status.",
-        "Trend summaries for recent performance changes."
-      ]
-    },
-    {
-      "id": "demo-and-live-context",
-      "heading": "Demo and live context",
-      "paragraphs": [
-        "StudioDash guide separates product direction from public availability. The app includes demo and live data concepts in the product, but public website copy does not treat demo values as live customer data.",
-        "When provider data is unavailable, StudioDash is designed to keep the relevant cards visible with clear setup or no-data messaging rather than hiding the surface or implying data exists."
-      ]
-    }
-  ],
-  "keywords": [
-    "StudioDash dashboard",
-    "developer workspace",
-    "provider health",
-    "sync status"
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "features",
-    "revenue-analytics",
-    "automation-sync"
-  ]
+	"documentationSchemaVersion": "1.1.0",
+	"title": "StudioDash Dashboard",
+	"seoTitle": "StudioDash Dashboard | BarkinMad Studios",
+	"description": "Monitor your apps, revenue, websites, integrations, and developer services from one unified StudioDash dashboard.",
+	"summary": "StudioDash brings together the information developers need every day, helping you understand the health of your apps and services from a single workspace.",
+	"heroImage": "apps/studiodash/studiodash-hero.png",
+	"heroImageAlt": "StudioDash dashboard workspace",
+	"referenceImage": {
+		"src": "apps/studiodash/studiodash-hero.png",
+		"alt": "StudioDash dashboard workspace"
+	},
+	"featureShowcases": [
+		{
+			"id": "daily-operating-view",
+			"heading": "Everything at a Glance",
+			"summary": "Start every day with a complete overview of your apps, websites, revenue, and connected services.",
+			"body": "StudioDash brings together the information that matters most into a single dashboard, making it easy to spot changes, monitor provider health, and identify opportunities without constantly switching between different services. From here you can quickly move into the detailed analytics pages whenever you need to investigate further.",
+			"bullets": [
+				"View revenue, app status, website activity, provider health, and synchronisation status in one place.",
+				"Clearly identify providers that need attention or configuration.",
+				"Jump directly from the dashboard into detailed analytics."
+			],
+			"image": {
+				"src": "apps/studiodash/Screenshot1.png",
+				"alt": "StudioDash dashboard showing revenue, app status, website activity, provider health, and synchronisation",
+				"caption": "Everything you need to monitor your portfolio from one dashboard."
+			},
+			"layout": "textLeft",
+			"links": [
+				{
+					"label": "Explore Revenue Analytics",
+					"href": "/apps/studiodash/revenue-analytics"
+				}
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "dashboard-purpose",
+			"heading": "One Dashboard for Your Entire Portfolio",
+			"paragraphs": [
+				"StudioDash is designed to replace the need to constantly switch between multiple developer dashboards. Instead of opening App Store Connect, Cloudflare, Google services, and other platforms individually, you can review everything from one central workspace.",
+				"The dashboard is designed for quick daily reviews while providing direct access to more detailed analytics whenever you need them."
+			]
+		},
+		{
+			"id": "dashboard-signals",
+			"heading": "What You'll See",
+			"paragraphs": [
+				"The dashboard combines live operational information with historical trends, giving you both an overview of what's happening today and the context needed to understand longer-term performance."
+			],
+			"bullets": [
+				"Revenue totals and provider breakdowns.",
+				"App downloads, lifecycle status, ratings, and reviews where available.",
+				"Website traffic, search visibility, indexing, and validation status.",
+				"Provider health, synchronisation status, and attention alerts.",
+				"Historical trends and recent performance changes."
+			]
+		},
+		{
+			"id": "demo-and-live-context",
+			"heading": "Demo & Live Data",
+			"paragraphs": [
+				"StudioDash clearly distinguishes between demonstration data and live provider information. This helps you understand exactly which information comes from connected services and which features are still being explored during development.",
+				"If a provider has not yet been configured or doesn't have data available, StudioDash explains why, keeping every dashboard card visible so you always know what action to take next."
+			]
+		}
+	],
+	"keywords": [
+		"StudioDash dashboard",
+		"developer workspace",
+		"provider health",
+		"sync status"
+	],
+	"estimatedReadTimeMinutes": 3,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"features",
+		"revenue-analytics",
+		"automation-sync"
+	]
 }
