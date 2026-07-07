@@ -3490,17 +3490,31 @@ ${relatedPosts.length ? `
 </main>`;
   }
   __name(newsArticlePage, "newsArticlePage");
-  async function newsArchivePage() {
-    const posts = await fetchJson(`${NEWS_BASE}/posts.json`);
-    const archivedPosts = getPublishedValidPosts(posts).slice(15);
-    return `
+async function newsArchivePage() {
+  const posts = await fetchJson(`${NEWS_BASE}/posts.json`);
+  const archivedPosts = getPublishedValidPosts(posts).slice(15);
+  return `
 <section class="hero hero-retro">
   <h1>News Archive</h1>
-  <p>Older BarkinMad Studios news and development updates.</p>
+  <p>The News Archive keeps older BarkinMad Studios posts in one place so you can follow how the studio has evolved across games and tools over time.</p>
 </section>
 
 <main>
 <section>
+  <h2>What you'll find</h2>
+  <p>Here you'll find older news entries, development updates, release announcements, and project milestones.</p>
+  <p>Use this page when you want to review older development history for:</p>
+  <ul>
+    <li>ZX Series updates</li>
+    <li>Game of Darts progress</li>
+    <li>StudioDash improvements</li>
+    <li>Website changes and releases</li>
+    <li>other BarkinMad Studios studio updates</li>
+  </ul>
+
+  <h2>Looking for the latest news?</h2>
+  <p>For current updates and fresh announcements, check the latest <a href="/news">News & Devlog</a>.</p>
+
   <div class="card">
     ${archivedPosts.length ? archivedPosts.map((post) => `
       <p>
@@ -3510,11 +3524,11 @@ ${relatedPosts.length ? `
       </p>
     `).join("") : `<p>There are no archived articles yet.</p>`}
 
-    <a class="btn" href="/news">Back To Latest News</a>
+    <a class="btn" href="/news">Browse latest News & Devlog</a>
   </div>
 </section>
 </main>`;
-  }
+}
   __name(newsArchivePage, "newsArchivePage");
   function getPublishedValidPosts(posts) {
     if (!Array.isArray(posts)) return [];
