@@ -1,140 +1,150 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXSpace Guide",
-  "seoTitle": "ZXSpace Guide | BarkinMad Studios",
-  "description": "Complete ZXSpace guide covering city-defence shooting, controls, solo play, coins, achievements, leaderboards, and strategy.",
-  "summary": "A compact ZXSpace guide for players while the app is Coming Soon.",
-  "heroImage": "apps/zxspace/zxspace-hero.png",
-  "heroImageAlt": "ZXSpace guide hero artwork",
-  "sections": [
-    {
-      "id": "start",
-      "heading": "Start here",
-      "paragraphs": [
-        "ZXSpace is a short-session city-defence formation shooter: move the cannon, clear alien waves, protect shields and city buildings, and chase better scores.",
-        "Focus on the solo city-defence loop while multiplayer and other systems remain under release verification."
-      ]
-    },
-    {
-      "id": "core-path",
-      "heading": "Core guide path",
-      "paragraphs": [
-        "Read How to Play for the run loop, Controls for cannon movement, and Game Modes for current release status.",
-        "After that, use Coins, Achievements, Leaderboards, and Tips & Strategy to plan repeat sessions."
-      ],
-      "bullets": [
-        "How to Play: goal, session flow, scoring, waves, and power-ups",
-        "Controls: touch-and-drag movement and continuous auto-fire",
-        "Game Modes: verified Solo play and Multiplayer availability pending final confirmation",
-        "Progression: BarkinMad Coins, achievements, leaderboards, and skins"
-      ]
-    },
-    {
-      "id": "release-check",
-      "heading": "Release check",
-      "paragraphs": [
-        "This guide follows the current release status for a Coming Soon app; details may still change with final approval or artwork updates.",
-        "Some pages use shared supporting artwork where a dedicated ZXSpace screenshot is not required for the explanation."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/zxspace/zxspace-gameplay-01.png",
-      "alt": "ZXSpace gameplay screenshot",
-      "caption": "Existing ZXSpace gameplay artwork"
-    },
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXSpace gameplay screenshots",
-      "caption": "Dedicated page images will be added as artwork is released"
-    }
-  ],
-  "imageSectionTitle": "Guide Images",
-  "estimatedReadTimeMinutes": 8,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXSpace",
-    "guide",
-    "city defence",
-    "BarkinMad Coins",
-    "Game Center"
-  ],
-  "relatedPages": [
-    "overview",
-    "how-to-play",
-    "controls",
-    "game-modes",
-    "tips-and-strategy",
-    "frequently-asked-questions"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "complete-guide-route",
-      "heading": "ZXSpace complete guide",
-      "summary": "Get setup, play, progress, and support guidance in one practical guide path.",
-      "body": [
-        "This matters because the ZX Series pages should feel consistent across all games. The guide helps players move from the overview into the exact page they need without losing context.",
-        "Players use this page as the main map when they want a complete explanation rather than a single topic."
-      ],
-      "bullets": [
-        "Learn how setup, controls, modes, tips, achievements, leaderboards, FAQ, and screenshots.",
-        "Keeps your guide path consistent across ZXSnake, ZXBrick, ZXPong, and ZXSpace.",
-        "Uses the current game artwork to support the guide workflow."
-      ],
-      "image": {
-        "src": "apps/zxspace/zxspace-hero.png",
-        "alt": "ZXSpace guide artwork",
-        "caption": "ZXSpace hero artwork represents the full guide flow."
-      },
-      "links": [
-        {
-          "label": "View screenshots",
-          "href": "/apps/zxspace/screenshots"
-        }
-      ]
-    },
-    {
-      "id": "from-play-to-progress",
-      "heading": "From play to progress",
-      "summary": "Learn a session rhythm: what to do now and what to review before your next round.",
-      "body": [
-        "This matters because arcade games are easy to start but deeper when players understand scoring, progress, and goals.",
-        "Players use the guide to connect active play with achievements, leaderboards, BarkinMad Coins, and support pages."
-      ],
-      "bullets": [
-        "Supports both first-session learning and repeat play.",
-        "Keeps progression pages tied to gameplay.",
-        "Makes image presentation consistent with StudioDash and Game of Darts pages."
-      ],
-      "image": {
-        "src": "apps/zxspace/zxspace-hero.png",
-        "alt": "ZXSpace gameplay and progress artwork",
-        "caption": "Use this artwork as your reminder of what to focus on after each game session."
-      },
-      "links": [
-        {
-          "label": "View overview",
-          "href": "/apps/zxspace"
-        }
-      ],
-      "layout": "textRight"
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Learn How to Play ZXSpace",
-      "href": "/apps/zxspace/how-to-play"
-    },
-    {
-      "label": "Learn ZXSpace Controls",
-      "href": "/apps/zxspace/controls"
-    },
-    {
-      "label": "Improve with ZXSpace Tips & Strategy",
-      "href": "/apps/zxspace/tips-and-strategy"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXSpace Complete Guide",
+	"seoTitle": "ZXSpace Complete Guide | BarkinMad Studios",
+	"description": "Everything you need to know about ZXSpace, from defending your first city to unlocking achievements, earning BarkinMad Coins, and mastering every alien wave.",
+	"summary": "Learn how to play ZXSpace, improve your skills, unlock rewards, and defend your cities against increasingly dangerous alien invasions.",
+	"heroImage": "apps/zxspace/zxspace-hero.png",
+	"heroImageAlt": "ZXSpace Complete Guide",
+	"sections": [
+		{
+			"id": "start",
+			"heading": "Welcome to ZXSpace",
+			"paragraphs": [
+				"ZXSpace is a fast-paced city-defence arcade shooter and part of the ZX Series from BarkinMad Studios.",
+				"Protect your cities from waves of invading aliens, repair damaged shields, collect powerful upgrades, and survive increasingly difficult attacks."
+			]
+		},
+		{
+			"id": "core-path",
+			"heading": "Everything You Need to Learn",
+			"paragraphs": [
+				"Start with the How to Play guide to learn the basics, then continue through the Controls and Game Modes pages to master your defensive skills.",
+				"Once you're comfortable with the gameplay, explore BarkinMad Coins, Achievements, Leaderboards, and Tips & Strategy to discover even more ways to improve."
+			],
+			"bullets": [
+				"How to Play – Learn the basics of city defence.",
+				"Controls – Master cannon movement and auto-fire.",
+				"Game Modes – Explore Solo Play and future multiplayer plans.",
+				"Progression – Unlock achievements, earn BarkinMad Coins, and climb the leaderboards."
+			]
+		},
+		{
+			"id": "release-check",
+			"heading": "Growing with Every Update",
+			"paragraphs": [
+				"ZXSpace continues to evolve with new features, artwork, and gameplay improvements planned for future updates.",
+				"As development continues, this guide will grow alongside the game with new content, screenshots, and gameplay features."
+			]
+		},
+		{
+			"id": "keep-playing",
+			"heading": "Keep Defending Your Cities",
+			"paragraphs": [
+				"Every wave helps you improve your reactions, protect more cities, unlock achievements, and earn BarkinMad Coins.",
+				"Whether you're chasing a new high score or simply trying to survive one more wave, every game helps you become a stronger commander."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/zxspace/zxspace-gameplay-01.png",
+			"alt": "ZXSpace gameplay",
+			"caption": "Defend your cities against wave after wave of alien invaders."
+		},
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXSpace gameplay",
+			"caption": "Additional screenshots will be added as development continues."
+		}
+	],
+	"imageSectionTitle": "Guide Images",
+	"estimatedReadTimeMinutes": 8,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXSpace",
+		"city defence",
+		"arcade shooter",
+		"BarkinMad Coins",
+		"Game Center"
+	],
+	"relatedPages": [
+		"overview",
+		"how-to-play",
+		"controls",
+		"game-modes",
+		"tips-and-strategy",
+		"frequently-asked-questions"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "complete-guide-route",
+			"heading": "Everything You Need to Master ZXSpace",
+			"summary": "From your first alien invasion to your highest score, this guide covers every part of ZXSpace.",
+			"body": [
+				"Whether you're just beginning your first defence or aiming to master every wave, this guide brings together everything you need in one place.",
+				"Learn the controls, improve your strategy, unlock achievements, earn BarkinMad Coins, and defend your cities against increasingly dangerous alien attacks."
+			],
+			"bullets": [
+				"Learn the controls.",
+				"Master Solo Play.",
+				"Unlock achievements and rewards.",
+				"Compete on the leaderboards."
+			],
+			"image": {
+				"src": "apps/zxspace/zxspace-hero.png",
+				"alt": "ZXSpace Complete Guide",
+				"caption": "Everything you need to become a master city defender."
+			},
+			"links": [
+				{
+					"label": "View Screenshots",
+					"href": "/apps/zxspace/screenshots"
+				}
+			]
+		},
+		{
+			"id": "from-play-to-progress",
+			"heading": "Every Wave Helps You Improve",
+			"summary": "Achievements, leaderboards, and BarkinMad Coins reward every game you play.",
+			"body": [
+				"As your skills improve, you'll unlock achievements, climb the leaderboards, and earn BarkinMad Coins to unlock cosmetic rewards across the ZX Series.",
+				"Every completed wave helps you become a stronger defender and prepares you for even greater challenges."
+			],
+			"bullets": [
+				"Improve your reactions.",
+				"Unlock achievements.",
+				"Earn BarkinMad Coins.",
+				"Defend more cities."
+			],
+			"image": {
+				"src": "apps/zxspace/zxspace-hero.png",
+				"alt": "ZXSpace gameplay",
+				"caption": "Every wave brings you closer to your next achievement."
+			},
+			"links": [
+				{
+					"label": "View Overview",
+					"href": "/apps/zxspace"
+				}
+			],
+			"layout": "textRight"
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn How to Play",
+			"href": "/apps/zxspace/how-to-play"
+		},
+		{
+			"label": "Learn the Controls",
+			"href": "/apps/zxspace/controls"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxspace/tips-and-strategy"
+		}
+	]
 }

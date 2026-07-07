@@ -1,98 +1,99 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXSpace Achievements",
-  "seoTitle": "ZXSpace Achievements | BarkinMad Studios",
-  "description": "Review known ZXSpace Game Center achievement milestones for repeat play and plan progress around supported play-count goals.",
-  "summary": "ZXSpace achievements currently reward repeat sessions through known play-count milestones.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "ZXSpace achievements gameplay screenshot",
-  "sections": [
-    {
-      "id": "available-achievements",
-      "heading": "Available achievements",
-      "paragraphs": [
-        "Unlock achievements by playing ZXSpace and reaching important gameplay milestones.",
-        "Game Center achievements reward regular play and encourage you to improve your skills over time."
-      ],
-      "bullets": [
-        "Play 10 games",
-        "Play 25 games",
-        "Play 50 games",
-        "Play 100 games"
-      ]
-    },
-    {
-      "id": "planning",
-      "heading": "Planning progress",
-      "paragraphs": [
-        "For repeat-play milestones, focus on clean short sessions and steady learning rather than forcing one long run.",
-        "Use each run to improve one habit: cannon positioning, shield preservation, UFO timing, or power-up collection."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXSpace achievements screenshot",
-      "caption": "Achievements screenshot"
-    }
-  ],
-  "imageSectionTitle": "Achievement Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXSpace",
-    "achievements",
-    "Game Center",
-    "play count"
-  ],
-  "relatedPages": [
-    "leaderboards",
-    "how-to-play",
-    "tips-and-strategy",
-    "barkinmad-coins"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "achievement-goals",
-      "heading": "ZXSpace achievements",
-      "summary": "Achievements give ZXSpace players optional goals beyond a single run or match.",
-      "body": [
-        "This matters because players often want a reason to revisit the game after learning the basics. Achievement goals add structure without changing the core arcade loop.",
-        "Players use this page after playing to understand which progress tracking are supported and how achievements relate to regular sessions."
-      ],
-      "bullets": [
-        "Learn how repeat play to optional goals.",
-        "Keeps achievement wording tied to supported game behaviour.",
-        "Pairs naturally with leaderboards and tips."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXSpace achievements artwork",
-        "caption": "ZXSpace achievement artwork supports optional progression goals."
-      },
-      "links": [
-        {
-          "label": "View leaderboards",
-          "href": "/apps/zxspace/leaderboards"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Review ZXSpace Leaderboards",
-      "href": "/apps/zxspace/leaderboards"
-    },
-    {
-      "label": "Improve with ZXSpace Tips & Strategy",
-      "href": "/apps/zxspace/tips-and-strategy"
-    },
-    {
-      "label": "Understand BarkinMad Coins in ZXSpace",
-      "href": "/apps/zxspace/barkinmad-coins"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXSpace Achievements",
+	"seoTitle": "ZXSpace Achievements | BarkinMad Studios",
+	"description": "Unlock achievements by playing ZXSpace, defending your cities, and reaching new gameplay milestones.",
+	"summary": "Achievements reward your progress and encourage you to keep improving with every game of ZXSpace.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "ZXSpace achievements",
+	"sections": [
+		{
+			"id": "available-achievements",
+			"heading": "Available Achievements",
+			"paragraphs": [
+				"ZXSpace includes Game Center achievements that reward regular play and important gameplay milestones.",
+				"Whether you're protecting your cities or chasing your next high score, every achievement gives you another goal to work towards."
+			],
+			"bullets": [
+				"Play 10 Games",
+				"Play 25 Games",
+				"Play 50 Games",
+				"Play 100 Games"
+			]
+		},
+		{
+			"id": "planning",
+			"heading": "Keep Challenging Yourself",
+			"paragraphs": [
+				"Focus on one achievement at a time instead of trying to unlock everything in a single session.",
+				"As your skills improve, you'll naturally unlock more achievements while climbing the leaderboards and earning BarkinMad Coins."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXSpace achievements",
+			"caption": "Unlock new achievements as you continue defending your cities."
+		}
+	],
+	"imageSectionTitle": "Achievements",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXSpace",
+		"Game Center",
+		"achievements",
+		"arcade",
+		"city defence"
+	],
+	"relatedPages": [
+		"leaderboards",
+		"how-to-play",
+		"tips-and-strategy",
+		"barkinmad-coins"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "achievement-goals",
+			"heading": "Every Game Counts",
+			"summary": "Achievements reward regular play and encourage you to keep improving with every game.",
+			"body": [
+				"Every game of ZXSpace helps you move closer to your next achievement. As your skills improve, you'll unlock new milestones while climbing the leaderboards and earning BarkinMad Coins.",
+				"Achievements provide another reason to keep coming back, rewarding both casual play and long-term dedication."
+			],
+			"bullets": [
+				"Unlock achievements through regular play.",
+				"Track your long-term progress.",
+				"Works alongside leaderboards and BarkinMad Coins."
+			],
+			"image": {
+				"src": "images/shared/placeholder.png",
+				"alt": "ZXSpace achievements",
+				"caption": "Every game brings you closer to your next achievement."
+			},
+			"links": [
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxspace/leaderboards"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "View Leaderboards",
+			"href": "/apps/zxspace/leaderboards"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxspace/tips-and-strategy"
+		},
+		{
+			"label": "Learn About BarkinMad Coins",
+			"href": "/apps/zxspace/barkinmad-coins"
+		}
+	]
 }

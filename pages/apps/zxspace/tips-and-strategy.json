@@ -1,112 +1,113 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXSpace Tips & Strategy",
-  "seoTitle": "ZXSpace Tips & Strategy | BarkinMad Studios",
-  "description": "Practical ZXSpace tips for steadier cannon movement, shield preservation, UFO timing, power-up use, and higher scores.",
-  "summary": "Good ZXSpace strategy starts with controlled cannon movement, shield discipline, and clearing waves without exposing the city.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "ZXSpace strategy gameplay screenshot",
-  "sections": [
-    {
-      "id": "protect-the-city",
-      "heading": "Protect the city",
-      "paragraphs": [
-        "Survival depends on more than shooting aliens quickly. The city and shield line buy time, and losing that protection makes later waves harder.",
-        "Move early enough to clear lanes before aliens descend into dangerous positions."
-      ]
-    },
-    {
-      "id": "use-the-shields",
-      "heading": "Use the shields",
-      "paragraphs": [
-        "Shields absorb alien fire and alien overlap damage, but they are segmented and can be worn down.",
-        "Do not treat shields as permanent cover. Use them to recover position, then move back into useful firing lanes."
-      ],
-      "bullets": [
-        "Repair damaged shield segments when Shield Repair appears",
-        "Avoid letting aliens overlap shield segments repeatedly",
-        "Keep enough distance between the formation and the city"
-      ]
-    },
-    {
-      "id": "score-better",
-      "heading": "Score better",
-      "paragraphs": [
-        "Top-row aliens are worth more than lower rows, and UFO targets are useful bonus-score opportunities.",
-        "Double Laser is best used for clearing clustered aliens or catching up when the formation starts to press downward."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXSpace strategy screenshot",
-      "caption": "Strategy screenshot"
-    }
-  ],
-  "imageSectionTitle": "Strategy Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXSpace",
-    "strategy",
-    "city defence",
-    "shields",
-    "UFO",
-    "power-ups"
-  ],
-  "relatedPages": [
-    "controls",
-    "how-to-play",
-    "game-modes",
-    "achievements",
-    "leaderboards"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "practical-improvement",
-      "heading": "ZXSpace tips and strategy",
-      "summary": "ZXSpace strategy turns the basic loop into better repeat sessions through wave control, city protection, UFO timing, and power-up choices.",
-      "body": [
-        "The most useful advice is tied to decisions players make during a session, not abstract arcade theory.",
-        "Use these tips after learning the controls, then compare progress through leaderboards and achievements."
-      ],
-      "bullets": [
-        "Focuses on practical player behaviour.",
-        "Learn how strategy to game modes and leaderboards.",
-        "Avoids filler by tying advice to real play decisions."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXSpace tips and strategy artwork",
-        "caption": "ZXSpace tips artwork supports practical improvement guidance."
-      },
-      "links": [
-        {
-          "label": "Compare ZXSpace Game Modes",
-          "href": "/apps/zxspace/game-modes"
-        },
-        {
-          "label": "Review ZXSpace Leaderboards",
-          "href": "/apps/zxspace/leaderboards"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Learn ZXSpace Controls",
-      "href": "/apps/zxspace/controls"
-    },
-    {
-      "label": "Review ZXSpace Leaderboards",
-      "href": "/apps/zxspace/leaderboards"
-    },
-    {
-      "label": "Track ZXSpace Achievements",
-      "href": "/apps/zxspace/achievements"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXSpace Tips & Strategy",
+	"seoTitle": "ZXSpace Tips & Strategy | BarkinMad Studios",
+	"description": "Improve your ZXSpace skills with practical advice for protecting your cities, managing shields, and surviving longer alien invasions.",
+	"summary": "Careful positioning, shield management, and smart use of power-ups will help you survive longer and achieve higher scores.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "ZXSpace Tips & Strategy",
+	"sections": [
+		{
+			"id": "protect-the-city",
+			"heading": "Protect Your Cities",
+			"paragraphs": [
+				"Your cities are your most valuable resource. Destroy alien formations before they break through your shields and reach the buildings below.",
+				"The longer you keep your cities intact, the greater your chances of surviving the later waves and achieving higher scores."
+			]
+		},
+		{
+			"id": "use-the-shields",
+			"heading": "Use Your Shields Wisely",
+			"paragraphs": [
+				"Shields provide valuable protection, but they won't last forever. Use them to absorb enemy fire while you reposition your cannon or prepare your next attack.",
+				"Repair damaged shields whenever a Shield Repair power-up becomes available to keep your defences strong."
+			],
+			"bullets": [
+				"Repair damaged shield sections whenever possible.",
+				"Avoid letting aliens repeatedly attack the same area.",
+				"Keep enough distance between the aliens and your cities."
+			]
+		},
+		{
+			"id": "score-better",
+			"heading": "Achieve Higher Scores",
+			"paragraphs": [
+				"Higher-value aliens and bonus UFOs can dramatically increase your score, but don't risk your cities chasing every bonus target.",
+				"Use Double Laser during the busiest moments to clear large groups of enemies quickly and regain control of the battlefield."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXSpace Tips & Strategy",
+			"caption": "Protect your cities, survive longer, and achieve higher scores."
+		}
+	],
+	"imageSectionTitle": "Tips & Strategy",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXSpace",
+		"strategy",
+		"city defence",
+		"shields",
+		"UFO",
+		"power-ups"
+	],
+	"relatedPages": [
+		"controls",
+		"how-to-play",
+		"game-modes",
+		"achievements",
+		"leaderboards"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "practical-improvement",
+			"heading": "Defend Smarter, Survive Longer",
+			"summary": "Simple improvements in positioning, shield management, and power-up timing can dramatically improve your performance.",
+			"body": [
+				"ZXSpace rewards players who stay calm under pressure. Learning when to defend, when to attack, and when to collect power-ups will help you survive more waves and protect more cities.",
+				"Whether you're chasing a new high score or preparing for tougher waves, every game is another opportunity to improve."
+			],
+			"bullets": [
+				"Protect your cities.",
+				"Use power-ups wisely.",
+				"Manage your shields carefully.",
+				"Compete for higher scores."
+			],
+			"image": {
+				"src": "images/shared/placeholder.png",
+				"alt": "ZXSpace Tips & Strategy",
+				"caption": "Every wave is another opportunity to improve."
+			},
+			"links": [
+				{
+					"label": "Explore Game Modes",
+					"href": "/apps/zxspace/game-modes"
+				},
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxspace/leaderboards"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn the Controls",
+			"href": "/apps/zxspace/controls"
+		},
+		{
+			"label": "View Leaderboards",
+			"href": "/apps/zxspace/leaderboards"
+		},
+		{
+			"label": "View Achievements",
+			"href": "/apps/zxspace/achievements"
+		}
+	]
 }

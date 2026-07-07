@@ -1,219 +1,113 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "appSlug": "zxspace",
-  "title": "ZXSpace Guides",
-  "description": "Official player guides for ZXSpace covering city-defence shooting, controls, modes, coins, achievements, leaderboards, and release-ready support notes.",
-  "landingPage": "overview",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "estimatedReadTimeMinutes": 30,
-  "relatedSeries": [
-    "/zx-series"
-  ],
-  "keywords": [
-    "ZXSpace",
-    "ZX Series",
-    "space shooter",
-    "city defence",
-    "arcade",
-    "BarkinMad Coins",
-    "Game Center"
-  ],
-  "pages": [
-    {
-      "slug": "overview",
-      "title": "App Overview",
-      "description": "Get a practical introduction to ZXSpace and how its city-defence shooter systems fit into the ZX Series.",
-      "required": true,
-      "status": "required",
-      "order": 1,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "how-to-play",
-        "controls",
-        "game-modes"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "how-to-play",
-      "title": "How to Play",
-      "description": "Learn the ZXSpace city-defence loop, alien waves, shields, lives, scoring, power-ups, and session flow.",
-      "required": true,
-      "status": "required",
-      "order": 2,
-      "estimatedReadTimeMinutes": 4,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "controls",
-        "game-modes",
-        "tips-and-strategy",
-        "achievements"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "controls",
-      "title": "Controls",
-      "description": "Understand touch-and-drag cannon movement, continuous auto-fire, and practical aiming habits.",
-      "required": true,
-      "status": "required",
-      "order": 3,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "how-to-play",
-        "game-modes",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "game-modes",
-      "title": "Game Modes",
-      "description": "Understand the verified ZXSpace solo city-defence flow and release status notes for multiplayer menu flags.",
-      "required": true,
-      "status": "required",
-      "order": 4,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "how-to-play",
-        "controls",
-        "leaderboards",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "barkinmad-coins",
-      "title": "BarkinMad Coins",
-      "description": "Understand how ZXSpace uses shared ZX Series coin progression, wave rewards, and cosmetic skin unlocks.",
-      "required": true,
-      "status": "required",
-      "order": 5,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "achievements",
-        "leaderboards",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "achievements",
-      "title": "Achievements",
-      "description": "Track known ZXSpace Game Center play-count achievements and plan repeat sessions around supported milestones.",
-      "required": true,
-      "status": "required",
-      "order": 6,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "leaderboards",
-        "how-to-play",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "leaderboards",
-      "title": "Leaderboards",
-      "description": "Understand ZXSpace leaderboard surfaces, including Highest Score and shared ZX Series Total Score.",
-      "required": true,
-      "status": "required",
-      "order": 7,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "achievements",
-        "how-to-play",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "tips-and-strategy",
-      "title": "Tips & Strategy",
-      "description": "Practical tips for cannon positioning, shield survival, UFO timing, power-up use, and better ZXSpace runs.",
-      "required": true,
-      "status": "required",
-      "order": 8,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "controls",
-        "how-to-play",
-        "game-modes",
-        "achievements",
-        "leaderboards"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "frequently-asked-questions",
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers for common ZXSpace questions about release status, controls, modes, coins, power-ups, and leaderboards.",
-      "required": true,
-      "status": "required",
-      "order": 9,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "overview",
-        "game-modes",
-        "barkinmad-coins",
-        "leaderboards"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "guide",
-      "title": "Guide",
-      "description": "Complete ZXSpace walkthrough and key systems reference.",
-      "required": false,
-      "status": "optional",
-      "order": 10,
-      "estimatedReadTimeMinutes": 8,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "overview",
-        "how-to-play",
-        "controls",
-        "game-modes",
-        "tips-and-strategy",
-        "frequently-asked-questions"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "screenshots",
-      "title": "Screenshots",
-      "description": "ZXSpace visual walkthrough pairing current screenshots and artwork with gameplay, progress, and support context.",
-      "required": false,
-      "status": "optional",
-      "order": 11,
-      "estimatedReadTimeMinutes": 4,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "overview",
-        "guide"
-      ],
-      "contentStatus": "verified"
-    }
-  ],
-  "contentStatus": "verified"
+	"documentationSchemaVersion": "1.2.0",
+	"appSlug": "zxspace",
+	"title": "ZXSpace Guides",
+	"description": "Official ZXSpace guides covering gameplay, controls, city defence, achievements, leaderboards, BarkinMad Coins, and everything you need to master the game.",
+	"landingPage": "overview",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"estimatedReadTimeMinutes": 30,
+	"relatedSeries": [
+		"/zx-series"
+	],
+	"keywords": [
+		"ZXSpace",
+		"ZX Series",
+		"space shooter",
+		"city defence",
+		"arcade",
+		"BarkinMad Coins",
+		"Game Center"
+	],
+	"pages": [
+		{
+			"slug": "overview",
+			"title": "Overview",
+			"description": "Discover ZXSpace and prepare to defend your cities against relentless alien invasions.",
+			"required": true,
+			"status": "required",
+			"order": 1
+		},
+		{
+			"slug": "how-to-play",
+			"title": "How to Play",
+			"description": "Learn the basics of defending your cities, clearing alien waves, and surviving longer.",
+			"required": true,
+			"status": "required",
+			"order": 2
+		},
+		{
+			"slug": "controls",
+			"title": "Controls",
+			"description": "Master cannon movement, auto-fire, and the positioning needed to survive every wave.",
+			"required": true,
+			"status": "required",
+			"order": 3
+		},
+		{
+			"slug": "game-modes",
+			"title": "Game Modes",
+			"description": "Explore Solo Play and discover the future multiplayer plans for ZXSpace.",
+			"required": true,
+			"status": "required",
+			"order": 4
+		},
+		{
+			"slug": "barkinmad-coins",
+			"title": "BarkinMad Coins",
+			"description": "Earn BarkinMad Coins by defending your cities and unlock cosmetic rewards across the ZX Series.",
+			"required": true,
+			"status": "required",
+			"order": 5
+		},
+		{
+			"slug": "achievements",
+			"title": "Achievements",
+			"description": "Unlock achievements by defending your cities and reaching new gameplay milestones.",
+			"required": true,
+			"status": "required",
+			"order": 6
+		},
+		{
+			"slug": "leaderboards",
+			"title": "Leaderboards",
+			"description": "Compete for the highest score and compare your performance with players around the world.",
+			"required": true,
+			"status": "required",
+			"order": 7
+		},
+		{
+			"slug": "tips-and-strategy",
+			"title": "Tips & Strategy",
+			"description": "Improve your positioning, shield management, and survival skills with practical gameplay advice.",
+			"required": true,
+			"status": "required",
+			"order": 8
+		},
+		{
+			"slug": "frequently-asked-questions",
+			"title": "Frequently Asked Questions",
+			"description": "Find answers to the most common questions about ZXSpace.",
+			"required": true,
+			"status": "required",
+			"order": 9
+		},
+		{
+			"slug": "guide",
+			"title": "Complete Guide",
+			"description": "Everything you need to know about ZXSpace in one complete guide.",
+			"required": false,
+			"status": "optional",
+			"order": 10
+		},
+		{
+			"slug": "screenshots",
+			"title": "Screenshots",
+			"description": "Take a visual tour of ZXSpace and explore its gameplay, progression, and city-defence action.",
+			"required": false,
+			"status": "optional",
+			"order": 11
+		}
+	],
+	"contentStatus": "verified"
 }

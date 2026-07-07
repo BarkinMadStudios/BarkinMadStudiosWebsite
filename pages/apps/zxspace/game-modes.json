@@ -1,97 +1,97 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXSpace Game Modes",
-  "seoTitle": "ZXSpace Game Modes | BarkinMad Studios",
-  "description": "Understand the verified ZXSpace solo city-defence mode and the current status of multiplayer menu availability.",
-  "summary": "The guide focuses on the verified solo city-defence shooter loop.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "ZXSpace game modes gameplay screenshot",
-  "sections": [
-    {
-      "id": "solo-play",
-      "heading": "Solo play",
-      "paragraphs": [
-        "Solo play is the verified ZXSpace gameplay path documented for release readiness.",
-        "The solo loop covers alien formations, city defence, shields, lives, wave completion, score chasing, coin rewards, power-ups, and rewarded continue."
-      ]
-    },
-    {
-      "id": "mode-status",
-      "heading": "Mode status",
-      "paragraphs": [
-        "ZXSpace supports both Local PVP and World PVP menu paths, while release behavior is finalised as new updates are confirmed.",
-        "Multiplayer details are added once release behavior is fully verified."
-      ]
-    },
-    {
-      "id": "what-to-choose",
-      "heading": "What to choose",
-      "paragraphs": [
-        "Use Solo play for current documented progression, achievements, score ranking, and coin rewards.",
-        "Review this page again before release if multiplayer menu availability changes."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXSpace game modes screenshot",
-      "caption": "Game modes screenshot"
-    }
-  ],
-  "imageSectionTitle": "Game Modes Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXSpace",
-    "game modes",
-    "Solo play",
-    "city defence",
-    "PVP availability"
-  ],
-  "relatedPages": [
-    "how-to-play",
-    "controls",
-    "leaderboards",
-    "tips-and-strategy"
-  ],
-  "faq": [
-    {
-      "question": "Is ZXSpace multiplayer documented as a release feature?",
-      "answer": "No. The guide focuses on Solo play first. Multiplayer availability updates as soon as release details are finalized."
-    }
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "mode-selection",
-      "heading": "ZXSpace game modes",
-      "summary": "Learn how ZXSpace modes layer wave patterns, cannon movement, city defence, and survival pressure.",
-      "body": [
-        "This matters because players need to know what kind of session they are starting and how success is measured.",
-        "Players use this page to choose the right mode for a quick game, a focused practice run, or a score-chasing session."
-      ],
-      "bullets": [
-        "Learn supported play styles.",
-        "Learn how mode choice to controls, tips, and leaderboards.",
-        "Keeps App Store-friendly wording focused on gameplay."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXSpace game modes artwork",
-        "caption": "ZXSpace mode artwork supports the game mode explanation."
-      },
-      "links": [
-        {
-          "label": "View tips",
-          "href": "/apps/zxspace/tips-and-strategy"
-        },
-        {
-          "label": "View leaderboards",
-          "href": "/apps/zxspace/leaderboards"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXSpace Game Modes",
+	"seoTitle": "ZXSpace Game Modes | BarkinMad Studios",
+	"description": "Discover the game modes planned for ZXSpace, from the core Solo city-defence experience to future multiplayer battles.",
+	"summary": "Defend your cities in Solo mode today, with additional multiplayer experiences planned for future updates.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "ZXSpace game modes",
+	"sections": [
+		{
+			"id": "solo-play",
+			"heading": "Solo Play",
+			"paragraphs": [
+				"Solo Play is the heart of ZXSpace. Defend your cities against waves of invading aliens, protect your shields, collect power-ups, and survive for as long as possible.",
+				"Every completed wave rewards quick reactions, accurate aiming, and careful city defence while helping you unlock achievements, earn BarkinMad Coins, and climb the leaderboards."
+			]
+		},
+		{
+			"id": "mode-status",
+			"heading": "Future Multiplayer",
+			"paragraphs": [
+				"ZXSpace is designed to grow over time, with additional multiplayer modes planned for future updates.",
+				"As new game modes become available, this guide will be updated with everything you need to know about playing with friends and competing online."
+			]
+		},
+		{
+			"id": "what-to-choose",
+			"heading": "Choose Your Challenge",
+			"paragraphs": [
+				"If you're new to ZXSpace, start with Solo Play to learn the controls, understand alien attack patterns, and master the game's defensive mechanics.",
+				"As additional game modes are introduced, you'll be able to build on those skills and take on new challenges."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXSpace game modes",
+			"caption": "Choose your mission and prepare to defend your cities."
+		}
+	],
+	"imageSectionTitle": "Game Modes",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXSpace",
+		"game modes",
+		"Solo Play",
+		"city defence",
+		"multiplayer"
+	],
+	"relatedPages": [
+		"how-to-play",
+		"controls",
+		"leaderboards",
+		"tips-and-strategy"
+	],
+	"faq": [
+		{
+			"question": "Will ZXSpace include multiplayer?",
+			"answer": "Additional multiplayer modes are planned for future updates. Solo Play is currently the main gameplay experience."
+		}
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "mode-selection",
+			"heading": "Defend Your Cities",
+			"summary": "Protect your cities, survive increasingly difficult alien waves, and prepare for future multiplayer battles.",
+			"body": [
+				"Solo Play is where every commander begins. Learn to defend your cities, master the controls, collect power-ups, and overcome increasingly difficult alien attacks.",
+				"As ZXSpace grows, new multiplayer experiences will expand the challenge while building on the same fast-paced arcade gameplay."
+			],
+			"bullets": [
+				"Master Solo city defence.",
+				"Unlock achievements and earn BarkinMad Coins.",
+				"Prepare for future multiplayer modes."
+			],
+			"image": {
+				"src": "images/shared/placeholder.png",
+				"alt": "ZXSpace game modes",
+				"caption": "Every wave prepares you for the challenges ahead."
+			},
+			"links": [
+				{
+					"label": "Read Tips & Strategy",
+					"href": "/apps/zxspace/tips-and-strategy"
+				},
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxspace/leaderboards"
+				}
+			]
+		}
+	]
 }

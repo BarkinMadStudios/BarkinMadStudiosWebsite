@@ -1,135 +1,135 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXSpace Visual Walkthrough",
-  "seoTitle": "ZXSpace Screenshots | BarkinMad Studios",
-  "description": "ZXSpace visual walkthrough pairing current screenshots and artwork with gameplay, progress, and support context.",
-  "shortDescription": "ZXSpace screenshot gallery",
-  "summary": "ZXSpace screenshots and artwork now work as a visual walkthrough, pairing each image with what the screen shows, why it matters, and how players use it.",
-  "heroImage": "apps/zxspace/zxspace-gameplay-01.png",
-  "heroImageAlt": "ZXSpace visual walkthrough",
-  "images": [
-    {
-      "src": "apps/zxspace/zxspace-gameplay-01.png",
-      "alt": "ZXSpace gameplay screenshot",
-      "caption": "Existing gameplay screenshot"
-    },
-    {
-      "src": "apps/zxspace/zxspace-hero.png",
-      "alt": "ZXSpace hero artwork",
-      "caption": "Hero artwork"
-    },
-    {
-      "src": "apps/zxspace/zxspace.png",
-      "alt": "ZXSpace artwork",
-      "caption": "Existing ZXSpace artwork"
-    }
-  ],
-  "screenshotSectionTitle": "Screenshots",
-  "imageSectionTitle": "Screenshots",
-  "estimatedReadTimeMinutes": 4,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "sections": [
-    {
-      "id": "visual-walkthrough-standard",
-      "heading": "Visual walkthrough standard",
-      "paragraphs": [
-        "Each ZXSpace screenshot shows what to look for, why it matters, and how to use it during play.",
-        "The current website image set is used as a visual walkthrough of the public app experience."
-      ]
-    }
-  ],
-  "keywords": [
-    "ZXSpace",
-    "screenshots",
-    "gameplay",
-    "ZX Series"
-  ],
-  "relatedPages": [
-    "overview",
-    "guide"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "visual-1",
-      "heading": "Core gameplay view",
-      "summary": "This view shows the main ZXSpace play experience and the visual style players see during space defence runs.",
-      "body": [
-        "It matters because players should understand what the screen is for, not only see the artwork.",
-        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
-      ],
-      "bullets": [
-        "Shows the current public website image set.",
-        "Pairs the image with practical player context.",
-        "Can be replaced later with dedicated capture artwork without changing the layout."
-      ],
-      "image": {
-        "src": "apps/zxspace/zxspace-gameplay-01.png",
-        "alt": "ZXSpace Core gameplay view",
-        "caption": "Core gameplay view for ZXSpace."
-      },
-      "links": [
-        {
-          "label": "Read the ZXSpace Guide",
-          "href": "/apps/zxspace/guide"
-        },
-        {
-          "label": "Open ZXSpace Overview",
-          "href": "/apps/zxspace"
-        }
-      ]
-    },
-    {
-      "id": "visual-2",
-      "heading": "Player action view",
-      "summary": "This view supports the player workflow during active play, where inputs and timing matter most.",
-      "body": [
-        "It matters because players should understand what the screen is for, not only see the artwork.",
-        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
-      ],
-      "bullets": [
-        "Shows the current public website image set.",
-        "Pairs the image with practical player context.",
-        "Can be replaced later with dedicated capture artwork without changing the layout."
-      ],
-      "image": {
-        "src": "apps/zxspace/zxspace-hero.png",
-        "alt": "ZXSpace Player action view",
-        "caption": "Player action view for ZXSpace."
-      },
-      "links": [
-        {
-          "label": "Learn ZXSpace Controls",
-          "href": "/apps/zxspace/controls"
-        }
-      ],
-      "layout": "textRight"
-    },
-    {
-      "id": "visual-3",
-      "heading": "Progression view",
-      "summary": "This screenshot supports score goals, achievements, leaderboards, and repeat-session planning.",
-      "body": [
-        "It matters because players should understand what the screen is for, not only see the artwork.",
-        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
-      ],
-      "bullets": [
-        "Shows the current public website image set.",
-        "Pairs the image with practical player context.",
-        "Can be replaced later with dedicated capture artwork without changing the layout."
-      ],
-      "image": {
-        "src": "apps/zxspace/zxspace.png",
-        "alt": "ZXSpace Progression view",
-        "caption": "Progression view for ZXSpace."
-      },
-      "links": [
-        {
-          "label": "Review ZXSpace Leaderboards",
-          "href": "/apps/zxspace/leaderboards"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXSpace Visual Walkthrough",
+	"seoTitle": "ZXSpace Screenshots | BarkinMad Studios",
+	"description": "Take a visual tour of ZXSpace and explore its city-defence gameplay, alien waves, power-ups, and progression.",
+	"shortDescription": "A visual tour of ZXSpace",
+	"summary": "Explore ZXSpace through screenshots that showcase the gameplay, progression, and features that make every wave a new challenge.",
+	"heroImage": "apps/zxspace/zxspace-gameplay-01.png",
+	"heroImageAlt": "ZXSpace visual walkthrough",
+	"images": [
+		{
+			"src": "apps/zxspace/zxspace-gameplay-01.png",
+			"alt": "ZXSpace gameplay",
+			"caption": "Prepare to defend your cities against invading aliens."
+		},
+		{
+			"src": "apps/zxspace/zxspace-hero.png",
+			"alt": "ZXSpace hero artwork",
+			"caption": "Retro-inspired arcade action with modern gameplay."
+		},
+		{
+			"src": "apps/zxspace/zxspace.png",
+			"alt": "ZXSpace artwork",
+			"caption": "Every wave brings new challenges and greater rewards."
+		}
+	],
+	"screenshotSectionTitle": "Screenshots",
+	"imageSectionTitle": "Screenshots",
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"sections": [
+		{
+			"id": "visual-walkthrough-standard",
+			"heading": "Take a Tour of ZXSpace",
+			"paragraphs": [
+				"These screenshots introduce the main areas of ZXSpace, helping you become familiar with the game before or during play.",
+				"Follow the journey from defending your first city through increasingly difficult alien waves, powerful upgrades, and long-term progression."
+			]
+		}
+	],
+	"keywords": [
+		"ZXSpace",
+		"screenshots",
+		"gameplay",
+		"ZX Series"
+	],
+	"relatedPages": [
+		"overview",
+		"guide"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "visual-1",
+			"heading": "Defend Your First City",
+			"summary": "Every game begins with a city depending on you to stop the alien invasion.",
+			"body": [
+				"Your mission is to destroy every alien before they reach your cities. Quick reactions, accurate positioning, and smart use of your shields will help you survive the early waves.",
+				"Every successful defence prepares you for even greater challenges ahead."
+			],
+			"bullets": [
+				"Protect your cities.",
+				"Destroy alien formations.",
+				"Survive the first waves."
+			],
+			"image": {
+				"src": "apps/zxspace/zxspace-gameplay-01.png",
+				"alt": "ZXSpace gameplay",
+				"caption": "Every successful defence begins here."
+			},
+			"links": [
+				{
+					"label": "Read the Complete Guide",
+					"href": "/apps/zxspace/guide"
+				},
+				{
+					"label": "View the Overview",
+					"href": "/apps/zxspace"
+				}
+			]
+		},
+		{
+			"id": "visual-2",
+			"heading": "Master the Battlefield",
+			"layout": "textRight",
+			"summary": "Learn how positioning, timing, and power-ups work together to keep your cities safe.",
+			"body": [
+				"As the alien formations become faster and more dangerous, learning how to position your cannon and use your power-ups effectively becomes essential.",
+				"Strong defensive skills will help you survive longer and achieve higher scores."
+			],
+			"bullets": [
+				"Master cannon movement.",
+				"Use power-ups wisely.",
+				"Protect your shields."
+			],
+			"image": {
+				"src": "apps/zxspace/zxspace-hero.png",
+				"alt": "ZXSpace hero artwork",
+				"caption": "Every wave demands faster reactions and better positioning."
+			},
+			"links": [
+				{
+					"label": "Learn the Controls",
+					"href": "/apps/zxspace/controls"
+				}
+			]
+		},
+		{
+			"id": "visual-3",
+			"heading": "Every Wave Rewards Progress",
+			"summary": "Achievements, leaderboards, and BarkinMad Coins reward every successful defence.",
+			"body": [
+				"Every completed wave helps you unlock achievements, earn BarkinMad Coins, and compete for higher scores on the Game Center leaderboards.",
+				"The longer you survive, the more rewarding every game becomes."
+			],
+			"bullets": [
+				"Unlock achievements.",
+				"Earn BarkinMad Coins.",
+				"Compete for higher scores."
+			],
+			"image": {
+				"src": "apps/zxspace/zxspace.png",
+				"alt": "ZXSpace progression",
+				"caption": "Every completed wave brings you closer to your next goal."
+			},
+			"links": [
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxspace/leaderboards"
+				}
+			]
+		}
+	]
 }

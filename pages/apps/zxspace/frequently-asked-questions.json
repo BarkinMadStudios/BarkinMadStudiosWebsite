@@ -1,107 +1,107 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "Frequently Asked Questions",
-  "seoTitle": "ZXSpace FAQ | BarkinMad Studios",
-  "description": "Answers to common ZXSpace questions about release status, controls, solo play, coins, power-ups, achievements, and leaderboards.",
-  "summary": "Quick ZXSpace answers for release-ready player support.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "ZXSpace FAQ gameplay screenshot",
-  "sections": [
-    {
-      "id": "faq-overview",
-      "heading": "FAQ overview",
-      "paragraphs": [
-        "Get release-ready answers to the most common ZXSpace questions.",
-        "Approval-dependent App Store details should be checked again once Apple delivery and review are complete."
-      ]
-    }
-  ],
-  "faq": [
-    {
-      "question": "Is ZXSpace live on the App Store?",
-      "answer": "No. ZXSpace is Coming Soon, and the final App Store approval status and public URL are to confirm."
-    },
-    {
-      "question": "What is the verified gameplay mode?",
-      "answer": "The verified documented mode is Solo city-defence formation shooting. Public multiplayer behavior is to confirm before final release copy."
-    },
-    {
-      "question": "How do controls work?",
-      "answer": "Move the cannon with touch-and-drag horizontal movement. The cannon fires automatically during play."
-    },
-    {
-      "question": "Does ZXSpace use BarkinMad Coins?",
-      "answer": "Yes. ZXSpace uses the shared ZX Series wallet model and awards coins through wave completion and progression systems."
-    },
-    {
-      "question": "What power-ups are in the current gameplay?",
-      "answer": "current gameplay includes Double Laser and Shield Repair drops."
-    }
-  ],
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXSpace FAQ screenshot",
-      "caption": "FAQ screenshot"
-    }
-  ],
-  "imageSectionTitle": "FAQ Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXSpace",
-    "FAQ",
-    "city defence",
-    "BarkinMad Coins",
-    "leaderboards"
-  ],
-  "relatedPages": [
-    "overview",
-    "game-modes",
-    "barkinmad-coins",
-    "leaderboards"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "quick-answers",
-      "heading": "ZXSpace quick answers",
-      "summary": "The FAQ gives players quick answers about ZXSpace features, progression, support, and current guide status.",
-      "body": [
-        "This matters because players often arrive with one specific question. The page should answer quickly and then point them to the deeper guide when needed.",
-        "Players use this page when they need support context without reading every guide page."
-      ],
-      "bullets": [
-        "Provides concise support answers.",
-        "Links common questions back to the guide.",
-        "Keeps public wording clear and release-safe."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXSpace FAQ artwork",
-        "caption": "ZXSpace FAQ artwork supports support and quick-answer context."
-      },
-      "links": [
-        {
-          "label": "Read the ZXSpace Guide",
-          "href": "/apps/zxspace/guide"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Read the ZXSpace Guide",
-      "href": "/apps/zxspace/guide"
-    },
-    {
-      "label": "Learn How to Play ZXSpace",
-      "href": "/apps/zxspace/how-to-play"
-    },
-    {
-      "label": "Improve with ZXSpace Tips & Strategy",
-      "href": "/apps/zxspace/tips-and-strategy"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "Frequently Asked Questions",
+	"seoTitle": "ZXSpace FAQ | BarkinMad Studios",
+	"description": "Find answers to the most common questions about ZXSpace, including gameplay, BarkinMad Coins, power-ups, achievements, and the upcoming release.",
+	"summary": "Quick answers to the questions players ask most often about ZXSpace.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "ZXSpace Frequently Asked Questions",
+	"sections": [
+		{
+			"id": "faq-overview",
+			"heading": "Frequently Asked Questions",
+			"paragraphs": [
+				"Looking for a quick answer? This page covers some of the most common questions about ZXSpace.",
+				"As development continues, this page will be updated with the latest gameplay information, release details, and new features."
+			]
+		}
+	],
+	"faq": [
+		{
+			"question": "Is ZXSpace available on the App Store?",
+			"answer": "Not yet. ZXSpace is currently in development and will be released on the App Store once it's ready."
+		},
+		{
+			"question": "What game mode is currently planned?",
+			"answer": "ZXSpace is centred around a fast-paced Solo city-defence experience where you protect your cities from waves of invading aliens."
+		},
+		{
+			"question": "How do the controls work?",
+			"answer": "Move the cannon horizontally using touch controls while it fires automatically. Success comes from careful positioning, quick reactions, and making the most of your power-ups."
+		},
+		{
+			"question": "Does ZXSpace use BarkinMad Coins?",
+			"answer": "Yes. You'll earn BarkinMad Coins through gameplay and use them to unlock cosmetic rewards across supported ZX Series games."
+		},
+		{
+			"question": "Which power-ups are available?",
+			"answer": "Current gameplay includes power-ups such as Double Laser and Shield Repair, with additional power-ups planned as development continues."
+		}
+	],
+	"images": [
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXSpace Frequently Asked Questions",
+			"caption": "Quick answers to help you prepare for ZXSpace."
+		}
+	],
+	"imageSectionTitle": "Frequently Asked Questions",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXSpace",
+		"FAQ",
+		"city defence",
+		"BarkinMad Coins",
+		"power-ups"
+	],
+	"relatedPages": [
+		"overview",
+		"game-modes",
+		"barkinmad-coins",
+		"leaderboards"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "quick-answers",
+			"heading": "Quick Answers When You Need Them",
+			"summary": "Find answers to common ZXSpace questions without searching through every guide.",
+			"body": [
+				"Whether you're learning about the upcoming release, exploring gameplay features, or discovering how BarkinMad Coins and power-ups work, this page provides quick answers to the questions players ask most often.",
+				"For more detailed information, each answer links to the relevant guide so you can continue exploring ZXSpace."
+			],
+			"bullets": [
+				"Quick answers to common questions.",
+				"Easy links to more detailed guides.",
+				"Helpful before and after launch."
+			],
+			"image": {
+				"src": "images/shared/placeholder.png",
+				"alt": "ZXSpace Frequently Asked Questions",
+				"caption": "Everything you need to know before defending your first city."
+			},
+			"links": [
+				{
+					"label": "Read the Complete Guide",
+					"href": "/apps/zxspace/guide"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Read the Complete Guide",
+			"href": "/apps/zxspace/guide"
+		},
+		{
+			"label": "Learn How to Play",
+			"href": "/apps/zxspace/how-to-play"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxspace/tips-and-strategy"
+		}
+	]
 }

@@ -1,135 +1,136 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "How to Play ZXSpace",
-  "seoTitle": "How to Play ZXSpace | BarkinMad Studios",
-  "description": "Learn the ZXSpace session loop, city-defence objective, alien waves, shields, lives, scoring, power-ups, and wave rewards.",
-  "summary": "ZXSpace is built around defending the city, clearing alien formations, protecting shields, and improving score across waves.",
-  "heroImage": "apps/zxspace/zxspace-gameplay-01.png",
-  "heroImageAlt": "ZXSpace gameplay screenshot",
-  "imageMetadata": [
-    {
-      "src": "apps/zxspace/zxspace-gameplay-01.png",
-      "alt": "ZXSpace gameplay reference",
-      "purpose": "gameplay",
-      "width": 887,
-      "height": 1774,
-      "usage": [
-        "docs",
-        "website",
-        "social"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "goal",
-      "heading": "Goal",
-      "paragraphs": [
-        "Move the cannon along the bottom of the playfield, shoot the alien formation, and defend the city below the shields.",
-        "A run ends when the ship is destroyed with no lives remaining or the city is destroyed."
-      ]
-    },
-    {
-      "id": "session-flow",
-      "heading": "Session flow",
-      "paragraphs": [
-        "A normal session starts from the menu, enters play, spawns an alien formation, and continues until the wave is cleared or the player loses.",
-        "Clearing a wave advances to the next formation and awards coins through the shared ZX Series wallet flow."
-      ],
-      "bullets": [
-        "Drag the cannon to aim horizontally",
-        "Let auto-fire keep pressure on the formation",
-        "Use shields and city space carefully as the aliens descend",
-        "Watch for UFO bonus targets and power-up drops"
-      ]
-    },
-    {
-      "id": "scoring-and-waves",
-      "heading": "Scoring and waves",
-      "paragraphs": [
-        "Alien rows have different score values, with top, middle, and bottom enemies awarding different points.",
-        "UFO targets award score only, while wave completion awards BarkinMad Coins through the app wallet."
-      ]
-    },
-    {
-      "id": "power-ups",
-      "heading": "Power-ups",
-      "paragraphs": [
-        "Gameplay includes Double Laser and Shield Repair drops.",
-        "Double Laser temporarily fires two shots, while Shield Repair restores damaged shield protection when repairable segments exist."
-      ]
-    }
-  ],
-  "imageSectionTitle": "How to Play Images",
-  "images": [
-    {
-      "src": "apps/zxspace/zxspace-gameplay-01.png",
-      "alt": "ZXSpace gameplay screenshot",
-      "caption": "Existing ZXSpace gameplay artwork"
-    }
-  ],
-  "estimatedReadTimeMinutes": 4,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXSpace",
-    "how to play",
-    "city defence",
-    "alien waves",
-    "power-ups",
-    "BarkinMad Coins"
-  ],
-  "relatedPages": [
-    "controls",
-    "game-modes",
-    "tips-and-strategy",
-    "achievements",
-    "leaderboards"
-  ],
-  "relatedLinks": [
-    {
-      "label": "Learn ZXSpace Controls",
-      "href": "/apps/zxspace/controls"
-    },
-    {
-      "label": "Compare ZXSpace Game Modes",
-      "href": "/apps/zxspace/game-modes"
-    },
-    {
-      "label": "Improve with ZXSpace Tips & Strategy",
-      "href": "/apps/zxspace/tips-and-strategy"
-    }
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "first-session-flow",
-      "heading": "Start playing ZXSpace",
-      "summary": "Learn the core ZXSpace session flow: defend the city, clear alien waves, preserve shields, and use power-ups at the right moment.",
-      "body": [
-        "This gives new players enough context to start a session confidently and understand what the game is measuring.",
-        "Use this page first, then move into controls, game modes, and strategy when you want to improve consistency."
-      ],
-      "bullets": [
-        "Learn the flow from launch into active play.",
-        "Learn how controls, modes, and progress tracking.",
-        "Keeps beginner guidance practical and player-facing."
-      ],
-      "image": {
-        "src": "apps/zxspace/zxspace-gameplay-01.png",
-        "alt": "ZXSpace how to play screen",
-        "caption": "ZXSpace how-to-play artwork shows the player flow into gameplay."
-      },
-      "links": [
-        {
-          "label": "Learn ZXSpace Controls",
-          "href": "/apps/zxspace/controls"
-        },
-        {
-          "label": "Compare ZXSpace Game Modes",
-          "href": "/apps/zxspace/game-modes"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "How to Play ZXSpace",
+	"seoTitle": "How to Play ZXSpace | BarkinMad Studios",
+	"description": "Learn how to defend your cities, destroy alien waves, collect power-ups, and survive longer in ZXSpace.",
+	"summary": "Protect your cities, destroy alien formations, and survive increasingly challenging waves of attackers.",
+	"heroImage": "apps/zxspace/zxspace-gameplay-01.png",
+	"heroImageAlt": "ZXSpace gameplay",
+	"imageMetadata": [
+		{
+			"src": "apps/zxspace/zxspace-gameplay-01.png",
+			"alt": "ZXSpace gameplay",
+			"purpose": "gameplay",
+			"width": 887,
+			"height": 1774,
+			"usage": [
+				"docs",
+				"website",
+				"social"
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "goal",
+			"heading": "Your Mission",
+			"paragraphs": [
+				"Protect your cities from invading alien forces by moving your cannon across the bottom of the screen and destroying every enemy before they break through your defences.",
+				"Your mission ends when all your lives are lost or your cities have been destroyed."
+			]
+		},
+		{
+			"id": "session-flow",
+			"heading": "How a Game Works",
+			"paragraphs": [
+				"Each game begins with a fresh wave of invading aliens. Destroy every enemy to move on to the next wave while protecting your shields and cities from incoming attacks.",
+				"Every completed wave rewards you with BarkinMad Coins and prepares you for an even greater challenge."
+			],
+			"bullets": [
+				"Move the cannon by dragging left and right.",
+				"Let auto-fire destroy the alien formation.",
+				"Protect your shields and cities.",
+				"Watch for UFOs and power-up drops."
+			]
+		},
+		{
+			"id": "scoring-and-waves",
+			"heading": "Scoring and Waves",
+			"paragraphs": [
+				"Different alien types award different score values, encouraging you to eliminate the most valuable targets whenever you have the opportunity.",
+				"Surviving longer, completing more waves, and defeating bonus UFOs will all help you achieve higher scores."
+			]
+		},
+		{
+			"id": "power-ups",
+			"heading": "Power-Ups",
+			"paragraphs": [
+				"Power-ups give you temporary advantages that can help you survive difficult situations and protect your cities.",
+				"Current power-ups include Double Laser for increased firepower and Shield Repair to restore damaged defences."
+			]
+		}
+	],
+	"imageSectionTitle": "How to Play",
+	"images": [
+		{
+			"src": "apps/zxspace/zxspace-gameplay-01.png",
+			"alt": "ZXSpace gameplay",
+			"caption": "Protect your cities and survive every alien wave."
+		}
+	],
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXSpace",
+		"how to play",
+		"city defence",
+		"alien waves",
+		"power-ups",
+		"BarkinMad Coins"
+	],
+	"relatedPages": [
+		"controls",
+		"game-modes",
+		"tips-and-strategy",
+		"achievements",
+		"leaderboards"
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn the Controls",
+			"href": "/apps/zxspace/controls"
+		},
+		{
+			"label": "Explore Game Modes",
+			"href": "/apps/zxspace/game-modes"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxspace/tips-and-strategy"
+		}
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "first-session-flow",
+			"heading": "Defend Your First City",
+			"summary": "Everything you need to begin playing ZXSpace with confidence.",
+			"body": [
+				"ZXSpace combines fast-paced arcade shooting with strategic city defence. Learn how to position your cannon, destroy alien waves, protect your shields, and make the most of every power-up.",
+				"As your confidence grows, you'll unlock achievements, earn BarkinMad Coins, and climb the leaderboards while defending more cities."
+			],
+			"bullets": [
+				"Protect your cities.",
+				"Destroy alien waves.",
+				"Collect power-ups.",
+				"Prepare for greater challenges."
+			],
+			"image": {
+				"src": "apps/zxspace/zxspace-gameplay-01.png",
+				"alt": "ZXSpace gameplay",
+				"caption": "Everything you need to begin defending your first city."
+			},
+			"links": [
+				{
+					"label": "Learn the Controls",
+					"href": "/apps/zxspace/controls"
+				},
+				{
+					"label": "Explore Game Modes",
+					"href": "/apps/zxspace/game-modes"
+				}
+			]
+		}
+	]
 }

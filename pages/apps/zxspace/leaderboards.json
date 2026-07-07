@@ -1,93 +1,93 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXSpace Leaderboards",
-  "seoTitle": "ZXSpace Leaderboards | BarkinMad Studios",
-  "description": "Understand known ZXSpace leaderboard surfaces, including Highest Score and shared ZX Series Total Score progression.",
-  "summary": "ZXSpace leaderboards help you track score consistency and shared ZX Series score goals.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "ZXSpace leaderboard gameplay screenshot",
-  "sections": [
-    {
-      "id": "leaderboards",
-      "heading": "Leaderboards",
-      "paragraphs": [
-        "Highest Score is the main Game Center leaderboard for ZXSpace, challenging players to survive longer, clear more waves and achieve the highest score possible.",
-        "Your progress also contributes to the shared ZX Series Total Score leaderboard, allowing you to compete across the entire ZX Series."
-      ]
-    },
-    {
-      "id": "improve-your-ranking",
-      "heading": "Improve Your Ranking",
-      "paragraphs": [
-        "Focus on surviving for as long as possible, protecting your shields and clearing each wave efficiently. Longer runs naturally lead to higher scores and better leaderboard positions.",
-        "Collect power-ups, destroy UFOs when it is safe to do so and minimise unnecessary damage to keep your score increasing throughout every game."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXSpace leaderboards screenshot",
-      "caption": "Leaderboard screenshot"
-    }
-  ],
-  "imageSectionTitle": "Leaderboard Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXSpace",
-    "leaderboards",
-    "Highest Score",
-    "Game Center",
-    "ZX Series"
-  ],
-  "relatedPages": [
-    "achievements",
-    "how-to-play",
-    "tips-and-strategy",
-    "barkinmad-coins"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "competitive-comparison",
-      "heading": "ZXSpace leaderboards",
-      "summary": "Leaderboards explain how score comparison fits into ZXSpace.",
-      "body": [
-        "This matters because arcade games are built around improvement. Leaderboards give players a clear reason to replay, refine inputs, and chase stronger results.",
-        "Players use this page after play to understand supported comparison surfaces and how leaderboard goals sit beside personal improvement."
-      ],
-      "bullets": [
-        "Learn how score chasing to supported comparison.",
-        "Works with achievements and tips.",
-        "Keeps competitive wording clear and player-facing."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXSpace leaderboards artwork",
-        "caption": "ZXSpace leaderboard artwork supports score comparison and replay goals."
-      },
-      "links": [
-        {
-          "label": "View achievements",
-          "href": "/apps/zxspace/achievements"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Improve with ZXSpace Tips & Strategy",
-      "href": "/apps/zxspace/tips-and-strategy"
-    },
-    {
-      "label": "Track ZXSpace Achievements",
-      "href": "/apps/zxspace/achievements"
-    },
-    {
-      "label": "Compare ZXSpace Game Modes",
-      "href": "/apps/zxspace/game-modes"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXSpace Leaderboards",
+	"seoTitle": "ZXSpace Leaderboards | BarkinMad Studios",
+	"description": "Compete for the highest score in ZXSpace and compare your performance with players around the world through Apple Game Center.",
+	"summary": "Every wave is another opportunity to improve your score, climb the leaderboard, and defend your cities for longer.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "ZXSpace leaderboards",
+	"sections": [
+		{
+			"id": "leaderboards",
+			"heading": "Compete for the Highest Score",
+			"paragraphs": [
+				"The main Apple Game Center leaderboard for ZXSpace rewards players who can survive the longest, clear the most alien waves, and achieve the highest score.",
+				"Your progress also contributes to the shared ZX Series Total Score leaderboard, allowing you to compare your performance across every supported ZX Series game."
+			]
+		},
+		{
+			"id": "improve-your-ranking",
+			"heading": "Climb the Leaderboards",
+			"paragraphs": [
+				"Protect your shields, defend your cities, and clear each alien wave as efficiently as possible. Longer games naturally lead to higher scores and better leaderboard positions.",
+				"Collect power-ups whenever they're safe to reach and destroy bonus UFOs to maximise your score without putting your cities at unnecessary risk."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXSpace leaderboards",
+			"caption": "Compete for higher scores and defend your place on the leaderboard."
+		}
+	],
+	"imageSectionTitle": "Leaderboards",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXSpace",
+		"leaderboards",
+		"Highest Score",
+		"Game Center",
+		"ZX Series"
+	],
+	"relatedPages": [
+		"achievements",
+		"how-to-play",
+		"tips-and-strategy",
+		"barkinmad-coins"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "competitive-comparison",
+			"heading": "Every Wave Counts",
+			"summary": "Compete for higher scores, beat your personal best, and climb the leaderboard.",
+			"body": [
+				"Every completed wave helps you improve your score and move closer to the top of the leaderboard. As your reactions, positioning, and defensive skills improve, so will your ranking.",
+				"Combined with achievements and BarkinMad Coins, the leaderboard gives you another reason to keep defending your cities and coming back for another game."
+			],
+			"bullets": [
+				"Compete for the highest score.",
+				"Track your personal best.",
+				"Works alongside achievements and BarkinMad Coins."
+			],
+			"image": {
+				"src": "images/shared/placeholder.png",
+				"alt": "ZXSpace leaderboards",
+				"caption": "Every wave is another opportunity to climb the leaderboard."
+			},
+			"links": [
+				{
+					"label": "View Achievements",
+					"href": "/apps/zxspace/achievements"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxspace/tips-and-strategy"
+		},
+		{
+			"label": "View Achievements",
+			"href": "/apps/zxspace/achievements"
+		},
+		{
+			"label": "Explore Game Modes",
+			"href": "/apps/zxspace/game-modes"
+		}
+	]
 }
