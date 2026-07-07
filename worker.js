@@ -8,6 +8,8 @@
   });
   var ADS_TXT = `google.com, pub-2030137443667873, DIRECT, f08c47fec0942fa0
 `;
+  var GOOGLE_ANALYTICS_ID = "G-7MKNQLLXXP";
+	
   var REPO_BASE = "https://raw.githubusercontent.com/BarkinMadStudios/BarkinMadStudiosWebsite/main";
   var IMAGE_BASE = `${REPO_BASE}/images`;
   var NEWS_BASE = `${REPO_BASE}/news`;
@@ -164,7 +166,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
       return Response.redirect(`${url.origin}/apps`, 301);
     }
     if (path === "/about") return staticJsonPage("about");
-    if (path === "/portfolio/studiodash") return portfolioDetailJsonPage("studiodash");
+    if (path === "/portfolio/studiodash") return Response.redirect(`${url.origin}/apps/studiodash`, 301);
     if (path === "/portfolio") return portfolioJsonPage();
     if (path === "/docs") return docsJsonPage();
     if (path === "/privacy") return staticJsonPage("privacy");
@@ -277,8 +279,18 @@ ${options.keywords || site.keywords ? `<meta name="keywords" content="${escapeHt
 ${structuredData.map((schema) => `
 <script type="application/ld+json">${escapeJsonForHtml(schema)}<\/script>`).join("")}
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2030137443667873" crossorigin="anonymous"><\/script>
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2030137443667873" crossorigin="anonymous"></script>
+	
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	
+	gtag('config', '${GOOGLE_ANALYTICS_ID}');
+</script>
+	
 <style>
 * { box-sizing: border-box; }
 
