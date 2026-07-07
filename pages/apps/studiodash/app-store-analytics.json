@@ -10,6 +10,31 @@
     "src": "apps/studiodash/studiodash-hero.png",
     "alt": "StudioDash App Store analytics dashboard"
   },
+  "featureShowcases": [
+    {
+      "id": "app-store-portfolio-status",
+      "heading": "App Store portfolio status",
+      "summary": "The App Store analytics workflow focuses on app lifecycle, downloads, sales signals, ratings, reviews, and release context.",
+      "body": "For Apple-platform developers, product health often starts with App Store Connect. StudioDash is designed to surface the status and performance signals that belong with each app, while separating documented metadata coverage from deeper reporting that depends on provider access and product state.",
+      "bullets": [
+        "Connects app metadata and lifecycle status with performance review.",
+        "Keeps ratings, reviews, downloads, and revenue signals close to the app portfolio.",
+        "Uses precise public wording for features that are still in development."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot2.png",
+        "alt": "StudioDash App Store analytics view showing app portfolio status and provider performance panels",
+        "caption": "App Store coverage is part of the wider StudioDash provider workflow."
+      },
+      "layout": "textLeft",
+      "links": [
+        {
+          "label": "View integrations",
+          "href": "/apps/studiodash/integrations"
+        }
+      ]
+    }
+  ],
   "sections": [
     {
       "id": "app-store-connect",

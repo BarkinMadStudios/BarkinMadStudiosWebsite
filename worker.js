@@ -514,6 +514,58 @@ h3 { color: #ffcc66; }
   gap: 0.55rem;
 }
 
+.feature-showcase {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.feature-showcase + .feature-showcase {
+  margin-top: 1rem;
+}
+
+.feature-showcase-text {
+  max-height: 34rem;
+  overflow: auto;
+}
+
+.feature-showcase-text h2 {
+  margin-top: 0;
+}
+
+.feature-showcase-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.7rem;
+  min-width: 0;
+}
+
+.feature-showcase-image {
+  width: 100%;
+  max-height: 34rem;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 10px;
+  border: 1px solid #333858;
+  background: #050712;
+}
+
+.feature-showcase-caption {
+  margin: 0;
+  color: #d8dbef;
+  font-size: 0.95rem;
+}
+
+.feature-showcase[data-layout="textRight"] .feature-showcase-text {
+  order: 2;
+}
+
+.feature-showcase[data-layout="textRight"] .feature-showcase-media {
+  order: 1;
+}
+
 .strategy-checklist-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -732,6 +784,24 @@ footer p {
 
   .strategy-checklist-grid {
     grid-template-columns: 1fr;
+  }
+
+  .feature-showcase {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-showcase[data-layout="textRight"] .feature-showcase-text,
+  .feature-showcase[data-layout="textRight"] .feature-showcase-media {
+    order: initial;
+  }
+
+  .feature-showcase-text {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .feature-showcase-image {
+    max-height: none;
   }
 
   .reference-callout {
@@ -1635,8 +1705,18 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
       if (!Array.isArray(images)) return [];
       return images.filter((image) => image).map((image) => typeof image === "string" ? { src: image } : image).filter((image) => image?.src);
     };
+    const normalizeFeatureShowcases = (showcases) => {
+      if (!Array.isArray(showcases)) return [];
+      return showcases.filter((showcase) => showcase && typeof showcase === "object").map((showcase) => {
+        const image = showcase.image && typeof showcase.image === "object" ? showcase.image : {};
+        const src = showcase.imageSrc || showcase.src || image.src || "";
+        const alt = showcase.imageAlt || showcase.alt || image.alt || "";
+        return { ...showcase, image: { ...image, src, alt, caption: showcase.caption || image.caption || "" } };
+      }).filter((showcase) => showcase.heading && showcase.image.src);
+    };
     const pageImages = normalizeImageEntries(page.images);
     const screenshotEntries = normalizeImageEntries(page.screenshots);
+    const featureShowcases = normalizeFeatureShowcases(page.featureShowcases);
     const images = isTipsAndStrategyPage ? [] : pageImages;
     const inlineReferenceImage = page.referenceImage && typeof page.referenceImage === "object" ? {
       ...(page.referenceImage || {}),
@@ -1665,7 +1745,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
       ...images.filter(isReferenceCheatSheetImage)
     ].filter((image, index, array) => index === array.findIndex((item) => item?.src === image?.src));
     const regularImages = usesDocumentationFramework
-      ? isDocumentationOverviewPage || isDocumentationScreenshotPage ? [...pageImages, ...screenshotEntries] : []
+      ? featureShowcases.length ? [] : isDocumentationOverviewPage || isDocumentationScreenshotPage ? [...pageImages, ...screenshotEntries] : []
       : images.filter((image) => !isReferenceCheatSheetImage(image));
     const otherDocs = usesDocumentationLanding ? normaliseZxSnakeGuidePages(Array.isArray(pageIndex?.pages) ? pageIndex.pages : [], appSlug) : Array.isArray(pageIndex?.pages) ? pageIndex.pages.filter((item) => item?.slug && item.title) : [];
     const currentIndex = otherDocs.findIndex((item) => item.slug === detailSlug);
@@ -1727,6 +1807,35 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
   </div>
 </section>`;
     };
+    const renderFeatureShowcase = (showcase, index) => {
+      const image = showcase.image || {};
+      const layout = showcase.layout === "textRight" ? "textRight" : "textLeft";
+      const sectionId = showcase.id || slugify(showcase.heading || `feature-showcase-${index + 1}`);
+      const paragraphs = [
+        ...(showcase.summary ? [showcase.summary] : []),
+        ...(showcase.body ? Array.isArray(showcase.body) ? showcase.body : [showcase.body] : []),
+        ...(Array.isArray(showcase.paragraphs) ? showcase.paragraphs : [])
+      ].filter((paragraph) => paragraph !== null && paragraph !== void 0 && String(paragraph).trim());
+      const bullets = Array.isArray(showcase.bullets) ? showcase.bullets : Array.isArray(showcase.bulletPoints) ? showcase.bulletPoints : [];
+      const links = Array.isArray(showcase.links) ? showcase.links : Array.isArray(showcase.internalLinks) ? showcase.internalLinks : [];
+      return `
+<article class="feature-showcase" data-layout="${escapeHtml(layout)}" id="${escapeHtml(sectionId)}">
+  <div class="docs-panel docs-block feature-showcase-text">
+    <h2 class="section-title">${escapeHtml(showcase.heading)}</h2>
+    ${paragraphs.map((paragraph) => `<p>${renderContentParagraph(paragraph)}</p>`).join("")}
+    ${bullets.length ? `
+      <ul>
+        ${bullets.map((item) => `<li>${renderContentParagraph(item)}</li>`).join("")}
+      </ul>
+    ` : ""}
+    ${links.length ? `<div class="button-group">${links.map(actionLink).join("")}</div>` : ""}
+  </div>
+  <figure class="docs-panel feature-showcase-media">
+    <img class="feature-showcase-image" src="${escapeHtml(imageAssetUrl(image.src, imageAssetUrl(DOCUMENTATION_PLACEHOLDER_IMAGE)))}" alt="${escapeHtml(image.alt || showcase.heading)}" loading="lazy"${documentationImageFallbackAttribute()}>
+    ${image.caption ? `<figcaption class="feature-showcase-caption">${renderContentParagraph(image.caption)}</figcaption>` : ""}
+  </figure>
+</article>`;
+    };
     return `
 <main class="docs-main" data-doc-slug="${escapeHtml(detailSlug)}">
 <section${isTipsAndStrategyPage ? ' class="docs-header-plain"' : ""}>
@@ -1752,6 +1861,11 @@ ${sectionLinks.length > 1 && !isTipsAndStrategyPage && !hideContentsForPage ? `
 </section>` : ""}
 
 ${!isDocumentationImageOnlyPage ? remainingSections.map((section) => renderSectionContent(section)).join("") : ""}
+
+${featureShowcases.length ? `
+<section>
+  ${featureShowcases.map(renderFeatureShowcase).join("")}
+</section>` : ""}
 
 ${strategySections.length ? `
 <section>

@@ -102,6 +102,54 @@
     }
   ],
   "imageSectionTitle": "StudioDash Preview",
+  "featureShowcases": [
+    {
+      "id": "portfolio-command-centre",
+      "heading": "Portfolio command centre",
+      "summary": "The overview screen introduces StudioDash as a single operating view for app, revenue, website, provider, and sync signals.",
+      "body": "This matters for indie developers who need to understand product health without opening several separate dashboards. The screen is designed to show what needs attention first, then guide users toward the specialist views for revenue, App Store, website, and integration detail.",
+      "bullets": [
+        "Shows the product portfolio and current operating signals together.",
+        "Helps developers spot provider setup, no-data, or attention states quickly.",
+        "Connects the landing overview to the deeper analytics workflow."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot1.png",
+        "alt": "StudioDash dashboard overview showing portfolio, revenue, website, provider, and sync status cards",
+        "caption": "The overview is designed for regular portfolio review across apps, websites, and connected providers."
+      },
+      "layout": "textLeft",
+      "links": [
+        {
+          "label": "View dashboard guide",
+          "href": "/apps/studiodash/dashboard"
+        }
+      ]
+    },
+    {
+      "id": "analytics-drilldown",
+      "heading": "Analytics drilldown from one workspace",
+      "summary": "StudioDash uses dedicated views for app, revenue, website, and provider detail while keeping the navigation anchored in one product workspace.",
+      "body": "The screen helps developers move from a broad health check to the area that explains the change: app status, provider coverage, advertising revenue, website traffic, search visibility, or sync state. That makes the overview useful as a starting point rather than a static marketing screen.",
+      "bullets": [
+        "Supports public documentation for the current StudioDash product direction.",
+        "Explains how individual analytics pages fit into the overall workflow.",
+        "Keeps planned or unavailable provider data separate from live reporting claims."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot2.png",
+        "alt": "StudioDash app and provider analytics view with status and performance panels",
+        "caption": "Detailed views keep provider and app signals close to the main dashboard workflow."
+      },
+      "layout": "textRight",
+      "links": [
+        {
+          "label": "View integrations",
+          "href": "/apps/studiodash/integrations"
+        }
+      ]
+    }
+  ],
   "sections": [
     {
       "id": "what-is-studiodash",

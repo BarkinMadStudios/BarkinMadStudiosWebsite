@@ -118,15 +118,43 @@ function markdownLinksFromValue(value) {
       links.push(...markdownLinksFromValue(item));
     }
   } else if (isObject(value)) {
-    const { question, answer, heading, paragraph, paragraphs, bullets, description, summary } = value;
+    const { question, answer, heading, paragraph, paragraphs, body, bullets, bulletPoints, description, summary } = value;
     links.push(...markdownLinksFromValue(question));
     links.push(...markdownLinksFromValue(answer));
     links.push(...markdownLinksFromValue(heading));
     links.push(...markdownLinksFromValue(paragraph));
     links.push(...markdownLinksFromValue(paragraphs));
+    links.push(...markdownLinksFromValue(body));
     links.push(...markdownLinksFromValue(bullets));
+    links.push(...markdownLinksFromValue(bulletPoints));
     links.push(...markdownLinksFromValue(description));
     links.push(...markdownLinksFromValue(summary));
+  }
+
+  return links;
+}
+
+function explicitLinksFromValue(value) {
+  const links = [];
+  if (value === null || value === undefined) return links;
+
+  if (Array.isArray(value)) {
+    for (const item of value) {
+      links.push(...explicitLinksFromValue(item));
+    }
+    return links;
+  }
+
+  if (!isObject(value)) return links;
+
+  if (isString(value.href)) {
+    links.push({ href: value.href });
+  }
+
+  for (const nested of Object.values(value)) {
+    if (Array.isArray(nested) || isObject(nested)) {
+      links.push(...explicitLinksFromValue(nested));
+    }
   }
 
   return links;
@@ -252,6 +280,76 @@ function validateImageReferences(context, values, imageReport) {
     }
 
     imageReport.found.push(source);
+  }
+}
+
+function validateFeatureShowcases(context, pageSlug, featureShowcases) {
+  if (featureShowcases === undefined) return;
+
+  if (!Array.isArray(featureShowcases)) {
+    addWarning(context, "featureShowcases should be an array", pageSlug);
+    return;
+  }
+
+  for (const [i, showcase] of featureShowcases.entries()) {
+    const showcaseContext = `${context}.featureShowcases[${i}]`;
+
+    if (!isObject(showcase)) {
+      addWarning(showcaseContext, "Feature showcase entry should be an object", pageSlug);
+      continue;
+    }
+
+    if (!isString(showcase.heading)) {
+      addError(showcaseContext, "Feature showcase requires a clear heading", pageSlug);
+    }
+
+    if (showcase.layout !== undefined && !["textLeft", "textRight"].includes(showcase.layout)) {
+      addError(showcaseContext, "Feature showcase layout must be textLeft or textRight", showcase.layout);
+    }
+
+    const image = isObject(showcase.image) ? showcase.image : {
+      src: showcase.imageSrc || showcase.src,
+      alt: showcase.imageAlt || showcase.alt,
+      caption: showcase.caption
+    };
+
+    if (!isString(image.src)) {
+      addError(showcaseContext, "Feature showcase image requires src", pageSlug);
+    }
+
+    if (!isString(image.alt)) {
+      addError(showcaseContext, "Feature showcase image requires meaningful alt text", pageSlug);
+    }
+
+    const bodyValues = [
+      showcase.summary,
+      showcase.body,
+      showcase.paragraphs,
+      showcase.bullets,
+      showcase.bulletPoints
+    ];
+    const hasBodyContent = bodyValues.some((value) => {
+      if (isString(value)) return true;
+      return Array.isArray(value) && value.some(isString);
+    });
+
+    if (!hasBodyContent) {
+      addWarning(showcaseContext, "Feature showcase should include summary, body, paragraphs, or bullet content", pageSlug);
+    }
+
+    for (const linkGroupName of ["links", "internalLinks"]) {
+      if (showcase[linkGroupName] === undefined) continue;
+      if (!Array.isArray(showcase[linkGroupName])) {
+        addWarning(`${showcaseContext}.${linkGroupName}`, "Feature showcase links should be an array", pageSlug);
+        continue;
+      }
+
+      for (const [linkIndex, link] of showcase[linkGroupName].entries()) {
+        if (!isObject(link) || !isString(link.label) || !isString(link.href)) {
+          addWarning(`${showcaseContext}.${linkGroupName}[${linkIndex}]`, "Feature showcase links require label and href", pageSlug);
+        }
+      }
+    }
   }
 }
 
@@ -513,11 +611,15 @@ function validateDetailPage(pagePath, pageSlug, expectedContext) {
     }
   }
 
+  validateFeatureShowcases(context, pageSlug, page.featureShowcases);
+
   const linkContext = `${context}.links`;
   const links = [
     page.summary,
     page.description,
     ...(Array.isArray(page.sections) ? page.sections.flatMap(markdownLinksFromValue) : []),
+    ...(Array.isArray(page.featureShowcases) ? page.featureShowcases.flatMap(markdownLinksFromValue) : []),
+    ...(Array.isArray(page.featureShowcases) ? page.featureShowcases.flatMap(explicitLinksFromValue) : []),
     ...(Array.isArray(page.relatedLinks) ? page.relatedLinks.map(link => ({ href: link.href })) : []),
     ...(Array.isArray(page.faq) ? page.faq.flatMap(markdownLinksFromValue) : [])
   ].filter(Boolean);

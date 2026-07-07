@@ -10,6 +10,31 @@
     "src": "apps/studiodash/studiodash-hero.png",
     "alt": "StudioDash feature overview dashboard"
   },
+  "featureShowcases": [
+    {
+      "id": "feature-workspace",
+      "heading": "Feature workspace built around recurring developer questions",
+      "summary": "The feature set is organised around the checks developers repeat most often: revenue movement, app status, website visibility, provider health, and reporting.",
+      "body": "StudioDash is not presented as a decorative dashboard. The feature workflow is designed to help a developer move from a broad portfolio scan to the provider, app, revenue, or website detail that explains what changed.",
+      "bullets": [
+        "Groups revenue, app, website, and provider signals into one operating model.",
+        "Supports quick scanning while keeping deeper feature pages available.",
+        "Uses clear setup and roadmap language where a provider is not yet live."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot1.png",
+        "alt": "StudioDash feature workspace showing product health and analytics summary cards",
+        "caption": "Feature areas are designed around repeated operating checks for indie app developers."
+      },
+      "layout": "textLeft",
+      "links": [
+        {
+          "label": "View dashboard",
+          "href": "/apps/studiodash/dashboard"
+        }
+      ]
+    }
+  ],
   "sections": [
     {
       "id": "feature-areas",

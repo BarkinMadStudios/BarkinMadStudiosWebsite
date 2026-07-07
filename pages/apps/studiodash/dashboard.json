@@ -10,6 +10,31 @@
     "src": "apps/studiodash/studiodash-hero.png",
     "alt": "StudioDash dashboard workspace"
   },
+  "featureShowcases": [
+    {
+      "id": "daily-operating-view",
+      "heading": "Daily operating view",
+      "summary": "The dashboard screen is the starting point for reviewing app, revenue, website, provider, sync, and trend signals.",
+      "body": "This screen solves the common problem of scattered operational data. Developers can begin with a single workspace, see whether a product or provider needs attention, and then open the specialist analytics page that explains the change.",
+      "bullets": [
+        "Highlights revenue, app status, website activity, provider health, and sync state.",
+        "Keeps cards visible when setup or provider data is missing.",
+        "Connects daily review to dedicated analytics and reporting pages."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot1.png",
+        "alt": "StudioDash daily dashboard with revenue, app status, website activity, provider health, and sync cards",
+        "caption": "The dashboard is designed for fast scanning before deeper analysis."
+      },
+      "layout": "textLeft",
+      "links": [
+        {
+          "label": "View revenue analytics",
+          "href": "/apps/studiodash/revenue-analytics"
+        }
+      ]
+    }
+  ],
   "sections": [
     {
       "id": "dashboard-purpose",

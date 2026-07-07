@@ -10,6 +10,31 @@
     "src": "apps/studiodash/studiodash-hero.png",
     "alt": "StudioDash integrations dashboard"
   },
+  "featureShowcases": [
+    {
+      "id": "provider-status-context",
+      "heading": "Provider status in context",
+      "summary": "StudioDash integrations are documented around provider health, setup state, sync status, and the data each provider can expose.",
+      "body": "The screen matters because a missing metric is often an integration issue rather than a product issue. StudioDash is designed to show whether a provider is connected, needs attention, has no data for the selected period, or remains planned for a later release.",
+      "bullets": [
+        "Brings Apple, Google, Cloudflare, advertising, and source-control signals into one workflow.",
+        "Keeps provider state visible beside the product data it affects.",
+        "Supports conservative public wording for placeholder and roadmap integrations."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot2.png",
+        "alt": "StudioDash integrations view showing app and provider analytics status panels",
+        "caption": "Provider status helps explain what data is available and what still needs setup."
+      },
+      "layout": "textRight",
+      "links": [
+        {
+          "label": "View App Store analytics",
+          "href": "/apps/studiodash/app-store-analytics"
+        }
+      ]
+    }
+  ],
   "sections": [
     {
       "id": "integration-approach",
