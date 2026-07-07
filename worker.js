@@ -371,6 +371,7 @@ nav a:hover { color: #f39c12; }
   display: flex;
   gap: 0.7rem;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .hero-logo {
@@ -526,12 +527,26 @@ h3 { color: #ffcc66; }
 }
 
 .feature-showcase-text {
-  max-height: 34rem;
-  overflow: auto;
+  min-width: 0;
+  min-height: 0;
+  overflow: visible;
+  padding-bottom: 1.35rem;
 }
 
 .feature-showcase-text h2 {
   margin-top: 0;
+}
+
+.feature-showcase-text .button-group {
+  margin-top: 0.45rem;
+  padding-bottom: 0.15rem;
+}
+
+.feature-showcase-text .button-group .btn {
+  margin-top: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  text-align: center;
 }
 
 .feature-showcase-media {
