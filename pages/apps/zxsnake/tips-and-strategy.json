@@ -1,74 +1,77 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "Tips & Strategy",
-  "seoTitle": "ZXSnake Tips and Strategy | BarkinMad Studios",
-  "description": "Practical tactics for improving score consistency and reducing avoidable mistakes in ZXSnake.",
-  "heroImage": "apps/zxsnake/zxsnake-tips-and-strategy.png",
-  "heroImageAlt": "ZXSnake tips and strategy image",
-  "images": [
-    {
-      "src": "apps/zxsnake/zxsnake-tips-and-strategy.png",
-      "alt": "ZXSnake tips and strategy image"
-    }
-  ],
-  "imageSectionTitle": "Tips and Strategy Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "contentStatus": "verified",
-  "sections": [
-    {
-      "id": "tips-and-strategy-summary",
-      "heading": "Tips & Strategy",
-      "paragraphs": [
-        "Practical tactics for improving score consistency and reducing avoidable mistakes in ZXSnake."
-      ]
-    }
-  ],
-  "featureShowcases": [
-    {
-      "id": "practical-improvement",
-      "heading": "ZXSnake tips and strategy",
-      "summary": "ZXSnake strategy turns the basic loop into better repeat sessions through play planning, space management, and safer late-run decisions.",
-      "body": [
-        "The most useful advice is tied to decisions players make during a session, not abstract arcade theory.",
-        "Use these tips after learning the controls, then compare progress through leaderboards and achievements."
-      ],
-      "bullets": [
-        "Focuses on practical player behaviour.",
-        "Learn how strategy to game modes and leaderboards.",
-        "Avoids filler by tying advice to real play decisions."
-      ],
-      "image": {
-        "src": "apps/zxsnake/zxsnake-tips-and-strategy.png",
-        "alt": "ZXSnake tips and strategy artwork",
-        "caption": "ZXSnake tips artwork supports practical improvement guidance."
-      },
-      "links": [
-        {
-          "label": "Compare ZXSnake Game Modes",
-          "href": "/apps/zxsnake/game-modes"
-        },
-        {
-          "label": "Review ZXSnake Leaderboards",
-          "href": "/apps/zxsnake/leaderboards"
-        }
-      ]
-    }
-  ],
-  "summary": "ZXSnake strategy focuses on play planning, space management, and safer late-run decisions.",
-  "relatedLinks": [
-    {
-      "label": "Learn ZXSnake Controls",
-      "href": "/apps/zxsnake/controls"
-    },
-    {
-      "label": "Review ZXSnake Leaderboards",
-      "href": "/apps/zxsnake/leaderboards"
-    },
-    {
-      "label": "Track ZXSnake Achievements",
-      "href": "/apps/zxsnake/achievements"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "Tips & Strategy",
+	"seoTitle": "ZXSnake Tips & Strategy | BarkinMad Studios",
+	"description": "Improve your ZXSnake skills with practical advice for surviving longer, planning ahead, and achieving higher scores.",
+	"heroImage": "apps/zxsnake/zxsnake-tips-and-strategy.png",
+	"heroImageAlt": "ZXSnake Tips & Strategy",
+	"images": [
+		{
+			"src": "apps/zxsnake/zxsnake-tips-and-strategy.png",
+			"alt": "ZXSnake Tips & Strategy",
+			"caption": "Plan ahead, survive longer, and achieve higher scores."
+		}
+	],
+	"imageSectionTitle": "Tips & Strategy",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"contentStatus": "verified",
+	"sections": [
+		{
+			"id": "tips-and-strategy-summary",
+			"heading": "Improve Every Game",
+			"paragraphs": [
+				"ZXSnake rewards careful planning, quick reactions, and smart decisions. Every game gives you another opportunity to survive longer and improve your high score.",
+				"Small improvements in movement and planning quickly add up, helping you unlock achievements, earn BarkinMad Coins, and climb the leaderboards."
+			]
+		}
+	],
+	"featureShowcases": [
+		{
+			"id": "practical-improvement",
+			"heading": "Play Smarter, Survive Longer",
+			"summary": "Simple improvements in planning and movement can dramatically improve your performance.",
+			"body": [
+				"ZXSnake rewards players who think ahead. Planning your route, avoiding unnecessary risks, and leaving yourself room to manoeuvre will help you survive much longer as your snake grows.",
+				"Whether you're chasing a new high score or competing with friends, every game is another opportunity to improve."
+			],
+			"bullets": [
+				"Plan your route ahead.",
+				"Leave yourself space to move.",
+				"Stay calm as the snake grows.",
+				"Compete for higher scores."
+			],
+			"image": {
+				"src": "apps/zxsnake/zxsnake-tips-and-strategy.png",
+				"alt": "ZXSnake Tips & Strategy",
+				"caption": "Every game is another opportunity to improve."
+			},
+			"links": [
+				{
+					"label": "Explore Game Modes",
+					"href": "/apps/zxsnake/game-modes"
+				},
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxsnake/leaderboards"
+				}
+			]
+		}
+	],
+	"summary": "Improve your planning, survive longer, and achieve higher scores with practical ZXSnake strategy.",
+	"relatedLinks": [
+		{
+			"label": "Learn the Controls",
+			"href": "/apps/zxsnake/controls"
+		},
+		{
+			"label": "View Leaderboards",
+			"href": "/apps/zxsnake/leaderboards"
+		},
+		{
+			"label": "View Achievements",
+			"href": "/apps/zxsnake/achievements"
+		}
+	]
 }

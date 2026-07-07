@@ -1,70 +1,72 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXSnake Controls",
-  "seoTitle": "ZXSnake Controls | BarkinMad Studios",
-  "description": "Practical control guidance for building stable movement patterns across all ZXSnake sessions.",
-  "heroImage": "apps/zxsnake/zxsnake-controls.png",
-  "heroImageAlt": "ZXSnake control reference",
-  "images": [
-    {
-      "src": "apps/zxsnake/zxsnake-controls.png",
-      "alt": "ZXSnake controls reference image"
-    }
-  ],
-  "imageSectionTitle": "Controls Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "contentStatus": "verified",
-  "sections": [
-    {
-      "id": "controls-summary",
-      "heading": "ZXSnake Controls",
-      "paragraphs": [
-        "Practical control guidance for building stable movement patterns across all ZXSnake sessions."
-      ]
-    }
-  ],
-  "featureShowcases": [
-    {
-      "id": "control-surface",
-      "heading": "ZXSnake controls",
-      "summary": "ZXSnake control guidance focuses on direction changes and turn timing.",
-      "body": [
-        "Arcade sessions feel better when input timing is predictable, and focus on the practical habits that matter while the game is moving.",
-        "Read this after the how-to-play page when you want to understand what your hands should be doing during a real session."
-      ],
-      "bullets": [
-        "Keeps input guidance close to gameplay.",
-        "Supports both first-time players and returning players.",
-        "Uses the current game artwork to support control guidance."
-      ],
-      "image": {
-        "src": "apps/zxsnake/zxsnake-controls.png",
-        "alt": "ZXSnake controls artwork",
-        "caption": "ZXSnake controls artwork supports input and interaction guidance."
-      },
-      "links": [
-        {
-          "label": "Learn How to Play ZXSnake",
-          "href": "/apps/zxsnake/how-to-play"
-        },
-        {
-          "label": "Improve with ZXSnake Tips & Strategy",
-          "href": "/apps/zxsnake/tips-and-strategy"
-        }
-      ]
-    }
-  ],
-  "summary": "ZXSnake controls focus on direction changes and turn timing.",
-  "relatedLinks": [
-    {
-      "label": "Learn How to Play ZXSnake",
-      "href": "/apps/zxsnake/how-to-play"
-    },
-    {
-      "label": "Improve with ZXSnake Tips & Strategy",
-      "href": "/apps/zxsnake/tips-and-strategy"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXSnake Controls",
+	"seoTitle": "ZXSnake Controls | BarkinMad Studios",
+	"description": "Master ZXSnake's controls with smooth movement, quick reactions, and precise turns.",
+	"heroImage": "apps/zxsnake/zxsnake-controls.png",
+	"heroImageAlt": "ZXSnake controls",
+	"images": [
+		{
+			"src": "apps/zxsnake/zxsnake-controls.png",
+			"alt": "ZXSnake controls",
+			"caption": "Master the controls to survive longer and achieve higher scores."
+		}
+	],
+	"imageSectionTitle": "Controls",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"contentStatus": "verified",
+	"sections": [
+		{
+			"id": "controls-summary",
+			"heading": "Master the Controls",
+			"paragraphs": [
+				"ZXSnake is easy to learn but rewards precise movement and quick decision-making. Every turn matters, so planning your route ahead is just as important as reacting quickly.",
+				"The more confidently you control the snake, the longer you'll survive and the higher your score will become."
+			]
+		}
+	],
+	"featureShowcases": [
+		{
+			"id": "control-surface",
+			"heading": "Stay One Move Ahead",
+			"summary": "Good control is the key to surviving longer and reaching higher scores.",
+			"body": [
+				"Success in ZXSnake comes from planning your next move before you need it. Anticipating corners, avoiding sudden direction changes, and staying aware of your surroundings will help you survive much longer.",
+				"Whether you're aiming for a new personal best or climbing the leaderboards, smooth and deliberate movement will always give you the advantage."
+			],
+			"bullets": [
+				"Plan your route ahead.",
+				"Make smooth, controlled turns.",
+				"Improve your reactions as the snake grows longer."
+			],
+			"image": {
+				"src": "apps/zxsnake/zxsnake-controls.png",
+				"alt": "ZXSnake controls",
+				"caption": "Every move brings you closer to a new high score."
+			},
+			"links": [
+				{
+					"label": "Learn How to Play",
+					"href": "/apps/zxsnake/how-to-play"
+				},
+				{
+					"label": "Read Tips & Strategy",
+					"href": "/apps/zxsnake/tips-and-strategy"
+				}
+			]
+		}
+	],
+	"summary": "Mastering the controls is the first step towards surviving longer, earning higher scores, and climbing the leaderboards.",
+	"relatedLinks": [
+		{
+			"label": "Learn How to Play",
+			"href": "/apps/zxsnake/how-to-play"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxsnake/tips-and-strategy"
+		}
+	]
 }

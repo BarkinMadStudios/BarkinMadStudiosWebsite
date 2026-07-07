@@ -1,70 +1,72 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "Frequently Asked Questions",
-  "seoTitle": "ZXSnake FAQ | BarkinMad Studios",
-  "description": "Answers to common ZXSnake questions about gameplay structure, progression, and account-linked services.",
-  "heroImage": "apps/zxsnake/zxsnake-faq.png",
-  "heroImageAlt": "ZXSnake FAQ hero",
-  "images": [
-    {
-      "src": "apps/zxsnake/zxsnake-faq.png",
-      "alt": "ZXSnake FAQ reference image"
-    }
-  ],
-  "imageSectionTitle": "FAQ Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "contentStatus": "verified",
-  "sections": [
-    {
-      "id": "frequently-asked-questions-summary",
-      "heading": "Frequently Asked Questions",
-      "paragraphs": [
-        "Answers to common ZXSnake questions about gameplay structure, progression, and account-linked services."
-      ]
-    }
-  ],
-  "featureShowcases": [
-    {
-      "id": "quick-answers",
-      "heading": "ZXSnake quick answers",
-      "summary": "The FAQ gives players quick answers about ZXSnake features, progression, support, and current guide status.",
-      "body": [
-        "This matters because players often arrive with one specific question. The page should answer quickly and then point them to the deeper guide when needed.",
-        "Players use this page when they need support context without reading every guide page."
-      ],
-      "bullets": [
-        "Provides concise support answers.",
-        "Links common questions back to the guide.",
-        "Keeps public wording clear and release-safe."
-      ],
-      "image": {
-        "src": "apps/zxsnake/zxsnake-faq.png",
-        "alt": "ZXSnake FAQ artwork",
-        "caption": "ZXSnake FAQ artwork supports support and quick-answer context."
-      },
-      "links": [
-        {
-          "label": "Read the ZXSnake Guide",
-          "href": "/apps/zxsnake/guide"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Read the ZXSnake Guide",
-      "href": "/apps/zxsnake/guide"
-    },
-    {
-      "label": "Learn How to Play ZXSnake",
-      "href": "/apps/zxsnake/how-to-play"
-    },
-    {
-      "label": "Improve with ZXSnake Tips & Strategy",
-      "href": "/apps/zxsnake/tips-and-strategy"
-    }
-  ],
-  "summary": "ZXSnake FAQ answers common questions about gameplay, controls, achievements, leaderboards, BarkinMad Coins, and progression."
+	"documentationSchemaVersion": "1.2.0",
+	"title": "Frequently Asked Questions",
+	"seoTitle": "ZXSnake FAQ | BarkinMad Studios",
+	"description": "Find answers to the most common questions about ZXSnake, including gameplay, achievements, leaderboards, BarkinMad Coins, and progression.",
+	"heroImage": "apps/zxsnake/zxsnake-faq.png",
+	"heroImageAlt": "ZXSnake Frequently Asked Questions",
+	"images": [
+		{
+			"src": "apps/zxsnake/zxsnake-faq.png",
+			"alt": "ZXSnake Frequently Asked Questions",
+			"caption": "Quick answers to help you get the most from ZXSnake."
+		}
+	],
+	"imageSectionTitle": "Frequently Asked Questions",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"contentStatus": "verified",
+	"sections": [
+		{
+			"id": "frequently-asked-questions-summary",
+			"heading": "Frequently Asked Questions",
+			"paragraphs": [
+				"Looking for a quick answer? This page covers some of the most common questions about ZXSnake.",
+				"If you can't find what you're looking for here, explore the guides for more detailed information about gameplay, achievements, leaderboards, and progression."
+			]
+		}
+	],
+	"featureShowcases": [
+		{
+			"id": "quick-answers",
+			"heading": "Quick Answers When You Need Them",
+			"summary": "Find answers to common ZXSnake questions without searching through every guide.",
+			"body": [
+				"Whether you're learning the basics, chasing higher scores, or exploring BarkinMad Coins and achievements, this page provides quick answers to the questions players ask most often.",
+				"For more detailed information, each answer links to the relevant guide so you can continue improving your game."
+			],
+			"bullets": [
+				"Quick answers to common questions.",
+				"Easy links to more detailed guides.",
+				"Helpful for both new and returning players."
+			],
+			"image": {
+				"src": "apps/zxsnake/zxsnake-faq.png",
+				"alt": "ZXSnake Frequently Asked Questions",
+				"caption": "Quick answers to help you enjoy every game."
+			},
+			"links": [
+				{
+					"label": "Read the Complete Guide",
+					"href": "/apps/zxsnake/guide"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Read the Complete Guide",
+			"href": "/apps/zxsnake/guide"
+		},
+		{
+			"label": "Learn How to Play",
+			"href": "/apps/zxsnake/how-to-play"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxsnake/tips-and-strategy"
+		}
+	],
+	"summary": "Quick answers to the most common questions about ZXSnake, helping you improve your gameplay and discover every feature."
 }

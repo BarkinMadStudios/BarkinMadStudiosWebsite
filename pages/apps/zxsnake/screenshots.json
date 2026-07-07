@@ -1,122 +1,125 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXSnake Visual Walkthrough",
-  "seoTitle": "ZXSnake Screenshots | BarkinMad Studios",
-  "description": "ZXSnake visual walkthrough pairing current screenshots and artwork with gameplay, progress, and support context.",
-  "shortDescription": "ZXSnake screenshot gallery",
-  "summary": "ZXSnake screenshots and artwork now work as a visual walkthrough, pairing each image with what the screen shows, why it matters, and how players use it.",
-  "heroImage": "apps/zxsnake/zxsnake-gameplay-01.png",
-  "heroImageAlt": "ZXSnake visual walkthrough",
-  "images": [
-    {
-      "src": "apps/zxsnake/zxsnake-gameplay-01.png",
-      "alt": "ZXSnake gameplay overview"
-    },
-    {
-      "src": "apps/zxsnake/zxsnake-gameplay-02.png",
-      "alt": "ZXSnake solo play"
-    },
-    {
-      "src": "apps/zxsnake/zxsnake-gameplay-03.png",
-      "alt": "ZXSnake gameplay progression"
-    }
-  ],
-  "screenshotSectionTitle": "Screenshots",
-  "imageSectionTitle": "Screenshots",
-  "estimatedReadTimeMinutes": 4,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "sections": [
-    {
-      "id": "visual-walkthrough-standard",
-      "heading": "Visual walkthrough standard",
-      "paragraphs": [
-        "Each ZXSnake screenshot shows what to look for, why it matters, and how to use it during play.",
-        "The current website image set is used as a visual walkthrough of the public app experience."
-      ]
-    }
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "visual-1",
-      "heading": "Core gameplay view",
-      "summary": "This view shows the main ZXSnake play experience and the visual style players see during snake survival runs.",
-      "body": [
-        "It matters because players should understand what the screen is for, not only see the artwork.",
-        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
-      ],
-      "bullets": [
-        "Shows the current public website image set.",
-        "Pairs the image with practical player context.",
-        "Can be replaced later with dedicated capture artwork without changing the layout."
-      ],
-      "image": {
-        "src": "apps/zxsnake/zxsnake-gameplay-01.png",
-        "alt": "ZXSnake Core gameplay view",
-        "caption": "Core gameplay view for ZXSnake."
-      },
-      "links": [
-        {
-          "label": "Read the ZXSnake Guide",
-          "href": "/apps/zxsnake/guide"
-        },
-        {
-          "label": "Open ZXSnake Overview",
-          "href": "/apps/zxsnake"
-        }
-      ]
-    },
-    {
-      "id": "visual-2",
-      "heading": "Player action view",
-      "summary": "This view supports the player workflow during active play, where inputs and timing matter most.",
-      "body": [
-        "It matters because players should understand what the screen is for, not only see the artwork.",
-        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
-      ],
-      "bullets": [
-        "Shows the current public website image set.",
-        "Pairs the image with practical player context.",
-        "Can be replaced later with dedicated capture artwork without changing the layout."
-      ],
-      "image": {
-        "src": "apps/zxsnake/zxsnake-gameplay-02.png",
-        "alt": "ZXSnake Player action view",
-        "caption": "Player action view for ZXSnake."
-      },
-      "links": [
-        {
-          "label": "Learn ZXSnake Controls",
-          "href": "/apps/zxsnake/controls"
-        }
-      ],
-      "layout": "textRight"
-    },
-    {
-      "id": "visual-3",
-      "heading": "Progression view",
-      "summary": "This screenshot supports score goals, achievements, leaderboards, and repeat-session planning.",
-      "body": [
-        "It matters because players should understand what the screen is for, not only see the artwork.",
-        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
-      ],
-      "bullets": [
-        "Shows the current public website image set.",
-        "Pairs the image with practical player context.",
-        "Can be replaced later with dedicated capture artwork without changing the layout."
-      ],
-      "image": {
-        "src": "apps/zxsnake/zxsnake-gameplay-03.png",
-        "alt": "ZXSnake Progression view",
-        "caption": "Progression view for ZXSnake."
-      },
-      "links": [
-        {
-          "label": "Review ZXSnake Leaderboards",
-          "href": "/apps/zxsnake/leaderboards"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXSnake Visual Walkthrough",
+	"seoTitle": "ZXSnake Screenshots | BarkinMad Studios",
+	"description": "Take a visual tour of ZXSnake and explore its gameplay, progression, multiplayer, and arcade action.",
+	"shortDescription": "A visual tour of ZXSnake",
+	"summary": "Explore ZXSnake through screenshots that showcase the gameplay, progression, and features that make every game unique.",
+	"heroImage": "apps/zxsnake/zxsnake-gameplay-01.png",
+	"heroImageAlt": "ZXSnake visual walkthrough",
+	"images": [
+		{
+			"src": "apps/zxsnake/zxsnake-gameplay-01.png",
+			"alt": "ZXSnake gameplay",
+			"caption": "Begin your journey and grow your snake."
+		},
+		{
+			"src": "apps/zxsnake/zxsnake-gameplay-02.png",
+			"alt": "ZXSnake Solo Play",
+			"caption": "Survive longer and chase a new high score."
+		},
+		{
+			"src": "apps/zxsnake/zxsnake-gameplay-03.png",
+			"alt": "ZXSnake gameplay",
+			"caption": "Every game is another opportunity to improve."
+		}
+	],
+	"screenshotSectionTitle": "Screenshots",
+	"imageSectionTitle": "Screenshots",
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"sections": [
+		{
+			"id": "visual-walkthrough-standard",
+			"heading": "Take a Tour of ZXSnake",
+			"paragraphs": [
+				"These screenshots introduce the main areas of ZXSnake, helping you become familiar with the game before or during play.",
+				"Follow the journey from your first game through to high-score chasing, achievements, and multiplayer competition."
+			]
+		}
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "visual-1",
+			"heading": "Begin Your Adventure",
+			"summary": "Every game starts with a small snake and the challenge of surviving for as long as possible.",
+			"body": [
+				"ZXSnake is easy to learn but rewarding to master. Every piece of food collected makes your snake longer while increasing the challenge of avoiding collisions.",
+				"The further you survive, the higher your score becomes."
+			],
+			"bullets": [
+				"Collect food.",
+				"Grow your snake.",
+				"Beat your highest score."
+			],
+			"image": {
+				"src": "apps/zxsnake/zxsnake-gameplay-01.png",
+				"alt": "ZXSnake gameplay",
+				"caption": "Every great run begins with a single piece of food."
+			},
+			"links": [
+				{
+					"label": "Read the Complete Guide",
+					"href": "/apps/zxsnake/guide"
+				},
+				{
+					"label": "View the Overview",
+					"href": "/apps/zxsnake"
+				}
+			]
+		},
+		{
+			"id": "visual-2",
+			"heading": "Master Your Skills",
+			"layout": "textRight",
+			"summary": "Quick thinking, careful planning, and smooth movement are the keys to success.",
+			"body": [
+				"As your snake grows, planning ahead becomes increasingly important. Learning to anticipate every turn will help you survive much longer and achieve higher scores.",
+				"Whether you're playing Solo or competing against others, strong fundamentals always make a difference."
+			],
+			"bullets": [
+				"Plan every move ahead.",
+				"Stay calm as the snake grows.",
+				"Improve your reactions."
+			],
+			"image": {
+				"src": "apps/zxsnake/zxsnake-gameplay-02.png",
+				"alt": "ZXSnake Solo Play",
+				"caption": "Every move matters."
+			},
+			"links": [
+				{
+					"label": "Learn the Controls",
+					"href": "/apps/zxsnake/controls"
+				}
+			]
+		},
+		{
+			"id": "visual-3",
+			"heading": "Play, Improve, Repeat",
+			"summary": "Achievements, leaderboards, and BarkinMad Coins reward every game you play.",
+			"body": [
+				"Every completed game helps you unlock achievements, earn BarkinMad Coins, and compete for higher scores on the Game Center leaderboards.",
+				"The more you play, the more rewarding every session becomes."
+			],
+			"bullets": [
+				"Unlock achievements.",
+				"Earn BarkinMad Coins.",
+				"Compete for higher scores."
+			],
+			"image": {
+				"src": "apps/zxsnake/zxsnake-gameplay-03.png",
+				"alt": "ZXSnake progression",
+				"caption": "Every game brings you closer to your next goal."
+			},
+			"links": [
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxsnake/leaderboards"
+				}
+			]
+		}
+	]
 }

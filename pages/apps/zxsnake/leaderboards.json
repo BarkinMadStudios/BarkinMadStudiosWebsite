@@ -1,70 +1,72 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "Leaderboards",
-  "seoTitle": "ZXSnake Leaderboards | BarkinMad Studios",
-  "description": "How leaderboard ranking is structured and how to use score comparisons effectively.",
-  "heroImage": "apps/zxsnake/zxsnake-leaderboards.png",
-  "heroImageAlt": "ZXSnake leaderboards hero",
-  "images": [
-    {
-      "src": "apps/zxsnake/zxsnake-leaderboards.png",
-      "alt": "ZXSnake leaderboards screen"
-    }
-  ],
-  "imageSectionTitle": "Leaderboards Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "contentStatus": "verified",
-  "sections": [
-    {
-      "id": "leaderboards-summary",
-      "heading": "Leaderboards",
-      "paragraphs": [
-        "How leaderboard ranking is structured and how to use score comparisons effectively."
-      ]
-    }
-  ],
-  "featureShowcases": [
-    {
-      "id": "competitive-comparison",
-      "heading": "ZXSnake leaderboards",
-      "summary": "Leaderboards explain how score comparison fits into ZXSnake.",
-      "body": [
-        "This matters because arcade games are built around improvement. Leaderboards give players a clear reason to replay, refine inputs, and chase stronger results.",
-        "Players use this page after play to understand supported comparison surfaces and how leaderboard goals sit beside personal improvement."
-      ],
-      "bullets": [
-        "Learn how score chasing to supported comparison.",
-        "Works with achievements and tips.",
-        "Keeps competitive wording clear and player-facing."
-      ],
-      "image": {
-        "src": "apps/zxsnake/zxsnake-leaderboards.png",
-        "alt": "ZXSnake leaderboards artwork",
-        "caption": "ZXSnake leaderboard artwork supports score comparison and replay goals."
-      },
-      "links": [
-        {
-          "label": "View achievements",
-          "href": "/apps/zxsnake/achievements"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Improve with ZXSnake Tips & Strategy",
-      "href": "/apps/zxsnake/tips-and-strategy"
-    },
-    {
-      "label": "Track ZXSnake Achievements",
-      "href": "/apps/zxsnake/achievements"
-    },
-    {
-      "label": "Compare ZXSnake Game Modes",
-      "href": "/apps/zxsnake/game-modes"
-    }
-  ],
-  "summary": "ZXSnake leaderboards help players compare scores, track progress, and use repeat sessions to improve high-score consistency."
+	"documentationSchemaVersion": "1.2.0",
+	"title": "Leaderboards",
+	"seoTitle": "ZXSnake Leaderboards | BarkinMad Studios",
+	"description": "Compete for the highest score in ZXSnake and compare your performance with players around the world through Apple Game Center.",
+	"heroImage": "apps/zxsnake/zxsnake-leaderboards.png",
+	"heroImageAlt": "ZXSnake leaderboards",
+	"images": [
+		{
+			"src": "apps/zxsnake/zxsnake-leaderboards.png",
+			"alt": "ZXSnake leaderboards",
+			"caption": "Compete for higher scores and climb the leaderboard."
+		}
+	],
+	"imageSectionTitle": "Leaderboards",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"contentStatus": "verified",
+	"sections": [
+		{
+			"id": "leaderboards-summary",
+			"heading": "Compete for the Highest Score",
+			"paragraphs": [
+				"ZXSnake includes Apple Game Center leaderboards where you can compare your best scores with players around the world.",
+				"Every game is another opportunity to improve your personal best, climb the rankings, and see how far your skills can take you."
+			]
+		}
+	],
+	"featureShowcases": [
+		{
+			"id": "competitive-comparison",
+			"heading": "Every Game Is a New Challenge",
+			"summary": "Compete for higher scores, beat your personal best, and climb the leaderboard.",
+			"body": [
+				"Every game of ZXSnake helps you improve your score and move closer to the top of the leaderboard. As your planning, reactions, and survival skills improve, so will your position in the rankings.",
+				"Combined with achievements and BarkinMad Coins, leaderboards give you another reason to keep coming back for one more game."
+			],
+			"bullets": [
+				"Compete for the highest score.",
+				"Track your personal best.",
+				"Works alongside achievements and BarkinMad Coins."
+			],
+			"image": {
+				"src": "apps/zxsnake/zxsnake-leaderboards.png",
+				"alt": "ZXSnake leaderboards",
+				"caption": "Every game is another opportunity to climb the leaderboard."
+			},
+			"links": [
+				{
+					"label": "View Achievements",
+					"href": "/apps/zxsnake/achievements"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxsnake/tips-and-strategy"
+		},
+		{
+			"label": "View Achievements",
+			"href": "/apps/zxsnake/achievements"
+		},
+		{
+			"label": "Explore Game Modes",
+			"href": "/apps/zxsnake/game-modes"
+		}
+	],
+	"summary": "Compete for higher scores, track your progress, and challenge yourself through Apple Game Center leaderboards."
 }

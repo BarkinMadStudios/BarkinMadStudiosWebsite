@@ -1,257 +1,199 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXSnake Complete Guide",
-  "seoTitle": "ZXSnake Complete Guide | BarkinMad Studios",
-  "description": "A full text guide for ZXSnake covering controls, game flow, scoring, progression systems, and practical improvement methods.",
-  "summary": "Everything you need in one place for ZXSnake so you can jump straight into play with clear guidance.",
-  "heroImage": "apps/zxsnake/zxsnake-hero.png",
-  "heroImageAlt": "ZXSnake gameplay screen with retro visuals",
-  "imageMetadata": [
-    {
-      "src": "apps/zxsnake/zxsnake-hero.png",
-      "alt": "ZXSnake hero banner",
-      "purpose": "hero",
-      "width": 1871,
-      "height": 840,
-      "usage": [
-        "docs",
-        "website",
-        "news"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "what-it-is",
-      "heading": "What ZXSnake is",
-      "paragraphs": [
-        "ZXSnake is a ZX Series arcade snake game with core movement-based gameplay and persistent progression.",
-        "Players create a snake run by steering direction, collecting items, avoiding collisions, and extending session quality over time."
-      ]
-    },
-    {
-      "id": "core-loop",
-      "heading": "Core gameplay loop",
-      "paragraphs": [
-        "A run typically begins with a short setup, continues through active movement, then ends at a defined collision or completion outcome.",
-        "Score quality improves when runs are repeated with consistent tempo, cleaner correction choices, and fewer avoidable errors.",
-        "Use one small, measurable target per session so learning stays stable under pressure."
-      ]
-    },
-    {
-      "id": "controls",
-      "heading": "Controls and input rhythm",
-      "paragraphs": [
-        "ZXSnake uses immediate direction input and responds to short, intentional commands.",
-        "Prefer one clean turn at a time over rapid over-correction. Overly frequent inputs usually increase collision risk and reduce run length.",
-        "If you are practicing on touch devices, use relaxed movement timing: react once a turn is clear, then immediately reset your focus for the next move."
-      ],
-      "bullets": [
-        "Maintain a clear direction intention before every directional change",
-        "Avoid input spikes when approaching dense sections",
-        "Use short warm-up sessions before introducing new timing goals"
-      ]
-    },
-    {
-      "id": "session-setup",
-      "heading": "Session setup and cadence",
-      "paragraphs": [
-        "Set a practical tempo before your run and protect that tempo with short intervals.",
-        "For faster learning, split play into blocks: 1-2 focused attempts, review, then another short block.",
-        "This cadence reduces fatigue and makes it easier to identify one change that truly helped your score."
-      ]
-    },
-    {
-      "id": "scoring-and-goals",
-      "heading": "Scoring and score goals",
-      "paragraphs": [
-        "Scoring is primarily session-based and benefits from longer clean paths rather than impulsive recovery moves.",
-        "A good score target is one where you can reliably reproduce flow consistency from run to run.",
-        "Track top score trends, average score trends, and error rate; treat the highest session as less important than repeatable growth."
-      ]
-    },
-    {
-      "id": "solo-training",
-      "heading": "Solo play progression",
-      "paragraphs": [
-        "Solo is the baseline training environment. Use it to isolate input habits and tune movement rhythm.",
-        "Choose one play style per short block, then increase complexity only after you can hit the same target in at least three attempts.",
-        "This creates reliable transfer when you return to competitive modes or mixed pressure play."
-      ],
-      "bullets": [
-        "Begin with short clean runs",
-        "Focus on reducing death counts first",
-        "Increase speed goals only after a stable run pattern is built"
-      ]
-    },
-    {
-      "id": "ai-and-multiplayer",
-      "heading": "AI and multiplayer modes",
-      "paragraphs": [
-        "AI opponents are useful for practicing pressure, pattern anticipation, and score urgency without needing a second human player.",
-        "PvP introduces stronger timing demands and forces cleaner decision-making under interruption and uncertainty.",
-        "Use PvP as a performance checkpoint after you have a stable solo baseline to avoid reinforcement of bad habits."
-      ],
-      "bullets": [
-        "Use AI first for controlled pressure",
-        "Switch to PvP for live tactical adaptation",
-        "Review mistakes immediately and convert each run into one tactical focus"
-      ]
-    },
-    {
-      "id": "progression-systems",
-      "heading": "Progression systems",
-      "paragraphs": [
-        "Progression in ZXSnake is not only score. Achievements and BarkinMad Coins add session context and long-term consistency.",
-        "Treat each session as one step in three tracks: immediate score, completion milestones, and wallet progression.",
-        "The strongest approach is small-session consistency combined with milestone windows and reset points between blocks."
-      ]
-    },
-    {
-      "id": "achievements",
-      "heading": "Achievement planning",
-      "paragraphs": [
-        "Achievements are cumulative targets designed to reward sustained play over time.",
-        "Prioritise one achievement target each run block and stop when the current target is met before moving to the next.",
-        "This prevents overload and keeps progression decisions measurable and meaningful."
-      ]
-    },
-    {
-      "id": "coins",
-      "heading": "BarkinMad Coins",
-      "paragraphs": [
-        "BarkinMad Coins are shared across the ZX Series and used for progression tied to reward and cosmetic systems.",
-        "Coins are typically earned through gameplay and best treated as a persistent goal layer, separate from isolated score spikes.",
-        "Link session goals to both score and coin progress so progression remains stable even when leaderboard conditions are tight."
-      ]
-    },
-    {
-      "id": "leaderboards",
-      "heading": "Leaderboards and ranking behavior",
-      "paragraphs": [
-        "Leaderboards compare match outcomes and expose category pressure where competition is strongest.",
-        "Use them as a target-setting tool: choose a score category, define a near-term target, and test whether your session habits move that target.",
-        "If a session dips in performance, simplify targets until your movement and timing return to baseline quality."
-      ]
-    },
-    {
-      "id": "accessibility",
-      "heading": "Accessibility and readability",
-      "paragraphs": [
-        "This complete guide page exists to make ZXSnake content directly readable by screen readers, search crawlers, and accessibility-first users.",
-        "Keep each topic in one guide path, with screenshots where they help you practice.",
-        "Use this page as the one canonical source for onboarding links and help pages.",
-        "Keep gameplay pages concise so players first encounter visual cues and then choose this section for full text depth."
-      ]
-    }
-  ],
-  "faq": [
-    {
-      "question": "Is ZXSnake available only on iPhone?",
-      "answer": "This guide is currently tuned for iPhone; linked pages and steps will match that support range."
-    },
-    {
-      "question": "Can this be used as a setup checklist before each play session?",
-      "answer": "Yes. Use the core loop, controls, and score goals from this page as a playbook before each short session block."
-    },
-    {
-      "question": "How are achievements, leaderboards, and coins connected?",
-      "answer": "They are separate systems that reward different dimensions of play: milestones, competitive score comparison, and shared progression economy."
-    }
-  ],
-  "estimatedReadTimeMinutes": 14,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXSnake",
-    "ZX Snake",
-    "ZX Series",
-    "snake game",
-    "arcade",
-    "controls",
-    "BarkinMad Coins",
-    "achievements",
-    "leaderboards",
-    "solo",
-    "PvP"
-  ],
-  "relatedPages": [
-    "overview",
-    "how-to-play",
-    "controls",
-    "game-modes",
-    "barkinmad-coins",
-    "achievements",
-    "leaderboards",
-    "tips-and-strategy",
-    "frequently-asked-questions"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "complete-guide-route",
-      "heading": "ZXSnake complete guide",
-      "summary": "Get setup, play, progress, and support guidance in one practical guide path.",
-      "body": [
-        "This matters because the ZX Series pages should feel consistent across all games. The guide helps players move from the overview into the exact page they need without losing context.",
-        "Players use this page as the main map when they want a complete explanation rather than a single topic."
-      ],
-      "bullets": [
-        "Learn how setup, controls, modes, tips, achievements, leaderboards, FAQ, and screenshots.",
-        "Keeps your guide path consistent across ZXSnake, ZXBrick, ZXPong, and ZXSpace.",
-        "Uses the current game artwork to support the guide workflow."
-      ],
-      "image": {
-        "src": "apps/zxsnake/zxsnake-hero.png",
-        "alt": "ZXSnake guide artwork",
-        "caption": "ZXSnake hero artwork represents the full guide flow."
-      },
-      "links": [
-        {
-          "label": "View screenshots",
-          "href": "/apps/zxsnake/screenshots"
-        }
-      ]
-    },
-    {
-      "id": "from-play-to-progress",
-      "heading": "From play to progress",
-      "summary": "Learn a session rhythm: what to do now and what to review before your next round.",
-      "body": [
-        "This matters because arcade games are easy to start but deeper when players understand scoring, progress, and goals.",
-        "Players use the guide to connect active play with achievements, leaderboards, BarkinMad Coins, and support pages."
-      ],
-      "bullets": [
-        "Supports both first-session learning and repeat play.",
-        "Keeps progression pages tied to gameplay.",
-        "Makes image presentation consistent with StudioDash and Game of Darts pages."
-      ],
-      "image": {
-        "src": "apps/zxsnake/zxsnake-gameplay-02.png",
-        "alt": "ZXSnake gameplay and progress artwork",
-        "caption": "Use this artwork as your reminder of what to focus on after each game session."
-      },
-      "links": [
-        {
-          "label": "View overview",
-          "href": "/apps/zxsnake"
-        }
-      ],
-      "layout": "textRight"
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Learn How to Play ZXSnake",
-      "href": "/apps/zxsnake/how-to-play"
-    },
-    {
-      "label": "Learn ZXSnake Controls",
-      "href": "/apps/zxsnake/controls"
-    },
-    {
-      "label": "Improve with ZXSnake Tips & Strategy",
-      "href": "/apps/zxsnake/tips-and-strategy"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXSnake Complete Guide",
+	"seoTitle": "ZXSnake Complete Guide | BarkinMad Studios",
+	"description": "Everything you need to know about ZXSnake, from mastering the controls to achieving high scores, unlocking achievements, and competing online.",
+	"summary": "Learn how to play ZXSnake, improve your skills, unlock rewards, and master every game mode.",
+	"heroImage": "apps/zxsnake/zxsnake-hero.png",
+	"heroImageAlt": "ZXSnake gameplay",
+	"imageMetadata": [
+		{
+			"src": "apps/zxsnake/zxsnake-hero.png",
+			"alt": "ZXSnake hero artwork",
+			"purpose": "hero",
+			"width": 1871,
+			"height": 840,
+			"usage": [
+				"docs",
+				"website",
+				"news"
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "what-it-is",
+			"heading": "Welcome to ZXSnake",
+			"paragraphs": [
+				"ZXSnake is a modern take on the classic arcade snake game and part of the ZX Series from BarkinMad Studios.",
+				"Guide your snake around the arena, collect food, grow longer, avoid collisions, and challenge yourself to achieve higher scores with every game."
+			]
+		},
+		{
+			"id": "core-loop",
+			"heading": "How to Play",
+			"paragraphs": [
+				"Every game begins with a small snake. Collect food to grow longer while avoiding walls, obstacles, and your own tail.",
+				"As the snake grows, careful planning and quick reactions become increasingly important."
+			]
+		},
+		{
+			"id": "controls",
+			"heading": "Master the Controls",
+			"paragraphs": [
+				"Quick, confident turns are the key to surviving longer games. Try to plan your route ahead instead of reacting at the last second.",
+				"The more comfortable you become with the controls, the easier it is to navigate tight spaces as your snake grows."
+			]
+		},
+		{
+			"id": "game-modes",
+			"heading": "Choose Your Challenge",
+			"paragraphs": [
+				"ZXSnake offers multiple ways to play, whether you're practising on your own, challenging friends, or competing online.",
+				"Each mode offers a different experience while sharing the same classic snake gameplay."
+			]
+		},
+		{
+			"id": "scoring",
+			"heading": "High Scores",
+			"paragraphs": [
+				"Every piece of food collected increases your score, but surviving longer is the key to achieving truly impressive results.",
+				"The best players balance careful planning with quick reactions, allowing them to keep growing without becoming trapped."
+			]
+		},
+		{
+			"id": "achievements",
+			"heading": "Achievements",
+			"paragraphs": [
+				"Game Center achievements reward regular play and important gameplay milestones.",
+				"Every achievement gives you another reason to keep improving your skills."
+			]
+		},
+		{
+			"id": "coins",
+			"heading": "BarkinMad Coins",
+			"paragraphs": [
+				"Earn BarkinMad Coins through gameplay and use them to unlock cosmetic rewards across supported ZX Series games.",
+				"Coins reward regular play without changing the classic arcade experience."
+			]
+		},
+		{
+			"id": "leaderboards",
+			"heading": "Leaderboards",
+			"paragraphs": [
+				"Compete against players around the world through Game Center and see how your best scores compare.",
+				"Every game is another opportunity to climb the rankings."
+			]
+		},
+		{
+			"id": "tips",
+			"heading": "Tips & Strategy",
+			"paragraphs": [
+				"Plan ahead, stay calm, and avoid unnecessary risks. Small improvements in positioning and decision-making will help you survive much longer.",
+				"Every game teaches something new, so don't be afraid to learn from your mistakes."
+			]
+		}
+	],
+	"faq": [
+		{
+			"question": "Can I play ZXSnake on my own?",
+			"answer": "Yes. Solo mode is perfect for practising and improving your high score."
+		},
+		{
+			"question": "Do achievements, leaderboards, and BarkinMad Coins work together?",
+			"answer": "Yes. Every game contributes towards achievements, leaderboard progress, and earning BarkinMad Coins."
+		}
+	],
+	"estimatedReadTimeMinutes": 12,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXSnake",
+		"snake game",
+		"ZX Series",
+		"leaderboards",
+		"achievements",
+		"BarkinMad Coins"
+	],
+	"relatedPages": [
+		"overview",
+		"how-to-play",
+		"controls",
+		"game-modes",
+		"barkinmad-coins",
+		"achievements",
+		"leaderboards",
+		"tips-and-strategy",
+		"frequently-asked-questions"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "complete-guide-route",
+			"heading": "Everything You Need to Master ZXSnake",
+			"summary": "From your first game to your highest score, this guide explains every part of ZXSnake.",
+			"body": [
+				"Whether you're just getting started or aiming for the top of the leaderboards, this guide brings together everything you need in one place.",
+				"Learn the controls, explore the game modes, unlock achievements, earn BarkinMad Coins, and improve your high scores."
+			],
+			"bullets": [
+				"Learn the controls.",
+				"Master every game mode.",
+				"Unlock achievements and rewards.",
+				"Compete on the leaderboards."
+			],
+			"image": {
+				"src": "apps/zxsnake/zxsnake-hero.png",
+				"alt": "ZXSnake Complete Guide",
+				"caption": "Everything you need to become a ZXSnake master."
+			},
+			"links": [
+				{
+					"label": "View Screenshots",
+					"href": "/apps/zxsnake/screenshots"
+				}
+			]
+		},
+		{
+			"id": "from-play-to-progress",
+			"heading": "Every Game Helps You Improve",
+			"summary": "Achievements, leaderboards, and BarkinMad Coins reward every game you play.",
+			"body": [
+				"As your skills improve, you'll unlock achievements, climb the leaderboards, and earn BarkinMad Coins to unlock cosmetic rewards across the ZX Series.",
+				"Every game helps you become a stronger player."
+			],
+			"bullets": [
+				"Improve your skills.",
+				"Unlock achievements.",
+				"Earn BarkinMad Coins.",
+				"Compete for higher scores."
+			],
+			"image": {
+				"src": "apps/zxsnake/zxsnake-gameplay-02.png",
+				"alt": "ZXSnake gameplay",
+				"caption": "Every game brings you closer to your next achievement."
+			},
+			"links": [
+				{
+					"label": "View Overview",
+					"href": "/apps/zxsnake"
+				}
+			],
+			"layout": "textRight"
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn How to Play",
+			"href": "/apps/zxsnake/how-to-play"
+		},
+		{
+			"label": "Learn the Controls",
+			"href": "/apps/zxsnake/controls"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxsnake/tips-and-strategy"
+		}
+	]
 }

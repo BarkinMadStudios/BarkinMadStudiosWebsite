@@ -1,74 +1,77 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "How to Play ZXSnake",
-  "seoTitle": "How to Play ZXSnake | BarkinMad Studios",
-  "description": "Understand the ZXSnake objective, score structure, and game flow from launch to end-of-run decisions.",
-  "heroImage": "apps/zxsnake/zxsnake-how-to-play.png",
-  "heroImageAlt": "ZXSnake gameplay reference",
-  "images": [
-    {
-      "src": "apps/zxsnake/zxsnake-how-to-play.png",
-      "alt": "ZXSnake gameplay reference"
-    }
-  ],
-  "imageSectionTitle": "How to Play Images",
-  "estimatedReadTimeMinutes": 4,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "contentStatus": "verified",
-  "sections": [
-    {
-      "id": "how-to-play-summary",
-      "heading": "How to Play ZXSnake",
-      "paragraphs": [
-        "Understand the ZXSnake objective, score structure, and game flow from launch to end-of-run decisions."
-      ]
-    }
-  ],
-  "featureShowcases": [
-    {
-      "id": "first-session-flow",
-      "heading": "Start playing ZXSnake",
-      "summary": "Learn the core ZXSnake session flow: guide the snake, collect food, avoid collisions, and turn each run into a stronger score attempt.",
-      "body": [
-        "This gives new players enough context to start a session confidently and understand what the game is measuring.",
-        "Use this page first, then move into controls, game modes, and strategy when you want to improve consistency."
-      ],
-      "bullets": [
-        "Learn the flow from launch into active play.",
-        "Learn how controls, modes, and progress tracking.",
-        "Keeps beginner guidance practical and player-facing."
-      ],
-      "image": {
-        "src": "apps/zxsnake/zxsnake-how-to-play.png",
-        "alt": "ZXSnake how to play screen",
-        "caption": "ZXSnake how-to-play artwork shows the player flow into gameplay."
-      },
-      "links": [
-        {
-          "label": "Learn ZXSnake Controls",
-          "href": "/apps/zxsnake/controls"
-        },
-        {
-          "label": "Compare ZXSnake Game Modes",
-          "href": "/apps/zxsnake/game-modes"
-        }
-      ]
-    }
-  ],
-  "summary": "ZXSnake starts with a clear arcade loop: guide the snake, collect food, avoid collisions, and turn each run into a stronger score attempt.",
-  "relatedLinks": [
-    {
-      "label": "Learn ZXSnake Controls",
-      "href": "/apps/zxsnake/controls"
-    },
-    {
-      "label": "Compare ZXSnake Game Modes",
-      "href": "/apps/zxsnake/game-modes"
-    },
-    {
-      "label": "Improve with ZXSnake Tips & Strategy",
-      "href": "/apps/zxsnake/tips-and-strategy"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "How to Play ZXSnake",
+	"seoTitle": "How to Play ZXSnake | BarkinMad Studios",
+	"description": "Learn how to play ZXSnake, collect food, grow your snake, avoid collisions, and achieve higher scores.",
+	"heroImage": "apps/zxsnake/zxsnake-how-to-play.png",
+	"heroImageAlt": "ZXSnake gameplay",
+	"images": [
+		{
+			"src": "apps/zxsnake/zxsnake-how-to-play.png",
+			"alt": "ZXSnake gameplay",
+			"caption": "Guide your snake, collect food, and survive for as long as possible."
+		}
+	],
+	"imageSectionTitle": "How to Play",
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"contentStatus": "verified",
+	"sections": [
+		{
+			"id": "how-to-play-summary",
+			"heading": "How to Play ZXSnake",
+			"paragraphs": [
+				"Guide your snake around the arena, collect food to grow longer, and avoid collisions with walls, obstacles, and your own tail.",
+				"The longer you survive, the higher your score becomes. Every game is another opportunity to improve your reactions and beat your personal best."
+			]
+		}
+	],
+	"featureShowcases": [
+		{
+			"id": "first-session-flow",
+			"heading": "Start Your First Game",
+			"summary": "Everything you need to begin playing ZXSnake with confidence.",
+			"body": [
+				"ZXSnake is easy to learn but rewarding to master. Begin by collecting food, growing your snake, and planning your route ahead to avoid collisions.",
+				"As your confidence grows, you'll unlock achievements, earn BarkinMad Coins, and compete for higher scores on the leaderboards."
+			],
+			"bullets": [
+				"Collect food to grow longer.",
+				"Avoid collisions.",
+				"Beat your highest score.",
+				"Prepare for multiplayer challenges."
+			],
+			"image": {
+				"src": "apps/zxsnake/zxsnake-how-to-play.png",
+				"alt": "ZXSnake gameplay",
+				"caption": "Everything you need to begin your ZXSnake adventure."
+			},
+			"links": [
+				{
+					"label": "Learn the Controls",
+					"href": "/apps/zxsnake/controls"
+				},
+				{
+					"label": "Explore Game Modes",
+					"href": "/apps/zxsnake/game-modes"
+				}
+			]
+		}
+	],
+	"summary": "Guide your snake, collect food, survive longer, and improve your score with every game.",
+	"relatedLinks": [
+		{
+			"label": "Learn the Controls",
+			"href": "/apps/zxsnake/controls"
+		},
+		{
+			"label": "Explore Game Modes",
+			"href": "/apps/zxsnake/game-modes"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxsnake/tips-and-strategy"
+		}
+	]
 }
