@@ -1,70 +1,72 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "Achievements",
-  "seoTitle": "ZXSnake Achievements | BarkinMad Studios",
-  "description": "Understand achievement milestones and practical ways to approach them in regular play.",
-  "heroImage": "apps/zxsnake/zxsnake-achievements.png",
-  "heroImageAlt": "ZXSnake achievements hero image",
-  "images": [
-    {
-      "src": "apps/zxsnake/zxsnake-achievements.png",
-      "alt": "ZXSnake achievements reference"
-    }
-  ],
-  "imageSectionTitle": "Achievements Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "contentStatus": "verified",
-  "sections": [
-    {
-      "id": "achievements-summary",
-      "heading": "Achievements",
-      "paragraphs": [
-        "Understand achievement milestones and practical ways to approach them in regular play."
-      ]
-    }
-  ],
-  "featureShowcases": [
-    {
-      "id": "achievement-goals",
-      "heading": "ZXSnake achievements",
-      "summary": "Achievements give ZXSnake players optional goals beyond a single run or match.",
-      "body": [
-        "This matters because players often want a reason to revisit the game after learning the basics. Achievement goals add structure without changing the core arcade loop.",
-        "Players use this page after playing to understand which progress tracking are supported and how achievements relate to regular sessions."
-      ],
-      "bullets": [
-        "Learn how repeat play to optional goals.",
-        "Keeps achievement wording tied to supported game behaviour.",
-        "Pairs naturally with leaderboards and tips."
-      ],
-      "image": {
-        "src": "apps/zxsnake/zxsnake-achievements.png",
-        "alt": "ZXSnake achievements artwork",
-        "caption": "ZXSnake achievement artwork supports optional progression goals."
-      },
-      "links": [
-        {
-          "label": "View leaderboards",
-          "href": "/apps/zxsnake/leaderboards"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Review ZXSnake Leaderboards",
-      "href": "/apps/zxsnake/leaderboards"
-    },
-    {
-      "label": "Improve with ZXSnake Tips & Strategy",
-      "href": "/apps/zxsnake/tips-and-strategy"
-    },
-    {
-      "label": "Understand BarkinMad Coins in ZXSnake",
-      "href": "/apps/zxsnake/barkinmad-coins"
-    }
-  ],
-  "summary": "ZXSnake achievements give players clear milestones for repeat play, score chasing, and long-term arcade progression."
+	"documentationSchemaVersion": "1.2.0",
+	"title": "Achievements",
+	"seoTitle": "ZXSnake Achievements | BarkinMad Studios",
+	"description": "Unlock achievements by playing ZXSnake, reaching new milestones, and improving your high scores.",
+	"summary": "Achievements reward your progress and encourage you to keep improving with every game of ZXSnake.",
+	"heroImage": "apps/zxsnake/zxsnake-achievements.png",
+	"heroImageAlt": "ZXSnake achievements",
+	"images": [
+		{
+			"src": "apps/zxsnake/zxsnake-achievements.png",
+			"alt": "ZXSnake achievements",
+			"caption": "Unlock new achievements as your skills improve."
+		}
+	],
+	"imageSectionTitle": "Achievements",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"contentStatus": "verified",
+	"sections": [
+		{
+			"id": "achievements-summary",
+			"heading": "Unlock New Achievements",
+			"paragraphs": [
+				"ZXSnake includes Game Center achievements that reward regular play, high scores, and important gameplay milestones.",
+				"Whether you're chasing longer runs, higher scores, or simply enjoying another game, every achievement gives you another goal to work towards."
+			]
+		}
+	],
+	"featureShowcases": [
+		{
+			"id": "achievement-goals",
+			"heading": "Every Game Counts",
+			"summary": "Achievements reward regular play and encourage you to keep improving with every game.",
+			"body": [
+				"Every game of ZXSnake helps you move closer to your next achievement. As your skills improve, you'll unlock new milestones while climbing the leaderboards and earning BarkinMad Coins.",
+				"Achievements provide another reason to keep coming back, rewarding both casual play and long-term dedication."
+			],
+			"bullets": [
+				"Unlock achievements through regular play.",
+				"Track your long-term progress.",
+				"Works alongside leaderboards and BarkinMad Coins."
+			],
+			"image": {
+				"src": "apps/zxsnake/zxsnake-achievements.png",
+				"alt": "ZXSnake achievements",
+				"caption": "Every game brings you closer to your next achievement."
+			},
+			"links": [
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxsnake/leaderboards"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "View Leaderboards",
+			"href": "/apps/zxsnake/leaderboards"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxsnake/tips-and-strategy"
+		},
+		{
+			"label": "Learn About BarkinMad Coins",
+			"href": "/apps/zxsnake/barkinmad-coins"
+		}
+	]
 }

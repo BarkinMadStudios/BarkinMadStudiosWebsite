@@ -1,56 +1,67 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "BarkinMad Coins",
-  "seoTitle": "ZXSnake BarkinMad Coins | BarkinMad Studios",
-  "description": "How BarkinMad Coins work in ZXSnake and how the shared ZX Series reward model is intended to be used.",
-  "heroImage": "apps/barkinmadcoins.png",
-  "heroImageAlt": "BarkinMad Coins shared ZX Series rewards visual",
-  "images": [
-    {
-      "src": "apps/barkinmadcoins.png",
-      "alt": "BarkinMad Coins shared ZX Series reference"
-    }
-  ],
-  "imageSectionTitle": "BarkinMad Coins Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "contentStatus": "verified",
-  "sections": [
-    {
-      "id": "barkinmad-coins-summary",
-      "heading": "BarkinMad Coins",
-      "paragraphs": [
-        "How BarkinMad Coins work in ZXSnake and how the shared ZX Series reward model is intended to be used."
-      ]
-    }
-  ],
-  "featureShowcases": [
-    {
-      "id": "coins-and-unlocks",
-      "heading": "BarkinMad Coins support",
-      "summary": "BarkinMad Coins explain the shared ZX Series progression and unlock context for ZXSnake.",
-      "body": [
-        "This matters because players should understand optional progression and unlock language without confusing it with the core game rules.",
-        "Players use this page when they want to understand coins, rewards, supported unlocks, or shared ZX Series account behaviour."
-      ],
-      "bullets": [
-        "Keeps shared economy wording consistent across ZX Series games.",
-        "Separates optional progression from core gameplay.",
-        "Uses the shared BarkinMad Coins artwork for consistent presentation."
-      ],
-      "image": {
-        "src": "apps/barkinmadcoins.png",
-        "alt": "BarkinMad Coins artwork for ZXSnake",
-        "caption": "Shared BarkinMad Coins artwork supports consistent ZX Series progression wording."
-      },
-      "links": [
-        {
-          "label": "View FAQ",
-          "href": "/apps/zxsnake/frequently-asked-questions"
-        }
-      ]
-    }
-  ],
-  "summary": "ZXSnake uses BarkinMad Coins as shared ZX Series progression, letting players earn coins through gameplay for supported cosmetic unlocks."
+	"documentationSchemaVersion": "1.2.0",
+	"title": "BarkinMad Coins",
+	"seoTitle": "ZXSnake BarkinMad Coins | BarkinMad Studios",
+	"description": "Earn BarkinMad Coins while playing ZXSnake and unlock cosmetic rewards across supported ZX Series games.",
+	"summary": "BarkinMad Coins reward your progress in ZXSnake and unlock cosmetic content throughout the ZX Series.",
+	"heroImage": "apps/barkinmadcoins.png",
+	"heroImageAlt": "BarkinMad Coins shared ZX Series rewards",
+	"images": [
+		{
+			"src": "apps/barkinmadcoins.png",
+			"alt": "BarkinMad Coins",
+			"caption": "Earn and spend BarkinMad Coins across the ZX Series."
+		}
+	],
+	"imageSectionTitle": "BarkinMad Coins",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"contentStatus": "verified",
+	"sections": [
+		{
+			"id": "barkinmad-coins-summary",
+			"heading": "What Are BarkinMad Coins?",
+			"paragraphs": [
+				"BarkinMad Coins are the shared reward system used across supported ZX Series games.",
+				"As you play ZXSnake, you'll earn coins that can be used to unlock cosmetic rewards across the wider ZX Series."
+			]
+		},
+		{
+			"id": "earning-coins",
+			"heading": "Earn Rewards Through Gameplay",
+			"paragraphs": [
+				"Every game helps you earn BarkinMad Coins, giving you another reason to keep improving your high scores and unlocking new achievements.",
+				"Coins reward regular play without changing the classic arcade gameplay, making progression rewarding while keeping every game fair."
+			]
+		}
+	],
+	"featureShowcases": [
+		{
+			"id": "coins-and-unlocks",
+			"heading": "Play, Earn, Unlock",
+			"summary": "BarkinMad Coins reward regular play and unlock cosmetic content across the ZX Series.",
+			"body": [
+				"Every game of ZXSnake helps you earn BarkinMad Coins, encouraging you to improve your skills, survive longer, and chase even higher scores.",
+				"Combined with achievements and leaderboards, BarkinMad Coins create a shared progression system that connects every supported ZX Series game."
+			],
+			"bullets": [
+				"Earn coins through regular gameplay.",
+				"Unlock cosmetic rewards across the ZX Series.",
+				"Works alongside achievements and leaderboards."
+			],
+			"image": {
+				"src": "apps/barkinmadcoins.png",
+				"alt": "BarkinMad Coins",
+				"caption": "Every game brings you closer to your next unlock."
+			},
+			"links": [
+				{
+					"label": "View the FAQ",
+					"href": "/apps/zxsnake/frequently-asked-questions"
+				}
+			]
+		}
+	],
+	"summary": "Earn BarkinMad Coins through gameplay and unlock cosmetic rewards across supported ZX Series games."
 }
