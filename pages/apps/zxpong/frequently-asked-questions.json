@@ -1,103 +1,103 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "Frequently Asked Questions",
-  "seoTitle": "ZXPong FAQ | BarkinMad Studios",
-  "description": "Answers to common ZXPong questions about release status, controls, Solo play, World PVP, Local PVP, coins, and leaderboards.",
-  "summary": "Quick ZXPong answers for release-ready player support.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "ZXPong FAQ gameplay screenshot",
-  "sections": [
-    {
-      "id": "faq-overview",
-      "heading": "FAQ overview",
-      "paragraphs": [
-        "Get release-ready answers to the most common ZXPong questions.",
-        "Current App Store details were verified after the public ZXPong release."
-      ]
-    }
-  ],
-  "faq": [
-    {
-      "question": "Is ZXPong live on the App Store?",
-      "answer": "Yes. ZXPong is live on the App Store and the website download button now points to the public campaign URL."
-    },
-    {
-      "question": "What modes are documented for release?",
-      "answer": "Solo play and World PVP are documented. Local PVP is retained in code but hidden from the current live menu."
-    },
-    {
-      "question": "Does ZXPong use BarkinMad Coins?",
-      "answer": "Yes. ZXPong uses the shared ZX Series wallet model and includes coin-based cosmetic progression."
-    },
-    {
-      "question": "What leaderboard should players focus on?",
-      "answer": "In ZXPong, Longest Rally is the app-specific leaderboard focus, while shared ZX Series score and coin leaderboards are available through the shared leaderboard model."
-    }
-  ],
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXPong FAQ screenshot",
-      "caption": "FAQ screenshot"
-    }
-  ],
-  "imageSectionTitle": "FAQ Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXPong",
-    "FAQ",
-    "World PVP",
-    "BarkinMad Coins",
-    "leaderboards"
-  ],
-  "relatedPages": [
-    "overview",
-    "game-modes",
-    "barkinmad-coins",
-    "leaderboards"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "quick-answers",
-      "heading": "ZXPong quick answers",
-      "summary": "The FAQ gives players quick answers about ZXPong features, progression, support, and current guide status.",
-      "body": [
-        "This matters because players often arrive with one specific question. The page should answer quickly and then point them to the deeper guide when needed.",
-        "Players use this page when they need support context without reading every guide page."
-      ],
-      "bullets": [
-        "Provides concise support answers.",
-        "Links common questions back to the guide.",
-        "Keeps public wording clear and release-safe."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXPong FAQ artwork",
-        "caption": "ZXPong FAQ artwork supports support and quick-answer context."
-      },
-      "links": [
-        {
-          "label": "Read the ZXPong Guide",
-          "href": "/apps/zxpong/guide"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Read the ZXPong Guide",
-      "href": "/apps/zxpong/guide"
-    },
-    {
-      "label": "Learn How to Play ZXPong",
-      "href": "/apps/zxpong/how-to-play"
-    },
-    {
-      "label": "Improve with ZXPong Tips & Strategy",
-      "href": "/apps/zxpong/tips-and-strategy"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "Frequently Asked Questions",
+	"seoTitle": "ZXPong FAQ | BarkinMad Studios",
+	"description": "Find answers to the most common questions about ZXPong, including game modes, World PVP, BarkinMad Coins, achievements, and leaderboards.",
+	"summary": "Quick answers to the questions players ask most often about ZXPong.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "ZXPong Frequently Asked Questions",
+	"sections": [
+		{
+			"id": "faq-overview",
+			"heading": "Frequently Asked Questions",
+			"paragraphs": [
+				"Looking for a quick answer? This page covers some of the most common questions about ZXPong.",
+				"If you can't find what you're looking for here, explore the guides for more detailed information about gameplay, progression, and multiplayer."
+			]
+		}
+	],
+	"faq": [
+		{
+			"question": "Is ZXPong available on the App Store?",
+			"answer": "Yes. ZXPong is available to download from the App Store using the link on this website."
+		},
+		{
+			"question": "Which game modes are available?",
+			"answer": "ZXPong includes Solo play and World PVP. Each mode offers its own challenge while sharing the same fast-paced arcade gameplay."
+		},
+		{
+			"question": "Does ZXPong use BarkinMad Coins?",
+			"answer": "Yes. You can earn BarkinMad Coins through gameplay and use them to unlock cosmetic paddle skins across supported ZX Series games."
+		},
+		{
+			"question": "Which leaderboard should I focus on?",
+			"answer": "The main ZXPong leaderboard tracks your Longest Rally, allowing you to compare your best performances with players around the world."
+		}
+	],
+	"images": [
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXPong Frequently Asked Questions",
+			"caption": "Quick answers to help you get the most from ZXPong."
+		}
+	],
+	"imageSectionTitle": "Frequently Asked Questions",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXPong",
+		"FAQ",
+		"World PVP",
+		"BarkinMad Coins",
+		"Longest Rally"
+	],
+	"relatedPages": [
+		"overview",
+		"game-modes",
+		"barkinmad-coins",
+		"leaderboards"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "quick-answers",
+			"heading": "Quick Answers When You Need Them",
+			"summary": "Find answers to common ZXPong questions without searching through every guide.",
+			"body": [
+				"Whether you're learning the basics, exploring multiplayer, or checking how BarkinMad Coins and leaderboards work, this page provides quick answers to the questions players ask most often.",
+				"For more detailed information, each answer links to the relevant guide so you can continue exploring the game."
+			],
+			"bullets": [
+				"Quick answers to common questions.",
+				"Easy links to more detailed guides.",
+				"Helpful for both new and returning players."
+			],
+			"image": {
+				"src": "images/shared/placeholder.png",
+				"alt": "ZXPong Frequently Asked Questions",
+				"caption": "Quick answers to help you enjoy every match."
+			},
+			"links": [
+				{
+					"label": "Read the Complete Guide",
+					"href": "/apps/zxpong/guide"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Read the Complete Guide",
+			"href": "/apps/zxpong/guide"
+		},
+		{
+			"label": "Learn How to Play",
+			"href": "/apps/zxpong/how-to-play"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxpong/tips-and-strategy"
+		}
+	]
 }

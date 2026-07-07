@@ -1,159 +1,160 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXPong Overview",
-  "seoTitle": "ZXPong Overview | BarkinMad Studios",
-  "description": "A practical introduction to ZXPong, the core paddle-and-ball loop, live modes, and ZX Series support systems.",
-  "summary": "ZXPong is a retro-inspired paddle arcade game in the ZX Series with Solo play, World PVP, skins, coins, achievements, and Game Center support.",
-  "heroImage": "apps/zxpong/zxpong-hero.png",
-  "heroImageAlt": "ZXPong retro paddle game hero artwork",
-  "imageMetadata": [
-    {
-      "src": "apps/zxpong/zxpong-hero.png",
-      "alt": "ZXPong overview hero",
-      "purpose": "hero",
-      "width": 1536,
-      "height": 1024,
-      "usage": [
-        "docs",
-        "website",
-        "news"
-      ]
-    },
-    {
-      "src": "apps/zxpong/zxpong-gameplay-01.png",
-      "alt": "ZXPong gameplay screenshot",
-      "purpose": "gameplay",
-      "width": 1242,
-      "height": 2688,
-      "usage": [
-        "docs",
-        "website",
-        "social"
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/zxpong/zxpong-gameplay-01.png",
-      "alt": "ZXPong gameplay screenshot",
-      "caption": "Existing ZXPong gameplay artwork"
-    }
-  ],
-  "imageSectionTitle": "Screenshots",
-  "sections": [
-    {
-      "id": "what-is-zxpong",
-      "heading": "What is ZXPong?",
-      "paragraphs": [
-        "ZXPong is part of the [ZX Series](/zx-series), focused on classic paddle-and-ball rallies, short sessions, and score improvement.",
-        "The current live feature set includes Solo play, World PVP, AI level selection, unlockable paddle skins, collectible court coins, Game Center achievements, leaderboards, and BarkinMad Coins support."
-      ]
-    },
-    {
-      "id": "where-to-start",
-      "heading": "Where to start",
-      "paragraphs": [
-        "Start with How to Play, then read Controls and Game Modes before moving into coins, achievements, leaderboards, and strategy.",
-        "Use the page links at the top of each page to jump between sections quickly."
-      ]
-    },
-    {
-      "id": "release-notes",
-      "heading": "Release notes",
-      "paragraphs": [
-        "ZXPong is live on the App Store.",
-        "Local PVP exists in retained app code but is not shown in the current live menu. World PVP is the visible multiplayer option documented here."
-      ]
-    }
-  ],
-  "keywords": [
-    "ZXPong",
-    "ZX Series",
-    "pong game",
-    "arcade",
-    "World PVP",
-    "BarkinMad Coins",
-    "Game Center"
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "how-to-play",
-    "controls",
-    "game-modes",
-    "barkinmad-coins",
-    "achievements",
-    "leaderboards",
-    "tips-and-strategy",
-    "frequently-asked-questions"
-  ],
-  "relatedLinks": [
-    {
-      "label": "How to Play",
-      "href": "/apps/zxpong/how-to-play"
-    },
-    {
-      "label": "Game Modes",
-      "href": "/apps/zxpong/game-modes"
-    },
-    {
-      "label": "ZX Series",
-      "href": "/zx-series"
-    }
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "arcade-overview",
-      "heading": "ZXPong at a glance",
-      "summary": "Overview shows ZXPong as a ZX Series pong arcade game.",
-      "body": [
-        "This view helps you move from discovering the game to understanding how it plays. ZXPong is presented around pong matches, so you can see the core loop before reading deeper guides.",
-        "Players use this page to decide where to go next: setup, controls, game modes, progression, screenshots, or support topics."
-      ],
-      "bullets": [
-        "Breaks down the core arcade loop.",
-        "Take players from the game landing page into these gameplay guides.",
-        "Keeps public wording focused on player experience and supported features."
-      ],
-      "image": {
-        "src": "apps/zxpong/zxpong-gameplay-01.png",
-        "alt": "ZXPong gameplay overview",
-        "caption": "ZXPong gameplay artwork introduces the app and its core loop."
-      },
-      "links": [
-        {
-          "label": "Learn How to Play ZXPong",
-          "href": "/apps/zxpong/how-to-play"
-        }
-      ]
-    },
-    {
-      "id": "progression-and-support",
-      "heading": "Progression and support topics",
-      "summary": "ZXPong guide pages connect gameplay with leaderboards, achievements, BarkinMad Coins, tips, FAQ, and screenshots.",
-      "body": [
-        "This matters because ZX Series pages are not only image galleries. They should explain how the player moves from learning the game into repeated play and progress tracking.",
-        "Players use these supporting pages after the first session to understand goals, scoring surfaces, unlocks, and practical tips."
-      ],
-      "bullets": [
-        "Learn how gameplay to progression and support pages.",
-        "Keeps guide flow consistent across the ZX Series.",
-        "Uses existing artwork as placeholders where page-specific screenshots are not available."
-      ],
-      "image": {
-        "src": "apps/zxpong/zxpong-hero.png",
-        "alt": "ZXPong supporting gameplay screen",
-        "caption": "Use this artwork to confirm your next gameplay goals before the next session."
-      },
-      "links": [
-        {
-          "label": "View screenshots",
-          "href": "/apps/zxpong/screenshots"
-        }
-      ],
-      "layout": "textRight"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXPong Overview",
+	"seoTitle": "ZXPong Overview | BarkinMad Studios",
+	"description": "Discover ZXPong, the retro-inspired arcade game featuring Solo Play, World PVP, achievements, leaderboards, BarkinMad Coins, and unlockable paddle skins.",
+	"summary": "ZXPong combines classic paddle-and-ball gameplay with modern online competition, progression, and rewards.",
+	"heroImage": "apps/zxpong/zxpong-hero.png",
+	"heroImageAlt": "ZXPong retro arcade gameplay",
+	"imageMetadata": [
+		{
+			"src": "apps/zxpong/zxpong-hero.png",
+			"alt": "ZXPong hero artwork",
+			"purpose": "hero",
+			"width": 1536,
+			"height": 1024,
+			"usage": [
+				"docs",
+				"website",
+				"news"
+			]
+		},
+		{
+			"src": "apps/zxpong/zxpong-gameplay-01.png",
+			"alt": "ZXPong gameplay",
+			"purpose": "gameplay",
+			"width": 1242,
+			"height": 2688,
+			"usage": [
+				"docs",
+				"website",
+				"social"
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/zxpong/zxpong-gameplay-01.png",
+			"alt": "ZXPong gameplay",
+			"caption": "Fast-paced arcade gameplay with every rally."
+		}
+	],
+	"imageSectionTitle": "Screenshots",
+	"sections": [
+		{
+			"id": "what-is-zxpong",
+			"heading": "Welcome to ZXPong",
+			"paragraphs": [
+				"ZXPong is a retro-inspired arcade game and part of the ZX Series from BarkinMad Studios.",
+				"Master quick reactions, build longer rallies, challenge AI opponents, compete against players around the world, unlock achievements, earn BarkinMad Coins, and personalise your game with unlockable paddle skins."
+			]
+		},
+		{
+			"id": "where-to-start",
+			"heading": "Getting Started",
+			"paragraphs": [
+				"Begin with the How to Play guide before exploring Controls, Game Modes, and Tips & Strategy.",
+				"Once you're comfortable with the gameplay, continue with BarkinMad Coins, Achievements, and Leaderboards to discover everything ZXPong has to offer."
+			]
+		},
+		{
+			"id": "release-notes",
+			"heading": "Available Today",
+			"paragraphs": [
+				"ZXPong is available now on the App Store.",
+				"Solo Play and World PVP provide fast-paced arcade action, with additional features and content planned for future updates."
+			]
+		}
+	],
+	"keywords": [
+		"ZXPong",
+		"ZX Series",
+		"pong game",
+		"arcade",
+		"World PVP",
+		"BarkinMad Coins",
+		"Game Center"
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"how-to-play",
+		"controls",
+		"game-modes",
+		"barkinmad-coins",
+		"achievements",
+		"leaderboards",
+		"tips-and-strategy",
+		"frequently-asked-questions"
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn How to Play",
+			"href": "/apps/zxpong/how-to-play"
+		},
+		{
+			"label": "Explore Game Modes",
+			"href": "/apps/zxpong/game-modes"
+		},
+		{
+			"label": "Explore the ZX Series",
+			"href": "/zx-series"
+		}
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "arcade-overview",
+			"heading": "Everything You Need to Get Started",
+			"summary": "Discover what makes ZXPong exciting and where to learn more about every part of the game.",
+			"body": [
+				"ZXPong combines the classic arcade gameplay that made Pong famous with modern features including online multiplayer, achievements, leaderboards, and BarkinMad Coins.",
+				"This guide introduces the game, explains the core mechanics, and helps you discover every feature as your skills improve."
+			],
+			"bullets": [
+				"Learn the basics of ZXPong.",
+				"Discover Solo Play and World PVP.",
+				"Explore achievements, leaderboards, and BarkinMad Coins."
+			],
+			"image": {
+				"src": "apps/zxpong/zxpong-gameplay-01.png",
+				"alt": "ZXPong gameplay overview",
+				"caption": "Everything begins with your first rally."
+			},
+			"links": [
+				{
+					"label": "Learn How to Play",
+					"href": "/apps/zxpong/how-to-play"
+				}
+			]
+		},
+		{
+			"id": "progression-and-support",
+			"heading": "Keep Improving",
+			"summary": "Every match helps you unlock achievements, climb the leaderboards, and earn BarkinMad Coins.",
+			"body": [
+				"As your skills improve, you'll unlock achievements, build longer rallies, earn BarkinMad Coins, and compete for better leaderboard positions.",
+				"Whether you're playing Solo or World PVP, every match helps you become a stronger player."
+			],
+			"bullets": [
+				"Unlock achievements.",
+				"Compete on the leaderboards.",
+				"Earn BarkinMad Coins.",
+				"Improve with every rally."
+			],
+			"image": {
+				"src": "apps/zxpong/zxpong-hero.png",
+				"alt": "ZXPong progression",
+				"caption": "Every match is another opportunity to improve."
+			},
+			"links": [
+				{
+					"label": "View Screenshots",
+					"href": "/apps/zxpong/screenshots"
+				}
+			],
+			"layout": "textRight"
+		}
+	]
 }

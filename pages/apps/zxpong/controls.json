@@ -1,116 +1,99 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXPong Controls",
-  "seoTitle": "ZXPong Controls | BarkinMad Studios",
-  "description": "Understand ZXPong paddle control basics, timing, positioning, and practical movement habits for Solo and World PVP sessions.",
-  "summary": "ZXPong control is about smooth paddle movement, early positioning, and reacting before the ball reaches your side.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "ZXPong controls gameplay screenshot",
-  "imageMetadata": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXPong controls support artwork",
-      "purpose": "doc",
-      "width": 1774,
-      "height": 887,
-      "usage": [
-        "docs"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "basic-input",
-      "heading": "Basic input",
-      "paragraphs": [
-        "Move the paddle by dragging or positioning it across your side of the court.",
-        "The important habit is to start moving early enough that the paddle is already near the likely return point."
-      ]
-    },
-    {
-      "id": "positioning",
-      "heading": "Positioning",
-      "paragraphs": [
-        "Keep the paddle centered enough to cover the next bounce, then adjust as the ball angle becomes clear.",
-        "Over-correcting can leave the opposite side open, especially as rallies speed up."
-      ],
-      "bullets": [
-        "Move early, then make smaller corrections",
-        "Use the ball angle to predict the return lane",
-        "Avoid chasing every movement at full speed"
-      ]
-    },
-    {
-      "id": "timing",
-      "heading": "Timing",
-      "paragraphs": [
-        "Better timing comes from watching the ball path before it crosses into your side.",
-        "In World PVP, the same paddle discipline matters, but networked play can make stable positioning more important than dramatic last-second saves."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXPong controls screenshot",
-      "caption": "Controls screenshot"
-    }
-  ],
-  "imageSectionTitle": "Controls Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXPong",
-    "controls",
-    "paddle",
-    "World PVP"
-  ],
-  "relatedPages": [
-    "how-to-play",
-    "game-modes",
-    "tips-and-strategy"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "control-surface",
-      "heading": "ZXPong controls",
-      "summary": "ZXPong control guidance focuses on paddle positioning, return timing, and recovery after each shot.",
-      "body": [
-        "Arcade sessions feel better when input timing is predictable, and focus on the practical habits that matter while the game is moving.",
-        "Read this after the how-to-play page when you want to understand what your hands should be doing during a real session."
-      ],
-      "bullets": [
-        "Keeps input guidance close to gameplay.",
-        "Supports both first-time players and returning players.",
-        "Uses the current game artwork to support control guidance."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXPong controls artwork",
-        "caption": "ZXPong controls artwork supports input and interaction guidance."
-      },
-      "links": [
-        {
-          "label": "Learn How to Play ZXPong",
-          "href": "/apps/zxpong/how-to-play"
-        },
-        {
-          "label": "Improve with ZXPong Tips & Strategy",
-          "href": "/apps/zxpong/tips-and-strategy"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Learn How to Play ZXPong",
-      "href": "/apps/zxpong/how-to-play"
-    },
-    {
-      "label": "Improve with ZXPong Tips & Strategy",
-      "href": "/apps/zxpong/tips-and-strategy"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "BarkinMad Coins in ZXPong",
+	"seoTitle": "BarkinMad Coins | ZXPong | BarkinMad Studios",
+	"description": "Earn BarkinMad Coins while playing ZXPong and unlock cosmetic paddle skins across supported ZX Series games.",
+	"summary": "BarkinMad Coins reward your progress in ZXPong and unlock cosmetic rewards throughout the ZX Series.",
+	"heroImage": "images/shared/barkinmadcoins.png",
+	"heroImageAlt": "BarkinMad Coins shared ZX Series rewards",
+	"images": [
+		{
+			"src": "images/shared/barkinmadcoins.png",
+			"alt": "BarkinMad Coins",
+			"caption": "Earn and spend BarkinMad Coins across the ZX Series."
+		}
+	],
+	"imageSectionTitle": "BarkinMad Coins",
+	"sections": [
+		{
+			"id": "what-is",
+			"heading": "What Are BarkinMad Coins?",
+			"paragraphs": [
+				"BarkinMad Coins are the shared reward system used across supported ZX Series games.",
+				"As you play ZXPong, you'll earn coins that can be used to unlock cosmetic paddle skins and other rewards across the ZX Series."
+			]
+		},
+		{
+			"id": "how-zxpong-uses-coins",
+			"heading": "Earn Coins Through Gameplay",
+			"paragraphs": [
+				"Collect coins during Solo matches and earn additional rewards based on your performance, AI difficulty, and longest rally.",
+				"Every match contributes to your shared BarkinMad Coins balance, giving you another reason to improve your skills and return for another game."
+			]
+		},
+		{
+			"id": "cosmetic-unlocks",
+			"heading": "Unlock Paddle Skins",
+			"paragraphs": [
+				"BarkinMad Coins can be used to unlock cosmetic paddle skins, allowing you to personalise your game without affecting gameplay balance.",
+				"Available skins include Classic, Red, Neon, Cyanic, Golden, and Obsidian."
+			]
+		}
+	],
+	"relatedPages": [
+		"achievements",
+		"leaderboards",
+		"overview",
+		"tips-and-strategy"
+	],
+	"relatedLinks": [
+		{
+			"label": "Explore the ZX Series",
+			"href": "/zx-series"
+		}
+	],
+	"faq": [
+		{
+			"question": "Do BarkinMad Coins have any real-world value?",
+			"answer": "No. BarkinMad Coins are an in-game reward used to unlock cosmetic content across supported ZX Series games. They have no cash value and cannot be exchanged for real money."
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"BarkinMad Coins",
+		"ZXPong",
+		"ZX Series",
+		"paddle skins",
+		"cosmetic rewards"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "coins-and-unlocks",
+			"heading": "Play, Earn, Unlock",
+			"summary": "BarkinMad Coins reward regular play and unlock cosmetic paddle skins across the ZX Series.",
+			"body": [
+				"Every match helps you earn BarkinMad Coins, giving you another reason to improve your skills, challenge stronger opponents, and keep playing.",
+				"Combined with achievements and leaderboards, BarkinMad Coins create a shared progression system that connects every supported ZX Series game."
+			],
+			"bullets": [
+				"Earn coins through regular gameplay.",
+				"Unlock cosmetic paddle skins.",
+				"Works alongside achievements and leaderboards."
+			],
+			"image": {
+				"src": "apps/barkinmadcoins.png",
+				"alt": "BarkinMad Coins",
+				"caption": "Every match brings you closer to your next unlock."
+			},
+			"links": [
+				{
+					"label": "View the FAQ",
+					"href": "/apps/zxpong/frequently-asked-questions"
+				}
+			]
+		}
+	]
 }

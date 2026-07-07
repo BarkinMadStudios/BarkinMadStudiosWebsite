@@ -1,111 +1,112 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXPong Tips & Strategy",
-  "seoTitle": "ZXPong Tips & Strategy | BarkinMad Studios",
-  "description": "Practical ZXPong tips for steadier paddle movement, cleaner returns, longer rallies, and better Solo or World PVP sessions.",
-  "summary": "Good ZXPong strategy starts with early paddle movement, controlled returns, and repeatable rally habits.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "ZXPong strategy gameplay screenshot",
-  "sections": [
-    {
-      "id": "start-with-control",
-      "heading": "Start with control",
-      "paragraphs": [
-        "The best early improvement comes from reducing panic movement.",
-        "Keep the paddle close to likely return lanes and make smaller corrections as the ball angle becomes clear."
-      ]
-    },
-    {
-      "id": "build-longer-rallies",
-      "heading": "Build longer rallies",
-      "paragraphs": [
-        "Longest Rally is a documented ZXPong ranking focus, so stable returns matter more than risky angle hunting.",
-        "If a rally becomes fast, prioritize getting the ball back safely before trying to force a sharper return."
-      ],
-      "bullets": [
-        "Watch the ball path before moving fully",
-        "Recover toward center after each return",
-        "Practice on lower AI levels before increasing difficulty"
-      ]
-    },
-    {
-      "id": "use-progression",
-      "heading": "Use progression goals",
-      "paragraphs": [
-        "Use achievements and coin progression as secondary goals while your main practice focus stays on paddle consistency.",
-        "Cosmetic unlocks are useful long-term targets, but they should not distract from learning the timing rhythm."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXPong strategy screenshot",
-      "caption": "Strategy screenshot"
-    }
-  ],
-  "imageSectionTitle": "Strategy Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXPong",
-    "strategy",
-    "rallies",
-    "paddle control",
-    "World PVP"
-  ],
-  "relatedPages": [
-    "controls",
-    "how-to-play",
-    "game-modes",
-    "achievements",
-    "leaderboards"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "practical-improvement",
-      "heading": "ZXPong tips and strategy",
-      "summary": "ZXPong strategy turns the basic loop into better repeat sessions through early movement, safer returns, and longer rally building.",
-      "body": [
-        "The most useful advice is tied to decisions players make during a session, not abstract arcade theory.",
-        "Use these tips after learning the controls, then compare progress through leaderboards and achievements."
-      ],
-      "bullets": [
-        "Focuses on practical player behaviour.",
-        "Learn how strategy to game modes and leaderboards.",
-        "Avoids filler by tying advice to real play decisions."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXPong tips and strategy artwork",
-        "caption": "ZXPong tips artwork supports practical improvement guidance."
-      },
-      "links": [
-        {
-          "label": "Compare ZXPong Game Modes",
-          "href": "/apps/zxpong/game-modes"
-        },
-        {
-          "label": "Review ZXPong Leaderboards",
-          "href": "/apps/zxpong/leaderboards"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Learn ZXPong Controls",
-      "href": "/apps/zxpong/controls"
-    },
-    {
-      "label": "Review ZXPong Leaderboards",
-      "href": "/apps/zxpong/leaderboards"
-    },
-    {
-      "label": "Track ZXPong Achievements",
-      "href": "/apps/zxpong/achievements"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXPong Tips & Strategy",
+	"seoTitle": "ZXPong Tips & Strategy | BarkinMad Studios",
+	"description": "Improve your ZXPong skills with practical advice for longer rallies, better paddle control, and higher scores.",
+	"summary": "Small improvements in positioning, timing, and reactions can make a big difference in every ZXPong match.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "ZXPong Tips & Strategy",
+	"sections": [
+		{
+			"id": "start-with-control",
+			"heading": "Master the Basics",
+			"paragraphs": [
+				"Strong paddle control is the foundation of every successful match. Smooth, controlled movement will help you return more shots and stay in every rally.",
+				"Try to avoid rushing across the court. Small adjustments are usually more effective than sudden movements."
+			]
+		},
+		{
+			"id": "build-longer-rallies",
+			"heading": "Build Longer Rallies",
+			"paragraphs": [
+				"Long rallies are one of the best ways to improve your reactions, positioning, and timing.",
+				"Focus on keeping the ball in play rather than forcing difficult returns. Consistent play will naturally lead to higher scores and better leaderboard positions."
+			],
+			"bullets": [
+				"Watch the ball carefully before moving.",
+				"Return to the centre after every shot.",
+				"Increase the AI difficulty as your confidence grows."
+			]
+		},
+		{
+			"id": "use-progression",
+			"heading": "Play with a Goal",
+			"paragraphs": [
+				"Every match is an opportunity to unlock achievements, earn BarkinMad Coins, or beat your previous longest rally.",
+				"Setting yourself a simple goal before each session helps keep every game rewarding while you continue improving your skills."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXPong strategy",
+			"caption": "Small improvements lead to longer rallies and better results."
+		}
+	],
+	"imageSectionTitle": "Tips & Strategy",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXPong",
+		"tips",
+		"strategy",
+		"Longest Rally",
+		"World PVP"
+	],
+	"relatedPages": [
+		"controls",
+		"how-to-play",
+		"game-modes",
+		"achievements",
+		"leaderboards"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "practical-improvement",
+			"heading": "Play Smarter, Rally Longer",
+			"summary": "Simple improvements in positioning and timing can dramatically improve your performance.",
+			"body": [
+				"ZXPong rewards patience, quick reactions, and consistent paddle control. Learning when to move, where to position yourself, and how to return the ball safely will help you survive longer rallies and win more matches.",
+				"Whether you're practising against the AI or competing online, every match is another opportunity to improve."
+			],
+			"bullets": [
+				"Improve paddle control.",
+				"Build longer rallies.",
+				"Increase your confidence in Solo Play and World PVP.",
+				"Compete for better leaderboard positions."
+			],
+			"image": {
+				"src": "images/shared/placeholder.png",
+				"alt": "ZXPong Tips & Strategy",
+				"caption": "Every rally is another opportunity to improve."
+			},
+			"links": [
+				{
+					"label": "Explore Game Modes",
+					"href": "/apps/zxpong/game-modes"
+				},
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxpong/leaderboards"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn the Controls",
+			"href": "/apps/zxpong/controls"
+		},
+		{
+			"label": "View Leaderboards",
+			"href": "/apps/zxpong/leaderboards"
+		},
+		{
+			"label": "View Achievements",
+			"href": "/apps/zxpong/achievements"
+		}
+	]
 }

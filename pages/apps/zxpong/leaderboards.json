@@ -1,93 +1,93 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXPong Leaderboards",
-  "seoTitle": "ZXPong Leaderboards | BarkinMad Studios",
-  "description": "Understand known ZXPong leaderboard surfaces, including Longest Rally and shared ZX Series score and coin rankings.",
-  "summary": "ZXPong leaderboards help you track rally consistency and shared ZX Series score goals.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "ZXPong leaderboard gameplay screenshot",
-  "sections": [
-    {
-      "id": "known-leaderboards",
-      "heading": "Known leaderboards",
-      "paragraphs": [
-        "Longest Rally is the primary Game Center leaderboard for ZXPong, rewarding players who can keep the ball in play the longest.",
-        "ZXPong also participates in shared ZX Series leaderboard surfaces such as total score and total coins through the shared ZX Series leaderboard model."
-      ]
-    },
-    {
-      "id": "how-to-improve",
-      "heading": "How to improve",
-      "paragraphs": [
-        "For Longest Rally, prioritize safe returns and predictable paddle recovery.",
-        "Treat each session as a consistency attempt: the best leaderboard work usually comes from keeping several rallies stable rather than overplaying the first return."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXPong leaderboards screenshot",
-      "caption": "Leaderboard screenshot"
-    }
-  ],
-  "imageSectionTitle": "Leaderboard Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXPong",
-    "leaderboards",
-    "Longest Rally",
-    "Game Center",
-    "ZX Series"
-  ],
-  "relatedPages": [
-    "achievements",
-    "how-to-play",
-    "tips-and-strategy",
-    "barkinmad-coins"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "competitive-comparison",
-      "heading": "ZXPong leaderboards",
-      "summary": "Leaderboards explain how score comparison fits into ZXPong.",
-      "body": [
-        "This matters because arcade games are built around improvement. Leaderboards give players a clear reason to replay, refine inputs, and chase stronger results.",
-        "Players use this page after play to understand supported comparison surfaces and how leaderboard goals sit beside personal improvement."
-      ],
-      "bullets": [
-        "Learn how score chasing to supported comparison.",
-        "Works with achievements and tips.",
-        "Keeps competitive wording clear and player-facing."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXPong leaderboards artwork",
-        "caption": "ZXPong leaderboard artwork supports score comparison and replay goals."
-      },
-      "links": [
-        {
-          "label": "View achievements",
-          "href": "/apps/zxpong/achievements"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Improve with ZXPong Tips & Strategy",
-      "href": "/apps/zxpong/tips-and-strategy"
-    },
-    {
-      "label": "Track ZXPong Achievements",
-      "href": "/apps/zxpong/achievements"
-    },
-    {
-      "label": "Compare ZXPong Game Modes",
-      "href": "/apps/zxpong/game-modes"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXPong Leaderboards",
+	"seoTitle": "ZXPong Leaderboards | BarkinMad Studios",
+	"description": "Compete for the longest rally in ZXPong and compare your performance with players around the world through Apple Game Center.",
+	"summary": "Every rally is another opportunity to improve your record, climb the leaderboard, and challenge yourself.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "ZXPong leaderboards",
+	"sections": [
+		{
+			"id": "known-leaderboards",
+			"heading": "Compete for the Longest Rally",
+			"paragraphs": [
+				"The main Apple Game Center leaderboard for ZXPong rewards players who can keep the rally going for the longest.",
+				"Long rallies require excellent positioning, quick reactions, and consistent paddle control, making every match another opportunity to improve."
+			]
+		},
+		{
+			"id": "how-to-improve",
+			"heading": "Climb the Leaderboards",
+			"paragraphs": [
+				"Focus on returning the ball consistently rather than taking unnecessary risks. Longer rallies naturally lead to stronger leaderboard performances.",
+				"Leaderboards work alongside achievements and BarkinMad Coins, rewarding regular play and giving you new goals every time you return to ZXPong."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXPong leaderboards",
+			"caption": "Compete for longer rallies and higher leaderboard positions."
+		}
+	],
+	"imageSectionTitle": "Leaderboards",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXPong",
+		"leaderboards",
+		"Longest Rally",
+		"Game Center",
+		"ZX Series"
+	],
+	"relatedPages": [
+		"achievements",
+		"how-to-play",
+		"tips-and-strategy",
+		"barkinmad-coins"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "competitive-comparison",
+			"heading": "Every Rally Counts",
+			"summary": "Compete for longer rallies, beat your personal best, and climb the leaderboard.",
+			"body": [
+				"Every successful return brings you one step closer to a new personal best. As your timing and positioning improve, you'll naturally build longer rallies and move higher up the leaderboard.",
+				"Combined with achievements and BarkinMad Coins, the leaderboard gives you another reason to keep improving every time you play."
+			],
+			"bullets": [
+				"Compete for the longest rally.",
+				"Track your personal best.",
+				"Works alongside achievements and BarkinMad Coins."
+			],
+			"image": {
+				"src": "images/shared/placeholder.png",
+				"alt": "ZXPong leaderboards",
+				"caption": "Every rally is another opportunity to climb the leaderboard."
+			},
+			"links": [
+				{
+					"label": "View Achievements",
+					"href": "/apps/zxpong/achievements"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxpong/tips-and-strategy"
+		},
+		{
+			"label": "View Achievements",
+			"href": "/apps/zxpong/achievements"
+		},
+		{
+			"label": "Explore Game Modes",
+			"href": "/apps/zxpong/game-modes"
+		}
+	]
 }

@@ -1,219 +1,105 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "appSlug": "zxpong",
-  "title": "ZXPong Guides",
-  "description": "Official player guides for ZXPong covering paddle controls, Solo play, World PVP, coins, achievements, leaderboards, and release-ready support notes.",
-  "landingPage": "overview",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "estimatedReadTimeMinutes": 30,
-  "relatedSeries": [
-    "/zx-series"
-  ],
-  "keywords": [
-    "ZXPong",
-    "ZX Series",
-    "pong game",
-    "arcade",
-    "World PVP",
-    "BarkinMad Coins",
-    "Game Center"
-  ],
-  "pages": [
-    {
-      "slug": "overview",
-      "title": "App Overview",
-      "description": "Get a practical introduction to ZXPong and how its live systems fit into the ZX Series.",
-      "required": true,
-      "status": "required",
-      "order": 1,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "how-to-play",
-        "controls",
-        "game-modes"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "how-to-play",
-      "title": "How to Play",
-      "description": "Learn the core ZXPong match loop, scoring rhythm, rally focus, and session flow.",
-      "required": true,
-      "status": "required",
-      "order": 2,
-      "estimatedReadTimeMinutes": 4,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "controls",
-        "game-modes",
-        "tips-and-strategy",
-        "achievements"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "controls",
-      "title": "Controls",
-      "description": "Understand ZXPong paddle input, positioning, timing, and live control expectations.",
-      "required": true,
-      "status": "required",
-      "order": 3,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "how-to-play",
-        "game-modes",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "game-modes",
-      "title": "Game Modes",
-      "description": "Compare Solo play and World PVP while noting Local PVP is not shown in the current live menu.",
-      "required": true,
-      "status": "required",
-      "order": 4,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "how-to-play",
-        "controls",
-        "leaderboards",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "barkinmad-coins",
-      "title": "BarkinMad Coins",
-      "description": "Understand how ZXPong uses shared ZX Series coin progression, collectible court coins, and cosmetic unlocks.",
-      "required": true,
-      "status": "required",
-      "order": 5,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "achievements",
-        "leaderboards",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "achievements",
-      "title": "Achievements",
-      "description": "Track known ZXPong Game Center achievement goals and plan repeat sessions around supported milestones.",
-      "required": true,
-      "status": "required",
-      "order": 6,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "leaderboards",
-        "how-to-play",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "leaderboards",
-      "title": "Leaderboards",
-      "description": "Understand ZXPong leaderboard surfaces, including Longest Rally and shared ZX Series ranking pages.",
-      "required": true,
-      "status": "required",
-      "order": 7,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "achievements",
-        "how-to-play",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "tips-and-strategy",
-      "title": "Tips & Strategy",
-      "description": "Practical tips for better paddle positioning, longer rallies, and steadier ZXPong sessions.",
-      "required": true,
-      "status": "required",
-      "order": 8,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "controls",
-        "how-to-play",
-        "game-modes",
-        "achievements",
-        "leaderboards"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "frequently-asked-questions",
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers for common ZXPong questions about controls, modes, coins, and release status.",
-      "required": true,
-      "status": "required",
-      "order": 9,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "overview",
-        "game-modes",
-        "barkinmad-coins",
-        "leaderboards"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "guide",
-      "title": "Guide",
-      "description": "Complete ZXPong walkthrough and key systems reference.",
-      "required": false,
-      "status": "optional",
-      "order": 10,
-      "estimatedReadTimeMinutes": 8,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "overview",
-        "how-to-play",
-        "controls",
-        "game-modes",
-        "tips-and-strategy",
-        "frequently-asked-questions"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "screenshots",
-      "title": "Screenshots",
-      "description": "ZXPong visual walkthrough pairing current screenshots and artwork with gameplay, progress, and support context.",
-      "required": false,
-      "status": "optional",
-      "order": 11,
-      "estimatedReadTimeMinutes": 4,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "overview",
-        "guide"
-      ],
-      "contentStatus": "verified"
-    }
-  ],
-  "contentStatus": "verified"
-}
+	"documentationSchemaVersion": "1.2.0",
+	"appSlug": "zxpong",
+	"title": "ZXPong Guides",
+	"description": "Official ZXPong guides covering gameplay, controls, Solo Play, World PVP, achievements, leaderboards, BarkinMad Coins, and everything you need to master the game.",
+	"landingPage": "overview",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"estimatedReadTimeMinutes": 30,
+	"relatedSeries": [
+		"/zx-series"
+	],
+	"keywords": [
+		"ZXPong",
+		"ZX Series",
+		"pong game",
+		"arcade",
+		"World PVP",
+		"BarkinMad Coins",
+		"Game Center"
+	],
+	"pages": [
+		{
+			"slug": "overview",
+			"title": "Overview",
+			"description": "Discover ZXPong and learn what makes this retro-inspired arcade game part of the ZX Series.",
+			"required": true,
+			"status": "required",
+			"order": 1
+		},
+		{
+			"slug": "how-to-play",
+			"title": "How to Play",
+			"description": "Learn the basics of ZXPong, from returning your first shot to building longer rallies.",
+			"required": true,
+			"status": "required",
+			"order": 2
+		},
+		{
+			"slug": "controls",
+			"title": "Controls",
+			"description": "Master paddle movement, improve your timing, and return every shot with confidence.",
+			"required": true,
+			"status": "required",
+			"order": 3
+		},
+		{
+			"slug": "game-modes",
+			"title": "Game Modes",
+			"description": "Choose between Solo Play and World PVP, and discover how each mode offers a different challenge.",
+			"required": true,
+			"status": "required",
+			"order": 4
+		},
+		{
+			"slug": "barkinmad-coins",
+			"title": "BarkinMad Coins",
+			"description": "Earn BarkinMad Coins through gameplay and unlock cosmetic paddle skins across the ZX Series.",
+			"required": true,
+			"status": "required",
+			"order": 5
+		},
+		{
+			"slug": "achievements",
+			"title": "Achievements",
+			"description": "Unlock achievements by winning matches, completing rallies, and reaching new gameplay milestones.",
+			"required": true,
+			"status": "required",
+			"order": 6
+		},
+		{
+			"slug": "leaderboards",
+			"title": "Leaderboards",
+			"description": "Compete for the longest rally and compare your performance with players around the world.",
+			"required": true,
+			"status": "required",
+			"order": 7
+		},
+		{
+			"slug": "tips-and-strategy",
+			"title": "Tips & Strategy",
+			"description": "Improve your reactions, positioning, and rally skills with practical gameplay advice.",
+			"required": true,
+			"status": "required",
+			"order": 8
+		},
+		{
+			"slug": "frequently-asked-questions",
+			"title": "Frequently Asked Questions",
+			"description": "Find answers to the most common questions about ZXPong.",
+			"required": true,
+			"status": "required",
+			"order": 9
+		},
+		{
+			"slug": "guide",
+			"title": "Complete Guide",
+			"description": "Everything you need to know about ZXPong in one complete guide.",
+			"required": false,
+			"status": "optional",
+			"order": 10
+		},
+		{
+			"slug": "screenshots",
+			"title": "Screens

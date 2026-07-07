@@ -1,126 +1,126 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "How to Play ZXPong",
-  "seoTitle": "How to Play ZXPong | BarkinMad Studios",
-  "description": "Learn the ZXPong session loop, rally scoring rhythm, paddle goal, and live flow for Solo and World PVP play.",
-  "summary": "ZXPong is built around defending your paddle, returning the ball, extending rallies, and improving match consistency.",
-  "heroImage": "apps/zxpong/zxpong-gameplay-01.png",
-  "heroImageAlt": "ZXPong gameplay screenshot",
-  "imageMetadata": [
-    {
-      "src": "apps/zxpong/zxpong-gameplay-01.png",
-      "alt": "ZXPong gameplay reference",
-      "purpose": "gameplay",
-      "width": 1242,
-      "height": 2688,
-      "usage": [
-        "docs",
-        "website",
-        "social"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "goal",
-      "heading": "Goal",
-      "paragraphs": [
-        "Move your paddle to defend your side, return the ball, and keep each rally alive for as long as possible.",
-        "Longer rallies improve the quality of a session because ZXPong tracks rally performance alongside score and match outcomes."
-      ]
-    },
-    {
-      "id": "session-flow",
-      "heading": "Session flow",
-      "paragraphs": [
-        "A normal session starts from the menu, enters the selected mode, runs through the pre-game countdown, and then moves into active paddle play.",
-        "After a match ends, use the game-over flow to review rewards, coins, and next steps before starting again or returning to the menu."
-      ],
-      "bullets": [
-        "Choose Solo play for practice against AI difficulty levels",
-        "Choose World PVP when you want the live multiplayer option",
-        "Use each rally to practice controlled paddle positioning rather than only chasing the ball late"
-      ]
-    },
-    {
-      "id": "scoring-and-rallies",
-      "heading": "Scoring and rallies",
-      "paragraphs": [
-        "ZXPong rewards successful returns and uses rally length as a practical measure of consistency.",
-        "In Solo play, progression rewards are calculated from match summary details such as win state, AI difficulty, arcade score, and longest rally."
-      ]
-    }
-  ],
-  "imageSectionTitle": "How to Play Images",
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXPong how-to-play gameplay screenshot",
-      "caption": "How-to-play screenshot"
-    }
-  ],
-  "estimatedReadTimeMinutes": 4,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXPong",
-    "how to play",
-    "rallies",
-    "paddle controls",
-    "Solo play",
-    "World PVP"
-  ],
-  "relatedPages": [
-    "controls",
-    "game-modes",
-    "tips-and-strategy",
-    "achievements",
-    "leaderboards"
-  ],
-  "relatedLinks": [
-    {
-      "label": "Learn ZXPong Controls",
-      "href": "/apps/zxpong/controls"
-    },
-    {
-      "label": "Compare ZXPong Game Modes",
-      "href": "/apps/zxpong/game-modes"
-    },
-    {
-      "label": "Improve with ZXPong Tips & Strategy",
-      "href": "/apps/zxpong/tips-and-strategy"
-    }
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "first-session-flow",
-      "heading": "Start playing ZXPong",
-      "summary": "Learn the core ZXPong session flow: defend your side, return the ball, extend rallies, and improve Solo or World PVP consistency.",
-      "body": [
-        "This gives new players enough context to start a session confidently and understand what the game is measuring.",
-        "Use this page first, then move into controls, game modes, and strategy when you want to improve consistency."
-      ],
-      "bullets": [
-        "Learn the flow from launch into active play.",
-        "Learn how controls, modes, and progress tracking.",
-        "Keeps beginner guidance practical and player-facing."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXPong how to play screen",
-        "caption": "ZXPong how-to-play artwork shows the player flow into gameplay."
-      },
-      "links": [
-        {
-          "label": "Learn ZXPong Controls",
-          "href": "/apps/zxpong/controls"
-        },
-        {
-          "label": "Compare ZXPong Game Modes",
-          "href": "/apps/zxpong/game-modes"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "How to Play ZXPong",
+	"seoTitle": "How to Play ZXPong | BarkinMad Studios",
+	"description": "Learn how to play ZXPong, master paddle control, build longer rallies, and compete in Solo Play and World PVP.",
+	"summary": "Discover the basics of ZXPong and learn how to improve your reactions, timing, and rally skills.",
+	"heroImage": "apps/zxpong/zxpong-gameplay-01.png",
+	"heroImageAlt": "ZXPong gameplay",
+	"imageMetadata": [
+		{
+			"src": "apps/zxpong/zxpong-gameplay-01.png",
+			"alt": "ZXPong gameplay",
+			"purpose": "gameplay",
+			"width": 1242,
+			"height": 2688,
+			"usage": [
+				"docs",
+				"website",
+				"social"
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "goal",
+			"heading": "Your Objective",
+			"paragraphs": [
+				"Defend your side of the court, return the ball, and keep the rally going for as long as possible.",
+				"The longer you keep the ball in play, the more exciting every match becomes as you improve your timing, reactions, and positioning."
+			]
+		},
+		{
+			"id": "session-flow",
+			"heading": "How a Match Works",
+			"paragraphs": [
+				"Choose your preferred game mode, wait for the match countdown, and get ready for fast-paced arcade action.",
+				"After every match you can review your performance, earn BarkinMad Coins, unlock achievements, and jump straight into another game."
+			],
+			"bullets": [
+				"Choose Solo Play to practise against AI opponents.",
+				"Choose World PVP to compete against players around the world.",
+				"Keep the rally alive by staying in position and reacting early."
+			]
+		},
+		{
+			"id": "scoring-and-rallies",
+			"heading": "Build Longer Rallies",
+			"paragraphs": [
+				"Every successful return extends the rally and increases the challenge. Staying calm, reading the ball early, and positioning your paddle correctly will help you stay in control.",
+				"Long rallies not only improve your skills but also help you compete for the Longest Rally leaderboard."
+			]
+		}
+	],
+	"imageSectionTitle": "How to Play",
+	"images": [
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXPong gameplay",
+			"caption": "Master the basics before taking on tougher opponents."
+		}
+	],
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXPong",
+		"how to play",
+		"Solo Play",
+		"World PVP",
+		"Longest Rally"
+	],
+	"relatedPages": [
+		"controls",
+		"game-modes",
+		"tips-and-strategy",
+		"achievements",
+		"leaderboards"
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn the Controls",
+			"href": "/apps/zxpong/controls"
+		},
+		{
+			"label": "Explore Game Modes",
+			"href": "/apps/zxpong/game-modes"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxpong/tips-and-strategy"
+		}
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "first-session-flow",
+			"heading": "Start Your First Match",
+			"summary": "Everything you need to begin playing ZXPong with confidence.",
+			"body": [
+				"ZXPong is easy to learn but rewarding to master. Begin by practising your paddle movement, returning the ball consistently, and building longer rallies.",
+				"As your confidence grows, you'll unlock achievements, earn BarkinMad Coins, and compete against players around the world."
+			],
+			"bullets": [
+				"Learn the basic controls.",
+				"Master Solo Play.",
+				"Build longer rallies.",
+				"Prepare for World PVP."
+			],
+			"image": {
+				"src": "images/shared/placeholder.png",
+				"alt": "ZXPong gameplay",
+				"caption": "Everything you need to begin your ZXPong journey."
+			},
+			"links": [
+				{
+					"label": "Learn the Controls",
+					"href": "/apps/zxpong/controls"
+				},
+				{
+					"label": "Explore Game Modes",
+					"href": "/apps/zxpong/game-modes"
+				}
+			]
+		}
+	]
 }

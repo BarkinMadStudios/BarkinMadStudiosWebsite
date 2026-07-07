@@ -1,102 +1,102 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXPong Achievements",
-  "seoTitle": "ZXPong Achievements | BarkinMad Studios",
-  "description": "Review known ZXPong achievement milestones for repeat play, Solo wins, hard AI wins, and rally consistency.",
-  "summary": "ZXPong achievements reward repeat sessions, Solo wins, hard AI success, and long rallies.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "ZXPong achievements gameplay screenshot",
-  "sections": [
-    {
-      "id": "known-achievements",
-      "heading": "Known achievements",
-      "paragraphs": [
-        "Current gameplay includes play-count achievement definitions and Solo/rally milestone targets.",
-        "Use this page as a practical planning guide until final public Game Center display names are verified."
-      ],
-      "bullets": [
-        "Play 10 games",
-        "Play 25 games",
-        "Play 50 games",
-        "Play 100 games",
-        "First Solo win",
-        "Hard Solo win",
-        "20-rally milestone"
-      ]
-    },
-    {
-      "id": "planning",
-      "heading": "Planning progress",
-      "paragraphs": [
-        "For repeat-play milestones, keep sessions short and consistent rather than trying to force every goal in one long run.",
-        "For Solo and rally achievements, use AI difficulty settings to practice timing before attempting harder goals."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXPong achievements screenshot",
-      "caption": "Achievements screenshot"
-    }
-  ],
-  "imageSectionTitle": "Achievement Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXPong",
-    "achievements",
-    "Game Center",
-    "rally",
-    "Solo win"
-  ],
-  "relatedPages": [
-    "leaderboards",
-    "how-to-play",
-    "tips-and-strategy",
-    "barkinmad-coins"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "achievement-goals",
-      "heading": "ZXPong achievements",
-      "summary": "Achievements give ZXPong players optional goals beyond a single run or match.",
-      "body": [
-        "This matters because players often want a reason to revisit the game after learning the basics. Achievement goals add structure without changing the core arcade loop.",
-        "Players use this page after playing to understand which progress tracking are supported and how achievements relate to regular sessions."
-      ],
-      "bullets": [
-        "Learn how repeat play to optional goals.",
-        "Keeps achievement wording tied to supported game behaviour.",
-        "Pairs naturally with leaderboards and tips."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXPong achievements artwork",
-        "caption": "ZXPong achievement artwork supports optional progression goals."
-      },
-      "links": [
-        {
-          "label": "View leaderboards",
-          "href": "/apps/zxpong/leaderboards"
-        }
-      ]
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Review ZXPong Leaderboards",
-      "href": "/apps/zxpong/leaderboards"
-    },
-    {
-      "label": "Improve with ZXPong Tips & Strategy",
-      "href": "/apps/zxpong/tips-and-strategy"
-    },
-    {
-      "label": "Understand BarkinMad Coins in ZXPong",
-      "href": "/apps/zxpong/barkinmad-coins"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXPong Achievements",
+	"seoTitle": "ZXPong Achievements | BarkinMad Studios",
+	"description": "Unlock achievements by playing matches, defeating AI opponents, and completing exciting rallies in ZXPong.",
+	"summary": "Achievements reward regular play, Solo victories, challenging AI wins, and memorable rallies.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "ZXPong achievements",
+	"sections": [
+		{
+			"id": "known-achievements",
+			"heading": "Available Achievements",
+			"paragraphs": [
+				"ZXPong includes Game Center achievements that reward regular play, improving your skills, and reaching important gameplay milestones.",
+				"Whether you're playing Solo, challenging harder AI opponents, or competing in long rallies, every achievement gives you another goal to work towards."
+			],
+			"bullets": [
+				"Play 10 Games",
+				"Play 25 Games",
+				"Play 50 Games",
+				"Play 100 Games",
+				"First Solo Win",
+				"Hard Solo Win",
+				"20-Rally Milestone"
+			]
+		},
+		{
+			"id": "planning",
+			"heading": "Keep Challenging Yourself",
+			"paragraphs": [
+				"Focus on one achievement at a time rather than trying to unlock everything in a single session.",
+				"As your skills improve, you'll naturally unlock more achievements while climbing the leaderboards and earning BarkinMad Coins."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXPong achievements",
+			"caption": "Unlock achievements as you continue playing."
+		}
+	],
+	"imageSectionTitle": "Achievements",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXPong",
+		"Game Center",
+		"achievements",
+		"Solo",
+		"rally"
+	],
+	"relatedPages": [
+		"leaderboards",
+		"how-to-play",
+		"tips-and-strategy",
+		"barkinmad-coins"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "achievement-goals",
+			"heading": "Every Match Counts",
+			"summary": "Achievements reward your progress and encourage you to keep improving with every game.",
+			"body": [
+				"Every match helps you move closer to your next achievement. Whether you're chasing your first Solo win, defeating the hardest AI, or building impressive rallies, every game contributes to your progress.",
+				"Combined with leaderboards and BarkinMad Coins, achievements provide even more reasons to come back for another match."
+			],
+			"bullets": [
+				"Unlock achievements through regular play.",
+				"Track your long-term progress.",
+				"Works alongside leaderboards and BarkinMad Coins."
+			],
+			"image": {
+				"src": "images/shared/placeholder.png",
+				"alt": "ZXPong achievements",
+				"caption": "Every match brings you closer to your next achievement."
+			},
+			"links": [
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxpong/leaderboards"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "View Leaderboards",
+			"href": "/apps/zxpong/leaderboards"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxpong/tips-and-strategy"
+		},
+		{
+			"label": "Learn About BarkinMad Coins",
+			"href": "/apps/zxpong/barkinmad-coins"
+		}
+	]
 }

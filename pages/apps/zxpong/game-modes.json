@@ -1,97 +1,97 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXPong Game Modes",
-  "seoTitle": "ZXPong Game Modes | BarkinMad Studios",
-  "description": "Compare ZXPong Solo play and World PVP. World PVP is the multiplayer option currently available in the documented build.",
-  "summary": "ZXPong live play is centered on Solo play and World PVP.",
-  "heroImage": "images/shared/placeholder.png",
-  "heroImageAlt": "ZXPong game modes gameplay screenshot",
-  "sections": [
-    {
-      "id": "solo-play",
-      "heading": "Solo play",
-      "paragraphs": [
-        "Solo play is the practical starting point for learning paddle control, rally timing, and scoring rhythm.",
-        "Difficulty levels 1 through 10 shape how aggressively the AI responds."
-      ]
-    },
-    {
-      "id": "world-pvp",
-      "heading": "World PVP",
-      "paragraphs": [
-        "World PVP is the live multiplayer option in the current build.",
-        "Use World PVP after you are comfortable with paddle timing and can keep rallies stable under pressure."
-      ]
-    },
-    {
-      "id": "local-pvp-status",
-      "heading": "Local PVP status",
-      "paragraphs": [
-        "Local PVP is planned for a later update; World PVP is the multiplayer option currently available.",
-        "Local PVP is not active in this release, and will appear once release configuration changes."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "images/shared/placeholder.png",
-      "alt": "ZXPong game modes screenshot",
-      "caption": "Game modes screenshot"
-    }
-  ],
-  "imageSectionTitle": "Game Modes Images",
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXPong",
-    "Solo play",
-    "World PVP",
-    "AI difficulty",
-    "Local PVP"
-  ],
-  "relatedPages": [
-    "how-to-play",
-    "controls",
-    "leaderboards",
-    "tips-and-strategy"
-  ],
-  "faq": [
-    {
-      "question": "Is Local PVP available right now?",
-      "answer": "No. World PVP is currently available. Local PVP will be introduced in a later update."
-    }
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "mode-selection",
-      "heading": "ZXPong game modes",
-      "summary": "Learn how ZXPong modes shape rally flow, score pressure, and your competitive setup.",
-      "body": [
-        "This matters because players need to know what kind of session they are starting and how success is measured.",
-        "Players use this page to choose the right mode for a quick game, a focused practice run, or a score-chasing session."
-      ],
-      "bullets": [
-        "Learn supported play styles.",
-        "Learn how mode choice to controls, tips, and leaderboards.",
-        "Keeps App Store-friendly wording focused on gameplay."
-      ],
-      "image": {
-        "src": "images/shared/placeholder.png",
-        "alt": "ZXPong game modes artwork",
-        "caption": "ZXPong mode artwork supports the game mode explanation."
-      },
-      "links": [
-        {
-          "label": "View tips",
-          "href": "/apps/zxpong/tips-and-strategy"
-        },
-        {
-          "label": "View leaderboards",
-          "href": "/apps/zxpong/leaderboards"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXPong Game Modes",
+	"seoTitle": "ZXPong Game Modes | BarkinMad Studios",
+	"description": "Discover Solo play and World PVP in ZXPong, from practising against the AI to competing with players around the world.",
+	"summary": "Choose between Solo play and World PVP to enjoy ZXPong your way.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "ZXPong game modes",
+	"sections": [
+		{
+			"id": "solo-play",
+			"heading": "Solo Play",
+			"paragraphs": [
+				"Solo Play is the perfect place to learn the game, improve your reactions, and master paddle control before taking on other players.",
+				"Ten AI difficulty levels let you gradually increase the challenge as your skills improve."
+			]
+		},
+		{
+			"id": "world-pvp",
+			"heading": "World PVP",
+			"paragraphs": [
+				"World PVP lets you compete against players from around the world in fast-paced online matches.",
+				"Every rally tests your reactions, positioning, and consistency, making every match a unique challenge."
+			]
+		},
+		{
+			"id": "local-pvp-status",
+			"heading": "Future Multiplayer",
+			"paragraphs": [
+				"World PVP is the multiplayer mode currently available in ZXPong.",
+				"Local PVP is planned for a future update and will be introduced when it's ready."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "images/shared/placeholder.png",
+			"alt": "ZXPong game modes",
+			"caption": "Choose how you want to play."
+		}
+	],
+	"imageSectionTitle": "Game Modes",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXPong",
+		"Solo Play",
+		"World PVP",
+		"AI difficulty",
+		"multiplayer"
+	],
+	"relatedPages": [
+		"how-to-play",
+		"controls",
+		"leaderboards",
+		"tips-and-strategy"
+	],
+	"faq": [
+		{
+			"question": "Is Local PVP available?",
+			"answer": "Not yet. World PVP is the multiplayer mode currently available, while Local PVP is planned for a future update."
+		}
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "mode-selection",
+			"heading": "Choose Your Challenge",
+			"summary": "Whether you prefer practising against the AI or competing online, ZXPong has a mode to suit your style.",
+			"body": [
+				"Solo Play is ideal for improving your timing, reactions, and rally control, while World PVP lets you test those skills against players around the world.",
+				"Whichever mode you choose, every match helps you improve, unlock achievements, earn BarkinMad Coins, and compete for higher leaderboard positions."
+			],
+			"bullets": [
+				"Practise against AI opponents.",
+				"Compete in World PVP.",
+				"Unlock achievements and climb the leaderboards."
+			],
+			"image": {
+				"src": "images/shared/placeholder.png",
+				"alt": "ZXPong game modes",
+				"caption": "Choose the mode that matches your style of play."
+			},
+			"links": [
+				{
+					"label": "Read Tips & Strategy",
+					"href": "/apps/zxpong/tips-and-strategy"
+				},
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxpong/leaderboards"
+				}
+			]
+		}
+	]
 }

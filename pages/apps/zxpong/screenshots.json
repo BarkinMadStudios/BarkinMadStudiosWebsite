@@ -1,135 +1,135 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXPong Visual Walkthrough",
-  "seoTitle": "ZXPong Screenshots | BarkinMad Studios",
-  "description": "ZXPong visual walkthrough pairing current screenshots and artwork with gameplay, progress, and support context.",
-  "shortDescription": "ZXPong screenshot gallery",
-  "summary": "ZXPong screenshots and artwork now work as a visual walkthrough, pairing each image with what the screen shows, why it matters, and how players use it.",
-  "heroImage": "apps/zxpong/zxpong-gameplay-01.png",
-  "heroImageAlt": "ZXPong visual walkthrough",
-  "images": [
-    {
-      "src": "apps/zxpong/zxpong-gameplay-01.png",
-      "alt": "ZXPong gameplay screenshot",
-      "caption": "Existing gameplay screenshot"
-    },
-    {
-      "src": "apps/zxpong/zxpong-hero.png",
-      "alt": "ZXPong hero artwork",
-      "caption": "Hero artwork"
-    },
-    {
-      "src": "apps/zxpong/zxpong.png",
-      "alt": "ZXPong artwork",
-      "caption": "Existing ZXPong artwork"
-    }
-  ],
-  "screenshotSectionTitle": "Screenshots",
-  "imageSectionTitle": "Screenshots",
-  "estimatedReadTimeMinutes": 4,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "sections": [
-    {
-      "id": "visual-walkthrough-standard",
-      "heading": "Visual walkthrough standard",
-      "paragraphs": [
-        "Each ZXPong screenshot shows what to look for, why it matters, and how to use it during play.",
-        "The current website image set is used as a visual walkthrough of the public app experience."
-      ]
-    }
-  ],
-  "keywords": [
-    "ZXPong",
-    "screenshots",
-    "gameplay",
-    "ZX Series"
-  ],
-  "relatedPages": [
-    "overview",
-    "guide"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "visual-1",
-      "heading": "Core gameplay view",
-      "summary": "This view shows the main ZXPong play experience and the visual style players see during pong matches.",
-      "body": [
-        "It matters because players should understand what the screen is for, not only see the artwork.",
-        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
-      ],
-      "bullets": [
-        "Shows the current public website image set.",
-        "Pairs the image with practical player context.",
-        "Can be replaced later with dedicated capture artwork without changing the layout."
-      ],
-      "image": {
-        "src": "apps/zxpong/zxpong-gameplay-01.png",
-        "alt": "ZXPong Core gameplay view",
-        "caption": "Core gameplay view for ZXPong."
-      },
-      "links": [
-        {
-          "label": "Read the ZXPong Guide",
-          "href": "/apps/zxpong/guide"
-        },
-        {
-          "label": "Open ZXPong Overview",
-          "href": "/apps/zxpong"
-        }
-      ]
-    },
-    {
-      "id": "visual-2",
-      "heading": "Player action view",
-      "summary": "This view supports the player workflow during active play, where inputs and timing matter most.",
-      "body": [
-        "It matters because players should understand what the screen is for, not only see the artwork.",
-        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
-      ],
-      "bullets": [
-        "Shows the current public website image set.",
-        "Pairs the image with practical player context.",
-        "Can be replaced later with dedicated capture artwork without changing the layout."
-      ],
-      "image": {
-        "src": "apps/zxpong/zxpong-hero.png",
-        "alt": "ZXPong Player action view",
-        "caption": "Player action view for ZXPong."
-      },
-      "links": [
-        {
-          "label": "Learn ZXPong Controls",
-          "href": "/apps/zxpong/controls"
-        }
-      ],
-      "layout": "textRight"
-    },
-    {
-      "id": "visual-3",
-      "heading": "Progression view",
-      "summary": "This screenshot supports score goals, achievements, leaderboards, and repeat-session planning.",
-      "body": [
-        "It matters because players should understand what the screen is for, not only see the artwork.",
-        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
-      ],
-      "bullets": [
-        "Shows the current public website image set.",
-        "Pairs the image with practical player context.",
-        "Can be replaced later with dedicated capture artwork without changing the layout."
-      ],
-      "image": {
-        "src": "apps/zxpong/zxpong.png",
-        "alt": "ZXPong Progression view",
-        "caption": "Progression view for ZXPong."
-      },
-      "links": [
-        {
-          "label": "Review ZXPong Leaderboards",
-          "href": "/apps/zxpong/leaderboards"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXPong Visual Walkthrough",
+	"seoTitle": "ZXPong Screenshots | BarkinMad Studios",
+	"description": "Take a visual tour of ZXPong and explore its gameplay, Solo Play, World PVP, achievements, and progression.",
+	"shortDescription": "A visual tour of ZXPong",
+	"summary": "Explore ZXPong through screenshots that showcase the gameplay, progression, and features that make every rally exciting.",
+	"heroImage": "apps/zxpong/zxpong-gameplay-01.png",
+	"heroImageAlt": "ZXPong visual walkthrough",
+	"images": [
+		{
+			"src": "apps/zxpong/zxpong-gameplay-01.png",
+			"alt": "ZXPong gameplay",
+			"caption": "Fast-paced arcade gameplay begins with every rally."
+		},
+		{
+			"src": "apps/zxpong/zxpong-hero.png",
+			"alt": "ZXPong hero artwork",
+			"caption": "Classic arcade action with a modern twist."
+		},
+		{
+			"src": "apps/zxpong/zxpong.png",
+			"alt": "ZXPong artwork",
+			"caption": "Compete, improve, and climb the leaderboards."
+		}
+	],
+	"screenshotSectionTitle": "Screenshots",
+	"imageSectionTitle": "Screenshots",
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"sections": [
+		{
+			"id": "visual-walkthrough-standard",
+			"heading": "Take a Tour of ZXPong",
+			"paragraphs": [
+				"These screenshots highlight the main areas of ZXPong, helping you become familiar with the game before or during play.",
+				"Follow the journey from your first rally through to online competition, achievements, and progression."
+			]
+		}
+	],
+	"keywords": [
+		"ZXPong",
+		"screenshots",
+		"gameplay",
+		"ZX Series"
+	],
+	"relatedPages": [
+		"overview",
+		"guide"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "visual-1",
+			"heading": "Experience the Action",
+			"summary": "Fast reactions, accurate positioning, and exciting rallies are at the heart of every ZXPong match.",
+			"body": [
+				"The gameplay screen is where every rally begins. Quick thinking, smooth paddle movement, and accurate returns will help you build longer rallies and improve your score.",
+				"Whether you're playing Solo or World PVP, every match is an opportunity to sharpen your skills."
+			],
+			"bullets": [
+				"Fast-paced arcade gameplay.",
+				"Longer rallies reward good positioning.",
+				"Perfect for quick sessions or extended play."
+			],
+			"image": {
+				"src": "apps/zxpong/zxpong-gameplay-01.png",
+				"alt": "ZXPong gameplay",
+				"caption": "Every rally is another opportunity to improve."
+			},
+			"links": [
+				{
+					"label": "Read the Complete Guide",
+					"href": "/apps/zxpong/guide"
+				},
+				{
+					"label": "View the Overview",
+					"href": "/apps/zxpong"
+				}
+			]
+		},
+		{
+			"id": "visual-2",
+			"heading": "Master the Game",
+			"layout": "textRight",
+			"summary": "Learn the controls, improve your reactions, and prepare for tougher opponents.",
+			"body": [
+				"As your confidence grows, you'll discover how timing, positioning, and anticipation all work together to keep rallies alive.",
+				"Mastering the fundamentals is the fastest route to higher scores and better online performances."
+			],
+			"bullets": [
+				"Improve paddle control.",
+				"Build confidence in Solo Play.",
+				"Prepare for World PVP."
+			],
+			"image": {
+				"src": "apps/zxpong/zxpong-hero.png",
+				"alt": "ZXPong hero artwork",
+				"caption": "Master the fundamentals before taking on tougher opponents."
+			},
+			"links": [
+				{
+					"label": "Learn the Controls",
+					"href": "/apps/zxpong/controls"
+				}
+			]
+		},
+		{
+			"id": "visual-3",
+			"heading": "Progress Through Every Match",
+			"summary": "Achievements, leaderboards, and BarkinMad Coins reward every game you play.",
+			"body": [
+				"Every completed match helps you unlock achievements, earn BarkinMad Coins, and compete for longer rallies on the Game Center leaderboard.",
+				"The more you play, the more rewarding every match becomes."
+			],
+			"bullets": [
+				"Unlock achievements.",
+				"Earn BarkinMad Coins.",
+				"Compete for the longest rally."
+			],
+			"image": {
+				"src": "apps/zxpong/zxpong.png",
+				"alt": "ZXPong progression",
+				"caption": "Every match brings you closer to your next goal."
+			},
+			"links": [
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxpong/leaderboards"
+				}
+			]
+		}
+	]
 }
