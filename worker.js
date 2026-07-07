@@ -256,20 +256,20 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     result.set("referrer-policy", "strict-origin-when-cross-origin");
     result.set("x-frame-options", "DENY");
     result.set("x-content-type-options", "nosniff");
-    result.set("content-security-policy", [
-      "default-src 'self'",
-      "base-uri 'self'",
-      "object-src 'none'",
-      "frame-ancestors 'none'",
-      "form-action 'self'",
-      "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://pagead2.googlesyndication.com https://www.googlesyndication.com https://partner.googleadservices.com https://tpc.googlesyndication.com https://securepubads.g.doubleclick.net https://fundingchoicesmessages.google.com",
-      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-      "font-src 'self' https://fonts.gstatic.com data:",
-      "img-src 'self' data: https://raw.githubusercontent.com https://www.google-analytics.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://tpc.googlesyndication.com https://www.googlesyndication.com https://www.google.com",
-      "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://stats.g.doubleclick.net https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://fundingchoicesmessages.google.com",
-      "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.googlesyndication.com https://www.google.com https://fundingchoicesmessages.google.com",
-      "upgrade-insecure-requests"
-    ].join("; "));
+	  result.set("content-security-policy", [
+		  "default-src 'self'",
+		  "base-uri 'self'",
+		  "object-src 'none'",
+		  "frame-ancestors 'none'",
+		  "form-action 'self'",
+		  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://pagead2.googlesyndication.com https://www.googlesyndication.com https://partner.googleadservices.com https://tpc.googlesyndication.com https://securepubads.g.doubleclick.net https://fundingchoicesmessages.google.com",
+		  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+		  "font-src 'self' https://fonts.gstatic.com data:",
+		  "img-src 'self' data: https://raw.githubusercontent.com https://www.google-analytics.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://tpc.googlesyndication.com https://www.googlesyndication.com https://www.google.com",
+		  "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://region1.analytics.google.com https://stats.g.doubleclick.net https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://fundingchoicesmessages.google.com https://ep1.adtrafficquality.google",
+		  "frame-src https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://tpc.googlesyndication.com https://www.googlesyndication.com https://www.google.com https://fundingchoicesmessages.google.com",
+		  "upgrade-insecure-requests"
+	  ].join("; "));
     return result;
   }
   __name(securityHeaders, "securityHeaders");
