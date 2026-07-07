@@ -1,0 +1,67 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash FAQ",
+  "seoTitle": "StudioDash FAQ | BarkinMad Studios",
+  "description": "Answers to common StudioDash questions about availability, platforms, integrations, analytics, and roadmap items.",
+  "summary": "Common questions about StudioDash, its development status, target platforms, documented integrations, and roadmap language.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash FAQ dashboard",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash FAQ dashboard"
+  },
+  "sections": [
+    {
+      "id": "faq-overview",
+      "heading": "Quick answers",
+      "paragraphs": [
+        "This FAQ summarises the main public StudioDash questions. The product is currently in development, so the wording below avoids treating roadmap or placeholder coverage as released functionality."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is StudioDash?",
+      "answer": "StudioDash is a Mac and iPad dashboard for indie app and game developers. It brings revenue, app status, website analytics, provider health, sync status, and trends into one workspace."
+    },
+    {
+      "question": "Who is StudioDash for?",
+      "answer": "StudioDash is designed for solo developers, small studios, and creators managing apps, games, websites, advertising, and product operations."
+    },
+    {
+      "question": "Is StudioDash available now?",
+      "answer": "StudioDash is currently marked as In Development on the BarkinMad Studios website. Public availability and beta details will be announced when they are ready."
+    },
+    {
+      "question": "Which platforms are planned?",
+      "answer": "StudioDash is documented as a Mac and iPad dashboard."
+    },
+    {
+      "question": "Which integrations are documented?",
+      "answer": "Current documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads placeholder coverage, and GitHub placeholder coverage."
+    },
+    {
+      "question": "Are all documented integrations live?",
+      "answer": "No. The documentation distinguishes implemented coverage from placeholder and roadmap items. Placeholder integrations should not be read as live provider reporting."
+    },
+    {
+      "question": "Does StudioDash replace provider dashboards?",
+      "answer": "No. StudioDash is intended to provide a unified operating view, while provider dashboards remain the source for provider-specific account management and deeper administration."
+    }
+  ],
+  "keywords": [
+    "StudioDash FAQ",
+    "developer dashboard",
+    "StudioDash integrations",
+    "StudioDash beta"
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "overview",
+    "integrations",
+    "security-privacy"
+  ]
+}

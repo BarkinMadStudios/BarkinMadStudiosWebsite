@@ -28,7 +28,7 @@
     {
       "heading": "Beyond Gaming",
       "paragraphs": [
-        "In addition to games, BarkinMad Studios develops practical mobile applications and software solutions including score tracking tools, developer analytics products, business utilities, prototypes, and productivity-focused products.",
+        "In addition to games, BarkinMad Studios develops practical mobile applications and software solutions including score tracking tools, developer analytics products such as [StudioDash](/apps/studiodash), business utilities, prototypes, and productivity-focused products.",
         "Many of the skills and technologies used to build commercial software and business systems also help shape the architecture, reliability, and user experience of our public applications.",
         "Learn more about our [software development services](/services), custom applications, and business solutions."
       ]
@@ -56,5 +56,5 @@
       }
     }
   ],
-  "lastUpdated": "2026-06-14"
+  "lastUpdated": "2026-07-07"
 }

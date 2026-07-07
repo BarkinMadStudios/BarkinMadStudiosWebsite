@@ -1,0 +1,100 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Screenshots",
+  "seoTitle": "StudioDash Screenshots | BarkinMad Studios",
+  "description": "StudioDash screenshots showing the current dashboard artwork available in the website repository.",
+  "summary": "StudioDash screenshots show the current public dashboard artwork for the product documentation.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash screenshots",
+  "images": [
+    {
+      "src": "apps/studiodash/Screenshot1.png",
+      "alt": "StudioDash dashboard overview screenshot",
+      "caption": "StudioDash dashboard overview."
+    },
+    {
+      "src": "apps/studiodash/Screenshot2.png",
+      "alt": "StudioDash app and provider analytics screenshot",
+      "caption": "StudioDash app and provider analytics."
+    },
+    {
+      "src": "apps/studiodash/Screenshot3.png",
+      "alt": "StudioDash revenue and trend review screenshot",
+      "caption": "StudioDash revenue and trend review."
+    },
+    {
+      "src": "apps/studiodash/Screenshot4.png",
+      "alt": "StudioDash website and integration insights screenshot",
+      "caption": "StudioDash website and integration insights."
+    }
+  ],
+  "imageMetadata": [
+    {
+      "src": "apps/studiodash/Screenshot1.png",
+      "alt": "StudioDash dashboard overview screenshot",
+      "purpose": "doc",
+      "width": 1372,
+      "height": 995,
+      "usage": [
+        "docs",
+        "website"
+      ]
+    },
+    {
+      "src": "apps/studiodash/Screenshot2.png",
+      "alt": "StudioDash app and provider analytics screenshot",
+      "purpose": "doc",
+      "width": 1372,
+      "height": 995,
+      "usage": [
+        "docs",
+        "website"
+      ]
+    },
+    {
+      "src": "apps/studiodash/Screenshot3.png",
+      "alt": "StudioDash revenue and trend review screenshot",
+      "purpose": "doc",
+      "width": 1372,
+      "height": 995,
+      "usage": [
+        "docs",
+        "website"
+      ]
+    },
+    {
+      "src": "apps/studiodash/Screenshot4.png",
+      "alt": "StudioDash website and integration insights screenshot",
+      "purpose": "doc",
+      "width": 1372,
+      "height": 995,
+      "usage": [
+        "docs",
+        "website"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "screenshot-set",
+      "heading": "Screenshot set",
+      "paragraphs": [
+        "These screenshots show the current StudioDash dashboard artwork available for the public website.",
+        "Future screenshots can replace or expand this set as the product moves closer to public availability."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash screenshots",
+    "developer dashboard screenshots",
+    "BarkinMad Studios"
+  ],
+  "estimatedReadTimeMinutes": 1,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "overview",
+    "guide"
+  ]
+}

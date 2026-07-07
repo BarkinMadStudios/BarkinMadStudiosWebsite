@@ -1,0 +1,124 @@
+{
+  "title": "StudioDash",
+  "tagline": "Developer analytics in one workspace",
+  "hero": {
+    "image": "/images/apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash developer dashboard showing revenue, app status, website analytics, provider health, and operational metrics"
+  },
+  "shortDescription": "A Mac and iPad dashboard for indie app and game developers.",
+  "description": "StudioDash is a Mac and iPad dashboard from [BarkinMad Studios](/about) for indie app and game developers. It brings revenue, app status, website analytics, provider health, sync status, and historical trends into one focused workspace.",
+  "status": "In Development",
+  "appStoreUrl": "",
+  "testFlightUrl": "",
+  "icon": "apps/studiodash/studiodash-icon.png",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "screenshots": [
+    {
+      "image": "apps/studiodash/Screenshot1.png",
+      "caption": "StudioDash dashboard overview."
+    },
+    {
+      "image": "apps/studiodash/Screenshot2.png",
+      "caption": "StudioDash app and provider analytics."
+    },
+    {
+      "image": "apps/studiodash/Screenshot3.png",
+      "caption": "StudioDash revenue and trend review."
+    },
+    {
+      "image": "apps/studiodash/Screenshot4.png",
+      "caption": "StudioDash website and integration insights."
+    }
+  ],
+  "features": [
+    "Portfolio dashboard for indie developers",
+    "Revenue and provider summary cards",
+    "App Store Connect app status and revenue views",
+    "Cloudflare website analytics",
+    "Google Search Console search visibility views",
+    "AdMob advertising revenue views",
+    "Provider health and sync status",
+    "Mac and iPad support"
+  ],
+  "achievements": [],
+  "supportedPlatforms": [
+    "Mac",
+    "iPad"
+  ],
+  "version": "In development",
+  "genre": "Developer Tools",
+  "developer": "BarkinMad Studios",
+  "faq": [
+    {
+      "question": "What is StudioDash?",
+      "answer": "StudioDash is a Mac and iPad dashboard for indie app and game developers who want one place to review app, revenue, website, provider, and trend signals."
+    },
+    {
+      "question": "Is StudioDash available on the App Store?",
+      "answer": "StudioDash is currently in development. Public availability and beta details will be announced by BarkinMad Studios when they are ready."
+    },
+    {
+      "question": "Which integrations are documented?",
+      "answer": "The current documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads placeholder coverage, and GitHub placeholder coverage."
+    }
+  ],
+  "documentationLinks": [
+    {
+      "label": "Overview",
+      "href": "/apps/studiodash/overview"
+    },
+    {
+      "label": "Features",
+      "href": "/apps/studiodash/features"
+    },
+    {
+      "label": "Integrations",
+      "href": "/apps/studiodash/integrations"
+    },
+    {
+      "label": "Dashboard",
+      "href": "/apps/studiodash/dashboard"
+    },
+    {
+      "label": "Revenue Analytics",
+      "href": "/apps/studiodash/revenue-analytics"
+    },
+    {
+      "label": "App Store Analytics",
+      "href": "/apps/studiodash/app-store-analytics"
+    },
+    {
+      "label": "Website & SEO Analytics",
+      "href": "/apps/studiodash/website-seo-analytics"
+    },
+    {
+      "label": "Reporting",
+      "href": "/apps/studiodash/reporting"
+    },
+    {
+      "label": "Automation & Sync",
+      "href": "/apps/studiodash/automation-sync"
+    },
+    {
+      "label": "Security & Privacy",
+      "href": "/apps/studiodash/security-privacy"
+    },
+    {
+      "label": "FAQ",
+      "href": "/apps/studiodash/frequently-asked-questions"
+    },
+    {
+      "label": "Release Notes",
+      "href": "/apps/studiodash/release-notes"
+    },
+    {
+      "label": "Guide",
+      "href": "/apps/studiodash/guide"
+    },
+    {
+      "label": "Screenshots",
+      "href": "/apps/studiodash/screenshots"
+    }
+  ],
+  "lastUpdated": "2026-07-07"
+}

@@ -1,0 +1,152 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Overview",
+  "seoTitle": "StudioDash Overview | BarkinMad Studios",
+  "description": "A public introduction to StudioDash, the Mac and iPad dashboard for indie app and game developers.",
+  "summary": "StudioDash is a Mac and iPad dashboard for indie app and game developers, bringing revenue, app status, website analytics, provider health, sync status, and historical trends into one focused workspace.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash developer analytics dashboard",
+  "imageMetadata": [
+    {
+      "src": "apps/studiodash/studiodash-hero.png",
+      "alt": "StudioDash developer analytics dashboard",
+      "purpose": "marketing",
+      "width": 1600,
+      "height": 900,
+      "usage": [
+        "docs",
+        "website"
+      ]
+    },
+    {
+      "src": "apps/studiodash/studiodash-icon.png",
+      "alt": "StudioDash app icon",
+      "purpose": "marketing",
+      "width": 1024,
+      "height": 1024,
+      "usage": [
+        "docs",
+        "website"
+      ]
+    },
+    {
+      "src": "apps/studiodash/Screenshot1.png",
+      "alt": "StudioDash dashboard overview screenshot",
+      "purpose": "doc",
+      "width": 1372,
+      "height": 995,
+      "usage": [
+        "docs",
+        "website"
+      ]
+    },
+    {
+      "src": "apps/studiodash/Screenshot2.png",
+      "alt": "StudioDash app and provider analytics screenshot",
+      "purpose": "doc",
+      "width": 1372,
+      "height": 995,
+      "usage": [
+        "docs",
+        "website"
+      ]
+    },
+    {
+      "src": "apps/studiodash/Screenshot3.png",
+      "alt": "StudioDash revenue and trend review screenshot",
+      "purpose": "doc",
+      "width": 1372,
+      "height": 995,
+      "usage": [
+        "docs",
+        "website"
+      ]
+    },
+    {
+      "src": "apps/studiodash/Screenshot4.png",
+      "alt": "StudioDash website and integration insights screenshot",
+      "purpose": "doc",
+      "width": 1372,
+      "height": 995,
+      "usage": [
+        "docs",
+        "website"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "src": "apps/studiodash/studiodash-hero.png",
+      "alt": "StudioDash dashboard overview artwork",
+      "caption": "StudioDash is designed to bring product, revenue, website, and provider signals into one workspace."
+    },
+    {
+      "src": "apps/studiodash/Screenshot1.png",
+      "alt": "StudioDash dashboard overview screenshot",
+      "caption": "StudioDash dashboard overview."
+    },
+    {
+      "src": "apps/studiodash/Screenshot2.png",
+      "alt": "StudioDash app and provider analytics screenshot",
+      "caption": "StudioDash app and provider analytics."
+    },
+    {
+      "src": "apps/studiodash/Screenshot3.png",
+      "alt": "StudioDash revenue and trend review screenshot",
+      "caption": "StudioDash revenue and trend review."
+    },
+    {
+      "src": "apps/studiodash/Screenshot4.png",
+      "alt": "StudioDash website and integration insights screenshot",
+      "caption": "StudioDash website and integration insights."
+    }
+  ],
+  "imageSectionTitle": "StudioDash Preview",
+  "sections": [
+    {
+      "id": "what-is-studiodash",
+      "heading": "What is StudioDash?",
+      "paragraphs": [
+        "StudioDash is a Mac and iPad dashboard from [BarkinMad Studios](/about) for indie app and game developers who need a clearer view of their products, revenue, websites, and connected services.",
+        "The app is built around a unified workspace for revenue, app status, website analytics, provider health, sync status, and historical trends. It is currently in development, with public availability details to follow when the product is ready."
+      ]
+    },
+    {
+      "id": "who-it-is-for",
+      "heading": "Who it is for",
+      "paragraphs": [
+        "StudioDash is designed for solo developers, small studios, and creators who publish apps, games, or websites and want to spend less time moving between separate provider dashboards.",
+        "The product focuses on practical operating signals: which apps need attention, how revenue is moving, whether website traffic is changing, which providers are healthy, and where recent trends deserve a closer look."
+      ],
+      "bullets": [
+        "Independent app and game developers managing Apple-platform products.",
+        "Small studios that need revenue, app, website, and provider status in one place.",
+        "Creators who want clearer trend reporting without building a custom analytics stack."
+      ]
+    },
+    {
+      "id": "current-status",
+      "heading": "Current status",
+      "paragraphs": [
+        "StudioDash is marked as In Development across the BarkinMad Studios website. Documentation describes the product direction and the integration coverage currently represented in the StudioDash project.",
+        "Where an integration is still a placeholder or roadmap item, the documentation labels it accordingly and avoids presenting planned functionality as a live feature."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash",
+    "developer dashboard",
+    "indie app developers",
+    "Mac dashboard",
+    "iPad dashboard"
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "features",
+    "integrations",
+    "dashboard"
+  ]
+}

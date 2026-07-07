@@ -1,0 +1,60 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Dashboard",
+  "seoTitle": "StudioDash Dashboard | BarkinMad Studios",
+  "description": "How StudioDash brings app, revenue, website, provider, sync, and trend signals into one dashboard workspace.",
+  "summary": "The StudioDash dashboard is designed as a command centre for developers who want one place to monitor portfolio health and performance.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash dashboard workspace",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash dashboard workspace"
+  },
+  "sections": [
+    {
+      "id": "dashboard-purpose",
+      "heading": "Dashboard purpose",
+      "paragraphs": [
+        "StudioDash is built around a dashboard-first operating view. Instead of opening several provider consoles to understand what changed, developers can review a unified workspace that highlights revenue, app status, website activity, provider health, and sync state.",
+        "The dashboard is designed for fast scanning first, then deeper review through dedicated pages for revenue, apps, website analytics, integrations, and reporting."
+      ]
+    },
+    {
+      "id": "dashboard-signals",
+      "heading": "Dashboard signals",
+      "paragraphs": [
+        "The dashboard brings together current operational state and selected-period analytics. Some signals are current-state values, while historical metrics can be filtered by period where provider data is available."
+      ],
+      "bullets": [
+        "Revenue totals and provider breakdowns.",
+        "Downloads, app status, lifecycle, ratings, and reviews where available.",
+        "Website traffic, search clicks, impressions, indexing, and validation signals.",
+        "Provider health, attention items, and sync status.",
+        "Trend summaries for recent performance changes."
+      ]
+    },
+    {
+      "id": "demo-and-live-context",
+      "heading": "Demo and live context",
+      "paragraphs": [
+        "StudioDash documentation separates product direction from public availability. The app includes demo and live data concepts in the product, but public website copy does not treat demo values as live customer data.",
+        "When provider data is unavailable, StudioDash is designed to keep the relevant cards visible with clear setup or no-data messaging rather than hiding the surface or implying data exists."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash dashboard",
+    "developer workspace",
+    "provider health",
+    "sync status"
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "features",
+    "revenue-analytics",
+    "automation-sync"
+  ]
+}

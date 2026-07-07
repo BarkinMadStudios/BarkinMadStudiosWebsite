@@ -75,7 +75,7 @@
 		"image": "apps/studiodash/studiodash-icon.png",
 		"appStoreUrl": "",
 		"testFlightUrl": "",
-		"href": "/portfolio/studiodash",
+		"href": "/apps/studiodash",
 		"description": "StudioDash is an analytics and business intelligence platform for independent developers, creators, and small studios, bringing App Store Connect, Cloudflare, AdMob, AdSense, Search Console, GitHub, and other services into one native workspace."
 	}
 ]

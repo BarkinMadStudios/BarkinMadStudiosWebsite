@@ -1,0 +1,356 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "appSlug": "studiodash",
+  "title": "StudioDash Guides",
+  "description": "Official StudioDash guides covering the product overview, features, integrations, analytics views, reporting, sync, security, FAQ, and release notes.",
+  "landingPage": "overview",
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "estimatedReadTimeMinutes": 37,
+  "relatedSeries": [
+    "/apps/non-zx"
+  ],
+  "keywords": [
+    "StudioDash",
+    "developer dashboard",
+    "app analytics",
+    "revenue analytics",
+    "App Store Connect",
+    "Cloudflare",
+    "Google Search Console",
+    "AdMob"
+  ],
+  "pages": [
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "description": "Get a public introduction to StudioDash, the Mac and iPad dashboard for indie app and game developers.",
+      "required": true,
+      "status": "required",
+      "order": 1,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Overview | BarkinMad Studios",
+      "keywords": [
+        "StudioDash",
+        "developer dashboard",
+        "indie app developers"
+      ],
+      "relatedPages": [
+        "features",
+        "integrations",
+        "dashboard"
+      ]
+    },
+    {
+      "slug": "features",
+      "title": "Features",
+      "description": "Review StudioDash feature areas for revenue, app status, website analytics, provider health, trends, and reports.",
+      "required": true,
+      "status": "required",
+      "order": 2,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Features | BarkinMad Studios",
+      "keywords": [
+        "StudioDash features",
+        "developer analytics",
+        "business dashboard"
+      ],
+      "relatedPages": [
+        "dashboard",
+        "revenue-analytics",
+        "website-seo-analytics"
+      ]
+    },
+    {
+      "slug": "integrations",
+      "title": "Integrations",
+      "description": "Understand the StudioDash integration coverage documented for Apple, Google, Cloudflare, and GitHub services.",
+      "required": true,
+      "status": "required",
+      "order": 3,
+      "estimatedReadTimeMinutes": 4,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Integrations | BarkinMad Studios",
+      "keywords": [
+        "StudioDash integrations",
+        "App Store Connect",
+        "AdMob",
+        "Cloudflare",
+        "Search Console"
+      ],
+      "relatedPages": [
+        "app-store-analytics",
+        "website-seo-analytics",
+        "automation-sync"
+      ]
+    },
+    {
+      "slug": "dashboard",
+      "title": "Dashboard",
+      "description": "Learn how StudioDash brings app, revenue, website, provider, and sync signals into one dashboard workspace.",
+      "required": true,
+      "status": "required",
+      "order": 4,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Dashboard | BarkinMad Studios",
+      "keywords": [
+        "StudioDash dashboard",
+        "portfolio dashboard",
+        "developer workspace"
+      ],
+      "relatedPages": [
+        "features",
+        "revenue-analytics",
+        "automation-sync"
+      ]
+    },
+    {
+      "slug": "revenue-analytics",
+      "title": "Revenue Analytics",
+      "description": "Review StudioDash revenue analytics for App Store revenue, advertising revenue, provider totals, and trends.",
+      "required": true,
+      "status": "required",
+      "order": 5,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Revenue Analytics | BarkinMad Studios",
+      "keywords": [
+        "StudioDash revenue",
+        "App Store revenue",
+        "AdMob revenue",
+        "AdSense revenue"
+      ],
+      "relatedPages": [
+        "app-store-analytics",
+        "reporting",
+        "integrations"
+      ]
+    },
+    {
+      "slug": "app-store-analytics",
+      "title": "App Store Analytics",
+      "description": "Understand StudioDash App Store Connect coverage for app status, downloads, sales reports, ratings, reviews, and trends.",
+      "required": true,
+      "status": "required",
+      "order": 6,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash App Store Analytics | BarkinMad Studios",
+      "keywords": [
+        "StudioDash App Store Connect",
+        "app status",
+        "sales reports",
+        "app analytics"
+      ],
+      "relatedPages": [
+        "revenue-analytics",
+        "dashboard",
+        "integrations"
+      ]
+    },
+    {
+      "slug": "website-seo-analytics",
+      "title": "Website & SEO Analytics",
+      "description": "Review StudioDash website and SEO analytics for Cloudflare traffic and Google Search Console visibility.",
+      "required": true,
+      "status": "required",
+      "order": 7,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Website and SEO Analytics | BarkinMad Studios",
+      "keywords": [
+        "StudioDash website analytics",
+        "Cloudflare analytics",
+        "Google Search Console",
+        "SEO dashboard"
+      ],
+      "relatedPages": [
+        "integrations",
+        "dashboard",
+        "reporting"
+      ]
+    },
+    {
+      "slug": "reporting",
+      "title": "Reporting",
+      "description": "Learn how StudioDash is designed to support selected-period summaries, trend reviews, exports, and future scheduled reports.",
+      "required": true,
+      "status": "required",
+      "order": 8,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Reporting | BarkinMad Studios",
+      "keywords": [
+        "StudioDash reporting",
+        "developer reports",
+        "analytics export"
+      ],
+      "relatedPages": [
+        "revenue-analytics",
+        "website-seo-analytics",
+        "automation-sync"
+      ]
+    },
+    {
+      "slug": "automation-sync",
+      "title": "Automation & Sync",
+      "description": "Understand StudioDash sync behavior, provider health, manual refresh flows, and roadmap automation areas.",
+      "required": true,
+      "status": "required",
+      "order": 9,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Automation and Sync | BarkinMad Studios",
+      "keywords": [
+        "StudioDash sync",
+        "provider health",
+        "automation",
+        "manual refresh"
+      ],
+      "relatedPages": [
+        "integrations",
+        "security-privacy",
+        "reporting"
+      ]
+    },
+    {
+      "slug": "security-privacy",
+      "title": "Security & Privacy",
+      "description": "Review StudioDash public security and privacy principles for credentials, local data, provider access, and privacy-aware dashboards.",
+      "required": true,
+      "status": "required",
+      "order": 10,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Security and Privacy | BarkinMad Studios",
+      "keywords": [
+        "StudioDash security",
+        "StudioDash privacy",
+        "developer dashboard credentials"
+      ],
+      "relatedPages": [
+        "integrations",
+        "automation-sync",
+        "frequently-asked-questions"
+      ]
+    },
+    {
+      "slug": "frequently-asked-questions",
+      "title": "FAQ",
+      "description": "Find answers to common StudioDash questions about availability, platforms, integrations, analytics, and roadmap items.",
+      "required": true,
+      "status": "required",
+      "order": 11,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash FAQ | BarkinMad Studios",
+      "keywords": [
+        "StudioDash FAQ",
+        "developer dashboard questions",
+        "StudioDash beta"
+      ],
+      "relatedPages": [
+        "overview",
+        "integrations",
+        "security-privacy"
+      ]
+    },
+    {
+      "slug": "release-notes",
+      "title": "Release Notes",
+      "description": "Follow public StudioDash release notes, development milestones, and availability updates from BarkinMad Studios.",
+      "required": false,
+      "status": "optional",
+      "order": 12,
+      "estimatedReadTimeMinutes": 2,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Release Notes | BarkinMad Studios",
+      "keywords": [
+        "StudioDash release notes",
+        "StudioDash changelog",
+        "BarkinMad Studios"
+      ],
+      "relatedPages": [
+        "overview",
+        "features",
+        "frequently-asked-questions",
+        "guide"
+      ]
+    },
+    {
+      "slug": "guide",
+      "title": "Guide",
+      "description": "A compact StudioDash guide linking the main product, integration, analytics, reporting, sync, security, and FAQ pages.",
+      "required": false,
+      "status": "optional",
+      "order": 13,
+      "estimatedReadTimeMinutes": 3,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Guide | BarkinMad Studios",
+      "keywords": [
+        "StudioDash guide",
+        "developer dashboard guide",
+        "StudioDash documentation"
+      ],
+      "relatedPages": [
+        "overview",
+        "features",
+        "integrations",
+        "revenue-analytics",
+        "frequently-asked-questions"
+      ]
+    },
+    {
+      "slug": "screenshots",
+      "title": "Screenshots",
+      "description": "StudioDash screenshots showing the current dashboard artwork available in the website repository.",
+      "required": false,
+      "status": "optional",
+      "order": 14,
+      "estimatedReadTimeMinutes": 1,
+      "contentStatus": "verified",
+      "lastUpdated": "2026-07-07",
+      "lastVerified": "2026-07-07",
+      "seoTitle": "StudioDash Screenshots | BarkinMad Studios",
+      "keywords": [
+        "StudioDash screenshots",
+        "developer dashboard screenshots",
+        "BarkinMad Studios"
+      ],
+      "relatedPages": [
+        "overview",
+        "guide"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Features",
+  "seoTitle": "StudioDash Features | BarkinMad Studios",
+  "description": "StudioDash feature areas for revenue, app status, website analytics, provider health, trends, and reporting.",
+  "summary": "StudioDash combines portfolio metrics, provider health, analytics summaries, and reporting tools into a native workspace for indie developers.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash feature overview dashboard",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash feature overview dashboard"
+  },
+  "sections": [
+    {
+      "id": "feature-areas",
+      "heading": "Feature areas",
+      "paragraphs": [
+        "StudioDash is organised around the practical questions developers ask while running apps and games: how revenue is moving, what app statuses need attention, whether provider data is healthy, and how website visibility is changing.",
+        "The product direction is intentionally operational rather than decorative. The dashboard is designed for repeated review, comparison, and action across a product portfolio."
+      ],
+      "bullets": [
+        "Revenue summary cards for App Store, advertising, and website monetisation data where provider data is available.",
+        "App status views for App Store Connect metadata, lifecycle states, downloads, ratings, reviews, and release signals.",
+        "Website and SEO analytics using Cloudflare and Google Search Console coverage.",
+        "Integration health, sync status, and provider attention items.",
+        "Historical trends and selected-period summaries for comparing performance over time."
+      ]
+    },
+    {
+      "id": "native-workspace",
+      "heading": "Native workspace",
+      "paragraphs": [
+        "StudioDash is built as an Apple-platform app for Mac and iPad. The product is intended to provide a focused native workspace rather than another browser tab that competes with the provider dashboards it summarises.",
+        "The dashboard layout brings high-level cards, provider-specific views, and detailed tables together so developers can scan quickly and drill into the areas that need attention."
+      ]
+    },
+    {
+      "id": "roadmap-context",
+      "heading": "Roadmap context",
+      "paragraphs": [
+        "Some feature areas are represented as roadmap or placeholder coverage while the product remains in development. Planned functionality is documented as planned, not as currently live.",
+        "Future work is expected to expand reporting, automation, and provider coverage while preserving the core goal: a useful, public-facing dashboard for developers running real products."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash features",
+    "developer analytics",
+    "portfolio dashboard",
+    "provider health"
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "overview",
+    "dashboard",
+    "integrations"
+  ]
+}

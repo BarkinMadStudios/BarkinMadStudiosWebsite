@@ -1,0 +1,60 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Automation & Sync",
+  "seoTitle": "StudioDash Automation and Sync | BarkinMad Studios",
+  "description": "StudioDash sync behavior, provider health, manual refresh flows, and roadmap automation areas.",
+  "summary": "StudioDash sync and automation features are designed to keep provider data understandable, traceable, and clearly separated from roadmap automation.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash automation and sync dashboard",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash automation and sync dashboard"
+  },
+  "sections": [
+    {
+      "id": "sync-principles",
+      "heading": "Sync principles",
+      "paragraphs": [
+        "StudioDash is designed to make provider data state visible. A useful dashboard should show when data was last checked, whether a provider needs attention, and whether data is unavailable because a provider is unconfigured or has not returned data yet.",
+        "Provider-dependent cards remain visible so users can understand which integration is needed instead of wondering why a section disappeared."
+      ]
+    },
+    {
+      "id": "provider-health",
+      "heading": "Provider health",
+      "paragraphs": [
+        "Provider health is a core part of the StudioDash experience. The app uses clear status language so users can distinguish healthy providers from providers needing attention, errors, not configured providers, and planned integrations."
+      ],
+      "bullets": [
+        "Healthy: provider access and recent data state look usable.",
+        "Attention Required: configuration or provider data needs review.",
+        "Error: provider access, permissions, or data fetch failed.",
+        "Not Configured: the provider has not been set up for live data.",
+        "Planned: the integration is represented as roadmap or placeholder coverage."
+      ]
+    },
+    {
+      "id": "automation-roadmap",
+      "heading": "Automation roadmap",
+      "paragraphs": [
+        "Automation features such as scheduled reports, richer refresh scheduling, forecasting, and AI-assisted summaries should be described as roadmap content unless publicly released.",
+        "The public product promise is that StudioDash aims to reduce dashboard switching and make repeated checks easier, not that every future automation is already available."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash sync",
+    "provider health",
+    "dashboard automation",
+    "integration status"
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "integrations",
+    "security-privacy",
+    "reporting"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Revenue Analytics",
+  "seoTitle": "StudioDash Revenue Analytics | BarkinMad Studios",
+  "description": "StudioDash revenue analytics for App Store revenue, advertising revenue, provider totals, and historical trends.",
+  "summary": "StudioDash revenue analytics are designed to help developers understand product income across App Store, advertising, and website monetisation sources.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash revenue analytics dashboard",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash revenue analytics dashboard"
+  },
+  "sections": [
+    {
+      "id": "revenue-overview",
+      "heading": "Revenue overview",
+      "paragraphs": [
+        "StudioDash is designed to give developers a clearer view of revenue across product and advertising channels. The revenue view brings high-level totals, provider rows, app-level breakdowns, country information, date grouping, and trend context into one area.",
+        "Where provider history is available, selected-period summaries can help compare current performance with recent periods. Where provider data is not available, StudioDash uses clear no-data or setup messaging rather than presenting placeholder figures as real revenue."
+      ]
+    },
+    {
+      "id": "covered-revenue-sources",
+      "heading": "Covered revenue sources",
+      "paragraphs": [
+        "Revenue coverage depends on configured providers and the data each provider exposes. Public documentation uses conservative wording while StudioDash remains in development."
+      ],
+      "bullets": [
+        "App Store Connect revenue can include Sales and Trends data where reporting access is configured.",
+        "AdMob revenue can include advertising performance from OAuth-backed network reporting where available.",
+        "AdSense is represented as website monetisation placeholder coverage until live reporting support is implemented.",
+        "Provider rows remain visible when data is unavailable so users know which integration is required."
+      ]
+    },
+    {
+      "id": "trend-review",
+      "heading": "Trend review",
+      "paragraphs": [
+        "The revenue area is intended to support selected-period comparisons, revenue split review, provider totals, and historical trend analysis.",
+        "Future reporting improvements may expand exports, scheduled reports, forecasts, and deeper profitability views. Those areas should be treated as roadmap content until they are delivered."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash revenue",
+    "App Store revenue",
+    "AdMob revenue",
+    "developer revenue analytics"
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "app-store-analytics",
+    "reporting",
+    "integrations"
+  ]
+}

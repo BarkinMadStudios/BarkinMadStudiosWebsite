@@ -1,0 +1,53 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Guide",
+  "seoTitle": "StudioDash Guide | BarkinMad Studios",
+  "description": "A compact StudioDash guide linking the main product, integration, analytics, reporting, sync, security, and FAQ pages.",
+  "summary": "Use this guide as a quick route through the main StudioDash documentation pages.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash guide dashboard",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash guide dashboard"
+  },
+  "sections": [
+    {
+      "id": "start-here",
+      "heading": "Start here",
+      "paragraphs": [
+        "Start with the [StudioDash overview](/apps/studiodash), then review the features and integrations pages to understand the product direction and provider coverage.",
+        "StudioDash is currently in development, so public documentation separates implemented coverage from placeholders and roadmap items."
+      ]
+    },
+    {
+      "id": "analytics-path",
+      "heading": "Analytics path",
+      "paragraphs": [
+        "For product and business metrics, review Revenue Analytics, App Store Analytics, and Website & SEO Analytics. Together, these pages explain how StudioDash is designed to bring app, revenue, advertising, website, and search visibility signals into one workspace."
+      ]
+    },
+    {
+      "id": "operations-path",
+      "heading": "Operations path",
+      "paragraphs": [
+        "For day-to-day operation, review Dashboard, Reporting, Automation & Sync, and Security & Privacy. These pages cover the dashboard workspace, reporting direction, provider status language, and public security principles."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash guide",
+    "developer dashboard guide",
+    "StudioDash documentation"
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "overview",
+    "features",
+    "integrations",
+    "revenue-analytics",
+    "frequently-asked-questions"
+  ]
+}

@@ -14,7 +14,7 @@
   var PAGES_BASE = `${REPO_BASE}/pages`;
   var DATA_BASE = `${PAGES_BASE}/data`;
   var DOCUMENTATION_PLACEHOLDER_IMAGE = "images/shared/placeholder.png";
-  var documentationLandingAppSlugs = new Set(["zxsnake", "zxbrick", "zxpong", "zxspace", "gameofdarts"]);
+  var documentationLandingAppSlugs = new Set(["zxsnake", "zxbrick", "zxpong", "zxspace", "gameofdarts", "studiodash"]);
   var zxSnakeReferenceImageFallbacks = {
     overview: "apps/zxsnake/zxsnake-gameplay-01.png",
     "how-to-play": "apps/zxsnake/zxsnake-how-to-play.png",

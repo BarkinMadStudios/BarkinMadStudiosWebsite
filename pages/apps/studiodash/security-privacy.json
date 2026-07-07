@@ -1,0 +1,54 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Security & Privacy",
+  "seoTitle": "StudioDash Security and Privacy | BarkinMad Studios",
+  "description": "StudioDash public security and privacy principles for credentials, local data, provider access, and privacy-aware dashboards.",
+  "summary": "StudioDash is designed around secure credential handling, provider-scoped access, and clear separation between user data, demo data, and public documentation.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash security and privacy dashboard",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash security and privacy dashboard"
+  },
+  "sections": [
+    {
+      "id": "security-principles",
+      "heading": "Security principles",
+      "paragraphs": [
+        "StudioDash handles provider integrations that can involve sensitive account, analytics, and revenue data. Public documentation therefore focuses on user-facing principles rather than implementation details.",
+        "The product direction is to keep credentials protected, use provider-specific access where possible, avoid exposing secrets in the interface, and make provider setup state understandable."
+      ]
+    },
+    {
+      "id": "provider-access",
+      "heading": "Provider access",
+      "paragraphs": [
+        "StudioDash should request only the provider access needed for the selected integration. Google integrations use OAuth-style flows where supported, while App Store Connect and Cloudflare require provider-specific access details.",
+        "Users remain responsible for choosing provider permissions that match their account policies. StudioDash documentation should not encourage broad access where limited read-only analytics access is sufficient."
+      ]
+    },
+    {
+      "id": "privacy-aware-dashboard",
+      "heading": "Privacy-aware dashboard",
+      "paragraphs": [
+        "StudioDash is intended to display operational product and business metrics, not sell or publish those metrics. Public website content should avoid private account details, credentials, unpublished diagnostics, or private project notes.",
+        "Demo, sample, placeholder, and live data concepts must remain clearly separated so users can tell when information represents real provider data and when it represents product demonstration or roadmap context."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash security",
+    "StudioDash privacy",
+    "secure developer dashboard",
+    "provider credentials"
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "integrations",
+    "automation-sync",
+    "frequently-asked-questions"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash App Store Analytics",
+  "seoTitle": "StudioDash App Store Analytics | BarkinMad Studios",
+  "description": "StudioDash App Store Connect coverage for app status, downloads, sales reports, ratings, reviews, and trends.",
+  "summary": "StudioDash uses App Store Connect coverage to help developers review app lifecycle status, downloads, revenue signals, ratings, reviews, and historical product performance.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash App Store analytics dashboard",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash App Store analytics dashboard"
+  },
+  "sections": [
+    {
+      "id": "app-store-connect",
+      "heading": "App Store Connect coverage",
+      "paragraphs": [
+        "StudioDash documents App Store Connect as a core provider for Apple-platform developers. The integration is intended to support app metadata, lifecycle status, downloads, revenue, ratings, reviews, and analytics where the connected account and API access allow it.",
+        "The public status is deliberately precise: App Store Connect metadata coverage is documented, while deeper reports and analytics should be described according to the access and product state available."
+      ]
+    },
+    {
+      "id": "app-portfolio-view",
+      "heading": "App portfolio view",
+      "paragraphs": [
+        "For developers managing several products, StudioDash is designed to present app status in a portfolio-style view. This helps separate app lifecycle status from advertising status and website metrics.",
+        "App cards can show practical product information such as app name, Apple ID, lifecycle state, version/build, release signals, downloads, revenue, ratings, reviews, and App Store link state when those values are available."
+      ]
+    },
+    {
+      "id": "status-language",
+      "heading": "Status language",
+      "paragraphs": [
+        "StudioDash should use clear provider status wording. Public pages should not describe unconfigured, unavailable, or planned provider data as live.",
+        "The website uses In Development for the StudioDash product status. Provider-specific data should be described as available, in development, placeholder, or planned according to the documented provider coverage."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash App Store Connect",
+    "App Store analytics",
+    "app lifecycle status",
+    "sales reports"
+  ],
+  "estimatedReadTimeMinutes": 3,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "revenue-analytics",
+    "integrations",
+    "dashboard"
+  ]
+}

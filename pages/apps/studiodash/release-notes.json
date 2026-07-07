@@ -1,0 +1,54 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Release Notes",
+  "seoTitle": "StudioDash Release Notes | BarkinMad Studios",
+  "description": "Public StudioDash release notes, development milestones, and availability updates from BarkinMad Studios.",
+  "summary": "StudioDash release notes track public-facing product milestones while the app remains in development.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash release notes dashboard",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash release notes dashboard"
+  },
+  "sections": [
+    {
+      "id": "current-status",
+      "heading": "Current status",
+      "paragraphs": [
+        "StudioDash is currently in development. The public website now includes a documented StudioDash app section with product overview, feature, integration, analytics, reporting, sync, security, FAQ, and release-note pages.",
+        "Availability, beta access, App Store information, and release timing will be published when BarkinMad Studios is ready to announce them."
+      ]
+    },
+    {
+      "id": "initial-public-documentation",
+      "heading": "Initial public documentation",
+      "paragraphs": [
+        "The initial StudioDash documentation introduces the product as a Mac and iPad dashboard for indie app and game developers.",
+        "The documentation covers the current provider set at a public level: App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads placeholder coverage, and GitHub placeholder coverage."
+      ]
+    },
+    {
+      "id": "future-updates",
+      "heading": "Future updates",
+      "paragraphs": [
+        "Future release notes should focus on public product changes, availability milestones, newly released integrations, and user-facing improvements.",
+        "Private project notes, unpublished implementation details, and account credentials must not be included in public release notes."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash release notes",
+    "StudioDash changelog",
+    "BarkinMad Studios",
+    "developer dashboard"
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "overview",
+    "features",
+    "frequently-asked-questions"
+  ]
+}

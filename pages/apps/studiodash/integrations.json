@@ -1,0 +1,66 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Integrations",
+  "seoTitle": "StudioDash Integrations | BarkinMad Studios",
+  "description": "StudioDash integration coverage for App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads, and GitHub.",
+  "summary": "StudioDash brings provider signals into one workspace while clearly separating implemented coverage from placeholder and roadmap integrations.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash integrations dashboard",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash integrations dashboard"
+  },
+  "sections": [
+    {
+      "id": "integration-approach",
+      "heading": "Integration approach",
+      "paragraphs": [
+        "StudioDash is designed to connect the services indie developers already use to run apps, games, websites, advertising, and source projects.",
+        "The app distinguishes provider health, setup state, sync status, and available data so users can tell the difference between a connected provider, a provider needing attention, a provider with no data yet, and a planned integration."
+      ]
+    },
+    {
+      "id": "documented-integrations",
+      "heading": "Documented integrations",
+      "paragraphs": [
+        "Current public documentation covers the providers below. Integration status wording is intentionally conservative while StudioDash remains in development."
+      ],
+      "bullets": [
+        "App Store Connect: app metadata coverage is documented, with sales and analytics reporting described as in development where applicable.",
+        "AdMob: OAuth-backed advertising reporting and inventory coverage are documented.",
+        "AdSense: documented as placeholder coverage for website monetisation, not as a current live reporting client.",
+        "Cloudflare: traffic, website analytics, provider health, and Worker-related coverage are documented.",
+        "Google Search Console: OAuth-backed search visibility and indexing coverage are documented.",
+        "Google Ads: documented as placeholder coverage for campaign metrics.",
+        "GitHub: documented as placeholder coverage for repository activity."
+      ]
+    },
+    {
+      "id": "roadmap-integrations",
+      "heading": "Roadmap integrations",
+      "paragraphs": [
+        "Additional services may be added as StudioDash evolves. Future integrations should be treated as roadmap content until they are implemented, tested, and represented in the product.",
+        "The goal is not to replace every provider dashboard. StudioDash focuses on the cross-provider signals developers need to review frequently."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash integrations",
+    "App Store Connect",
+    "AdMob",
+    "AdSense",
+    "Cloudflare",
+    "Google Search Console",
+    "Google Ads",
+    "GitHub"
+  ],
+  "estimatedReadTimeMinutes": 4,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "app-store-analytics",
+    "website-seo-analytics",
+    "automation-sync"
+  ]
+}

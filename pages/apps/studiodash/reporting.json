@@ -1,0 +1,59 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Reporting",
+  "seoTitle": "StudioDash Reporting | BarkinMad Studios",
+  "description": "StudioDash reporting for selected-period summaries, trend review, exports, and future scheduled reports.",
+  "summary": "StudioDash reporting is designed to help developers turn provider data into practical product and business reviews.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash reporting dashboard",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash reporting dashboard"
+  },
+  "sections": [
+    {
+      "id": "reporting-purpose",
+      "heading": "Reporting purpose",
+      "paragraphs": [
+        "StudioDash reporting is designed around selected-period summaries, historical trends, and provider-level breakdowns. The aim is to make repeated product reviews easier for independent developers and small studios.",
+        "Reporting should help answer practical questions: what changed this week, which product is moving, which provider needs attention, and which area deserves deeper analysis."
+      ]
+    },
+    {
+      "id": "current-reporting-surfaces",
+      "heading": "Current reporting surfaces",
+      "paragraphs": [
+        "The documented reporting surfaces include dashboard summaries, revenue views, app portfolio metrics, website analytics, SEO signals, and provider health review."
+      ],
+      "bullets": [
+        "Selected-period summaries for revenue, downloads, website traffic, and provider metrics where data is available.",
+        "Revenue by app, provider, country, and date where supported by provider data.",
+        "Website and SEO summaries for Cloudflare and Google Search Console coverage.",
+        "Provider health and attention items for operational review."
+      ]
+    },
+    {
+      "id": "roadmap-reporting",
+      "heading": "Roadmap reporting",
+      "paragraphs": [
+        "CSV export, PDF export, scheduled reports, AI summaries, forecasting, and deeper portfolio reporting should be treated as roadmap or tier-linked product direction unless a public release confirms availability.",
+        "The website should keep reporting copy public-facing and avoid exposing private project terms or implementation details."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash reporting",
+    "developer reports",
+    "analytics trends",
+    "portfolio reporting"
+  ],
+  "estimatedReadTimeMinutes": 2,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "revenue-analytics",
+    "website-seo-analytics",
+    "automation-sync"
+  ]
+}
