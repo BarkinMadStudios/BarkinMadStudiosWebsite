@@ -1,0 +1,6382 @@
+{
+  "images/apps-hero-banner.png": {
+    "width": 1717,
+    "height": 916,
+    "bytes": 1990461,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1717
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps-hero-banner-480.webp",
+        "bytes": 34220
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps-hero-banner-480.avif",
+        "bytes": 20771
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps-hero-banner-800.webp",
+        "bytes": 75586
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps-hero-banner-800.avif",
+        "bytes": 43640
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps-hero-banner-1200.webp",
+        "bytes": 137496
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps-hero-banner-1200.avif",
+        "bytes": 75523
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps-hero-banner-1600.webp",
+        "bytes": 206978
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps-hero-banner-1600.avif",
+        "bytes": 110841
+      },
+      {
+        "width": 1717,
+        "format": "webp",
+        "path": "images/optimized/images/apps-hero-banner-1717.webp",
+        "bytes": 220100
+      },
+      {
+        "width": 1717,
+        "format": "avif",
+        "path": "images/optimized/images/apps-hero-banner-1717.avif",
+        "bytes": 122927
+      }
+    ]
+  },
+  "images/apps/barkinmadcoins.png": {
+    "width": 1727,
+    "height": 794,
+    "bytes": 1870100,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1727
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/barkinmadcoins-480.webp",
+        "bytes": 53306
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/barkinmadcoins-480.avif",
+        "bytes": 32047
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/barkinmadcoins-800.webp",
+        "bytes": 116718
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/barkinmadcoins-800.avif",
+        "bytes": 69589
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/barkinmadcoins-1200.webp",
+        "bytes": 204934
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/barkinmadcoins-1200.avif",
+        "bytes": 124670
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/barkinmadcoins-1600.webp",
+        "bytes": 306634
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/barkinmadcoins-1600.avif",
+        "bytes": 182401
+      },
+      {
+        "width": 1727,
+        "format": "webp",
+        "path": "images/optimized/images/apps/barkinmadcoins-1727.webp",
+        "bytes": 340250
+      },
+      {
+        "width": 1727,
+        "format": "avif",
+        "path": "images/optimized/images/apps/barkinmadcoins-1727.avif",
+        "bytes": 202220
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-dartbot.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 2509331,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-dartbot-480.webp",
+        "bytes": 42162
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-dartbot-480.avif",
+        "bytes": 25960
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-dartbot-800.webp",
+        "bytes": 99522
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-dartbot-800.avif",
+        "bytes": 56418
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-dartbot-1200.webp",
+        "bytes": 184862
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-dartbot-1200.avif",
+        "bytes": 103583
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-dartbot-1600.webp",
+        "bytes": 289290
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-dartbot-1600.avif",
+        "bytes": 155230
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-dartbot-1774.webp",
+        "bytes": 336062
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-dartbot-1774.avif",
+        "bytes": 179489
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-faq.png": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2591092,
+    "widths": [
+      480,
+      800,
+      1200,
+      1536
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-faq-480.webp",
+        "bytes": 70514
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-faq-480.avif",
+        "bytes": 42654
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-faq-800.webp",
+        "bytes": 167628
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-faq-800.avif",
+        "bytes": 102043
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-faq-1200.webp",
+        "bytes": 320668
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-faq-1200.avif",
+        "bytes": 194893
+      },
+      {
+        "width": 1536,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-faq-1536.webp",
+        "bytes": 481108
+      },
+      {
+        "width": 1536,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-faq-1536.avif",
+        "bytes": 278342
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-game-modes.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 2809344,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-game-modes-480.webp",
+        "bytes": 55516
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-game-modes-480.avif",
+        "bytes": 34821
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-game-modes-800.webp",
+        "bytes": 131172
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-game-modes-800.avif",
+        "bytes": 80592
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-game-modes-1200.webp",
+        "bytes": 253450
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-game-modes-1200.avif",
+        "bytes": 152878
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-game-modes-1600.webp",
+        "bytes": 406978
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-game-modes-1600.avif",
+        "bytes": 231066
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-game-modes-1774.webp",
+        "bytes": 476526
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-game-modes-1774.avif",
+        "bytes": 267735
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-hero.png": {
+    "width": 1881,
+    "height": 836,
+    "bytes": 2548675,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1881
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-hero-480.webp",
+        "bytes": 41224
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-hero-480.avif",
+        "bytes": 25278
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-hero-800.webp",
+        "bytes": 95684
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-hero-800.avif",
+        "bytes": 57198
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-hero-1200.webp",
+        "bytes": 190488
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-hero-1200.avif",
+        "bytes": 107290
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-hero-1600.webp",
+        "bytes": 290680
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-hero-1600.avif",
+        "bytes": 160204
+      },
+      {
+        "width": 1881,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-hero-1881.webp",
+        "bytes": 376194
+      },
+      {
+        "width": 1881,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-hero-1881.avif",
+        "bytes": 199916
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-icon.png": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2103412,
+    "widths": [
+      480,
+      800,
+      1200,
+      1254
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-icon-480.webp",
+        "bytes": 45826
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-icon-480.avif",
+        "bytes": 22540
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-icon-800.webp",
+        "bytes": 109566
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-icon-800.avif",
+        "bytes": 54068
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-icon-1200.webp",
+        "bytes": 211662
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-icon-1200.avif",
+        "bytes": 98275
+      },
+      {
+        "width": 1254,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-icon-1254.webp",
+        "bytes": 228068
+      },
+      {
+        "width": 1254,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-icon-1254.avif",
+        "bytes": 106206
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-leaderboards.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 2487150,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-leaderboards-480.webp",
+        "bytes": 43444
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-leaderboards-480.avif",
+        "bytes": 26745
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-leaderboards-800.webp",
+        "bytes": 104696
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-leaderboards-800.avif",
+        "bytes": 62191
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-leaderboards-1200.webp",
+        "bytes": 203566
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-leaderboards-1200.avif",
+        "bytes": 119150
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-leaderboards-1600.webp",
+        "bytes": 316396
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-leaderboards-1600.avif",
+        "bytes": 180098
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-leaderboards-1774.webp",
+        "bytes": 370744
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-leaderboards-1774.avif",
+        "bytes": 208759
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-match-types.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 2580672,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-match-types-480.webp",
+        "bytes": 51482
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-match-types-480.avif",
+        "bytes": 33050
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-match-types-800.webp",
+        "bytes": 120088
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-match-types-800.avif",
+        "bytes": 74513
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-match-types-1200.webp",
+        "bytes": 236276
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-match-types-1200.avif",
+        "bytes": 141982
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-match-types-1600.webp",
+        "bytes": 371062
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-match-types-1600.avif",
+        "bytes": 212890
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-match-types-1774.webp",
+        "bytes": 437094
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-match-types-1774.avif",
+        "bytes": 246967
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-premium-access.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 2638386,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-premium-access-480.webp",
+        "bytes": 44292
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-premium-access-480.avif",
+        "bytes": 27408
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-premium-access-800.webp",
+        "bytes": 101168
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-premium-access-800.avif",
+        "bytes": 57626
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-premium-access-1200.webp",
+        "bytes": 196720
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-premium-access-1200.avif",
+        "bytes": 106188
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-premium-access-1600.webp",
+        "bytes": 310380
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-premium-access-1600.avif",
+        "bytes": 162097
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-premium-access-1774.webp",
+        "bytes": 371836
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-premium-access-1774.avif",
+        "bytes": 190252
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-screenshot-IAP.png": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 2856620,
+    "widths": [
+      480,
+      800,
+      1200,
+      1206
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-IAP-480.webp",
+        "bytes": 92030
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-IAP-480.avif",
+        "bytes": 48798
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-IAP-800.webp",
+        "bytes": 164922
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-IAP-800.avif",
+        "bytes": 87282
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-IAP-1200.webp",
+        "bytes": 265850
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-IAP-1200.avif",
+        "bytes": 136235
+      },
+      {
+        "width": 1206,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-IAP-1206.webp",
+        "bytes": 261720
+      },
+      {
+        "width": 1206,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-IAP-1206.avif",
+        "bytes": 118840
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-screenshot-help.png": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 2762510,
+    "widths": [
+      480,
+      800,
+      1200,
+      1206
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-help-480.webp",
+        "bytes": 81068
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-help-480.avif",
+        "bytes": 44178
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-help-800.webp",
+        "bytes": 148926
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-help-800.avif",
+        "bytes": 77819
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-help-1200.webp",
+        "bytes": 237996
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-help-1200.avif",
+        "bytes": 119218
+      },
+      {
+        "width": 1206,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-help-1206.webp",
+        "bytes": 230662
+      },
+      {
+        "width": 1206,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-help-1206.avif",
+        "bytes": 107306
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-screenshot-leaderboards.png": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 2559990,
+    "widths": [
+      480,
+      800,
+      1200,
+      1206
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-leaderboards-480.webp",
+        "bytes": 80232
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-leaderboards-480.avif",
+        "bytes": 47279
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-leaderboards-800.webp",
+        "bytes": 152790
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-leaderboards-800.avif",
+        "bytes": 82982
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-leaderboards-1200.webp",
+        "bytes": 246456
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-leaderboards-1200.avif",
+        "bytes": 125496
+      },
+      {
+        "width": 1206,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-leaderboards-1206.webp",
+        "bytes": 243358
+      },
+      {
+        "width": 1206,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-leaderboards-1206.avif",
+        "bytes": 125778
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-screenshot-main.png": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 2811176,
+    "widths": [
+      480,
+      800,
+      1200,
+      1206
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-main-480.webp",
+        "bytes": 94748
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-main-480.avif",
+        "bytes": 56722
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-main-800.webp",
+        "bytes": 185014
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-main-800.avif",
+        "bytes": 105404
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-main-1200.webp",
+        "bytes": 314066
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-main-1200.avif",
+        "bytes": 169062
+      },
+      {
+        "width": 1206,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-main-1206.webp",
+        "bytes": 310520
+      },
+      {
+        "width": 1206,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-main-1206.avif",
+        "bytes": 169619
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-screenshot-settings.png": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 2740023,
+    "widths": [
+      480,
+      800,
+      1200,
+      1206
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-settings-480.webp",
+        "bytes": 107534
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-settings-480.avif",
+        "bytes": 64508
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-settings-800.webp",
+        "bytes": 207034
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-settings-800.avif",
+        "bytes": 117725
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-settings-1200.webp",
+        "bytes": 341476
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-settings-1200.avif",
+        "bytes": 186722
+      },
+      {
+        "width": 1206,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-settings-1206.webp",
+        "bytes": 337104
+      },
+      {
+        "width": 1206,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-settings-1206.avif",
+        "bytes": 185503
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-screenshot-splash.png": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 1684820,
+    "widths": [
+      480,
+      800,
+      1200,
+      1206
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-splash-480.webp",
+        "bytes": 97282
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-splash-480.avif",
+        "bytes": 50834
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-splash-800.webp",
+        "bytes": 177920
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-splash-800.avif",
+        "bytes": 92310
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-splash-1200.webp",
+        "bytes": 285210
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-splash-1200.avif",
+        "bytes": 143174
+      },
+      {
+        "width": 1206,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-splash-1206.webp",
+        "bytes": 286758
+      },
+      {
+        "width": 1206,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-screenshot-splash-1206.avif",
+        "bytes": 138656
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-statistics.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 2662274,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-statistics-480.webp",
+        "bytes": 48486
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-statistics-480.avif",
+        "bytes": 29916
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-statistics-800.webp",
+        "bytes": 116114
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-statistics-800.avif",
+        "bytes": 69724
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-statistics-1200.webp",
+        "bytes": 231270
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-statistics-1200.avif",
+        "bytes": 132406
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-statistics-1600.webp",
+        "bytes": 357964
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-statistics-1600.avif",
+        "bytes": 197591
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-statistics-1774.webp",
+        "bytes": 415336
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-statistics-1774.avif",
+        "bytes": 228281
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts-voice-caller.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 2376361,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-voice-caller-480.webp",
+        "bytes": 42596
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-voice-caller-480.avif",
+        "bytes": 26276
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-voice-caller-800.webp",
+        "bytes": 100572
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-voice-caller-800.avif",
+        "bytes": 59837
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-voice-caller-1200.webp",
+        "bytes": 192490
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-voice-caller-1200.avif",
+        "bytes": 110567
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-voice-caller-1600.webp",
+        "bytes": 295800
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-voice-caller-1600.avif",
+        "bytes": 166251
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-voice-caller-1774.webp",
+        "bytes": 341648
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-voice-caller-1774.avif",
+        "bytes": 190831
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts.png": {
+    "width": 1430,
+    "height": 1100,
+    "bytes": 2427179,
+    "widths": [
+      480,
+      800,
+      1200,
+      1430
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-480.webp",
+        "bytes": 70736
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-480.avif",
+        "bytes": 43369
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-800.webp",
+        "bytes": 160042
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-800.avif",
+        "bytes": 96603
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-1200.webp",
+        "bytes": 301764
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-1200.avif",
+        "bytes": 171649
+      },
+      {
+        "width": 1430,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-1430.webp",
+        "bytes": 393652
+      },
+      {
+        "width": 1430,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts-1430.avif",
+        "bytes": 216432
+      }
+    ]
+  },
+  "images/apps/gameofdarts/gameofdarts1.png": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2777584,
+    "widths": [
+      480,
+      800,
+      1200,
+      1254
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts1-480.webp",
+        "bytes": 86184
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts1-480.avif",
+        "bytes": 51046
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts1-800.webp",
+        "bytes": 204644
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts1-800.avif",
+        "bytes": 116628
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts1-1200.webp",
+        "bytes": 393522
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts1-1200.avif",
+        "bytes": 208162
+      },
+      {
+        "width": 1254,
+        "format": "webp",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts1-1254.webp",
+        "bytes": 420510
+      },
+      {
+        "width": 1254,
+        "format": "avif",
+        "path": "images/optimized/images/apps/gameofdarts/gameofdarts1-1254.avif",
+        "bytes": 224070
+      }
+    ]
+  },
+  "images/apps/studiodash/Screenshot1.png": {
+    "width": 1372,
+    "height": 995,
+    "bytes": 258538,
+    "widths": [
+      480,
+      800,
+      1200,
+      1372
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot1-480.webp",
+        "bytes": 15738
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot1-480.avif",
+        "bytes": 9152
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot1-800.webp",
+        "bytes": 36862
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot1-800.avif",
+        "bytes": 17750
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot1-1200.webp",
+        "bytes": 66742
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot1-1200.avif",
+        "bytes": 30462
+      },
+      {
+        "width": 1372,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot1-1372.webp",
+        "bytes": 67648
+      },
+      {
+        "width": 1372,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot1-1372.avif",
+        "bytes": 30274
+      }
+    ]
+  },
+  "images/apps/studiodash/Screenshot2.png": {
+    "width": 1372,
+    "height": 995,
+    "bytes": 290721,
+    "widths": [
+      480,
+      800,
+      1200,
+      1372
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot2-480.webp",
+        "bytes": 16712
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot2-480.avif",
+        "bytes": 10184
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot2-800.webp",
+        "bytes": 39140
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot2-800.avif",
+        "bytes": 19676
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot2-1200.webp",
+        "bytes": 71642
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot2-1200.avif",
+        "bytes": 34623
+      },
+      {
+        "width": 1372,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot2-1372.webp",
+        "bytes": 75420
+      },
+      {
+        "width": 1372,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot2-1372.avif",
+        "bytes": 34446
+      }
+    ]
+  },
+  "images/apps/studiodash/Screenshot3.png": {
+    "width": 1372,
+    "height": 995,
+    "bytes": 309252,
+    "widths": [
+      480,
+      800,
+      1200,
+      1372
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot3-480.webp",
+        "bytes": 19622
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot3-480.avif",
+        "bytes": 11418
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot3-800.webp",
+        "bytes": 43828
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot3-800.avif",
+        "bytes": 22796
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot3-1200.webp",
+        "bytes": 78534
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot3-1200.avif",
+        "bytes": 39904
+      },
+      {
+        "width": 1372,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot3-1372.webp",
+        "bytes": 85302
+      },
+      {
+        "width": 1372,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot3-1372.avif",
+        "bytes": 38651
+      }
+    ]
+  },
+  "images/apps/studiodash/Screenshot4.png": {
+    "width": 1372,
+    "height": 995,
+    "bytes": 277567,
+    "widths": [
+      480,
+      800,
+      1200,
+      1372
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot4-480.webp",
+        "bytes": 15108
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot4-480.avif",
+        "bytes": 8792
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot4-800.webp",
+        "bytes": 33648
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot4-800.avif",
+        "bytes": 16365
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot4-1200.webp",
+        "bytes": 61628
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot4-1200.avif",
+        "bytes": 28093
+      },
+      {
+        "width": 1372,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/Screenshot4-1372.webp",
+        "bytes": 63128
+      },
+      {
+        "width": 1372,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/Screenshot4-1372.avif",
+        "bytes": 27948
+      }
+    ]
+  },
+  "images/apps/studiodash/studiodash-hero.png": {
+    "width": 1672,
+    "height": 941,
+    "bytes": 1195479,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1672
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/studiodash-hero-480.webp",
+        "bytes": 22054
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/studiodash-hero-480.avif",
+        "bytes": 12787
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/studiodash-hero-800.webp",
+        "bytes": 41700
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/studiodash-hero-800.avif",
+        "bytes": 24070
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/studiodash-hero-1200.webp",
+        "bytes": 71172
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/studiodash-hero-1200.avif",
+        "bytes": 41670
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/studiodash-hero-1600.webp",
+        "bytes": 101466
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/studiodash-hero-1600.avif",
+        "bytes": 59699
+      },
+      {
+        "width": 1672,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/studiodash-hero-1672.webp",
+        "bytes": 106824
+      },
+      {
+        "width": 1672,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/studiodash-hero-1672.avif",
+        "bytes": 62417
+      }
+    ]
+  },
+  "images/apps/studiodash/studiodash-icon.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 637866,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/studiodash-icon-480.webp",
+        "bytes": 20228
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/studiodash-icon-480.avif",
+        "bytes": 13070
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/studiodash-icon-800.webp",
+        "bytes": 39418
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/studiodash-icon-800.avif",
+        "bytes": 24384
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/images/apps/studiodash/studiodash-icon-1024.webp",
+        "bytes": 57894
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/images/apps/studiodash/studiodash-icon-1024.avif",
+        "bytes": 32151
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-achievements.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 1862527,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-achievements-480.webp",
+        "bytes": 45782
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-achievements-480.avif",
+        "bytes": 27679
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-achievements-800.webp",
+        "bytes": 96090
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-achievements-800.avif",
+        "bytes": 58242
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-achievements-1200.webp",
+        "bytes": 172694
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-achievements-1200.avif",
+        "bytes": 104229
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-achievements-1600.webp",
+        "bytes": 251814
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-achievements-1600.avif",
+        "bytes": 151589
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-achievements-1774.webp",
+        "bytes": 291532
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-achievements-1774.avif",
+        "bytes": 173823
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-controls.png": {
+    "width": 1714,
+    "height": 820,
+    "bytes": 1719393,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1714
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-controls-480.webp",
+        "bytes": 41866
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-controls-480.avif",
+        "bytes": 25225
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-controls-800.webp",
+        "bytes": 89146
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-controls-800.avif",
+        "bytes": 52462
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-controls-1200.webp",
+        "bytes": 159620
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-controls-1200.avif",
+        "bytes": 92003
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-controls-1600.webp",
+        "bytes": 235074
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-controls-1600.avif",
+        "bytes": 135547
+      },
+      {
+        "width": 1714,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-controls-1714.webp",
+        "bytes": 256914
+      },
+      {
+        "width": 1714,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-controls-1714.avif",
+        "bytes": 146987
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-faq.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 1957256,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-faq-480.webp",
+        "bytes": 47084
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-faq-480.avif",
+        "bytes": 28123
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-faq-800.webp",
+        "bytes": 100734
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-faq-800.avif",
+        "bytes": 61739
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-faq-1200.webp",
+        "bytes": 184320
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-faq-1200.avif",
+        "bytes": 110432
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-faq-1600.webp",
+        "bytes": 273692
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-faq-1600.avif",
+        "bytes": 159449
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-faq-1774.webp",
+        "bytes": 314062
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-faq-1774.avif",
+        "bytes": 182337
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-game-modes.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 2251068,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-game-modes-480.webp",
+        "bytes": 57038
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-game-modes-480.avif",
+        "bytes": 35497
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-game-modes-800.webp",
+        "bytes": 129082
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-game-modes-800.avif",
+        "bytes": 77091
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-game-modes-1200.webp",
+        "bytes": 231334
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-game-modes-1200.avif",
+        "bytes": 137659
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-game-modes-1600.webp",
+        "bytes": 343106
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-game-modes-1600.avif",
+        "bytes": 203416
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-game-modes-1774.webp",
+        "bytes": 395812
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-game-modes-1774.avif",
+        "bytes": 232576
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-gameplay-01.png": {
+    "width": 941,
+    "height": 1672,
+    "bytes": 1798965,
+    "widths": [
+      480,
+      800,
+      941
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-01-480.webp",
+        "bytes": 147140
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-01-480.avif",
+        "bytes": 89096
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-01-800.webp",
+        "bytes": 319698
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-01-800.avif",
+        "bytes": 189480
+      },
+      {
+        "width": 941,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-01-941.webp",
+        "bytes": 391438
+      },
+      {
+        "width": 941,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-01-941.avif",
+        "bytes": 231481
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-gameplay-02.png": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 374685,
+    "widths": [
+      480,
+      800,
+      1200,
+      1206
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-02-480.webp",
+        "bytes": 35750
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-02-480.avif",
+        "bytes": 20633
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-02-800.webp",
+        "bytes": 64930
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-02-800.avif",
+        "bytes": 36888
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-02-1200.webp",
+        "bytes": 103166
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-02-1200.avif",
+        "bytes": 58235
+      },
+      {
+        "width": 1206,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-02-1206.webp",
+        "bytes": 100098
+      },
+      {
+        "width": 1206,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-02-1206.avif",
+        "bytes": 49075
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-gameplay-03.png": {
+    "width": 1320,
+    "height": 2868,
+    "bytes": 229226,
+    "widths": [
+      480,
+      800,
+      1200,
+      1320
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-03-480.webp",
+        "bytes": 18500
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-03-480.avif",
+        "bytes": 11662
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-03-800.webp",
+        "bytes": 32900
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-03-800.avif",
+        "bytes": 19158
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-03-1200.webp",
+        "bytes": 55216
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-03-1200.avif",
+        "bytes": 29098
+      },
+      {
+        "width": 1320,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-03-1320.webp",
+        "bytes": 63318
+      },
+      {
+        "width": 1320,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-03-1320.avif",
+        "bytes": 32073
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-gameplay-04.png": {
+    "width": 1320,
+    "height": 2868,
+    "bytes": 229226,
+    "widths": [
+      480,
+      800,
+      1200,
+      1320
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-04-480.webp",
+        "bytes": 18500
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-04-480.avif",
+        "bytes": 11662
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-04-800.webp",
+        "bytes": 32900
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-04-800.avif",
+        "bytes": 19158
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-04-1200.webp",
+        "bytes": 55216
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-04-1200.avif",
+        "bytes": 29098
+      },
+      {
+        "width": 1320,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-04-1320.webp",
+        "bytes": 63318
+      },
+      {
+        "width": 1320,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-gameplay-04-1320.avif",
+        "bytes": 32073
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-hero.png": {
+    "width": 1873,
+    "height": 840,
+    "bytes": 1979278,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1873
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-hero-480.webp",
+        "bytes": 43202
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-hero-480.avif",
+        "bytes": 25440
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-hero-800.webp",
+        "bytes": 98148
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-hero-800.avif",
+        "bytes": 58785
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-hero-1200.webp",
+        "bytes": 186652
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-hero-1200.avif",
+        "bytes": 108555
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-hero-1600.webp",
+        "bytes": 285354
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-hero-1600.avif",
+        "bytes": 162599
+      },
+      {
+        "width": 1873,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-hero-1873.webp",
+        "bytes": 365106
+      },
+      {
+        "width": 1873,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-hero-1873.avif",
+        "bytes": 200526
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-how-to-play.png": {
+    "width": 1714,
+    "height": 820,
+    "bytes": 1719393,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1714
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-how-to-play-480.webp",
+        "bytes": 41866
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-how-to-play-480.avif",
+        "bytes": 25225
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-how-to-play-800.webp",
+        "bytes": 89146
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-how-to-play-800.avif",
+        "bytes": 52462
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-how-to-play-1200.webp",
+        "bytes": 159620
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-how-to-play-1200.avif",
+        "bytes": 92003
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-how-to-play-1600.webp",
+        "bytes": 235074
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-how-to-play-1600.avif",
+        "bytes": 135547
+      },
+      {
+        "width": 1714,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-how-to-play-1714.webp",
+        "bytes": 256914
+      },
+      {
+        "width": 1714,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-how-to-play-1714.avif",
+        "bytes": 146987
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-icon.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1762257,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-icon-480.webp",
+        "bytes": 74162
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-icon-480.avif",
+        "bytes": 47070
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-icon-800.webp",
+        "bytes": 170590
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-icon-800.avif",
+        "bytes": 103297
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-icon-1024.webp",
+        "bytes": 242512
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-icon-1024.avif",
+        "bytes": 151748
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-leaderboards.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 1963837,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-leaderboards-480.webp",
+        "bytes": 47870
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-leaderboards-480.avif",
+        "bytes": 29729
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-leaderboards-800.webp",
+        "bytes": 101744
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-leaderboards-800.avif",
+        "bytes": 62682
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-leaderboards-1200.webp",
+        "bytes": 187538
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-leaderboards-1200.avif",
+        "bytes": 112339
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-leaderboards-1600.webp",
+        "bytes": 274332
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-leaderboards-1600.avif",
+        "bytes": 161821
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-leaderboards-1774.webp",
+        "bytes": 313072
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-leaderboards-1774.avif",
+        "bytes": 183757
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-levels.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 1968677,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-levels-480.webp",
+        "bytes": 45220
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-levels-480.avif",
+        "bytes": 27773
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-levels-800.webp",
+        "bytes": 96326
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-levels-800.avif",
+        "bytes": 58842
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-levels-1200.webp",
+        "bytes": 175012
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-levels-1200.avif",
+        "bytes": 104870
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-levels-1600.webp",
+        "bytes": 260380
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-levels-1600.avif",
+        "bytes": 151511
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-levels-1774.webp",
+        "bytes": 300738
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-levels-1774.avif",
+        "bytes": 173997
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-powerup-berserker.png": {
+    "width": 96,
+    "height": 96,
+    "bytes": 12591,
+    "widths": [
+      96
+    ],
+    "variants": [
+      {
+        "width": 96,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-berserker-96.webp",
+        "bytes": 3468
+      },
+      {
+        "width": 96,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-berserker-96.avif",
+        "bytes": 2318
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-powerup-fast.png": {
+    "width": 90,
+    "height": 90,
+    "bytes": 11352,
+    "widths": [
+      90
+    ],
+    "variants": [
+      {
+        "width": 90,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-fast-90.webp",
+        "bytes": 2442
+      },
+      {
+        "width": 90,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-fast-90.avif",
+        "bytes": 1673
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-powerup-grow.png": {
+    "width": 90,
+    "height": 90,
+    "bytes": 11525,
+    "widths": [
+      90
+    ],
+    "variants": [
+      {
+        "width": 90,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-grow-90.webp",
+        "bytes": 2216
+      },
+      {
+        "width": 90,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-grow-90.avif",
+        "bytes": 1617
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-powerup-laser.png": {
+    "width": 90,
+    "height": 90,
+    "bytes": 10047,
+    "widths": [
+      90
+    ],
+    "variants": [
+      {
+        "width": 90,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-laser-90.webp",
+        "bytes": 1930
+      },
+      {
+        "width": 90,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-laser-90.avif",
+        "bytes": 1441
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-powerup-multi.png": {
+    "width": 90,
+    "height": 90,
+    "bytes": 11845,
+    "widths": [
+      90
+    ],
+    "variants": [
+      {
+        "width": 90,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-multi-90.webp",
+        "bytes": 2060
+      },
+      {
+        "width": 90,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-multi-90.avif",
+        "bytes": 1490
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-powerup-shield.png": {
+    "width": 90,
+    "height": 90,
+    "bytes": 13504,
+    "widths": [
+      90
+    ],
+    "variants": [
+      {
+        "width": 90,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-shield-90.webp",
+        "bytes": 2514
+      },
+      {
+        "width": 90,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-shield-90.avif",
+        "bytes": 1726
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-powerup-shrink.png": {
+    "width": 90,
+    "height": 90,
+    "bytes": 9944,
+    "widths": [
+      90
+    ],
+    "variants": [
+      {
+        "width": 90,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-shrink-90.webp",
+        "bytes": 1772
+      },
+      {
+        "width": 90,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-shrink-90.avif",
+        "bytes": 1224
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-powerup-slow.png": {
+    "width": 90,
+    "height": 90,
+    "bytes": 12548,
+    "widths": [
+      90
+    ],
+    "variants": [
+      {
+        "width": 90,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-slow-90.webp",
+        "bytes": 2824
+      },
+      {
+        "width": 90,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerup-slow-90.avif",
+        "bytes": 1891
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-powerups.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 1933937,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerups-480.webp",
+        "bytes": 45496
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerups-480.avif",
+        "bytes": 27060
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerups-800.webp",
+        "bytes": 97342
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerups-800.avif",
+        "bytes": 57902
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerups-1200.webp",
+        "bytes": 171754
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerups-1200.avif",
+        "bytes": 100854
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerups-1600.webp",
+        "bytes": 258546
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerups-1600.avif",
+        "bytes": 148946
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerups-1774.webp",
+        "bytes": 294488
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-powerups-1774.avif",
+        "bytes": 170469
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick-tips-and-strategy.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 1951653,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-tips-and-strategy-480.webp",
+        "bytes": 51298
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-tips-and-strategy-480.avif",
+        "bytes": 30321
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-tips-and-strategy-800.webp",
+        "bytes": 111010
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-tips-and-strategy-800.avif",
+        "bytes": 64258
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-tips-and-strategy-1200.webp",
+        "bytes": 194888
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-tips-and-strategy-1200.avif",
+        "bytes": 114275
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-tips-and-strategy-1600.webp",
+        "bytes": 291894
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-tips-and-strategy-1600.avif",
+        "bytes": 167511
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-tips-and-strategy-1774.webp",
+        "bytes": 329304
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-tips-and-strategy-1774.avif",
+        "bytes": 190605
+      }
+    ]
+  },
+  "images/apps/zxbrick/zxbrick.png": {
+    "width": 1300,
+    "height": 1000,
+    "bytes": 2208520,
+    "widths": [
+      480,
+      800,
+      1200,
+      1300
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-480.webp",
+        "bytes": 67106
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-480.avif",
+        "bytes": 40715
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-800.webp",
+        "bytes": 153042
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-800.avif",
+        "bytes": 91541
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-1200.webp",
+        "bytes": 280564
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-1200.avif",
+        "bytes": 165825
+      },
+      {
+        "width": 1300,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-1300.webp",
+        "bytes": 317764
+      },
+      {
+        "width": 1300,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxbrick/zxbrick-1300.avif",
+        "bytes": 189255
+      }
+    ]
+  },
+  "images/apps/zxpong/zxpong-gameplay-01.png": {
+    "width": 1242,
+    "height": 2688,
+    "bytes": 2330534,
+    "widths": [
+      480,
+      800,
+      1200,
+      1242
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-gameplay-01-480.webp",
+        "bytes": 97492
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-gameplay-01-480.avif",
+        "bytes": 59954
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-gameplay-01-800.webp",
+        "bytes": 205846
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-gameplay-01-800.avif",
+        "bytes": 123849
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-gameplay-01-1200.webp",
+        "bytes": 357746
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-gameplay-01-1200.avif",
+        "bytes": 204675
+      },
+      {
+        "width": 1242,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-gameplay-01-1242.webp",
+        "bytes": 371794
+      },
+      {
+        "width": 1242,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-gameplay-01-1242.avif",
+        "bytes": 214659
+      }
+    ]
+  },
+  "images/apps/zxpong/zxpong-hero.png": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2502193,
+    "widths": [
+      480,
+      800,
+      1200,
+      1536
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-hero-480.webp",
+        "bytes": 66196
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-hero-480.avif",
+        "bytes": 40967
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-hero-800.webp",
+        "bytes": 148792
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-hero-800.avif",
+        "bytes": 93001
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-hero-1200.webp",
+        "bytes": 281156
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-hero-1200.avif",
+        "bytes": 168294
+      },
+      {
+        "width": 1536,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-hero-1536.webp",
+        "bytes": 395878
+      },
+      {
+        "width": 1536,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-hero-1536.avif",
+        "bytes": 240634
+      }
+    ]
+  },
+  "images/apps/zxpong/zxpong-icon.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1285801,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-icon-480.webp",
+        "bytes": 38334
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-icon-480.avif",
+        "bytes": 20091
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-icon-800.webp",
+        "bytes": 79376
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-icon-800.avif",
+        "bytes": 38972
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-icon-1024.webp",
+        "bytes": 103220
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-icon-1024.avif",
+        "bytes": 53510
+      }
+    ]
+  },
+  "images/apps/zxpong/zxpong.png": {
+    "width": 1662,
+    "height": 946,
+    "bytes": 2425644,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1662
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-480.webp",
+        "bytes": 51522
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-480.avif",
+        "bytes": 31076
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-800.webp",
+        "bytes": 114480
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-800.avif",
+        "bytes": 69355
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-1200.webp",
+        "bytes": 210384
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-1200.avif",
+        "bytes": 125481
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-1600.webp",
+        "bytes": 319292
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-1600.avif",
+        "bytes": 185463
+      },
+      {
+        "width": 1662,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxpong/zxpong-1662.webp",
+        "bytes": 337930
+      },
+      {
+        "width": 1662,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxpong/zxpong-1662.avif",
+        "bytes": 196230
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-achievements.png": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1733495,
+    "widths": [
+      480,
+      800,
+      1200,
+      1536
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-achievements-480.webp",
+        "bytes": 47418
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-achievements-480.avif",
+        "bytes": 28638
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-achievements-800.webp",
+        "bytes": 102626
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-achievements-800.avif",
+        "bytes": 60847
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-achievements-1200.webp",
+        "bytes": 182062
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-achievements-1200.avif",
+        "bytes": 107261
+      },
+      {
+        "width": 1536,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-achievements-1536.webp",
+        "bytes": 258974
+      },
+      {
+        "width": 1536,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-achievements-1536.avif",
+        "bytes": 148167
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-controls.png": {
+    "width": 1672,
+    "height": 941,
+    "bytes": 1791644,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1672
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-controls-480.webp",
+        "bytes": 43426
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-controls-480.avif",
+        "bytes": 26900
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-controls-800.webp",
+        "bytes": 93960
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-controls-800.avif",
+        "bytes": 55506
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-controls-1200.webp",
+        "bytes": 169156
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-controls-1200.avif",
+        "bytes": 96301
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-controls-1600.webp",
+        "bytes": 247482
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-controls-1600.avif",
+        "bytes": 142222
+      },
+      {
+        "width": 1672,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-controls-1672.webp",
+        "bytes": 268070
+      },
+      {
+        "width": 1672,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-controls-1672.avif",
+        "bytes": 151474
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-faq.png": {
+    "width": 1748,
+    "height": 812,
+    "bytes": 1726242,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1748
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-faq-480.webp",
+        "bytes": 43986
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-faq-480.avif",
+        "bytes": 26533
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-faq-800.webp",
+        "bytes": 99964
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-faq-800.avif",
+        "bytes": 59651
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-faq-1200.webp",
+        "bytes": 182342
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-faq-1200.avif",
+        "bytes": 106572
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-faq-1600.webp",
+        "bytes": 270732
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-faq-1600.avif",
+        "bytes": 159755
+      },
+      {
+        "width": 1748,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-faq-1748.webp",
+        "bytes": 306428
+      },
+      {
+        "width": 1748,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-faq-1748.avif",
+        "bytes": 180098
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-game-modes.png": {
+    "width": 1677,
+    "height": 820,
+    "bytes": 1751950,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1677
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-game-modes-480.webp",
+        "bytes": 44146
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-game-modes-480.avif",
+        "bytes": 26374
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-game-modes-800.webp",
+        "bytes": 94860
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-game-modes-800.avif",
+        "bytes": 57562
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-game-modes-1200.webp",
+        "bytes": 175346
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-game-modes-1200.avif",
+        "bytes": 104468
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-game-modes-1600.webp",
+        "bytes": 261974
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-game-modes-1600.avif",
+        "bytes": 156773
+      },
+      {
+        "width": 1677,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-game-modes-1677.webp",
+        "bytes": 287518
+      },
+      {
+        "width": 1677,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-game-modes-1677.avif",
+        "bytes": 168277
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-gameplay-01.png": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 2179527,
+    "widths": [
+      480,
+      800,
+      1200,
+      1206
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-01-480.webp",
+        "bytes": 116560
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-01-480.avif",
+        "bytes": 70713
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-01-800.webp",
+        "bytes": 242314
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-01-800.avif",
+        "bytes": 144253
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-01-1200.webp",
+        "bytes": 433526
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-01-1200.avif",
+        "bytes": 239835
+      },
+      {
+        "width": 1206,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-01-1206.webp",
+        "bytes": 434284
+      },
+      {
+        "width": 1206,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-01-1206.avif",
+        "bytes": 233382
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-gameplay-02.png": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 331713,
+    "widths": [
+      480,
+      800,
+      1200,
+      1206
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-02-480.webp",
+        "bytes": 32962
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-02-480.avif",
+        "bytes": 22274
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-02-800.webp",
+        "bytes": 65472
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-02-800.avif",
+        "bytes": 40151
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-02-1200.webp",
+        "bytes": 109818
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-02-1200.avif",
+        "bytes": 64399
+      },
+      {
+        "width": 1206,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-02-1206.webp",
+        "bytes": 108974
+      },
+      {
+        "width": 1206,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-02-1206.avif",
+        "bytes": 62033
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-gameplay-03.png": {
+    "width": 1206,
+    "height": 2622,
+    "bytes": 447836,
+    "widths": [
+      480,
+      800,
+      1200,
+      1206
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-03-480.webp",
+        "bytes": 41064
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-03-480.avif",
+        "bytes": 27995
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-03-800.webp",
+        "bytes": 83038
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-03-800.avif",
+        "bytes": 52933
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-03-1200.webp",
+        "bytes": 141890
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-03-1200.avif",
+        "bytes": 87015
+      },
+      {
+        "width": 1206,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-03-1206.webp",
+        "bytes": 140506
+      },
+      {
+        "width": 1206,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-gameplay-03-1206.avif",
+        "bytes": 85884
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-hero.png": {
+    "width": 1871,
+    "height": 840,
+    "bytes": 1861964,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1871
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-hero-480.webp",
+        "bytes": 44948
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-hero-480.avif",
+        "bytes": 26474
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-hero-800.webp",
+        "bytes": 104120
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-hero-800.avif",
+        "bytes": 61773
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-hero-1200.webp",
+        "bytes": 198368
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-hero-1200.avif",
+        "bytes": 114480
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-hero-1600.webp",
+        "bytes": 296426
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-hero-1600.avif",
+        "bytes": 166191
+      },
+      {
+        "width": 1871,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-hero-1871.webp",
+        "bytes": 365522
+      },
+      {
+        "width": 1871,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-hero-1871.avif",
+        "bytes": 203516
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-how-to-play.png": {
+    "width": 1691,
+    "height": 930,
+    "bytes": 1781574,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1691
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-how-to-play-480.webp",
+        "bytes": 48240
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-how-to-play-480.avif",
+        "bytes": 27608
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-how-to-play-800.webp",
+        "bytes": 101592
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-how-to-play-800.avif",
+        "bytes": 58920
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-how-to-play-1200.webp",
+        "bytes": 179378
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-how-to-play-1200.avif",
+        "bytes": 102128
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-how-to-play-1600.webp",
+        "bytes": 262274
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-how-to-play-1600.avif",
+        "bytes": 147741
+      },
+      {
+        "width": 1691,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-how-to-play-1691.webp",
+        "bytes": 285824
+      },
+      {
+        "width": 1691,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-how-to-play-1691.avif",
+        "bytes": 158050
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-icon.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1804514,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-icon-480.webp",
+        "bytes": 87546
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-icon-480.avif",
+        "bytes": 50725
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-icon-800.webp",
+        "bytes": 202738
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-icon-800.avif",
+        "bytes": 114813
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-icon-1024.webp",
+        "bytes": 283646
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-icon-1024.avif",
+        "bytes": 167904
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-leaderboards.png": {
+    "width": 1754,
+    "height": 779,
+    "bytes": 1927765,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1754
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-leaderboards-480.webp",
+        "bytes": 39486
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-leaderboards-480.avif",
+        "bytes": 24008
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-leaderboards-800.webp",
+        "bytes": 90056
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-leaderboards-800.avif",
+        "bytes": 53820
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-leaderboards-1200.webp",
+        "bytes": 167434
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-leaderboards-1200.avif",
+        "bytes": 97623
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-leaderboards-1600.webp",
+        "bytes": 246562
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-leaderboards-1600.avif",
+        "bytes": 142495
+      },
+      {
+        "width": 1754,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-leaderboards-1754.webp",
+        "bytes": 277700
+      },
+      {
+        "width": 1754,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-leaderboards-1754.avif",
+        "bytes": 161025
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake-tips-and-strategy.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 1942012,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-tips-and-strategy-480.webp",
+        "bytes": 46582
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-tips-and-strategy-480.avif",
+        "bytes": 28040
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-tips-and-strategy-800.webp",
+        "bytes": 106398
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-tips-and-strategy-800.avif",
+        "bytes": 62713
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-tips-and-strategy-1200.webp",
+        "bytes": 192360
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-tips-and-strategy-1200.avif",
+        "bytes": 115062
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-tips-and-strategy-1600.webp",
+        "bytes": 290288
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-tips-and-strategy-1600.avif",
+        "bytes": 172211
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-tips-and-strategy-1774.webp",
+        "bytes": 335288
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-tips-and-strategy-1774.avif",
+        "bytes": 198530
+      }
+    ]
+  },
+  "images/apps/zxsnake/zxsnake.png": {
+    "width": 1300,
+    "height": 1024,
+    "bytes": 2249186,
+    "widths": [
+      480,
+      800,
+      1200,
+      1300
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-480.webp",
+        "bytes": 73790
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-480.avif",
+        "bytes": 43788
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-800.webp",
+        "bytes": 168774
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-800.avif",
+        "bytes": 98695
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-1200.webp",
+        "bytes": 313742
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-1200.avif",
+        "bytes": 180041
+      },
+      {
+        "width": 1300,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-1300.webp",
+        "bytes": 357358
+      },
+      {
+        "width": 1300,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxsnake/zxsnake-1300.avif",
+        "bytes": 203099
+      }
+    ]
+  },
+  "images/apps/zxspace/zxspace-gameplay-01.png": {
+    "width": 887,
+    "height": 1774,
+    "bytes": 2165768,
+    "widths": [
+      480,
+      800,
+      887
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-gameplay-01-480.webp",
+        "bytes": 148376
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-gameplay-01-480.avif",
+        "bytes": 98174
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-gameplay-01-800.webp",
+        "bytes": 326886
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-gameplay-01-800.avif",
+        "bytes": 208503
+      },
+      {
+        "width": 887,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-gameplay-01-887.webp",
+        "bytes": 382162
+      },
+      {
+        "width": 887,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-gameplay-01-887.avif",
+        "bytes": 243707
+      }
+    ]
+  },
+  "images/apps/zxspace/zxspace-hero.png": {
+    "width": 1659,
+    "height": 948,
+    "bytes": 2747541,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1659
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-hero-480.webp",
+        "bytes": 80498
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-hero-480.avif",
+        "bytes": 52977
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-hero-800.webp",
+        "bytes": 190516
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-hero-800.avif",
+        "bytes": 121440
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-hero-1200.webp",
+        "bytes": 370206
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-hero-1200.avif",
+        "bytes": 230087
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-hero-1600.webp",
+        "bytes": 558524
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-hero-1600.avif",
+        "bytes": 342067
+      },
+      {
+        "width": 1659,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-hero-1659.webp",
+        "bytes": 591176
+      },
+      {
+        "width": 1659,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-hero-1659.avif",
+        "bytes": 363901
+      }
+    ]
+  },
+  "images/apps/zxspace/zxspace-icon.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 925153,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-icon-480.webp",
+        "bytes": 39092
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-icon-480.avif",
+        "bytes": 24486
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-icon-800.webp",
+        "bytes": 72932
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-icon-800.avif",
+        "bytes": 41768
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-icon-1024.webp",
+        "bytes": 97582
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-icon-1024.avif",
+        "bytes": 55739
+      }
+    ]
+  },
+  "images/apps/zxspace/zxspace.png": {
+    "width": 1413,
+    "height": 1113,
+    "bytes": 2409517,
+    "widths": [
+      480,
+      800,
+      1200,
+      1413
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-480.webp",
+        "bytes": 75862
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-480.avif",
+        "bytes": 48386
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-800.webp",
+        "bytes": 180358
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-800.avif",
+        "bytes": 115293
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-1200.webp",
+        "bytes": 354914
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-1200.avif",
+        "bytes": 218207
+      },
+      {
+        "width": 1413,
+        "format": "webp",
+        "path": "images/optimized/images/apps/zxspace/zxspace-1413.webp",
+        "bytes": 458748
+      },
+      {
+        "width": 1413,
+        "format": "avif",
+        "path": "images/optimized/images/apps/zxspace/zxspace-1413.avif",
+        "bytes": 277811
+      }
+    ]
+  },
+  "images/contact-bg-banner.png": {
+    "width": 1672,
+    "height": 941,
+    "bytes": 2011669,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1672
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/contact-bg-banner-480.webp",
+        "bytes": 28914
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/contact-bg-banner-480.avif",
+        "bytes": 16869
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/contact-bg-banner-800.webp",
+        "bytes": 65694
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/contact-bg-banner-800.avif",
+        "bytes": 36816
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/contact-bg-banner-1200.webp",
+        "bytes": 118820
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/contact-bg-banner-1200.avif",
+        "bytes": 67244
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/contact-bg-banner-1600.webp",
+        "bytes": 180826
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/contact-bg-banner-1600.avif",
+        "bytes": 96893
+      },
+      {
+        "width": 1672,
+        "format": "webp",
+        "path": "images/optimized/images/contact-bg-banner-1672.webp",
+        "bytes": 192390
+      },
+      {
+        "width": 1672,
+        "format": "avif",
+        "path": "images/optimized/images/contact-bg-banner-1672.avif",
+        "bytes": 103188
+      }
+    ]
+  },
+  "images/home-bg-banner.png": {
+    "width": 1717,
+    "height": 916,
+    "bytes": 2280697,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1717
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/home-bg-banner-480.webp",
+        "bytes": 39570
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/home-bg-banner-480.avif",
+        "bytes": 25508
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/home-bg-banner-800.webp",
+        "bytes": 94310
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/home-bg-banner-800.avif",
+        "bytes": 57543
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/home-bg-banner-1200.webp",
+        "bytes": 178932
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/home-bg-banner-1200.avif",
+        "bytes": 103199
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/home-bg-banner-1600.webp",
+        "bytes": 272732
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/home-bg-banner-1600.avif",
+        "bytes": 149815
+      },
+      {
+        "width": 1717,
+        "format": "webp",
+        "path": "images/optimized/images/home-bg-banner-1717.webp",
+        "bytes": 302940
+      },
+      {
+        "width": 1717,
+        "format": "avif",
+        "path": "images/optimized/images/home-bg-banner-1717.avif",
+        "bytes": 164551
+      }
+    ]
+  },
+  "images/logos/favicon.png": {
+    "width": 64,
+    "height": 64,
+    "bytes": 10571,
+    "widths": [
+      64
+    ],
+    "variants": [
+      {
+        "width": 64,
+        "format": "webp",
+        "path": "images/optimized/images/logos/favicon-64.webp",
+        "bytes": 2620
+      },
+      {
+        "width": 64,
+        "format": "avif",
+        "path": "images/optimized/images/logos/favicon-64.avif",
+        "bytes": 1828
+      }
+    ]
+  },
+  "images/logos/logo-black-horizontal.png": {
+    "width": 308,
+    "height": 119,
+    "bytes": 56176,
+    "widths": [
+      308
+    ],
+    "variants": [
+      {
+        "width": 308,
+        "format": "webp",
+        "path": "images/optimized/images/logos/logo-black-horizontal-308.webp",
+        "bytes": 11120
+      },
+      {
+        "width": 308,
+        "format": "avif",
+        "path": "images/optimized/images/logos/logo-black-horizontal-308.avif",
+        "bytes": 6308
+      }
+    ]
+  },
+  "images/logos/logo-black-icon.png": {
+    "width": 241,
+    "height": 190,
+    "bytes": 70875,
+    "widths": [
+      241
+    ],
+    "variants": [
+      {
+        "width": 241,
+        "format": "webp",
+        "path": "images/optimized/images/logos/logo-black-icon-241.webp",
+        "bytes": 13340
+      },
+      {
+        "width": 241,
+        "format": "avif",
+        "path": "images/optimized/images/logos/logo-black-icon-241.avif",
+        "bytes": 7679
+      }
+    ]
+  },
+  "images/logos/logo-black-stacked.png": {
+    "width": 234,
+    "height": 210,
+    "bytes": 74815,
+    "widths": [
+      234
+    ],
+    "variants": [
+      {
+        "width": 234,
+        "format": "webp",
+        "path": "images/optimized/images/logos/logo-black-stacked-234.webp",
+        "bytes": 14088
+      },
+      {
+        "width": 234,
+        "format": "avif",
+        "path": "images/optimized/images/logos/logo-black-stacked-234.avif",
+        "bytes": 8368
+      }
+    ]
+  },
+  "images/logos/social-preview.png": {
+    "width": 1942,
+    "height": 809,
+    "bytes": 1418590,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1942
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/logos/social-preview-480.webp",
+        "bytes": 25490
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/logos/social-preview-480.avif",
+        "bytes": 15504
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/logos/social-preview-800.webp",
+        "bytes": 56282
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/logos/social-preview-800.avif",
+        "bytes": 31000
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/logos/social-preview-1200.webp",
+        "bytes": 101286
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/logos/social-preview-1200.avif",
+        "bytes": 54738
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/logos/social-preview-1600.webp",
+        "bytes": 148628
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/logos/social-preview-1600.avif",
+        "bytes": 80702
+      },
+      {
+        "width": 1942,
+        "format": "webp",
+        "path": "images/optimized/images/logos/social-preview-1942.webp",
+        "bytes": 186072
+      },
+      {
+        "width": 1942,
+        "format": "avif",
+        "path": "images/optimized/images/logos/social-preview-1942.avif",
+        "bytes": 102112
+      }
+    ]
+  },
+  "images/news-bg-banner.png": {
+    "width": 1672,
+    "height": 941,
+    "bytes": 2074732,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1672
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/news-bg-banner-480.webp",
+        "bytes": 32090
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/news-bg-banner-480.avif",
+        "bytes": 19453
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/news-bg-banner-800.webp",
+        "bytes": 70522
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/news-bg-banner-800.avif",
+        "bytes": 41188
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/news-bg-banner-1200.webp",
+        "bytes": 131288
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/news-bg-banner-1200.avif",
+        "bytes": 73560
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/news-bg-banner-1600.webp",
+        "bytes": 202244
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/news-bg-banner-1600.avif",
+        "bytes": 105093
+      },
+      {
+        "width": 1672,
+        "format": "webp",
+        "path": "images/optimized/images/news-bg-banner-1672.webp",
+        "bytes": 210036
+      },
+      {
+        "width": 1672,
+        "format": "avif",
+        "path": "images/optimized/images/news-bg-banner-1672.avif",
+        "bytes": 110516
+      }
+    ]
+  },
+  "images/news-hero-banner.png": {
+    "width": 1717,
+    "height": 916,
+    "bytes": 1981753,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1717
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/news-hero-banner-480.webp",
+        "bytes": 28942
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/news-hero-banner-480.avif",
+        "bytes": 17378
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/news-hero-banner-800.webp",
+        "bytes": 65090
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/news-hero-banner-800.avif",
+        "bytes": 36151
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/news-hero-banner-1200.webp",
+        "bytes": 117640
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/news-hero-banner-1200.avif",
+        "bytes": 64989
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/news-hero-banner-1600.webp",
+        "bytes": 181500
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/news-hero-banner-1600.avif",
+        "bytes": 98421
+      },
+      {
+        "width": 1717,
+        "format": "webp",
+        "path": "images/optimized/images/news-hero-banner-1717.webp",
+        "bytes": 195962
+      },
+      {
+        "width": 1717,
+        "format": "avif",
+        "path": "images/optimized/images/news-hero-banner-1717.avif",
+        "bytes": 106789
+      }
+    ]
+  },
+  "images/otherapps-bg-banner.png": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 1960065,
+    "widths": [
+      480,
+      800,
+      1200,
+      1536
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/otherapps-bg-banner-480.webp",
+        "bytes": 28506
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/otherapps-bg-banner-480.avif",
+        "bytes": 17787
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/otherapps-bg-banner-800.webp",
+        "bytes": 64670
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/otherapps-bg-banner-800.avif",
+        "bytes": 37708
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/otherapps-bg-banner-1200.webp",
+        "bytes": 122740
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/otherapps-bg-banner-1200.avif",
+        "bytes": 68213
+      },
+      {
+        "width": 1536,
+        "format": "webp",
+        "path": "images/optimized/images/otherapps-bg-banner-1536.webp",
+        "bytes": 176130
+      },
+      {
+        "width": 1536,
+        "format": "avif",
+        "path": "images/optimized/images/otherapps-bg-banner-1536.avif",
+        "bytes": 96226
+      }
+    ]
+  },
+  "images/placeholder.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 2522378,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/placeholder-480.webp",
+        "bytes": 62106
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/placeholder-480.avif",
+        "bytes": 37100
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/placeholder-800.webp",
+        "bytes": 140354
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/placeholder-800.avif",
+        "bytes": 84534
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/placeholder-1200.webp",
+        "bytes": 271038
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/placeholder-1200.avif",
+        "bytes": 161418
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/placeholder-1600.webp",
+        "bytes": 410836
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/placeholder-1600.avif",
+        "bytes": 241293
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/placeholder-1774.webp",
+        "bytes": 483376
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/placeholder-1774.avif",
+        "bytes": 280895
+      }
+    ]
+  },
+  "images/privacy-bg-banner.png": {
+    "width": 1672,
+    "height": 941,
+    "bytes": 2087433,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1672
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/privacy-bg-banner-480.webp",
+        "bytes": 28650
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/privacy-bg-banner-480.avif",
+        "bytes": 16495
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/privacy-bg-banner-800.webp",
+        "bytes": 68428
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/privacy-bg-banner-800.avif",
+        "bytes": 37603
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/privacy-bg-banner-1200.webp",
+        "bytes": 134972
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/privacy-bg-banner-1200.avif",
+        "bytes": 71489
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/privacy-bg-banner-1600.webp",
+        "bytes": 204790
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/privacy-bg-banner-1600.avif",
+        "bytes": 105222
+      },
+      {
+        "width": 1672,
+        "format": "webp",
+        "path": "images/optimized/images/privacy-bg-banner-1672.webp",
+        "bytes": 218194
+      },
+      {
+        "width": 1672,
+        "format": "avif",
+        "path": "images/optimized/images/privacy-bg-banner-1672.avif",
+        "bytes": 113438
+      }
+    ]
+  },
+  "images/privacy-hero-banner.png": {
+    "width": 1717,
+    "height": 916,
+    "bytes": 1926626,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1717
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/privacy-hero-banner-480.webp",
+        "bytes": 32984
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/privacy-hero-banner-480.avif",
+        "bytes": 19235
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/privacy-hero-banner-800.webp",
+        "bytes": 73450
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/privacy-hero-banner-800.avif",
+        "bytes": 39401
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/privacy-hero-banner-1200.webp",
+        "bytes": 131944
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/privacy-hero-banner-1200.avif",
+        "bytes": 70507
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/privacy-hero-banner-1600.webp",
+        "bytes": 191234
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/privacy-hero-banner-1600.avif",
+        "bytes": 104123
+      },
+      {
+        "width": 1717,
+        "format": "webp",
+        "path": "images/optimized/images/privacy-hero-banner-1717.webp",
+        "bytes": 207250
+      },
+      {
+        "width": 1717,
+        "format": "avif",
+        "path": "images/optimized/images/privacy-hero-banner-1717.avif",
+        "bytes": 115984
+      }
+    ]
+  },
+  "images/retro-banner.png": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2094279,
+    "widths": [
+      480,
+      800,
+      1200,
+      1536
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/retro-banner-480.webp",
+        "bytes": 52736
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/retro-banner-480.avif",
+        "bytes": 29949
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/retro-banner-800.webp",
+        "bytes": 118554
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/retro-banner-800.avif",
+        "bytes": 65070
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/retro-banner-1200.webp",
+        "bytes": 208704
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/retro-banner-1200.avif",
+        "bytes": 119660
+      },
+      {
+        "width": 1536,
+        "format": "webp",
+        "path": "images/optimized/images/retro-banner-1536.webp",
+        "bytes": 303840
+      },
+      {
+        "width": 1536,
+        "format": "avif",
+        "path": "images/optimized/images/retro-banner-1536.avif",
+        "bytes": 173556
+      }
+    ]
+  },
+  "images/service-bg-banner.png": {
+    "width": 1717,
+    "height": 916,
+    "bytes": 1981740,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1717
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/service-bg-banner-480.webp",
+        "bytes": 29146
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/service-bg-banner-480.avif",
+        "bytes": 16892
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/service-bg-banner-800.webp",
+        "bytes": 63746
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/service-bg-banner-800.avif",
+        "bytes": 35712
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/service-bg-banner-1200.webp",
+        "bytes": 122132
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/service-bg-banner-1200.avif",
+        "bytes": 64546
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/service-bg-banner-1600.webp",
+        "bytes": 177688
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/service-bg-banner-1600.avif",
+        "bytes": 93798
+      },
+      {
+        "width": 1717,
+        "format": "webp",
+        "path": "images/optimized/images/service-bg-banner-1717.webp",
+        "bytes": 197866
+      },
+      {
+        "width": 1717,
+        "format": "avif",
+        "path": "images/optimized/images/service-bg-banner-1717.avif",
+        "bytes": 103811
+      }
+    ]
+  },
+  "images/service-hero-banner.png": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2151192,
+    "widths": [
+      480,
+      800,
+      1200,
+      1536
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/service-hero-banner-480.webp",
+        "bytes": 51850
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/service-hero-banner-480.avif",
+        "bytes": 29840
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/service-hero-banner-800.webp",
+        "bytes": 118832
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/service-hero-banner-800.avif",
+        "bytes": 64464
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/service-hero-banner-1200.webp",
+        "bytes": 204320
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/service-hero-banner-1200.avif",
+        "bytes": 115307
+      },
+      {
+        "width": 1536,
+        "format": "webp",
+        "path": "images/optimized/images/service-hero-banner-1536.webp",
+        "bytes": 296940
+      },
+      {
+        "width": 1536,
+        "format": "avif",
+        "path": "images/optimized/images/service-hero-banner-1536.avif",
+        "bytes": 162977
+      }
+    ]
+  },
+  "images/shared/barkinmadcoins.png": {
+    "width": 1727,
+    "height": 794,
+    "bytes": 1870100,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1727
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/shared/barkinmadcoins-480.webp",
+        "bytes": 53306
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/shared/barkinmadcoins-480.avif",
+        "bytes": 32047
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/shared/barkinmadcoins-800.webp",
+        "bytes": 116718
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/shared/barkinmadcoins-800.avif",
+        "bytes": 69589
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/shared/barkinmadcoins-1200.webp",
+        "bytes": 204934
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/shared/barkinmadcoins-1200.avif",
+        "bytes": 124670
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/shared/barkinmadcoins-1600.webp",
+        "bytes": 306634
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/shared/barkinmadcoins-1600.avif",
+        "bytes": 182401
+      },
+      {
+        "width": 1727,
+        "format": "webp",
+        "path": "images/optimized/images/shared/barkinmadcoins-1727.webp",
+        "bytes": 340250
+      },
+      {
+        "width": 1727,
+        "format": "avif",
+        "path": "images/optimized/images/shared/barkinmadcoins-1727.avif",
+        "bytes": 202220
+      }
+    ]
+  },
+  "images/shared/placeholder.png": {
+    "width": 1774,
+    "height": 887,
+    "bytes": 2228023,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1774
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/images/shared/placeholder-480.webp",
+        "bytes": 60232
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/images/shared/placeholder-480.avif",
+        "bytes": 36204
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/images/shared/placeholder-800.webp",
+        "bytes": 137306
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/images/shared/placeholder-800.avif",
+        "bytes": 82036
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/images/shared/placeholder-1200.webp",
+        "bytes": 261572
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/images/shared/placeholder-1200.avif",
+        "bytes": 154426
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/images/shared/placeholder-1600.webp",
+        "bytes": 399710
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/images/shared/placeholder-1600.avif",
+        "bytes": 230764
+      },
+      {
+        "width": 1774,
+        "format": "webp",
+        "path": "images/optimized/images/shared/placeholder-1774.webp",
+        "bytes": 471526
+      },
+      {
+        "width": 1774,
+        "format": "avif",
+        "path": "images/optimized/images/shared/placeholder-1774.avif",
+        "bytes": 265790
+      }
+    ]
+  },
+  "news/ai-coding/image.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1682842,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/ai-coding/image-480.webp",
+        "bytes": 58046
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/ai-coding/image-480.avif",
+        "bytes": 32796
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/ai-coding/image-800.webp",
+        "bytes": 127568
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/ai-coding/image-800.avif",
+        "bytes": 67000
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/ai-coding/image-1024.webp",
+        "bytes": 181568
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/ai-coding/image-1024.avif",
+        "bytes": 95816
+      }
+    ]
+  },
+  "news/building-game-of-darts/image.png": {
+    "width": 1024,
+    "height": 800,
+    "bytes": 1594454,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/building-game-of-darts/image-480.webp",
+        "bytes": 62808
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/building-game-of-darts/image-480.avif",
+        "bytes": 34848
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/building-game-of-darts/image-800.webp",
+        "bytes": 143560
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/building-game-of-darts/image-800.avif",
+        "bytes": 79169
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/building-game-of-darts/image-1024.webp",
+        "bytes": 214062
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/building-game-of-darts/image-1024.avif",
+        "bytes": 117007
+      }
+    ]
+  },
+  "news/building-zxsnake/image.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1612460,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/building-zxsnake/image-480.webp",
+        "bytes": 68440
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/building-zxsnake/image-480.avif",
+        "bytes": 43069
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/building-zxsnake/image-800.webp",
+        "bytes": 145048
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/building-zxsnake/image-800.avif",
+        "bytes": 87464
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/building-zxsnake/image-1024.webp",
+        "bytes": 209542
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/building-zxsnake/image-1024.avif",
+        "bytes": 124036
+      }
+    ]
+  },
+  "news/building-zxspace/image.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1812865,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/building-zxspace/image-480.webp",
+        "bytes": 71784
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/building-zxspace/image-480.avif",
+        "bytes": 45611
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/building-zxspace/image-800.webp",
+        "bytes": 161024
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/building-zxspace/image-800.avif",
+        "bytes": 103566
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/building-zxspace/image-1024.webp",
+        "bytes": 238708
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/building-zxspace/image-1024.avif",
+        "bytes": 153337
+      }
+    ]
+  },
+  "news/creating-retro-style-mobile-games/image.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1449022,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/creating-retro-style-mobile-games/image-480.webp",
+        "bytes": 54446
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/creating-retro-style-mobile-games/image-480.avif",
+        "bytes": 32304
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/creating-retro-style-mobile-games/image-800.webp",
+        "bytes": 111358
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/creating-retro-style-mobile-games/image-800.avif",
+        "bytes": 64553
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/creating-retro-style-mobile-games/image-1024.webp",
+        "bytes": 157674
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/creating-retro-style-mobile-games/image-1024.avif",
+        "bytes": 91658
+      }
+    ]
+  },
+  "news/first-look-zxpong/image.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 42107,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/first-look-zxpong/image-480.webp",
+        "bytes": 23694
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/first-look-zxpong/image-480.avif",
+        "bytes": 13719
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/first-look-zxpong/image-800.webp",
+        "bytes": 52120
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/first-look-zxpong/image-800.avif",
+        "bytes": 22853
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/first-look-zxpong/image-1024.webp",
+        "bytes": 61492
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/first-look-zxpong/image-1024.avif",
+        "bytes": 16373
+      }
+    ]
+  },
+  "news/gameofdarts-update/image.png": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2361973,
+    "widths": [
+      480,
+      800,
+      1200,
+      1536
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/gameofdarts-update/image-480.webp",
+        "bytes": 54444
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/gameofdarts-update/image-480.avif",
+        "bytes": 32394
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/gameofdarts-update/image-800.webp",
+        "bytes": 129998
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/gameofdarts-update/image-800.avif",
+        "bytes": 73905
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/news/gameofdarts-update/image-1200.webp",
+        "bytes": 246520
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/news/gameofdarts-update/image-1200.avif",
+        "bytes": 139481
+      },
+      {
+        "width": 1536,
+        "format": "webp",
+        "path": "images/optimized/news/gameofdarts-update/image-1536.webp",
+        "bytes": 366148
+      },
+      {
+        "width": 1536,
+        "format": "avif",
+        "path": "images/optimized/news/gameofdarts-update/image-1536.avif",
+        "bytes": 197930
+      }
+    ]
+  },
+  "news/how-barkinmad-coins-connect-the-zx-series/image.png": {
+    "width": 1200,
+    "height": 1200,
+    "bytes": 51618,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/how-barkinmad-coins-connect-the-zx-series/image-480.webp",
+        "bytes": 20030
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/how-barkinmad-coins-connect-the-zx-series/image-480.avif",
+        "bytes": 12192
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/how-barkinmad-coins-connect-the-zx-series/image-800.webp",
+        "bytes": 34688
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/how-barkinmad-coins-connect-the-zx-series/image-800.avif",
+        "bytes": 20393
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/news/how-barkinmad-coins-connect-the-zx-series/image-1200.webp",
+        "bytes": 52690
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/news/how-barkinmad-coins-connect-the-zx-series/image-1200.avif",
+        "bytes": 19169
+      }
+    ]
+  },
+  "news/inside-the-zx-series/image.png": {
+    "width": 1200,
+    "height": 1200,
+    "bytes": 64835,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/inside-the-zx-series/image-480.webp",
+        "bytes": 29732
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/inside-the-zx-series/image-480.avif",
+        "bytes": 18481
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/inside-the-zx-series/image-800.webp",
+        "bytes": 53730
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/inside-the-zx-series/image-800.avif",
+        "bytes": 29697
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/news/inside-the-zx-series/image-1200.webp",
+        "bytes": 81998
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/news/inside-the-zx-series/image-1200.avif",
+        "bytes": 26535
+      }
+    ]
+  },
+  "news/introducing-barkinmad-coins/image.png": {
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1400434,
+    "widths": [
+      480,
+      800,
+      1200,
+      1254
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/introducing-barkinmad-coins/image-480.webp",
+        "bytes": 55796
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/introducing-barkinmad-coins/image-480.avif",
+        "bytes": 32820
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/introducing-barkinmad-coins/image-800.webp",
+        "bytes": 126440
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/introducing-barkinmad-coins/image-800.avif",
+        "bytes": 72240
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/news/introducing-barkinmad-coins/image-1200.webp",
+        "bytes": 232456
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/news/introducing-barkinmad-coins/image-1200.avif",
+        "bytes": 131090
+      },
+      {
+        "width": 1254,
+        "format": "webp",
+        "path": "images/optimized/news/introducing-barkinmad-coins/image-1254.webp",
+        "bytes": 249534
+      },
+      {
+        "width": 1254,
+        "format": "avif",
+        "path": "images/optimized/news/introducing-barkinmad-coins/image-1254.avif",
+        "bytes": 139729
+      }
+    ]
+  },
+  "news/introducing-studiodash/image.png": {
+    "width": 1672,
+    "height": 941,
+    "bytes": 1195479,
+    "widths": [
+      480,
+      800,
+      1200,
+      1600,
+      1672
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/introducing-studiodash/image-480.webp",
+        "bytes": 22054
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/introducing-studiodash/image-480.avif",
+        "bytes": 12787
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/introducing-studiodash/image-800.webp",
+        "bytes": 41700
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/introducing-studiodash/image-800.avif",
+        "bytes": 24070
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/news/introducing-studiodash/image-1200.webp",
+        "bytes": 71172
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/news/introducing-studiodash/image-1200.avif",
+        "bytes": 41670
+      },
+      {
+        "width": 1600,
+        "format": "webp",
+        "path": "images/optimized/news/introducing-studiodash/image-1600.webp",
+        "bytes": 101466
+      },
+      {
+        "width": 1600,
+        "format": "avif",
+        "path": "images/optimized/news/introducing-studiodash/image-1600.avif",
+        "bytes": 59699
+      },
+      {
+        "width": 1672,
+        "format": "webp",
+        "path": "images/optimized/news/introducing-studiodash/image-1672.webp",
+        "bytes": 106824
+      },
+      {
+        "width": 1672,
+        "format": "avif",
+        "path": "images/optimized/news/introducing-studiodash/image-1672.avif",
+        "bytes": 62417
+      }
+    ]
+  },
+  "news/language-support/image.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1432532,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/language-support/image-480.webp",
+        "bytes": 66948
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/language-support/image-480.avif",
+        "bytes": 36011
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/language-support/image-800.webp",
+        "bytes": 147370
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/language-support/image-800.avif",
+        "bytes": 77072
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/language-support/image-1024.webp",
+        "bytes": 211090
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/language-support/image-1024.avif",
+        "bytes": 110201
+      }
+    ]
+  },
+  "news/one-year-of-barkinmad-studios/image.png": {
+    "width": 1200,
+    "height": 1200,
+    "bytes": 79535,
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/one-year-of-barkinmad-studios/image-480.webp",
+        "bytes": 26938
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/one-year-of-barkinmad-studios/image-480.avif",
+        "bytes": 16122
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/one-year-of-barkinmad-studios/image-800.webp",
+        "bytes": 48066
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/one-year-of-barkinmad-studios/image-800.avif",
+        "bytes": 26798
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/news/one-year-of-barkinmad-studios/image-1200.webp",
+        "bytes": 68994
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/news/one-year-of-barkinmad-studios/image-1200.avif",
+        "bytes": 28910
+      }
+    ]
+  },
+  "news/released-zxsnake-zxbrick/image.png": {
+    "width": 1024,
+    "height": 800,
+    "bytes": 1351389,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/released-zxsnake-zxbrick/image-480.webp",
+        "bytes": 59132
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/released-zxsnake-zxbrick/image-480.avif",
+        "bytes": 37380
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/released-zxsnake-zxbrick/image-800.webp",
+        "bytes": 123096
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/released-zxsnake-zxbrick/image-800.avif",
+        "bytes": 75365
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/released-zxsnake-zxbrick/image-1024.webp",
+        "bytes": 175780
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/released-zxsnake-zxbrick/image-1024.avif",
+        "bytes": 109010
+      }
+    ]
+  },
+  "news/starting-barkinmad-studios/image.png": {
+    "width": 1024,
+    "height": 800,
+    "bytes": 1589443,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/starting-barkinmad-studios/image-480.webp",
+        "bytes": 62566
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/starting-barkinmad-studios/image-480.avif",
+        "bytes": 34387
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/starting-barkinmad-studios/image-800.webp",
+        "bytes": 144328
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/starting-barkinmad-studios/image-800.avif",
+        "bytes": 79455
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/starting-barkinmad-studios/image-1024.webp",
+        "bytes": 218412
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/starting-barkinmad-studios/image-1024.avif",
+        "bytes": 116781
+      }
+    ]
+  },
+  "news/website-relaunch/image.png": {
+    "width": 1536,
+    "height": 1024,
+    "bytes": 2103279,
+    "widths": [
+      480,
+      800,
+      1200,
+      1536
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/website-relaunch/image-480.webp",
+        "bytes": 46208
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/website-relaunch/image-480.avif",
+        "bytes": 24867
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/website-relaunch/image-800.webp",
+        "bytes": 100282
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/website-relaunch/image-800.avif",
+        "bytes": 54249
+      },
+      {
+        "width": 1200,
+        "format": "webp",
+        "path": "images/optimized/news/website-relaunch/image-1200.webp",
+        "bytes": 187920
+      },
+      {
+        "width": 1200,
+        "format": "avif",
+        "path": "images/optimized/news/website-relaunch/image-1200.avif",
+        "bytes": 98717
+      },
+      {
+        "width": 1536,
+        "format": "webp",
+        "path": "images/optimized/news/website-relaunch/image-1536.webp",
+        "bytes": 273062
+      },
+      {
+        "width": 1536,
+        "format": "avif",
+        "path": "images/optimized/news/website-relaunch/image-1536.avif",
+        "bytes": 140018
+      }
+    ]
+  },
+  "news/why-retro-games-still-work/image.png": {
+    "width": 1024,
+    "height": 900,
+    "bytes": 1738088,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/why-retro-games-still-work/image-480.webp",
+        "bytes": 82538
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/why-retro-games-still-work/image-480.avif",
+        "bytes": 47103
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/why-retro-games-still-work/image-800.webp",
+        "bytes": 175890
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/why-retro-games-still-work/image-800.avif",
+        "bytes": 100665
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/why-retro-games-still-work/image-1024.webp",
+        "bytes": 257450
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/why-retro-games-still-work/image-1024.avif",
+        "bytes": 147047
+      }
+    ]
+  },
+  "news/zxbrick-powerups/image.png": {
+    "width": 1024,
+    "height": 1024,
+    "bytes": 1512538,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/zxbrick-powerups/image-480.webp",
+        "bytes": 62926
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/zxbrick-powerups/image-480.avif",
+        "bytes": 39069
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/zxbrick-powerups/image-800.webp",
+        "bytes": 130490
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/zxbrick-powerups/image-800.avif",
+        "bytes": 78751
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/zxbrick-powerups/image-1024.webp",
+        "bytes": 187358
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/zxbrick-powerups/image-1024.avif",
+        "bytes": 111404
+      }
+    ]
+  },
+  "news/zxsnake-pvp/image.png": {
+    "width": 1024,
+    "height": 850,
+    "bytes": 1092730,
+    "widths": [
+      480,
+      800,
+      1024
+    ],
+    "variants": [
+      {
+        "width": 480,
+        "format": "webp",
+        "path": "images/optimized/news/zxsnake-pvp/image-480.webp",
+        "bytes": 52878
+      },
+      {
+        "width": 480,
+        "format": "avif",
+        "path": "images/optimized/news/zxsnake-pvp/image-480.avif",
+        "bytes": 29308
+      },
+      {
+        "width": 800,
+        "format": "webp",
+        "path": "images/optimized/news/zxsnake-pvp/image-800.webp",
+        "bytes": 105136
+      },
+      {
+        "width": 800,
+        "format": "avif",
+        "path": "images/optimized/news/zxsnake-pvp/image-800.avif",
+        "bytes": 57608
+      },
+      {
+        "width": 1024,
+        "format": "webp",
+        "path": "images/optimized/news/zxsnake-pvp/image-1024.webp",
+        "bytes": 146876
+      },
+      {
+        "width": 1024,
+        "format": "avif",
+        "path": "images/optimized/news/zxsnake-pvp/image-1024.avif",
+        "bytes": 79445
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "title": "Cookie Policy",
   "heading": "Cookie Policy",
-  "intro": "This website may use cookies and similar technologies to improve functionality, analytics, and advertising services.",
+  "intro": "This website uses a native BarkinMad Studios cookie consent system so visitors can control optional analytics and advertising cookies.",
   "hero": {
     "image": "/images/privacy-bg-banner.png",
     "alt": "Privacy and data protection themed workspace representing security and trust"
@@ -15,31 +15,54 @@
       ]
     },
     {
-      "heading": "How Cookies Are Used",
+      "heading": "Cookie Categories",
       "paragraphs": [
-        "BarkinMad Studios may use cookies for website functionality, analytics, performance monitoring, and advertising.",
-        "Some third-party services integrated into the website may also use cookies or similar technologies."
+        "Essential Cookies are always enabled. They support core website operation and store the first-party BarkinMad Studios cookie preference record.",
+        "Analytics Cookies are optional. They allow Google Analytics to measure page views, browser information, device category, and general website interactions.",
+        "Advertising Cookies are optional. They support Google AdSense advertising storage, ad user data, and ad personalisation signals where advertising is active."
       ]
     },
     {
-      "heading": "Google AdSense",
+      "heading": "Essential Cookies",
       "paragraphs": [
-        "This website may display advertisements provided by Google AdSense.",
-        "Google and its partners may use cookies to display personalised or non-personalised advertisements based on your browsing activity and interests.",
-        "Google may use advertising cookies to measure ad performance and improve advertising services."
+        "Purpose: keep the website operating and remember whether optional cookies have been accepted or rejected.",
+        "Provider: BarkinMad Studios.",
+        "Retention: the cookie preference record is stored for up to 180 days unless removed earlier through browser settings.",
+        "User controls: essential cookies cannot be disabled through the website preference panel because they are required for the preference system to work."
       ]
     },
     {
-      "heading": "Analytics",
+      "heading": "Analytics Cookies",
       "paragraphs": [
-        "Analytics services may collect anonymous usage information such as page visits, device types, browser information, and general website interactions.",
-        "This information helps improve website performance and user experience."
+        "Purpose: understand how visitors use the website so pages, content, and performance can be improved.",
+        "Provider: Google Analytics.",
+        "Retention: To Verify. Google Analytics cookie retention can vary by Google configuration, browser behaviour, and future Google product settings.",
+        "User controls: analytics cookies are disabled by default until analytics consent is granted. Consent can be changed using Cookie Preferences in the footer."
+      ]
+    },
+    {
+      "heading": "Advertising Cookies",
+      "paragraphs": [
+        "Purpose: allow Google AdSense to provide advertising, measure ad performance, and support personalised or non-personalised advertising where applicable.",
+        "Provider: Google AdSense and Google advertising services.",
+        "Retention: To Verify. Advertising cookie retention is controlled by Google and may vary by product settings, consent state, browser behaviour, region, and future AdSense approval requirements.",
+        "User controls: advertising cookies are disabled by default until advertising consent is granted. Consent can be changed using Cookie Preferences in the footer."
+      ]
+    },
+    {
+      "heading": "Google Consent Mode v2",
+      "paragraphs": [
+        "The website uses Google Consent Mode v2 to communicate consent choices before Google Analytics or Google AdSense are initialised.",
+        "Consent signals include analytics_storage, ad_storage, ad_user_data, and ad_personalization.",
+        "When optional consent is rejected, the website does not load the corresponding optional Google service."
       ]
     },
     {
       "heading": "Managing Cookies",
       "paragraphs": [
-        "Most web browsers allow you to control or disable cookies through browser settings.",
+        "New visitors can accept all optional cookies, reject non-essential cookies, or manage Analytics and Advertising choices separately.",
+        "Saved choices can be changed at any time using the Cookie Preferences control in the website footer.",
+        "Most web browsers also allow you to control or disable cookies through browser settings.",
         "Disabling cookies may affect certain website functionality or features."
       ]
     },
@@ -57,5 +80,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-07"
+  "lastUpdated": "2026-07-07"
 }

@@ -16,6 +16,12 @@
   var PAGES_BASE = `${REPO_BASE}/pages`;
   var DATA_BASE = `${PAGES_BASE}/data`;
   var DOCUMENTATION_PLACEHOLDER_IMAGE = "images/shared/placeholder.png";
+  var IMAGE_MANIFEST = {"images/apps-hero-banner.png":{"width":1717,"height":916,"widths":[480,800,1200,1600,1717]},"images/apps/barkinmadcoins.png":{"width":1727,"height":794,"widths":[480,800,1200,1600,1727]},"images/apps/gameofdarts/gameofdarts-dartbot.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/gameofdarts/gameofdarts-faq.png":{"width":1536,"height":1024,"widths":[480,800,1200,1536]},"images/apps/gameofdarts/gameofdarts-game-modes.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/gameofdarts/gameofdarts-hero.png":{"width":1881,"height":836,"widths":[480,800,1200,1600,1881]},"images/apps/gameofdarts/gameofdarts-icon.png":{"width":1254,"height":1254,"widths":[480,800,1200,1254]},"images/apps/gameofdarts/gameofdarts-leaderboards.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/gameofdarts/gameofdarts-match-types.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/gameofdarts/gameofdarts-premium-access.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/gameofdarts/gameofdarts-screenshot-IAP.png":{"width":1206,"height":2622,"widths":[480,800,1200,1206]},"images/apps/gameofdarts/gameofdarts-screenshot-help.png":{"width":1206,"height":2622,"widths":[480,800,1200,1206]},"images/apps/gameofdarts/gameofdarts-screenshot-leaderboards.png":{"width":1206,"height":2622,"widths":[480,800,1200,1206]},"images/apps/gameofdarts/gameofdarts-screenshot-main.png":{"width":1206,"height":2622,"widths":[480,800,1200,1206]},"images/apps/gameofdarts/gameofdarts-screenshot-settings.png":{"width":1206,"height":2622,"widths":[480,800,1200,1206]},"images/apps/gameofdarts/gameofdarts-screenshot-splash.png":{"width":1206,"height":2622,"widths":[480,800,1200,1206]},"images/apps/gameofdarts/gameofdarts-statistics.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/gameofdarts/gameofdarts-voice-caller.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/gameofdarts/gameofdarts.png":{"width":1430,"height":1100,"widths":[480,800,1200,1430]},"images/apps/gameofdarts/gameofdarts1.png":{"width":1254,"height":1254,"widths":[480,800,1200,1254]},"images/apps/studiodash/Screenshot1.png":{"width":1372,"height":995,"widths":[480,800,1200,1372]},"images/apps/studiodash/Screenshot2.png":{"width":1372,"height":995,"widths":[480,800,1200,1372]},"images/apps/studiodash/Screenshot3.png":{"width":1372,"height":995,"widths":[480,800,1200,1372]},"images/apps/studiodash/Screenshot4.png":{"width":1372,"height":995,"widths":[480,800,1200,1372]},"images/apps/studiodash/studiodash-hero.png":{"width":1672,"height":941,"widths":[480,800,1200,1600,1672]},"images/apps/studiodash/studiodash-icon.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"images/apps/zxbrick/zxbrick-achievements.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/zxbrick/zxbrick-controls.png":{"width":1714,"height":820,"widths":[480,800,1200,1600,1714]},"images/apps/zxbrick/zxbrick-faq.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/zxbrick/zxbrick-game-modes.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/zxbrick/zxbrick-gameplay-01.png":{"width":941,"height":1672,"widths":[480,800,941]},"images/apps/zxbrick/zxbrick-gameplay-02.png":{"width":1206,"height":2622,"widths":[480,800,1200,1206]},"images/apps/zxbrick/zxbrick-gameplay-03.png":{"width":1320,"height":2868,"widths":[480,800,1200,1320]},"images/apps/zxbrick/zxbrick-gameplay-04.png":{"width":1320,"height":2868,"widths":[480,800,1200,1320]},"images/apps/zxbrick/zxbrick-hero.png":{"width":1873,"height":840,"widths":[480,800,1200,1600,1873]},"images/apps/zxbrick/zxbrick-how-to-play.png":{"width":1714,"height":820,"widths":[480,800,1200,1600,1714]},"images/apps/zxbrick/zxbrick-icon.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"images/apps/zxbrick/zxbrick-leaderboards.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/zxbrick/zxbrick-levels.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/zxbrick/zxbrick-powerup-berserker.png":{"width":96,"height":96,"widths":[96]},"images/apps/zxbrick/zxbrick-powerup-fast.png":{"width":90,"height":90,"widths":[90]},"images/apps/zxbrick/zxbrick-powerup-grow.png":{"width":90,"height":90,"widths":[90]},"images/apps/zxbrick/zxbrick-powerup-laser.png":{"width":90,"height":90,"widths":[90]},"images/apps/zxbrick/zxbrick-powerup-multi.png":{"width":90,"height":90,"widths":[90]},"images/apps/zxbrick/zxbrick-powerup-shield.png":{"width":90,"height":90,"widths":[90]},"images/apps/zxbrick/zxbrick-powerup-shrink.png":{"width":90,"height":90,"widths":[90]},"images/apps/zxbrick/zxbrick-powerup-slow.png":{"width":90,"height":90,"widths":[90]},"images/apps/zxbrick/zxbrick-powerups.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/zxbrick/zxbrick-tips-and-strategy.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/zxbrick/zxbrick.png":{"width":1300,"height":1000,"widths":[480,800,1200,1300]},"images/apps/zxpong/zxpong-gameplay-01.png":{"width":1242,"height":2688,"widths":[480,800,1200,1242]},"images/apps/zxpong/zxpong-hero.png":{"width":1536,"height":1024,"widths":[480,800,1200,1536]},"images/apps/zxpong/zxpong-icon.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"images/apps/zxpong/zxpong.png":{"width":1662,"height":946,"widths":[480,800,1200,1600,1662]},"images/apps/zxsnake/zxsnake-achievements.png":{"width":1536,"height":1024,"widths":[480,800,1200,1536]},"images/apps/zxsnake/zxsnake-controls.png":{"width":1672,"height":941,"widths":[480,800,1200,1600,1672]},"images/apps/zxsnake/zxsnake-faq.png":{"width":1748,"height":812,"widths":[480,800,1200,1600,1748]},"images/apps/zxsnake/zxsnake-game-modes.png":{"width":1677,"height":820,"widths":[480,800,1200,1600,1677]},"images/apps/zxsnake/zxsnake-gameplay-01.png":{"width":1206,"height":2622,"widths":[480,800,1200,1206]},"images/apps/zxsnake/zxsnake-gameplay-02.png":{"width":1206,"height":2622,"widths":[480,800,1200,1206]},"images/apps/zxsnake/zxsnake-gameplay-03.png":{"width":1206,"height":2622,"widths":[480,800,1200,1206]},"images/apps/zxsnake/zxsnake-hero.png":{"width":1871,"height":840,"widths":[480,800,1200,1600,1871]},"images/apps/zxsnake/zxsnake-how-to-play.png":{"width":1691,"height":930,"widths":[480,800,1200,1600,1691]},"images/apps/zxsnake/zxsnake-icon.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"images/apps/zxsnake/zxsnake-leaderboards.png":{"width":1754,"height":779,"widths":[480,800,1200,1600,1754]},"images/apps/zxsnake/zxsnake-tips-and-strategy.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/apps/zxsnake/zxsnake.png":{"width":1300,"height":1024,"widths":[480,800,1200,1300]},"images/apps/zxspace/zxspace-gameplay-01.png":{"width":887,"height":1774,"widths":[480,800,887]},"images/apps/zxspace/zxspace-hero.png":{"width":1659,"height":948,"widths":[480,800,1200,1600,1659]},"images/apps/zxspace/zxspace-icon.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"images/apps/zxspace/zxspace.png":{"width":1413,"height":1113,"widths":[480,800,1200,1413]},"images/contact-bg-banner.png":{"width":1672,"height":941,"widths":[480,800,1200,1600,1672]},"images/home-bg-banner.png":{"width":1717,"height":916,"widths":[480,800,1200,1600,1717]},"images/logos/favicon.png":{"width":64,"height":64,"widths":[64]},"images/logos/logo-black-horizontal.png":{"width":308,"height":119,"widths":[308]},"images/logos/logo-black-icon.png":{"width":241,"height":190,"widths":[241]},"images/logos/logo-black-stacked.png":{"width":234,"height":210,"widths":[234]},"images/logos/social-preview.png":{"width":1942,"height":809,"widths":[480,800,1200,1600,1942]},"images/news-bg-banner.png":{"width":1672,"height":941,"widths":[480,800,1200,1600,1672]},"images/news-hero-banner.png":{"width":1717,"height":916,"widths":[480,800,1200,1600,1717]},"images/otherapps-bg-banner.png":{"width":1536,"height":1024,"widths":[480,800,1200,1536]},"images/placeholder.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"images/privacy-bg-banner.png":{"width":1672,"height":941,"widths":[480,800,1200,1600,1672]},"images/privacy-hero-banner.png":{"width":1717,"height":916,"widths":[480,800,1200,1600,1717]},"images/retro-banner.png":{"width":1536,"height":1024,"widths":[480,800,1200,1536]},"images/service-bg-banner.png":{"width":1717,"height":916,"widths":[480,800,1200,1600,1717]},"images/service-hero-banner.png":{"width":1536,"height":1024,"widths":[480,800,1200,1536]},"images/shared/barkinmadcoins.png":{"width":1727,"height":794,"widths":[480,800,1200,1600,1727]},"images/shared/placeholder.png":{"width":1774,"height":887,"widths":[480,800,1200,1600,1774]},"news/ai-coding/image.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"news/building-game-of-darts/image.png":{"width":1024,"height":800,"widths":[480,800,1024]},"news/building-zxsnake/image.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"news/building-zxspace/image.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"news/creating-retro-style-mobile-games/image.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"news/first-look-zxpong/image.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"news/gameofdarts-update/image.png":{"width":1536,"height":1024,"widths":[480,800,1200,1536]},"news/how-barkinmad-coins-connect-the-zx-series/image.png":{"width":1200,"height":1200,"widths":[480,800,1200]},"news/inside-the-zx-series/image.png":{"width":1200,"height":1200,"widths":[480,800,1200]},"news/introducing-barkinmad-coins/image.png":{"width":1254,"height":1254,"widths":[480,800,1200,1254]},"news/introducing-studiodash/image.png":{"width":1672,"height":941,"widths":[480,800,1200,1600,1672]},"news/language-support/image.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"news/one-year-of-barkinmad-studios/image.png":{"width":1200,"height":1200,"widths":[480,800,1200]},"news/released-zxsnake-zxbrick/image.png":{"width":1024,"height":800,"widths":[480,800,1024]},"news/starting-barkinmad-studios/image.png":{"width":1024,"height":800,"widths":[480,800,1024]},"news/website-relaunch/image.png":{"width":1536,"height":1024,"widths":[480,800,1200,1536]},"news/why-retro-games-still-work/image.png":{"width":1024,"height":900,"widths":[480,800,1024]},"news/zxbrick-powerups/image.png":{"width":1024,"height":1024,"widths":[480,800,1024]},"news/zxsnake-pvp/image.png":{"width":1024,"height":850,"widths":[480,800,1024]}};
+  var IMAGE_CACHE_CONTROL = "public, max-age=31536000, immutable";
+  var STATIC_CACHE_CONTROL = "public, max-age=86400, stale-while-revalidate=604800";
+  var HTML_CACHE_CONTROL = "public, max-age=300, stale-while-revalidate=3600";
+  var JSON_CACHE_TTL_MS = 5 * 60 * 1e3;
+  var jsonCache = /* @__PURE__ */ new Map();
   var documentationLandingAppSlugs = new Set(["zxsnake", "zxbrick", "zxpong", "zxspace", "gameofdarts", "studiodash"]);
   var zxSnakeReferenceImageFallbacks = {
     overview: "apps/zxsnake/zxsnake-gameplay-01.png",
@@ -47,7 +53,7 @@
       guide: "apps/zxbrick/zxbrick-hero.png"
     }
   };
-  var SITE_LASTMOD = "2026-06-14";
+  var SITE_LASTMOD = "2026-07-07";
   var DEFAULT_SITE = {
     name: "BarkinMad Studios",
     description: "Independent UK game and app developer creating retro-inspired experiences for modern devices.",
@@ -77,7 +83,10 @@
   };
   async function handleRequest(request) {
     const url = new URL(request.url);
-    const path = url.pathname.toLowerCase().replace(/\/$/, "") || "/";
+    const rawPath = url.pathname.replace(/\/$/, "") || "/";
+    const assetResponse = await imageAssetResponse(request, rawPath);
+    if (assetResponse) return assetResponse;
+    const path = rawPath.toLowerCase() || "/";
     if (url.hostname === "barkinmad.studio") {
       return Response.redirect(`https://www.barkinmad.studio${url.pathname}`, 301);
     }
@@ -89,7 +98,8 @@
         "google-site-verification: googleeaa2bb6a63462e00.html",
         {
           headers: {
-            "Content-Type": "text/html; charset=utf-8"
+            "Content-Type": "text/html; charset=utf-8",
+            "Cache-Control": STATIC_CACHE_CONTROL
           }
         }
       );
@@ -99,7 +109,8 @@
         "google-site-verification: google0b80faf2f8732a53.html",
         {
           headers: {
-            "Content-Type": "text/html; charset=utf-8"
+            "Content-Type": "text/html; charset=utf-8",
+            "Cache-Control": STATIC_CACHE_CONTROL
           }
         }
       );
@@ -126,9 +137,15 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
       return Response.redirect(`${url.origin}/contact`, 301);
     }
     if (path === "/") {
-      const homepage = await fetchJson(`${PAGES_BASE}/home.json`) || {};
-      const site = await getSite();
-      return pageResponse("BarkinMad Studios", await homePage(homepage), {
+      const [homepageData, site, apps, posts] = await Promise.all([
+        fetchJson(`${PAGES_BASE}/home.json`),
+        getSite(),
+        getApps(),
+        fetchJson(`${NEWS_BASE}/posts.json`)
+      ]);
+      const homepage = homepageData || {};
+      return pageResponse("BarkinMad Studios", homePage(homepage, apps, posts), {
+        site,
         canonicalPath: "/",
         description: homepage.intro,
         image: `${IMAGE_BASE}/logos/social-preview.png`,
@@ -219,7 +236,10 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   __name(handleRequest, "handleRequest");
   function textResponse(body) {
     return new Response(body, {
-      headers: { "content-type": "text/plain;charset=UTF-8" }
+      headers: {
+        "content-type": "text/plain;charset=UTF-8",
+        "cache-control": STATIC_CACHE_CONTROL
+      }
     });
   }
   __name(textResponse, "textResponse");
@@ -228,10 +248,13 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
       status = options;
       options = {};
     }
-    const site = await getSite();
+    const site = options.site || await getSite();
     return new Response(layout(title, content, site, options, status), {
       status,
-      headers: { "content-type": "text/html;charset=UTF-8" }
+      headers: {
+        "content-type": "text/html;charset=UTF-8",
+        "cache-control": status >= 400 ? "no-store" : HTML_CACHE_CONTROL
+      }
     });
   }
   __name(pageResponse, "pageResponse");
@@ -279,16 +302,15 @@ ${options.keywords || site.keywords ? `<meta name="keywords" content="${escapeHt
 ${structuredData.map((schema) => `
 <script type="application/ld+json">${escapeJsonForHtml(schema)}<\/script>`).join("")}
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2030137443667873" crossorigin="anonymous"></script>
-	
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}"></script>
 <script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	
-	gtag('config', '${GOOGLE_ANALYTICS_ID}');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied'
+  });
 </script>
 	
 <style>
@@ -767,11 +789,169 @@ footer p {
   flex-wrap: wrap;
 }
 
+.footer-cookie-button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: #f39c12;
+  cursor: pointer;
+  font: inherit;
+  margin: 0 0.5rem;
+  padding: 0;
+  text-decoration: none;
+}
+
+.footer-cookie-button:hover {
+  color: #ffcc66;
+}
+
+.footer-cookie-button:focus-visible {
+  outline: 2px solid #90c8ff;
+  outline-offset: 4px;
+}
+
 .footer-logo {
   height: 56px;
   width: auto;
   display: block;
   margin: 0 auto 0.75rem;
+}
+
+.cookie-consent {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 3000;
+  width: min(100% - 2rem, 560px);
+}
+
+.cookie-consent[hidden],
+.cookie-preferences[hidden] {
+  display: none;
+}
+
+.cookie-consent-panel,
+.cookie-preferences-panel {
+  background: rgba(8, 12, 24, 0.98);
+  border: 1px solid #334065;
+  border-radius: 10px;
+  box-shadow: 0 18px 54px rgba(0, 0, 0, 0.45);
+  color: #f4f4f4;
+}
+
+.cookie-consent-panel {
+  padding: 1rem;
+}
+
+.cookie-consent h2,
+.cookie-preferences h2 {
+  color: #ffcc66;
+  font-size: 1.15rem;
+  line-height: 1.25;
+  margin: 0 0 0.5rem;
+}
+
+.cookie-consent p,
+.cookie-preferences p {
+  color: #d8dbef;
+  font-size: 0.96rem;
+  margin: 0 0 0.9rem;
+}
+
+.cookie-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.cookie-button {
+  align-items: center;
+  background: transparent;
+  border: 1px solid #f39c12;
+  border-radius: 999px;
+  color: #f39c12;
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  font-weight: 700;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0.42rem 0.86rem;
+}
+
+.cookie-button-primary {
+  background: #f39c12;
+  color: #090d17;
+}
+
+.cookie-button:hover {
+  background: #f39c12;
+  border-color: #ffb347;
+  color: #090d17;
+}
+
+.cookie-button:focus-visible,
+.cookie-toggle input:focus-visible {
+  outline: 2px solid #90c8ff;
+  outline-offset: 3px;
+}
+
+.cookie-preferences {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.68);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 1rem;
+  position: fixed;
+  z-index: 3100;
+}
+
+.cookie-preferences-panel {
+  max-height: min(90vh, 720px);
+  max-width: 680px;
+  overflow: auto;
+  padding: 1.15rem;
+  width: 100%;
+}
+
+.cookie-category {
+  border: 1px solid #26375b;
+  border-radius: 8px;
+  margin: 0.75rem 0;
+  padding: 0.85rem;
+}
+
+.cookie-category-header {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.cookie-category h3 {
+  color: #f39c12;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.cookie-category p {
+  margin: 0.35rem 0 0;
+}
+
+.cookie-toggle {
+  align-items: center;
+  color: #ffcc66;
+  display: inline-flex;
+  font-weight: 700;
+  gap: 0.45rem;
+  white-space: nowrap;
+}
+
+.cookie-toggle input {
+  accent-color: #f39c12;
+  height: 1.15rem;
+  width: 1.15rem;
 }
 
 @media (max-width: 750px) {
@@ -844,6 +1024,30 @@ footer p {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+  .cookie-consent {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .cookie-consent-panel {
+    border-bottom: 0;
+    border-left: 0;
+    border-radius: 10px 10px 0 0;
+    border-right: 0;
+  }
+
+  .cookie-actions,
+  .cookie-button {
+    width: 100%;
+  }
+
+  .cookie-category-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
 </style>
 </head>
@@ -851,7 +1055,7 @@ footer p {
 <body>
 <header>
   <a href="/" class="site-logo">
-    <img src="${IMAGE_BASE}/logos/logo-black-horizontal.png" alt="${escapeHtml(siteName)}">
+    ${renderImage({ src: "logos/logo-black-horizontal.png", alt: siteName, loading: "eager", sizes: "240px" })}
   </a>
 
   <nav>
@@ -862,31 +1066,386 @@ footer p {
 ${content}
 
 <footer>
-  <img class="footer-logo" src="${IMAGE_BASE}/logos/logo-black-icon.png" alt="${escapeHtml(siteName)}" loading="lazy">
+  ${renderImage({ className: "footer-logo", src: "logos/logo-black-icon.png", alt: siteName, sizes: "56px" })}
 
   <p>&copy; ${(/* @__PURE__ */ new Date()).getFullYear()} ${escapeHtml(site.copyright || siteName)}. All rights reserved.</p>
 
   <p>
     ${renderLinks(footerNavigation)}
+    <button class="footer-cookie-button" type="button" data-cookie-preferences-open>Cookie Preferences</button>
     ${site.socials?.facebook ? `<a href="${escapeHtml(site.socials.facebook)}" target="_blank" rel="noopener">Facebook</a>` : ""}
   </p>
 </footer>
+${renderCookieConsentMarkup()}
+${renderCookieConsentScript()}
 </body>
 </html>`;
   }
   __name(layout, "layout");
+  function renderCookieConsentMarkup() {
+    return `
+<section class="cookie-consent" data-cookie-banner hidden aria-label="Cookie consent">
+  <div class="cookie-consent-panel">
+    <h2>Cookie Choices</h2>
+    <p>BarkinMad Studios uses essential cookies to remember your choices. Analytics and advertising cookies are optional and only load when you allow them.</p>
+    <div class="cookie-actions">
+      <button class="cookie-button cookie-button-primary" type="button" data-cookie-accept-all>Accept All</button>
+      <button class="cookie-button" type="button" data-cookie-reject>Reject Non-Essential</button>
+      <button class="cookie-button" type="button" data-cookie-manage>Manage Preferences</button>
+    </div>
+  </div>
+</section>
+
+<section class="cookie-preferences" data-cookie-dialog role="dialog" aria-modal="true" aria-labelledby="cookie-preferences-title" hidden>
+  <div class="cookie-preferences-panel" tabindex="-1">
+    <h2 id="cookie-preferences-title">Cookie Preferences</h2>
+    <p>Choose which optional cookies BarkinMad Studios may use on this website. Essential cookies are always enabled because they keep the site and your choices working.</p>
+
+    <div class="cookie-category">
+      <div class="cookie-category-header">
+        <h3>Essential Cookies</h3>
+        <span class="cookie-toggle">Always Enabled</span>
+      </div>
+      <p>Required for core website operation and for remembering your cookie preferences.</p>
+    </div>
+
+    <div class="cookie-category">
+      <div class="cookie-category-header">
+        <h3>Analytics</h3>
+        <label class="cookie-toggle"><input type="checkbox" data-cookie-toggle="analytics"> Allow</label>
+      </div>
+      <p>Allows Google Analytics to measure page views and general website usage so the website can be improved.</p>
+    </div>
+
+    <div class="cookie-category">
+      <div class="cookie-category-header">
+        <h3>Advertising</h3>
+        <label class="cookie-toggle"><input type="checkbox" data-cookie-toggle="advertising"> Allow</label>
+      </div>
+      <p>Allows Google AdSense advertising storage, ad user data, and ad personalisation signals where advertising is active.</p>
+    </div>
+
+    <div class="cookie-actions">
+      <button class="cookie-button cookie-button-primary" type="button" data-cookie-save>Save Preferences</button>
+      <button class="cookie-button" type="button" data-cookie-dialog-accept-all>Accept All</button>
+      <button class="cookie-button" type="button" data-cookie-dialog-reject>Reject Non-Essential</button>
+      <button class="cookie-button" type="button" data-cookie-close>Close</button>
+    </div>
+  </div>
+</section>`;
+  }
+  __name(renderCookieConsentMarkup, "renderCookieConsentMarkup");
+  function renderCookieConsentScript() {
+    return `
+<script>
+(function () {
+  var COOKIE_NAME = 'bms_cookie_consent';
+  var COOKIE_MAX_AGE = 60 * 60 * 24 * 180;
+  var GA_ID = '${GOOGLE_ANALYTICS_ID}';
+  var ADSENSE_CLIENT = 'ca-pub-2030137443667873';
+  var analyticsLoaded = false;
+  var adsenseLoaded = false;
+  var lastFocus = null;
+  var banner = document.querySelector('[data-cookie-banner]');
+  var dialog = document.querySelector('[data-cookie-dialog]');
+  var dialogPanel = dialog ? dialog.querySelector('.cookie-preferences-panel') : null;
+  var analyticsToggle = document.querySelector('[data-cookie-toggle="analytics"]');
+  var advertisingToggle = document.querySelector('[data-cookie-toggle="advertising"]');
+
+  function defaultPreferences() {
+    return { version: 1, essential: true, analytics: false, advertising: false };
+  }
+
+  function readCookie(name) {
+    var prefix = name + '=';
+    var parts = document.cookie ? document.cookie.split(';') : [];
+    for (var i = 0; i < parts.length; i += 1) {
+      var part = parts[i].trim();
+      if (part.indexOf(prefix) === 0) {
+        return part.slice(prefix.length);
+      }
+    }
+    return '';
+  }
+
+  function readPreferences() {
+    var raw = readCookie(COOKIE_NAME);
+    if (!raw) return null;
+    try {
+      var parsed = JSON.parse(decodeURIComponent(raw));
+      return {
+        version: 1,
+        essential: true,
+        analytics: parsed.analytics === true,
+        advertising: parsed.advertising === true
+      };
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function writePreferences(preferences) {
+    var value = encodeURIComponent(JSON.stringify({
+      version: 1,
+      analytics: preferences.analytics === true,
+      advertising: preferences.advertising === true
+    }));
+    var secureAttribute = window.location.protocol === 'https:' ? '; Secure' : '';
+    document.cookie = COOKIE_NAME + '=' + value + '; Max-Age=' + COOKIE_MAX_AGE + '; Path=/; SameSite=Lax' + secureAttribute;
+  }
+
+  function consentValue(granted) {
+    return granted ? 'granted' : 'denied';
+  }
+
+  function updateGoogleConsent(preferences) {
+    if (typeof window.gtag !== 'function') return;
+    window.gtag('consent', 'update', {
+      analytics_storage: consentValue(preferences.analytics),
+      ad_storage: consentValue(preferences.advertising),
+      ad_user_data: consentValue(preferences.advertising),
+      ad_personalization: consentValue(preferences.advertising)
+    });
+  }
+
+  function loadScript(id, src, attributes) {
+    if (document.getElementById(id)) return;
+    var script = document.createElement('script');
+    script.id = id;
+    script.async = true;
+    script.src = src;
+    Object.keys(attributes || {}).forEach(function (key) {
+      script.setAttribute(key, attributes[key]);
+    });
+    document.head.appendChild(script);
+  }
+
+  function loadAnalytics() {
+    if (analyticsLoaded) return;
+    analyticsLoaded = true;
+    loadScript('bms-google-analytics', 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(GA_ID));
+    window.gtag('js', new Date());
+    window.gtag('config', GA_ID);
+  }
+
+  function loadAdsense() {
+    if (adsenseLoaded) return;
+    adsenseLoaded = true;
+    loadScript('bms-google-adsense', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(ADSENSE_CLIENT), {
+      crossorigin: 'anonymous'
+    });
+  }
+
+  function applyPreferences(preferences) {
+    updateGoogleConsent(preferences);
+    if (preferences.analytics) loadAnalytics();
+    if (preferences.advertising) loadAdsense();
+  }
+
+  function setToggles(preferences) {
+    if (analyticsToggle) analyticsToggle.checked = preferences.analytics === true;
+    if (advertisingToggle) advertisingToggle.checked = preferences.advertising === true;
+  }
+
+  function currentDialogPreferences() {
+    return {
+      version: 1,
+      essential: true,
+      analytics: analyticsToggle ? analyticsToggle.checked : false,
+      advertising: advertisingToggle ? advertisingToggle.checked : false
+    };
+  }
+
+  function saveAndApply(preferences) {
+    writePreferences(preferences);
+    setToggles(preferences);
+    applyPreferences(preferences);
+    hideBanner();
+    closeDialog();
+  }
+
+  function showBanner() {
+    if (banner) banner.hidden = false;
+  }
+
+  function hideBanner() {
+    if (banner) banner.hidden = true;
+  }
+
+  function openDialog() {
+    lastFocus = document.activeElement;
+    setToggles(readPreferences() || defaultPreferences());
+    if (dialog) dialog.hidden = false;
+    if (dialogPanel) dialogPanel.focus();
+  }
+
+  function closeDialog() {
+    if (dialog) dialog.hidden = true;
+    if (lastFocus && typeof lastFocus.focus === 'function') {
+      lastFocus.focus();
+    }
+  }
+
+  function focusableDialogItems() {
+    if (!dialog) return [];
+    return Array.prototype.slice.call(dialog.querySelectorAll('button, input, [href], [tabindex]:not([tabindex="-1"])')).filter(function (item) {
+      return !item.disabled && item.offsetParent !== null;
+    });
+  }
+
+  function handleDialogKeydown(event) {
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      closeDialog();
+      return;
+    }
+    if (event.key !== 'Tab') return;
+    var items = focusableDialogItems();
+    if (!items.length) return;
+    var first = items[0];
+    var last = items[items.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  }
+
+  function bind(selector, eventName, handler) {
+    Array.prototype.slice.call(document.querySelectorAll(selector)).forEach(function (element) {
+      element.addEventListener(eventName, handler);
+    });
+  }
+
+  var stored = readPreferences();
+  if (stored) {
+    setToggles(stored);
+    applyPreferences(stored);
+  } else {
+    showBanner();
+  }
+
+  bind('[data-cookie-accept-all], [data-cookie-dialog-accept-all]', 'click', function () {
+    saveAndApply({ version: 1, essential: true, analytics: true, advertising: true });
+  });
+  bind('[data-cookie-reject], [data-cookie-dialog-reject]', 'click', function () {
+    saveAndApply(defaultPreferences());
+  });
+  bind('[data-cookie-manage], [data-cookie-preferences-open]', 'click', openDialog);
+  bind('[data-cookie-save]', 'click', function () {
+    saveAndApply(currentDialogPreferences());
+  });
+  bind('[data-cookie-close]', 'click', closeDialog);
+  if (dialog) dialog.addEventListener('keydown', handleDialogKeydown);
+}());
+<\/script>`;
+  }
+  __name(renderCookieConsentScript, "renderCookieConsentScript");
   async function fetchJson(url) {
+    const cached = jsonCache.get(url);
+    const now = Date.now();
+    if (cached && now - cached.time < JSON_CACHE_TTL_MS) {
+      return cached.value;
+    }
     try {
       const response = await fetch(url, {
-        headers: { "User-Agent": "BarkinMadStudiosWebsite" }
+        headers: { "User-Agent": "BarkinMadStudiosWebsite" },
+        cf: { cacheTtl: 300, cacheEverything: true }
       });
       if (!response.ok) return null;
-      return await response.json();
+      const value = await response.json();
+      jsonCache.set(url, { value, time: now });
+      return value;
     } catch {
       return null;
     }
   }
   __name(fetchJson, "fetchJson");
+  async function imageAssetResponse(request, rawPath) {
+    const assetPath = requestImageAssetPath(rawPath);
+    if (!assetPath) return null;
+    const manifest = IMAGE_MANIFEST[assetPath];
+    const requestUrl = new URL(request.url);
+    const accept = request.headers.get("accept") || "";
+    const width = parseRequestedImageWidth(requestUrl.searchParams.get("w"));
+    const selected = selectImageAssetPath(assetPath, manifest, accept, width);
+    let response = await fetchRepoAsset(selected.path);
+    let responsePath = selected.path;
+    if (!response.ok && selected.path !== assetPath) {
+      response = await fetchRepoAsset(assetPath);
+      responsePath = assetPath;
+    }
+    if (!response.ok) return new Response("Not Found", {
+      status: 404,
+      headers: {
+        "content-type": "text/plain;charset=UTF-8",
+        "cache-control": "no-store"
+      }
+    });
+    const headers = new Headers(response.headers);
+    headers.set("cache-control", IMAGE_CACHE_CONTROL);
+    headers.set("content-type", contentTypeForPath(responsePath));
+    headers.set("vary", "Accept");
+    headers.delete("set-cookie");
+    return new Response(response.body, {
+      status: response.status,
+      headers
+    });
+  }
+  __name(imageAssetResponse, "imageAssetResponse");
+  function requestImageAssetPath(rawPath) {
+    let pathname = "";
+    try {
+      pathname = decodeURIComponent(String(rawPath || ""));
+    } catch {
+      pathname = String(rawPath || "");
+    }
+    const assetPath = pathname.replace(/^\/+/, "");
+    if (!assetPath || assetPath.includes("..")) return "";
+    if (!/\.(png|jpe?g)$/i.test(assetPath)) return "";
+    if (assetPath.startsWith("images/")) return assetPath;
+    if (assetPath.startsWith("news/")) return assetPath;
+    return "";
+  }
+  __name(requestImageAssetPath, "requestImageAssetPath");
+  function parseRequestedImageWidth(value) {
+    const width = Number.parseInt(String(value || ""), 10);
+    return Number.isFinite(width) && width > 0 ? Math.min(width, 2400) : 0;
+  }
+  __name(parseRequestedImageWidth, "parseRequestedImageWidth");
+  function selectImageAssetPath(assetPath, manifest, accept, requestedWidth = 0) {
+    const originalType = contentTypeForPath(assetPath);
+    if (!manifest) return { path: assetPath, contentType: originalType };
+    const format = accept.includes("image/avif") ? "avif" : accept.includes("image/webp") ? "webp" : "";
+    if (!format) return { path: assetPath, contentType: originalType };
+    const widths = Array.isArray(manifest.widths) && manifest.widths.length ? manifest.widths : [manifest.width].filter(Boolean);
+    const selectedWidth = requestedWidth ? widths.find((width) => width >= requestedWidth) || widths[widths.length - 1] : widths[widths.length - 1];
+    return {
+      path: optimizedImagePath(assetPath, selectedWidth, format),
+      contentType: `image/${format}`
+    };
+  }
+  __name(selectImageAssetPath, "selectImageAssetPath");
+  function optimizedImagePath(assetPath, width, format) {
+    return `images/optimized/${assetPath.replace(/\.(png|jpe?g)$/i, "")}-${width}.${format}`;
+  }
+  __name(optimizedImagePath, "optimizedImagePath");
+  async function fetchRepoAsset(assetPath) {
+    return fetch(`${REPO_BASE}/${assetPath}`, {
+      headers: { "User-Agent": "BarkinMadStudiosWebsite" },
+      cf: { cacheTtl: 31536e3, cacheEverything: true }
+    });
+  }
+  __name(fetchRepoAsset, "fetchRepoAsset");
+  function contentTypeForPath(assetPath) {
+    if (/\.avif$/i.test(assetPath)) return "image/avif";
+    if (/\.webp$/i.test(assetPath)) return "image/webp";
+    if (/\.jpe?g$/i.test(assetPath)) return "image/jpeg";
+    return "image/png";
+  }
+  __name(contentTypeForPath, "contentTypeForPath");
   async function getSite() {
     const site = await fetchJson(`${DATA_BASE}/site.json`);
     if (!site || typeof site !== "object") return DEFAULT_SITE;
@@ -1135,8 +1694,52 @@ ${content}
     return `${IMAGE_BASE}/${normalized}`;
   }
   __name(imageAssetUrl, "imageAssetUrl");
+  function imageAssetPath(image) {
+    const value = String(image || "").trim();
+    if (!value) return "";
+    if (value.startsWith(REPO_BASE)) return value.slice(REPO_BASE.length + 1);
+    if (value.startsWith(IMAGE_BASE)) return `images/${value.slice(IMAGE_BASE.length + 1)}`;
+    if (value.startsWith(NEWS_BASE)) return `news/${value.slice(NEWS_BASE.length + 1)}`;
+    if (/^https?:\/\//i.test(value)) return "";
+    const normalized = value.replace(/^\/+/, "");
+    if (normalized.startsWith("images/") || normalized.startsWith("news/")) return normalized;
+    return `images/${normalized}`;
+  }
+  __name(imageAssetPath, "imageAssetPath");
+  function imageDisplayUrl(image, fallback = "") {
+    const assetPath = imageAssetPath(image);
+    if (assetPath && IMAGE_MANIFEST[assetPath]) return `/${assetPath}`;
+    if (assetPath && /^(images|news)\//.test(assetPath)) return `/${assetPath}`;
+    return imageAssetUrl(image, fallback ? imageDisplayUrl(fallback) : "");
+  }
+  __name(imageDisplayUrl, "imageDisplayUrl");
+  function imageManifestEntry(image, fallback = "") {
+    const assetPath = imageAssetPath(image);
+    return IMAGE_MANIFEST[assetPath] || (fallback ? IMAGE_MANIFEST[imageAssetPath(fallback)] : null) || null;
+  }
+  __name(imageManifestEntry, "imageManifestEntry");
+  function imageSrcsetAttribute(image, fallback = "", sizes = "") {
+    const entry = imageManifestEntry(image, fallback);
+    const assetPath = imageAssetPath(image) || imageAssetPath(fallback);
+    if (!entry || !assetPath || !Array.isArray(entry.widths) || entry.widths.length < 2) return "";
+    const srcset = entry.widths.map((width) => `${escapeHtml(`/${assetPath}?w=${width}`)} ${width}w`).join(", ");
+    return ` srcset="${srcset}"${sizes ? ` sizes="${escapeHtml(sizes)}"` : ""}`;
+  }
+  __name(imageSrcsetAttribute, "imageSrcsetAttribute");
+  function imageDimensionAttributes(image, fallback = "") {
+    const entry = imageManifestEntry(image, fallback);
+    if (!entry?.width || !entry?.height) return "";
+    return ` width="${entry.width}" height="${entry.height}"`;
+  }
+  __name(imageDimensionAttributes, "imageDimensionAttributes");
+  function renderImage({ className = "", src = "", alt = "", loading = "lazy", decoding = "async", sizes = "", fallback = "", extra = "" } = {}) {
+    const url = imageDisplayUrl(src, fallback);
+    if (!url) return "";
+    return `<img${className ? ` class="${escapeHtml(className)}"` : ""} src="${escapeHtml(url)}" alt="${escapeHtml(alt)}"${imageDimensionAttributes(src, fallback)}${imageSrcsetAttribute(src, fallback, sizes)}${loading ? ` loading="${escapeHtml(loading)}"` : ""}${decoding ? ` decoding="${escapeHtml(decoding)}"` : ""}${extra}>`;
+  }
+  __name(renderImage, "renderImage");
   function documentationImageFallbackAttribute() {
-    const fallbackUrl = imageAssetUrl(DOCUMENTATION_PLACEHOLDER_IMAGE);
+    const fallbackUrl = imageDisplayUrl(DOCUMENTATION_PLACEHOLDER_IMAGE);
     return fallbackUrl ? ` onerror="this.onerror=null;this.src='${escapeHtml(fallbackUrl)}';"` : "";
   }
   __name(documentationImageFallbackAttribute, "documentationImageFallbackAttribute");
@@ -1165,7 +1768,7 @@ ${content}
   __name(pageHeroImage, "pageHeroImage");
   function heroBackgroundStyle(page) {
     const image = pageHeroImage(page, `${IMAGE_BASE}/retro-banner.png`);
-    return ` style="background-image: linear-gradient(rgba(10,10,25,0.78), rgba(10,10,25,0.9)), url('${escapeHtml(image)}');"`;
+    return ` style="background-image: linear-gradient(rgba(10,10,25,0.78), rgba(10,10,25,0.9)), url('${escapeHtml(imageDisplayUrl(image))}');"`;
   }
   __name(heroBackgroundStyle, "heroBackgroundStyle");
   function renderPromoSection(section) {
@@ -1221,10 +1824,7 @@ ${content}
     return text ? `<div class="card"><p>${renderContentParagraph(text)}</p></div>` : "";
   }
   __name(emptyStateCard, "emptyStateCard");
-  async function homePage() {
-    const homepage = await fetchJson(`${PAGES_BASE}/home.json`) || {};
-    const apps = await getApps();
-    const posts = await fetchJson(`${NEWS_BASE}/posts.json`) || [];
+  function homePage(homepage = {}, apps = [], posts = []) {
     const sections = Array.isArray(homepage.sections) ? homepage.sections : [];
     const actions = Array.isArray(homepage.actions) ? homepage.actions : [];
     const featuredProducts = Array.isArray(homepage.featuredProducts) ? homepage.featuredProducts.filter((item) => item?.title) : [];
@@ -1234,7 +1834,7 @@ ${content}
     const latestPosts = getPublishedValidPosts(posts).slice(0, homepage.newsCount || 3);
     return `
 <section class="hero hero-home"${heroBackgroundStyle(homepage)}>
-  <img class="hero-logo" src="${IMAGE_BASE}/logos/logo-black-stacked.png" alt="BarkinMad Studios" loading="eager">
+  ${renderImage({ className: "hero-logo", src: "logos/logo-black-stacked.png", alt: "BarkinMad Studios", loading: "eager", sizes: "120px", extra: ' fetchpriority="high"' })}
 
   <h2>${escapeHtml(homepage.heading || "Retro Games & Mobile Apps")}</h2>
 
@@ -1310,7 +1910,7 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
     return `
 <div class="card">
   ${image ? `
-    <img class="game-image" src="${IMAGE_BASE}/${escapeHtml(image)}" alt="${escapeHtml(product.title)}" loading="lazy">
+    ${renderImage({ className: "game-image", src: image, alt: product.title, sizes: "(max-width: 700px) calc(100vw - 3rem), (max-width: 1000px) calc((100vw - 4rem) / 2), 420px" })}
   ` : ""}
 
   ${product.type ? `<span class="badge">${escapeHtml(product.type)}</span>` : ""}
@@ -1555,7 +2155,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     return `
 <div class="card">
   ${image ? `
-    <img class="game-image" src="${IMAGE_BASE}/${escapeHtml(image)}" alt="${escapeHtml(app.name || app.title)}" loading="lazy">
+    ${renderImage({ className: "game-image", src: image, alt: app.name || app.title, sizes: "(max-width: 700px) calc(100vw - 3rem), (max-width: 1000px) calc((100vw - 4rem) / 2), 420px" })}
   ` : ""}
 
   ${app.type ? `<span class="badge">${escapeHtml(app.type)}</span>` : ""}
@@ -1859,7 +2459,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     ${links.length ? `<div class="button-group">${links.map(actionLink).join("")}</div>` : ""}
   </div>
   <figure class="docs-panel feature-showcase-media">
-    <img class="feature-showcase-image" src="${escapeHtml(imageAssetUrl(image.src, imageAssetUrl(DOCUMENTATION_PLACEHOLDER_IMAGE)))}" alt="${escapeHtml(image.alt || showcase.heading)}" loading="lazy"${documentationImageFallbackAttribute()}>
+    ${renderImage({ className: "feature-showcase-image", src: image.src, fallback: DOCUMENTATION_PLACEHOLDER_IMAGE, alt: image.alt || showcase.heading, sizes: "(max-width: 750px) calc(100vw - 4.3rem), 650px", extra: documentationImageFallbackAttribute() })}
     ${image.caption ? `<figcaption class="feature-showcase-caption">${renderContentParagraph(image.caption)}</figcaption>` : ""}
   </figure>
 </article>`;
@@ -1919,7 +2519,7 @@ ${strategySections.length ? `
 
 ${usesDocumentationFramework && documentationReferenceImageSrc ? `
 <section class="reference-cheat-sheet">
-  <img class="reference-cheat-image" src="${escapeHtml(imageAssetUrl(documentationReferenceImageSrc, imageAssetUrl(DOCUMENTATION_PLACEHOLDER_IMAGE)))}" alt="${escapeHtml(page.referenceImage?.alt || title)}" loading="lazy"${documentationImageFallbackAttribute()}>
+  ${renderImage({ className: "reference-cheat-image", src: documentationReferenceImageSrc, fallback: DOCUMENTATION_PLACEHOLDER_IMAGE, alt: page.referenceImage?.alt || title, sizes: "(max-width: 1380px) calc(100vw - 3rem), 1320px", extra: documentationImageFallbackAttribute() })}
 </section>`
   : (referenceImages.length ? `
 <section class="reference-cheat-sheet">
@@ -1928,7 +2528,7 @@ ${usesDocumentationFramework && documentationReferenceImageSrc ? `
     if (!imageUrl) return "";
     return `
   ${!hasSectionContent && image === referenceImages[0] ? `<h2 class="section-title">${escapeHtml(image.alt || title)}</h2>` : ""}
-  <img class="reference-cheat-image" src="${escapeHtml(imageUrl)}" alt="${escapeHtml(image.alt || title)}" loading="lazy"${documentationImageFallbackAttribute()}>
+  ${renderImage({ className: "reference-cheat-image", src: imageUrl, alt: image.alt || title, sizes: "(max-width: 1380px) calc(100vw - 3rem), 1320px", extra: documentationImageFallbackAttribute() })}
 `;
   }).join("")}
 </section>` : "")}
@@ -1976,7 +2576,7 @@ ${regularImages.length ? `
   <div class="grid">
     ${regularImages.map((image) => `
       <div class="card">
-        <img class="screenshot-image" src="${escapeHtml(imageAssetUrl(image.src, imageAssetUrl(DOCUMENTATION_PLACEHOLDER_IMAGE)))}" alt="${escapeHtml(image.alt || title)}" loading="lazy"${documentationImageFallbackAttribute()}>
+        ${renderImage({ className: "screenshot-image", src: image.src, fallback: DOCUMENTATION_PLACEHOLDER_IMAGE, alt: image.alt || title, sizes: "(max-width: 700px) calc(100vw - 5rem), 420px", extra: documentationImageFallbackAttribute() })}
         ${image.caption ? `<p>${renderContentParagraph(image.caption)}</p>` : ""}
       </div>
     `).join("")}
@@ -2103,7 +2703,7 @@ ${!isDocumentationImageOnlyPage ? renderFaqSection(page.faq) : ""}
 <section>
   <div class="card">
     ${app.heroImage ? `
-      <img class="article-image" src="${escapeHtml(imageAssetUrl(app.heroImage))}" alt="${escapeHtml(app.title || app.name)}" loading="lazy">
+      ${renderImage({ className: "article-image", src: app.heroImage, alt: app.title || app.name, sizes: "(max-width: 1320px) calc(100vw - 3rem), 1272px" })}
     ` : ""}
 
     ${app.status ? `<span class="badge">${escapeHtml(app.status)}</span>` : ""}
@@ -2145,7 +2745,7 @@ ${Array.isArray(app.screenshots) && app.screenshots.length ? `
       if (!image) return "";
       return `
       <div class="card">
-        <img class="screenshot-image" src="${escapeHtml(imageAssetUrl(image))}" alt="${escapeHtml(caption || (app.title || app.name) + " screenshot")}" loading="lazy">
+        ${renderImage({ className: "screenshot-image", src: image, alt: caption || (app.title || app.name) + " screenshot", sizes: "(max-width: 700px) calc(100vw - 5rem), 420px" })}
         ${caption ? `<p>${renderContentParagraph(caption)}</p>` : ""}
       </div>`;
     }).join("")}
@@ -2469,7 +3069,7 @@ ${renderRelatedApps(relatedApps)}
     return `
 <div class="card portfolio-card">
   ${image ? `
-    <img class="game-image" src="${IMAGE_BASE}/${escapeHtml(image)}" alt="${escapeHtml(project.title)}" loading="lazy">
+    ${renderImage({ className: "game-image", src: image, alt: project.title, sizes: "(max-width: 700px) calc(100vw - 3rem), (max-width: 1000px) calc((100vw - 4rem) / 2), 420px" })}
   ` : ""}
   <div>
     ${project.badge ? `<span class="badge">${renderContentParagraph(project.badge)}</span>` : project.status ? `<span class="badge">${renderContentParagraph(project.status)}</span>` : ""}
@@ -2502,7 +3102,7 @@ ${renderRelatedApps(relatedApps)}
 <main>
   <section>
     <div class="card">
-      ${page.icon ? `<img class="game-image" src="${IMAGE_BASE}/${escapeHtml(page.icon)}" alt="${escapeHtml(page.title || page.heading)} app icon" loading="lazy">` : ""}
+      ${page.icon ? renderImage({ className: "game-image", src: page.icon, alt: `${page.title || page.heading} app icon`, sizes: "(max-width: 700px) calc(100vw - 3rem), 420px" }) : ""}
       ${page.badge ? `<span class="badge">${escapeHtml(page.badge)}</span>` : ""}
       ${page.status ? `<p><strong>Status:</strong> ${escapeHtml(page.status)}</p>` : ""}
       ${page.type ? `<p><strong>Category:</strong> ${escapeHtml(page.type)}</p>` : ""}
@@ -2648,7 +3248,7 @@ ${renderRelatedApps(relatedApps)}
   function postCard(post) {
     return `
 <div class="card">
-  <img class="game-image post-image" src="${NEWS_BASE}/${escapeHtml(post.slug)}/${escapeHtml(post.image)}" alt="${escapeHtml(post.title)}" loading="lazy">
+  ${renderImage({ className: "game-image post-image", src: `news/${post.slug}/${post.image}`, alt: post.title, sizes: "(max-width: 700px) calc(100vw - 3rem), (max-width: 1000px) calc((100vw - 4rem) / 2), 420px" })}
   <span class="badge">${formatDate(post.date)}</span>
   <h3>${escapeHtml(post.title)}</h3>
   <p>${escapeHtml(post.excerpt)}</p>
@@ -2694,7 +3294,7 @@ ${renderRelatedApps(relatedApps)}
 <section>
   <div class="card">
     ${article.image ? `
-      <img class="article-image" src="${NEWS_BASE}/${escapeHtml(slug)}/${escapeHtml(article.image)}" alt="${escapeHtml(article.title)}" loading="lazy">
+      ${renderImage({ className: "article-image", src: `news/${slug}/${article.image}`, alt: article.title, sizes: "(max-width: 1320px) calc(100vw - 3rem), 1272px" })}
     ` : ""}
 
     ${paragraphs.map(

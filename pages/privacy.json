@@ -36,6 +36,7 @@
       "paragraphs": [
         "Some apps or website pages may display advertisements provided by third-party advertising networks such as Google AdSense or Google AdMob.",
         "Advertising providers may use cookies, device identifiers, or similar technologies to measure performance and display personalised or non-personalised advertisements.",
+        "On the website, Google AdSense advertising storage, ad user data, and ad personalisation are optional consent choices. Advertising scripts are only loaded when advertising consent is granted through the cookie preferences controls.",
         "Users may be presented with consent options where required by applicable laws or platform policies."
       ]
     },
@@ -43,6 +44,7 @@
       "heading": "Analytics",
       "paragraphs": [
         "Analytics services may collect anonymous technical information such as device type, operating system version, app usage, gameplay statistics, crash reports, and general interaction data.",
+        "The website uses Google Analytics only when analytics consent is granted through the cookie preferences controls. Google Consent Mode v2 is used to send analytics and advertising consent signals before Google services are initialised.",
         "This information is used to improve app stability, gameplay experience, future updates, and overall service quality."
       ]
     },
@@ -85,7 +87,9 @@
     {
       "heading": "Cookies",
       "paragraphs": [
-        "Website cookie information is maintained separately."
+        "The website uses an essential first-party cookie to remember cookie consent preferences. Essential cookies are always enabled because they are needed for core website operation and preference persistence.",
+        "Optional website cookie categories are Analytics, covering Google Analytics, and Advertising, covering Google AdSense. Visitors can accept all optional cookies, reject non-essential cookies, or manage each optional category.",
+        "Cookie preferences can be changed at any time using the Cookie Preferences control in the website footer. Website cookie information is maintained separately."
       ],
       "links": [
         {
@@ -101,5 +105,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-06-07"
+  "lastUpdated": "2026-07-07"
 }
