@@ -1764,6 +1764,30 @@ ${renderCookieConsentScript()}
     return app.cardImage || app.image || app.icon || "";
   }
   __name(getAppImage, "getAppImage");
+  function portfolioAppImageLookup(apps) {
+    if (!Array.isArray(apps)) return {};
+    return apps.reduce((lookup, app) => {
+      const slug = String(app?.slug || "").trim().toLowerCase();
+      const image = getAppImage(app || {});
+      if (slug && image) lookup[slug] = image;
+      return lookup;
+    }, {});
+  }
+  __name(portfolioAppImageLookup, "portfolioAppImageLookup");
+  function portfolioProjectAppSlug(project) {
+    const href = String(project?.href || "").trim().toLowerCase();
+    const match = href.match(/^\/apps\/([a-z0-9-]+)(?:\/|$)/);
+    if (match) return match[1];
+    return String(project?.appSlug || project?.slug || "").trim().toLowerCase();
+  }
+  __name(portfolioProjectAppSlug, "portfolioProjectAppSlug");
+  function getPortfolioProjectImage(project, appImageBySlug = {}) {
+    const explicitImage = getAppImage(project || {});
+    if (explicitImage) return explicitImage;
+    const appSlug = portfolioProjectAppSlug(project);
+    return appSlug ? appImageBySlug[appSlug] || "" : "";
+  }
+  __name(getPortfolioProjectImage, "getPortfolioProjectImage");
   function imageAssetUrl(image, fallback = "") {
     const value = String(image || "").trim();
     if (!value) return fallback;
@@ -3056,7 +3080,10 @@ ${renderRelatedApps(relatedApps)}
   }
   __name(docsJsonPage, "docsJsonPage");
   async function portfolioJsonPage() {
-    const page = await fetchJson(`${PAGES_BASE}/portfolio.json`);
+    const [page, apps] = await Promise.all([
+      fetchJson(`${PAGES_BASE}/portfolio.json`),
+      getApps()
+    ]);
     if (!page) {
       return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), 404);
     }
@@ -3068,7 +3095,7 @@ ${renderRelatedApps(relatedApps)}
       ]),
       projectSchema(page.projects)
     ].filter(Boolean);
-    return pageResponse(page.seoTitle || `${page.title || "Portfolio"} - BarkinMad Studios`, renderPortfolioPage(page), {
+    return pageResponse(page.seoTitle || `${page.title || "Portfolio"} - BarkinMad Studios`, renderPortfolioPage(page, apps), {
       canonicalPath: "/portfolio",
       description: page.description || page.intro,
       image: pageHeroImage(page, `${IMAGE_BASE}/apps-hero-banner.png`),
@@ -3105,11 +3132,12 @@ ${renderRelatedApps(relatedApps)}
     });
   }
   __name(portfolioDetailJsonPage, "portfolioDetailJsonPage");
-  function renderPortfolioPage(page) {
+  function renderPortfolioPage(page, apps = []) {
     const sections = Array.isArray(page.sections) ? page.sections : [];
     const projects = Array.isArray(page.projects) ? page.projects : [];
     const projectCategories = Array.isArray(page.projectCategories) ? page.projectCategories.filter(Boolean) : [];
     const actions = Array.isArray(page.actions) ? page.actions : [];
+    const appImageBySlug = portfolioAppImageLookup(apps);
     return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
   <h2>${escapeHtml(page.heading || page.title || "Portfolio")}</h2>
@@ -3130,7 +3158,7 @@ ${renderRelatedApps(relatedApps)}
   ${projects.length ? `
     <section>
       <h2>Projects</h2>
-      ${projectCategories.length ? projectCategories.map((category) => renderPortfolioProjectGroup(category, projects.filter((project) => project.category === category))).join("") : `<div class="grid portfolio-grid">${projects.map(renderPortfolioProjectCard).join("")}</div>`}
+      ${projectCategories.length ? projectCategories.map((category) => renderPortfolioProjectGroup(category, projects.filter((project) => project.category === category), appImageBySlug)).join("") : `<div class="grid portfolio-grid">${projects.map((project) => renderPortfolioProjectCard(project, appImageBySlug)).join("")}</div>`}
     </section>
   ` : ""}
 
@@ -3146,19 +3174,19 @@ ${renderRelatedApps(relatedApps)}
 </main>`;
   }
   __name(renderPortfolioPage, "renderPortfolioPage");
-  function renderPortfolioProjectGroup(category, projects) {
+  function renderPortfolioProjectGroup(category, projects, appImageBySlug = {}) {
     if (!Array.isArray(projects) || !projects.length) return "";
     return `
   <h3>${escapeHtml(category)}</h3>
   <div class="grid portfolio-grid">
-    ${projects.map(renderPortfolioProjectCard).join("")}
+    ${projects.map((project) => renderPortfolioProjectCard(project, appImageBySlug)).join("")}
   </div>`;
   }
   __name(renderPortfolioProjectGroup, "renderPortfolioProjectGroup");
-  function renderPortfolioProjectCard(project) {
+  function renderPortfolioProjectCard(project, appImageBySlug = {}) {
     if (!project || !project.title) return "";
     const technologies = Array.isArray(project.technologies) ? project.technologies.filter(Boolean) : [];
-    const image = getAppImage(project);
+    const image = getPortfolioProjectImage(project, appImageBySlug);
     return `
 <div class="card portfolio-card">
   ${image ? `
