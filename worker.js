@@ -149,6 +149,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
         canonicalPath: "/",
         description: homepage.intro,
         image: `${IMAGE_BASE}/logos/social-preview.png`,
+        preloadImages: [{ src: pageHeroImage(homepage, `${IMAGE_BASE}/home-bg-banner.png`), fetchpriority: "high" }],
         structuredData: [organizationSchema(site), websiteSchema(site)]
       });
     }
@@ -282,6 +283,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
 <link rel="icon" type="image/png" href="${IMAGE_BASE}/logos/favicon.png">
 <link rel="apple-touch-icon" href="${IMAGE_BASE}/logos/favicon.png">
 <link rel="canonical" href="${escapeHtml(canonicalUrl)}">
+${renderImagePreloadLinks(options.preloadImages)}
 
 <meta name="description" content="${escapeHtml(siteDescription)}">
 ${options.keywords || site.keywords ? `<meta name="keywords" content="${escapeHtml(options.keywords || site.keywords)}">` : ""}
@@ -1743,6 +1745,17 @@ ${renderCookieConsentScript()}
     return `<img${className ? ` class="${escapeHtml(className)}"` : ""} src="${escapeHtml(url)}" alt="${escapeHtml(alt)}"${imageDimensionAttributes(src, fallback)}${imageSrcsetAttribute(src, fallback, sizes)}${loading ? ` loading="${escapeHtml(loading)}"` : ""}${decoding ? ` decoding="${escapeHtml(decoding)}"` : ""}${extra}>`;
   }
   __name(renderImage, "renderImage");
+  function renderImagePreloadLinks(images) {
+    if (!Array.isArray(images) || !images.length) return "";
+    return images.map((image) => {
+      const item = typeof image === "string" ? { src: image } : image;
+      const url = imageDisplayUrl(item?.src || "", item?.fallback || "");
+      if (!url) return "";
+      const fetchpriority = item?.fetchpriority ? ` fetchpriority="${escapeHtml(item.fetchpriority)}"` : "";
+      return `<link rel="preload" as="image" href="${escapeHtml(url)}"${fetchpriority}>`;
+    }).filter(Boolean).join("\n");
+  }
+  __name(renderImagePreloadLinks, "renderImagePreloadLinks");
   function documentationImageFallbackAttribute() {
     const fallbackUrl = imageDisplayUrl(DOCUMENTATION_PLACEHOLDER_IMAGE);
     return fallbackUrl ? ` onerror="this.onerror=null;this.src='${escapeHtml(fallbackUrl)}';"` : "";
@@ -1839,7 +1852,7 @@ ${renderCookieConsentScript()}
     const latestPosts = getPublishedValidPosts(posts).slice(0, homepage.newsCount || 3);
     return `
 <section class="hero hero-home"${heroBackgroundStyle(homepage)}>
-  ${renderImage({ className: "hero-logo", src: "logos/logo-black-stacked.png", alt: "BarkinMad Studios", loading: "eager", sizes: "120px", extra: ' fetchpriority="high"' })}
+  ${renderImage({ className: "hero-logo", src: "logos/logo-black-stacked.png", alt: "BarkinMad Studios", loading: "eager", sizes: "120px" })}
 
   <h2>${escapeHtml(homepage.heading || "Retro Games & Mobile Apps")}</h2>
 
@@ -3379,7 +3392,6 @@ Sitemap: https://www.barkinmad.studio/sitemap.xml
       { path: "/news", changefreq: "weekly", priority: "0.8" },
       { path: "/about", changefreq: "monthly", priority: "0.7" },
       { path: "/portfolio", changefreq: "monthly", priority: "0.8" },
-      { path: "/portfolio/studiodash", changefreq: "monthly", priority: "0.8" },
       { path: "/docs", changefreq: "monthly", priority: "0.7" },
       { path: "/services", changefreq: "monthly", priority: "0.7" },
       { path: "/privacy", changefreq: "yearly", priority: "0.5" },
