@@ -81,13 +81,13 @@
       "id": "supporting-pages",
       "heading": "Supporting pages",
       "paragraphs": [
-        "Use [FAQ](/apps/studiodash/frequently-asked-questions), [Release Notes](/apps/studiodash/release-notes), and [Screenshots](/apps/studiodash/screenshots) when you need quick answers, public milestone context, or the current visual gallery.",
-        "The Screenshots page is the primary image gallery for StudioDash. Other pages may use `Screenshot1` through `Screenshot4` as temporary Feature Showcase images where dedicated page screenshots have not yet been produced."
+        "Use [FAQ](/apps/studiodash/frequently-asked-questions), [Release Notes](/apps/studiodash/release-notes), and [Screenshots](/apps/studiodash/screenshots) when you need quick answers, public milestone context, or the current visual walkthrough.",
+        "The Screenshots page pairs each current placeholder image with what the screen shows, why it matters, the related workflow, and key capabilities. Other pages may use `Screenshot1` through `Screenshot4` as temporary Feature Showcase images where dedicated page screenshots have not yet been produced."
       ],
       "bullets": [
         "FAQ answers common public questions about availability, platforms, providers, data, reporting, and roadmap items.",
         "Release Notes records public-facing documentation, product, beta, and availability milestones.",
-        "Screenshots shows the current dashboard artwork available in the website repository."
+        "Screenshots provides the current visual walkthrough using the dashboard artwork available in the website repository."
       ]
     }
   ],

@@ -359,11 +359,11 @@
     {
       "slug": "screenshots",
       "title": "Screenshots",
-      "description": "StudioDash screenshots showing the current dashboard artwork available in the website repository.",
+      "description": "StudioDash visual walkthrough pairing current screenshots with workflow context, why each screen matters, and key capabilities.",
       "required": false,
       "status": "optional",
       "order": 15,
-      "estimatedReadTimeMinutes": 1,
+      "estimatedReadTimeMinutes": 4,
       "contentStatus": "verified",
       "lastUpdated": "2026-07-07",
       "lastVerified": "2026-07-07",

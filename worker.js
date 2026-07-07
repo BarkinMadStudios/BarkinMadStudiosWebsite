@@ -1692,7 +1692,6 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     const isDocumentationScreenshotPage = usesDocumentationFramework && detailSlug === "screenshots";
     const isDocumentationOverviewPage = usesDocumentationFramework && (detailSlug === "overview" || options.landingRoute === true || isDocumentationScreenshotPage);
     const isDocumentationGuidePage = usesDocumentationFramework && detailSlug === "guide";
-    const isDocumentationImageOnlyPage = usesDocumentationFramework && !isDocumentationGuidePage && detailSlug !== "overview";
     const hideBottomGuideSections = usesDocumentationFramework;
     const sections = Array.isArray(page.sections) ? page.sections : [];
     const relatedLinks = Array.isArray(page.relatedLinks) ? page.relatedLinks.filter((link) => link && typeof link === "object").map((link) => {
@@ -1717,6 +1716,8 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     const pageImages = normalizeImageEntries(page.images);
     const screenshotEntries = normalizeImageEntries(page.screenshots);
     const featureShowcases = normalizeFeatureShowcases(page.featureShowcases);
+    const hasRenderableBodyContent = Boolean(sections.length || featureShowcases.length || page.faq?.length);
+    const isDocumentationImageOnlyPage = usesDocumentationFramework && !isDocumentationGuidePage && detailSlug !== "overview" && !hasRenderableBodyContent;
     const images = isTipsAndStrategyPage ? [] : pageImages;
     const inlineReferenceImage = page.referenceImage && typeof page.referenceImage === "object" ? {
       ...(page.referenceImage || {}),
@@ -1730,7 +1731,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     const appReferenceFallbacks = appDocumentationReferenceImageFallbacks[appSlug] || {};
     const metadataImages = normalizeImageEntries(page.imageMetadata);
     const explicitDocumentationImageSrc = page.referenceImage?.src || "";
-    const documentationReferenceImageSrc = usesDocumentationFramework && !isDocumentationOverviewPage
+    const documentationReferenceImageSrc = usesDocumentationFramework && !isDocumentationOverviewPage && !featureShowcases.length
       ? explicitDocumentationImageSrc
         || sharedDocumentationReferenceImageFallbacks[detailSlug]
         || appReferenceFallbacks[detailSlug]
@@ -1740,7 +1741,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
         || page.heroImage
         || DOCUMENTATION_PLACEHOLDER_IMAGE
       : "";
-    const referenceImages = isTipsAndStrategyPage ? (inlineReferenceImage?.src ? [{ ...inlineReferenceImage }] : []) : isDocumentationOverviewPage ? [] : [
+    const referenceImages = featureShowcases.length ? [] : isTipsAndStrategyPage ? (inlineReferenceImage?.src ? [{ ...inlineReferenceImage }] : []) : isDocumentationOverviewPage ? [] : [
       ...(inlineReferenceImage?.src ? [{ ...inlineReferenceImage }] : []),
       ...images.filter(isReferenceCheatSheetImage)
     ].filter((image, index, array) => index === array.findIndex((item) => item?.src === image?.src));
@@ -2459,7 +2460,7 @@ ${renderRelatedApps(relatedApps)}
     ` : ""}
     ${project.outcome ? `<p><strong>Outcome:</strong> ${renderContentParagraph(project.outcome)}</p>` : ""}
   </div>
-  ${project.href ? actionLink({ label: "View Project", href: project.href }) : ""}
+  ${project.href ? actionLink({ label: project.actionLabel || "View Product", href: project.href }) : ""}
 </div>`;
   }
   __name(renderPortfolioProjectCard, "renderPortfolioProjectCard");

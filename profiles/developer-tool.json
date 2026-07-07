@@ -1,0 +1,20 @@
+{
+  "id": "developerTool",
+  "label": "Developer Tool",
+  "aliases": [
+    "developer-tool",
+    "developerTool"
+  ],
+  "requiredPages": [
+    "features",
+    "integrations",
+    "dashboard",
+    "revenue-analytics",
+    "app-store-analytics",
+    "website-seo-analytics",
+    "reporting",
+    "automation-sync",
+    "security-privacy",
+    "release-notes"
+  ]
+}

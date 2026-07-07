@@ -9,6 +9,9 @@ const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."
 const APPS_DIR = path.join(ROOT_DIR, "pages", "apps");
 const IMAGE_ROOT = path.join(ROOT_DIR, "images", "apps");
 const DOCUMENTATION_PLACEHOLDER_PATH = path.join(ROOT_DIR, "images", "shared", "placeholder.png");
+const PROFILES_DIR = path.join(ROOT_DIR, "profiles");
+const SHARED_PROFILE_FILE = "shared.json";
+const DEFAULT_DOCUMENTATION_PROFILE = "game";
 
 const STRICT = process.argv.includes("--strict");
 const JSON_OUTPUT = process.argv.includes("--json");
@@ -17,18 +20,6 @@ const args = {
   strict: STRICT,
   json: JSON_OUTPUT
 };
-
-const CORE_PAGES = [
-  "overview",
-  "how-to-play",
-  "controls",
-  "game-modes",
-  "barkinmad-coins",
-  "achievements",
-  "leaderboards",
-  "tips-and-strategy",
-  "frequently-asked-questions"
-];
 
 const CONTENT_STATUS_VALUES = new Set(["verified", "needs-review", "stale", "draft"]);
 const VALID_PAGES_FILE_EXTENSIONS = new Set([".json"]);
@@ -74,6 +65,10 @@ function normalizeSlug(value) {
   return isString(value) ? value.trim().toLowerCase() : "";
 }
 
+function normalizeProfileKey(value) {
+  return isString(value) ? value.trim().toLowerCase().replace(/[\s_-]+/g, "") : "";
+}
+
 function safeJsonParse(filePath, raw) {
   try {
     return JSON.parse(raw);
@@ -91,6 +86,102 @@ async function readJson(filePath) {
     addError("json", `Failed to read ${filePath}`, error.message);
     return null;
   }
+}
+
+function slugsFromPageList(value, context) {
+  const slugs = [];
+
+  if (!Array.isArray(value)) {
+    addError(context, "Profile page list must be an array");
+    return slugs;
+  }
+
+  for (const [index, item] of value.entries()) {
+    const slug = isObject(item) ? item.slug : item;
+    if (!isString(slug)) {
+      addError(`${context}[${index}]`, "Profile page slug must be a string", item);
+      continue;
+    }
+
+    slugs.push(normalizeSlug(slug));
+  }
+
+  return slugs;
+}
+
+async function loadDocumentationProfiles() {
+  const sharedPath = path.join(PROFILES_DIR, SHARED_PROFILE_FILE);
+  const sharedConfig = await readJson(sharedPath);
+  const sharedRequiredPages = slugsFromPageList(
+    Array.isArray(sharedConfig?.sharedPages) ? sharedConfig.sharedPages.filter(page => page?.required === true) : [],
+    "profiles/shared.sharedPages"
+  );
+
+  const profiles = new Map();
+  const aliases = new Map();
+  const entries = await fs.readdir(PROFILES_DIR, { withFileTypes: true });
+
+  for (const entry of entries) {
+    if (!entry.isFile() || !entry.name.endsWith(".json") || entry.name === SHARED_PROFILE_FILE) {
+      continue;
+    }
+
+    const filePath = path.join(PROFILES_DIR, entry.name);
+    const profile = await readJson(filePath);
+    const context = `profiles/${entry.name}`;
+
+    if (!isObject(profile)) {
+      addError(context, "Documentation profile must be an object");
+      continue;
+    }
+
+    if (!isString(profile.id)) {
+      addError(context, "Documentation profile missing id");
+      continue;
+    }
+
+    const id = profile.id.trim();
+    const requiredPages = [
+      ...sharedRequiredPages,
+      ...slugsFromPageList(profile.requiredPages, `${context}.requiredPages`)
+    ];
+
+    const loadedProfile = {
+      ...profile,
+      id,
+      label: isString(profile.label) ? profile.label.trim() : id,
+      requiredPages: [...new Set(requiredPages)]
+    };
+
+    profiles.set(id, loadedProfile);
+
+    for (const alias of [id, ...(Array.isArray(profile.aliases) ? profile.aliases : [])]) {
+      const key = normalizeProfileKey(alias);
+      if (key) aliases.set(key, id);
+    }
+  }
+
+  if (!profiles.has(DEFAULT_DOCUMENTATION_PROFILE)) {
+    addError("profiles", "Default documentation profile is not defined", DEFAULT_DOCUMENTATION_PROFILE);
+  }
+
+  return { profiles, aliases };
+}
+
+function resolveDocumentationProfile(context, index, appJson) {
+  const declaredProfile = index.documentationProfile || appJson?.documentationProfile || DEFAULT_DOCUMENTATION_PROFILE;
+  const key = normalizeProfileKey(declaredProfile);
+  const profileId = documentationProfiles.aliases.get(key);
+
+  if (!profileId) {
+    addError(context, "Unknown documentationProfile", {
+      documentationProfile: declaredProfile,
+      allowedProfiles: [...documentationProfiles.profiles.keys()]
+    });
+    return documentationProfiles.profiles.get(DEFAULT_DOCUMENTATION_PROFILE);
+  }
+
+  return documentationProfiles.profiles.get(profileId);
 }
 
 function markdownLinks(text) {
@@ -365,7 +456,7 @@ function valueToDisplayPath(value) {
   return value.trim();
 }
 
-function validateIndexSchema(context, index) {
+function validateIndexSchema(context, index, documentationProfile) {
   report.checks.schema += 1;
   report.checks.seo += 1;
 
@@ -507,9 +598,9 @@ function validateIndexSchema(context, index) {
     addError(context, "landingPage does not exist in pages[]", index.landingPage);
   }
 
-  for (const requiredSlug of CORE_PAGES) {
+  for (const requiredSlug of documentationProfile.requiredPages) {
     if (!slugs.has(requiredSlug)) {
-      addError(context, `Missing required core page: ${requiredSlug}`);
+      addError(context, `Missing required documentation page for profile "${documentationProfile.label}": ${requiredSlug}`);
     }
   }
 
@@ -716,7 +807,8 @@ async function validateApp(appSlug, appData) {
     return;
   }
 
-  const validated = validateIndexSchema(appContext, pageIndex);
+  const documentationProfile = resolveDocumentationProfile(appContext, pageIndex, appJson);
+  const validated = validateIndexSchema(appContext, pageIndex, documentationProfile);
   if (!validated || !validated.slugs) {
     return;
   }
@@ -779,17 +871,22 @@ async function validateApp(appSlug, appData) {
   const linksToCheck = Array.isArray(appJson?.documentationLinks) ? appJson.documentationLinks : [];
   if (linksToCheck.length > 0) {
     const linkedSlugs = new Set();
+    const landingSlug = normalizeSlug(pageIndex.landingPage || "overview");
     for (const link of linksToCheck) {
       if (!isObject(link) || !isString(link.href)) continue;
+      if (link.href === `/apps/${appSlug}`) {
+        linkedSlugs.add(landingSlug);
+        continue;
+      }
       const match = /^\/apps\/[a-z0-9-]+\/([a-z0-9-]+)$/.exec(link.href);
       if (match) {
         linkedSlugs.add(match[1]);
       }
     }
 
-    for (const requiredSlug of CORE_PAGES) {
+    for (const requiredSlug of documentationProfile.requiredPages) {
       if (!linkedSlugs.has(requiredSlug)) {
-        addWarning(appContext, `App overview does not link to core doc slug`, requiredSlug);
+        addWarning(appContext, `App overview does not link to required doc slug for profile "${documentationProfile.label}"`, requiredSlug);
       }
     }
   } else if (appJson) {
@@ -835,6 +932,7 @@ function printTextReport() {
 
 validateDocumentationPlaceholder();
 
+const documentationProfiles = await loadDocumentationProfiles();
 const appMap = await buildAppMap();
 const readCache = new Map();
 

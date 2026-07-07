@@ -1,0 +1,16 @@
+{
+  "id": "game",
+  "label": "Game",
+  "aliases": [
+    "game"
+  ],
+  "requiredPages": [
+    "how-to-play",
+    "controls",
+    "game-modes",
+    "barkinmad-coins",
+    "achievements",
+    "leaderboards",
+    "tips-and-strategy"
+  ]
+}

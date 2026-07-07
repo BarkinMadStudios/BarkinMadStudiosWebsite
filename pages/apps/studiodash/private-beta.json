@@ -1,0 +1,117 @@
+{
+  "documentationSchemaVersion": "1.1.0",
+  "title": "StudioDash Private Beta",
+  "seoTitle": "StudioDash Private Beta | BarkinMad Studios",
+  "description": "Learn about the StudioDash private beta programme and the placeholder application form for future invitations.",
+  "summary": "StudioDash is preparing for a controlled private beta with selected independent developers and small studios.",
+  "heroImage": "apps/studiodash/studiodash-hero.png",
+  "heroImageAlt": "StudioDash private beta dashboard",
+  "referenceImage": {
+    "src": "apps/studiodash/studiodash-hero.png",
+    "alt": "StudioDash private beta dashboard"
+  },
+  "sections": [
+    {
+      "id": "private-beta-overview",
+      "heading": "Private beta overview",
+      "paragraphs": [
+        "StudioDash is currently preparing for a private beta. We are inviting a limited number of independent developers and small studios to help shape the product before public release.",
+        "The private beta is intended to test the product experience, validate the usefulness of the dashboard, and gather practical feedback from developers who manage apps, games, websites, revenue, and provider accounts."
+      ]
+    },
+    {
+      "id": "what-studiodash-offers",
+      "heading": "What StudioDash currently offers",
+      "paragraphs": [
+        "StudioDash is designed as a Mac and iPad workspace for reviewing developer business signals in one place."
+      ],
+      "bullets": [
+        "Portfolio dashboard for app, game, website, and revenue monitoring.",
+        "App Store Connect app status, download, sales, ratings, and review views where connected data is available.",
+        "Cloudflare, advertising, search visibility, provider health, sync status, and reporting areas documented at a public product level.",
+        "A focused dashboard experience for developers who want fewer disconnected provider tabs."
+      ]
+    },
+    {
+      "id": "who-the-beta-is-for",
+      "heading": "Who the beta is for",
+      "paragraphs": [
+        "The beta is aimed at people and teams who can test StudioDash against real developer workflows and provide product feedback."
+      ],
+      "bullets": [
+        "Solo developers publishing apps, games, or web products.",
+        "Indie studios managing small portfolios across Apple, Google, web, and advertising services.",
+        "Publishers, agencies, or creator-led teams that need a clearer operating view across multiple products.",
+        "Developers who are comfortable testing pre-release software and reporting rough edges clearly."
+      ]
+    },
+    {
+      "id": "feedback-we-are-looking-for",
+      "heading": "Feedback we are looking for",
+      "paragraphs": [
+        "Private beta feedback will focus on whether StudioDash helps developers understand their products faster and make better operational decisions."
+      ],
+      "bullets": [
+        "Which dashboard views are most useful during regular product checks.",
+        "Where metric labels, provider terminology, or status messages need to be clearer.",
+        "Which integrations matter most for independent developers and small studios.",
+        "Whether the app helps reduce time spent switching between provider dashboards.",
+        "Any usability, performance, sync, reporting, or privacy concerns found during testing."
+      ]
+    },
+    {
+      "id": "invitations",
+      "heading": "How invitations are managed",
+      "paragraphs": [
+        "Private beta places are limited and will be managed by BarkinMad Studios. Submitting interest does not guarantee access, and invitations may be staged by platform, integration coverage, product fit, and available testing capacity.",
+        "Beta access, if offered, will be shared directly with selected applicants. Wider availability will be announced separately when StudioDash is ready for public release."
+      ]
+    },
+    {
+      "id": "application-form-placeholder",
+      "heading": "Beta application form",
+      "paragraphs": [
+        "This application form is a public UI placeholder while the website content and navigation are completed. Submission functionality will be implemented later, so the fields below describe the planned application information without sending data from this page."
+      ],
+      "bullets": [
+        "Required: Name.",
+        "Required: Email Address.",
+        "Optional: Company / Studio.",
+        "Optional: Website.",
+        "Optional: Country.",
+        "Developer Information: Solo Developer, Indie Studio, Publisher, Agency, Other.",
+        "Platforms: Apple App Store, Google Play, Steam, Web, Other.",
+        "Experience: Number of published apps/games.",
+        "Experience: Approximate monthly downloads (optional).",
+        "Interest: Which StudioDash features are you most interested in?",
+        "Interest: Why would you like to join the beta?",
+        "Agreement: Checkbox confirming willingness to provide feedback during testing.",
+        "Agreement: Checkbox accepting the [Privacy Policy](/privacy)."
+      ]
+    },
+    {
+      "id": "privacy-statement",
+      "heading": "Privacy statement",
+      "paragraphs": [
+        "When beta application submission is enabled, submitted details will only be used for administering the StudioDash beta programme, including reviewing applications, managing invitations, and contacting applicants about beta access.",
+        "Application details will not be used for unrelated marketing or shared publicly. The wider BarkinMad Studios [Privacy Policy](/privacy) explains how website and contact information is handled."
+      ]
+    }
+  ],
+  "keywords": [
+    "StudioDash private beta",
+    "developer dashboard beta",
+    "indie developer tools",
+    "app analytics beta"
+  ],
+  "estimatedReadTimeMinutes": 5,
+  "contentStatus": "verified",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
+  "relatedPages": [
+    "overview",
+    "features",
+    "security-privacy",
+    "frequently-asked-questions"
+  ]
+}

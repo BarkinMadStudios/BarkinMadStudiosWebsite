@@ -1,0 +1,13 @@
+{
+  "id": "productivity",
+  "label": "Productivity",
+  "aliases": [
+    "productivity"
+  ],
+  "requiredPages": [
+    "features",
+    "workflows",
+    "settings",
+    "privacy"
+  ]
+}

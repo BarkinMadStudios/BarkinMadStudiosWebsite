@@ -1,0 +1,14 @@
+{
+  "id": "service",
+  "label": "Service",
+  "aliases": [
+    "service"
+  ],
+  "requiredPages": [
+    "features",
+    "integrations",
+    "availability",
+    "security-privacy",
+    "reporting"
+  ]
+}

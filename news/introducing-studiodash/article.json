@@ -4,7 +4,7 @@
   "image": "image.png",
   "excerpt": "StudioDash is a developer analytics platform from BarkinMad Studios, bringing app, revenue, traffic, advertising, search and operational metrics into a single native workspace.",
   "content": [
-    "BarkinMad Studios is introducing [StudioDash](/portfolio/studiodash), an analytics and business intelligence platform for independent developers, creators, and small studios.",
+    "BarkinMad Studios is introducing [StudioDash](/apps/studiodash), an analytics and business intelligence platform for independent developers, creators, and small studios.",
     "StudioDash is being built to bring important product and operational data into one workspace. Instead of switching between separate dashboards for app downloads, revenue, advertising, website traffic, search visibility, GitHub activity, and infrastructure health, StudioDash is designed to make those signals easier to monitor from a single native app.",
     "Why It Was Built",
     "Independent developers often work across several services at once. App Store Connect, Cloudflare, AdMob, AdSense, Search Console and other platforms all provide useful information, but they do not naturally form one joined-up operational view.",
@@ -24,12 +24,12 @@
     "Future Roadmap",
     "The next stage is to continue refining the dashboard experience, expand integration coverage, improve reporting workflows, and prepare StudioDash for a public beta.",
     "StudioDash also reflects the broader software engineering work behind BarkinMad Studios. Alongside games such as the [ZX Series](/zx-series) and apps such as [The Game of Darts](/apps/gameofdarts), it demonstrates the studio's capability to build practical software products, developer tools, dashboards, and business systems.",
-    "More information is available on the [StudioDash portfolio page](/portfolio/studiodash)."
+    "More information is available on the [StudioDash product page](/apps/studiodash)."
   ],
   "actions": [
     {
       "label": "View StudioDash",
-      "href": "/portfolio/studiodash"
+      "href": "/apps/studiodash"
     },
     {
       "label": "View Portfolio",

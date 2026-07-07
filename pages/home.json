@@ -29,18 +29,18 @@
       "description": "A modern darts scoring app for iPhone and iPad, built for quick score entry, player statistics, match history, and practical gameplay support."
     },
     {
-      "title": "ZX Series",
-      "type": "Retro Arcade Games",
-      "status": "Live and In Development",
-      "href": "/zx-series",
+      "title": "ZXSnake",
+      "type": "Retro Arcade Game",
+      "status": "Live",
+      "href": "/apps/zxsnake",
       "image": "apps/zxsnake/zxsnake-icon.png",
-      "description": "A connected collection of retro-inspired arcade games with shared achievements, leaderboards, [BarkinMad Coins](/zx-series), and future cross-game progression."
+      "description": "A retro-inspired snake game for iPhone and iPad with score chasing, achievements, leaderboards, AI opponents, multiplayer modes, and shared ZX Series progression."
     },
     {
       "title": "StudioDash",
       "type": "Developer Analytics Platform",
       "status": "In Development",
-      "href": "/portfolio/studiodash",
+      "href": "/apps/studiodash",
       "image": "apps/studiodash/studiodash-icon.png",
       "description": "A native analytics and business intelligence platform for independent developers, creators, and small studios, bringing app, revenue, traffic, performance, and operational metrics into one workspace."
     }

@@ -1,0 +1,13 @@
+{
+  "id": "utility",
+  "label": "Utility",
+  "aliases": [
+    "utility"
+  ],
+  "requiredPages": [
+    "features",
+    "usage",
+    "settings",
+    "privacy"
+  ]
+}

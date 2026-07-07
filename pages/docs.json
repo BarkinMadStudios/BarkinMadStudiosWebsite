@@ -64,12 +64,12 @@
     },
     {
       "title": "StudioDash",
-      "description": "Documentation area for StudioDash setup, integrations, and troubleshooting as the product approaches public beta.",
+      "description": "Documentation area for StudioDash setup, integrations, private beta access, and troubleshooting as the product approaches private beta.",
       "documents": [
         {
           "title": "Setup",
-          "summary": "Setup guides for StudioDash onboarding and configuration will be published as the public beta approaches.",
-          "href": "/portfolio/studiodash",
+          "summary": "Setup guides for StudioDash onboarding and configuration will be published as the private beta approaches.",
+          "href": "/apps/studiodash/private-beta",
           "tags": [
             "StudioDash",
             "Setup",
@@ -79,7 +79,7 @@
         {
           "title": "Integrations",
           "summary": "Integration notes for connecting StudioDash with App Store Connect, Cloudflare, advertising, search, and developer services.",
-          "href": "/portfolio/studiodash",
+          "href": "/apps/studiodash/integrations",
           "tags": [
             "StudioDash",
             "Integrations",
@@ -89,7 +89,7 @@
         {
           "title": "Troubleshooting",
           "summary": "Troubleshooting material for StudioDash setup and operational issues will be added as integrations become public.",
-          "href": "/portfolio/studiodash",
+          "href": "/apps/studiodash/frequently-asked-questions",
           "tags": [
             "StudioDash",
             "Troubleshooting",
@@ -111,8 +111,8 @@
       "href": "/services"
     },
     {
-      "label": "View Portfolio",
-      "href": "/portfolio"
+      "label": "View Apps",
+      "href": "/apps"
     },
     {
       "label": "Contact BarkinMad Studios",

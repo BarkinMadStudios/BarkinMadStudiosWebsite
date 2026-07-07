@@ -45,7 +45,7 @@
       "status": "Live",
       "category": "Games",
       "type": "Retro Arcade Game",
-      "href": "/apps/zxsnake/overview",
+      "href": "/apps/zxsnake",
       "summary": "A retro-inspired snake game with modern features including achievements, leaderboards, AI opponents, local PVP, online PVP, unlockable content, and shared ZX Series progression.",
       "challenge": "Modernise a classic arcade concept while preserving the simple gameplay that made Snake instantly recognisable.",
       "solution": "Developed a polished mobile arcade game with responsive controls, Game Center integration, multiplayer features, localisation, and shared progression systems.",
@@ -111,10 +111,10 @@
     {
       "title": "StudioDash",
       "status": "In Development",
-      "badge": "Public Beta Planned",
+      "badge": "Private Beta Planned",
       "category": "Developer Tools",
       "type": "Developer Analytics Platform",
-      "href": "/portfolio/studiodash",
+      "href": "/apps/studiodash",
       "image": "apps/studiodash/studiodash-icon.png",
       "summary": "StudioDash is an analytics and business intelligence platform being developed by BarkinMad Studios for independent developers, creators, and small studios. It brings together App Store Connect, Cloudflare, AdMob, AdSense, Search Console, GitHub, and other services into a single workspace, helping users monitor downloads, revenue, traffic, performance, and operational health from one dashboard.",
       "challenge": "Developers often need to switch between multiple services and dashboards to understand how their products and business are performing. This creates fragmented workflows and makes it difficult to identify trends and issues quickly.",
@@ -128,14 +128,14 @@
         "Local-First Data Architecture",
         "Business Intelligence Dashboards"
       ],
-      "outcome": "Development is actively in progress, with Cloudflare and App Store Connect integrations already operational and additional services being added as the platform evolves."
+      "outcome": "StudioDash is preparing for a controlled private beta, with a limited number of independent developers and small studios invited to help shape the product before public release."
     },
     {
       "title": "Wi-Fi Survey Tool",
       "status": "Planned",
       "category": "Developer Tools",
       "type": "Business / Utility App",
-      "href": "/services/mobile-app-development",
+      "href": "/apps/non-zx",
       "summary": "A planned mobile tool concept for capturing Wi-Fi readings, comparing access point and extender combinations, and helping users understand wireless coverage around a property.",
       "challenge": "Help users collect structured Wi-Fi information without needing specialist enterprise survey tools.",
       "solution": "Planned app concept focused on guided data capture, structured test points, report generation, and future analysis features.",
@@ -153,6 +153,7 @@
       "category": "Software Services",
       "type": "Software Service",
       "href": "/services/custom-software-development",
+      "actionLabel": "View Service",
       "summary": "Commercial software development services for businesses that need practical internal tools, mobile apps, prototypes, integrations, workflow systems, and digital platforms.",
       "challenge": "Businesses often rely on manual processes, disconnected spreadsheets, or tools that do not fit the way their teams actually work.",
       "solution": "BarkinMad Studios designs and builds focused software around real operational requirements, from native apps and dashboards to prototypes and business workflow tools.",

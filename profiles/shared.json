@@ -1,0 +1,19 @@
+{
+  "sharedPages": [
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "required": true
+    },
+    {
+      "slug": "frequently-asked-questions",
+      "title": "FAQ",
+      "required": true
+    },
+    {
+      "slug": "release-notes",
+      "title": "Release Notes",
+      "required": false
+    }
+  ]
+}

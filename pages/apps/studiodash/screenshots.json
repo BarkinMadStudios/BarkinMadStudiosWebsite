@@ -1,31 +1,129 @@
 {
-  "documentationSchemaVersion": "1.1.0",
-  "title": "StudioDash Screenshots",
+  "documentationSchemaVersion": "1.2.0",
+  "title": "StudioDash Visual Walkthrough",
   "seoTitle": "StudioDash Screenshots | BarkinMad Studios",
   "description": "StudioDash screenshots showing the current dashboard artwork available in the website repository.",
-  "summary": "StudioDash screenshots show the current public dashboard artwork for the product documentation.",
+  "summary": "StudioDash screenshots now work as a visual walkthrough, pairing each current placeholder image with workflow context and product capability notes.",
   "heroImage": "apps/studiodash/studiodash-hero.png",
-  "heroImageAlt": "StudioDash screenshots",
-  "images": [
+  "heroImageAlt": "StudioDash visual walkthrough",
+  "featureShowcases": [
     {
-      "src": "apps/studiodash/Screenshot1.png",
-      "alt": "StudioDash dashboard overview screenshot",
-      "caption": "StudioDash dashboard overview."
+      "id": "portfolio-dashboard",
+      "heading": "Portfolio dashboard overview",
+      "summary": "This screen shows the main StudioDash dashboard, where app, website, revenue, provider, and sync signals are brought into one operating view.",
+      "body": [
+        "It matters because independent developers often need to check product health quickly before deciding where to spend time. The dashboard is designed to make that first pass faster than opening each provider separately.",
+        "The related workflow is the daily or weekly portfolio review: check overall status, spot missing data, identify providers that need attention, then move into specialist views for deeper analysis."
+      ],
+      "bullets": [
+        "At-a-glance portfolio health for apps, games, and web products.",
+        "High-level revenue, traffic, provider, and sync context.",
+        "Entry point into dashboard, revenue, App Store, website, and integration detail pages.",
+        "Uses `Screenshot1` as the current placeholder until dedicated overview screenshots are produced."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot1.png",
+        "alt": "StudioDash portfolio dashboard overview screenshot",
+        "caption": "The current dashboard overview placeholder shows how StudioDash starts with a broad product-health view."
+      },
+      "links": [
+        {
+          "label": "View dashboard guide",
+          "href": "/apps/studiodash/dashboard"
+        }
+      ]
     },
     {
-      "src": "apps/studiodash/Screenshot2.png",
-      "alt": "StudioDash app and provider analytics screenshot",
-      "caption": "StudioDash app and provider analytics."
+      "id": "app-provider-analytics",
+      "heading": "App and provider analytics",
+      "layout": "textRight",
+      "summary": "This screen represents StudioDash's app and provider analytics workspace, including App Store Connect context and provider-health language.",
+      "body": [
+        "It matters because a missing or stale metric can mean several different things: account setup, provider availability, sync state, placeholder coverage, or a genuine product issue. StudioDash documentation keeps those meanings explicit.",
+        "The related workflow is provider review: confirm which integrations are connected, understand their current state, then use app-level views to interpret downloads, sales, ratings, reviews, and lifecycle status where live provider data is available."
+      ],
+      "bullets": [
+        "App Store Connect status and analytics context.",
+        "Provider health and setup-state visibility.",
+        "Separation between live, placeholder, and planned integration coverage.",
+        "Uses `Screenshot2` as the current placeholder until dedicated provider screenshots are produced."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot2.png",
+        "alt": "StudioDash app and provider analytics screenshot",
+        "caption": "The current provider analytics placeholder supports the integrations and App Store analytics walkthrough."
+      },
+      "links": [
+        {
+          "label": "View integrations",
+          "href": "/apps/studiodash/integrations"
+        },
+        {
+          "label": "View App Store analytics",
+          "href": "/apps/studiodash/app-store-analytics"
+        }
+      ]
     },
     {
-      "src": "apps/studiodash/Screenshot3.png",
-      "alt": "StudioDash revenue and trend review screenshot",
-      "caption": "StudioDash revenue and trend review."
+      "id": "revenue-trend-review",
+      "heading": "Revenue and trend review",
+      "summary": "This screen shows the revenue and trend-review side of StudioDash, where App Store, advertising, and period-based business metrics are reviewed together.",
+      "body": [
+        "It matters because revenue checks are most useful when totals, provider context, time period, and trend direction are presented together. The page explains the kind of decision-making this screen is intended to support.",
+        "The related workflow is a revenue review: choose the reporting period, compare provider totals, identify unusual movement, and use reporting pages for follow-up summaries or export planning."
+      ],
+      "bullets": [
+        "App Store, AdMob, AdSense, and provider revenue context where available.",
+        "Selected-period comparison and trend-review language.",
+        "Reporting and export planning context.",
+        "Uses `Screenshot3` as the current placeholder until dedicated revenue screenshots are produced."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot3.png",
+        "alt": "StudioDash revenue and trend review screenshot",
+        "caption": "The current revenue placeholder supports revenue analytics, trend review, and reporting documentation."
+      },
+      "links": [
+        {
+          "label": "View revenue analytics",
+          "href": "/apps/studiodash/revenue-analytics"
+        },
+        {
+          "label": "View reporting",
+          "href": "/apps/studiodash/reporting"
+        }
+      ]
     },
     {
-      "src": "apps/studiodash/Screenshot4.png",
-      "alt": "StudioDash website and integration insights screenshot",
-      "caption": "StudioDash website and integration insights."
+      "id": "website-seo-sync",
+      "heading": "Website, SEO, and sync insight",
+      "layout": "textRight",
+      "summary": "This screen represents the website, SEO, integration, and sync areas where Cloudflare, Search Console, provider status, and automation signals are reviewed.",
+      "body": [
+        "It matters because product visibility is not only an app-store problem. Developers also need to understand website traffic, search visibility, provider freshness, and sync confidence before they trust a dashboard view.",
+        "The related workflow is operational follow-up: check whether website and search data is present, review provider freshness, refresh data when needed, and keep privacy expectations clear when live accounts are connected."
+      ],
+      "bullets": [
+        "Cloudflare and Google Search Console context for website visibility.",
+        "Provider freshness, manual refresh, and sync-status concepts.",
+        "Security and privacy context for connected developer accounts.",
+        "Uses `Screenshot4` as the current placeholder until dedicated website and sync screenshots are produced."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot4.png",
+        "alt": "StudioDash website SEO and sync insight screenshot",
+        "caption": "The current website and sync placeholder supports website analytics, automation, and security walkthrough content."
+      },
+      "links": [
+        {
+          "label": "View website analytics",
+          "href": "/apps/studiodash/website-seo-analytics"
+        },
+        {
+          "label": "View automation and sync",
+          "href": "/apps/studiodash/automation-sync"
+        }
+      ]
     }
   ],
   "imageMetadata": [
@@ -76,11 +174,11 @@
   ],
   "sections": [
     {
-      "id": "screenshot-set",
-      "heading": "Screenshot set",
+      "id": "visual-walkthrough-standard",
+      "heading": "Visual walkthrough standard",
       "paragraphs": [
-        "These screenshots show the current StudioDash dashboard artwork available for the public website.",
-        "Future screenshots can replace or expand this set as the product moves closer to public availability."
+        "This page uses Feature Showcase blocks rather than a legacy bottom gallery. Each screenshot is paired with what the screen shows, why it matters, the related StudioDash workflow, and key capabilities.",
+        "The current public image set remains `Screenshot1` through `Screenshot4`. Future dedicated screenshots can replace these placeholders without changing the walkthrough structure."
       ]
     }
   ],
@@ -89,7 +187,7 @@
     "developer dashboard screenshots",
     "BarkinMad Studios"
   ],
-  "estimatedReadTimeMinutes": 1,
+  "estimatedReadTimeMinutes": 4,
   "contentStatus": "verified",
   "lastUpdated": "2026-07-07",
   "lastVerified": "2026-07-07",
