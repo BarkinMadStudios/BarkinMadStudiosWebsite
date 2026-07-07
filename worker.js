@@ -88,7 +88,7 @@
     if (assetResponse) return assetResponse;
     const path = rawPath.toLowerCase() || "/";
     if (url.hostname === "barkinmad.studio") {
-      return Response.redirect(`https://www.barkinmad.studio${url.pathname}`, 301);
+      return redirectResponse(`https://www.barkinmad.studio${url.pathname}`, 301);
     }
     if (["/ads.txt", "/app-ads.txt"].includes(path)) {
       return textResponse(ADS_TXT);
@@ -97,10 +97,10 @@
       return new Response(
         "google-site-verification: googleeaa2bb6a63462e00.html",
         {
-          headers: {
+          headers: securityHeaders({
             "Content-Type": "text/html; charset=utf-8",
             "Cache-Control": STATIC_CACHE_CONTROL
-          }
+          })
         }
       );
     }
@@ -108,10 +108,10 @@
       return new Response(
         "google-site-verification: google0b80faf2f8732a53.html",
         {
-          headers: {
+          headers: securityHeaders({
             "Content-Type": "text/html; charset=utf-8",
             "Cache-Control": STATIC_CACHE_CONTROL
-          }
+          })
         }
       );
     }
@@ -125,16 +125,16 @@ Preferred-Languages: en
 Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     }
     if (path === "/home") {
-      return Response.redirect(`${url.origin}/`, 301);
+      return redirectResponse(`${url.origin}/`, 301);
     }
     if (path === "/devlog") {
-      return Response.redirect(`${url.origin}/news`, 301);
+      return redirectResponse(`${url.origin}/news`, 301);
     }
     if (path === "/about-us") {
-      return Response.redirect(`${url.origin}/about`, 301);
+      return redirectResponse(`${url.origin}/about`, 301);
     }
     if (path === "/support") {
-      return Response.redirect(`${url.origin}/contact`, 301);
+      return redirectResponse(`${url.origin}/contact`, 301);
     }
     if (path === "/") {
       const [homepageData, site, apps, posts] = await Promise.all([
@@ -144,7 +144,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
         fetchJson(`${NEWS_BASE}/posts.json`)
       ]);
       const homepage = homepageData || {};
-      return pageResponse("BarkinMad Studios", homePage(homepage, apps, posts), {
+      return pageResponse("BarkinMad Studios Apps, Games & Software", homePage(homepage, apps, posts), {
         site,
         canonicalPath: "/",
         description: homepage.intro,
@@ -181,10 +181,10 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
       });
     }
     if (["/retro-arcade-games", "/retro-games", "/games", "/darts-apps", "/gameofdarts"].includes(path)) {
-      return Response.redirect(`${url.origin}/apps`, 301);
+      return redirectResponse(`${url.origin}/apps`, 301);
     }
     if (path === "/about") return staticJsonPage("about");
-    if (path === "/portfolio/studiodash") return Response.redirect(`${url.origin}/apps/studiodash`, 301);
+    if (path === "/portfolio/studiodash") return redirectResponse(`${url.origin}/apps/studiodash`, 301);
     if (path === "/portfolio") return portfolioJsonPage();
     if (path === "/docs") return docsJsonPage();
     if (path === "/privacy") return staticJsonPage("privacy");
@@ -194,7 +194,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     if (path === "/contact") return staticJsonPage("contact");
     if (path === "/services") return staticJsonPage("services");
     if (path === "/services/custom-sofware-development") {
-      return Response.redirect(`${url.origin}/services/custom-software-development`, 301);
+      return redirectResponse(`${url.origin}/services/custom-software-development`, 301);
     }
     if (path.startsWith("/services/")) {
       return serviceJsonPage(path.replace("/services/", ""));
@@ -206,7 +206,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
       }
       if (appPathParts.length === 2) {
         if (documentationLandingAppSlugs.has(appPathParts[0]) && appPathParts[1] === "overview") {
-          return Response.redirect(`${url.origin}/apps/${appPathParts[0]}`, 301);
+          return redirectResponse(`${url.origin}/apps/${appPathParts[0]}`, 301);
         }
         return appDocumentationJsonPage(appPathParts[0], appPathParts[1]);
       }
@@ -227,7 +227,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
       });
     }
     if (path === "/news/32-language-support-across-the-zx-series") {
-      return Response.redirect(`${url.origin}/news/language-support`, 301);
+      return redirectResponse(`${url.origin}/news/language-support`, 301);
     }
     if (path.startsWith("/news/")) {
       return newsArticleResponse(path.replace("/news/", ""));
@@ -237,13 +237,42 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
   __name(handleRequest, "handleRequest");
   function textResponse(body) {
     return new Response(body, {
-      headers: {
+      headers: securityHeaders({
         "content-type": "text/plain;charset=UTF-8",
         "cache-control": STATIC_CACHE_CONTROL
-      }
+      })
     });
   }
   __name(textResponse, "textResponse");
+  function redirectResponse(location, status = 302) {
+    return new Response(null, {
+      status,
+      headers: securityHeaders({ location })
+    });
+  }
+  __name(redirectResponse, "redirectResponse");
+  function securityHeaders(headers = {}) {
+    const result = new Headers(headers);
+    result.set("referrer-policy", "strict-origin-when-cross-origin");
+    result.set("x-frame-options", "DENY");
+    result.set("x-content-type-options", "nosniff");
+    result.set("content-security-policy", [
+      "default-src 'self'",
+      "base-uri 'self'",
+      "object-src 'none'",
+      "frame-ancestors 'none'",
+      "form-action 'self'",
+      "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://pagead2.googlesyndication.com https://www.googlesyndication.com https://partner.googleadservices.com https://tpc.googlesyndication.com https://securepubads.g.doubleclick.net https://fundingchoicesmessages.google.com",
+      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+      "font-src 'self' https://fonts.gstatic.com data:",
+      "img-src 'self' data: https://raw.githubusercontent.com https://www.google-analytics.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://tpc.googlesyndication.com https://www.googlesyndication.com https://www.google.com",
+      "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://stats.g.doubleclick.net https://pagead2.googlesyndication.com https://googleads.g.doubleclick.net https://fundingchoicesmessages.google.com",
+      "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.googlesyndication.com https://www.google.com https://fundingchoicesmessages.google.com",
+      "upgrade-insecure-requests"
+    ].join("; "));
+    return result;
+  }
+  __name(securityHeaders, "securityHeaders");
   async function pageResponse(title, content, options = {}, status = 200) {
     if (typeof options === "number") {
       status = options;
@@ -252,10 +281,10 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     const site = options.site || await getSite();
     return new Response(layout(title, content, site, options, status), {
       status,
-      headers: {
+      headers: securityHeaders({
         "content-type": "text/html;charset=UTF-8",
         "cache-control": status >= 400 ? "no-store" : HTML_CACHE_CONTROL
-      }
+      })
     });
   }
   __name(pageResponse, "pageResponse");
@@ -420,6 +449,7 @@ nav a:hover { color: var(--bms-link); }
     url("${IMAGE_BASE}/apps/gameofdarts/gameofdarts.png") center/cover no-repeat;
 }
 
+.hero h1,
 .hero h2 {
   font-size: 2.3rem;
   margin-bottom: 1rem;
@@ -463,8 +493,21 @@ main {
 
 section { margin-bottom: 1.5rem; }
 
+h1,
 h2 { color: #f39c12; }
 h3 { color: #ffcc66; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 
 .docs-main h2,
 .docs-main .section-title {
@@ -922,10 +965,11 @@ footer p {
   padding: 1rem;
 }
 
-.cookie-consent h2,
-.cookie-preferences h2 {
+.cookie-heading {
+  display: block;
   color: #ffcc66;
   font-size: 1.15rem;
+  font-weight: 700;
   line-height: 1.25;
   margin: 0 0 0.5rem;
 }
@@ -1008,9 +1052,11 @@ footer p {
   justify-content: space-between;
 }
 
-.cookie-category h3 {
+.cookie-category-heading {
+  display: block;
   color: #f39c12;
   font-size: 1rem;
+  font-weight: 700;
   margin: 0;
 }
 
@@ -1044,6 +1090,7 @@ footer p {
     margin-top: 1rem;
   }
 
+  .hero h1,
   .hero h2 { font-size: 2rem; }
 
   nav {
@@ -1133,7 +1180,7 @@ footer p {
 
 <body>
 <header>
-  <a href="/" class="site-logo">
+  <a href="/" class="site-logo" aria-label="${escapeHtml(siteName)} home">
     ${renderImage({ src: "logos/logo-black-horizontal.png", alt: siteName, loading: "eager", sizes: "240px" })}
   </a>
 
@@ -1165,7 +1212,7 @@ ${renderCookieConsentScript()}
     return `
 <section class="cookie-consent" data-cookie-banner hidden aria-label="Cookie consent">
   <div class="cookie-consent-panel">
-    <h2>Cookie Choices</h2>
+    <p class="cookie-heading">Cookie Choices</p>
     <p>BarkinMad Studios uses essential cookies to remember your choices. Analytics and advertising cookies are optional and only load when you allow them.</p>
     <div class="cookie-actions">
       <button class="cookie-button cookie-button-primary" type="button" data-cookie-accept-all>Accept All</button>
@@ -1177,12 +1224,12 @@ ${renderCookieConsentScript()}
 
 <section class="cookie-preferences" data-cookie-dialog role="dialog" aria-modal="true" aria-labelledby="cookie-preferences-title" hidden>
   <div class="cookie-preferences-panel" tabindex="-1">
-    <h2 id="cookie-preferences-title">Cookie Preferences</h2>
+    <p class="cookie-heading" id="cookie-preferences-title">Cookie Preferences</p>
     <p>Choose which optional cookies BarkinMad Studios may use on this website. Essential cookies are always enabled because they keep the site and your choices working.</p>
 
     <div class="cookie-category">
       <div class="cookie-category-header">
-        <h3>Essential Cookies</h3>
+        <p class="cookie-category-heading">Essential Cookies</p>
         <span class="cookie-toggle">Always Enabled</span>
       </div>
       <p>Required for core website operation and for remembering your cookie preferences.</p>
@@ -1190,7 +1237,7 @@ ${renderCookieConsentScript()}
 
     <div class="cookie-category">
       <div class="cookie-category-header">
-        <h3>Analytics</h3>
+        <p class="cookie-category-heading">Analytics</p>
         <label class="cookie-toggle"><input type="checkbox" data-cookie-toggle="analytics"> Allow</label>
       </div>
       <p>Allows Google Analytics to measure page views and general website usage so the website can be improved.</p>
@@ -1198,7 +1245,7 @@ ${renderCookieConsentScript()}
 
     <div class="cookie-category">
       <div class="cookie-category-header">
-        <h3>Advertising</h3>
+        <p class="cookie-category-heading">Advertising</p>
         <label class="cookie-toggle"><input type="checkbox" data-cookie-toggle="advertising"> Allow</label>
       </div>
       <p>Allows Google AdSense advertising storage, ad user data, and ad personalisation signals where advertising is active.</p>
@@ -1458,10 +1505,10 @@ ${renderCookieConsentScript()}
     }
     if (!response.ok) return new Response("Not Found", {
       status: 404,
-      headers: {
+      headers: securityHeaders({
         "content-type": "text/plain;charset=UTF-8",
         "cache-control": "no-store"
-      }
+      })
     });
     const headers = new Headers(response.headers);
     headers.set("cache-control", IMAGE_CACHE_CONTROL);
@@ -1470,7 +1517,7 @@ ${renderCookieConsentScript()}
     headers.delete("set-cookie");
     return new Response(response.body, {
       status: response.status,
-      headers
+      headers: securityHeaders(headers)
     });
   }
   __name(imageAssetResponse, "imageAssetResponse");
@@ -1561,7 +1608,7 @@ ${renderCookieConsentScript()}
   }
   __name(absoluteSiteUrl, "absoluteSiteUrl");
   function cleanMeta(value, fallback = "") {
-    const text = String(value || fallback || "").replace(/\s+/g, " ").trim();
+    const text = markdownLinksToText(String(value || fallback || "")).replace(/\s+/g, " ").trim();
     return text.length > 180 ? `${text.slice(0, 177).trim()}...` : text;
   }
   __name(cleanMeta, "cleanMeta");
@@ -1950,7 +1997,7 @@ ${renderCookieConsentScript()}
 <section class="hero hero-home"${heroBackgroundStyle(homepage)}>
   ${renderImage({ className: "hero-logo", src: "logos/logo-black-stacked.png", alt: "BarkinMad Studios", loading: "eager", sizes: "120px" })}
 
-  <h2>${escapeHtml(homepage.heading || "Retro Games & Mobile Apps")}</h2>
+  <h1>${escapeHtml(homepage.heading || "Retro Games & Mobile Apps")}</h1>
 
   <p>${renderContentParagraph(homepage.intro || "Retro-inspired arcade games and modern mobile apps for iPhone and iPad.")}</p>
 
@@ -2045,7 +2092,7 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
     const sections = Array.isArray(page.sections) ? page.sections : [];
     return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
-  <h2>${escapeHtml(page.heading || page.title)}</h2>
+  <h1>${escapeHtml(page.heading || page.title)}</h1>
   ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
@@ -2068,7 +2115,7 @@ ${renderPromoSection(page.businessServices)}
     const apps = getNonZxApps(await getApps());
     return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
-  <h2>${escapeHtml(page.heading || page.title)}</h2>
+  <h1>${escapeHtml(page.heading || page.title)}</h1>
   ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
@@ -2092,7 +2139,7 @@ ${renderPromoSection(page.businessServices)}
     const games = await fetchJson(`${DATA_BASE}/games.json`) || {};
     return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
-  <h2>${escapeHtml(page.title)}</h2>
+  <h1>${escapeHtml(page.title)}</h1>
   ${page.description ? `<p>${escapeHtml(page.description)}</p>` : ""}
 </section>
 
@@ -2259,7 +2306,7 @@ ${renderRoadmapSection(content, roadmap)}`;
     const planned = Array.isArray(roadmap.planned) ? roadmap.planned : [];
     if (!live.length && !development.length && !planned.length) return "";
     return `
-<h3>${escapeHtml(labels.roadmapTitle)}</h3>
+<h2>${escapeHtml(labels.roadmapTitle)}</h2>
 ${renderParagraphs(labels.roadmapDescription)}
 ${live.length && labels.roadmapLiveTitle ? `<p><strong>${escapeHtml(labels.roadmapLiveTitle)}:</strong></p><ul>${live.map((item) => `<li>${renderContentParagraph(item)}</li>`).join("")}</ul>` : ""}
 ${development.length && labels.roadmapDevelopmentTitle ? `<p><strong>${escapeHtml(labels.roadmapDevelopmentTitle)}:</strong></p><ul>${development.map((item) => `<li>${renderContentParagraph(item)}</li>`).join("")}</ul>` : ""}
@@ -2591,6 +2638,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
       { label: appTitle, href: `/apps/${appSlug}` },
       { label: title }
     ])}
+    <h1 class="visually-hidden">${escapeHtml(title)}</h1>
     ${renderGuideNavigation(otherDocs, appSlug, detailSlug, landingPageSlug)}
   </div>
 </section>
@@ -2614,6 +2662,7 @@ ${featureShowcases.length ? `
 
 ${strategySections.length ? `
 <section>
+  <h2 class="visually-hidden">Strategy Checklist</h2>
   <div class="strategy-checklist-grid">
     ${strategySections.map((section) => `
       <article class="docs-panel strategy-checklist-card ${isTipsAndStrategyPage ? "strategy-checklist-card-compact" : ""}" id="${escapeHtml(section.id || slugify(section.heading || section.title || ""))}">
@@ -2812,7 +2861,7 @@ ${!isDocumentationImageOnlyPage ? renderFaqSection(page.faq) : ""}
   function renderAppPage(app, relatedApps = []) {
     return `
 <section class="hero hero-retro"${heroBackgroundStyle({ hero: { image: app.heroImage } })}>
-  <h2>${escapeHtml(app.title || app.name)}</h2>
+  <h1>${escapeHtml(app.title || app.name)}</h1>
   <p>${renderContentParagraph(app.tagline || "")}</p>
 </section>
 
@@ -2974,7 +3023,7 @@ ${renderRelatedApps(relatedApps)}
     };
     return `
 <section class="hero hero-retro"${heroBackgroundStyle(service)}>
-  <h2>${escapeHtml(service.heroTitle || service.heading || service.title)}</h2>
+  <h1>${escapeHtml(service.heroTitle || service.heading || service.title)}</h1>
   ${service.heroSubtitle || service.description ? `<p>${renderContentParagraph(service.heroSubtitle || service.description)}</p>` : ""}
 </section>
 
@@ -3140,7 +3189,7 @@ ${renderRelatedApps(relatedApps)}
     const appImageBySlug = portfolioAppImageLookup(apps);
     return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
-  <h2>${escapeHtml(page.heading || page.title || "Portfolio")}</h2>
+  <h1>${escapeHtml(page.heading || page.title || "Portfolio")}</h1>
   ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
@@ -3216,7 +3265,7 @@ ${renderRelatedApps(relatedApps)}
     const actions = Array.isArray(page.actions) ? page.actions : [];
     return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
-  <h2>${escapeHtml(page.heading || page.title)}</h2>
+  <h1>${escapeHtml(page.heading || page.title)}</h1>
   ${page.tagline ? `<p>${renderContentParagraph(page.tagline)}</p>` : ""}
 </section>
 
@@ -3266,7 +3315,7 @@ ${renderRelatedApps(relatedApps)}
     const actions = Array.isArray(page.actions) ? page.actions : [];
     return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
-  <h2>${escapeHtml(page.heading || page.title || "Documentation")}</h2>
+  <h1>${escapeHtml(page.heading || page.title || "Documentation")}</h1>
   ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
@@ -3303,7 +3352,7 @@ ${renderRelatedApps(relatedApps)}
   function renderStaticPage(page) {
     return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
-  <h2>${escapeHtml(page.heading || page.title)}</h2>
+  <h1>${escapeHtml(page.heading || page.title)}</h1>
   ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
@@ -3340,19 +3389,20 @@ ${renderRelatedApps(relatedApps)}
       return `
 <main>
 <section>
-  <h2>News & Devlog</h2>
+  <h1>News & Devlog</h1>
   <div class="card"><p>No news posts are available at the moment.</p></div>
 </section>
 </main>`;
     }
     return `
 <section class="hero hero-retro">
-  <h2>News & Devlog</h2>
+  <h1>News & Devlog</h1>
   <p>Development updates, screenshots, release news, and behind-the-scenes progress from BarkinMad Studios.</p>
 </section>
 
 <main>
 <section>
+  <h2 class="visually-hidden">Latest News Articles</h2>
   <div class="grid">
     ${visiblePosts.map(postCard).join("")}
   </div>
@@ -3407,7 +3457,7 @@ ${renderRelatedApps(relatedApps)}
     const articleActions = Array.isArray(article.actions) ? article.actions : [];
     return `
 <section class="hero hero-retro">
-  <h2>${escapeHtml(article.title)}</h2>
+  <h1>${escapeHtml(article.title)}</h1>
   <p>${formatDate(article.date)}</p>
 </section>
 
@@ -3445,7 +3495,7 @@ ${relatedPosts.length ? `
     const archivedPosts = getPublishedValidPosts(posts).slice(15);
     return `
 <section class="hero hero-retro">
-  <h2>News Archive</h2>
+  <h1>News Archive</h1>
   <p>Older BarkinMad Studios news and development updates.</p>
 </section>
 
@@ -3551,7 +3601,7 @@ ${urls.map((path) => `
   </url>`).join("")}
 </urlset>`;
     return new Response(xml, {
-      headers: { "content-type": "application/xml;charset=UTF-8" }
+      headers: securityHeaders({ "content-type": "application/xml;charset=UTF-8" })
     });
   }
   __name(sitemapResponse, "sitemapResponse");
@@ -3615,7 +3665,7 @@ ${urls.map((path) => `
     return `
 <main>
 <section>
-  <h2>Page Not Found</h2>
+  <h1>Page Not Found</h1>
   <div class="card">
     <p>The page you requested could not be found.</p>
     <a class="btn" href="/">Back To BarkinMad Studios Home</a>
@@ -3628,7 +3678,7 @@ ${urls.map((path) => `
     return `
 <main>
 <section>
-  <h2>Page Error</h2>
+  <h1>Page Error</h1>
   <div class="card">
     <p>This page could not be displayed because its content file is not in the correct format.</p>
     <a class="btn" href="/">Back To BarkinMad Studios Home</a>

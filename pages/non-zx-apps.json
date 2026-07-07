@@ -1,14 +1,14 @@
 {
   "title": "Apps",
-  "seoTitle": "Apps | BarkinMad Studios",
-  "heading": "Apps",
+  "seoTitle": "BarkinMad Studios Apps & Tools",
+  "heading": "Apps & Tools",
   "hero": {
     "image": "/images/otherapps-bg-banner.png",
     "alt": "Collection of productivity, utility and business applications developed by BarkinMad Studios"
   },
   "intro": "BarkinMad Studios apps, tools, and developer products outside the ZX Series.",
   "description": "Explore BarkinMad Studios apps outside the [ZX Series](/zx-series), including mobile apps, developer tools, business utilities, and future non-ZX projects.",
-  "appsTitle": "Apps",
+  "appsTitle": "Apps & Tools",
   "emptyText": "No apps are available at the moment.",
   "lastUpdated": "2026-06-14"
 }
