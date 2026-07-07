@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXSnake Controls",
   "seoTitle": "ZXSnake Controls | BarkinMad Studios",
   "description": "Practical control guidance for building stable movement patterns across all ZXSnake sessions.",
@@ -12,9 +12,9 @@
     }
   ],
   "imageSectionTitle": "Controls Images",
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "contentStatus": "verified",
   "sections": [
     {
@@ -22,6 +22,33 @@
       "heading": "ZXSnake Controls",
       "paragraphs": [
         "Practical control guidance for building stable movement patterns across all ZXSnake sessions."
+      ]
+    }
+  ],
+  "featureShowcases": [
+    {
+      "id": "control-surface",
+      "heading": "ZXSnake controls",
+      "summary": "Controls explain how players interact with ZXSnake during active play.",
+      "body": [
+        "This matters because arcade games depend on quick, predictable input. The page keeps the control explanation focused on what players do during a real session.",
+        "Players use this page to understand movement, input timing, scoring actions, and any device-specific expectations before chasing higher scores."
+      ],
+      "bullets": [
+        "Keeps input guidance close to gameplay.",
+        "Supports both first-time players and returning players.",
+        "Uses current artwork as a placeholder where dedicated control screenshots are missing."
+      ],
+      "image": {
+        "src": "apps/zxsnake/zxsnake-controls.png",
+        "alt": "ZXSnake controls artwork",
+        "caption": "ZXSnake controls artwork supports input and interaction guidance."
+      },
+      "links": [
+        {
+          "label": "View how to play",
+          "href": "/apps/zxsnake/how-to-play"
+        }
       ]
     }
   ]

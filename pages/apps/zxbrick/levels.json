@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXBrick Levels",
   "seoTitle": "ZXBrick Levels | BarkinMad Studios",
   "description": "Learn the structure and goals of ZXBrick's handcrafted level progression, including how each stage unlocks new challenges and reinforces repeatable skill patterns.",
@@ -63,9 +63,9 @@
       "caption": "Active level run"
     }
   ],
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "overview",
     "how-to-play",
@@ -82,5 +82,36 @@
       "href": "/apps/zxbrick/powerups"
     }
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "level-progression",
+      "heading": "Level progression",
+      "summary": "Levels explain how ZXBrick builds challenge as players clear stages and keep the run moving.",
+      "body": [
+        "This matters because level structure gives brick-breaking sessions a sense of pace and escalation.",
+        "Players use this page to understand how levels fit with power-ups, score chasing, and practical strategy."
+      ],
+      "bullets": [
+        "Explains challenge progression.",
+        "Connects levels to power-ups and tips.",
+        "Uses current ZXBrick level artwork as the visual placeholder."
+      ],
+      "image": {
+        "src": "apps/zxbrick/zxbrick-gameplay-01.png",
+        "alt": "ZXBrick level progression artwork",
+        "caption": "Level artwork supports the ZXBrick progression explanation."
+      },
+      "links": [
+        {
+          "label": "View power-ups",
+          "href": "/apps/zxbrick/powerups"
+        },
+        {
+          "label": "View tips",
+          "href": "/apps/zxbrick/tips-and-strategy"
+        }
+      ]
+    }
+  ]
 }

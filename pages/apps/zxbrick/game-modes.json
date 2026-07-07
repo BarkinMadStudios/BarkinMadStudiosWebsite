@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXBrick Game Modes",
   "seoTitle": "ZXBrick Game Modes | BarkinMad Studios",
   "description": "Compare gameplay modes and decide which setup to use for training or scoring sessions.",
@@ -46,14 +46,45 @@
       "answer": "Use a short, low-pressure session for control training and switch to a longer score-focused session once controls feel stable."
     }
   ],
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "keywords": [
     "ZXBrick game modes",
     "single-player",
     "level progression",
     "arcade scores"
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "mode-selection",
+      "heading": "ZXBrick game modes",
+      "summary": "Game Modes explains how ZXBrick structures brick layouts, level progression, power-up decisions, and score chasing.",
+      "body": [
+        "This matters because players need to know what kind of session they are starting and how success is measured.",
+        "Players use this page to choose the right mode for a quick game, a focused practice run, or a score-chasing session."
+      ],
+      "bullets": [
+        "Explains supported play styles.",
+        "Connects mode choice to controls, tips, and leaderboards.",
+        "Keeps App Store-friendly wording focused on gameplay."
+      ],
+      "image": {
+        "src": "apps/zxbrick/zxbrick-hero.png",
+        "alt": "ZXBrick game modes artwork",
+        "caption": "ZXBrick mode artwork supports the game mode explanation."
+      },
+      "links": [
+        {
+          "label": "View tips",
+          "href": "/apps/zxbrick/tips-and-strategy"
+        },
+        {
+          "label": "View leaderboards",
+          "href": "/apps/zxbrick/leaderboards"
+        }
+      ]
+    }
+  ]
 }

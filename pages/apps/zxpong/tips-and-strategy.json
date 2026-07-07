@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXPong Tips & Strategy",
   "seoTitle": "ZXPong Tips & Strategy | BarkinMad Studios",
   "description": "Practical ZXPong tips for steadier paddle movement, cleaner returns, longer rallies, and better Solo or World PVP sessions.",
@@ -46,8 +46,8 @@
   ],
   "imageSectionTitle": "Strategy Images",
   "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "keywords": [
     "ZXPong",
     "strategy",
@@ -62,5 +62,32 @@
     "achievements",
     "leaderboards"
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "practical-improvement",
+      "heading": "ZXPong tips and strategy",
+      "summary": "Tips help players turn the basic ZXPong loop into more consistent play.",
+      "body": [
+        "This matters because improvement is easier when players understand what to watch during a session: timing, positioning, risk, scoring opportunities, and when to reset their approach.",
+        "Players use this page before or after a run to find practical habits they can apply immediately."
+      ],
+      "bullets": [
+        "Focuses on practical player behaviour.",
+        "Connects strategy to game modes and leaderboards.",
+        "Avoids filler by tying advice to real play decisions."
+      ],
+      "image": {
+        "src": "images/shared/placeholder.png",
+        "alt": "ZXPong tips and strategy artwork",
+        "caption": "ZXPong tips artwork supports practical improvement guidance."
+      },
+      "links": [
+        {
+          "label": "View game modes",
+          "href": "/apps/zxpong/game-modes"
+        }
+      ]
+    }
+  ]
 }

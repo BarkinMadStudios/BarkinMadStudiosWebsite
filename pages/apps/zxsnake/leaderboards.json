@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "Leaderboards",
   "seoTitle": "ZXSnake Leaderboards | BarkinMad Studios",
   "description": "How leaderboard ranking is structured and how to use score comparisons effectively.",
@@ -12,9 +12,9 @@
     }
   ],
   "imageSectionTitle": "Leaderboards Images",
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "contentStatus": "verified",
   "sections": [
     {
@@ -22,6 +22,33 @@
       "heading": "Leaderboards",
       "paragraphs": [
         "How leaderboard ranking is structured and how to use score comparisons effectively."
+      ]
+    }
+  ],
+  "featureShowcases": [
+    {
+      "id": "competitive-comparison",
+      "heading": "ZXSnake leaderboards",
+      "summary": "Leaderboards explain how score comparison fits into ZXSnake.",
+      "body": [
+        "This matters because arcade games are built around improvement. Leaderboards give players a clear reason to replay, refine inputs, and chase stronger results.",
+        "Players use this page after play to understand supported comparison surfaces and how leaderboard goals sit beside personal improvement."
+      ],
+      "bullets": [
+        "Connects score chasing to supported comparison.",
+        "Works with achievements and tips.",
+        "Keeps competitive wording clear and public-facing."
+      ],
+      "image": {
+        "src": "apps/zxsnake/zxsnake-leaderboards.png",
+        "alt": "ZXSnake leaderboards artwork",
+        "caption": "ZXSnake leaderboard artwork supports score comparison and replay goals."
+      },
+      "links": [
+        {
+          "label": "View achievements",
+          "href": "/apps/zxsnake/achievements"
+        }
       ]
     }
   ]

@@ -1,12 +1,12 @@
 {
-  "documentationSchemaVersion": "1.1.0",
-  "title": "ZXPong Screenshots",
+  "documentationSchemaVersion": "1.2.0",
+  "title": "ZXPong Visual Walkthrough",
   "seoTitle": "ZXPong Screenshots | BarkinMad Studios",
-  "description": "A ZXPong screenshot gallery using current available gameplay and release artwork, with available gameplay and release imagery.",
+  "description": "ZXPong visual walkthrough pairing current screenshots and artwork with gameplay, progress, and support context.",
   "shortDescription": "ZXPong screenshot gallery",
-  "summary": "A visual reference gallery for ZXPong.",
+  "summary": "ZXPong screenshots and artwork now work as a visual walkthrough, pairing each image with what the screen shows, why it matters, and how players use it.",
   "heroImage": "apps/zxpong/zxpong-gameplay-01.png",
-  "heroImageAlt": "ZXPong gameplay screenshot",
+  "heroImageAlt": "ZXPong visual walkthrough",
   "images": [
     {
       "src": "apps/zxpong/zxpong-gameplay-01.png",
@@ -26,16 +26,16 @@
   ],
   "screenshotSectionTitle": "Screenshots",
   "imageSectionTitle": "Screenshots",
-  "estimatedReadTimeMinutes": 1,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 4,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "sections": [
     {
-      "id": "screenshot-gallery",
-      "heading": "Screenshot Gallery",
+      "id": "visual-walkthrough-standard",
+      "heading": "Visual walkthrough standard",
       "paragraphs": [
-        "This gallery uses the ZXPong images already available in the website repository.",
-        "Additional release screenshots can replace temporary image references elsewhere in the guide when final images are approved."
+        "This page uses Feature Showcase blocks rather than a legacy bottom gallery. Each ZXPong image is paired with what the screen shows, why it matters, and how it fits into the player workflow.",
+        "The current website image set is reused as the public placeholder set until dedicated replacement screenshots are produced."
       ]
     }
   ],
@@ -49,5 +49,73 @@
     "overview",
     "guide"
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "visual-1",
+      "heading": "Core gameplay view",
+      "summary": "This screen shows the main ZXPong play experience and the visual style players see during pong matches.",
+      "body": [
+        "It matters because players should understand what the screen is for, not only see the artwork.",
+        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
+      ],
+      "bullets": [
+        "Shows the current public website image set.",
+        "Pairs the image with practical player context.",
+        "Can be replaced later with dedicated capture artwork without changing the layout."
+      ],
+      "image": {
+        "src": "apps/zxpong/zxpong-gameplay-01.png",
+        "alt": "ZXPong Core gameplay view",
+        "caption": "Core gameplay view for ZXPong."
+      },
+      "links": [
+        {
+          "label": "View overview",
+          "href": "/apps/zxpong"
+        }
+      ]
+    },
+    {
+      "id": "visual-2",
+      "heading": "Player action view",
+      "summary": "This view supports the player workflow during active play, where inputs and timing matter most.",
+      "body": [
+        "It matters because players should understand what the screen is for, not only see the artwork.",
+        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
+      ],
+      "bullets": [
+        "Shows the current public website image set.",
+        "Pairs the image with practical player context.",
+        "Can be replaced later with dedicated capture artwork without changing the layout."
+      ],
+      "image": {
+        "src": "apps/zxpong/zxpong-hero.png",
+        "alt": "ZXPong Player action view",
+        "caption": "Player action view for ZXPong."
+      },
+      "links": [],
+      "layout": "textRight"
+    },
+    {
+      "id": "visual-3",
+      "heading": "Progression view",
+      "summary": "This artwork connects gameplay with goals such as score chasing, achievements, leaderboards, or repeat sessions.",
+      "body": [
+        "It matters because players should understand what the screen is for, not only see the artwork.",
+        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
+      ],
+      "bullets": [
+        "Shows the current public website image set.",
+        "Pairs the image with practical player context.",
+        "Can be replaced later with dedicated capture artwork without changing the layout."
+      ],
+      "image": {
+        "src": "apps/zxpong/zxpong.png",
+        "alt": "ZXPong Progression view",
+        "caption": "Progression view for ZXPong."
+      },
+      "links": []
+    }
+  ]
 }

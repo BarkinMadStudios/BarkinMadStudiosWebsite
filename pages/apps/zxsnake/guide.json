@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXSnake Complete Guide",
   "seoTitle": "ZXSnake Complete Guide | BarkinMad Studios",
   "description": "A full text guide for ZXSnake covering controls, game flow, scoring, progression systems, and practical improvement methods.",
@@ -160,8 +160,8 @@
     }
   ],
   "estimatedReadTimeMinutes": 14,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "keywords": [
     "ZXSnake",
     "ZX Snake",
@@ -186,5 +186,58 @@
     "tips-and-strategy",
     "frequently-asked-questions"
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "complete-guide-route",
+      "heading": "ZXSnake complete guide",
+      "summary": "The Guide connects the full ZXSnake documentation set into one route through setup, play, progress, and support.",
+      "body": [
+        "This matters because the ZX Series pages should feel consistent across all games. The guide helps players move from the overview into the exact page they need without losing context.",
+        "Players use this page as the main map when they want a complete explanation rather than a single topic."
+      ],
+      "bullets": [
+        "Connects setup, controls, modes, tips, achievements, leaderboards, FAQ, and screenshots.",
+        "Keeps the documentation route consistent across ZXSnake, ZXBrick, ZXPong, and ZXSpace.",
+        "Uses existing artwork as the current guide placeholder."
+      ],
+      "image": {
+        "src": "apps/zxsnake/zxsnake-hero.png",
+        "alt": "ZXSnake guide artwork",
+        "caption": "ZXSnake hero artwork represents the full guide route."
+      },
+      "links": [
+        {
+          "label": "View screenshots",
+          "href": "/apps/zxsnake/screenshots"
+        }
+      ]
+    },
+    {
+      "id": "from-play-to-progress",
+      "heading": "From play to progress",
+      "summary": "ZXSnake documentation explains what players do during a session and what they can review afterward.",
+      "body": [
+        "This matters because arcade games are easy to start but deeper when players understand scoring, progress, and goals.",
+        "Players use the guide to connect active play with achievements, leaderboards, BarkinMad Coins, and support pages."
+      ],
+      "bullets": [
+        "Supports both first-session learning and repeat play.",
+        "Keeps progression pages tied to gameplay.",
+        "Makes image presentation consistent with StudioDash and Game of Darts pages."
+      ],
+      "image": {
+        "src": "apps/zxsnake/zxsnake-gameplay-02.png",
+        "alt": "ZXSnake gameplay and progress artwork",
+        "caption": "ZXSnake supporting artwork connects gameplay with progress surfaces."
+      },
+      "links": [
+        {
+          "label": "View overview",
+          "href": "/apps/zxsnake"
+        }
+      ],
+      "layout": "textRight"
+    }
+  ]
 }

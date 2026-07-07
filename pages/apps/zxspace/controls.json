@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXSpace Controls",
   "seoTitle": "ZXSpace Controls | BarkinMad Studios",
   "description": "Understand ZXSpace touch-and-drag cannon movement, continuous auto-fire, horizontal positioning, and practical aiming habits.",
@@ -57,9 +57,9 @@
     }
   ],
   "imageSectionTitle": "Controls Images",
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "keywords": [
     "ZXSpace",
     "controls",
@@ -72,5 +72,32 @@
     "game-modes",
     "tips-and-strategy"
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "control-surface",
+      "heading": "ZXSpace controls",
+      "summary": "Controls explain how players interact with ZXSpace during active play.",
+      "body": [
+        "This matters because arcade games depend on quick, predictable input. The page keeps the control explanation focused on what players do during a real session.",
+        "Players use this page to understand movement, input timing, scoring actions, and any device-specific expectations before chasing higher scores."
+      ],
+      "bullets": [
+        "Keeps input guidance close to gameplay.",
+        "Supports both first-time players and returning players.",
+        "Uses current artwork as a placeholder where dedicated control screenshots are missing."
+      ],
+      "image": {
+        "src": "images/shared/placeholder.png",
+        "alt": "ZXSpace controls artwork",
+        "caption": "ZXSpace controls artwork supports input and interaction guidance."
+      },
+      "links": [
+        {
+          "label": "View how to play",
+          "href": "/apps/zxspace/how-to-play"
+        }
+      ]
+    }
+  ]
 }

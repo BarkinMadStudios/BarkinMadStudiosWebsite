@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXBrick Leaderboards",
   "seoTitle": "ZXBrick Leaderboards | BarkinMad Studios",
   "description": "How to use the ZXBrick leaderboard flow to compare scores, track sessions, and improve play quality over repeated short games.",
@@ -49,13 +49,40 @@
       "answer": "The current published category is highest score."
     }
   ],
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "keywords": [
     "ZXBrick leaderboard",
     "highest score",
     "score comparison"
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "competitive-comparison",
+      "heading": "ZXBrick leaderboards",
+      "summary": "Leaderboards explain how score comparison fits into ZXBrick.",
+      "body": [
+        "This matters because arcade games are built around improvement. Leaderboards give players a clear reason to replay, refine inputs, and chase stronger results.",
+        "Players use this page after play to understand supported comparison surfaces and how leaderboard goals sit beside personal improvement."
+      ],
+      "bullets": [
+        "Connects score chasing to supported comparison.",
+        "Works with achievements and tips.",
+        "Keeps competitive wording clear and public-facing."
+      ],
+      "image": {
+        "src": "apps/zxbrick/zxbrick-hero.png",
+        "alt": "ZXBrick leaderboards artwork",
+        "caption": "ZXBrick leaderboard artwork supports score comparison and replay goals."
+      },
+      "links": [
+        {
+          "label": "View achievements",
+          "href": "/apps/zxbrick/achievements"
+        }
+      ]
+    }
+  ]
 }

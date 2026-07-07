@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXSpace Game Modes",
   "seoTitle": "ZXSpace Game Modes | BarkinMad Studios",
   "description": "Understand the verified ZXSpace solo city-defence mode and the current status of multiplayer menu availability.",
@@ -41,8 +41,8 @@
   ],
   "imageSectionTitle": "Game Modes Images",
   "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "keywords": [
     "ZXSpace",
     "game modes",
@@ -62,5 +62,36 @@
       "answer": "No. The verified documentation focuses on Solo play. Multiplayer availability will be confirmed as new release details are finalised."
     }
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "mode-selection",
+      "heading": "ZXSpace game modes",
+      "summary": "Game Modes explains how ZXSpace structures alien waves, cannon movement, city defence, and survival pressure.",
+      "body": [
+        "This matters because players need to know what kind of session they are starting and how success is measured.",
+        "Players use this page to choose the right mode for a quick game, a focused practice run, or a score-chasing session."
+      ],
+      "bullets": [
+        "Explains supported play styles.",
+        "Connects mode choice to controls, tips, and leaderboards.",
+        "Keeps App Store-friendly wording focused on gameplay."
+      ],
+      "image": {
+        "src": "images/shared/placeholder.png",
+        "alt": "ZXSpace game modes artwork",
+        "caption": "ZXSpace mode artwork supports the game mode explanation."
+      },
+      "links": [
+        {
+          "label": "View tips",
+          "href": "/apps/zxspace/tips-and-strategy"
+        },
+        {
+          "label": "View leaderboards",
+          "href": "/apps/zxspace/leaderboards"
+        }
+      ]
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXSpace Achievements",
   "seoTitle": "ZXSpace Achievements | BarkinMad Studios",
   "description": "Review known ZXSpace Game Center achievement milestones for repeat play and plan progress around supported play-count goals.",
@@ -38,9 +38,9 @@
     }
   ],
   "imageSectionTitle": "Achievement Images",
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "keywords": [
     "ZXSpace",
     "achievements",
@@ -53,5 +53,32 @@
     "tips-and-strategy",
     "barkinmad-coins"
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "achievement-goals",
+      "heading": "ZXSpace achievements",
+      "summary": "Achievements give ZXSpace players optional goals beyond a single run or match.",
+      "body": [
+        "This matters because players often want a reason to revisit the game after learning the basics. Achievement goals add structure without changing the core arcade loop.",
+        "Players use this page after playing to understand which progress surfaces are supported and how achievements relate to regular sessions."
+      ],
+      "bullets": [
+        "Connects repeat play to optional goals.",
+        "Keeps achievement wording tied to supported game behaviour.",
+        "Pairs naturally with leaderboards and tips."
+      ],
+      "image": {
+        "src": "images/shared/placeholder.png",
+        "alt": "ZXSpace achievements artwork",
+        "caption": "ZXSpace achievement artwork supports optional progression goals."
+      },
+      "links": [
+        {
+          "label": "View leaderboards",
+          "href": "/apps/zxspace/leaderboards"
+        }
+      ]
+    }
+  ]
 }

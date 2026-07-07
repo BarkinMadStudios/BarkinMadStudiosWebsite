@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "Frequently Asked Questions",
   "seoTitle": "ZXSpace FAQ | BarkinMad Studios",
   "description": "Answers to common ZXSpace questions about release status, controls, solo play, coins, power-ups, achievements, and leaderboards.",
@@ -46,9 +46,9 @@
     }
   ],
   "imageSectionTitle": "FAQ Images",
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "keywords": [
     "ZXSpace",
     "FAQ",
@@ -62,5 +62,32 @@
     "barkinmad-coins",
     "leaderboards"
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "quick-answers",
+      "heading": "ZXSpace quick answers",
+      "summary": "The FAQ gives players short answers about ZXSpace features, progression, support, and current documentation status.",
+      "body": [
+        "This matters because players often arrive with one specific question. The page should answer quickly and then point them to the deeper guide when needed.",
+        "Players use this page when they need support context without reading every guide page."
+      ],
+      "bullets": [
+        "Provides concise support answers.",
+        "Links common questions back to the guide.",
+        "Keeps public wording clear and release-safe."
+      ],
+      "image": {
+        "src": "images/shared/placeholder.png",
+        "alt": "ZXSpace FAQ artwork",
+        "caption": "ZXSpace FAQ artwork supports support and quick-answer context."
+      },
+      "links": [
+        {
+          "label": "View guide",
+          "href": "/apps/zxspace/guide"
+        }
+      ]
+    }
+  ]
 }

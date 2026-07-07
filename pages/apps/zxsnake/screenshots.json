@@ -1,12 +1,12 @@
 {
-  "documentationSchemaVersion": "1.1.0",
-  "title": "Screenshots",
+  "documentationSchemaVersion": "1.2.0",
+  "title": "ZXSnake Visual Walkthrough",
   "seoTitle": "ZXSnake Screenshots | BarkinMad Studios",
-  "description": "A curated gallery of ZXSnake gameplay and interface screenshots with a focus on movement, progression, and leaderboard moments.",
+  "description": "ZXSnake visual walkthrough pairing current screenshots and artwork with gameplay, progress, and support context.",
   "shortDescription": "ZXSnake screenshot gallery",
-  "summary": "A screenshot gallery for ZXSnake.",
+  "summary": "ZXSnake screenshots and artwork now work as a visual walkthrough, pairing each image with what the screen shows, why it matters, and how players use it.",
   "heroImage": "apps/zxsnake/zxsnake-gameplay-01.png",
-  "heroImageAlt": "ZXSnake gameplay screenshot",
+  "heroImageAlt": "ZXSnake visual walkthrough",
   "images": [
     {
       "src": "apps/zxsnake/zxsnake-gameplay-01.png",
@@ -23,18 +23,86 @@
   ],
   "screenshotSectionTitle": "Screenshots",
   "imageSectionTitle": "Screenshots",
-  "estimatedReadTimeMinutes": 1,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 4,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "sections": [
     {
-      "id": "screenshot-gallery",
-      "heading": "Screenshot Gallery",
+      "id": "visual-walkthrough-standard",
+      "heading": "Visual walkthrough standard",
       "paragraphs": [
-        "A quick gallery showing gameplay, movement flow, and UI states in ZXSnake.",
-        "Use this as a visual reference while testing new modes or checking visual style continuity across sessions."
+        "This page uses Feature Showcase blocks rather than a legacy bottom gallery. Each ZXSnake image is paired with what the screen shows, why it matters, and how it fits into the player workflow.",
+        "The current website image set is reused as the public placeholder set until dedicated replacement screenshots are produced."
       ]
     }
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "visual-1",
+      "heading": "Core gameplay view",
+      "summary": "This screen shows the main ZXSnake play experience and the visual style players see during snake survival runs.",
+      "body": [
+        "It matters because players should understand what the screen is for, not only see the artwork.",
+        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
+      ],
+      "bullets": [
+        "Shows the current public website image set.",
+        "Pairs the image with practical player context.",
+        "Can be replaced later with dedicated capture artwork without changing the layout."
+      ],
+      "image": {
+        "src": "apps/zxsnake/zxsnake-gameplay-01.png",
+        "alt": "ZXSnake Core gameplay view",
+        "caption": "Core gameplay view for ZXSnake."
+      },
+      "links": [
+        {
+          "label": "View overview",
+          "href": "/apps/zxsnake"
+        }
+      ]
+    },
+    {
+      "id": "visual-2",
+      "heading": "Player action view",
+      "summary": "This view supports the player workflow during active play, where inputs and timing matter most.",
+      "body": [
+        "It matters because players should understand what the screen is for, not only see the artwork.",
+        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
+      ],
+      "bullets": [
+        "Shows the current public website image set.",
+        "Pairs the image with practical player context.",
+        "Can be replaced later with dedicated capture artwork without changing the layout."
+      ],
+      "image": {
+        "src": "apps/zxsnake/zxsnake-gameplay-02.png",
+        "alt": "ZXSnake Player action view",
+        "caption": "Player action view for ZXSnake."
+      },
+      "links": [],
+      "layout": "textRight"
+    },
+    {
+      "id": "visual-3",
+      "heading": "Progression view",
+      "summary": "This artwork connects gameplay with goals such as score chasing, achievements, leaderboards, or repeat sessions.",
+      "body": [
+        "It matters because players should understand what the screen is for, not only see the artwork.",
+        "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
+      ],
+      "bullets": [
+        "Shows the current public website image set.",
+        "Pairs the image with practical player context.",
+        "Can be replaced later with dedicated capture artwork without changing the layout."
+      ],
+      "image": {
+        "src": "apps/zxsnake/zxsnake-gameplay-03.png",
+        "alt": "ZXSnake Progression view",
+        "caption": "Progression view for ZXSnake."
+      },
+      "links": []
+    }
+  ]
 }

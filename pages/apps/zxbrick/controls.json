@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXBrick Controls",
   "seoTitle": "ZXBrick Controls | BarkinMad Studios",
   "description": "Understand the control rhythm and input expectations for ZXBrick sessions, including touch timing, paddle movement precision, launch consistency, and session pause behavior.",
@@ -45,13 +45,40 @@
       "href": "/apps/zxbrick/tips-and-strategy"
     }
   ],
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "keywords": [
     "ZXBrick controls",
     "arcade controls",
     "iPhone"
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "control-surface",
+      "heading": "ZXBrick controls",
+      "summary": "Controls explain how players interact with ZXBrick during active play.",
+      "body": [
+        "This matters because arcade games depend on quick, predictable input. The page keeps the control explanation focused on what players do during a real session.",
+        "Players use this page to understand movement, input timing, scoring actions, and any device-specific expectations before chasing higher scores."
+      ],
+      "bullets": [
+        "Keeps input guidance close to gameplay.",
+        "Supports both first-time players and returning players.",
+        "Uses current artwork as a placeholder where dedicated control screenshots are missing."
+      ],
+      "image": {
+        "src": "apps/zxbrick/zxbrick-hero.png",
+        "alt": "ZXBrick controls artwork",
+        "caption": "ZXBrick controls artwork supports input and interaction guidance."
+      },
+      "links": [
+        {
+          "label": "View how to play",
+          "href": "/apps/zxbrick/how-to-play"
+        }
+      ]
+    }
+  ]
 }

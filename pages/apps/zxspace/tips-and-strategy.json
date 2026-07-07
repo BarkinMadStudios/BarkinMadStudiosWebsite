@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXSpace Tips & Strategy",
   "seoTitle": "ZXSpace Tips & Strategy | BarkinMad Studios",
   "description": "Practical ZXSpace tips for steadier cannon movement, shield preservation, UFO timing, power-up use, and higher scores.",
@@ -46,8 +46,8 @@
   ],
   "imageSectionTitle": "Strategy Images",
   "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "keywords": [
     "ZXSpace",
     "strategy",
@@ -63,5 +63,32 @@
     "achievements",
     "leaderboards"
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "practical-improvement",
+      "heading": "ZXSpace tips and strategy",
+      "summary": "Tips help players turn the basic ZXSpace loop into more consistent play.",
+      "body": [
+        "This matters because improvement is easier when players understand what to watch during a session: timing, positioning, risk, scoring opportunities, and when to reset their approach.",
+        "Players use this page before or after a run to find practical habits they can apply immediately."
+      ],
+      "bullets": [
+        "Focuses on practical player behaviour.",
+        "Connects strategy to game modes and leaderboards.",
+        "Avoids filler by tying advice to real play decisions."
+      ],
+      "image": {
+        "src": "images/shared/placeholder.png",
+        "alt": "ZXSpace tips and strategy artwork",
+        "caption": "ZXSpace tips artwork supports practical improvement guidance."
+      },
+      "links": [
+        {
+          "label": "View game modes",
+          "href": "/apps/zxspace/game-modes"
+        }
+      ]
+    }
+  ]
 }

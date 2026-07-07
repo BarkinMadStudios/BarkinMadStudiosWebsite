@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "How to Play ZXBrick",
   "seoTitle": "How to Play ZXBrick | BarkinMad Studios",
   "description": "Learn the core objective and flow for every ZXBrick session, from launch and setup through level progression and scoring strategy for strong short-replay sessions.",
@@ -60,8 +60,8 @@
     }
   ],
   "estimatedReadTimeMinutes": 4,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "controls",
     "tips-and-strategy",
@@ -85,5 +85,36 @@
       "href": "/apps/zxbrick/leaderboards"
     }
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "first-session-flow",
+      "heading": "Start playing ZXBrick",
+      "summary": "This page explains the first-session flow for ZXBrick: understand the objective, start a run or match, and learn how progress is measured.",
+      "body": [
+        "This matters because a player should be able to move from reading the page into playing without needing hidden instructions.",
+        "Players use it when they are new to the app, returning after time away, or checking the expected flow before a session."
+      ],
+      "bullets": [
+        "Explains the route from setup into play.",
+        "Connects controls, modes, and progress surfaces.",
+        "Keeps beginner guidance practical and public-facing."
+      ],
+      "image": {
+        "src": "apps/zxbrick/zxbrick-how-to-play.png",
+        "alt": "ZXBrick how to play screen",
+        "caption": "ZXBrick how-to-play artwork shows the player flow into gameplay."
+      },
+      "links": [
+        {
+          "label": "View controls",
+          "href": "/apps/zxbrick/controls"
+        },
+        {
+          "label": "View game modes",
+          "href": "/apps/zxbrick/game-modes"
+        }
+      ]
+    }
+  ]
 }

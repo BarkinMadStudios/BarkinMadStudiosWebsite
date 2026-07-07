@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXPong Overview",
   "seoTitle": "ZXPong Overview | BarkinMad Studios",
   "description": "A practical introduction to ZXPong, the core paddle-and-ball loop, release-facing modes, and ZX Series support systems.",
@@ -75,9 +75,9 @@
     "BarkinMad Coins",
     "Game Center"
   ],
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-07-06",
-  "lastVerified": "2026-07-06",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "how-to-play",
     "controls",
@@ -102,5 +102,58 @@
       "href": "/zx-series"
     }
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "arcade-overview",
+      "heading": "ZXPong at a glance",
+      "summary": "Overview introduces ZXPong as a ZX Series pong arcade game.",
+      "body": [
+        "This screen matters because it gives players the quickest route from discovering the game to understanding how it plays. ZXPong is presented around pong matches, so players can see the core loop before reading deeper guides.",
+        "Players use this page to decide where to go next: setup, controls, game modes, progression, screenshots, or support topics."
+      ],
+      "bullets": [
+        "Summarises the core arcade loop.",
+        "Links the app landing route to the documentation set.",
+        "Keeps public wording focused on player experience and supported features."
+      ],
+      "image": {
+        "src": "apps/zxpong/zxpong-gameplay-01.png",
+        "alt": "ZXPong gameplay overview",
+        "caption": "ZXPong gameplay artwork introduces the app and its core loop."
+      },
+      "links": [
+        {
+          "label": "View how to play",
+          "href": "/apps/zxpong/how-to-play"
+        }
+      ]
+    },
+    {
+      "id": "progression-and-support",
+      "heading": "Progression and support surfaces",
+      "summary": "ZXPong documentation connects gameplay with leaderboards, achievements, BarkinMad Coins, tips, FAQ, and screenshots.",
+      "body": [
+        "This matters because ZX Series pages are not only image galleries. They should explain how the player moves from learning the game into repeated play and progress tracking.",
+        "Players use these supporting pages after the first session to understand goals, scoring surfaces, unlocks, and practical tips."
+      ],
+      "bullets": [
+        "Connects gameplay to progression and support pages.",
+        "Keeps route structure consistent across the ZX Series.",
+        "Uses existing artwork as placeholders where page-specific screenshots are not available."
+      ],
+      "image": {
+        "src": "apps/zxpong/zxpong-hero.png",
+        "alt": "ZXPong supporting gameplay screen",
+        "caption": "ZXPong supporting artwork is used for progression and documentation context."
+      },
+      "links": [
+        {
+          "label": "View screenshots",
+          "href": "/apps/zxpong/screenshots"
+        }
+      ],
+      "layout": "textRight"
+    }
+  ]
 }

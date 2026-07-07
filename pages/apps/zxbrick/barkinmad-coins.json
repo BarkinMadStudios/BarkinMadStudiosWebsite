@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "BarkinMad Coins in ZXBrick",
   "seoTitle": "BarkinMad Coins | ZXBrick | BarkinMad Studios",
   "description": "How shared BarkinMad Coins behavior is represented in ZXBrick, where gameplay rewards support unlock progression and shared cross-title rewards inside the ZX Series ecosystem.",
@@ -48,13 +48,40 @@
       "answer": "BarkinMad Coins are documented as in-app progression currency and have no cash value."
     }
   ],
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "keywords": [
     "BarkinMad Coins",
     "ZX Series wallet",
     "progression"
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "coins-and-unlocks",
+      "heading": "BarkinMad Coins support",
+      "summary": "BarkinMad Coins explain the shared ZX Series progression and unlock context for ZXBrick.",
+      "body": [
+        "This matters because players should understand optional progression and unlock language without confusing it with the core game rules.",
+        "Players use this page when they want to understand coins, rewards, supported unlocks, or shared ZX Series account behaviour."
+      ],
+      "bullets": [
+        "Keeps shared economy wording consistent across ZX Series games.",
+        "Separates optional progression from core gameplay.",
+        "Uses the shared BarkinMad Coins artwork for consistent presentation."
+      ],
+      "image": {
+        "src": "apps/barkinmadcoins.png",
+        "alt": "BarkinMad Coins artwork for ZXBrick",
+        "caption": "Shared BarkinMad Coins artwork supports consistent ZX Series progression wording."
+      },
+      "links": [
+        {
+          "label": "View FAQ",
+          "href": "/apps/zxbrick/frequently-asked-questions"
+        }
+      ]
+    }
+  ]
 }

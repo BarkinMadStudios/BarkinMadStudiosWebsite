@@ -1,5 +1,5 @@
 {
-  "documentationSchemaVersion": "1.1.0",
+  "documentationSchemaVersion": "1.2.0",
   "title": "ZXBrick Power-Ups",
   "seoTitle": "ZXBrick Power-Ups | BarkinMad Studios",
   "description": "A practical guide to ZXBrick power-up examples, when to use them, and how they change pacing, risk, and scoring opportunities during gameplay.",
@@ -74,9 +74,9 @@
       "caption": "Wide Paddle"
     }
   ],
-  "estimatedReadTimeMinutes": 2,
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "estimatedReadTimeMinutes": 3,
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "how-to-play",
     "game-modes",
@@ -99,5 +99,36 @@
       "answer": "Power-ups are intended as gameplay tools within sessions and are part of the replay planning loop, alongside level progression and achievements."
     }
   ],
-  "contentStatus": "verified"
+  "contentStatus": "verified",
+  "featureShowcases": [
+    {
+      "id": "powerup-decisions",
+      "heading": "Power-up decisions",
+      "summary": "Power-Ups explain how temporary effects change the rhythm and risk of a ZXBrick run.",
+      "body": [
+        "This matters because power-ups are only useful when players understand what they do and when to chase or avoid them.",
+        "Players use this page to connect power-up behaviour with paddle control, level goals, and score chasing."
+      ],
+      "bullets": [
+        "Explains moment-to-moment power-up choices.",
+        "Connects power-ups with levels and strategy.",
+        "Uses current ZXBrick power-up artwork as visual placeholders."
+      ],
+      "image": {
+        "src": "apps/zxbrick/zxbrick-powerup-berserker.png",
+        "alt": "ZXBrick power-up artwork",
+        "caption": "Power-up artwork supports the ZXBrick gameplay decision flow."
+      },
+      "links": [
+        {
+          "label": "View levels",
+          "href": "/apps/zxbrick/levels"
+        },
+        {
+          "label": "View tips",
+          "href": "/apps/zxbrick/tips-and-strategy"
+        }
+      ]
+    }
+  ]
 }
