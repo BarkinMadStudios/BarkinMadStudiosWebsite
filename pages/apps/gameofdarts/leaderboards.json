@@ -38,14 +38,71 @@
     "X01",
     "Cricket"
   ],
-  "estimatedReadTimeMinutes": 3,
+  "estimatedReadTimeMinutes": 4,
   "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "statistics",
     "achievements",
     "settings-customisation"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.2.0",
+  "featureShowcases": [
+    {
+      "id": "compare-scores",
+      "heading": "Compare scores through Game Center",
+      "summary": "Leaderboards help players compare supported results after matches, from X01 scores to selected mode-specific challenges.",
+      "body": [
+        "This matters because many players want a target after the match ends. Leaderboards make strong scores and personal bests part of the ongoing Game of Darts loop.",
+        "Players use this screen after signing in to Game Center, completing supported games, and posting eligible results."
+      ],
+      "bullets": [
+        "Supports Game Center comparison for selected modes and scoring categories.",
+        "Gives competitive players a reason to revisit formats.",
+        "Pairs with statistics and achievements after play."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+        "alt": "Game of Darts leaderboard screen screenshot",
+        "caption": "The leaderboard screenshot shows the competitive follow-up after supported matches."
+      },
+      "links": [
+        {
+          "label": "View statistics",
+          "href": "/apps/gameofdarts/statistics"
+        }
+      ]
+    },
+    {
+      "id": "leaderboard-settings",
+      "heading": "Control how scores are posted",
+      "layout": "textRight",
+      "summary": "Leaderboard behaviour connects back to settings, where players can manage auto-posting preferences where supported.",
+      "body": [
+        "This matters because players should understand when their scores are shared through Game Center. Settings keep leaderboard behaviour transparent and adjustable.",
+        "Players use settings to control supported posting behaviour, then return to leaderboards to compare eligible results."
+      ],
+      "bullets": [
+        "Requires Game Center sign-in.",
+        "Supports player control through settings.",
+        "Keeps comparison separate from local score entry."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-leaderboards.png",
+        "alt": "Game of Darts leaderboards artwork",
+        "caption": "Leaderboards artwork is used as a supporting placeholder for Game Center comparison."
+      },
+      "links": [
+        {
+          "label": "View settings",
+          "href": "/apps/gameofdarts/settings-customisation"
+        },
+        {
+          "label": "View achievements",
+          "href": "/apps/gameofdarts/achievements"
+        }
+      ]
+    }
+  ]
 }

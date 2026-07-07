@@ -240,10 +240,10 @@
     "DartBot",
     "statistics"
   ],
-  "estimatedReadTimeMinutes": 12,
+  "estimatedReadTimeMinutes": 13,
   "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "getting-started",
     "game-modes",
@@ -254,5 +254,87 @@
     "barkinmad-coins",
     "frequently-asked-questions"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.2.0",
+  "featureShowcases": [
+    {
+      "id": "guide-route-through-play",
+      "heading": "A guide route through a full session",
+      "summary": "The guide connects setup, players, scoring, rules, online/offline behaviour, ads and unlocks, Game Center, and statistics into one player route.",
+      "body": [
+        "This matters because Game of Darts covers more than one screen. Players may arrive with a specific question about setup, a ruleset, DartBot, statistics, or Game Center, and the guide gives them a path through the app without guessing.",
+        "Players use this page as the main map when they want a complete explanation rather than a single topic page."
+      ],
+      "bullets": [
+        "Starts with player setup and match creation.",
+        "Explains supported game modes and scoring rules.",
+        "Links results, leaderboards, achievements, privacy, and premium access."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-hero.png",
+        "alt": "Game of Darts hero artwork for the full guide",
+        "caption": "Hero artwork represents the full guide route across setup, play, and progress."
+      },
+      "links": [
+        {
+          "label": "View getting started",
+          "href": "/apps/gameofdarts/how-to-play"
+        }
+      ]
+    },
+    {
+      "id": "rules-and-match-flow",
+      "heading": "Rules and match flow in one place",
+      "layout": "textRight",
+      "summary": "The guide covers Match Darts, Cricket, Snooker Darts, Bob's 27, 1 to 20, Hare & Hound, Halve It, All 5s, and other included rule sets.",
+      "body": [
+        "This matters because players often switch between familiar and less familiar formats. Having rules and workflow notes in one place reduces friction before the next game starts.",
+        "Players use this part of the guide before starting a new format or when they need a quick reminder of how scoring works."
+      ],
+      "bullets": [
+        "Keeps supported rules public-facing and easy to scan.",
+        "Explains what players need before they start a match.",
+        "Connects rules to setup, keyboard shortcuts, and score entry."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-match-types.png",
+        "alt": "Game of Darts match types artwork for rules and match flow",
+        "caption": "Match type artwork is used as the guide placeholder for supported rules and formats."
+      },
+      "links": [
+        {
+          "label": "View match types",
+          "href": "/apps/gameofdarts/match-types"
+        }
+      ]
+    },
+    {
+      "id": "progress-and-supporting-screens",
+      "heading": "Progress, support, and follow-up screens",
+      "summary": "After scoring, the guide points players toward statistics, leaderboards, achievements, DartBot practice, premium access, and privacy notes.",
+      "body": [
+        "This matters because players need different information after a game than before it. Results, goals, settings, and unlocks are supporting screens that help players decide what to do next.",
+        "Players use these sections when they want to review performance, compare scores, change settings, or understand optional access routes."
+      ],
+      "bullets": [
+        "Links results and improvement to statistics.",
+        "Explains Game Center leaderboards and achievements.",
+        "Keeps premium access and privacy wording clear and public-facing."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+        "alt": "Game of Darts leaderboards screenshot used for guide progress context",
+        "caption": "Leaderboards are reused as the current placeholder for post-match progress and support screens."
+      },
+      "links": [
+        {
+          "label": "View statistics",
+          "href": "/apps/gameofdarts/statistics"
+        },
+        {
+          "label": "View leaderboards",
+          "href": "/apps/gameofdarts/leaderboards"
+        }
+      ]
+    }
+  ]
 }

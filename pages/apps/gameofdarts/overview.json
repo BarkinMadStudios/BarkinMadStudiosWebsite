@@ -73,10 +73,10 @@
     "iPad",
     "DartBot"
   ],
-  "estimatedReadTimeMinutes": 2,
+  "estimatedReadTimeMinutes": 4,
   "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "how-to-play",
     "game-modes",
@@ -84,5 +84,62 @@
     "statistics",
     "guide"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.2.0",
+  "featureShowcases": [
+    {
+      "id": "session-start",
+      "heading": "Start a darts session quickly",
+      "summary": "The overview introduces Game of Darts as a practical scoring companion for real match nights, casual games, and practice sessions.",
+      "body": [
+        "The screen shown here represents the route from opening the app into choosing players and a game format. That matters because a scoring app should stay out of the way once players are ready to throw.",
+        "Players use this flow to move from launch into Match, Cricket, Snooker, Bob's 27, 1 to 20, or another supported format without needing a paper scoreboard."
+      ],
+      "bullets": [
+        "Supports iPhone and iPad scoring sessions.",
+        "Covers casual play, practice, and competitive formats.",
+        "Leads into player setup, scoring, results, and progress tracking."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+        "alt": "Game of Darts main setup screen showing the start of a session",
+        "caption": "The main setup screen is the practical starting point for most player sessions."
+      },
+      "links": [
+        {
+          "label": "View getting started",
+          "href": "/apps/gameofdarts/how-to-play"
+        }
+      ]
+    },
+    {
+      "id": "progress-after-play",
+      "heading": "Turn matches into progress",
+      "layout": "textRight",
+      "summary": "Game of Darts links scoring with statistics, leaderboards, achievements, DartBot, and settings so players can keep improving over time.",
+      "body": [
+        "This matters because the app is not only a scoreboard. Completed games can feed player statistics, Game Center comparison, achievements, and the next practice plan.",
+        "Players use the supporting screens after a match to review performance, compare scores, adjust settings, or choose a tougher DartBot challenge."
+      ],
+      "bullets": [
+        "Statistics help players understand scoring and consistency.",
+        "Leaderboards and achievements add optional Game Center goals.",
+        "DartBot and settings help tailor practice to the player."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+        "alt": "Game of Darts leaderboard screen used after play",
+        "caption": "Progress screens give players somewhere to go after the final dart."
+      },
+      "links": [
+        {
+          "label": "View statistics",
+          "href": "/apps/gameofdarts/statistics"
+        },
+        {
+          "label": "View DartBot",
+          "href": "/apps/gameofdarts/dartbot"
+        }
+      ]
+    }
+  ]
 }

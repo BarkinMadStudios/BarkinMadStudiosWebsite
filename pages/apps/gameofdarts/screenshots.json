@@ -1,11 +1,11 @@
 {
-  "title": "Game of Darts Screenshots",
+  "title": "Game of Darts Visual Walkthrough",
   "seoTitle": "Game of Darts Screenshots | BarkinMad Studios",
-  "description": "Game of Darts artwork and screenshot references using the image assets currently available in the website repository.",
-  "shortDescription": "Game of Darts screenshot gallery",
-  "summary": "A visual reference gallery for Game of Darts using available website artwork.",
+  "description": "A visual walkthrough of Game of Darts screens, showing setup, match flow, settings, premium access, help, and leaderboards.",
+  "shortDescription": "Game of Darts visual walkthrough",
+  "summary": "Game of Darts screenshots now work as a visual walkthrough, pairing each current image with what the screen shows, why it matters, and how players use it.",
   "heroImage": "apps/gameofdarts/gameofdarts.png",
-  "heroImageAlt": "Game of Darts app artwork",
+  "heroImageAlt": "Game of Darts visual walkthrough",
   "imageMetadata": [
     {
       "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
@@ -90,11 +90,11 @@
   "imageSectionTitle": "Screenshots",
   "sections": [
     {
-      "id": "screenshot-gallery",
-      "heading": "Screenshot Gallery",
+      "id": "visual-walkthrough-standard",
+      "heading": "Visual walkthrough standard",
       "paragraphs": [
-        "This gallery uses the Game of Darts images already available in the website repository.",
-        "Additional gameplay screenshots will be added as new capture sets are made available."
+        "This page uses Feature Showcase blocks rather than a legacy bottom gallery. Each screenshot explains what players are looking at, why the screen matters, and how it fits into a typical Game of Darts session.",
+        "The current website image set is reused as the public placeholder set until dedicated replacement screenshots are produced."
       ]
     }
   ],
@@ -103,13 +103,180 @@
     "screenshots",
     "artwork"
   ],
-  "estimatedReadTimeMinutes": 1,
+  "estimatedReadTimeMinutes": 4,
   "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "overview",
     "guide"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.2.0",
+  "featureShowcases": [
+    {
+      "id": "opening-setup",
+      "heading": "Opening and setup flow",
+      "summary": "The opening screen introduces Game of Darts before players move into setup, player selection, and match configuration.",
+      "body": [
+        "This matters because darts sessions often begin quickly: players need to know they are in the right app, then move straight into choosing a format and setting up the match.",
+        "Players use this screen as the entry point before selecting players, choosing a ruleset, and preparing the game for the board."
+      ],
+      "bullets": [
+        "Sets the visual identity for the app.",
+        "Leads into the main setup and match-selection workflow.",
+        "Useful as the current public placeholder for the start of a session."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
+        "alt": "Game of Darts opening screen screenshot",
+        "caption": "The opening screen is the first step before players configure a darts session."
+      },
+      "links": [
+        {
+          "label": "View getting started",
+          "href": "/apps/gameofdarts/how-to-play"
+        }
+      ]
+    },
+    {
+      "id": "main-menu-match-setup",
+      "heading": "Main menu and match setup",
+      "layout": "textRight",
+      "summary": "The main screen is where players begin the practical match workflow: choose who is playing, choose the format, and start scoring.",
+      "body": [
+        "It matters because the setup screen has to work for quick casual games as well as longer match nights. Clear choices reduce friction before the first dart is thrown.",
+        "Players use this area to move from app launch into Match, Cricket, Snooker, Bob's 27, 1 to 20, party modes, or other supported formats."
+      ],
+      "bullets": [
+        "Entry point for player and match setup.",
+        "Supports quick games and longer configured matches.",
+        "Connects directly to mode, match type, DartBot, and scoring flows."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+        "alt": "Game of Darts main menu and match setup screenshot",
+        "caption": "The main screen supports the session setup workflow before scoring begins."
+      },
+      "links": [
+        {
+          "label": "View game modes",
+          "href": "/apps/gameofdarts/game-modes"
+        },
+        {
+          "label": "View match types",
+          "href": "/apps/gameofdarts/match-types"
+        }
+      ]
+    },
+    {
+      "id": "settings-personalisation",
+      "heading": "Settings and personalisation",
+      "summary": "The settings screen gives players control over appearance, voice, DartBot level, Game Center posting, privacy, and access-related options.",
+      "body": [
+        "This matters because darts apps are often used in different places: at home, in a venue, on an iPhone, on an iPad, with or without voice calling. Settings let players adjust the experience without changing their saved players or stats.",
+        "Players use settings to tune the app around their match environment, from caller voice preferences through to premium access and gameplay options."
+      ],
+      "bullets": [
+        "Central place for appearance, audio, and gameplay preferences.",
+        "Includes controls related to DartBot and Game Center behaviour.",
+        "Keeps personalisation separate from match scoring."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+        "alt": "Game of Darts settings and customisation screenshot",
+        "caption": "Settings help players tailor the app to their device, venue, and preferred match style."
+      },
+      "links": [
+        {
+          "label": "View settings",
+          "href": "/apps/gameofdarts/settings-customisation"
+        }
+      ]
+    },
+    {
+      "id": "premium-access",
+      "heading": "Premium access options",
+      "layout": "textRight",
+      "summary": "The premium access screen explains optional unlocks such as Pro, DartBot access, and time-limited passes where available.",
+      "body": [
+        "It matters because players should understand what is optional before they choose an unlock. The screen supports a clear path from free use into extra features without interrupting the basic scoring experience.",
+        "Players use this area when they want DartBot, advanced features, or a broader premium experience for regular match nights."
+      ],
+      "bullets": [
+        "Shows optional access routes in one place.",
+        "Supports DartBot and premium feature discovery.",
+        "Keeps purchase information separate from scoring and statistics pages."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-IAP.png",
+        "alt": "Game of Darts premium access screenshot",
+        "caption": "Premium access is presented as an optional route for players who want extra features."
+      },
+      "links": [
+        {
+          "label": "View premium access",
+          "href": "/apps/gameofdarts/barkinmad-coins"
+        }
+      ]
+    },
+    {
+      "id": "help-and-rules",
+      "heading": "Help and rules reference",
+      "summary": "The help screen supports players who need a reminder of app behaviour, rules, or setup information before or during a session.",
+      "body": [
+        "This matters because Game of Darts includes several formats, and not every player remembers every rule. Help content keeps the app usable without forcing players to leave the match-night context.",
+        "Players use help when learning a format, checking a setting, or confirming how a feature should work."
+      ],
+      "bullets": [
+        "Supports rule discovery and app guidance.",
+        "Useful for players switching between formats.",
+        "Connects the visual walkthrough to the full guide and FAQ."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-help.png",
+        "alt": "Game of Darts help and rules screenshot",
+        "caption": "Help content gives players a reference point for rules and app behaviour."
+      },
+      "links": [
+        {
+          "label": "View full guide",
+          "href": "/apps/gameofdarts/guide"
+        },
+        {
+          "label": "View FAQ",
+          "href": "/apps/gameofdarts/frequently-asked-questions"
+        }
+      ]
+    },
+    {
+      "id": "leaderboards-and-progress",
+      "heading": "Leaderboards and progress",
+      "layout": "textRight",
+      "summary": "The leaderboards screen shows how Game Center competition fits alongside local match scoring and personal statistics.",
+      "body": [
+        "It matters because progress is not only about winning one match. Players can compare results, chase personal improvements, and use Game Center where available.",
+        "Players use leaderboards after play to compare supported scores and decide what they want to improve next."
+      ],
+      "bullets": [
+        "Connects match results to Game Center leaderboards.",
+        "Supports score comparison across supported modes.",
+        "Complements the statistics and achievements workflow."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+        "alt": "Game of Darts leaderboards screenshot",
+        "caption": "Leaderboards give competitive players a reason to keep improving after each match."
+      },
+      "links": [
+        {
+          "label": "View leaderboards",
+          "href": "/apps/gameofdarts/leaderboards"
+        },
+        {
+          "label": "View statistics",
+          "href": "/apps/gameofdarts/statistics"
+        }
+      ]
+    }
+  ]
 }

@@ -57,14 +57,67 @@
     "Serena",
     "voice control"
   ],
-  "estimatedReadTimeMinutes": 2,
+  "estimatedReadTimeMinutes": 3,
   "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "controls",
     "settings-customisation",
     "frequently-asked-questions"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.2.0",
+  "featureShowcases": [
+    {
+      "id": "match-caller-atmosphere",
+      "heading": "Add match caller atmosphere",
+      "summary": "Caller Voices let players hear scores and key match moments during supported play.",
+      "body": [
+        "This matters because darts is often a social game. Voice calling can make a phone or iPad feel more like part of the match setup instead of a silent score sheet.",
+        "Players use caller voices when they want audio feedback during scoring, especially when the device is placed near the board or shared by multiple players."
+      ],
+      "bullets": [
+        "Includes Daniel and Serena voice options using Apple speech technology.",
+        "Can be enabled, disabled, or changed from settings.",
+        "Adds atmosphere without changing match rules or statistics."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-voice-caller.png",
+        "alt": "Game of Darts caller voices artwork",
+        "caption": "Caller voice artwork is used as the current visual placeholder for audio match feedback."
+      },
+      "links": [
+        {
+          "label": "View controls",
+          "href": "/apps/gameofdarts/controls"
+        }
+      ]
+    },
+    {
+      "id": "voice-settings-workflow",
+      "heading": "Change voice preferences from settings",
+      "layout": "textRight",
+      "summary": "Voice calling is part of the wider settings workflow, so players can adjust audio without rebuilding a match setup.",
+      "body": [
+        "This matters because the best voice setting can depend on the room, device volume, and player preference. The app keeps the setting easy to revisit.",
+        "Players use settings to switch between supported voices or turn announcements off when they prefer a quieter session."
+      ],
+      "bullets": [
+        "Keeps caller choice separate from saved games and player stats.",
+        "Supports quick changes between match nights.",
+        "Works alongside other appearance and audio settings."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+        "alt": "Game of Darts settings screen for caller voice preferences",
+        "caption": "Settings are reused as the current placeholder for changing caller voice preferences."
+      },
+      "links": [
+        {
+          "label": "View settings",
+          "href": "/apps/gameofdarts/settings-customisation"
+        }
+      ]
+    }
+  ]
 }

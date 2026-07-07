@@ -74,15 +74,72 @@
     "auto-post",
     "DartBot"
   ],
-  "estimatedReadTimeMinutes": 3,
+  "estimatedReadTimeMinutes": 4,
   "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "dartbot",
     "caller-voices",
     "statistics",
     "barkinmad-coins"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.2.0",
+  "featureShowcases": [
+    {
+      "id": "settings-control-centre",
+      "heading": "Control the match environment",
+      "summary": "Settings bring appearance, audio, DartBot, Game Center, privacy, and access preferences into one place.",
+      "body": [
+        "This matters because players use Game of Darts in different environments: at home, at a board with friends, or on a larger iPad screen. Settings keep the app adaptable without affecting saved players or statistics.",
+        "Players use this screen before or between matches to tune voice calling, gameplay preferences, appearance, and access-related options."
+      ],
+      "bullets": [
+        "Adjust appearance and audio preferences.",
+        "Configure caller voices and DartBot level.",
+        "Review privacy, Game Center, and access-related options."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+        "alt": "Game of Darts settings and customisation screenshot",
+        "caption": "The settings screenshot shows the practical control centre for personalising play."
+      },
+      "links": [
+        {
+          "label": "View caller voices",
+          "href": "/apps/gameofdarts/caller-voices"
+        }
+      ]
+    },
+    {
+      "id": "settings-and-progress",
+      "heading": "Tune features without losing progress",
+      "layout": "textRight",
+      "summary": "Most settings can change independently of saved players, match history, and statistics.",
+      "body": [
+        "This matters because players should be able to adjust the experience as their setup changes. A player can change the caller voice, DartBot difficulty, or display preference without restarting their progress.",
+        "Players use settings as a maintenance area: update preferences, confirm access choices, and return to the main match workflow."
+      ],
+      "bullets": [
+        "Keeps personalisation separate from scoring data.",
+        "Supports changes between sessions and match nights.",
+        "Connects settings to DartBot, caller voices, statistics, and premium access."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts.png",
+        "alt": "Game of Darts app artwork used for settings overview",
+        "caption": "General app artwork is used as a placeholder for broader settings and progress context."
+      },
+      "links": [
+        {
+          "label": "View DartBot",
+          "href": "/apps/gameofdarts/dartbot"
+        },
+        {
+          "label": "View statistics",
+          "href": "/apps/gameofdarts/statistics"
+        }
+      ]
+    }
+  ]
 }

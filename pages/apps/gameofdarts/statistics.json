@@ -69,14 +69,71 @@
     "advanced statistics",
     "sessions"
   ],
-  "estimatedReadTimeMinutes": 4,
+  "estimatedReadTimeMinutes": 5,
   "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "leaderboards",
     "achievements",
     "settings-customisation"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.2.0",
+  "featureShowcases": [
+    {
+      "id": "review-performance",
+      "heading": "Review performance after play",
+      "summary": "Statistics turn completed matches into a record players can use to understand scoring, consistency, and improvement over time.",
+      "body": [
+        "This matters because darts improvement is often gradual. Seeing averages, checkouts, high scores, and game-specific results helps players spot what is improving and what needs more practice.",
+        "Players use statistics after a session or across multiple sessions to compare performance by player and game mode."
+      ],
+      "bullets": [
+        "Tracks results by player and supported game mode.",
+        "Supports match averages, high scores, checkouts, and game-specific measures where available.",
+        "Helps players choose what to practise next."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-statistics.png",
+        "alt": "Game of Darts statistics artwork",
+        "caption": "Statistics artwork is used as the current placeholder for player performance review."
+      },
+      "links": [
+        {
+          "label": "View leaderboards",
+          "href": "/apps/gameofdarts/leaderboards"
+        }
+      ]
+    },
+    {
+      "id": "long-term-progress",
+      "heading": "Build a longer-term player history",
+      "layout": "textRight",
+      "summary": "Statistics are most useful when players can return to them over time and compare current sessions against previous results.",
+      "body": [
+        "This matters because a single match can be noisy. Longer-term player history makes it easier to see whether practice against friends, solo sessions, or DartBot matches are improving real performance.",
+        "Players use historical stats to compare time periods, review supported game modes, and decide whether to change practice focus."
+      ],
+      "bullets": [
+        "Supports progress review beyond one match.",
+        "Works alongside Game Center goals and achievements.",
+        "Pairs naturally with DartBot practice and match-type variety."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+        "alt": "Game of Darts setup screen leading into player statistics",
+        "caption": "The main setup screenshot is reused as the current placeholder for the route from play into saved results."
+      },
+      "links": [
+        {
+          "label": "View achievements",
+          "href": "/apps/gameofdarts/achievements"
+        },
+        {
+          "label": "View DartBot",
+          "href": "/apps/gameofdarts/dartbot"
+        }
+      ]
+    }
+  ]
 }

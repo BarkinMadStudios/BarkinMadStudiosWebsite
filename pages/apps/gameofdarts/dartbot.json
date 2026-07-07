@@ -58,14 +58,71 @@
     "AI opponent",
     "Pro"
   ],
-  "estimatedReadTimeMinutes": 2,
+  "estimatedReadTimeMinutes": 3,
   "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "game-modes",
     "settings-customisation",
     "barkinmad-coins"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.2.0",
+  "featureShowcases": [
+    {
+      "id": "ai-practice-opponent",
+      "heading": "Practise against DartBot",
+      "summary": "DartBot gives players an AI opponent for Match play when another human player is not available.",
+      "body": [
+        "This matters because regular practice is easier when players can start a competitive-feeling match on demand. DartBot lets players work on consistency, checkouts, and match rhythm without waiting for an opponent.",
+        "Players use DartBot by creating a supported Match game, adding themselves, and choosing DartBot as the opponent."
+      ],
+      "bullets": [
+        "Supports solo practice in a match-style format.",
+        "Uses the selected DartBot level when new DartBot matches are created.",
+        "Works alongside match setup, statistics, and premium access."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-dartbot.png",
+        "alt": "Game of Darts DartBot artwork",
+        "caption": "DartBot artwork is used as the current placeholder for the AI opponent workflow."
+      },
+      "links": [
+        {
+          "label": "View match types",
+          "href": "/apps/gameofdarts/match-types"
+        }
+      ]
+    },
+    {
+      "id": "dartbot-level-and-access",
+      "heading": "Set the challenge level",
+      "layout": "textRight",
+      "summary": "DartBot difficulty and access are part of the wider settings and premium workflow.",
+      "body": [
+        "This matters because players need an opponent that fits their current level. A relaxed practice session and a checkout-focused challenge should not feel the same.",
+        "Players use settings to adjust the DartBot level, then use premium access options where DartBot needs to be unlocked."
+      ],
+      "bullets": [
+        "Difficulty can be changed from settings.",
+        "DartBot access can be unlocked through supported premium options.",
+        "The chosen level applies to future DartBot matches."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+        "alt": "Game of Darts settings screen for DartBot and gameplay options",
+        "caption": "Settings are reused as the current placeholder for DartBot level and access configuration."
+      },
+      "links": [
+        {
+          "label": "View settings",
+          "href": "/apps/gameofdarts/settings-customisation"
+        },
+        {
+          "label": "View premium access",
+          "href": "/apps/gameofdarts/barkinmad-coins"
+        }
+      ]
+    }
+  ]
 }

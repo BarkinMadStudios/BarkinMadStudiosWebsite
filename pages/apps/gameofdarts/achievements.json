@@ -36,14 +36,71 @@
     "achievements",
     "Game Center"
   ],
-  "estimatedReadTimeMinutes": 2,
+  "estimatedReadTimeMinutes": 3,
   "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "leaderboards",
     "statistics",
     "game-modes"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.2.0",
+  "featureShowcases": [
+    {
+      "id": "game-center-goals",
+      "heading": "Game Center goals for regular play",
+      "summary": "Achievements give players optional goals across supported Game of Darts modes.",
+      "body": [
+        "This matters because progress can be more motivating when players have goals beyond one scoreboard. Achievements reward repeated play, mode exploration, and supported challenges through Game Center.",
+        "Players use achievements after signing in to Game Center and completing matches in supported modes."
+      ],
+      "bullets": [
+        "Tracks progress through supported Game Center achievements.",
+        "Rewards completed play and mode-specific goals where available.",
+        "Works alongside leaderboards and statistics after matches."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+        "alt": "Game of Darts Game Center leaderboard screenshot used for achievement context",
+        "caption": "Leaderboards artwork is reused as the current placeholder for Game Center progress and achievement context."
+      },
+      "links": [
+        {
+          "label": "View leaderboards",
+          "href": "/apps/gameofdarts/leaderboards"
+        }
+      ]
+    },
+    {
+      "id": "achievement-progress-context",
+      "heading": "Progress without changing scoring",
+      "layout": "textRight",
+      "summary": "Achievement tracking sits behind normal play and does not change how a match is scored.",
+      "body": [
+        "This matters because players can focus on the game at the board. Progress updates happen after supported match activity rather than interrupting score entry.",
+        "Players use achievement progress as a reason to revisit modes, improve consistency, and compare progress with personal statistics."
+      ],
+      "bullets": [
+        "Keeps gameplay and reward tracking separate.",
+        "Encourages players to explore multiple modes.",
+        "Complements statistics for longer-term improvement."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts.png",
+        "alt": "Game of Darts artwork used as achievement placeholder",
+        "caption": "General Game of Darts artwork is used until a dedicated achievements screenshot is available."
+      },
+      "links": [
+        {
+          "label": "View statistics",
+          "href": "/apps/gameofdarts/statistics"
+        },
+        {
+          "label": "View game modes",
+          "href": "/apps/gameofdarts/game-modes"
+        }
+      ]
+    }
+  ]
 }

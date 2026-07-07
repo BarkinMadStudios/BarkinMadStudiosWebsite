@@ -67,14 +67,71 @@
     "Cricket",
     "Snooker"
   ],
-  "estimatedReadTimeMinutes": 4,
+  "estimatedReadTimeMinutes": 5,
   "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
+  "lastUpdated": "2026-07-07",
+  "lastVerified": "2026-07-07",
   "relatedPages": [
     "game-modes",
     "how-to-play",
     "tips-and-strategy"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.2.0",
+  "featureShowcases": [
+    {
+      "id": "choose-format",
+      "heading": "Choose the right format before play",
+      "summary": "Match Types explains how players move from a casual game into the ruleset that fits the session, from X01 to Cricket, Snooker, Bob's 27, and party formats.",
+      "body": [
+        "This matters because the setup decision shapes the whole match: scoring rules, player count, legs, sets, and the kind of practice players get from the session.",
+        "Players use this page when deciding whether they want a quick leg, a tournament-style match, a practice game, or a ruleset that suits a group night."
+      ],
+      "bullets": [
+        "Explains practical differences between supported formats.",
+        "Helps players choose between short sessions and longer match structures.",
+        "Connects format choice to setup, scoring, and strategy."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-match-types.png",
+        "alt": "Game of Darts match types artwork",
+        "caption": "Match type artwork is used as the current visual placeholder for format selection."
+      },
+      "links": [
+        {
+          "label": "View game modes",
+          "href": "/apps/gameofdarts/game-modes"
+        }
+      ]
+    },
+    {
+      "id": "custom-match-setup",
+      "heading": "Configure the session around the players",
+      "layout": "textRight",
+      "summary": "Once a format is chosen, players can tune settings such as starting score, legs, sets, player count, and DartBot participation where supported.",
+      "body": [
+        "This matters because a quick practice leg and a competitive evening need different setup choices. Game of Darts keeps those decisions near the start of the match workflow.",
+        "Players use setup options to match the app to the board, the number of players, and the amount of time they have."
+      ],
+      "bullets": [
+        "Supports quick games and tournament-style setups.",
+        "Keeps DartBot participation part of the match workflow.",
+        "Lets players experiment with different practice and competition formats."
+      ],
+      "image": {
+        "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+        "alt": "Game of Darts main setup screen for choosing a match format",
+        "caption": "The main setup screenshot is reused as the current placeholder for configurable match setup."
+      },
+      "links": [
+        {
+          "label": "View DartBot",
+          "href": "/apps/gameofdarts/dartbot"
+        },
+        {
+          "label": "View tips",
+          "href": "/apps/gameofdarts/tips-and-strategy"
+        }
+      ]
+    }
+  ]
 }
