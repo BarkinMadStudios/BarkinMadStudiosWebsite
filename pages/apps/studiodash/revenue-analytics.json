@@ -1,84 +1,84 @@
 {
-  "documentationSchemaVersion": "1.1.0",
-  "title": "StudioDash Revenue Analytics",
-  "seoTitle": "StudioDash Revenue Analytics | BarkinMad Studios",
-  "description": "StudioDash revenue analytics for App Store revenue, advertising revenue, provider totals, and historical trends.",
-  "summary": "StudioDash revenue analytics are designed to help developers understand product income across App Store, advertising, and website monetisation sources.",
-  "heroImage": "apps/studiodash/studiodash-hero.png",
-  "heroImageAlt": "StudioDash revenue analytics dashboard",
-  "referenceImage": {
-    "src": "apps/studiodash/studiodash-hero.png",
-    "alt": "StudioDash revenue analytics dashboard"
-  },
-  "featureShowcases": [
-    {
-      "id": "revenue-provider-breakdown",
-      "heading": "Revenue provider breakdown",
-      "summary": "The revenue analytics screen brings provider totals, product income, and trend context into one review area.",
-      "body": "The screen helps developers understand whether a revenue movement appears in App Store data, advertising data, website monetisation, or a provider that has not returned data. That distinction is important for deciding whether to investigate product performance, provider setup, or reporting coverage.",
-      "bullets": [
-        "Shows revenue sources and provider context where data is available.",
-        "Supports selected-period comparison and historical trend review.",
-        "Avoids treating pre-release or unavailable provider data as real income."
-      ],
-      "image": {
-        "src": "apps/studiodash/Screenshot3.png",
-        "alt": "StudioDash revenue analytics screen showing provider totals, revenue breakdowns, and trend panels",
-        "caption": "Revenue analytics are framed around provider clarity and practical follow-up."
-      },
-      "layout": "textRight",
-      "links": [
-        {
-          "label": "View reporting",
-          "href": "/apps/studiodash/reporting"
-        }
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "revenue-overview",
-      "heading": "Revenue overview",
-      "paragraphs": [
-        "StudioDash is designed to give developers a clearer view of revenue across product and advertising channels. The revenue view brings high-level totals, provider rows, app-level breakdowns, country information, date grouping, and trend context into one area.",
-        "Where provider history is available, selected-period summaries can help compare current performance with recent periods. Where provider data is not available, StudioDash uses clear no-data or setup messaging rather than presenting pre-release figures as real revenue."
-      ]
-    },
-    {
-      "id": "covered-revenue-sources",
-      "heading": "Covered revenue sources",
-      "paragraphs": [
-        "Revenue coverage depends on configured providers and the data each provider exposes. Public guide uses conservative wording while StudioDash remains in development."
-      ],
-      "bullets": [
-        "App Store Connect revenue can include Sales and Trends data where reporting access is configured.",
-        "AdMob revenue can include advertising performance from OAuth-backed network reporting where available.",
-        "AdSense is represented as website monetisation pre-release coverage until live reporting support is implemented.",
-        "Provider rows remain visible when data is unavailable so users know which integration is required."
-      ]
-    },
-    {
-      "id": "trend-review",
-      "heading": "Trend review",
-      "paragraphs": [
-        "The revenue area is intended to support selected-period comparisons, revenue split review, provider totals, and historical trend analysis.",
-        "Future reporting improvements may expand exports, scheduled reports, forecasts, and deeper profitability views. Those areas should be treated as roadmap content until they are delivered."
-      ]
-    }
-  ],
-  "keywords": [
-    "StudioDash revenue",
-    "App Store revenue",
-    "AdMob revenue",
-    "developer revenue analytics"
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "app-store-analytics",
-    "reporting",
-    "integrations"
-  ]
+	"documentationSchemaVersion": "1.1.0",
+	"title": "StudioDash Revenue Analytics",
+	"seoTitle": "StudioDash Revenue Analytics | BarkinMad Studios",
+	"description": "Track App Store, advertising, and website revenue in one place with StudioDash Revenue Analytics.",
+	"summary": "StudioDash helps you understand where your revenue comes from, how it changes over time, and which products or providers are driving your business.",
+	"heroImage": "apps/studiodash/studiodash-hero.png",
+	"heroImageAlt": "StudioDash revenue analytics dashboard",
+	"referenceImage": {
+		"src": "apps/studiodash/studiodash-hero.png",
+		"alt": "StudioDash revenue analytics dashboard"
+	},
+	"featureShowcases": [
+		{
+			"id": "revenue-provider-breakdown",
+			"heading": "Understand Your Revenue",
+			"summary": "See how every connected provider contributes to your overall revenue.",
+			"body": "StudioDash brings together revenue from App Store Connect, advertising, and website monetisation into a single view. Compare providers, identify trends, and quickly understand where changes are happening without switching between multiple dashboards.",
+			"bullets": [
+				"View revenue by provider, app, country, and date.",
+				"Compare historical performance across reporting periods.",
+				"Clearly distinguish between live data, unavailable providers, and planned integrations."
+			],
+			"image": {
+				"src": "apps/studiodash/Screenshot3.png",
+				"alt": "StudioDash revenue analytics showing provider totals and trends",
+				"caption": "Understand where your revenue comes from and how it changes over time."
+			},
+			"layout": "textRight",
+			"links": [
+				{
+					"label": "Explore Reporting",
+					"href": "/apps/studiodash/reporting"
+				}
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "revenue-overview",
+			"heading": "A Complete Revenue Overview",
+			"paragraphs": [
+				"StudioDash brings together revenue from your connected developer services, helping you understand the financial performance of your apps, games, and websites from one dashboard.",
+				"Historical comparisons, provider breakdowns, and trend analysis help you quickly identify where revenue is growing, declining, or remaining stable."
+			]
+		},
+		{
+			"id": "covered-revenue-sources",
+			"heading": "Supported Revenue Sources",
+			"paragraphs": [
+				"Revenue information depends on the providers you've connected and the data each service makes available."
+			],
+			"bullets": [
+				"App Store Connect – Sales, downloads, and revenue reporting.",
+				"AdMob – Advertising revenue and performance.",
+				"AdSense – Website monetisation insights as support becomes available.",
+				"Provider status clearly explains when data is unavailable or still being configured."
+			]
+		},
+		{
+			"id": "trend-review",
+			"heading": "Understand Revenue Trends",
+			"paragraphs": [
+				"Historical reporting helps you compare different time periods, identify seasonal patterns, and measure the impact of product releases, marketing campaigns, or updates.",
+				"Future releases of StudioDash are planned to introduce richer reporting, exports, forecasting, and additional financial insights."
+			]
+		}
+	],
+	"keywords": [
+		"StudioDash revenue",
+		"App Store revenue",
+		"AdMob revenue",
+		"developer revenue analytics"
+	],
+	"estimatedReadTimeMinutes": 3,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"app-store-analytics",
+		"reporting",
+		"integrations"
+	]
 }

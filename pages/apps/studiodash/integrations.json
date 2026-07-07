@@ -1,91 +1,91 @@
 {
-  "documentationSchemaVersion": "1.1.0",
-  "title": "StudioDash Integrations",
-  "seoTitle": "StudioDash Integrations | BarkinMad Studios",
-  "description": "StudioDash integration coverage for App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads, and GitHub.",
-  "summary": "StudioDash brings provider signals into one workspace while clearly separating implemented coverage from pre-release and roadmap integrations.",
-  "heroImage": "apps/studiodash/studiodash-hero.png",
-  "heroImageAlt": "StudioDash integrations dashboard",
-  "referenceImage": {
-    "src": "apps/studiodash/studiodash-hero.png",
-    "alt": "StudioDash integrations dashboard"
-  },
-  "featureShowcases": [
-    {
-      "id": "provider-status-context",
-      "heading": "Provider status in context",
-      "summary": "StudioDash integrations are documented around provider health, setup state, sync status, and the data each provider can expose.",
-      "body": "The screen matters because a missing metric is often an integration issue rather than a product issue. StudioDash is designed to show whether a provider is connected, needs attention, has no data for the selected period, or remains planned for a later release.",
-      "bullets": [
-        "Brings Apple, Google, Cloudflare, advertising, and source-control signals into one workflow.",
-        "Keeps provider state visible beside the product data it affects.",
-        "Supports conservative public wording for pre-release and roadmap integrations."
-      ],
-      "image": {
-        "src": "apps/studiodash/Screenshot2.png",
-        "alt": "StudioDash integrations view showing app and provider analytics status panels",
-        "caption": "Provider status helps explain what data is available and what still needs setup."
-      },
-      "layout": "textRight",
-      "links": [
-        {
-          "label": "View App Store analytics",
-          "href": "/apps/studiodash/app-store-analytics"
-        }
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "integration-approach",
-      "heading": "Integration approach",
-      "paragraphs": [
-        "StudioDash is designed to connect the services indie developers already use to run apps, games, websites, advertising, and source projects.",
-        "The app distinguishes provider health, setup state, sync status, and available data so users can tell the difference between a connected provider, a provider needing attention, a provider with no data yet, and a planned integration."
-      ]
-    },
-    {
-      "id": "documented-integrations",
-      "heading": "Documented integrations",
-      "paragraphs": [
-        "Current public guide covers the providers below. Integration status wording is intentionally conservative while StudioDash remains in development."
-      ],
-      "bullets": [
-        "App Store Connect: app metadata coverage is documented, with sales and analytics reporting described as in development where applicable.",
-        "AdMob: OAuth-backed advertising reporting and inventory coverage are documented.",
-        "AdSense: documented as pre-release coverage for website monetisation, not as a current live reporting client.",
-        "Cloudflare: traffic, website analytics, provider health, and Worker-related coverage are documented.",
-        "Google Search Console: OAuth-backed search visibility and indexing coverage are documented.",
-        "Google Ads: documented as pre-release coverage for campaign metrics.",
-        "GitHub: documented as pre-release coverage for repository activity."
-      ]
-    },
-    {
-      "id": "roadmap-integrations",
-      "heading": "Roadmap integrations",
-      "paragraphs": [
-        "Additional services may be added as StudioDash evolves. Future integrations should be treated as roadmap content until they are implemented, tested, and represented in the product.",
-        "The goal is not to replace every provider dashboard. StudioDash focuses on the cross-provider signals developers need to review frequently."
-      ]
-    }
-  ],
-  "keywords": [
-    "StudioDash integrations",
-    "App Store Connect",
-    "AdMob",
-    "AdSense",
-    "Cloudflare",
-    "Google Search Console",
-    "Google Ads",
-    "GitHub"
-  ],
-  "estimatedReadTimeMinutes": 4,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "app-store-analytics",
-    "website-seo-analytics",
-    "automation-sync"
-  ]
+	"documentationSchemaVersion": "1.1.0",
+	"title": "StudioDash Integrations",
+	"seoTitle": "StudioDash Integrations | BarkinMad Studios",
+	"description": "Connect StudioDash with App Store Connect, Cloudflare, Google services, GitHub, and other developer platforms to bring your data together in one place.",
+	"summary": "StudioDash connects the services developers use every day, making it easier to monitor apps, websites, advertising, revenue, and provider health from one workspace.",
+	"heroImage": "apps/studiodash/studiodash-hero.png",
+	"heroImageAlt": "StudioDash integrations dashboard",
+	"referenceImage": {
+		"src": "apps/studiodash/studiodash-hero.png",
+		"alt": "StudioDash integrations dashboard"
+	},
+	"featureShowcases": [
+		{
+			"id": "provider-status-context",
+			"heading": "Bring Your Services Together",
+			"summary": "Monitor all of your connected developer services from a single dashboard.",
+			"body": "StudioDash brings together the tools you already use, making it easier to understand how your apps, websites, advertising, and developer services are performing. Provider Health clearly shows whether a service is connected, requires attention, or is still waiting to be configured.",
+			"bullets": [
+				"Connect Apple, Google, Cloudflare, advertising, and development services.",
+				"Clearly understand the health of every provider.",
+				"See exactly why information is available, unavailable, or waiting for setup."
+			],
+			"image": {
+				"src": "apps/studiodash/Screenshot2.png",
+				"alt": "StudioDash integrations dashboard showing provider status",
+				"caption": "Monitor every connected service from one place."
+			},
+			"layout": "textRight",
+			"links": [
+				{
+					"label": "Explore App Store Analytics",
+					"href": "/apps/studiodash/app-store-analytics"
+				}
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "integration-approach",
+			"heading": "Designed Around Your Existing Tools",
+			"paragraphs": [
+				"StudioDash connects with the services independent developers already rely on to build, publish, and manage their products.",
+				"Instead of switching between multiple websites and dashboards, StudioDash brings important information together while clearly showing the health and status of every connected provider."
+			]
+		},
+		{
+			"id": "documented-integrations",
+			"heading": "Supported Integrations",
+			"paragraphs": [
+				"StudioDash is designed to support a growing range of developer services. Some integrations are available today, while others continue to evolve as development progresses."
+			],
+			"bullets": [
+				"App Store Connect – App lifecycle, downloads, ratings, reviews, and analytics.",
+				"AdMob – Advertising performance and revenue reporting.",
+				"AdSense – Website monetisation insights.",
+				"Cloudflare – Website traffic, analytics, Workers, and provider health.",
+				"Google Search Console – Search visibility, indexing, and performance.",
+				"Google Ads – Campaign analytics and advertising insights.",
+				"GitHub – Repository activity and development workflow."
+			]
+		},
+		{
+			"id": "roadmap-integrations",
+			"heading": "Expanding Platform Support",
+			"paragraphs": [
+				"Additional integrations will continue to be added as StudioDash evolves, helping developers monitor even more of their workflow from a single application.",
+				"The goal isn't to replace every provider dashboard. Instead, StudioDash focuses on bringing together the information developers check most often, making it easier to understand what's happening across their products."
+			]
+		}
+	],
+	"keywords": [
+		"StudioDash integrations",
+		"App Store Connect",
+		"AdMob",
+		"AdSense",
+		"Cloudflare",
+		"Google Search Console",
+		"Google Ads",
+		"GitHub"
+	],
+	"estimatedReadTimeMinutes": 4,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"app-store-analytics",
+		"website-seo-analytics",
+		"automation-sync"
+	]
 }

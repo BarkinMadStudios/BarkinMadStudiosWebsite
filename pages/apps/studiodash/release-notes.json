@@ -1,113 +1,94 @@
 {
-  "documentationSchemaVersion": "1.1.0",
-  "title": "StudioDash Release Notes",
-  "seoTitle": "StudioDash Release Notes | BarkinMad Studios",
-  "description": "Public StudioDash release notes, development milestones, private-beta status, guide updates, and availability notes from BarkinMad Studios.",
-  "summary": "StudioDash release notes track player-facing product and guide milestones while the app remains in development and prepares for private beta.",
-  "heroImage": "apps/studiodash/studiodash-hero.png",
-  "heroImageAlt": "StudioDash release notes dashboard",
-  "referenceImage": {
-    "src": "apps/studiodash/studiodash-hero.png",
-    "alt": "StudioDash release notes dashboard"
-  },
-  "featureShowcases": [
-    {
-      "id": "release-readiness",
-      "heading": "Release notes focused on public milestones",
-      "summary": "StudioDash release notes are used for visible product, guide, and availability changes rather than private implementation logs.",
-      "body": "While StudioDash is preparing for private beta, release notes should help users understand what has changed publicly: guide coverage, screenshots, beta status, integration wording, and future availability announcements. Internal workflow notes, private credentials, unpublished diagnostics, and account-specific data do not belong here.",
-      "bullets": [
-        "Records public website and guide milestones.",
-        "Keeps private beta wording separate from general public availability.",
-        "Leaves detailed engineering changelogs in the central project guide rather than the public website."
-      ],
-      "image": {
-        "src": "apps/studiodash/Screenshot1.png",
-        "alt": "StudioDash dashboard overview supporting release notes context",
-        "caption": "The dashboard overview supports the release-notes context for the current public guide set."
-      },
-      "layout": "textLeft",
-      "links": [
-        {
-          "label": "View private beta",
-          "href": "/apps/studiodash/private-beta"
-        }
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "current-status",
-      "heading": "Current status",
-      "paragraphs": [
-        "StudioDash is currently in development and preparing for a controlled private beta. The BarkinMad Studios website now includes a documented StudioDash product section with overview, feature, integration, dashboard, analytics, reporting, sync, security, FAQ, guide, release-note, private-beta, and screenshot pages.",
-        "Private beta access, App Store information, wider public availability, and release timing will be published when BarkinMad Studios is ready to announce them. Until then, public guide should describe the product direction conservatively and avoid presenting roadmap items as released features."
-      ]
-    },
-    {
-      "id": "public-documentation-milestones",
-      "heading": "Public guide milestones",
-      "paragraphs": [
-        "The initial public StudioDash guide introduces the product as a native Mac and iPad dashboard for indie app and game developers. It explains how StudioDash brings app, revenue, website, search, provider health, sync, and trend signals into one operating workspace.",
-        "The guide also establishes the public terminology used across the site: private beta, provider health, selected-period summaries, pre-release coverage, roadmap automation, and the distinction between demo, pre-release, and live data."
-      ],
-      "bullets": [
-        "Overview and Features explain the product direction and core operating model.",
-        "Integrations, App Store Analytics, Revenue Analytics, and Website & SEO Analytics explain the provider-backed surfaces.",
-        "Reporting, Automation & Sync, and Security & Privacy explain how to read provider data responsibly.",
-        "FAQ, Guide, Release Notes, Private Beta, and Screenshots provide supporting product information."
-      ]
-    },
-    {
-      "id": "current-provider-language",
-      "heading": "Current provider language",
-      "paragraphs": [
-        "Current public guide covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads pre-release coverage, and GitHub pre-release coverage. It intentionally separates implemented coverage from planned or pre-release areas.",
-        "Provider-specific details should remain conservative while StudioDash is in development. If an integration requires setup, has no data for a selected period, is not configured, or remains planned, the public copy should say so clearly."
-      ]
-    },
-    {
-      "id": "future-release-notes",
-      "heading": "Future release notes",
-      "paragraphs": [
-        "Future release notes should focus on public product changes, availability milestones, newly released integrations, visible dashboard improvements, guide updates, screenshot refreshes, beta programme changes, and user-facing security or privacy changes.",
-        "Private project notes, unpublished implementation details, internal workflow IDs, account credentials, provider tokens, raw diagnostics, and account-specific metrics must not be included in public release notes."
-      ],
-      "bullets": [
-        "Use exact dates when announcing public milestones.",
-        "State whether a change is available, in private beta, planned, or roadmap.",
-        "Link to the relevant guide page when a release note changes user behavior.",
-        "Keep engineering changelog detail in the central project guide."
-      ]
-    }
-  ],
-  "keywords": [
-    "StudioDash release notes",
-    "StudioDash changelog",
-    "BarkinMad Studios",
-    "developer dashboard"
-  ],
-  "estimatedReadTimeMinutes": 4,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "overview",
-    "features",
-    "frequently-asked-questions"
-  ],
-  "relatedLinks": [
-    {
-      "label": "Start with the StudioDash Guide",
-      "href": "/apps/studiodash/guide"
-    },
-    {
-      "label": "Explore StudioDash Features",
-      "href": "/apps/studiodash/features"
-    },
-    {
-      "label": "Read StudioDash FAQ",
-      "href": "/apps/studiodash/frequently-asked-questions"
-    }
-  ]
-}
+	"documentationSchemaVersion": "1.1.0",
+	"title": "StudioDash Release Notes",
+	"seoTitle": "StudioDash Release Notes | BarkinMad Studios",
+	"description": "Follow the latest StudioDash development milestones, feature updates, private beta progress, and public release announcements.",
+	"summary": "Stay up to date with the latest StudioDash improvements as the product moves towards private beta and public release.",
+	"heroImage": "apps/studiodash/studiodash-hero.png",
+	"heroImageAlt": "StudioDash Release Notes",
+	"referenceImage": {
+		"src": "apps/studiodash/studiodash-hero.png",
+		"alt": "StudioDash Release Notes"
+	},
+	"featureShowcases": [
+		{
+			"id": "release-readiness",
+			"heading": "Follow StudioDash's Progress",
+			"summary": "Keep track of new features, product milestones, and upcoming releases.",
+			"body": "StudioDash is evolving rapidly. Release Notes provide a clear history of new features, improvements, integrations, and important announcements as the product moves towards private beta and public availability.",
+			"bullets": [
+				"Follow new features and product improvements.",
+				"Track private beta progress and future releases.",
+				"See how StudioDash continues to evolve."
+			],
+			"image": {
+				"src": "apps/studiodash/Screenshot1.png",
+				"alt": "StudioDash dashboard overview",
+				"caption": "Every milestone brings StudioDash closer to public release."
+			},
+			"layout": "textLeft",
+			"links": [
+				{
+					"label": "Learn About the Private Beta",
+					"href": "/apps/studiodash/private-beta"
+				}
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "current-status",
+			"heading": "Current Status",
+			"paragraphs": [
+				"StudioDash is currently in active development and preparing for a controlled private beta.",
+				"As development progresses, this page will highlight important product milestones, new capabilities, and availability updates."
+			]
+		},
+		{
+			"id": "recent-progress",
+			"heading": "Recent Progress",
+			"paragraphs": [
+				"The StudioDash website now includes dedicated guides covering the dashboard, integrations, analytics, reporting, synchronisation, security, private beta, and supporting documentation.",
+				"Development continues to focus on expanding integrations, improving analytics, refining the user experience, and preparing the platform for beta testing."
+			],
+			"bullets": [
+				"StudioDash product website launched.",
+				"Core documentation published.",
+				"Analytics and integration guides expanded.",
+				"Private beta preparation continues."
+			]
+		},
+		{
+			"id": "current-integrations",
+			"heading": "Current Integrations",
+			"paragraphs": [
+				"StudioDash continues to expand support for developer services including App Store Connect, Cloudflare, AdMob, AdSense, Google Search Console, GitHub, and other platforms.",
+				"Additional integrations will be announced here as they become available."
+			]
+		},
+		{
+			"id": "looking-ahead",
+			"heading": "Looking Ahead",
+			"paragraphs": [
+				"Future updates will introduce additional integrations, richer reporting, automation, forecasting, intelligent summaries, and other developer-focused improvements.",
+				"As new functionality becomes available, this page will provide an overview of what's new together with links to the relevant guides."
+			],
+			"bullets": [
+				"New integrations.",
+				"Dashboard enhancements.",
+				"Reporting improvements.",
+				"Automation features.",
+				"Private beta updates."
+			]
+		}
+	],
+	"keywords": [
+		"StudioDash release notes",
+		"StudioDash changelog",
+		"StudioDash updates",
+		"developer dashboard"
+	],
+	"estimatedReadTimeMinutes": 4,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"last

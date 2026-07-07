@@ -1,198 +1,198 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "StudioDash Visual Walkthrough",
-  "seoTitle": "StudioDash Screenshots | BarkinMad Studios",
-  "description": "StudioDash screenshots showing the current dashboard artwork available in the website repository.",
-  "summary": "StudioDash screenshots work as a visual walkthrough, pairing each current product image with workflow context and capability notes.",
-  "heroImage": "apps/studiodash/studiodash-hero.png",
-  "heroImageAlt": "StudioDash visual walkthrough",
-  "featureShowcases": [
-    {
-      "id": "portfolio-dashboard",
-      "heading": "Portfolio dashboard overview",
-      "summary": "This view shows the main StudioDash dashboard, where app, website, revenue, provider, and sync signals are brought into one operating view.",
-      "body": [
-        "It matters because independent developers often need to check product health quickly before deciding where to spend time. The dashboard is designed to make that first pass faster than opening each provider separately.",
-        "The related workflow is the daily or weekly portfolio review: check overall status, spot missing data, identify providers that need attention, then move into specialist views for deeper analysis."
-      ],
-      "bullets": [
-        "At-a-glance portfolio health for apps, games, and web products.",
-        "High-level revenue, traffic, provider, and sync context.",
-        "Entry point into dashboard, revenue, App Store, website, and integration detail pages.",
-        "Uses `Screenshot1` to illustrate the dashboard overview workflow."
-      ],
-      "image": {
-        "src": "apps/studiodash/Screenshot1.png",
-        "alt": "StudioDash portfolio dashboard overview screenshot",
-        "caption": "The dashboard overview image shows how StudioDash starts with a broad product-health view."
-      },
-      "links": [
-        {
-          "label": "View dashboard guide",
-          "href": "/apps/studiodash/dashboard"
-        }
-      ]
-    },
-    {
-      "id": "app-provider-analytics",
-      "heading": "App and provider analytics",
-      "layout": "textRight",
-      "summary": "This view represents StudioDash's app and provider analytics workspace, including App Store Connect context and provider-health language.",
-      "body": [
-        "It matters because a missing or stale metric can mean several different things: account setup, provider availability, sync state, pre-release coverage, or a genuine product issue. StudioDash guide keeps those meanings explicit.",
-        "The related workflow is provider review: confirm which integrations are connected, understand their current state, then use app-level views to interpret downloads, sales, ratings, reviews, and lifecycle status where live provider data is available."
-      ],
-      "bullets": [
-        "App Store Connect status and analytics context.",
-        "Provider health and setup-state visibility.",
-        "Separation between live, pre-release, and planned integration coverage.",
-        "Uses `Screenshot2` to illustrate provider analytics and integration health."
-      ],
-      "image": {
-        "src": "apps/studiodash/Screenshot2.png",
-        "alt": "StudioDash app and provider analytics screenshot",
-        "caption": "The provider analytics image supports the integrations and App Store analytics walkthrough."
-      },
-      "links": [
-        {
-          "label": "View integrations",
-          "href": "/apps/studiodash/integrations"
-        },
-        {
-          "label": "View App Store analytics",
-          "href": "/apps/studiodash/app-store-analytics"
-        }
-      ]
-    },
-    {
-      "id": "revenue-trend-review",
-      "heading": "Revenue and trend review",
-      "summary": "This view shows the revenue and trend-review side of StudioDash, where App Store, advertising, and period-based business metrics are reviewed together.",
-      "body": [
-        "It matters because revenue checks are most useful when totals, provider context, time period, and trend direction are presented together. The page explains the kind of decision-making this screen is intended to support.",
-        "The related workflow is a revenue review: choose the reporting period, compare provider totals, identify unusual movement, and use reporting pages for follow-up summaries or export planning."
-      ],
-      "bullets": [
-        "App Store, AdMob, AdSense, and provider revenue context where available.",
-        "Selected-period comparison and trend-review language.",
-        "Reporting and export planning context.",
-        "Uses `Screenshot3` to illustrate revenue trends and reporting context."
-      ],
-      "image": {
-        "src": "apps/studiodash/Screenshot3.png",
-        "alt": "StudioDash revenue and trend review screenshot",
-        "caption": "The revenue image supports revenue analytics, trend review, and reporting guide."
-      },
-      "links": [
-        {
-          "label": "View revenue analytics",
-          "href": "/apps/studiodash/revenue-analytics"
-        },
-        {
-          "label": "View reporting",
-          "href": "/apps/studiodash/reporting"
-        }
-      ]
-    },
-    {
-      "id": "website-seo-sync",
-      "heading": "Website, SEO, and sync insight",
-      "layout": "textRight",
-      "summary": "This view represents the website, SEO, integration, and sync areas where Cloudflare, Search Console, provider status, and automation signals are reviewed.",
-      "body": [
-        "It matters because product visibility is not only an app-store problem. Developers also need to understand website traffic, search visibility, provider freshness, and sync confidence before they trust a dashboard view.",
-        "The related workflow is operational follow-up: check whether website and search data is present, review provider freshness, refresh data when needed, and keep privacy expectations clear when live accounts are connected."
-      ],
-      "bullets": [
-        "Cloudflare and Google Search Console context for website visibility.",
-        "Provider freshness, manual refresh, and sync-status concepts.",
-        "Security and privacy context for connected developer accounts.",
-        "Uses `Screenshot4` to illustrate website analytics, sync state, and operational context."
-      ],
-      "image": {
-        "src": "apps/studiodash/Screenshot4.png",
-        "alt": "StudioDash website SEO and sync insight screenshot",
-        "caption": "The website and sync image supports website analytics, automation, and security walkthrough content."
-      },
-      "links": [
-        {
-          "label": "View website analytics",
-          "href": "/apps/studiodash/website-seo-analytics"
-        },
-        {
-          "label": "View automation and sync",
-          "href": "/apps/studiodash/automation-sync"
-        }
-      ]
-    }
-  ],
-  "imageMetadata": [
-    {
-      "src": "apps/studiodash/Screenshot1.png",
-      "alt": "StudioDash dashboard overview screenshot",
-      "purpose": "doc",
-      "width": 1372,
-      "height": 995,
-      "usage": [
-        "docs",
-        "website"
-      ]
-    },
-    {
-      "src": "apps/studiodash/Screenshot2.png",
-      "alt": "StudioDash app and provider analytics screenshot",
-      "purpose": "doc",
-      "width": 1372,
-      "height": 995,
-      "usage": [
-        "docs",
-        "website"
-      ]
-    },
-    {
-      "src": "apps/studiodash/Screenshot3.png",
-      "alt": "StudioDash revenue and trend review screenshot",
-      "purpose": "doc",
-      "width": 1372,
-      "height": 995,
-      "usage": [
-        "docs",
-        "website"
-      ]
-    },
-    {
-      "src": "apps/studiodash/Screenshot4.png",
-      "alt": "StudioDash website and integration insights screenshot",
-      "purpose": "doc",
-      "width": 1372,
-      "height": 995,
-      "usage": [
-        "docs",
-        "website"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "visual-walkthrough-standard",
-      "heading": "Visual walkthrough standard",
-      "paragraphs": [
-        "This guide uses Feature Showcase blocks rather than a legacy bottom gallery. Each screenshot is paired with what the screen shows, why it matters, the related StudioDash workflow, and key capabilities.",
-        "The current public image set remains `Screenshot1` through `Screenshot4`. Future dedicated screenshots can replace these pre-release coverage without changing the walkthrough structure."
-      ]
-    }
-  ],
-  "keywords": [
-    "StudioDash screenshots",
-    "developer dashboard screenshots",
-    "BarkinMad Studios"
-  ],
-  "estimatedReadTimeMinutes": 4,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "overview",
-    "guide"
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "StudioDash Visual Walkthrough",
+	"seoTitle": "StudioDash Screenshots | BarkinMad Studios",
+	"description": "Take a visual tour of StudioDash and discover how each screen helps you monitor apps, revenue, websites, and connected developer services.",
+	"summary": "Explore StudioDash through screenshots that showcase the dashboard, analytics, reporting, integrations, and provider health.",
+	"heroImage": "apps/studiodash/studiodash-hero.png",
+	"heroImageAlt": "StudioDash visual walkthrough",
+	"featureShowcases": [
+		{
+			"id": "portfolio-dashboard",
+			"heading": "Your Dashboard at a Glance",
+			"summary": "The dashboard gives you an instant overview of your apps, revenue, websites, and connected services.",
+			"body": [
+				"Everything begins from the StudioDash dashboard. Review your portfolio, monitor provider health, and identify the areas that need your attention before exploring more detailed analytics.",
+				"Designed for quick daily reviews, the dashboard helps you understand what's happening across your products without switching between multiple services."
+			],
+			"bullets": [
+				"Portfolio overview.",
+				"Revenue and provider health.",
+				"Quick access to detailed analytics.",
+				"Designed for fast daily reviews."
+			],
+			"image": {
+				"src": "apps/studiodash/Screenshot1.png",
+				"alt": "StudioDash dashboard overview",
+				"caption": "Your developer workspace starts here."
+			},
+			"links": [
+				{
+					"label": "Explore the Dashboard",
+					"href": "/apps/studiodash/dashboard"
+				}
+			]
+		},
+		{
+			"id": "app-provider-analytics",
+			"heading": "Monitor Your Apps & Providers",
+			"layout": "textRight",
+			"summary": "Understand the health of your connected services and the performance of your apps.",
+			"body": [
+				"StudioDash combines App Store Connect information with Provider Health, helping you quickly understand whether changes are caused by your products, connected services, or provider configuration.",
+				"Clear status information makes it easy to identify providers that are healthy, require attention, or are still waiting to be configured."
+			],
+			"bullets": [
+				"App Store performance.",
+				"Provider Health.",
+				"Integration status.",
+				"Developer service overview."
+			],
+			"image": {
+				"src": "apps/studiodash/Screenshot2.png",
+				"alt": "StudioDash provider analytics",
+				"caption": "Understand every connected service from one screen."
+			},
+			"links": [
+				{
+					"label": "Explore Integrations",
+					"href": "/apps/studiodash/integrations"
+				},
+				{
+					"label": "View App Store Analytics",
+					"href": "/apps/studiodash/app-store-analytics"
+				}
+			]
+		},
+		{
+			"id": "revenue-trend-review",
+			"heading": "Understand Your Revenue",
+			"summary": "Track revenue across App Store Connect, advertising, and other connected services.",
+			"body": [
+				"StudioDash helps you understand where your revenue comes from by combining provider information, historical trends, and reporting into one clear view.",
+				"Compare different reporting periods, identify unusual changes, and drill into the details whenever you need more information."
+			],
+			"bullets": [
+				"Revenue by provider.",
+				"Historical trends.",
+				"Period comparisons.",
+				"Reporting insights."
+			],
+			"image": {
+				"src": "apps/studiodash/Screenshot3.png",
+				"alt": "StudioDash revenue analytics",
+				"caption": "Understand revenue trends across your portfolio."
+			},
+			"links": [
+				{
+					"label": "Explore Revenue Analytics",
+					"href": "/apps/studiodash/revenue-analytics"
+				},
+				{
+					"label": "Learn About Reporting",
+					"href": "/apps/studiodash/reporting"
+				}
+			]
+		},
+		{
+			"id": "website-seo-sync",
+			"heading": "Monitor Websites & Connected Services",
+			"layout": "textRight",
+			"summary": "Review website performance, search visibility, provider health, and synchronisation from one place.",
+			"body": [
+				"StudioDash extends beyond app analytics by bringing together website traffic, search visibility, synchronisation status, and connected provider information.",
+				"Everything is designed to help you understand the complete health of your portfolio rather than viewing each service in isolation."
+			],
+			"bullets": [
+				"Website traffic.",
+				"Search visibility.",
+				"Provider synchronisation.",
+				"Operational insights."
+			],
+			"image": {
+				"src": "apps/studiodash/Screenshot4.png",
+				"alt": "StudioDash website analytics",
+				"caption": "Website analytics and provider health working together."
+			},
+			"links": [
+				{
+					"label": "Explore Website Analytics",
+					"href": "/apps/studiodash/website-seo-analytics"
+				},
+				{
+					"label": "Learn About Automation & Sync",
+					"href": "/apps/studiodash/automation-sync"
+				}
+			]
+		}
+	],
+	"imageMetadata": [
+		{
+			"src": "apps/studiodash/Screenshot1.png",
+			"alt": "StudioDash dashboard overview",
+			"purpose": "doc",
+			"width": 1372,
+			"height": 995,
+			"usage": [
+				"docs",
+				"website"
+			]
+		},
+		{
+			"src": "apps/studiodash/Screenshot2.png",
+			"alt": "StudioDash provider analytics",
+			"purpose": "doc",
+			"width": 1372,
+			"height": 995,
+			"usage": [
+				"docs",
+				"website"
+			]
+		},
+		{
+			"src": "apps/studiodash/Screenshot3.png",
+			"alt": "StudioDash revenue analytics",
+			"purpose": "doc",
+			"width": 1372,
+			"height": 995,
+			"usage": [
+				"docs",
+				"website"
+			]
+		},
+		{
+			"src": "apps/studiodash/Screenshot4.png",
+			"alt": "StudioDash website analytics",
+			"purpose": "doc",
+			"width": 1372,
+			"height": 995,
+			"usage": [
+				"docs",
+				"website"
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "visual-walkthrough-standard",
+			"heading": "Take a Tour of StudioDash",
+			"paragraphs": [
+				"These screenshots highlight the main areas of StudioDash, showing how the application helps developers monitor their apps, revenue, websites, and connected services.",
+				"Follow the journey from your daily dashboard through analytics, reporting, and operational insights to see how StudioDash brings everything together in one workspace."
+			]
+		}
+	],
+	"keywords": [
+		"StudioDash screenshots",
+		"developer dashboard screenshots",
+		"BarkinMad Studios"
+	],
+	"estimatedReadTimeMinutes": 4,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"overview",
+		"guide"
+	]
 }

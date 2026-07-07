@@ -1,111 +1,111 @@
 {
-  "documentationSchemaVersion": "1.1.0",
-  "title": "StudioDash Guide",
-  "seoTitle": "StudioDash Guide | BarkinMad Studios",
-  "description": "A StudioDash guide to the product overview, private beta, integrations, analytics, reporting, sync, security, FAQ, release notes, and screenshots.",
-  "summary": "Use this guide as the main flow through StudioDash guide, from product orientation through provider setup concepts, analytics, reporting, and security.",
-  "heroImage": "apps/studiodash/studiodash-hero.png",
-  "heroImageAlt": "StudioDash guide dashboard",
-  "referenceImage": {
-    "src": "apps/studiodash/studiodash-hero.png",
-    "alt": "StudioDash guide dashboard"
-  },
-  "featureShowcases": [
-    {
-      "id": "guide-route",
-      "heading": "A practical flow through StudioDash",
-      "summary": "The guide is organised around how a developer would evaluate StudioDash: first the product, then providers, then analytics, then operating and privacy detail.",
-      "body": "StudioDash guide is not intended to be read as a loose set of marketing pages. Each page explains part of the same workflow: connect provider context, review app and revenue signals, understand website and search visibility, read sync state, and keep roadmap claims separate from released behavior.",
-      "bullets": [
-        "Start with overview, private beta, features, and integrations.",
-        "Use dashboard and analytics pages to understand the operating model.",
-        "Use reporting, sync, security, FAQ, release notes, and screenshots for supporting detail."
-      ],
-      "image": {
-        "src": "apps/studiodash/Screenshot1.png",
-        "alt": "StudioDash dashboard overview supporting the guide workflow",
-        "caption": "The overview screenshot supports the guide workflow and entry path through the guide set."
-      },
-      "layout": "textRight",
-      "links": [
-        {
-          "label": "View screenshots",
-          "href": "/apps/studiodash/screenshots"
-        }
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "start-here",
-      "heading": "Start here",
-      "paragraphs": [
-        "Start with the [StudioDash overview](/apps/studiodash), then review the [Private Beta](/apps/studiodash/private-beta), [Features](/apps/studiodash/features), and [Integrations](/apps/studiodash/integrations) pages. Those pages explain the product direction, beta access route, and provider coverage before you move into detailed analytics.",
-        "StudioDash is currently preparing for a controlled private beta, so public guide separates implemented coverage from pre-release coverage and roadmap items. That distinction is important across the whole guide."
-      ],
-      "bullets": [
-        "Read Overview for the product purpose and audience.",
-        "Read Private Beta for availability and invitation context.",
-        "Read Features for the main StudioDash workflow.",
-        "Read Integrations for Apple, Google, Cloudflare, advertising, and pre-release provider coverage."
-      ]
-    },
-    {
-      "id": "dashboard-and-analytics-path",
-      "heading": "Dashboard and analytics path",
-      "paragraphs": [
-        "Next, read [Dashboard](/apps/studiodash/dashboard), [Revenue Analytics](/apps/studiodash/revenue-analytics), [App Store Analytics](/apps/studiodash/app-store-analytics), and [Website & SEO Analytics](/apps/studiodash/website-seo-analytics). Together, these pages explain how StudioDash is designed to bring app, revenue, advertising, website, search, and provider signals into one workspace.",
-        "Use these pages to understand how selected-period metrics differ from current operational state. Revenue, downloads, website traffic, and search visibility can be reviewed by period where data exists; provider health, app lifecycle, validation state, and attention items describe the latest known state."
-      ],
-      "bullets": [
-        "Dashboard explains the daily operating surface.",
-        "Revenue Analytics explains provider totals, app revenue, country/date breakdowns, and trend review.",
-        "App Store Analytics explains app lifecycle, metadata, downloads, ratings, reviews, and sales-report context.",
-        "Website & SEO Analytics explains Cloudflare traffic and Google Search Console visibility."
-      ]
-    },
-    {
-      "id": "operations-path",
-      "heading": "Operations path",
-      "paragraphs": [
-        "For day-to-day operation, read [Reporting](/apps/studiodash/reporting), [Automation & Sync](/apps/studiodash/automation-sync), and [Security & Privacy](/apps/studiodash/security-privacy). These pages explain how to interpret reports, understand provider sync state, and approach credentials and local operational data responsibly.",
-        "The operating path is where StudioDash guide is most careful about wording. A missing value may mean no provider history, no data in the selected period, an unconfigured provider, an error, or a planned integration. The guide should help users tell those states apart."
-      ],
-      "bullets": [
-        "Reporting explains how to review selected-period summaries and provider context.",
-        "Automation & Sync explains provider health, manual refresh, cache state, and roadmap automation.",
-        "Security & Privacy explains credential principles, provider permissions, local data, and public guide boundaries."
-      ]
-    },
-    {
-      "id": "supporting-pages",
-      "heading": "Supporting pages",
-      "paragraphs": [
-        "Use [FAQ](/apps/studiodash/frequently-asked-questions), [Release Notes](/apps/studiodash/release-notes), and [Screenshots](/apps/studiodash/screenshots) when you need quick answers, public milestone context, or the current visual walkthrough.",
-        "The Screenshots page pairs each current product image with what the screen shows, why it matters, the related workflow, and key capabilities. Other pages may use `Screenshot1` through `Screenshot4` as supporting Feature Showcase images for related workflows."
-      ],
-      "bullets": [
-        "FAQ answers common public questions about availability, platforms, providers, data, reporting, and roadmap items.",
-        "Release Notes records player-facing guide, product, beta, and availability milestones.",
-        "Screenshots provides the current visual walkthrough using the dashboard artwork available in the website repository."
-      ]
-    }
-  ],
-  "keywords": [
-    "StudioDash guide",
-    "developer dashboard guide",
-    "StudioDash guide"
-  ],
-  "estimatedReadTimeMinutes": 5,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "overview",
-    "private-beta",
-    "features",
-    "integrations",
-    "revenue-analytics",
-    "frequently-asked-questions"
-  ]
+	"documentationSchemaVersion": "1.1.0",
+	"title": "StudioDash Guide",
+	"seoTitle": "StudioDash Guide | BarkinMad Studios",
+	"description": "Everything you need to know about StudioDash, from getting started and integrations to analytics, reporting, security, and future development.",
+	"summary": "Use this guide to explore every part of StudioDash, understand its features, and discover how it helps manage your apps and developer services from one place.",
+	"heroImage": "apps/studiodash/studiodash-hero.png",
+	"heroImageAlt": "StudioDash guide dashboard",
+	"referenceImage": {
+		"src": "apps/studiodash/studiodash-hero.png",
+		"alt": "StudioDash guide dashboard"
+	},
+	"featureShowcases": [
+		{
+			"id": "guide-route",
+			"heading": "Everything You Need in One Guide",
+			"summary": "Follow a clear path through StudioDash, from getting started to advanced reporting and analytics.",
+			"body": "Whether you're discovering StudioDash for the first time or exploring its more advanced features, this guide walks you through every major part of the product. Learn how integrations, dashboards, analytics, reporting, and automation work together to help you manage your apps and services more effectively.",
+			"bullets": [
+				"Start with the Overview, Private Beta, Features, and Integrations.",
+				"Discover dashboards, analytics, and provider insights.",
+				"Finish with reporting, automation, security, release notes, and screenshots."
+			],
+			"image": {
+				"src": "apps/studiodash/Screenshot1.png",
+				"alt": "StudioDash dashboard overview",
+				"caption": "Start your StudioDash journey here."
+			},
+			"layout": "textRight",
+			"links": [
+				{
+					"label": "View Screenshots",
+					"href": "/apps/studiodash/screenshots"
+				}
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "start-here",
+			"heading": "Start Here",
+			"paragraphs": [
+				"Begin with the [StudioDash Overview](/apps/studiodash), then explore the [Private Beta](/apps/studiodash/private-beta), [Features](/apps/studiodash/features), and [Integrations](/apps/studiodash/integrations) pages. Together they introduce StudioDash, explain its capabilities, and show how supported services fit into the wider platform.",
+				"StudioDash is currently preparing for private beta, so some features are available today while others continue to evolve as development progresses."
+			],
+			"bullets": [
+				"Overview introduces StudioDash and its goals.",
+				"Private Beta explains availability and invitations.",
+				"Features highlights the main capabilities.",
+				"Integrations explains the supported developer services."
+			]
+		},
+		{
+			"id": "dashboard-and-analytics-path",
+			"heading": "Explore Your Dashboard & Analytics",
+			"paragraphs": [
+				"Next, discover how StudioDash brings together app performance, revenue, website analytics, advertising, and provider health into one workspace.",
+				"Dedicated pages explain how to monitor your apps, understand historical trends, review operational information, and investigate changes using detailed analytics."
+			],
+			"bullets": [
+				"Dashboard provides your daily overview.",
+				"Revenue Analytics tracks income across connected providers.",
+				"App Store Analytics helps monitor downloads, ratings, reviews, and releases.",
+				"Website & SEO Analytics combines Cloudflare and Google Search Console insights."
+			]
+		},
+		{
+			"id": "operations-path",
+			"heading": "Manage Your Studio",
+			"paragraphs": [
+				"StudioDash also includes tools to help you understand reporting, synchronisation, provider health, and security.",
+				"These pages explain how data is refreshed, how providers are monitored, and how StudioDash helps you manage multiple services with confidence."
+			],
+			"bullets": [
+				"Reporting explains historical summaries and exports.",
+				"Automation & Sync covers provider health and synchronisation.",
+				"Security & Privacy explains credentials, permissions, and data protection."
+			]
+		},
+		{
+			"id": "supporting-pages",
+			"heading": "Helpful Resources",
+			"paragraphs": [
+				"The remaining guides provide additional information to help you get the most from StudioDash.",
+				"Browse the FAQ for quick answers, Release Notes to follow development progress, and Screenshots for a visual tour of the application."
+			],
+			"bullets": [
+				"Frequently Asked Questions.",
+				"Release Notes.",
+				"Screenshots and visual walkthrough."
+			]
+		}
+	],
+	"keywords": [
+		"StudioDash guide",
+		"developer dashboard guide",
+		"StudioDash documentation"
+	],
+	"estimatedReadTimeMinutes": 5,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"overview",
+		"private-beta",
+		"features",
+		"integrations",
+		"revenue-analytics",
+		"frequently-asked-questions"
+	]
 }
