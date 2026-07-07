@@ -23,7 +23,7 @@
     {
       "slug": "overview",
       "title": "App Overview",
-      "description": "Get a practical introduction to ZXPong and how its release-facing systems fit into the ZX Series.",
+      "description": "Get a practical introduction to ZXPong and how its live systems fit into the ZX Series.",
       "required": true,
       "status": "required",
       "order": 1,
@@ -58,7 +58,7 @@
     {
       "slug": "controls",
       "title": "Controls",
-      "description": "Understand ZXPong paddle input, positioning, timing, and release-facing control expectations.",
+      "description": "Understand ZXPong paddle input, positioning, timing, and live control expectations.",
       "required": true,
       "status": "required",
       "order": 3,
@@ -75,7 +75,7 @@
     {
       "slug": "game-modes",
       "title": "Game Modes",
-      "description": "Compare Solo play and World PVP while noting Local PVP is not shown in the current release-facing menu.",
+      "description": "Compare Solo play and World PVP while noting Local PVP is not shown in the current live menu.",
       "required": true,
       "status": "required",
       "order": 4,

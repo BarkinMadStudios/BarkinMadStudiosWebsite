@@ -12,7 +12,7 @@
       "heading": "Start here",
       "paragraphs": [
         "ZXSpace is a short-session city-defence formation shooter: move the cannon, clear alien waves, protect shields and city buildings, and chase better scores.",
-        "For the current verified release-facing documentation, focus on the solo city-defence loop."
+        "Focus on the solo city-defence loop while multiplayer and other systems remain under release verification."
       ]
     },
     {
@@ -74,14 +74,14 @@
     {
       "id": "complete-guide-route",
       "heading": "ZXSpace complete guide",
-      "summary": "The Guide connects the full ZXSpace documentation set into one route through setup, play, progress, and support.",
+      "summary": "The Guide brings setup, play, support, and progress topics into one path for your gameplay flow.",
       "body": [
         "This matters because the ZX Series pages should feel consistent across all games. The guide helps players move from the overview into the exact page they need without losing context.",
         "Players use this page as the main map when they want a complete explanation rather than a single topic."
       ],
       "bullets": [
-        "Connects setup, controls, modes, tips, achievements, leaderboards, FAQ, and screenshots.",
-        "Keeps the documentation route consistent across ZXSnake, ZXBrick, ZXPong, and ZXSpace.",
+        "Learn how setup, controls, modes, tips, achievements, leaderboards, FAQ, and screenshots.",
+        "Keeps your guide path consistent across ZXSnake, ZXBrick, ZXPong, and ZXSpace.",
         "Uses the current game artwork to support the guide workflow."
       ],
       "image": {
@@ -112,7 +112,7 @@
       "image": {
         "src": "apps/zxspace/zxspace-hero.png",
         "alt": "ZXSpace gameplay and progress artwork",
-        "caption": "ZXSpace supporting artwork connects gameplay with progress surfaces."
+        "caption": "Use this artwork as your reminder of what to focus on after each game session."
       },
       "links": [
         {

@@ -266,7 +266,7 @@
       ],
       "bullets": [
         "Starts with player setup and match creation.",
-        "Explains supported game modes and scoring rules.",
+        "Learn supported game modes and scoring rules.",
         "Links results, leaderboards, achievements, privacy, and premium access."
       ],
       "image": {
@@ -291,9 +291,9 @@
         "Players use this part of the guide before starting a new format or when they need a quick reminder of how scoring works."
       ],
       "bullets": [
-        "Keeps supported rules public-facing and easy to scan.",
-        "Explains what players need before they start a match.",
-        "Connects rules to setup, keyboard shortcuts, and score entry."
+        "Keeps supported rules player-facing and easy to scan.",
+        "Learn what players need before they start a match.",
+        "Learn how rules to setup, keyboard shortcuts, and score entry."
       ],
       "image": {
         "src": "apps/gameofdarts/gameofdarts-match-types.png",
@@ -317,8 +317,8 @@
       ],
       "bullets": [
         "Links results and improvement to statistics.",
-        "Explains Game Center leaderboards and achievements.",
-        "Keeps premium access and privacy wording clear and public-facing."
+        "Learn Game Center leaderboards and achievements.",
+        "Keeps premium access and privacy wording clear and player-facing."
       ],
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",

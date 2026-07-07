@@ -81,7 +81,7 @@
       ],
       "bullets": [
         "Summarises the core arcade loop.",
-        "Links the app landing route to the documentation set.",
+        "Take players from the game landing page into these gameplay guides.",
         "Keeps public wording focused on player experience and supported features."
       ],
       "image": {
@@ -105,14 +105,14 @@
         "Players use these supporting pages after the first session to understand goals, scoring surfaces, unlocks, and practical tips."
       ],
       "bullets": [
-        "Connects gameplay to progression and support pages.",
+        "Learn how gameplay to progression and support pages.",
         "Keeps route structure consistent across the ZX Series.",
         "Uses existing artwork as placeholders where page-specific screenshots are not available."
       ],
       "image": {
         "src": "apps/zxsnake/zxsnake-gameplay-02.png",
         "alt": "ZXSnake supporting gameplay screen",
-        "caption": "ZXSnake supporting artwork is used for progression and documentation context."
+        "caption": "Use this artwork to confirm your next gameplay goals before the next session."
       },
       "links": [
         {

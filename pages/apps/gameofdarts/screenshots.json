@@ -150,7 +150,7 @@
       "bullets": [
         "Entry point for player and match setup.",
         "Supports quick games and longer configured matches.",
-        "Connects directly to mode, match type, DartBot, and scoring flows."
+        "Learn how directly to mode, match type, DartBot, and scoring flows."
       ],
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
@@ -230,7 +230,7 @@
       "bullets": [
         "Supports rule discovery and app guidance.",
         "Useful for players switching between formats.",
-        "Connects the visual walkthrough to the full guide and FAQ."
+        "Learn how the visual walkthrough to the full guide and FAQ."
       ],
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-help.png",
@@ -258,7 +258,7 @@
         "Players use leaderboards after play to compare supported scores and decide what they want to improve next."
       ],
       "bullets": [
-        "Connects match results to Game Center leaderboards.",
+        "Learn how match results to Game Center leaderboards.",
         "Supports score comparison across supported modes.",
         "Complements the statistics and achievements workflow."
       ],

@@ -67,10 +67,10 @@
       "summary": "Achievements give ZXBrick players optional goals beyond a single run or match.",
       "body": [
         "This matters because players often want a reason to revisit the game after learning the basics. Achievement goals add structure without changing the core arcade loop.",
-        "Players use this page after playing to understand which progress surfaces are supported and how achievements relate to regular sessions."
+        "Players use this page after playing to understand which progress tracking are supported and how achievements relate to regular sessions."
       ],
       "bullets": [
-        "Connects repeat play to optional goals.",
+        "Learn how repeat play to optional goals.",
         "Keeps achievement wording tied to supported game behaviour.",
         "Pairs naturally with leaderboards and tips."
       ],

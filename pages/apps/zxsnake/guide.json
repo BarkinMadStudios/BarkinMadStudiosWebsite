@@ -3,7 +3,7 @@
   "title": "ZXSnake Complete Guide",
   "seoTitle": "ZXSnake Complete Guide | BarkinMad Studios",
   "description": "A full text guide for ZXSnake covering controls, game flow, scoring, progression systems, and practical improvement methods.",
-  "summary": "This page holds the complete readable guide content for ZXSnake so search engines and accessibility users can access the full details in HTML text.",
+  "summary": ""Learn everything you need in one place for ZXSnake so search engines and accessibility users can access the full details in HTML text.",
   "heroImage": "apps/zxsnake/zxsnake-hero.png",
   "heroImageAlt": "ZXSnake gameplay screen with retro visuals",
   "imageMetadata": [
@@ -139,8 +139,8 @@
       "heading": "Accessibility and readability",
       "paragraphs": [
         "This complete guide page exists to make ZXSnake content directly readable by screen readers, search crawlers, and accessibility-first users.",
-        "Each topic remains available through standard app documentation routes with images available where needed for human review.",
-        "Use this page as the canonical text source when sharing deep links for onboarding or documentation parity.",
+        "Keep each topic in one guide path, with screenshots where they help you practice.",
+        "Use this page as the one canonical source for onboarding links and help pages.",
         "Keep gameplay pages concise so humans first encounter visual cues and then choose this route for full text depth."
       ]
     }
@@ -191,14 +191,14 @@
     {
       "id": "complete-guide-route",
       "heading": "ZXSnake complete guide",
-      "summary": "The Guide connects the full ZXSnake documentation set into one route through setup, play, progress, and support.",
+      "summary": "The Guide brings setup, play, support, and progress topics into one path for your gameplay flow.",
       "body": [
         "This matters because the ZX Series pages should feel consistent across all games. The guide helps players move from the overview into the exact page they need without losing context.",
         "Players use this page as the main map when they want a complete explanation rather than a single topic."
       ],
       "bullets": [
-        "Connects setup, controls, modes, tips, achievements, leaderboards, FAQ, and screenshots.",
-        "Keeps the documentation route consistent across ZXSnake, ZXBrick, ZXPong, and ZXSpace.",
+        "Learn how setup, controls, modes, tips, achievements, leaderboards, FAQ, and screenshots.",
+        "Keeps your guide path consistent across ZXSnake, ZXBrick, ZXPong, and ZXSpace.",
         "Uses the current game artwork to support the guide workflow."
       ],
       "image": {
@@ -229,7 +229,7 @@
       "image": {
         "src": "apps/zxsnake/zxsnake-gameplay-02.png",
         "alt": "ZXSnake gameplay and progress artwork",
-        "caption": "ZXSnake supporting artwork connects gameplay with progress surfaces."
+        "caption": "Use this artwork as your reminder of what to focus on after each game session."
       },
       "links": [
         {

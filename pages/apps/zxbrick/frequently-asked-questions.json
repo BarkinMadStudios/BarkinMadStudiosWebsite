@@ -67,7 +67,7 @@
     {
       "id": "quick-answers",
       "heading": "ZXBrick quick answers",
-      "summary": "The FAQ gives players short answers about ZXBrick features, progression, support, and current documentation status.",
+      "summary": "The FAQ gives players quick answers about ZXBrick features, progression, support, and current guide status.",
       "body": [
         "This matters because players often arrive with one specific question. The page should answer quickly and then point them to the deeper guide when needed.",
         "Players use this page when they need support context without reading every guide page."

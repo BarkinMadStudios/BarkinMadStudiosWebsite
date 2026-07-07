@@ -2,7 +2,7 @@
   "documentationSchemaVersion": "1.2.0",
   "title": "ZXPong Guide",
   "seoTitle": "ZXPong Guide | BarkinMad Studios",
-  "description": "Complete ZXPong guide covering the release-facing match loop, controls, Solo play, World PVP, coins, achievements, and leaderboards.",
+  "description": "Complete ZXPong guide covering the live match loop, controls, Solo play, World PVP, coins, achievements, and leaderboards.",
   "summary": "A compact ZXPong guide for players now that the app is live on the App Store.",
   "heroImage": "apps/zxpong/zxpong-hero.png",
   "heroImageAlt": "ZXPong guide hero artwork",
@@ -12,14 +12,14 @@
       "heading": "Start here",
       "paragraphs": [
         "ZXPong is a short-session arcade paddle game: defend your side, return the ball, and build longer rallies.",
-        "For the current release-facing build, focus on Solo play and World PVP. Local PVP is not advertised here because it is hidden by the current release flag."
+        "For the current live build, focus on Solo play and World PVP. Local PVP is not advertised here because it is disabled in the current live settings."
       ]
     },
     {
       "id": "core-path",
       "heading": "Core guide path",
       "paragraphs": [
-        "Read How to Play for the match loop, Controls for paddle discipline, and Game Modes for release-facing mode status.",
+        "Read How to Play for the match loop, Controls for paddle discipline, and Game Modes for live mode status.",
         "After that, use Coins, Achievements, Leaderboards, and Tips & Strategy to plan repeat sessions."
       ],
       "bullets": [
@@ -74,14 +74,14 @@
     {
       "id": "complete-guide-route",
       "heading": "ZXPong complete guide",
-      "summary": "The Guide connects the full ZXPong documentation set into one route through setup, play, progress, and support.",
+      "summary": "The Guide brings setup, play, support, and progress topics into one path for your gameplay flow.",
       "body": [
         "This matters because the ZX Series pages should feel consistent across all games. The guide helps players move from the overview into the exact page they need without losing context.",
         "Players use this page as the main map when they want a complete explanation rather than a single topic."
       ],
       "bullets": [
-        "Connects setup, controls, modes, tips, achievements, leaderboards, FAQ, and screenshots.",
-        "Keeps the documentation route consistent across ZXSnake, ZXBrick, ZXPong, and ZXSpace.",
+        "Learn how setup, controls, modes, tips, achievements, leaderboards, FAQ, and screenshots.",
+        "Keeps your guide path consistent across ZXSnake, ZXBrick, ZXPong, and ZXSpace.",
         "Uses the current game artwork to support the guide workflow."
       ],
       "image": {
@@ -112,7 +112,7 @@
       "image": {
         "src": "apps/zxpong/zxpong-hero.png",
         "alt": "ZXPong gameplay and progress artwork",
-        "caption": "ZXPong supporting artwork connects gameplay with progress surfaces."
+        "caption": "Use this artwork as your reminder of what to focus on after each game session."
       },
       "links": [
         {

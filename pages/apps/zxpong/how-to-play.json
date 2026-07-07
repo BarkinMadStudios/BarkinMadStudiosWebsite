@@ -2,7 +2,7 @@
   "documentationSchemaVersion": "1.2.0",
   "title": "How to Play ZXPong",
   "seoTitle": "How to Play ZXPong | BarkinMad Studios",
-  "description": "Learn the ZXPong session loop, rally scoring rhythm, paddle goal, and release-facing flow for Solo and World PVP play.",
+  "description": "Learn the ZXPong session loop, rally scoring rhythm, paddle goal, and live flow for Solo and World PVP play.",
   "summary": "ZXPong is built around defending your paddle, returning the ball, extending rallies, and improving match consistency.",
   "heroImage": "apps/zxpong/zxpong-gameplay-01.png",
   "heroImageAlt": "ZXPong gameplay screenshot",
@@ -38,7 +38,7 @@
       ],
       "bullets": [
         "Choose Solo play for practice against AI difficulty levels",
-        "Choose World PVP when you want the visible release-facing multiplayer route",
+        "Choose World PVP when you want the visible live multiplayer route",
         "Use each rally to practice controlled paddle positioning rather than only chasing the ball late"
       ]
     },
@@ -102,9 +102,9 @@
         "Use this page first, then move into controls, game modes, and strategy when you want to improve consistency."
       ],
       "bullets": [
-        "Explains the route from setup into play.",
-        "Connects controls, modes, and progress surfaces.",
-        "Keeps beginner guidance practical and public-facing."
+        "Learn the route from setup into play.",
+        "Learn how controls, modes, and progress tracking.",
+        "Keeps beginner guidance practical and player-facing."
       ],
       "image": {
         "src": "images/shared/placeholder.png",

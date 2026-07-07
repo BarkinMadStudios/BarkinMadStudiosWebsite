@@ -72,9 +72,9 @@
         "Players use this page after play to understand supported comparison surfaces and how leaderboard goals sit beside personal improvement."
       ],
       "bullets": [
-        "Connects score chasing to supported comparison.",
+        "Learn how score chasing to supported comparison.",
         "Works with achievements and tips.",
-        "Keeps competitive wording clear and public-facing."
+        "Keeps competitive wording clear and player-facing."
       ],
       "image": {
         "src": "apps/zxbrick/zxbrick-hero.png",

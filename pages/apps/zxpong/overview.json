@@ -2,7 +2,7 @@
   "documentationSchemaVersion": "1.2.0",
   "title": "ZXPong Overview",
   "seoTitle": "ZXPong Overview | BarkinMad Studios",
-  "description": "A practical introduction to ZXPong, the core paddle-and-ball loop, release-facing modes, and ZX Series support systems.",
+  "description": "A practical introduction to ZXPong, the core paddle-and-ball loop, live modes, and ZX Series support systems.",
   "summary": "ZXPong is a retro-inspired paddle arcade game in the ZX Series with Solo play, World PVP, skins, coins, achievements, and Game Center support.",
   "heroImage": "apps/zxpong/zxpong-hero.png",
   "heroImageAlt": "ZXPong retro paddle game hero artwork",
@@ -46,7 +46,7 @@
       "heading": "What is ZXPong?",
       "paragraphs": [
         "ZXPong is part of the [ZX Series](/zx-series), focused on classic paddle-and-ball rallies, short sessions, and score improvement.",
-        "The current release-facing feature set includes Solo play, World PVP, AI level selection, unlockable paddle skins, collectible court coins, Game Center achievements, leaderboards, and BarkinMad Coins support."
+        "The current live feature set includes Solo play, World PVP, AI level selection, unlockable paddle skins, collectible court coins, Game Center achievements, leaderboards, and BarkinMad Coins support."
       ]
     },
     {
@@ -62,7 +62,7 @@
       "heading": "Release notes",
       "paragraphs": [
         "ZXPong is live on the App Store.",
-        "Local PVP exists in retained app code but is not shown in the current release-facing menu. World PVP is the visible multiplayer route documented here."
+        "Local PVP exists in retained app code but is not shown in the current live menu. World PVP is the visible multiplayer route documented here."
       ]
     }
   ],
@@ -114,7 +114,7 @@
       ],
       "bullets": [
         "Summarises the core arcade loop.",
-        "Links the app landing route to the documentation set.",
+        "Take players from the game landing page into these gameplay guides.",
         "Keeps public wording focused on player experience and supported features."
       ],
       "image": {
@@ -138,14 +138,14 @@
         "Players use these supporting pages after the first session to understand goals, scoring surfaces, unlocks, and practical tips."
       ],
       "bullets": [
-        "Connects gameplay to progression and support pages.",
+        "Learn how gameplay to progression and support pages.",
         "Keeps route structure consistent across the ZX Series.",
         "Uses existing artwork as placeholders where page-specific screenshots are not available."
       ],
       "image": {
         "src": "apps/zxpong/zxpong-hero.png",
         "alt": "ZXPong supporting gameplay screen",
-        "caption": "ZXPong supporting artwork is used for progression and documentation context."
+        "caption": "Use this artwork to confirm your next gameplay goals before the next session."
       },
       "links": [
         {

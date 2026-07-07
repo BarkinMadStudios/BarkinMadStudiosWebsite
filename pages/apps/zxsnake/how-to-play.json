@@ -35,9 +35,9 @@
         "Use this page first, then move into controls, game modes, and strategy when you want to improve consistency."
       ],
       "bullets": [
-        "Explains the route from setup into play.",
-        "Connects controls, modes, and progress surfaces.",
-        "Keeps beginner guidance practical and public-facing."
+        "Learn the route from setup into play.",
+        "Learn how controls, modes, and progress tracking.",
+        "Keeps beginner guidance practical and player-facing."
       ],
       "image": {
         "src": "apps/zxsnake/zxsnake-how-to-play.png",

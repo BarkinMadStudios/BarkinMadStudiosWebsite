@@ -23,7 +23,7 @@
     },
     {
       "question": "What modes are documented for release?",
-      "answer": "Solo play and World PVP are documented. Local PVP is retained in code but hidden from the current release-facing menu."
+      "answer": "Solo play and World PVP are documented. Local PVP is retained in code but hidden from the current live menu."
     },
     {
       "question": "Does ZXPong use BarkinMad Coins?",
@@ -63,7 +63,7 @@
     {
       "id": "quick-answers",
       "heading": "ZXPong quick answers",
-      "summary": "The FAQ gives players short answers about ZXPong features, progression, support, and current documentation status.",
+      "summary": "The FAQ gives players quick answers about ZXPong features, progression, support, and current guide status.",
       "body": [
         "This matters because players often arrive with one specific question. The page should answer quickly and then point them to the deeper guide when needed.",
         "Players use this page when they need support context without reading every guide page."

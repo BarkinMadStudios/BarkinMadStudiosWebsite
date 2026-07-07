@@ -87,9 +87,9 @@
         "Players use this page when deciding whether they want a quick leg, a tournament-style match, a practice game, or a ruleset that suits a group night."
       ],
       "bullets": [
-        "Explains practical differences between supported formats.",
+        "Learn practical differences between supported formats.",
         "Helps players choose between short sessions and longer match structures.",
-        "Connects format choice to setup, scoring, and strategy."
+        "Learn how format choice to setup, scoring, and strategy."
       ],
       "image": {
         "src": "apps/gameofdarts/gameofdarts-match-types.png",
