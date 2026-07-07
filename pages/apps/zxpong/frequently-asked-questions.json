@@ -31,7 +31,7 @@
     },
     {
       "question": "What leaderboard should players focus on?",
-      "answer": "Current central documentation identifies Longest Rally as the ZXPong app-specific leaderboard focus, with shared ZX Series score and coin leaderboards also available through the shared leaderboard model."
+      "answer": "In ZXPong, Longest Rally is the app-specific leaderboard focus, while shared ZX Series score and coin leaderboards are available through the shared leaderboard model."
     }
   ],
   "images": [

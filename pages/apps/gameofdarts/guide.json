@@ -258,8 +258,8 @@
   "featureShowcases": [
     {
       "id": "guide-route-through-play",
-      "heading": "A guide route through a full session",
-      "summary": "The guide connects setup, players, scoring, rules, online/offline behaviour, ads and unlocks, Game Center, and statistics into one player route.",
+      "heading": "A complete guide through a full session",
+      "summary": "The guide connects setup, players, scoring, rules, online/offline behaviour, ads and unlocks, Game Center, and statistics into one clear gameplay flow.",
       "body": [
         "This matters because Game of Darts covers more than one screen. Players may arrive with a specific question about setup, a ruleset, DartBot, statistics, or Game Center, and the guide gives them a path through the app without guessing.",
         "Players use this page as the main map when they want a complete explanation rather than a single topic page."
@@ -272,7 +272,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-hero.png",
         "alt": "Game of Darts hero artwork for the full guide",
-        "caption": "Hero artwork represents the full guide route across setup, play, and progress."
+        "caption": "Hero artwork represents the full guide flow across setup, play, and progress."
       },
       "links": [
         {
@@ -313,7 +313,7 @@
       "summary": "After scoring, the guide points players toward statistics, leaderboards, achievements, DartBot practice, premium access, and privacy notes.",
       "body": [
         "This matters because players need different information after a game than before it. Results, goals, settings, and unlocks are supporting screens that help players decide what to do next.",
-        "Players use these sections when they want to review performance, compare scores, change settings, or understand optional access routes."
+        "Players use these sections when they want to review performance, compare scores, change settings, or follow optional access options."
       ],
       "bullets": [
         "Links results and improvement to statistics.",

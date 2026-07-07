@@ -33,7 +33,7 @@
       "id": "release-check",
       "heading": "Release check",
       "paragraphs": [
-        "This documentation is ready for release discovery while ZXSpace is Coming Soon, with only final approval-dependent metadata, mode verification, or artwork updates expected.",
+        "This guide is ready for release discovery while ZXSpace is Coming Soon, with only final approval, mode verification, or artwork updates expected.",
         "Some pages use shared supporting artwork where a dedicated ZXSpace screenshot is not required for the explanation."
       ]
     }
@@ -46,7 +46,7 @@
     },
     {
       "src": "images/shared/placeholder.png",
-      "alt": "ZXSpace documentation gameplay screenshots",
+      "alt": "ZXSpace gameplay screenshots",
       "caption": "Dedicated page images will be added as artwork is released"
     }
   ],
@@ -87,7 +87,7 @@
       "image": {
         "src": "apps/zxspace/zxspace-hero.png",
         "alt": "ZXSpace guide artwork",
-        "caption": "ZXSpace hero artwork represents the full guide route."
+        "caption": "ZXSpace hero artwork represents the full guide flow."
       },
       "links": [
         {
@@ -99,7 +99,7 @@
     {
       "id": "from-play-to-progress",
       "heading": "From play to progress",
-      "summary": "ZXSpace documentation explains what players do during a session and what they can review afterward.",
+      "summary": "The ZXSpace guide explains what to do during a session and what to review afterward.",
       "body": [
         "This matters because arcade games are easy to start but deeper when players understand scoring, progress, and goals.",
         "Players use the guide to connect active play with achievements, leaderboards, BarkinMad Coins, and support pages."

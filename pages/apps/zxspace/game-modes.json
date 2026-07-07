@@ -3,7 +3,7 @@
   "title": "ZXSpace Game Modes",
   "seoTitle": "ZXSpace Game Modes | BarkinMad Studios",
   "description": "Understand the verified ZXSpace solo city-defence mode and the current status of multiplayer menu availability.",
-  "summary": "ZXSpace release-ready documentation centers on the verified solo city-defence shooter loop.",
+  "summary": "The guide focuses on the verified solo city-defence shooter loop.",
   "heroImage": "images/shared/placeholder.png",
   "heroImageAlt": "ZXSpace game modes gameplay screenshot",
   "sections": [
@@ -20,7 +20,7 @@
       "heading": "Mode status",
       "paragraphs": [
         "ZXSpace supports both Local PVP and World PVP menu paths, while release behavior is finalised as new updates are confirmed.",
-        "This documentation does not describe a separate finished multiplayer gameplay contract until that release behavior is verified."
+        "This guide does not describe a separate finished multiplayer gameplay contract until that release behavior is verified."
       ]
     },
     {
@@ -59,7 +59,7 @@
   "faq": [
     {
       "question": "Is ZXSpace multiplayer documented as a release feature?",
-      "answer": "No. The verified documentation focuses on Solo play. Multiplayer availability will be confirmed as new release details are finalised."
+      "answer": "No. The guide focuses on Solo play first. Multiplayer availability updates as soon as release details are finalized."
     }
   ],
   "contentStatus": "verified",

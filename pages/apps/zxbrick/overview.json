@@ -66,7 +66,7 @@
       "heading": "Where to start",
       "paragraphs": [
         "Start with How to Play, then read Controls and Game Modes before exploring power-ups and strategy pages.",
-        "Use the guide navigation at the top of each page to move between sections quickly."
+        "Use the page links at the top of each page to jump between sections quickly."
       ]
     },
     {
@@ -124,13 +124,14 @@
       "heading": "ZXBrick at a glance",
       "summary": "Overview introduces ZXBrick as a ZX Series brick-breaking arcade game.",
       "body": [
-        "This screen matters because it gives players the quickest route from discovering the game to understanding how it plays. ZXBrick is presented around brick-breaking runs, so players can see the core loop before reading deeper guides.",
-        "Players use this page to decide where to go next: setup, controls, game modes, progression, screenshots, or support topics."
+        "ZXBrick is a classic brick-breaking arcade game where every level challenges your reactions, accuracy, and timing. Clear every brick, collect powerful upgrades, and master increasingly difficult layouts as you progress.",
+        "Whether you’re playing for the first time or aiming for a higher score, this guide will help you understand the core mechanics and get the most out of every game.",
+		"On this page you’ll discover:"
       ],
       "bullets": [
-        "Summarises the core arcade loop.",
-        "Take players from the game landing page into these gameplay guides.",
-        "Keeps public wording focused on player experience and supported features."
+        "How ZXBrick works and what makes it fun.",
+        "What you’ll find throughout the rest of the guide.",
+        "Where to learn about controls, game modes, power-ups, and progression."
       ],
       "image": {
         "src": "apps/zxbrick/zxbrick-gameplay-01.png",
@@ -146,15 +147,15 @@
     },
     {
       "id": "progression-and-support",
-      "heading": "Progression and support surfaces",
-      "summary": "ZXBrick documentation connects gameplay with leaderboards, achievements, BarkinMad Coins, tips, FAQ, and screenshots.",
+      "heading": "Progression and support topics",
+      "summary": "ZXBrick guide pages connect gameplay with leaderboards, achievements, BarkinMad Coins, tips, FAQ, and screenshots.",
       "body": [
         "This matters because ZX Series pages are not only image galleries. They should explain how the player moves from learning the game into repeated play and progress tracking.",
         "Players use these supporting pages after the first session to understand goals, scoring surfaces, unlocks, and practical tips."
       ],
       "bullets": [
         "Learn how gameplay to progression and support pages.",
-        "Keeps route structure consistent across the ZX Series.",
+        "Keeps guide flow consistent across the ZX Series.",
         "Uses existing artwork as placeholders where page-specific screenshots are not available."
       ],
       "image": {

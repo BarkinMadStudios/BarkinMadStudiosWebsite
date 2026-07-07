@@ -203,14 +203,14 @@
         "Players use this area when they want DartBot, advanced features, or a broader premium experience for regular match nights."
       ],
       "bullets": [
-        "Shows optional access routes in one place.",
+        "Shows optional access options in one place.",
         "Supports DartBot and premium feature discovery.",
         "Keeps purchase information separate from scoring and statistics pages."
       ],
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-IAP.png",
         "alt": "Game of Darts premium access screenshot",
-        "caption": "Premium access is presented as an optional route for players who want extra features."
+        "caption": "Premium access is presented as an optional upgrade path for players who want extra features."
       },
       "links": [
         {

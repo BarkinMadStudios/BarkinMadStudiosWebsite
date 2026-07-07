@@ -54,7 +54,7 @@
       "heading": "Where to start",
       "paragraphs": [
         "Start with How to Play, then read Controls and Game Modes before moving into coins, achievements, leaderboards, and strategy.",
-        "Use the guide navigation at the top of each page to move through the standard Website Framework v1.1 structure."
+        "Use the page links at the top of each page to jump between sections quickly."
       ]
     },
     {
@@ -62,7 +62,7 @@
       "heading": "Release notes",
       "paragraphs": [
         "ZXSpace is Coming Soon.",
-        "The documentation is prepared for live discovery while final App Store delivery and approval details are still being confirmed.",
+        "This guide is ready for live discovery while final App Store delivery and approval details are still being confirmed.",
         "Current central notes confirm the solo city-defence path. Multiplayer behavior may be updated in release notes as the game evolves."
       ]
     }
@@ -109,7 +109,7 @@
       "heading": "ZXSpace at a glance",
       "summary": "Overview introduces ZXSpace as a ZX Series space defence arcade game.",
       "body": [
-        "This screen matters because it gives players the quickest route from discovering the game to understanding how it plays. ZXSpace is presented around space defence runs, so players can see the core loop before reading deeper guides.",
+        "This screen helps players move from discovering the game to understanding how it plays. ZXSpace is presented around space defence runs, so players can see the core loop before reading deeper guides.",
         "Players use this page to decide where to go next: setup, controls, game modes, progression, screenshots, or support topics."
       ],
       "bullets": [
@@ -131,15 +131,15 @@
     },
     {
       "id": "progression-and-support",
-      "heading": "Progression and support surfaces",
-      "summary": "ZXSpace documentation connects gameplay with leaderboards, achievements, BarkinMad Coins, tips, FAQ, and screenshots.",
+      "heading": "Progression and support topics",
+      "summary": "ZXSpace guide pages connect gameplay with leaderboards, achievements, BarkinMad Coins, tips, FAQ, and screenshots.",
       "body": [
         "This matters because ZX Series pages are not only image galleries. They should explain how the player moves from learning the game into repeated play and progress tracking.",
         "Players use these supporting pages after the first session to understand goals, scoring surfaces, unlocks, and practical tips."
       ],
       "bullets": [
         "Learn how gameplay to progression and support pages.",
-        "Keeps route structure consistent across the ZX Series.",
+        "Keeps guide flow consistent across the ZX Series.",
         "Uses existing artwork as placeholders where page-specific screenshots are not available."
       ],
       "image": {

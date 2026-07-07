@@ -48,7 +48,7 @@
       "heading": "What is ZXSnake?",
       "paragraphs": [
         "ZXSnake is part of the ZX Series and keeps classic snake movement simple, fast, and replayable.",
-        "Use the guide pages to move through setup, controls, and progression with one short route per topic."
+        "Use the guide pages to move through setup, controls, and progression with one short section per topic."
       ]
     }
   ],
@@ -76,7 +76,7 @@
       "heading": "ZXSnake at a glance",
       "summary": "Overview introduces ZXSnake as a ZX Series survival arcade game.",
       "body": [
-        "This screen matters because it gives players the quickest route from discovering the game to understanding how it plays. ZXSnake is presented around snake survival runs, so players can see the core loop before reading deeper guides.",
+        "This screen helps players move from discovering the game to understanding how it plays. ZXSnake is presented around snake survival runs, so players can see the core loop before reading deeper guides.",
         "Players use this page to decide where to go next: setup, controls, game modes, progression, screenshots, or support topics."
       ],
       "bullets": [
@@ -98,15 +98,15 @@
     },
     {
       "id": "progression-and-support",
-      "heading": "Progression and support surfaces",
-      "summary": "ZXSnake documentation connects gameplay with leaderboards, achievements, BarkinMad Coins, tips, FAQ, and screenshots.",
+      "heading": "Progression and support topics",
+      "summary": "ZXSnake guide pages connect gameplay with leaderboards, achievements, BarkinMad Coins, tips, FAQ, and screenshots.",
       "body": [
         "This matters because ZX Series pages are not only image galleries. They should explain how the player moves from learning the game into repeated play and progress tracking.",
         "Players use these supporting pages after the first session to understand goals, scoring surfaces, unlocks, and practical tips."
       ],
       "bullets": [
         "Learn how gameplay to progression and support pages.",
-        "Keeps route structure consistent across the ZX Series.",
+        "Keeps guide flow consistent across the ZX Series.",
         "Uses existing artwork as placeholders where page-specific screenshots are not available."
       ],
       "image": {

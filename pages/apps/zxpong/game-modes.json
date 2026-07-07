@@ -19,7 +19,7 @@
       "id": "world-pvp",
       "heading": "World PVP",
       "paragraphs": [
-        "World PVP is the visible multiplayer route in the current live build.",
+        "World PVP is the live multiplayer option in the current build.",
         "Use World PVP after you are comfortable with paddle timing and can keep rallies stable under pressure."
       ]
     },
@@ -27,8 +27,8 @@
       "id": "local-pvp-status",
       "heading": "Local PVP status",
       "paragraphs": [
-        "Local PVP is planned for a later update; World PVP is the multiplayer route currently available.",
-        "This documentation does not present Local PVP as a public mode until the release configuration changes."
+        "Local PVP is planned for a later update; World PVP is the multiplayer option currently available.",
+        "This guide keeps Local PVP out until the release configuration changes."
       ]
     }
   ],

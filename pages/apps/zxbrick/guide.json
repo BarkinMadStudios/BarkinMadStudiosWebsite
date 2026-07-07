@@ -214,7 +214,7 @@
       "image": {
         "src": "apps/zxbrick/zxbrick-hero.png",
         "alt": "ZXBrick guide artwork",
-        "caption": "ZXBrick hero artwork represents the full guide route."
+        "caption": "ZXBrick hero artwork represents the full guide flow."
       },
       "links": [
         {
@@ -226,7 +226,7 @@
     {
       "id": "from-play-to-progress",
       "heading": "From play to progress",
-      "summary": "ZXBrick documentation explains what players do during a session and what they can review afterward.",
+      "summary": "The ZXBrick guide explains what to do during a session and what to review afterward.",
       "body": [
         "This matters because arcade games are easy to start but deeper when players understand scoring, progress, and goals.",
         "Players use the guide to connect active play with achievements, leaderboards, BarkinMad Coins, and support pages."

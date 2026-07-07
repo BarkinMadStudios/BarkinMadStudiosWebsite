@@ -75,7 +75,7 @@
     {
       "slug": "game-modes",
       "title": "Game Modes",
-      "description": "Understand the verified ZXSpace solo city-defence route and release status notes for multiplayer menu flags.",
+      "description": "Understand the verified ZXSpace solo city-defence flow and release status notes for multiplayer menu flags.",
       "required": true,
       "status": "required",
       "order": 4,

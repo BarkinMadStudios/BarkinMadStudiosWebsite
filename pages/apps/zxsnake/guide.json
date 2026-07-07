@@ -66,7 +66,7 @@
       "heading": "Scoring and score goals",
       "paragraphs": [
         "Scoring is primarily session-based and benefits from longer clean paths rather than impulsive recovery moves.",
-        "A good score target is one where you can reliably reproduce route stability from run to run.",
+        "A good score target is one where you can reliably reproduce flow consistency from run to run.",
         "Track top score trends, average score trends, and error rate; treat the highest session as less important than repeatable growth."
       ]
     },
@@ -75,7 +75,7 @@
       "heading": "Solo play progression",
       "paragraphs": [
         "Solo is the baseline training environment. Use it to isolate input habits and tune movement rhythm.",
-        "Choose one route style per short block, then increase complexity only after you can hit the same target in at least three attempts.",
+        "Choose one play style per short block, then increase complexity only after you can hit the same target in at least three attempts.",
         "This creates reliable transfer when you return to competitive modes or mixed pressure play."
       ],
       "bullets": [
@@ -88,7 +88,7 @@
       "id": "ai-and-multiplayer",
       "heading": "AI and multiplayer modes",
       "paragraphs": [
-        "AI opponents are useful for practicing pressure, route anticipation, and score urgency without needing a second human player.",
+        "AI opponents are useful for practicing pressure, pattern anticipation, and score urgency without needing a second human player.",
         "PvP introduces stronger timing demands and forces cleaner decision-making under interruption and uncertainty.",
         "Use PvP as a performance checkpoint after you have a stable solo baseline to avoid reinforcement of bad habits."
       ],
@@ -141,14 +141,14 @@
         "This complete guide page exists to make ZXSnake content directly readable by screen readers, search crawlers, and accessibility-first users.",
         "Keep each topic in one guide path, with screenshots where they help you practice.",
         "Use this page as the one canonical source for onboarding links and help pages.",
-        "Keep gameplay pages concise so humans first encounter visual cues and then choose this route for full text depth."
+        "Keep gameplay pages concise so players first encounter visual cues and then choose this section for full text depth."
       ]
     }
   ],
   "faq": [
     {
       "question": "Is ZXSnake available only on iPhone?",
-      "answer": "Current documentation targets iPhone for game support and the linked guide pages are maintained for this device category."
+      "answer": "This guide is maintained for iPhone at the moment, so the linked guide pages stay tuned to that support range."
     },
     {
       "question": "Can this be used as a setup checklist before each play session?",
@@ -204,7 +204,7 @@
       "image": {
         "src": "apps/zxsnake/zxsnake-hero.png",
         "alt": "ZXSnake guide artwork",
-        "caption": "ZXSnake hero artwork represents the full guide route."
+        "caption": "ZXSnake hero artwork represents the full guide flow."
       },
       "links": [
         {
@@ -216,7 +216,7 @@
     {
       "id": "from-play-to-progress",
       "heading": "From play to progress",
-      "summary": "ZXSnake documentation explains what players do during a session and what they can review afterward.",
+      "summary": "The ZXSnake guide explains what to do during a session and what to review afterward.",
       "body": [
         "This matters because arcade games are easy to start but deeper when players understand scoring, progress, and goals.",
         "Players use the guide to connect active play with achievements, leaderboards, BarkinMad Coins, and support pages."

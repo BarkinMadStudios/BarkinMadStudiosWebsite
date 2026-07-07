@@ -122,7 +122,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
         "alt": "Game of Darts setup screen leading into player statistics",
-        "caption": "The main setup screenshot supports the route from play into saved results."
+        "caption": "The main setup screenshot shows the flow from play into saved results."
       },
       "links": [
         {

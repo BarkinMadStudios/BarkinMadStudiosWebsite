@@ -33,7 +33,7 @@
       "id": "release-check",
       "heading": "Release check",
       "paragraphs": [
-        "This documentation is aligned to the live App Store release, with only future artwork updates expected.",
+        "This guide is aligned to the live App Store release, with only future artwork updates expected.",
         "Some pages use shared supporting artwork where a dedicated ZXPong screenshot is not required for the explanation."
       ]
     }
@@ -46,7 +46,7 @@
     },
     {
       "src": "images/shared/placeholder.png",
-      "alt": "ZXPong documentation gameplay screenshots",
+      "alt": "ZXPong gameplay screenshots",
       "caption": "Dedicated page images will be added as artwork is released"
     }
   ],
@@ -87,7 +87,7 @@
       "image": {
         "src": "apps/zxpong/zxpong-hero.png",
         "alt": "ZXPong guide artwork",
-        "caption": "ZXPong hero artwork represents the full guide route."
+        "caption": "ZXPong hero artwork represents the full guide flow."
       },
       "links": [
         {
@@ -99,7 +99,7 @@
     {
       "id": "from-play-to-progress",
       "heading": "From play to progress",
-      "summary": "ZXPong documentation explains what players do during a session and what they can review afterward.",
+      "summary": "The ZXPong guide explains what to do during a session and what to review afterward.",
       "body": [
         "This matters because arcade games are easy to start but deeper when players understand scoring, progress, and goals.",
         "Players use the guide to connect active play with achievements, leaderboards, BarkinMad Coins, and support pages."
