@@ -318,6 +318,14 @@ ${structuredData.map((schema) => `
 <style>
 * { box-sizing: border-box; }
 
+:root {
+  --bms-link: #f39c12;
+  --bms-link-visited: #c98a1a;
+  --bms-link-hover: #ffcc66;
+  --bms-link-active: #ffb347;
+  --bms-link-focus: #90c8ff;
+}
+
 body {
   margin: 0;
   font-family: "Segoe UI", "Avenir Next", Arial, Helvetica, sans-serif;
@@ -336,6 +344,11 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+.site-logo {
+  color: inherit;
+  text-decoration: none;
 }
 
 .site-logo img {
@@ -360,12 +373,31 @@ nav a {
   padding: 0.1rem 0.3rem;
 }
 
-main a:visited,
-footer a:visited {
-  color: #c98a1a;
+:is(main, .hero) a:not(.btn):not(.card-link) {
+  color: var(--bms-link);
+  text-decoration-color: currentColor;
+  text-underline-offset: 0.16em;
 }
 
-nav a:hover { color: #f39c12; }
+:is(main, .hero) a:not(.btn):not(.card-link):visited {
+  color: var(--bms-link-visited);
+}
+
+:is(main, .hero) a:not(.btn):not(.card-link):hover {
+  color: var(--bms-link-hover);
+}
+
+:is(main, .hero) a:not(.btn):not(.card-link):active {
+  color: var(--bms-link-active);
+}
+
+:is(main, .hero) a:not(.btn):not(.card-link):focus-visible,
+footer a:focus-visible {
+  outline: 2px solid var(--bms-link-focus);
+  outline-offset: 3px;
+}
+
+nav a:hover { color: var(--bms-link); }
 
 .hero {
   padding: 4.5rem 2rem 3rem;
@@ -462,7 +494,7 @@ h3 { color: #ffcc66; }
 }
 
 .card-link:hover {
-  border-color: #f39c12;
+  border-color: var(--bms-link);
   transform: translateY(-2px);
 }
 
@@ -659,7 +691,7 @@ h3 { color: #ffcc66; }
 
 .badge {
   display: inline-block;
-  background: #f39c12;
+  background: var(--bms-link);
   color: #111;
   padding: 0.25rem 0.7rem;
   border-radius: 999px;
@@ -672,11 +704,11 @@ h3 { color: #ffcc66; }
 .btn {
   display: inline-block;
   background: transparent;
-  color: #f39c12;
+  color: var(--bms-link);
   padding: 0.38rem 0.74rem;
   min-height: 34px;
   border-radius: 999px;
-  border: 1px solid #f39c12;
+  border: 1px solid var(--bms-link);
   text-decoration: none;
   font-weight: bold;
   margin-top: 0.75rem;
@@ -684,10 +716,10 @@ h3 { color: #ffcc66; }
   line-height: 1.15;
 }
 
-.btn:hover { background: #f39c12; color: #090d17; border-color: #ffb347; }
+.btn:hover { background: var(--bms-link); color: #090d17; border-color: var(--bms-link-active); }
 
 .btn:focus-visible {
-  outline: 2px solid #90c8ff;
+  outline: 2px solid var(--bms-link-focus);
   outline-offset: 2px;
 }
 
@@ -701,11 +733,15 @@ h3 { color: #ffcc66; }
 }
 
 .breadcrumbs a {
-  color: #ffcc66;
+  color: var(--bms-link);
   text-decoration: none;
 }
 
-.breadcrumbs a:hover { color: #f39c12; }
+.breadcrumbs a:visited { color: var(--bms-link-visited); }
+
+.breadcrumbs a:hover { color: var(--bms-link-hover); }
+
+.breadcrumbs a:active { color: var(--bms-link-active); }
 
 .breadcrumb-separator {
   color: #7d84ad;
@@ -729,11 +765,31 @@ h3 { color: #ffcc66; }
   text-decoration: none;
 }
 
+.guide-nav a:visited {
+  color: #f4f4f4;
+}
+
+main .guide-nav a:not(.btn):not(.card-link):visited,
+main .guide-nav a:not(.btn):not(.card-link):hover,
+main .guide-nav a:not(.btn):not(.card-link):active {
+  color: #f4f4f4;
+}
+
 .guide-nav a[aria-current="page"] {
-  background: #f39c12;
-  border-color: #f39c12;
+  background: var(--bms-link);
+  border-color: var(--bms-link);
   color: #0e111f;
   font-weight: bold;
+}
+
+.guide-nav a[aria-current="page"]:visited {
+  color: #0e111f;
+}
+
+main .guide-nav a[aria-current="page"]:not(.btn):not(.card-link):visited,
+main .guide-nav a[aria-current="page"]:not(.btn):not(.card-link):hover,
+main .guide-nav a[aria-current="page"]:not(.btn):not(.card-link):active {
+  color: #0e111f;
 }
 
 .contents-list {
@@ -742,11 +798,15 @@ h3 { color: #ffcc66; }
 }
 
 .contents-list a {
-  color: #ffcc66;
+  color: var(--bms-link);
   text-decoration: none;
 }
 
-.contents-list a:hover { color: #f39c12; }
+.contents-list a:visited { color: var(--bms-link-visited); }
+
+.contents-list a:hover { color: var(--bms-link-hover); }
+
+.contents-list a:active { color: var(--bms-link-active); }
 
 .prev-next {
   display: grid;
@@ -784,9 +844,21 @@ footer {
 }
 
 footer a {
-  color: #f39c12;
+  color: var(--bms-link);
   text-decoration: none;
   margin: 0 0.5rem;
+}
+
+footer a:visited {
+  color: var(--bms-link-visited);
+}
+
+footer a:hover {
+  color: var(--bms-link-hover);
+}
+
+footer a:active {
+  color: var(--bms-link-active);
 }
 
 footer p {
@@ -800,7 +872,7 @@ footer p {
   appearance: none;
   background: transparent;
   border: 0;
-  color: #f39c12;
+  color: var(--bms-link);
   cursor: pointer;
   font: inherit;
   margin: 0 0.5rem;
@@ -809,11 +881,11 @@ footer p {
 }
 
 .footer-cookie-button:hover {
-  color: #ffcc66;
+  color: var(--bms-link-hover);
 }
 
 .footer-cookie-button:focus-visible {
-  outline: 2px solid #90c8ff;
+  outline: 2px solid var(--bms-link-focus);
   outline-offset: 4px;
 }
 
