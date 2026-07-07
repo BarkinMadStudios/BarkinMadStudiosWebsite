@@ -3,7 +3,7 @@
   "title": "StudioDash Security & Privacy",
   "seoTitle": "StudioDash Security and Privacy | BarkinMad Studios",
   "description": "StudioDash public security and privacy principles for credentials, local data, provider access, cache handling, and privacy-aware dashboards.",
-  "summary": "StudioDash is designed around protected credential handling, provider-scoped access, local operational data, and a clear separation between demo, placeholder, and live provider information.",
+  "summary": "StudioDash is designed around protected credential handling, provider-scoped access, local operational data, and a clear separation between demo, pre-release, and live provider information.",
   "heroImage": "apps/studiodash/studiodash-hero.png",
   "heroImageAlt": "StudioDash security and privacy dashboard",
   "referenceImage": {
@@ -15,16 +15,16 @@
       "id": "privacy-aware-operations",
       "heading": "Privacy-aware operating view",
       "summary": "StudioDash presents sensitive operational metrics without turning public documentation into an implementation or credential guide.",
-      "body": "The security and privacy model is user-facing: users need to know what kinds of provider access are involved, why setup state matters, and how live data differs from demo or placeholder content. Public pages deliberately avoid exposing private account details, credentials, unpublished diagnostics, or internal implementation notes.",
+      "body": "The security and privacy model is user-facing: users need to know what kinds of provider access are involved, why setup state matters, and how live data differs from demo or pre-release content. Public pages deliberately avoid exposing private account details, credentials, unpublished diagnostics, or internal implementation notes.",
       "bullets": [
         "Uses provider-specific access patterns such as App Store Connect credentials, Cloudflare tokens, and Google OAuth where appropriate.",
         "Keeps secrets out of visible dashboard copy and public documentation.",
-        "Separates live provider data from demo data, placeholder rows, planned integrations, and roadmap examples."
+        "Separates live provider data from demo data, sample rows, planned integrations, and roadmap examples."
       ],
       "image": {
         "src": "apps/studiodash/Screenshot2.png",
-        "alt": "StudioDash provider status screen used as a temporary security and privacy showcase",
-        "caption": "Provider status artwork is used as the temporary security showcase until dedicated privacy screenshots are available."
+        "alt": "StudioDash provider status screen supporting security and privacy guidance",
+        "caption": "Provider status artwork supports the security and privacy workflow guidance."
       },
       "layout": "textRight",
       "links": [
@@ -74,7 +74,7 @@
       "bullets": [
         "Operational dashboard data may include app, revenue, website, provider, and sync-state records.",
         "Provider cache and history should be treated as user data, not public marketing content.",
-        "Demo data, sample data, placeholder integrations, and live provider data must remain clearly labelled and separate.",
+        "Demo data, sample data, pre-release integrations, and live provider data must remain clearly labelled and separate.",
         "Clearing local app support data may remove user tokens, account metadata, sync cursors, and cache files while app configuration remains a separate concern."
       ]
     },

@@ -34,7 +34,7 @@
       "heading": "Release check",
       "paragraphs": [
         "This documentation is ready for release discovery while ZXSpace is Coming Soon, with only final approval-dependent metadata, mode verification, or artwork updates expected.",
-        "Pages that lack dedicated imagery use a temporary image until replacement ZXSpace-specific images are available."
+        "Some pages use shared supporting artwork where a dedicated ZXSpace screenshot is not required for the explanation."
       ]
     }
   ],
@@ -82,7 +82,7 @@
       "bullets": [
         "Connects setup, controls, modes, tips, achievements, leaderboards, FAQ, and screenshots.",
         "Keeps the documentation route consistent across ZXSnake, ZXBrick, ZXPong, and ZXSpace.",
-        "Uses existing artwork as the current guide placeholder."
+        "Uses the current game artwork to support the guide workflow."
       ],
       "image": {
         "src": "apps/zxspace/zxspace-hero.png",
@@ -121,6 +121,20 @@
         }
       ],
       "layout": "textRight"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Learn How to Play ZXSpace",
+      "href": "/apps/zxspace/how-to-play"
+    },
+    {
+      "label": "Learn ZXSpace Controls",
+      "href": "/apps/zxspace/controls"
+    },
+    {
+      "label": "Improve with ZXSpace Tips & Strategy",
+      "href": "/apps/zxspace/tips-and-strategy"
     }
   ]
 }

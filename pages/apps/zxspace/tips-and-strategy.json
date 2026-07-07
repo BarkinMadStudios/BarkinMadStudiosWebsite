@@ -68,10 +68,10 @@
     {
       "id": "practical-improvement",
       "heading": "ZXSpace tips and strategy",
-      "summary": "Tips help players turn the basic ZXSpace loop into more consistent play.",
+      "summary": "ZXSpace strategy turns the basic loop into better repeat sessions through wave control, city protection, UFO timing, and power-up choices.",
       "body": [
-        "This matters because improvement is easier when players understand what to watch during a session: timing, positioning, risk, scoring opportunities, and when to reset their approach.",
-        "Players use this page before or after a run to find practical habits they can apply immediately."
+        "The most useful advice is tied to decisions players make during a session, not abstract arcade theory.",
+        "Use these tips after learning the controls, then compare progress through leaderboards and achievements."
       ],
       "bullets": [
         "Focuses on practical player behaviour.",
@@ -85,10 +85,28 @@
       },
       "links": [
         {
-          "label": "View game modes",
+          "label": "Compare ZXSpace Game Modes",
           "href": "/apps/zxspace/game-modes"
+        },
+        {
+          "label": "Review ZXSpace Leaderboards",
+          "href": "/apps/zxspace/leaderboards"
         }
       ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Learn ZXSpace Controls",
+      "href": "/apps/zxspace/controls"
+    },
+    {
+      "label": "Review ZXSpace Leaderboards",
+      "href": "/apps/zxspace/leaderboards"
+    },
+    {
+      "label": "Track ZXSpace Achievements",
+      "href": "/apps/zxspace/achievements"
     }
   ]
 }

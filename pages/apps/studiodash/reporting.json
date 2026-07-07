@@ -23,7 +23,7 @@
       ],
       "image": {
         "src": "apps/studiodash/Screenshot3.png",
-        "alt": "StudioDash revenue and trend review screen used as a temporary reporting showcase",
+        "alt": "StudioDash revenue and trend review screen supporting reporting guidance",
         "caption": "Reporting uses the current revenue and trend review artwork until dedicated report screenshots are available."
       },
       "layout": "textRight",
@@ -56,7 +56,7 @@
         "Revenue breakdowns by app, provider, country, and date where supported by provider data.",
         "Website and SEO reporting for Cloudflare traffic and Google Search Console visibility.",
         "Provider health, last sync, last check, next refresh, cache health, and setup state for operational review.",
-        "Clear no-data, not-configured, and placeholder wording when a provider has not returned reportable data."
+        "Clear no-data, not-configured, and pre-release wording when a provider has not returned reportable data."
       ]
     },
     {
@@ -70,7 +70,7 @@
         "Confirm the selected period before comparing totals.",
         "Check provider health before treating a missing metric as a product problem.",
         "Use app, country, date, and provider breakdowns to narrow the cause of a movement.",
-        "Treat demo, placeholder, planned, and live data labels as meaningful context."
+        "Treat demo, pre-release, planned, and live data labels as meaningful context."
       ]
     },
     {

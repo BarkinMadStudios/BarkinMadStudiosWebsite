@@ -298,7 +298,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-match-types.png",
         "alt": "Game of Darts match types artwork for rules and match flow",
-        "caption": "Match type artwork is used as the guide placeholder for supported rules and formats."
+        "caption": "Match type artwork supports the guide section for supported rules and formats."
       },
       "links": [
         {
@@ -323,7 +323,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
         "alt": "Game of Darts leaderboards screenshot used for guide progress context",
-        "caption": "Leaderboards are reused as the current placeholder for post-match progress and support screens."
+        "caption": "Leaderboard artwork supports the post-match progress and support sections."
       },
       "links": [
         {

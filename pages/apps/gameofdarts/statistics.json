@@ -96,7 +96,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-statistics.png",
         "alt": "Game of Darts statistics artwork",
-        "caption": "Statistics artwork is used as the current placeholder for player performance review."
+        "caption": "Statistics artwork supports player performance review."
       },
       "links": [
         {
@@ -122,7 +122,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
         "alt": "Game of Darts setup screen leading into player statistics",
-        "caption": "The main setup screenshot is reused as the current placeholder for the route from play into saved results."
+        "caption": "The main setup screenshot supports the route from play into saved results."
       },
       "links": [
         {

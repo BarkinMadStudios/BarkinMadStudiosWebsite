@@ -149,7 +149,7 @@
       "heading": "Current status",
       "paragraphs": [
         "StudioDash is marked as Private Beta Planned across the BarkinMad Studios website. Documentation describes the product direction, the integration coverage currently represented in the StudioDash project, and the limited beta access route.",
-        "Where an integration is still a placeholder or roadmap item, the documentation labels it accordingly and avoids presenting planned functionality as a live feature."
+        "Where an integration is still a pre-release or roadmap item, the documentation labels it accordingly and avoids presenting planned functionality as a live feature."
       ]
     }
   ],

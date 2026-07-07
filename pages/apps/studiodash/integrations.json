@@ -3,7 +3,7 @@
   "title": "StudioDash Integrations",
   "seoTitle": "StudioDash Integrations | BarkinMad Studios",
   "description": "StudioDash integration coverage for App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads, and GitHub.",
-  "summary": "StudioDash brings provider signals into one workspace while clearly separating implemented coverage from placeholder and roadmap integrations.",
+  "summary": "StudioDash brings provider signals into one workspace while clearly separating implemented coverage from pre-release and roadmap integrations.",
   "heroImage": "apps/studiodash/studiodash-hero.png",
   "heroImageAlt": "StudioDash integrations dashboard",
   "referenceImage": {
@@ -19,7 +19,7 @@
       "bullets": [
         "Brings Apple, Google, Cloudflare, advertising, and source-control signals into one workflow.",
         "Keeps provider state visible beside the product data it affects.",
-        "Supports conservative public wording for placeholder and roadmap integrations."
+        "Supports conservative public wording for pre-release and roadmap integrations."
       ],
       "image": {
         "src": "apps/studiodash/Screenshot2.png",
@@ -53,11 +53,11 @@
       "bullets": [
         "App Store Connect: app metadata coverage is documented, with sales and analytics reporting described as in development where applicable.",
         "AdMob: OAuth-backed advertising reporting and inventory coverage are documented.",
-        "AdSense: documented as placeholder coverage for website monetisation, not as a current live reporting client.",
+        "AdSense: documented as pre-release coverage for website monetisation, not as a current live reporting client.",
         "Cloudflare: traffic, website analytics, provider health, and Worker-related coverage are documented.",
         "Google Search Console: OAuth-backed search visibility and indexing coverage are documented.",
-        "Google Ads: documented as placeholder coverage for campaign metrics.",
-        "GitHub: documented as placeholder coverage for repository activity."
+        "Google Ads: documented as pre-release coverage for campaign metrics.",
+        "GitHub: documented as pre-release coverage for repository activity."
       ]
     },
     {

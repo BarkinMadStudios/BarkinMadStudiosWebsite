@@ -8,7 +8,7 @@
   });
   var ADS_TXT = `google.com, pub-2030137443667873, DIRECT, f08c47fec0942fa0
 `;
-  var GOOGLE_ANALYTICS_ID = "G-7MKNQLLXXP";
+  var GOOGLE_ANALYTICS_ID = "G-7MKNQLXXP9";
 	
   var REPO_BASE = "https://raw.githubusercontent.com/BarkinMadStudios/BarkinMadStudiosWebsite/main";
   var IMAGE_BASE = `${REPO_BASE}/images`;

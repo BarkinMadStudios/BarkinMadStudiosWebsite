@@ -23,8 +23,8 @@
       ],
       "image": {
         "src": "apps/studiodash/Screenshot1.png",
-        "alt": "StudioDash dashboard overview used as a temporary release notes showcase",
-        "caption": "The dashboard overview remains the temporary release-notes showcase until release-specific screenshots are available."
+        "alt": "StudioDash dashboard overview supporting release notes context",
+        "caption": "The dashboard overview supports the release-notes context for the current public documentation set."
       },
       "layout": "textLeft",
       "links": [
@@ -49,7 +49,7 @@
       "heading": "Public documentation milestones",
       "paragraphs": [
         "The initial public StudioDash documentation introduces the product as a native Mac and iPad dashboard for indie app and game developers. It explains how StudioDash brings app, revenue, website, search, provider health, sync, and trend signals into one operating workspace.",
-        "The documentation also establishes the public terminology used across the site: private beta, provider health, selected-period summaries, placeholder coverage, roadmap automation, and the distinction between demo, placeholder, and live data."
+        "The documentation also establishes the public terminology used across the site: private beta, provider health, selected-period summaries, pre-release coverage, roadmap automation, and the distinction between demo, pre-release, and live data."
       ],
       "bullets": [
         "Overview and Features explain the product direction and core operating model.",
@@ -62,7 +62,7 @@
       "id": "current-provider-language",
       "heading": "Current provider language",
       "paragraphs": [
-        "Current public documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads placeholder coverage, and GitHub placeholder coverage. It intentionally separates implemented coverage from planned or placeholder areas.",
+        "Current public documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads pre-release coverage, and GitHub pre-release coverage. It intentionally separates implemented coverage from planned or pre-release areas.",
         "Provider-specific details should remain conservative while StudioDash is in development. If an integration requires setup, has no data for a selected period, is not configured, or remains planned, the public copy should say so clearly."
       ]
     },
@@ -95,5 +95,19 @@
     "overview",
     "features",
     "frequently-asked-questions"
+  ],
+  "relatedLinks": [
+    {
+      "label": "Start with the StudioDash Guide",
+      "href": "/apps/studiodash/guide"
+    },
+    {
+      "label": "Explore StudioDash Features",
+      "href": "/apps/studiodash/features"
+    },
+    {
+      "label": "Read StudioDash FAQ",
+      "href": "/apps/studiodash/frequently-asked-questions"
+    }
   ]
 }

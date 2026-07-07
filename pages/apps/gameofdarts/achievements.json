@@ -63,7 +63,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
         "alt": "Game of Darts Game Center leaderboard screenshot used for achievement context",
-        "caption": "Leaderboards artwork is reused as the current placeholder for Game Center progress and achievement context."
+        "caption": "Leaderboard artwork supports Game Center progress and achievement context."
       },
       "links": [
         {
@@ -88,7 +88,7 @@
       ],
       "image": {
         "src": "apps/gameofdarts/gameofdarts.png",
-        "alt": "Game of Darts artwork used as achievement placeholder",
+        "alt": "Game of Darts achievement progress artwork",
         "caption": "General Game of Darts artwork is used until a dedicated achievements screenshot is available."
       },
       "links": [
@@ -97,7 +97,7 @@
           "href": "/apps/gameofdarts/statistics"
         },
         {
-          "label": "View game modes",
+          "label": "Compare Game of Darts Modes",
           "href": "/apps/gameofdarts/game-modes"
         }
       ]

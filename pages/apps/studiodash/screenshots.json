@@ -3,7 +3,7 @@
   "title": "StudioDash Visual Walkthrough",
   "seoTitle": "StudioDash Screenshots | BarkinMad Studios",
   "description": "StudioDash screenshots showing the current dashboard artwork available in the website repository.",
-  "summary": "StudioDash screenshots now work as a visual walkthrough, pairing each current placeholder image with workflow context and product capability notes.",
+  "summary": "StudioDash screenshots work as a visual walkthrough, pairing each current product image with workflow context and capability notes.",
   "heroImage": "apps/studiodash/studiodash-hero.png",
   "heroImageAlt": "StudioDash visual walkthrough",
   "featureShowcases": [
@@ -19,12 +19,12 @@
         "At-a-glance portfolio health for apps, games, and web products.",
         "High-level revenue, traffic, provider, and sync context.",
         "Entry point into dashboard, revenue, App Store, website, and integration detail pages.",
-        "Uses `Screenshot1` as the current placeholder until dedicated overview screenshots are produced."
+        "Uses `Screenshot1` to illustrate the dashboard overview workflow."
       ],
       "image": {
         "src": "apps/studiodash/Screenshot1.png",
         "alt": "StudioDash portfolio dashboard overview screenshot",
-        "caption": "The current dashboard overview placeholder shows how StudioDash starts with a broad product-health view."
+        "caption": "The dashboard overview image shows how StudioDash starts with a broad product-health view."
       },
       "links": [
         {
@@ -39,19 +39,19 @@
       "layout": "textRight",
       "summary": "This screen represents StudioDash's app and provider analytics workspace, including App Store Connect context and provider-health language.",
       "body": [
-        "It matters because a missing or stale metric can mean several different things: account setup, provider availability, sync state, placeholder coverage, or a genuine product issue. StudioDash documentation keeps those meanings explicit.",
+        "It matters because a missing or stale metric can mean several different things: account setup, provider availability, sync state, pre-release coverage, or a genuine product issue. StudioDash documentation keeps those meanings explicit.",
         "The related workflow is provider review: confirm which integrations are connected, understand their current state, then use app-level views to interpret downloads, sales, ratings, reviews, and lifecycle status where live provider data is available."
       ],
       "bullets": [
         "App Store Connect status and analytics context.",
         "Provider health and setup-state visibility.",
-        "Separation between live, placeholder, and planned integration coverage.",
-        "Uses `Screenshot2` as the current placeholder until dedicated provider screenshots are produced."
+        "Separation between live, pre-release, and planned integration coverage.",
+        "Uses `Screenshot2` to illustrate provider analytics and integration health."
       ],
       "image": {
         "src": "apps/studiodash/Screenshot2.png",
         "alt": "StudioDash app and provider analytics screenshot",
-        "caption": "The current provider analytics placeholder supports the integrations and App Store analytics walkthrough."
+        "caption": "The provider analytics image supports the integrations and App Store analytics walkthrough."
       },
       "links": [
         {
@@ -76,12 +76,12 @@
         "App Store, AdMob, AdSense, and provider revenue context where available.",
         "Selected-period comparison and trend-review language.",
         "Reporting and export planning context.",
-        "Uses `Screenshot3` as the current placeholder until dedicated revenue screenshots are produced."
+        "Uses `Screenshot3` to illustrate revenue trends and reporting context."
       ],
       "image": {
         "src": "apps/studiodash/Screenshot3.png",
         "alt": "StudioDash revenue and trend review screenshot",
-        "caption": "The current revenue placeholder supports revenue analytics, trend review, and reporting documentation."
+        "caption": "The revenue image supports revenue analytics, trend review, and reporting documentation."
       },
       "links": [
         {
@@ -107,12 +107,12 @@
         "Cloudflare and Google Search Console context for website visibility.",
         "Provider freshness, manual refresh, and sync-status concepts.",
         "Security and privacy context for connected developer accounts.",
-        "Uses `Screenshot4` as the current placeholder until dedicated website and sync screenshots are produced."
+        "Uses `Screenshot4` to illustrate website analytics, sync state, and operational context."
       ],
       "image": {
         "src": "apps/studiodash/Screenshot4.png",
         "alt": "StudioDash website SEO and sync insight screenshot",
-        "caption": "The current website and sync placeholder supports website analytics, automation, and security walkthrough content."
+        "caption": "The website and sync image supports website analytics, automation, and security walkthrough content."
       },
       "links": [
         {
@@ -178,7 +178,7 @@
       "heading": "Visual walkthrough standard",
       "paragraphs": [
         "This page uses Feature Showcase blocks rather than a legacy bottom gallery. Each screenshot is paired with what the screen shows, why it matters, the related StudioDash workflow, and key capabilities.",
-        "The current public image set remains `Screenshot1` through `Screenshot4`. Future dedicated screenshots can replace these placeholders without changing the walkthrough structure."
+        "The current public image set remains `Screenshot1` through `Screenshot4`. Future dedicated screenshots can replace these pre-release coverage without changing the walkthrough structure."
       ]
     }
   ],

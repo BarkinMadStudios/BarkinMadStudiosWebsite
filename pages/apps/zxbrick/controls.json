@@ -37,11 +37,11 @@
   ],
   "relatedLinks": [
     {
-      "label": "How to Play",
+      "label": "Learn How to Play ZXBrick",
       "href": "/apps/zxbrick/how-to-play"
     },
     {
-      "label": "Tips & Strategy",
+      "label": "Improve with ZXBrick Tips & Strategy",
       "href": "/apps/zxbrick/tips-and-strategy"
     }
   ],
@@ -58,15 +58,15 @@
     {
       "id": "control-surface",
       "heading": "ZXBrick controls",
-      "summary": "Controls explain how players interact with ZXBrick during active play.",
+      "summary": "ZXBrick control guidance focuses on paddle positioning, ball recovery, and power-up collection.",
       "body": [
-        "This matters because arcade games depend on quick, predictable input. The page keeps the control explanation focused on what players do during a real session.",
-        "Players use this page to understand movement, input timing, scoring actions, and any device-specific expectations before chasing higher scores."
+        "Arcade sessions feel better when input timing is predictable, so this page explains the practical habits that matter while the game is moving.",
+        "Read this after the how-to-play page when you want to understand what your hands should be doing during a real session."
       ],
       "bullets": [
         "Keeps input guidance close to gameplay.",
         "Supports both first-time players and returning players.",
-        "Uses current artwork as a placeholder where dedicated control screenshots are missing."
+        "Uses the current game artwork to support control guidance."
       ],
       "image": {
         "src": "apps/zxbrick/zxbrick-hero.png",
@@ -75,8 +75,12 @@
       },
       "links": [
         {
-          "label": "View how to play",
+          "label": "Learn How to Play ZXBrick",
           "href": "/apps/zxbrick/how-to-play"
+        },
+        {
+          "label": "Improve with ZXBrick Tips & Strategy",
+          "href": "/apps/zxbrick/tips-and-strategy"
         }
       ]
     }

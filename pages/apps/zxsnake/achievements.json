@@ -51,5 +51,20 @@
         }
       ]
     }
-  ]
+  ],
+  "relatedLinks": [
+    {
+      "label": "Review ZXSnake Leaderboards",
+      "href": "/apps/zxsnake/leaderboards"
+    },
+    {
+      "label": "Improve with ZXSnake Tips & Strategy",
+      "href": "/apps/zxsnake/tips-and-strategy"
+    },
+    {
+      "label": "Understand BarkinMad Coins in ZXSnake",
+      "href": "/apps/zxsnake/barkinmad-coins"
+    }
+  ],
+  "summary": "ZXSnake achievements give players clear milestones for repeat play, score chasing, and long-term arcade progression."
 }

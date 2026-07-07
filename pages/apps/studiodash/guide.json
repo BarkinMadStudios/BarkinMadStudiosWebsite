@@ -23,8 +23,8 @@
       ],
       "image": {
         "src": "apps/studiodash/Screenshot1.png",
-        "alt": "StudioDash dashboard overview used as a temporary guide showcase",
-        "caption": "The overview screenshot is used as the temporary guide showcase until a dedicated guide image is produced."
+        "alt": "StudioDash dashboard overview supporting the guide workflow",
+        "caption": "The overview screenshot supports the guide workflow and entry path through the documentation set."
       },
       "layout": "textRight",
       "links": [
@@ -41,13 +41,13 @@
       "heading": "Start here",
       "paragraphs": [
         "Start with the [StudioDash overview](/apps/studiodash), then review the [Private Beta](/apps/studiodash/private-beta), [Features](/apps/studiodash/features), and [Integrations](/apps/studiodash/integrations) pages. Those pages explain the product direction, beta access route, and provider coverage before you move into detailed analytics.",
-        "StudioDash is currently preparing for a controlled private beta, so public documentation separates implemented coverage from placeholders and roadmap items. That distinction is important across the whole guide."
+        "StudioDash is currently preparing for a controlled private beta, so public documentation separates implemented coverage from pre-release coverage and roadmap items. That distinction is important across the whole guide."
       ],
       "bullets": [
         "Read Overview for the product purpose and audience.",
         "Read Private Beta for availability and invitation context.",
         "Read Features for the main StudioDash workflow.",
-        "Read Integrations for Apple, Google, Cloudflare, advertising, and placeholder provider coverage."
+        "Read Integrations for Apple, Google, Cloudflare, advertising, and pre-release provider coverage."
       ]
     },
     {
@@ -82,7 +82,7 @@
       "heading": "Supporting pages",
       "paragraphs": [
         "Use [FAQ](/apps/studiodash/frequently-asked-questions), [Release Notes](/apps/studiodash/release-notes), and [Screenshots](/apps/studiodash/screenshots) when you need quick answers, public milestone context, or the current visual walkthrough.",
-        "The Screenshots page pairs each current placeholder image with what the screen shows, why it matters, the related workflow, and key capabilities. Other pages may use `Screenshot1` through `Screenshot4` as temporary Feature Showcase images where dedicated page screenshots have not yet been produced."
+        "The Screenshots page pairs each current product image with what the screen shows, why it matters, the related workflow, and key capabilities. Other pages may use `Screenshot1` through `Screenshot4` as supporting Feature Showcase images for related workflows."
       ],
       "bullets": [
         "FAQ answers common public questions about availability, platforms, providers, data, reporting, and roadmap items.",

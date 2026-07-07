@@ -57,7 +57,7 @@
       "heading": "Status language",
       "paragraphs": [
         "StudioDash should use clear provider status wording. Public pages should not describe unconfigured, unavailable, or planned provider data as live.",
-        "The website uses In Development for the StudioDash product status. Provider-specific data should be described as available, in development, placeholder, or planned according to the documented provider coverage."
+        "The website uses In Development for the StudioDash product status. Provider-specific data should be described as available, in development, pre-release, or planned according to the documented provider coverage."
       ]
     }
   ],

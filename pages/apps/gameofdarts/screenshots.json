@@ -94,7 +94,7 @@
       "heading": "Visual walkthrough standard",
       "paragraphs": [
         "This page uses Feature Showcase blocks rather than a legacy bottom gallery. Each screenshot explains what players are looking at, why the screen matters, and how it fits into a typical Game of Darts session.",
-        "The current website image set is reused as the public placeholder set until dedicated replacement screenshots are produced."
+        "The current website image set is used as a visual walkthrough of the public app experience."
       ]
     }
   ],
@@ -124,7 +124,7 @@
       "bullets": [
         "Sets the visual identity for the app.",
         "Leads into the main setup and match-selection workflow.",
-        "Useful as the current public placeholder for the start of a session."
+        "Useful for understanding the start of a session."
       ],
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
@@ -159,7 +159,7 @@
       },
       "links": [
         {
-          "label": "View game modes",
+          "label": "Compare Game of Darts Modes",
           "href": "/apps/gameofdarts/game-modes"
         },
         {

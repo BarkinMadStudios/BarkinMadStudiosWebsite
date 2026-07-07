@@ -94,11 +94,11 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-match-types.png",
         "alt": "Game of Darts match types artwork",
-        "caption": "Match type artwork is used as the current visual placeholder for format selection."
+        "caption": "Match type artwork supports the format selection guidance."
       },
       "links": [
         {
-          "label": "View game modes",
+          "label": "Compare Game of Darts Modes",
           "href": "/apps/gameofdarts/game-modes"
         }
       ]
@@ -120,7 +120,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
         "alt": "Game of Darts main setup screen for choosing a match format",
-        "caption": "The main setup screenshot is reused as the current placeholder for configurable match setup."
+        "caption": "The main setup screenshot supports configurable match setup guidance."
       },
       "links": [
         {

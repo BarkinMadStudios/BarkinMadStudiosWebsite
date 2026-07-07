@@ -104,7 +104,7 @@
     {
       "id": "powerup-decisions",
       "heading": "Power-up decisions",
-      "summary": "Power-Ups explain how temporary effects change the rhythm and risk of a ZXBrick run.",
+      "summary": "Power-Ups explain how short-lived effects change the rhythm and risk of a ZXBrick run.",
       "body": [
         "This matters because power-ups are only useful when players understand what they do and when to chase or avoid them.",
         "Players use this page to connect power-up behaviour with paddle control, level goals, and score chasing."

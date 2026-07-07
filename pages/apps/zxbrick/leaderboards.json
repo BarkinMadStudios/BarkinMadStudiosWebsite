@@ -35,12 +35,16 @@
   ],
   "relatedLinks": [
     {
-      "label": "Achievements",
+      "label": "Improve with ZXBrick Tips & Strategy",
+      "href": "/apps/zxbrick/tips-and-strategy"
+    },
+    {
+      "label": "Track ZXBrick Achievements",
       "href": "/apps/zxbrick/achievements"
     },
     {
-      "label": "How to Play",
-      "href": "/apps/zxbrick/how-to-play"
+      "label": "Compare ZXBrick Game Modes",
+      "href": "/apps/zxbrick/game-modes"
     }
   ],
   "faq": [

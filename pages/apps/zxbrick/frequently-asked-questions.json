@@ -42,12 +42,16 @@
   ],
   "relatedLinks": [
     {
-      "label": "How to Play",
+      "label": "Read the ZXBrick Guide",
+      "href": "/apps/zxbrick/guide"
+    },
+    {
+      "label": "Learn How to Play ZXBrick",
       "href": "/apps/zxbrick/how-to-play"
     },
     {
-      "label": "Overview",
-      "href": "/apps/zxbrick"
+      "label": "Improve with ZXBrick Tips & Strategy",
+      "href": "/apps/zxbrick/tips-and-strategy"
     }
   ],
   "estimatedReadTimeMinutes": 3,
@@ -80,7 +84,7 @@
       },
       "links": [
         {
-          "label": "View guide",
+          "label": "Read the ZXBrick Guide",
           "href": "/apps/zxbrick/guide"
         }
       ]

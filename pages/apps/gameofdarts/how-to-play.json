@@ -52,5 +52,19 @@
     "match-types",
     "statistics"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.1.0",
+  "relatedLinks": [
+    {
+      "label": "Use Score Entry & Controls",
+      "href": "/apps/gameofdarts/controls"
+    },
+    {
+      "label": "Compare Game Modes",
+      "href": "/apps/gameofdarts/game-modes"
+    },
+    {
+      "label": "Review Match Types",
+      "href": "/apps/gameofdarts/match-types"
+    }
+  ]
 }

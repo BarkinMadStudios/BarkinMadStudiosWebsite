@@ -84,11 +84,11 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-voice-caller.png",
         "alt": "Game of Darts caller voices artwork",
-        "caption": "Caller voice artwork is used as the current visual placeholder for audio match feedback."
+        "caption": "Caller voice artwork supports audio match feedback guidance."
       },
       "links": [
         {
-          "label": "View controls",
+          "label": "Learn Score Entry & Controls",
           "href": "/apps/gameofdarts/controls"
         }
       ]
@@ -110,7 +110,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
         "alt": "Game of Darts settings screen for caller voice preferences",
-        "caption": "Settings are reused as the current placeholder for changing caller voice preferences."
+        "caption": "Settings artwork supports caller voice preference guidance."
       },
       "links": [
         {

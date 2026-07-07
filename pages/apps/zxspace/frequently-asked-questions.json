@@ -84,10 +84,24 @@
       },
       "links": [
         {
-          "label": "View guide",
+          "label": "Read the ZXSpace Guide",
           "href": "/apps/zxspace/guide"
         }
       ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Read the ZXSpace Guide",
+      "href": "/apps/zxspace/guide"
+    },
+    {
+      "label": "Learn How to Play ZXSpace",
+      "href": "/apps/zxspace/how-to-play"
+    },
+    {
+      "label": "Improve with ZXSpace Tips & Strategy",
+      "href": "/apps/zxspace/tips-and-strategy"
     }
   ]
 }

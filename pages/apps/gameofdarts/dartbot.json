@@ -85,7 +85,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-dartbot.png",
         "alt": "Game of Darts DartBot artwork",
-        "caption": "DartBot artwork is used as the current placeholder for the AI opponent workflow."
+        "caption": "DartBot artwork supports the AI opponent workflow."
       },
       "links": [
         {
@@ -111,7 +111,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
         "alt": "Game of Darts settings screen for DartBot and gameplay options",
-        "caption": "Settings are reused as the current placeholder for DartBot level and access configuration."
+        "caption": "Settings artwork supports DartBot level and access configuration."
       },
       "links": [
         {

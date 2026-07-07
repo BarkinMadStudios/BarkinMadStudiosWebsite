@@ -15,7 +15,7 @@
       "id": "faq-overview",
       "heading": "Quick answers",
       "paragraphs": [
-        "This FAQ summarises the main public StudioDash questions for developers reviewing the product before private beta. StudioDash is still in development, so the answers distinguish current documentation, planned beta access, placeholder integrations, and roadmap features.",
+        "This FAQ summarises the main public StudioDash questions for developers reviewing the product before private beta. StudioDash is still in development, so the answers distinguish current documentation, planned beta access, pre-release integrations, and roadmap features.",
         "For the most complete route through the documentation, start with the overview, then read Integrations, Dashboard, Revenue Analytics, Reporting, Automation & Sync, and Security & Privacy."
       ]
     },
@@ -24,7 +24,7 @@
       "heading": "How to use this FAQ",
       "paragraphs": [
         "Use these answers to understand the product direction and public terminology. They are not a replacement for provider documentation, App Store Connect account guidance, Cloudflare token guidance, Google OAuth consent guidance, or final release notes.",
-        "When an answer mentions planned, placeholder, roadmap, or private beta behavior, treat that wording as intentional. It means the public website is documenting direction without claiming every feature is generally available."
+        "When an answer mentions planned, pre-release, roadmap, or private beta behavior, treat that wording as intentional. It means the public website is documenting direction without claiming every feature is generally available."
       ]
     }
   ],
@@ -47,11 +47,11 @@
     },
     {
       "question": "Which integrations are documented?",
-      "answer": "Current public documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads placeholder coverage, GitHub placeholder coverage, and related provider-health language."
+      "answer": "Current public documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads pre-release coverage, GitHub pre-release coverage, and related provider-health language."
     },
     {
       "question": "Are all documented integrations live?",
-      "answer": "No. StudioDash documentation separates implemented coverage from placeholder and roadmap items. Placeholder integrations should not be read as live provider reporting."
+      "answer": "No. StudioDash documentation separates implemented coverage from pre-release and roadmap items. Pre-release integrations should not be read as live provider reporting."
     },
     {
       "question": "Does StudioDash replace provider dashboards?",
@@ -62,8 +62,8 @@
       "answer": "Provider health explains whether a connected service looks usable, needs attention, has an error, is not configured, or is planned. It helps users understand whether a missing metric is a product issue, a provider setup issue, or simply unavailable data."
     },
     {
-      "question": "What is the difference between demo, placeholder, and live data?",
-      "answer": "Demo data is sample data used to explain the product experience. Placeholder coverage represents a provider or feature area that is documented but not live reporting. Live data comes from configured provider access and should be clearly separated from both demo and placeholder content."
+      "question": "What is the difference between demo, pre-release, and live data?",
+      "answer": "Demo data is sample data used to explain the product experience. Pre-release coverage represents a provider or feature area that is documented but not live reporting. Live data comes from configured provider access and should be clearly separated from both demo and pre-release content."
     },
     {
       "question": "How does StudioDash handle reporting periods?",
@@ -75,7 +75,7 @@
     },
     {
       "question": "How should I think about security and privacy?",
-      "answer": "StudioDash is designed around provider-specific access, protected credential handling, local operational data, and clear separation between demo, placeholder, and live information. Users should configure provider permissions according to their own account policies."
+      "answer": "StudioDash is designed around provider-specific access, protected credential handling, local operational data, and clear separation between demo, pre-release, and live information. Users should configure provider permissions according to their own account policies."
     },
     {
       "question": "Where should I start in the documentation?",
@@ -96,5 +96,19 @@
     "overview",
     "integrations",
     "security-privacy"
+  ],
+  "relatedLinks": [
+    {
+      "label": "Explore StudioDash Integrations",
+      "href": "/apps/studiodash/integrations"
+    },
+    {
+      "label": "Review Automation & Sync",
+      "href": "/apps/studiodash/automation-sync"
+    },
+    {
+      "label": "Read Security & Privacy",
+      "href": "/apps/studiodash/security-privacy"
+    }
   ]
 }

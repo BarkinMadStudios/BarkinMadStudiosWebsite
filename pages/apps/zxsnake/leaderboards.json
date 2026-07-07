@@ -51,5 +51,20 @@
         }
       ]
     }
-  ]
+  ],
+  "relatedLinks": [
+    {
+      "label": "Improve with ZXSnake Tips & Strategy",
+      "href": "/apps/zxsnake/tips-and-strategy"
+    },
+    {
+      "label": "Track ZXSnake Achievements",
+      "href": "/apps/zxsnake/achievements"
+    },
+    {
+      "label": "Compare ZXSnake Game Modes",
+      "href": "/apps/zxsnake/game-modes"
+    }
+  ],
+  "summary": "ZXSnake leaderboards help players compare scores, track progress, and use repeat sessions to improve high-score consistency."
 }

@@ -88,12 +88,16 @@
   ],
   "relatedLinks": [
     {
-      "label": "Controls",
+      "label": "Learn ZXSpace Controls",
       "href": "/apps/zxspace/controls"
     },
     {
-      "label": "Game Modes",
+      "label": "Compare ZXSpace Game Modes",
       "href": "/apps/zxspace/game-modes"
+    },
+    {
+      "label": "Improve with ZXSpace Tips & Strategy",
+      "href": "/apps/zxspace/tips-and-strategy"
     }
   ],
   "contentStatus": "verified",
@@ -101,10 +105,10 @@
     {
       "id": "first-session-flow",
       "heading": "Start playing ZXSpace",
-      "summary": "This page explains the first-session flow for ZXSpace: understand the objective, start a run or match, and learn how progress is measured.",
+      "summary": "Learn the core ZXSpace session flow: defend the city, clear alien waves, preserve shields, and use power-ups at the right moment.",
       "body": [
-        "This matters because a player should be able to move from reading the page into playing without needing hidden instructions.",
-        "Players use it when they are new to the app, returning after time away, or checking the expected flow before a session."
+        "This gives new players enough context to start a session confidently and understand what the game is measuring.",
+        "Use this page first, then move into controls, game modes, and strategy when you want to improve consistency."
       ],
       "bullets": [
         "Explains the route from setup into play.",
@@ -118,11 +122,11 @@
       },
       "links": [
         {
-          "label": "View controls",
+          "label": "Learn ZXSpace Controls",
           "href": "/apps/zxspace/controls"
         },
         {
-          "label": "View game modes",
+          "label": "Compare ZXSpace Game Modes",
           "href": "/apps/zxspace/game-modes"
         }
       ]

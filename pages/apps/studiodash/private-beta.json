@@ -2,7 +2,7 @@
   "documentationSchemaVersion": "1.1.0",
   "title": "StudioDash Private Beta",
   "seoTitle": "StudioDash Private Beta | BarkinMad Studios",
-  "description": "Learn about the StudioDash private beta programme and the placeholder application form for future invitations.",
+  "description": "Learn about the StudioDash private beta programme, who it is for, and what information applicants will be asked to provide when invitations open.",
   "summary": "StudioDash is preparing for a controlled private beta with selected independent developers and small studios.",
   "heroImage": "apps/studiodash/studiodash-hero.png",
   "heroImageAlt": "StudioDash private beta dashboard",
@@ -68,10 +68,10 @@
       ]
     },
     {
-      "id": "application-form-placeholder",
-      "heading": "Beta application form",
+      "id": "application-interest-details",
+      "heading": "Beta application details",
       "paragraphs": [
-        "This application form is a public UI placeholder while the website content and navigation are completed. Submission functionality will be implemented later, so the fields below describe the planned application information without sending data from this page."
+        "Beta applications are not submitted from this page yet. The details below show the information BarkinMad Studios expects to request when private beta invitations open, so interested developers can decide whether the programme is relevant to their workflow."
       ],
       "bullets": [
         "Required: Name.",
@@ -113,5 +113,19 @@
     "features",
     "security-privacy",
     "frequently-asked-questions"
+  ],
+  "relatedLinks": [
+    {
+      "label": "Explore StudioDash Features",
+      "href": "/apps/studiodash/features"
+    },
+    {
+      "label": "Review StudioDash Security & Privacy",
+      "href": "/apps/studiodash/security-privacy"
+    },
+    {
+      "label": "Read StudioDash FAQ",
+      "href": "/apps/studiodash/frequently-asked-questions"
+    }
   ]
 }

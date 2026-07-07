@@ -1,9 +1,9 @@
 {
-  "title": "Game Of Darts",
+  "title": "Game of Darts",
   "tagline": "Modern darts scoring companion",
   "hero": {
-    "image": "",
-    "alt": ""
+    "image": "/images/apps/gameofdarts/gameofdarts-hero.png",
+    "alt": "Game of Darts scoring app hero artwork for darts match setup and score tracking"
   },
   "shortDescription": "Track scores and games with ease.",
   "description": "Game Of Darts is a modern darts scoring app from [BarkinMad Studios](/about), designed to make tracking games, scores, and player progress simple and intuitive. Built for casual players and competitive matches alike.",
@@ -112,5 +112,7 @@
       "href": "/apps/gameofdarts/screenshots"
     }
   ],
-  "lastUpdated": "2026-06-09"
+  "lastUpdated": "2026-07-07",
+  "seoTitle": "Game of Darts | Darts Scoring App | BarkinMad Studios",
+  "summary": "Game of Darts helps players set up matches, enter scores quickly, track statistics, use DartBot, and review darts progress on iPhone and iPad."
 }

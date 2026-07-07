@@ -39,8 +39,16 @@
   ],
   "relatedLinks": [
     {
-      "label": "Leaderboards",
+      "label": "Review ZXBrick Leaderboards",
       "href": "/apps/zxbrick/leaderboards"
+    },
+    {
+      "label": "Improve with ZXBrick Tips & Strategy",
+      "href": "/apps/zxbrick/tips-and-strategy"
+    },
+    {
+      "label": "Understand BarkinMad Coins in ZXBrick",
+      "href": "/apps/zxbrick/barkinmad-coins"
     }
   ],
   "estimatedReadTimeMinutes": 3,

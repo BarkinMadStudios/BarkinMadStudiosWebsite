@@ -46,5 +46,19 @@
     "caller-voices",
     "settings-customisation"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.1.0",
+  "relatedLinks": [
+    {
+      "label": "Learn How to Play Game of Darts",
+      "href": "/apps/gameofdarts/how-to-play"
+    },
+    {
+      "label": "Explore Caller Voices",
+      "href": "/apps/gameofdarts/caller-voices"
+    },
+    {
+      "label": "Adjust Settings & Customisation",
+      "href": "/apps/gameofdarts/settings-customisation"
+    }
+  ]
 }

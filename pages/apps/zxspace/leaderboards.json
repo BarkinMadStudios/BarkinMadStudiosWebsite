@@ -75,5 +75,19 @@
         }
       ]
     }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Improve with ZXSpace Tips & Strategy",
+      "href": "/apps/zxspace/tips-and-strategy"
+    },
+    {
+      "label": "Track ZXSpace Achievements",
+      "href": "/apps/zxspace/achievements"
+    },
+    {
+      "label": "Compare ZXSpace Game Modes",
+      "href": "/apps/zxspace/game-modes"
+    }
   ]
 }

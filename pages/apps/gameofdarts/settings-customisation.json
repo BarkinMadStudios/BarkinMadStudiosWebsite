@@ -128,7 +128,7 @@
       "image": {
         "src": "apps/gameofdarts/gameofdarts.png",
         "alt": "Game of Darts app artwork used for settings overview",
-        "caption": "General app artwork is used as a placeholder for broader settings and progress context."
+        "caption": "General app artwork supports broader settings and progress context."
       },
       "links": [
         {

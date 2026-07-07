@@ -80,5 +80,19 @@
         }
       ]
     }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Review ZXSpace Leaderboards",
+      "href": "/apps/zxspace/leaderboards"
+    },
+    {
+      "label": "Improve with ZXSpace Tips & Strategy",
+      "href": "/apps/zxspace/tips-and-strategy"
+    },
+    {
+      "label": "Understand BarkinMad Coins in ZXSpace",
+      "href": "/apps/zxspace/barkinmad-coins"
+    }
   ]
 }

@@ -67,11 +67,11 @@
   ],
   "actions": [
     {
-      "label": "View Product",
+      "label": "Explore StudioDash",
       "href": "/apps/studiodash"
     },
     {
-      "label": "Private Beta",
+      "label": "Learn about the StudioDash Private Beta",
       "href": "/apps/studiodash/private-beta"
     },
     {
@@ -87,5 +87,5 @@
       "href": "/services"
     }
   ],
-  "lastUpdated": "2026-06-14"
+  "lastUpdated": "2026-07-07"
 }

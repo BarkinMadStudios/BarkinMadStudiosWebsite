@@ -84,5 +84,19 @@
         }
       ]
     }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Review ZXPong Leaderboards",
+      "href": "/apps/zxpong/leaderboards"
+    },
+    {
+      "label": "Improve with ZXPong Tips & Strategy",
+      "href": "/apps/zxpong/tips-and-strategy"
+    },
+    {
+      "label": "Understand BarkinMad Coins in ZXPong",
+      "href": "/apps/zxpong/barkinmad-coins"
+    }
   ]
 }

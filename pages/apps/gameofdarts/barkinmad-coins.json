@@ -10,7 +10,7 @@
       "id": "overview",
       "heading": "Premium Access",
       "paragraphs": [
-        "Game of Darts offers several ways to unlock additional features. Whether you choose the full Pro upgrade, DartBot, or a temporary 48-hour pass, premium access is designed to enhance your experience while keeping the core game available to everyone.",
+        "Game of Darts offers several ways to unlock additional features. Whether you choose the full Pro upgrade, DartBot, or a limited 48-hour pass, premium access is designed to enhance your experience while keeping the core game available to everyone.",
         "Premium options remove gameplay limitations, unlock additional features and provide the best way to enjoy the complete Game of Darts experience."
       ]
     },
@@ -23,7 +23,7 @@
       "bullets": [
         "Pro Version – Permanently unlocks premium features.",
         "DartBot – Unlocks the AI practice opponent.",
-        "48 Hour Pass – Temporary access to premium features for 48 hours."
+        "48 Hour Pass - Limited access to premium features for 48 hours."
       ]
     },
     {
@@ -73,5 +73,19 @@
     "settings-customisation",
     "frequently-asked-questions"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.1.0",
+  "relatedLinks": [
+    {
+      "label": "Configure DartBot Access",
+      "href": "/apps/gameofdarts/dartbot"
+    },
+    {
+      "label": "Adjust Settings & Customisation",
+      "href": "/apps/gameofdarts/settings-customisation"
+    },
+    {
+      "label": "Read Game of Darts FAQ",
+      "href": "/apps/gameofdarts/frequently-asked-questions"
+    }
+  ]
 }

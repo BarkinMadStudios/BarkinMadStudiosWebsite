@@ -41,7 +41,7 @@
     },
     {
       "question": "Which integrations are documented?",
-      "answer": "The current documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads placeholder coverage, and GitHub placeholder coverage."
+      "answer": "The current documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads, GitHub, and related provider-health states. Pages distinguish connected reporting from services still being prepared for beta feedback."
     }
   ],
   "documentationLinks": [
@@ -106,5 +106,7 @@
       "href": "/apps/studiodash/screenshots"
     }
   ],
-  "lastUpdated": "2026-07-07"
+  "lastUpdated": "2026-07-07",
+  "seoTitle": "StudioDash | Developer Analytics Workspace | BarkinMad Studios",
+  "summary": "StudioDash brings app, revenue, website, provider health, sync status, and trend signals into one Mac and iPad workspace for indie developers."
 }

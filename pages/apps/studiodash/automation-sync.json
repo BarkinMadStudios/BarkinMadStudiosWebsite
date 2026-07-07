@@ -15,7 +15,7 @@
       "id": "provider-sync-state",
       "heading": "Sync state beside provider context",
       "summary": "StudioDash keeps integration state close to the data it affects so users can see whether a metric is current, unavailable, or waiting for setup.",
-      "body": "The sync model is deliberately visible. A missing chart, empty report, or unavailable metric should point the user toward the provider state that explains it, rather than hiding the card or filling it with placeholder values.",
+      "body": "The sync model is deliberately visible. A missing chart, empty report, or unavailable metric should point the user toward the provider state that explains it, rather than hiding the card or filling it with sample values.",
       "bullets": [
         "Shows provider health, setup state, sync timing, and data availability as part of the operating view.",
         "Keeps unconfigured providers visible with clear setup messaging.",
@@ -23,8 +23,8 @@
       ],
       "image": {
         "src": "apps/studiodash/Screenshot2.png",
-        "alt": "StudioDash provider analytics screen used as a temporary automation and sync showcase",
-        "caption": "Provider status artwork is used as the temporary sync showcase until dedicated automation screenshots are available."
+        "alt": "StudioDash provider analytics screen supporting automation and sync guidance",
+        "caption": "Provider status artwork supports the automation and sync workflow guidance."
       },
       "layout": "textLeft",
       "links": [
@@ -46,7 +46,7 @@
       "bullets": [
         "Opening the app or viewing provider details should not imply that every provider has just synced.",
         "Manual provider sync and refresh-all actions are separate from setup and scheduled refresh behavior.",
-        "Provider data is read from saved configuration, provider cache, and current sync state rather than from public documentation placeholders."
+        "Provider data is read from saved configuration, provider cache, and current sync state rather than from public documentation pre-release coverage."
       ]
     },
     {
@@ -61,7 +61,7 @@
         "Attention Required: configuration, permissions, cache state, or provider data needs review.",
         "Error: provider access, validation, permissions, or data fetch failed.",
         "Not Configured: the provider has not been set up for live data.",
-        "Planned: the integration is represented as roadmap or placeholder coverage."
+        "Planned: the integration is represented as roadmap or pre-release coverage."
       ]
     },
     {

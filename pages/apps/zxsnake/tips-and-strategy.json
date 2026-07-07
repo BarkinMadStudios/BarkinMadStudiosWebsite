@@ -29,10 +29,10 @@
     {
       "id": "practical-improvement",
       "heading": "ZXSnake tips and strategy",
-      "summary": "Tips help players turn the basic ZXSnake loop into more consistent play.",
+      "summary": "ZXSnake strategy turns the basic loop into better repeat sessions through route planning, space management, and safer late-run decisions.",
       "body": [
-        "This matters because improvement is easier when players understand what to watch during a session: timing, positioning, risk, scoring opportunities, and when to reset their approach.",
-        "Players use this page before or after a run to find practical habits they can apply immediately."
+        "The most useful advice is tied to decisions players make during a session, not abstract arcade theory.",
+        "Use these tips after learning the controls, then compare progress through leaderboards and achievements."
       ],
       "bullets": [
         "Focuses on practical player behaviour.",
@@ -46,10 +46,29 @@
       },
       "links": [
         {
-          "label": "View game modes",
+          "label": "Compare ZXSnake Game Modes",
           "href": "/apps/zxsnake/game-modes"
+        },
+        {
+          "label": "Review ZXSnake Leaderboards",
+          "href": "/apps/zxsnake/leaderboards"
         }
       ]
+    }
+  ],
+  "summary": "ZXSnake strategy focuses on route planning, space management, and safer late-run decisions.",
+  "relatedLinks": [
+    {
+      "label": "Learn ZXSnake Controls",
+      "href": "/apps/zxsnake/controls"
+    },
+    {
+      "label": "Review ZXSnake Leaderboards",
+      "href": "/apps/zxsnake/leaderboards"
+    },
+    {
+      "label": "Track ZXSnake Achievements",
+      "href": "/apps/zxsnake/achievements"
     }
   ]
 }

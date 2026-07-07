@@ -56,5 +56,19 @@
     "leaderboards",
     "guide"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.1.0",
+  "relatedLinks": [
+    {
+      "label": "Review Match Types",
+      "href": "/apps/gameofdarts/match-types"
+    },
+    {
+      "label": "Track Player Statistics",
+      "href": "/apps/gameofdarts/statistics"
+    },
+    {
+      "label": "Compare Leaderboards",
+      "href": "/apps/gameofdarts/leaderboards"
+    }
+  ]
 }

@@ -75,5 +75,19 @@
         }
       ]
     }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Improve with ZXPong Tips & Strategy",
+      "href": "/apps/zxpong/tips-and-strategy"
+    },
+    {
+      "label": "Track ZXPong Achievements",
+      "href": "/apps/zxpong/achievements"
+    },
+    {
+      "label": "Compare ZXPong Game Modes",
+      "href": "/apps/zxpong/game-modes"
+    }
   ]
 }

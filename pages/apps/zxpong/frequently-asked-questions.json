@@ -80,10 +80,24 @@
       },
       "links": [
         {
-          "label": "View guide",
+          "label": "Read the ZXPong Guide",
           "href": "/apps/zxpong/guide"
         }
       ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Read the ZXPong Guide",
+      "href": "/apps/zxpong/guide"
+    },
+    {
+      "label": "Learn How to Play ZXPong",
+      "href": "/apps/zxpong/how-to-play"
+    },
+    {
+      "label": "Improve with ZXPong Tips & Strategy",
+      "href": "/apps/zxpong/tips-and-strategy"
     }
   ]
 }

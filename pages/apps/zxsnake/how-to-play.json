@@ -29,10 +29,10 @@
     {
       "id": "first-session-flow",
       "heading": "Start playing ZXSnake",
-      "summary": "This page explains the first-session flow for ZXSnake: understand the objective, start a run or match, and learn how progress is measured.",
+      "summary": "Learn the core ZXSnake session flow: guide the snake, collect food, avoid collisions, and turn each run into a stronger score attempt.",
       "body": [
-        "This matters because a player should be able to move from reading the page into playing without needing hidden instructions.",
-        "Players use it when they are new to the app, returning after time away, or checking the expected flow before a session."
+        "This gives new players enough context to start a session confidently and understand what the game is measuring.",
+        "Use this page first, then move into controls, game modes, and strategy when you want to improve consistency."
       ],
       "bullets": [
         "Explains the route from setup into play.",
@@ -46,14 +46,29 @@
       },
       "links": [
         {
-          "label": "View controls",
+          "label": "Learn ZXSnake Controls",
           "href": "/apps/zxsnake/controls"
         },
         {
-          "label": "View game modes",
+          "label": "Compare ZXSnake Game Modes",
           "href": "/apps/zxsnake/game-modes"
         }
       ]
+    }
+  ],
+  "summary": "ZXSnake starts with a clear arcade loop: guide the snake, collect food, avoid collisions, and turn each run into a stronger score attempt.",
+  "relatedLinks": [
+    {
+      "label": "Learn ZXSnake Controls",
+      "href": "/apps/zxsnake/controls"
+    },
+    {
+      "label": "Compare ZXSnake Game Modes",
+      "href": "/apps/zxsnake/game-modes"
+    },
+    {
+      "label": "Improve with ZXSnake Tips & Strategy",
+      "href": "/apps/zxsnake/tips-and-strategy"
     }
   ]
 }

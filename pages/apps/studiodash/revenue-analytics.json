@@ -19,7 +19,7 @@
       "bullets": [
         "Shows revenue sources and provider context where data is available.",
         "Supports selected-period comparison and historical trend review.",
-        "Avoids treating placeholder or unavailable provider data as real income."
+        "Avoids treating pre-release or unavailable provider data as real income."
       ],
       "image": {
         "src": "apps/studiodash/Screenshot3.png",
@@ -41,7 +41,7 @@
       "heading": "Revenue overview",
       "paragraphs": [
         "StudioDash is designed to give developers a clearer view of revenue across product and advertising channels. The revenue view brings high-level totals, provider rows, app-level breakdowns, country information, date grouping, and trend context into one area.",
-        "Where provider history is available, selected-period summaries can help compare current performance with recent periods. Where provider data is not available, StudioDash uses clear no-data or setup messaging rather than presenting placeholder figures as real revenue."
+        "Where provider history is available, selected-period summaries can help compare current performance with recent periods. Where provider data is not available, StudioDash uses clear no-data or setup messaging rather than presenting pre-release figures as real revenue."
       ]
     },
     {
@@ -53,7 +53,7 @@
       "bullets": [
         "App Store Connect revenue can include Sales and Trends data where reporting access is configured.",
         "AdMob revenue can include advertising performance from OAuth-backed network reporting where available.",
-        "AdSense is represented as website monetisation placeholder coverage until live reporting support is implemented.",
+        "AdSense is represented as website monetisation pre-release coverage until live reporting support is implemented.",
         "Provider rows remain visible when data is unavailable so users know which integration is required."
       ]
     },

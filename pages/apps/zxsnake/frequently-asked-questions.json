@@ -46,10 +46,25 @@
       },
       "links": [
         {
-          "label": "View guide",
+          "label": "Read the ZXSnake Guide",
           "href": "/apps/zxsnake/guide"
         }
       ]
     }
-  ]
+  ],
+  "relatedLinks": [
+    {
+      "label": "Read the ZXSnake Guide",
+      "href": "/apps/zxsnake/guide"
+    },
+    {
+      "label": "Learn How to Play ZXSnake",
+      "href": "/apps/zxsnake/how-to-play"
+    },
+    {
+      "label": "Improve with ZXSnake Tips & Strategy",
+      "href": "/apps/zxsnake/tips-and-strategy"
+    }
+  ],
+  "summary": "ZXSnake FAQ answers common questions about gameplay, controls, achievements, leaderboards, BarkinMad Coins, and progression."
 }

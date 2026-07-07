@@ -95,7 +95,7 @@
       "bullets": [
         "Explains challenge progression.",
         "Connects levels to power-ups and tips.",
-        "Uses current ZXBrick level artwork as the visual placeholder."
+        "Uses ZXBrick level artwork to support level progression guidance."
       ],
       "image": {
         "src": "apps/zxbrick/zxbrick-gameplay-01.png",

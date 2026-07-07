@@ -73,16 +73,16 @@
   ],
   "relatedLinks": [
     {
-      "label": "Controls",
+      "label": "Learn ZXBrick Controls",
       "href": "/apps/zxbrick/controls"
     },
     {
-      "label": "Power-ups",
-      "href": "/apps/zxbrick/powerups"
+      "label": "Compare ZXBrick Game Modes",
+      "href": "/apps/zxbrick/game-modes"
     },
     {
-      "label": "Leaderboards",
-      "href": "/apps/zxbrick/leaderboards"
+      "label": "Improve with ZXBrick Tips & Strategy",
+      "href": "/apps/zxbrick/tips-and-strategy"
     }
   ],
   "contentStatus": "verified",
@@ -90,10 +90,10 @@
     {
       "id": "first-session-flow",
       "heading": "Start playing ZXBrick",
-      "summary": "This page explains the first-session flow for ZXBrick: understand the objective, start a run or match, and learn how progress is measured.",
+      "summary": "Learn the core ZXBrick session flow: clear brick layouts, control the ball, use power-ups, and progress through handcrafted levels.",
       "body": [
-        "This matters because a player should be able to move from reading the page into playing without needing hidden instructions.",
-        "Players use it when they are new to the app, returning after time away, or checking the expected flow before a session."
+        "This gives new players enough context to start a session confidently and understand what the game is measuring.",
+        "Use this page first, then move into controls, game modes, and strategy when you want to improve consistency."
       ],
       "bullets": [
         "Explains the route from setup into play.",
@@ -107,11 +107,11 @@
       },
       "links": [
         {
-          "label": "View controls",
+          "label": "Learn ZXBrick Controls",
           "href": "/apps/zxbrick/controls"
         },
         {
-          "label": "View game modes",
+          "label": "Compare ZXBrick Game Modes",
           "href": "/apps/zxbrick/game-modes"
         }
       ]

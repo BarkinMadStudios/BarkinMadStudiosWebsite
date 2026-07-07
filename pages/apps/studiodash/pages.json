@@ -309,7 +309,7 @@
     {
       "slug": "private-beta",
       "title": "Private Beta",
-      "description": "Learn about the StudioDash private beta programme and the placeholder application form for future invitations.",
+      "description": "Learn about the StudioDash private beta programme, target testers, feedback goals, and expected application details.",
       "required": false,
       "status": "optional",
       "order": 13,

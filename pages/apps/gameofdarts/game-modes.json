@@ -48,5 +48,19 @@
     "leaderboards",
     "achievements"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.1.0",
+  "relatedLinks": [
+    {
+      "label": "Compare Match Types",
+      "href": "/apps/gameofdarts/match-types"
+    },
+    {
+      "label": "Play Against DartBot",
+      "href": "/apps/gameofdarts/dartbot"
+    },
+    {
+      "label": "Review Game of Darts Leaderboards",
+      "href": "/apps/gameofdarts/leaderboards"
+    }
+  ]
 }

@@ -66,5 +66,19 @@
     "statistics",
     "settings-customisation"
   ],
-  "documentationSchemaVersion": "1.1.0"
+  "documentationSchemaVersion": "1.1.0",
+  "relatedLinks": [
+    {
+      "label": "Start with the Game of Darts Guide",
+      "href": "/apps/gameofdarts/guide"
+    },
+    {
+      "label": "Compare Game Modes",
+      "href": "/apps/gameofdarts/game-modes"
+    },
+    {
+      "label": "Review Premium Access",
+      "href": "/apps/gameofdarts/barkinmad-coins"
+    }
+  ]
 }

@@ -67,10 +67,10 @@
     {
       "id": "practical-improvement",
       "heading": "ZXPong tips and strategy",
-      "summary": "Tips help players turn the basic ZXPong loop into more consistent play.",
+      "summary": "ZXPong strategy turns the basic loop into better repeat sessions through early movement, safer returns, and longer rally building.",
       "body": [
-        "This matters because improvement is easier when players understand what to watch during a session: timing, positioning, risk, scoring opportunities, and when to reset their approach.",
-        "Players use this page before or after a run to find practical habits they can apply immediately."
+        "The most useful advice is tied to decisions players make during a session, not abstract arcade theory.",
+        "Use these tips after learning the controls, then compare progress through leaderboards and achievements."
       ],
       "bullets": [
         "Focuses on practical player behaviour.",
@@ -84,10 +84,28 @@
       },
       "links": [
         {
-          "label": "View game modes",
+          "label": "Compare ZXPong Game Modes",
           "href": "/apps/zxpong/game-modes"
+        },
+        {
+          "label": "Review ZXPong Leaderboards",
+          "href": "/apps/zxpong/leaderboards"
         }
       ]
+    }
+  ],
+  "relatedLinks": [
+    {
+      "label": "Learn ZXPong Controls",
+      "href": "/apps/zxpong/controls"
+    },
+    {
+      "label": "Review ZXPong Leaderboards",
+      "href": "/apps/zxpong/leaderboards"
+    },
+    {
+      "label": "Track ZXPong Achievements",
+      "href": "/apps/zxpong/achievements"
     }
   ]
 }
