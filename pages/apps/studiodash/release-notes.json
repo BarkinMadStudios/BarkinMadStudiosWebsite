@@ -2,37 +2,82 @@
   "documentationSchemaVersion": "1.1.0",
   "title": "StudioDash Release Notes",
   "seoTitle": "StudioDash Release Notes | BarkinMad Studios",
-  "description": "Public StudioDash release notes, development milestones, and availability updates from BarkinMad Studios.",
-  "summary": "StudioDash release notes track public-facing product milestones while the app remains in development.",
+  "description": "Public StudioDash release notes, development milestones, private-beta status, documentation updates, and availability notes from BarkinMad Studios.",
+  "summary": "StudioDash release notes track public-facing product and documentation milestones while the app remains in development and prepares for private beta.",
   "heroImage": "apps/studiodash/studiodash-hero.png",
   "heroImageAlt": "StudioDash release notes dashboard",
   "referenceImage": {
     "src": "apps/studiodash/studiodash-hero.png",
     "alt": "StudioDash release notes dashboard"
   },
+  "featureShowcases": [
+    {
+      "id": "release-readiness",
+      "heading": "Release notes focused on public milestones",
+      "summary": "StudioDash release notes are used for visible product, documentation, and availability changes rather than private implementation logs.",
+      "body": "While StudioDash is preparing for private beta, release notes should help users understand what has changed publicly: documentation coverage, screenshots, beta status, integration wording, and future availability announcements. Internal workflow notes, private credentials, unpublished diagnostics, and account-specific data do not belong here.",
+      "bullets": [
+        "Records public website and documentation milestones.",
+        "Keeps private beta wording separate from general public availability.",
+        "Leaves detailed engineering changelogs in the central project documentation rather than the public website."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot1.png",
+        "alt": "StudioDash dashboard overview used as a temporary release notes showcase",
+        "caption": "The dashboard overview remains the temporary release-notes showcase until release-specific screenshots are available."
+      },
+      "layout": "textLeft",
+      "links": [
+        {
+          "label": "View private beta",
+          "href": "/apps/studiodash/private-beta"
+        }
+      ]
+    }
+  ],
   "sections": [
     {
       "id": "current-status",
       "heading": "Current status",
       "paragraphs": [
-        "StudioDash is currently in development. The public website now includes a documented StudioDash app section with product overview, feature, integration, analytics, reporting, sync, security, FAQ, and release-note pages.",
-        "Availability, beta access, App Store information, and release timing will be published when BarkinMad Studios is ready to announce them."
+        "StudioDash is currently in development and preparing for a controlled private beta. The BarkinMad Studios website now includes a documented StudioDash product section with overview, feature, integration, dashboard, analytics, reporting, sync, security, FAQ, guide, release-note, private-beta, and screenshot pages.",
+        "Private beta access, App Store information, wider public availability, and release timing will be published when BarkinMad Studios is ready to announce them. Until then, public documentation should describe the product direction conservatively and avoid presenting roadmap items as released features."
       ]
     },
     {
-      "id": "initial-public-documentation",
-      "heading": "Initial public documentation",
+      "id": "public-documentation-milestones",
+      "heading": "Public documentation milestones",
       "paragraphs": [
-        "The initial StudioDash documentation introduces the product as a Mac and iPad dashboard for indie app and game developers.",
-        "The documentation covers the current provider set at a public level: App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads placeholder coverage, and GitHub placeholder coverage."
+        "The initial public StudioDash documentation introduces the product as a native Mac and iPad dashboard for indie app and game developers. It explains how StudioDash brings app, revenue, website, search, provider health, sync, and trend signals into one operating workspace.",
+        "The documentation also establishes the public terminology used across the site: private beta, provider health, selected-period summaries, placeholder coverage, roadmap automation, and the distinction between demo, placeholder, and live data."
+      ],
+      "bullets": [
+        "Overview and Features explain the product direction and core operating model.",
+        "Integrations, App Store Analytics, Revenue Analytics, and Website & SEO Analytics explain the provider-backed surfaces.",
+        "Reporting, Automation & Sync, and Security & Privacy explain how to read provider data responsibly.",
+        "FAQ, Guide, Release Notes, Private Beta, and Screenshots provide supporting product information."
       ]
     },
     {
-      "id": "future-updates",
-      "heading": "Future updates",
+      "id": "current-provider-language",
+      "heading": "Current provider language",
       "paragraphs": [
-        "Future release notes should focus on public product changes, availability milestones, newly released integrations, and user-facing improvements.",
-        "Private project notes, unpublished implementation details, and account credentials must not be included in public release notes."
+        "Current public documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads placeholder coverage, and GitHub placeholder coverage. It intentionally separates implemented coverage from planned or placeholder areas.",
+        "Provider-specific details should remain conservative while StudioDash is in development. If an integration requires setup, has no data for a selected period, is not configured, or remains planned, the public copy should say so clearly."
+      ]
+    },
+    {
+      "id": "future-release-notes",
+      "heading": "Future release notes",
+      "paragraphs": [
+        "Future release notes should focus on public product changes, availability milestones, newly released integrations, visible dashboard improvements, documentation updates, screenshot refreshes, beta programme changes, and user-facing security or privacy changes.",
+        "Private project notes, unpublished implementation details, internal workflow IDs, account credentials, provider tokens, raw diagnostics, and account-specific metrics must not be included in public release notes."
+      ],
+      "bullets": [
+        "Use exact dates when announcing public milestones.",
+        "State whether a change is available, in private beta, planned, or roadmap.",
+        "Link to the relevant documentation page when a release note changes user behavior.",
+        "Keep engineering changelog detail in the central project documentation."
       ]
     }
   ],
@@ -42,7 +87,7 @@
     "BarkinMad Studios",
     "developer dashboard"
   ],
-  "estimatedReadTimeMinutes": 2,
+  "estimatedReadTimeMinutes": 4,
   "contentStatus": "verified",
   "lastUpdated": "2026-07-07",
   "lastVerified": "2026-07-07",

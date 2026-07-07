@@ -7,29 +7,11 @@
   },
   "shortDescription": "A Mac and iPad dashboard for indie app and game developers.",
   "description": "StudioDash is a Mac and iPad dashboard from [BarkinMad Studios](/about) for indie app and game developers. It brings revenue, app status, website analytics, provider health, sync status, and historical trends into one focused workspace.",
-  "status": "In Development",
+  "status": "Private Beta Planned",
   "appStoreUrl": "",
   "testFlightUrl": "",
   "icon": "apps/studiodash/studiodash-icon.png",
   "heroImage": "apps/studiodash/studiodash-hero.png",
-  "screenshots": [
-    {
-      "image": "apps/studiodash/Screenshot1.png",
-      "caption": "StudioDash dashboard overview."
-    },
-    {
-      "image": "apps/studiodash/Screenshot2.png",
-      "caption": "StudioDash app and provider analytics."
-    },
-    {
-      "image": "apps/studiodash/Screenshot3.png",
-      "caption": "StudioDash revenue and trend review."
-    },
-    {
-      "image": "apps/studiodash/Screenshot4.png",
-      "caption": "StudioDash website and integration insights."
-    }
-  ],
   "features": [
     "Portfolio dashboard for indie developers",
     "Revenue and provider summary cards",
@@ -55,7 +37,7 @@
     },
     {
       "question": "Is StudioDash available on the App Store?",
-      "answer": "StudioDash is currently in development. Public availability and beta details will be announced by BarkinMad Studios when they are ready."
+      "answer": "StudioDash is currently preparing for a private beta. BarkinMad Studios is inviting a limited number of independent developers and small studios to help shape the product before public release."
     },
     {
       "question": "Which integrations are documented?",
@@ -63,6 +45,10 @@
     }
   ],
   "documentationLinks": [
+    {
+      "label": "Private Beta",
+      "href": "/apps/studiodash/private-beta"
+    },
     {
       "label": "Overview",
       "href": "/apps/studiodash/overview"

@@ -2,8 +2,8 @@
   "documentationSchemaVersion": "1.1.0",
   "title": "StudioDash FAQ",
   "seoTitle": "StudioDash FAQ | BarkinMad Studios",
-  "description": "Answers to common StudioDash questions about availability, platforms, integrations, analytics, and roadmap items.",
-  "summary": "Common questions about StudioDash, its development status, target platforms, documented integrations, and roadmap language.",
+  "description": "Answers to common StudioDash questions about availability, platforms, integrations, analytics, reporting, sync, security, and roadmap items.",
+  "summary": "Common questions about StudioDash, its private-beta status, target platforms, documented integrations, provider data, and roadmap language.",
   "heroImage": "apps/studiodash/studiodash-hero.png",
   "heroImageAlt": "StudioDash FAQ dashboard",
   "referenceImage": {
@@ -15,38 +15,71 @@
       "id": "faq-overview",
       "heading": "Quick answers",
       "paragraphs": [
-        "This FAQ summarises the main public StudioDash questions. The product is currently in development, so the wording below avoids treating roadmap or placeholder coverage as released functionality."
+        "This FAQ summarises the main public StudioDash questions for developers reviewing the product before private beta. StudioDash is still in development, so the answers distinguish current documentation, planned beta access, placeholder integrations, and roadmap features.",
+        "For the most complete route through the documentation, start with the overview, then read Integrations, Dashboard, Revenue Analytics, Reporting, Automation & Sync, and Security & Privacy."
+      ]
+    },
+    {
+      "id": "how-to-use-this-faq",
+      "heading": "How to use this FAQ",
+      "paragraphs": [
+        "Use these answers to understand the product direction and public terminology. They are not a replacement for provider documentation, App Store Connect account guidance, Cloudflare token guidance, Google OAuth consent guidance, or final release notes.",
+        "When an answer mentions planned, placeholder, roadmap, or private beta behavior, treat that wording as intentional. It means the public website is documenting direction without claiming every feature is generally available."
       ]
     }
   ],
   "faq": [
     {
       "question": "What is StudioDash?",
-      "answer": "StudioDash is a Mac and iPad dashboard for indie app and game developers. It brings revenue, app status, website analytics, provider health, sync status, and trends into one workspace."
+      "answer": "StudioDash is a Mac and iPad dashboard for indie app and game developers. It is designed to bring revenue, app status, website analytics, provider health, sync status, and trends into one focused workspace."
     },
     {
       "question": "Who is StudioDash for?",
-      "answer": "StudioDash is designed for solo developers, small studios, and creators managing apps, games, websites, advertising, and product operations."
+      "answer": "StudioDash is designed for solo developers, small studios, and creators who manage apps, games, product websites, advertising, and provider dashboards."
     },
     {
       "question": "Is StudioDash available now?",
-      "answer": "StudioDash is currently marked as In Development on the BarkinMad Studios website. Public availability and beta details will be announced when they are ready."
+      "answer": "StudioDash is currently marked as Private Beta Planned on the BarkinMad Studios website. A limited number of independent developers and small studios will be invited before public release."
     },
     {
       "question": "Which platforms are planned?",
-      "answer": "StudioDash is documented as a Mac and iPad dashboard."
+      "answer": "StudioDash is documented as a native Mac and iPad dashboard."
     },
     {
       "question": "Which integrations are documented?",
-      "answer": "Current documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads placeholder coverage, and GitHub placeholder coverage."
+      "answer": "Current public documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads placeholder coverage, GitHub placeholder coverage, and related provider-health language."
     },
     {
       "question": "Are all documented integrations live?",
-      "answer": "No. The documentation distinguishes implemented coverage from placeholder and roadmap items. Placeholder integrations should not be read as live provider reporting."
+      "answer": "No. StudioDash documentation separates implemented coverage from placeholder and roadmap items. Placeholder integrations should not be read as live provider reporting."
     },
     {
       "question": "Does StudioDash replace provider dashboards?",
-      "answer": "No. StudioDash is intended to provide a unified operating view, while provider dashboards remain the source for provider-specific account management and deeper administration."
+      "answer": "No. StudioDash is intended to provide a unified operating view for repeated checks. Provider dashboards remain the authority for account administration, billing, permissions, advanced provider-specific setup, and deeper management."
+    },
+    {
+      "question": "What does provider health mean?",
+      "answer": "Provider health explains whether a connected service looks usable, needs attention, has an error, is not configured, or is planned. It helps users understand whether a missing metric is a product issue, a provider setup issue, or simply unavailable data."
+    },
+    {
+      "question": "What is the difference between demo, placeholder, and live data?",
+      "answer": "Demo data is sample data used to explain the product experience. Placeholder coverage represents a provider or feature area that is documented but not live reporting. Live data comes from configured provider access and should be clearly separated from both demo and placeholder content."
+    },
+    {
+      "question": "How does StudioDash handle reporting periods?",
+      "answer": "StudioDash documentation describes selected-period summaries for metrics such as revenue, downloads, website traffic, and search visibility where provider history is available. Current operational states such as provider health and app lifecycle are latest-state signals rather than historical totals."
+    },
+    {
+      "question": "Are exports and scheduled reports available?",
+      "answer": "CSV export, PDF export, scheduled reports, forecasting, and AI summaries should be treated as roadmap or tier-linked product direction unless a public release confirms availability."
+    },
+    {
+      "question": "How should I think about security and privacy?",
+      "answer": "StudioDash is designed around provider-specific access, protected credential handling, local operational data, and clear separation between demo, placeholder, and live information. Users should configure provider permissions according to their own account policies."
+    },
+    {
+      "question": "Where should I start in the documentation?",
+      "answer": "Start with the StudioDash overview, then review Features, Integrations, Dashboard, Revenue Analytics, Reporting, Automation & Sync, Security & Privacy, and the Screenshots page."
     }
   ],
   "keywords": [
@@ -55,7 +88,7 @@
     "StudioDash integrations",
     "StudioDash beta"
   ],
-  "estimatedReadTimeMinutes": 3,
+  "estimatedReadTimeMinutes": 5,
   "contentStatus": "verified",
   "lastUpdated": "2026-07-07",
   "lastVerified": "2026-07-07",

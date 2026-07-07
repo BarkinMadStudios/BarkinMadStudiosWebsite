@@ -2,42 +2,83 @@
   "documentationSchemaVersion": "1.1.0",
   "title": "StudioDash Reporting",
   "seoTitle": "StudioDash Reporting | BarkinMad Studios",
-  "description": "StudioDash reporting for selected-period summaries, trend review, exports, and future scheduled reports.",
-  "summary": "StudioDash reporting is designed to help developers turn provider data into practical product and business reviews.",
+  "description": "StudioDash reporting for selected-period summaries, trend review, export planning, and future scheduled reports.",
+  "summary": "StudioDash reporting is designed to turn provider data into practical product reviews for developers who need to understand what changed and what needs follow-up.",
   "heroImage": "apps/studiodash/studiodash-hero.png",
   "heroImageAlt": "StudioDash reporting dashboard",
   "referenceImage": {
     "src": "apps/studiodash/studiodash-hero.png",
     "alt": "StudioDash reporting dashboard"
   },
+  "featureShowcases": [
+    {
+      "id": "reporting-review-flow",
+      "heading": "Reporting built for repeat review",
+      "summary": "StudioDash reporting starts from the same selected-period model used by the dashboard, revenue, app, website, and provider views.",
+      "body": "The reporting workflow is intended to help developers review performance without rebuilding the same comparison by hand every time. A report should explain the period being reviewed, the providers involved, the metrics that changed, and the areas where missing data or setup state affects the result.",
+      "bullets": [
+        "Keeps period, provider, and app context visible while reviewing results.",
+        "Separates current-state operational checks from selected-period metrics.",
+        "Treats export, PDF, scheduled reports, forecasting, and AI summaries as roadmap or tier-linked areas until publicly released."
+      ],
+      "image": {
+        "src": "apps/studiodash/Screenshot3.png",
+        "alt": "StudioDash revenue and trend review screen used as a temporary reporting showcase",
+        "caption": "Reporting uses the current revenue and trend review artwork until dedicated report screenshots are available."
+      },
+      "layout": "textRight",
+      "links": [
+        {
+          "label": "View revenue analytics",
+          "href": "/apps/studiodash/revenue-analytics"
+        }
+      ]
+    }
+  ],
   "sections": [
     {
       "id": "reporting-purpose",
       "heading": "Reporting purpose",
       "paragraphs": [
-        "StudioDash reporting is designed around selected-period summaries, historical trends, and provider-level breakdowns. The aim is to make repeated product reviews easier for independent developers and small studios.",
-        "Reporting should help answer practical questions: what changed this week, which product is moving, which provider needs attention, and which area deserves deeper analysis."
+        "StudioDash reporting is designed around the questions developers ask during a regular product review: what changed, which app or provider caused the movement, whether the data is current, and what deserves deeper investigation.",
+        "The reporting experience should be useful before a formal export exists. A developer can use the dashboard, revenue, App Store, website, and integration pages as connected reporting surfaces, then move into richer exports and scheduled summaries as those features are released."
       ]
     },
     {
       "id": "current-reporting-surfaces",
       "heading": "Current reporting surfaces",
       "paragraphs": [
-        "The documented reporting surfaces include dashboard summaries, revenue views, app portfolio metrics, website analytics, SEO signals, and provider health review."
+        "The public StudioDash documentation describes reporting as a connected workflow rather than one isolated page. The main reporting inputs are the dashboard overview, revenue analytics, app and App Store analytics, website and SEO analytics, integration health, and sync state.",
+        "Those surfaces combine selected-period metrics with current operational status. That distinction matters: revenue, downloads, visitors, search clicks, and trend values can be period-based, while provider health, app lifecycle, validation state, and attention items describe the latest known state."
       ],
       "bullets": [
-        "Selected-period summaries for revenue, downloads, website traffic, and provider metrics where data is available.",
-        "Revenue by app, provider, country, and date where supported by provider data.",
-        "Website and SEO summaries for Cloudflare and Google Search Console coverage.",
-        "Provider health and attention items for operational review."
+        "Selected-period summaries for revenue, downloads, website traffic, search visibility, and provider metrics where data is available.",
+        "Revenue breakdowns by app, provider, country, and date where supported by provider data.",
+        "Website and SEO reporting for Cloudflare traffic and Google Search Console visibility.",
+        "Provider health, last sync, last check, next refresh, cache health, and setup state for operational review.",
+        "Clear no-data, not-configured, and placeholder wording when a provider has not returned reportable data."
       ]
     },
     {
-      "id": "roadmap-reporting",
-      "heading": "Roadmap reporting",
+      "id": "how-to-read-reports",
+      "heading": "How to read reports",
       "paragraphs": [
-        "CSV export, PDF export, scheduled reports, AI summaries, forecasting, and deeper portfolio reporting should be treated as roadmap or tier-linked product direction unless a public release confirms availability.",
-        "The website should keep reporting copy public-facing and avoid exposing private project terms or implementation details."
+        "Start with the selected reporting period, then check whether the provider data behind the metric is available for that range. If StudioDash shows zero for a provider with known history, that means the selected period has no matching data. If it shows no history or setup wording, the provider or app may not have returned usable data yet.",
+        "Use app-level and provider-level views together. A revenue change may come from App Store data, AdMob data, website monetisation, a missing provider, or a reporting gap. Website traffic changes may need to be read beside release timing, search visibility, and provider health."
+      ],
+      "bullets": [
+        "Confirm the selected period before comparing totals.",
+        "Check provider health before treating a missing metric as a product problem.",
+        "Use app, country, date, and provider breakdowns to narrow the cause of a movement.",
+        "Treat demo, placeholder, planned, and live data labels as meaningful context."
+      ]
+    },
+    {
+      "id": "export-and-scheduled-reporting",
+      "heading": "Export and scheduled reporting",
+      "paragraphs": [
+        "CSV export, PDF export, scheduled reports, forecasting, AI summaries, and deeper portfolio reporting are documented as roadmap or tier-linked product direction unless a public release confirms availability.",
+        "The intended direction is straightforward: Pro-level reporting should help with deeper analysis and exportable data, while Studio-level reporting should support portfolio intelligence, scheduled summaries, forecasting, and richer automation. Public documentation should keep that distinction clear while StudioDash remains in private beta preparation."
       ]
     }
   ],
@@ -47,7 +88,7 @@
     "analytics trends",
     "portfolio reporting"
   ],
-  "estimatedReadTimeMinutes": 2,
+  "estimatedReadTimeMinutes": 4,
   "contentStatus": "verified",
   "lastUpdated": "2026-07-07",
   "lastVerified": "2026-07-07",

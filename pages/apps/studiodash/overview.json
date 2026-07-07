@@ -74,34 +74,6 @@
       ]
     }
   ],
-  "images": [
-    {
-      "src": "apps/studiodash/studiodash-hero.png",
-      "alt": "StudioDash dashboard overview artwork",
-      "caption": "StudioDash is designed to bring product, revenue, website, and provider signals into one workspace."
-    },
-    {
-      "src": "apps/studiodash/Screenshot1.png",
-      "alt": "StudioDash dashboard overview screenshot",
-      "caption": "StudioDash dashboard overview."
-    },
-    {
-      "src": "apps/studiodash/Screenshot2.png",
-      "alt": "StudioDash app and provider analytics screenshot",
-      "caption": "StudioDash app and provider analytics."
-    },
-    {
-      "src": "apps/studiodash/Screenshot3.png",
-      "alt": "StudioDash revenue and trend review screenshot",
-      "caption": "StudioDash revenue and trend review."
-    },
-    {
-      "src": "apps/studiodash/Screenshot4.png",
-      "alt": "StudioDash website and integration insights screenshot",
-      "caption": "StudioDash website and integration insights."
-    }
-  ],
-  "imageSectionTitle": "StudioDash Preview",
   "featureShowcases": [
     {
       "id": "portfolio-command-centre",
@@ -156,7 +128,7 @@
       "heading": "What is StudioDash?",
       "paragraphs": [
         "StudioDash is a Mac and iPad dashboard from [BarkinMad Studios](/about) for indie app and game developers who need a clearer view of their products, revenue, websites, and connected services.",
-        "The app is built around a unified workspace for revenue, app status, website analytics, provider health, sync status, and historical trends. It is currently in development, with public availability details to follow when the product is ready."
+        "The app is built around a unified workspace for revenue, app status, website analytics, provider health, sync status, and historical trends. StudioDash is currently preparing for a controlled private beta before public release."
       ]
     },
     {
@@ -176,7 +148,7 @@
       "id": "current-status",
       "heading": "Current status",
       "paragraphs": [
-        "StudioDash is marked as In Development across the BarkinMad Studios website. Documentation describes the product direction and the integration coverage currently represented in the StudioDash project.",
+        "StudioDash is marked as Private Beta Planned across the BarkinMad Studios website. Documentation describes the product direction, the integration coverage currently represented in the StudioDash project, and the limited beta access route.",
         "Where an integration is still a placeholder or roadmap item, the documentation labels it accordingly and avoids presenting planned functionality as a live feature."
       ]
     }
