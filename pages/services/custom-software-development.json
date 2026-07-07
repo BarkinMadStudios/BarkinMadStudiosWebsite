@@ -11,8 +11,8 @@
     {
       "heading": "Custom Software Built Around Your Business",
       "content": [
-        "Off-the-shelf software can be effective for common business requirements, but many organisations eventually encounter limitations that force them to adapt their processes to fit the software rather than the other way around.",
-        "[BarkinMad Studios](/about) develops custom software solutions tailored to the way your organisation works, helping teams become more efficient while supporting future growth."
+        "Off-the-shelf software can work well for common requirements, but many organisations eventually reach the point where generic tools no longer fit the way their teams operate.",
+        "[BarkinMad Studios](/about) develops custom software tailored to real workflows, helping teams improve efficiency, reduce manual effort, and support future growth."
       ]
     },
     {
@@ -33,8 +33,8 @@
     {
       "heading": "Designed for Growth",
       "content": [
-        "Software should not only solve today's problems but also support tomorrow's opportunities.",
-        "Projects are designed with maintainability, scalability, security, and flexibility in mind to ensure long-term value."
+        "Good software should solve today's problems while still being able to adapt as requirements change.",
+        "Projects are designed with maintainability, scalability, security, and flexibility in mind so they can continue delivering value over time."
       ]
     },
     {
@@ -52,7 +52,7 @@
     {
       "heading": "Why BarkinMad Studios?",
       "content": [
-        "20+ years technology experience.",
+        "20+ years of technology experience.",
         "Independent UK software developer.",
         "Real-world [apps](/apps) actively developed and maintained.",
         "Direct communication throughout every project.",
@@ -62,7 +62,7 @@
   ],
   "cta": {
     "title": "Discuss Your Project",
-    "content": "Whether you're replacing an existing process, building a new platform, or exploring a custom solution, BarkinMad Studios can help turn ideas into working software.",
+    "content": "Whether you're replacing a manual process, building a new platform, or exploring a custom solution, BarkinMad Studios can help turn the idea into working software.",
     "buttonText": "Contact BarkinMad Studios",
     "buttonLink": "/contact"
   },

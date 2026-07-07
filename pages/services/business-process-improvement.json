@@ -6,13 +6,13 @@
   },
   "description": "Identify inefficiencies, streamline workflows, and use technology to improve business operations.",
   "heroTitle": "Business Process Improvement",
-  "heroSubtitle": "Helping organisations work smarter, not harder.",
+  "heroSubtitle": "Helping organisations work smarter, with clearer processes and better tools.",
   "sections": [
     {
       "heading": "Simplify Processes and Improve Efficiency",
       "content": [
-        "Many organisations still rely on manual processes, spreadsheets, emails, and disconnected systems.",
-        "[BarkinMad Studios](/about) helps identify opportunities to improve efficiency through practical software and workflow improvements."
+        "Manual processes, spreadsheets, email chains, and disconnected systems can slow teams down and make everyday work harder than it needs to be.",
+        "[BarkinMad Studios](/about) helps organisations review how work is done, identify practical improvements, and use software to reduce friction across day-to-day operations."
       ]
     },
     {
@@ -20,18 +20,18 @@
       "content": [
         "Duplicate data entry",
         "Manual reporting",
-        "Inefficient approval processes",
+        "Slow approval processes",
         "Spreadsheet dependency",
         "Limited operational visibility",
-        "Poor system integration",
+        "Disconnected systems",
         "Repetitive administrative tasks"
       ]
     },
     {
       "heading": "Understanding Existing Processes",
       "content": [
-        "Improvement begins with understanding how work is currently performed.",
-        "Process reviews help identify bottlenecks, inefficiencies, and opportunities for automation."
+        "Useful improvement starts with understanding how teams actually work today.",
+        "Process reviews can highlight bottlenecks, duplicated effort, unclear handovers, and areas where automation or better tooling would make the biggest difference."
       ]
     },
     {
@@ -49,7 +49,7 @@
     {
       "heading": "Why BarkinMad Studios?",
       "content": [
-        "20+ years technology experience.",
+        "20+ years of technology experience.",
         "Independent UK software developer.",
         "Real-world [apps](/apps) actively developed and maintained.",
         "Direct communication throughout every project.",
@@ -59,7 +59,7 @@
   ],
   "cta": {
     "title": "Improve Your Processes",
-    "content": "Discover opportunities to streamline operations, reduce manual effort, and improve visibility across your organisation.",
+    "content": "Find practical ways to streamline operations, reduce manual effort, and improve visibility across your organisation.",
     "buttonText": "Contact BarkinMad Studios",
     "buttonLink": "/contact"
   },
