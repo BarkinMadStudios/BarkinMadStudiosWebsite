@@ -1,140 +1,140 @@
 {
-  "title": "ZXBrick",
-  "tagline": "Retro brick-breaking arcade action",
-  "hero": {
-    "image": "/images/retro-banner.png",
-    "alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
-  },
-  "shortDescription": "A classic brick-breaking arcade game with power-ups, themes, achievements, and BarkinMad Coins.",
-  "description": "ZXBrick is part of the [ZX Series](/zx-series), a retro-inspired brick-breaking arcade game featuring 100 handcrafted levels, powerful upgrades, achievements, unlockable themes, BarkinMad Coins, and fast-paced gameplay inspired by the golden age of arcade gaming.",
-  "status": "Live",
-  "appStoreUrl": "https://apps.apple.com/app/apple-store/id6771886847?pt=128083426&ct=website&mt=8",
-  "testFlightUrl": "",
-  "icon": "apps/zxbrick/zxbrick-icon.png",
-  "heroImage": "apps/zxbrick/zxbrick-hero.png",
-  "screenshots": [
-    {
-      "image": "apps/zxbrick/zxbrick-gameplay-01.png",
-      "caption": "Loading Screen"
-    },
-    {
-      "image": "apps/zxbrick/zxbrick-gameplay-02.png",
-      "caption": "Main Menu"
-    },
-    {
-      "image": "apps/zxbrick/zxbrick-gameplay-03.png",
-      "caption": "New Game"
-    },
-    {
-      "image": "apps/zxbrick/zxbrick-gameplay-04.png",
-      "caption": "Gameplay"
-    }
-  ],
-  "features": [
-    "Retro arcade gameplay",
-    "Classic brick-breaking action",
-    "100 handcrafted levels",
-    "Multiple power-ups",
-    "Unlockable themes",
-    "BarkinMad Coins earned through ZX Series gameplay",
-    "Game Center achievements",
-    "Game Center leaderboards",
-    "High score tracking",
-    "32 language support"
-  ],
-  "achievements": [
-    "Play 10 Games",
-    "Play 25 Games",
-    "Play 50 Games",
-    "Play 100 Games",
-    "Destroy 500 Bricks",
-    "Destroy 1000 Bricks"
-  ],
-  "leaderboards": [
-    "Highest Score"
-  ],
-  "barkinMadCoins": {
-    "enabled": true,
-    "description": "Earn [BarkinMad Coins](/zx-series) through gameplay across the ZX Series. Your coins are stored in a shared wallet and will unlock additional content as new ZX Series games and updates are released. Coins have no cash value and can only be earned by playing."
-  },
-  "supportedPlatforms": [
-    "iPhone"
-  ],
-  "version": "1.1",
-  "genre": "Arcade",
-  "developer": "BarkinMad Studios",
-  "faq": [
-    {
-      "question": "Is ZXBrick part of the ZX Series?",
-      "answer": "Yes. ZXBrick is part of the [ZX Series](/zx-series), sharing the wider arcade ecosystem with games such as [ZXSnake](/apps/zxsnake), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong)."
-    },
-    {
-      "question": "How many levels does ZXBrick include?",
-      "answer": "ZXBrick includes 100 handcrafted levels with power-ups, themes, achievements, and leaderboard support."
-    },
-    {
-      "question": "Does ZXBrick include BarkinMad Coins?",
-      "answer": "Yes. ZXBrick supports [BarkinMad Coins](/zx-series), which are earned through gameplay across the ZX Series and stored in a shared wallet for future ZX Series content."
-    }
-  ],
-  "documentationLinks": [
-    {
-      "label": "App Overview",
-      "href": "/apps/zxbrick",
-      "description": "Start here for the ZXBrick guide structure and overall scope."
-    },
-    {
-      "label": "How to Play",
-      "href": "/apps/zxbrick/how-to-play",
-      "description": "Learn the core gameplay loop, level flow, and progression approach."
-    },
-    {
-      "label": "Controls",
-      "href": "/apps/zxbrick/controls",
-      "description": "Use this section for practical input rhythm and control consistency guidance."
-    },
-    {
-      "label": "Game Modes",
-      "href": "/apps/zxbrick/game-modes",
-      "description": "Review session styles and how they affect progression goals."
-    },
-    {
-      "label": "BarkinMad Coins",
-      "href": "/apps/zxbrick/barkinmad-coins",
-      "description": "Understand shared progression and reward carry-over in the ZX Series."
-    },
-    {
-      "label": "Achievements",
-      "href": "/apps/zxbrick/achievements",
-      "description": "Review achievement milestones and practical planning patterns."
-    },
-    {
-      "label": "Leaderboards",
-      "href": "/apps/zxbrick/leaderboards",
-      "description": "Understand score tracking and leaderboard-based replay planning."
-    },
-    {
-      "label": "Tips & Strategy",
-      "href": "/apps/zxbrick/tips-and-strategy",
-      "description": "Learn repeatable play habits for better consistency and scores."
-    },
-    {
-      "label": "FAQ",
-      "href": "/apps/zxbrick/frequently-asked-questions",
-      "description": "Find quick answers to common gameplay and progression questions."
-    },
-    {
-      "label": "Power-ups",
-      "href": "/apps/zxbrick/powerups",
-      "description": "Read a practical guide to ZXBrick power-ups and how they support replayable arcade sessions."
-    },
-    {
-      "label": "Levels",
-      "href": "/apps/zxbrick/levels",
-      "description": "Learn about ZXBrick's 100 handcrafted levels and related progression systems."
-    }
-  ],
-  "lastUpdated": "2026-06-26",
-  "seoTitle": "ZXBrick | Retro Brick Breaker | BarkinMad Studios",
-  "summary": "ZXBrick is a retro brick-breaking arcade game with 100 handcrafted levels, power-ups, themes, achievements, leaderboards, and BarkinMad Coins."
+	"title": "ZXBrick",
+	"tagline": "Fast-paced brick-breaking arcade action",
+	"hero": {
+		"image": "/images/retro-banner.png",
+		"alt": "ZX Series arcade game collection featuring ZXSnake, ZXBrick and ZXSpace"
+	},
+	"shortDescription": "Break bricks, collect power-ups, master 100 handcrafted levels, and chase your highest score.",
+	"description": "ZXBrick is part of the [ZX Series](/zx-series), combining classic brick-breaking gameplay with modern mobile features. Smash through 100 handcrafted levels, collect powerful upgrades, unlock cosmetic themes, earn BarkinMad Coins, complete achievements, and compete for the highest scores.",
+	"status": "Live",
+	"appStoreUrl": "https://apps.apple.com/app/apple-store/id6771886847?pt=128083426&ct=website&mt=8",
+	"testFlightUrl": "",
+	"icon": "apps/zxbrick/zxbrick-icon.png",
+	"heroImage": "apps/zxbrick/zxbrick-hero.png",
+	"screenshots": [
+		{
+			"image": "apps/zxbrick/zxbrick-gameplay-01.png",
+			"caption": "Loading Screen"
+		},
+		{
+			"image": "apps/zxbrick/zxbrick-gameplay-02.png",
+			"caption": "Main Menu"
+		},
+		{
+			"image": "apps/zxbrick/zxbrick-gameplay-03.png",
+			"caption": "New Game"
+		},
+		{
+			"image": "apps/zxbrick/zxbrick-gameplay-04.png",
+			"caption": "Gameplay"
+		}
+	],
+	"features": [
+		"Fast-paced brick-breaking arcade gameplay",
+		"100 handcrafted levels",
+		"Powerful gameplay upgrades",
+		"Unlockable visual themes",
+		"BarkinMad Coins for cross-game cosmetic rewards",
+		"Game Center achievements",
+		"Game Center leaderboards",
+		"High score tracking",
+		"32 language support",
+		"Retro-inspired visuals"
+	],
+	"achievements": [
+		"Play 10 Games",
+		"Play 25 Games",
+		"Play 50 Games",
+		"Play 100 Games",
+		"Destroy 500 Bricks",
+		"Destroy 1,000 Bricks"
+	],
+	"leaderboards": [
+		"Highest Score"
+	],
+	"barkinMadCoins": {
+		"enabled": true,
+		"description": "Earn [BarkinMad Coins](/zx-series) while playing the ZX Series and unlock cosmetic rewards across supported games. Coins have no cash value and are earned entirely through gameplay."
+	},
+	"supportedPlatforms": [
+		"iPhone"
+	],
+	"version": "1.1",
+	"genre": "Arcade",
+	"developer": "BarkinMad Studios",
+	"faq": [
+		{
+			"question": "Is ZXBrick part of the ZX Series?",
+			"answer": "Yes. ZXBrick is part of the [ZX Series](/zx-series), sharing achievements, BarkinMad Coins, and connected progression with games including [ZXSnake](/apps/zxsnake), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong)."
+		},
+		{
+			"question": "How many levels does ZXBrick include?",
+			"answer": "ZXBrick features 100 handcrafted levels, each designed to provide a rewarding mix of challenge, progression, and replayability."
+		},
+		{
+			"question": "Does ZXBrick support BarkinMad Coins?",
+			"answer": "Yes. BarkinMad Coins are earned through gameplay and stored in a shared wallet, allowing you to unlock cosmetic rewards across supported ZX Series games."
+		}
+	],
+	"documentationLinks": [
+		{
+			"label": "App Overview",
+			"href": "/apps/zxbrick",
+			"description": "Start here to discover everything ZXBrick has to offer."
+		},
+		{
+			"label": "How to Play",
+			"href": "/apps/zxbrick/how-to-play",
+			"description": "Learn the basics of gameplay, progression, and scoring."
+		},
+		{
+			"label": "Controls",
+			"href": "/apps/zxbrick/controls",
+			"description": "Master the controls and improve your reactions."
+		},
+		{
+			"label": "Game Modes",
+			"href": "/apps/zxbrick/game-modes",
+			"description": "Explore the different ways to play ZXBrick."
+		},
+		{
+			"label": "BarkinMad Coins",
+			"href": "/apps/zxbrick/barkinmad-coins",
+			"description": "Learn how BarkinMad Coins work across the ZX Series."
+		},
+		{
+			"label": "Achievements",
+			"href": "/apps/zxbrick/achievements",
+			"description": "Discover every achievement and how to unlock it."
+		},
+		{
+			"label": "Leaderboards",
+			"href": "/apps/zxbrick/leaderboards",
+			"description": "See how high you can climb on the leaderboards."
+		},
+		{
+			"label": "Tips & Strategy",
+			"href": "/apps/zxbrick/tips-and-strategy",
+			"description": "Improve your skills with practical gameplay tips."
+		},
+		{
+			"label": "FAQ",
+			"href": "/apps/zxbrick/frequently-asked-questions",
+			"description": "Find answers to the most common questions."
+		},
+		{
+			"label": "Power-ups",
+			"href": "/apps/zxbrick/powerups",
+			"description": "Learn what every power-up does and when to use it."
+		},
+		{
+			"label": "Levels",
+			"href": "/apps/zxbrick/levels",
+			"description": "Discover how the 100 handcrafted levels are designed."
+		}
+	],
+	"lastUpdated": "2026-06-26",
+	"seoTitle": "ZXBrick | Retro Brick Breaker | BarkinMad Studios",
+	"summary": "ZXBrick is a fast-paced brick-breaking arcade game featuring 100 handcrafted levels, power-ups, unlockable themes, achievements, leaderboards, and BarkinMad Coins."
 }

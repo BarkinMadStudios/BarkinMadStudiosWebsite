@@ -1,84 +1,84 @@
 {
-  "title": "Cookie Policy",
-  "heading": "Cookie Policy",
-  "intro": "This website uses a native BarkinMad Studios cookie consent system so visitors can control optional analytics and advertising cookies.",
-  "hero": {
-    "image": "/images/privacy-bg-banner.png",
-    "alt": "Privacy and data protection themed workspace representing security and trust"
-  },
-  "sections": [
-    {
-      "heading": "What Are Cookies",
-      "paragraphs": [
-        "Cookies are small text files stored on your device when you visit websites.",
-        "They help websites remember information about your visit, improve performance, and support certain website features."
-      ]
-    },
-    {
-      "heading": "Cookie Categories",
-      "paragraphs": [
-        "Essential Cookies are always enabled. They support core website operation and store the first-party BarkinMad Studios cookie preference record.",
-        "Analytics Cookies are optional. They allow Google Analytics to measure page views, browser information, device category, and general website interactions.",
-        "Advertising Cookies are optional. They support Google AdSense advertising storage, ad user data, and ad personalisation signals where advertising is active."
-      ]
-    },
-    {
-      "heading": "Essential Cookies",
-      "paragraphs": [
-        "Purpose: keep the website operating and remember whether optional cookies have been accepted or rejected.",
-        "Provider: BarkinMad Studios.",
-        "Retention: the cookie preference record is stored for up to 180 days unless removed earlier through browser settings.",
-        "User controls: essential cookies cannot be disabled through the website preference panel because they are required for the preference system to work."
-      ]
-    },
-    {
-      "heading": "Analytics Cookies",
-      "paragraphs": [
-        "Purpose: understand how visitors use the website so pages, content, and performance can be improved.",
-        "Provider: Google Analytics.",
-        "Retention: Google Analytics cookie retention is controlled by Google and may vary by configuration, browser behaviour, consent state, and future Google product settings.",
-        "User controls: analytics cookies are disabled by default until analytics consent is granted. Consent can be changed using Cookie Preferences in the footer."
-      ]
-    },
-    {
-      "heading": "Advertising Cookies",
-      "paragraphs": [
-        "Purpose: allow Google AdSense to provide advertising, measure ad performance, and support personalised or non-personalised advertising where applicable.",
-        "Provider: Google AdSense and Google advertising services.",
-        "Retention: Advertising cookie retention is controlled by Google and may vary by product settings, consent state, browser behaviour, region, and future AdSense requirements.",
-        "User controls: advertising cookies are disabled by default until advertising consent is granted. Consent can be changed using Cookie Preferences in the footer."
-      ]
-    },
-    {
-      "heading": "Google Consent Mode v2",
-      "paragraphs": [
-        "The website uses Google Consent Mode v2 to communicate consent choices before Google Analytics or Google AdSense are initialised.",
-        "Consent signals include analytics_storage, ad_storage, ad_user_data, and ad_personalization.",
-        "When optional consent is rejected, the website does not load the corresponding optional Google service."
-      ]
-    },
-    {
-      "heading": "Managing Cookies",
-      "paragraphs": [
-        "New visitors can accept all optional cookies, reject non-essential cookies, or manage Analytics and Advertising choices separately.",
-        "Saved choices can be changed at any time using the Cookie Preferences control in the website footer.",
-        "Most web browsers also allow you to control or disable cookies through browser settings.",
-        "Disabling cookies may affect certain website functionality or features."
-      ]
-    },
-    {
-      "heading": "Third-Party Services",
-      "paragraphs": [
-        "Third-party providers such as Google, Apple, analytics platforms, or social media services may apply their own cookies and privacy technologies when interacting with this website.",
-        "These services operate under their own privacy and cookie policies."
-      ]
-    },
-    {
-      "heading": "Policy Updates",
-      "paragraphs": [
-        "This Cookie Policy may be updated periodically as website features, analytics, or advertising services evolve."
-      ]
-    }
-  ],
-  "lastUpdated": "2026-07-07"
+	"title": "Cookie Policy",
+	"heading": "Cookie Policy",
+	"intro": "This website uses a BarkinMad Studios cookie consent system that gives you control over optional analytics and advertising cookies. Essential cookies are always enabled because they're required for the website to function correctly.",
+	"hero": {
+		"image": "/images/privacy-bg-banner.png",
+		"alt": "Privacy and data protection themed workspace representing security and trust"
+	},
+	"sections": [
+		{
+			"heading": "What Are Cookies?",
+			"paragraphs": [
+				"Cookies are small text files stored on your device when you visit a website.",
+				"They help websites remember your preferences, improve performance, and provide features that make your browsing experience smoother."
+			]
+		},
+		{
+			"heading": "Cookie Categories",
+			"paragraphs": [
+				"Essential Cookies are always enabled. They support core website functionality and store your cookie consent preferences.",
+				"Analytics Cookies are optional. They allow Google Analytics to collect anonymous information about how visitors use the website so we can continue improving it.",
+				"Advertising Cookies are optional. They allow Google AdSense to measure advertising performance and, where consent has been provided, display personalised or non-personalised advertisements."
+			]
+		},
+		{
+			"heading": "Essential Cookies",
+			"paragraphs": [
+				"Purpose: Keep the website operating correctly and remember your cookie preferences.",
+				"Provider: BarkinMad Studios.",
+				"Retention: Cookie preference records are stored for up to 180 days unless you clear them through your browser settings.",
+				"User controls: Essential cookies cannot be disabled through the website because they are required for the consent system to function."
+			]
+		},
+		{
+			"heading": "Analytics Cookies",
+			"paragraphs": [
+				"Purpose: Help us understand how visitors use the website so we can improve content, performance, and the overall user experience.",
+				"Provider: Google Analytics.",
+				"Retention: Cookie retention is managed by Google and may vary depending on configuration, browser behaviour, consent settings, and future Google product changes.",
+				"User controls: Analytics cookies are disabled by default until you choose to enable them. Your preference can be changed at any time using the Cookie Preferences option in the website footer."
+			]
+		},
+		{
+			"heading": "Advertising Cookies",
+			"paragraphs": [
+				"Purpose: Enable Google AdSense to display advertisements, measure advertising performance, and support personalised or non-personalised advertising where applicable.",
+				"Provider: Google AdSense and other Google advertising services.",
+				"Retention: Cookie retention is controlled by Google and may vary depending on product settings, browser behaviour, consent choices, regional requirements, and future AdSense changes.",
+				"User controls: Advertising cookies are disabled by default until you choose to enable them. Your preference can be updated at any time using the Cookie Preferences option in the website footer."
+			]
+		},
+		{
+			"heading": "Google Consent Mode v2",
+			"paragraphs": [
+				"This website uses Google Consent Mode v2 to communicate your consent choices before Google Analytics or Google AdSense are loaded.",
+				"Consent signals include analytics_storage, ad_storage, ad_user_data, and ad_personalization.",
+				"If you decline optional cookies, the corresponding Google services will not be loaded."
+			]
+		},
+		{
+			"heading": "Managing Cookies",
+			"paragraphs": [
+				"When you first visit the website, you can accept all optional cookies, reject non-essential cookies, or manage Analytics and Advertising preferences individually.",
+				"Your choices can be updated at any time using the Cookie Preferences option in the website footer.",
+				"Most web browsers also allow you to manage or delete cookies through their settings.",
+				"Please note that disabling certain cookies may affect some website features or functionality."
+			]
+		},
+		{
+			"heading": "Third-Party Services",
+			"paragraphs": [
+				"Third-party providers such as Google, Apple, analytics platforms, and social media services may use their own cookies or similar technologies when you interact with their services through this website.",
+				"These services operate under their own privacy and cookie policies."
+			]
+		},
+		{
+			"heading": "Policy Updates",
+			"paragraphs": [
+				"This Cookie Policy may be updated from time to time to reflect changes to website functionality, analytics, advertising services, or legal requirements."
+			]
+		}
+	],
+	"lastUpdated": "2026-07-07"
 }

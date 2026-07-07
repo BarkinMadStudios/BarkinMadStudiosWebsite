@@ -1,74 +1,74 @@
 {
-  "title": "Tips & Strategy",
-  "seoTitle": "Game of Darts Tips & Strategy | BarkinMad Studios",
-  "description": "Practical Game of Darts setup, scoring, statistics, and match-flow tips for better local darts sessions.",
-  "summary": "Use consistent player setup, pick the right mode, finish matches cleanly, and check stats and leaderboards after supported games.",
-  "heroImage": "apps/gameofdarts/gameofdarts.png",
-  "heroImageAlt": "Artwork for Game of Darts tips image",
-  "sections": [
-    {
-      "id": "session-setup",
-      "heading": "Session setup",
-      "paragraphs": [
-        "Create stable player records before long sessions so statistics and Game Center submissions can attach to the right players.",
-        "Use Quick Start 501 for fast X01 games, or choose a specific mode when you need Cricket, Snooker, Bob's 27, 1 to 20, Hare & Hound, Halve It, or All 5s."
-      ]
-    },
-    {
-      "id": "data-quality",
-      "heading": "Data quality",
-      "paragraphs": [
-        "Finish games cleanly where possible. A quit or abandoned game does not count toward the five-game Advanced Statistics progression gate.",
-        "Use Game Center sign-in and auto-post settings deliberately if you want leaderboard and achievement progress to be recorded."
-      ]
-    },
-    {
-      "id": "mode-focus",
-      "heading": "Mode focus",
-      "paragraphs": [
-        "For X01, watch checkout attempts, averages, best checkout, highest score, and 180 count. For Cricket, watch closure and hit-rate behavior. For Bob's 27 and 1 to 20, use repeated practice sessions to compare consistency.",
-        "Focus on your preferred mode first and build consistency before switching formats."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts.png",
-      "alt": "Player-focused Game of Darts tips artwork",
-      "caption": "Tips screenshot"
-    }
-  ],
-  "imageSectionTitle": "Tips Image",
-  "keywords": [
-    "Game of Darts",
-    "tips",
-    "strategy",
-    "statistics",
-    "leaderboards"
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
-  "relatedPages": [
-    "match-types",
-    "statistics",
-    "leaderboards",
-    "guide"
-  ],
-  "documentationSchemaVersion": "1.1.0",
-  "relatedLinks": [
-    {
-      "label": "Review Match Types",
-      "href": "/apps/gameofdarts/match-types"
-    },
-    {
-      "label": "Track Player Statistics",
-      "href": "/apps/gameofdarts/statistics"
-    },
-    {
-      "label": "Compare Leaderboards",
-      "href": "/apps/gameofdarts/leaderboards"
-    }
-  ]
+	"title": "Tips & Strategy",
+	"seoTitle": "Game Of Darts Tips & Strategy | BarkinMad Studios",
+	"description": "Improve your darts game with practical tips for match play, practice sessions, statistics, and Game Of Darts features.",
+	"summary": "Learn how to get more from every match, improve your consistency, and make the most of Game Of Darts.",
+	"heroImage": "apps/gameofdarts/gameofdarts.png",
+	"heroImageAlt": "Game Of Darts tips and strategy",
+	"sections": [
+		{
+			"id": "session-setup",
+			"heading": "Start Every Session the Right Way",
+			"paragraphs": [
+				"Creating player profiles before you begin helps keep your statistics, achievements, and Game Center progress organised over time.",
+				"Choose the game mode that matches your goal. Quick Start 501 is perfect for fast practice games, while Cricket, Snooker Darts, Bob's 27, One to 20, Hare & Hound, Halve It, and All 5s each help develop different skills."
+			]
+		},
+		{
+			"id": "data-quality",
+			"heading": "Finish Every Match",
+			"paragraphs": [
+				"Whenever possible, complete your matches instead of quitting early. Finished games contribute towards your statistics, achievements, and long-term progress.",
+				"If you use Apple Game Center, make sure you're signed in so your achievements and eligible leaderboard scores are recorded automatically."
+			]
+		},
+		{
+			"id": "mode-focus",
+			"heading": "Focus on One Skill at a Time",
+			"paragraphs": [
+				"Each game mode helps improve a different part of your game. X01 is ideal for improving scoring, checkouts, and consistency, while Cricket develops tactical decision-making and Bob's 27 strengthens your doubles.",
+				"Choose one area to focus on before moving to another. Regular practice with the same game mode often leads to faster improvement than constantly switching between formats."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts.png",
+			"alt": "Game Of Darts tips and strategy",
+			"caption": "Small improvements every session lead to better results over time."
+		}
+	],
+	"imageSectionTitle": "Tips & Strategy",
+	"keywords": [
+		"Game Of Darts",
+		"tips",
+		"strategy",
+		"statistics",
+		"leaderboards"
+	],
+	"estimatedReadTimeMinutes": 3,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-06-26",
+	"lastVerified": "2026-06-26",
+	"relatedPages": [
+		"match-types",
+		"statistics",
+		"leaderboards",
+		"guide"
+	],
+	"documentationSchemaVersion": "1.1.0",
+	"relatedLinks": [
+		{
+			"label": "Learn About Match Types",
+			"href": "/apps/gameofdarts/match-types"
+		},
+		{
+			"label": "View Your Statistics",
+			"href": "/apps/gameofdarts/statistics"
+		},
+		{
+			"label": "Compete on the Leaderboards",
+			"href": "/apps/gameofdarts/leaderboards"
+		}
+	]
 }

@@ -1,139 +1,139 @@
 {
-  "heading": "Retro Games, Mobile Apps & Software Development",
-  "intro": "BarkinMad Studios is an independent UK software and game development studio creating retro-inspired arcade games, mobile apps, business tools, prototypes, and digital solutions for iPhone, iPad, and the web.",
-  "hero": {
-    "image": "/images/home-bg-banner.png",
-    "alt": "Retro arcade gaming and software development workspace at BarkinMad Studios"
-  },
-  "actions": [
-    {
-      "label": "Explore Apps",
-      "href": "/apps"
-    },
-    {
-      "label": "Explore Software Services",
-      "href": "/services"
-    },
-    {
-      "label": "Latest News",
-      "href": "/news"
-    }
-  ],
-  "featuredProducts": [
-    {
-      "title": "The Game of Darts",
-      "type": "Mobile App",
-      "status": "Live",
-      "href": "/apps/gameofdarts",
-      "image": "apps/gameofdarts/gameofdarts-icon.png",
-      "description": "A modern darts scoring app for iPhone and iPad, built for quick score entry, player statistics, match history, and practical gameplay support."
-    },
-    {
-      "title": "ZXSnake",
-      "type": "Retro Arcade Game",
-      "status": "Live",
-      "href": "/apps/zxsnake",
-      "image": "apps/zxsnake/zxsnake-icon.png",
-      "description": "A retro-inspired snake game for iPhone and iPad with score chasing, achievements, leaderboards, AI opponents, multiplayer modes, and shared ZX Series progression."
-    },
-    {
-      "title": "StudioDash",
-      "type": "Developer Analytics Platform",
-      "status": "In Development",
-      "href": "/apps/studiodash",
-      "image": "apps/studiodash/studiodash-icon.png",
-      "description": "A native analytics and business intelligence platform for independent developers, creators, and small studios, bringing app, revenue, traffic, performance, and operational metrics into one workspace."
-    }
-  ],
-  "featuredApps": [
-    "gameofdarts",
-    "zxsnake",
-    "studiodash"
-  ],
-  "featuredAppsTitle": "Featured Products",
-  "servicesSection": {
-    "title": "Software & Development Services",
-    "intro": "Software services for businesses that need practical tools, apps, prototypes, dashboards, and digital platforms.",
-    "items": [
-      {
-        "title": "Custom Software Development",
-        "summary": "Tailored software designed around specific workflows, operational requirements, and business goals.",
-        "href": "/services/custom-software-development",
-        "actionLabel": "Learn about Custom Software Development"
-      },
-      {
-        "title": "Mobile App Development",
-        "summary": "Native iPhone and iPad application development from concept through to App Store release.",
-        "href": "/services/mobile-app-development",
-        "actionLabel": "Learn about Mobile App Development"
-      },
-      {
-        "title": "Internal Business Tools",
-        "summary": "Dashboards, workflow systems, reporting tools, and internal platforms built around how teams work.",
-        "href": "/services/internal-business-tools",
-        "actionLabel": "Learn about Internal Business Tools"
-      }
-    ],
-    "action": {
-      "label": "Explore Software Services",
-      "href": "/services"
-    }
-  },
-  "zxSeriesSection": {
-    "title": "ZX Series",
-    "intro": "A connected ecosystem of retro-inspired arcade games with shared progression systems.",
-    "games": [
-      "ZXSnake",
-      "ZXBrick",
-      "ZXSpace",
-      "ZXPong"
-    ],
-    "features": [
-      "BarkinMad Coins",
-      "Shared Achievements",
-      "Shared Leaderboards"
-    ],
-    "action": {
-      "label": "Explore ZX Series",
-      "href": "/zx-series"
-    }
-  },
-  "sections": [
-    {
-      "title": "Retro Arcade Games",
-      "description": "Discover the growing [ZX Series](/zx-series), a connected collection of retro-inspired arcade games featuring achievements, leaderboards, BarkinMad Coins, multiplayer modes, and shared progression systems.",
-      "action": {
-        "label": "Explore ZX Series",
-        "href": "/zx-series"
-      }
-    },
-    {
-      "title": "Mobile Apps",
-      "description": "Browse BarkinMad Studios [apps](/apps), including retro arcade games, productivity tools, score tracking applications, and future software projects for iPhone and iPad.",
-      "action": {
-        "label": "Browse BarkinMad Apps",
-        "href": "/apps"
-      }
-    },
-    {
-      "title": "Software Development Services",
-      "description": "Explore [custom software development](/services/custom-software-development), [mobile app development](/services/mobile-app-development), [internal business tools](/services/internal-business-tools), workflow automation, websites, and prototype development services.",
-      "action": {
-        "label": "Explore Software Services",
-        "href": "/services"
-      }
-    },
-    {
-      "title": "About BarkinMad Studios",
-      "description": "Learn more about the studio, its background, development approach, public projects, and long-term vision for creating games, applications, and software solutions.",
-      "action": {
-        "label": "About Us",
-        "href": "/about"
-      }
-    }
-  ],
-  "showLatestNews": true,
-  "latestNewsTitle": "Latest News",
-  "newsCount": 3,
-  "lastUpdated": "2026-06-14"
+	"heading": "Retro Games, Mobile Apps & Software Development",
+	"intro": "Welcome to BarkinMad Studios, an independent UK software and game development studio creating retro-inspired arcade games, mobile apps, business software, and digital solutions for iPhone, iPad, and the web.",
+	"hero": {
+		"image": "/images/home-bg-banner.png",
+		"alt": "Retro arcade gaming and software development workspace at BarkinMad Studios"
+	},
+	"actions": [
+		{
+			"label": "Explore Apps",
+			"href": "/apps"
+		},
+		{
+			"label": "Explore Software Services",
+			"href": "/services"
+		},
+		{
+			"label": "Latest News",
+			"href": "/news"
+		}
+	],
+	"featuredProducts": [
+		{
+			"title": "The Game of Darts",
+			"type": "Mobile App",
+			"status": "Live",
+			"href": "/apps/gameofdarts",
+			"image": "apps/gameofdarts/gameofdarts-icon.png",
+			"description": "A modern darts scoring app for iPhone and iPad, featuring fast score entry, detailed player statistics, match history, and multiple game modes."
+		},
+		{
+			"title": "ZXSnake",
+			"type": "Retro Arcade Game",
+			"status": "Live",
+			"href": "/apps/zxsnake",
+			"image": "apps/zxsnake/zxsnake-icon.png",
+			"description": "A modern take on the classic Snake arcade game, featuring achievements, leaderboards, AI opponents, multiplayer modes, and shared ZX Series progression."
+		},
+		{
+			"title": "StudioDash",
+			"type": "Developer Analytics Platform",
+			"status": "In Development",
+			"href": "/apps/studiodash",
+			"image": "apps/studiodash/studiodash-icon.png",
+			"description": "An analytics and business intelligence platform that brings app performance, revenue, traffic, and operational insights together in one native workspace for independent developers."
+		}
+	],
+	"featuredApps": [
+		"gameofdarts",
+		"zxsnake",
+		"studiodash"
+	],
+	"featuredAppsTitle": "Featured Products",
+	"servicesSection": {
+		"title": "Software & Development Services",
+		"intro": "Practical software solutions for businesses looking to build apps, streamline workflows, develop prototypes, or create modern digital platforms.",
+		"items": [
+			{
+				"title": "Custom Software Development",
+				"summary": "Tailored software designed around your business processes, workflows, and long-term goals.",
+				"href": "/services/custom-software-development",
+				"actionLabel": "Learn about Custom Software Development"
+			},
+			{
+				"title": "Mobile App Development",
+				"summary": "Native iPhone and iPad application development from concept through to App Store release.",
+				"href": "/services/mobile-app-development",
+				"actionLabel": "Learn about Mobile App Development"
+			},
+			{
+				"title": "Internal Business Tools",
+				"summary": "Dashboards, workflow systems, reporting tools, and business applications designed around the way your team works.",
+				"href": "/services/internal-business-tools",
+				"actionLabel": "Learn about Internal Business Tools"
+			}
+		],
+		"action": {
+			"label": "Explore Software Services",
+			"href": "/services"
+		}
+	},
+	"zxSeriesSection": {
+		"title": "ZX Series",
+		"intro": "A connected collection of retro-inspired arcade games with shared achievements, progression, and rewards.",
+		"games": [
+			"ZXSnake",
+			"ZXBrick",
+			"ZXSpace",
+			"ZXPong"
+		],
+		"features": [
+			"BarkinMad Coins",
+			"Shared Achievements",
+			"Shared Leaderboards"
+		],
+		"action": {
+			"label": "Explore ZX Series",
+			"href": "/zx-series"
+		}
+	},
+	"sections": [
+		{
+			"title": "Retro Arcade Games",
+			"description": "Discover the growing [ZX Series](/zx-series), where classic arcade gameplay meets modern features including achievements, leaderboards, BarkinMad Coins, multiplayer modes, and shared progression.",
+			"action": {
+				"label": "Explore ZX Series",
+				"href": "/zx-series"
+			}
+		},
+		{
+			"title": "Mobile Apps",
+			"description": "Explore our growing collection of [apps](/apps), from retro arcade games and score tracking tools to developer utilities and future software projects for iPhone and iPad.",
+			"action": {
+				"label": "Browse BarkinMad Apps",
+				"href": "/apps"
+			}
+		},
+		{
+			"title": "Software Development Services",
+			"description": "From [custom software development](/services/custom-software-development) and [mobile apps](/services/mobile-app-development) to [internal business tools](/services/internal-business-tools), workflow automation, websites, and prototypes, we help turn ideas into practical software solutions.",
+			"action": {
+				"label": "Explore Software Services",
+				"href": "/services"
+			}
+		},
+		{
+			"title": "About BarkinMad Studios",
+			"description": "Learn more about our background, development approach, public products, and long-term vision for creating games, applications, and software that people enjoy using.",
+			"action": {
+				"label": "About Us",
+				"href": "/about"
+			}
+		}
+	],
+	"showLatestNews": true,
+	"latestNewsTitle": "Latest News",
+	"newsCount": 3,
+	"lastUpdated": "2026-06-14"
 }

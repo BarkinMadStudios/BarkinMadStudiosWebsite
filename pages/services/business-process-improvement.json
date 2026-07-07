@@ -1,67 +1,67 @@
 {
-  "title": "Business Process Improvement",
-  "hero": {
-    "image": "",
-    "alt": ""
-  },
-  "description": "Identify inefficiencies, streamline workflows, and use technology to improve business operations.",
-  "heroTitle": "Business Process Improvement",
-  "heroSubtitle": "Helping organisations work smarter, with clearer processes and better tools.",
-  "sections": [
-    {
-      "heading": "Simplify Processes and Improve Efficiency",
-      "content": [
-        "Manual processes, spreadsheets, email chains, and disconnected systems can slow teams down and make everyday work harder than it needs to be.",
-        "[BarkinMad Studios](/about) helps organisations review how work is done, identify practical improvements, and use software to reduce friction across day-to-day operations."
-      ]
-    },
-    {
-      "heading": "Common Challenges",
-      "content": [
-        "Duplicate data entry",
-        "Manual reporting",
-        "Slow approval processes",
-        "Spreadsheet dependency",
-        "Limited operational visibility",
-        "Disconnected systems",
-        "Repetitive administrative tasks"
-      ]
-    },
-    {
-      "heading": "Understanding Existing Processes",
-      "content": [
-        "Useful improvement starts with understanding how teams actually work today.",
-        "Process reviews can highlight bottlenecks, duplicated effort, unclear handovers, and areas where automation or better tooling would make the biggest difference."
-      ]
-    },
-    {
-      "heading": "Technology as an Enabler",
-      "content": [
-        "Workflow automation",
-        "Reporting improvements",
-        "[Internal business tools](/services/internal-business-tools)",
-        "Dashboard development",
-        "Process redesign",
-        "System integration",
-        "Data consolidation"
-      ]
-    },
-    {
-      "heading": "Why BarkinMad Studios?",
-      "content": [
-        "20+ years of technology experience.",
-        "Independent UK software developer.",
-        "Real-world [apps](/apps) actively developed and maintained.",
-        "Direct communication throughout every project.",
-        "Flexible engagement for startups and small businesses."
-      ]
-    }
-  ],
-  "cta": {
-    "title": "Improve Your Processes",
-    "content": "Find practical ways to streamline operations, reduce manual effort, and improve visibility across your organisation.",
-    "buttonText": "Contact BarkinMad Studios",
-    "buttonLink": "/contact"
-  },
-  "lastUpdated": "2026-06-07"
+	"title": "Business Process Improvement",
+	"hero": {
+		"image": "",
+		"alt": ""
+	},
+	"description": "Identify inefficiencies, streamline workflows, and use technology to improve the way your business operates.",
+	"heroTitle": "Business Process Improvement",
+	"heroSubtitle": "Helping organisations work smarter through better processes, smarter systems, and practical technology.",
+	"sections": [
+		{
+			"heading": "Simplify Processes and Improve Efficiency",
+			"content": [
+				"As businesses grow, manual processes, spreadsheets, email chains, and disconnected systems can become increasingly difficult to manage. They slow teams down, create unnecessary work, and make it harder to find the information people need.",
+				"BarkinMad Studios helps organisations understand how work is carried out today, identify practical improvements, and introduce technology that simplifies day-to-day operations while supporting future growth."
+			]
+		},
+		{
+			"heading": "Common Challenges",
+			"content": [
+				"Duplicate data entry",
+				"Manual reporting",
+				"Slow approval processes",
+				"Spreadsheet dependency",
+				"Limited operational visibility",
+				"Disconnected systems",
+				"Repetitive administrative tasks"
+			]
+		},
+		{
+			"heading": "Understanding Your Existing Processes",
+			"content": [
+				"Every improvement begins with understanding how your teams currently work.",
+				"Reviewing existing processes helps identify bottlenecks, duplicated effort, unnecessary manual tasks, and opportunities where automation or better software can make a meaningful difference."
+			]
+		},
+		{
+			"heading": "Technology That Supports Better Workflows",
+			"content": [
+				"Workflow automation",
+				"Reporting improvements",
+				"[Internal business tools](/services/internal-business-tools)",
+				"Dashboard development",
+				"Process redesign",
+				"System integration",
+				"Data consolidation"
+			]
+		},
+		{
+			"heading": "Why Work With BarkinMad Studios?",
+			"content": [
+				"More than 20 years of technology experience.",
+				"Independent UK software developer.",
+				"Real-world apps, games, and business software actively designed, developed, and maintained.",
+				"Direct communication throughout every stage of your project.",
+				"Flexible engagement for startups, small businesses, and growing organisations."
+			]
+		}
+	],
+	"cta": {
+		"title": "Improve the Way Your Business Works",
+		"content": "Whether you're looking to reduce manual effort, improve reporting, automate repetitive tasks, or streamline day-to-day operations, BarkinMad Studios can help identify practical improvements and build software that supports the way your organisation works.",
+		"buttonText": "Contact BarkinMad Studios",
+		"buttonLink": "/contact"
+	},
+	"lastUpdated": "2026-06-07"
 }

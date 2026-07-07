@@ -1,149 +1,149 @@
 {
-  "title": "About",
-  "seoTitle": "About BarkinMad Studios Apps & Software",
-  "heading": "About BarkinMad Studios",
-  "intro": "Independent UK software and game development studio creating mobile apps, retro-inspired games, business tools, websites, and digital solutions for iPhone, iPad, and the web.",
-  "hero": {
-    "image": "/images/apps-hero-banner.png",
-    "alt": "BarkinMad Studios development workspace showcasing game and software creation"
-  },
-  "sections": [
-    {
-      "heading": "Who We Are",
-      "paragraphs": [
-        "BarkinMad Studios is an independent UK software and game development studio creating mobile apps, retro-inspired games, [websites](/services/websites-content-platforms), prototypes, and digital business tools.",
-        "The studio combines software development experience with practical problem solving, with a focus on products that are easy to use, maintain, and improve over time.",
-        "Whether the project is an arcade game for players or [custom software](/services/custom-software-development) for a business, the aim is to build reliable solutions that deliver long-term value.",
-        "Remaining independent helps projects move quickly from idea to release while keeping quality, usability, and continuous improvement at the centre of the work."
-      ]
-    },
-    {
-      "heading": "Our Story",
-      "paragraphs": [
-        "BarkinMad Studios was founded with a simple goal: create software that is enjoyable to use and practical to maintain.",
-        "What began as a personal passion for software development, retro gaming, and problem solving has grown into a studio focused on mobile applications, games, websites, and business solutions.",
-        "The work takes inspiration from classic computing and arcade experiences while using modern development practices, cloud technologies, and mobile platforms.",
-        "Every project is approached with the belief that software should solve problems, provide value, and continue improving through regular updates and user feedback.",
-        "As an independent studio, BarkinMad Studios can focus on long-term product quality, meaningful user experiences, and solutions that genuinely help people and organisations."
-      ]
-    },
-    {
-      "heading": "Experience",
-      "paragraphs": [
-        "The studio draws on more than two decades of experience delivering technology solutions across different industries and business sectors.",
-        "This includes software development, mobile applications, cloud technologies, digital transformation, workflow automation, business systems, technical consultancy, and solution design.",
-        "Projects have ranged from small [internal business tools](/services/internal-business-tools) and prototypes through to larger systems supporting thousands of users.",
-        "Working across varied environments has provided useful insight into how technology can improve productivity, simplify processes, and create measurable business benefits.",
-        "That experience helps shape practical, scalable, maintainable solutions focused on real outcomes."
-      ]
-    },
-    {
-      "heading": "Technical Expertise",
-      "paragraphs": [
-        "BarkinMad Studios combines experience across software development, mobile applications, cloud platforms, security-focused design, [workflow automation](/services/business-process-improvement), data management, analytics, localisation, and digital transformation.",
-        "Products are built using modern technologies and development practices so they remain reliable, maintainable, and adaptable as requirements evolve.",
-        "Technical expertise includes mobile application development, website platforms, API integration, cloud-hosted services, automation workflows, reporting systems, business intelligence solutions, and user-focused application design.",
-        "This broad background helps each solution balance maintainability, performance, scalability, usability, and cost-effectiveness."
-      ]
-    },
-    {
-      "heading": "What We Make",
-      "paragraphs": [
-        "The studio develops [mobile applications](/services/mobile-app-development), retro-inspired games, websites, internal business tools, workflow automation systems, dashboards, prototypes, and proof-of-concept solutions.",
-        "Mobile development focuses mainly on iPhone and iPad applications built with modern Apple technologies. Apps are designed with performance, accessibility, localisation, and long-term maintainability in mind.",
-        "Custom software projects help businesses streamline processes, automate repetitive work, improve reporting, centralise data, and modernise existing systems.",
-        "The public portfolio includes the [ZX Series](/zx-series) of retro-inspired arcade games, [The Game of Darts](/apps/gameofdarts) scoring application, productivity tools, and specialist mobile applications for iPhone and iPad.",
-        "Alongside commercial software development, BarkinMad Studios continues to invest in original products, including the [ZX Series](/zx-series), a growing collection of arcade games with shared achievements, leaderboards, progression systems, and multiplayer experiences.",
-        "Many projects begin as [prototypes](/services/prototypes-proof-of-concepts), allowing ideas to be tested quickly before committing to a larger build. This reduces risk and keeps development focused on measurable value."
-      ],
-      "links": [
-        {
-          "label": "View Portfolio",
-          "href": "/portfolio"
-        },
-        {
-          "label": "Browse Our Apps",
-          "href": "/apps/non-zx"
-        },
-        {
-          "label": "Explore The ZX Series",
-          "href": "/zx-series"
-        },
-        {
-          "label": "View Our Services",
-          "href": "/services"
-        }
-      ]
-    },
-    {
-      "heading": "The ZX Series",
-      "paragraphs": [
-        "The [ZX Series](/zx-series) is BarkinMad Studios' flagship collection of retro-inspired arcade games for iPhone and iPad.",
-        "Inspired by classic arcade and home computer experiences, the series combines simple gameplay mechanics with modern features such as Game Center integration, achievements, leaderboards, multiplayer support, cloud-based progression, accessibility improvements, and multi-language support.",
-        "Current and available titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong).",
-        "Future titles currently planned include ZXMaze, ZXRacer, ZXTank, and ZXLabrador.",
-        "The long-term vision is to build a connected ecosystem of games that share progression systems, rewards, achievements, and player identity while keeping each title distinct.",
-        "The series continues to grow through regular updates, new releases, and improvements shaped by player feedback."
-      ],
-      "links": [
-        {
-          "label": "Explore The ZX Series",
-          "href": "/zx-series"
-        }
-      ]
-    },
-    {
-      "heading": "Business Services",
-      "paragraphs": [
-        "Alongside games and mobile applications, BarkinMad Studios provides software development and consultancy services for businesses.",
-        "Services include [custom software development](/services/custom-software-development), [mobile app development](/services/mobile-app-development), [workflow automation](/services/business-process-improvement), [internal business tools](/services/internal-business-tools), [website and content platform development](/services/websites-content-platforms), [business process improvement](/services/business-process-improvement), and [rapid prototyping](/services/prototypes-proof-of-concepts).",
-        "The goal is to help organisations reduce manual effort, improve efficiency, increase visibility of operational data, and create scalable technology solutions that support long-term growth.",
-        "Projects can range from focused proof-of-concepts and internal utilities through to larger business systems and digital transformation work.",
-        "Learn more about our [software development and business services](/services)."
-      ],
-      "links": [
-        {
-          "label": "View Our Services",
-          "href": "/services"
-        }
-      ]
-    },
-    {
-      "heading": "How We Work",
-      "paragraphs": [
-        "The focus is practical software that solves real problems without unnecessary complexity.",
-        "Projects are shaped around usability, maintainability, performance, and long-term value.",
-        "From early ideas and prototypes through to production-ready applications, development stays focused, transparent, and outcome-driven.",
-        "Regular testing, continuous improvement, and ongoing feedback help products remain relevant and useful after release.",
-        "This approach allows solutions to evolve naturally as user needs, technology, and business requirements change over time."
-      ]
-    },
-    {
-      "heading": "BarkinMad Coins",
-      "paragraphs": [
-        "[BarkinMad Coins](/zx-series) are gameplay rewards used across supported BarkinMad Studios games.",
-        "Coins are earned through gameplay and can be used to unlock cosmetic content such as themes, colours, skins, and visual extras.",
-        "They have no cash value, cannot be transferred, and cannot be exchanged for real-world goods or services.",
-        "The system rewards player engagement while providing a consistent progression experience across supported titles within the [ZX Series](/zx-series)."
-      ]
-    },
-    {
-      "heading": "Frequently Asked Questions",
-      "paragraphs": [
-        "Q: Is BarkinMad Studios an independent developer? A: Yes. BarkinMad Studios is an independent UK software and game development company.",
-        "Q: What platforms do you support? A: The current focus is iPhone and iPad development, alongside supporting web-based platforms and services.",
-        "Q: Do you provide custom software development services? A: Yes. Services include custom software projects, internal business tools, prototypes, workflow automation, and mobile applications.",
-        "Q: How can I provide feedback on an app or game? A: Feedback and support requests can be submitted through the [contact page](/contact) or by emailing support@barkinmad.studio.",
-        "Q: Are the ZX Series games connected? A: Yes. The [ZX Series](/zx-series) is designed as a connected collection of games with shared progression systems, achievements, leaderboards, and rewards."
-      ]
-    },
-    {
-      "heading": "Contact",
-      "paragraphs": [
-        "For support, feedback, testing enquiries, partnership opportunities, business discussions, or software development enquiries, please visit the [contact page](/contact) or email support@barkinmad.studio.",
-        "BarkinMad Studios welcomes conversations about mobile applications, software projects, prototypes, business tools, and potential partnerships."
-      ]
-    }
-  ],
-  "lastUpdated": "2026-06-07"
+	"title": "About",
+	"seoTitle": "About BarkinMad Studios Apps & Software",
+	"heading": "About BarkinMad Studios",
+	"intro": "An independent UK software and game development studio creating mobile apps, retro-inspired games, business software, websites, and digital solutions for iPhone, iPad, and the web.",
+	"hero": {
+		"image": "/images/apps-hero-banner.png",
+		"alt": "BarkinMad Studios development workspace showcasing game and software creation"
+	},
+	"sections": [
+		{
+			"heading": "Who We Are",
+			"paragraphs": [
+				"BarkinMad Studios is an independent UK software and game development studio creating mobile apps, retro-inspired games, [websites](/services/websites-content-platforms), prototypes, and digital business tools.",
+				"The studio combines software development experience with practical problem solving, creating products that are easy to use, maintain, and improve over time.",
+				"Whether the project is an arcade game for players or [custom software](/services/custom-software-development) for a business, the aim is to build reliable solutions that deliver long-term value.",
+				"Remaining independent allows projects to move quickly from idea to release while keeping quality, usability, and continuous improvement at the centre of the work."
+			]
+		},
+		{
+			"heading": "Our Story",
+			"paragraphs": [
+				"BarkinMad Studios was founded with a simple goal: to create software that is enjoyable to use and practical to maintain.",
+				"What began as a personal passion for software development, retro gaming, and problem solving has grown into a studio focused on mobile applications, games, websites, and business solutions.",
+				"Every project draws inspiration from classic computing and arcade gaming while taking advantage of modern development practices, cloud technologies, and mobile platforms.",
+				"The studio approaches software with the belief that it should solve real problems, provide lasting value, and continue improving through regular updates and user feedback.",
+				"As an independent studio, BarkinMad Studios can focus on long-term product quality, meaningful user experiences, and solutions that genuinely help people and organisations."
+			]
+		},
+		{
+			"heading": "Experience",
+			"paragraphs": [
+				"The studio draws on more than two decades of experience delivering technology solutions across different industries and business sectors.",
+				"This includes software development, mobile applications, cloud technologies, digital transformation, workflow automation, business systems, technical consultancy, and solution design.",
+				"Projects have ranged from small [internal business tools](/services/internal-business-tools) and prototypes through to larger systems supporting thousands of users.",
+				"Working across a wide range of environments has provided valuable insight into how technology can improve productivity, simplify processes, and create measurable business benefits.",
+				"That experience helps shape practical, scalable, and maintainable solutions focused on real outcomes."
+			]
+		},
+		{
+			"heading": "Technical Expertise",
+			"paragraphs": [
+				"BarkinMad Studios combines experience across software development, mobile applications, cloud platforms, security-focused design, [workflow automation](/services/business-process-improvement), data management, analytics, localisation, and digital transformation.",
+				"Products are built using modern technologies and development practices so they remain reliable, maintainable, and adaptable as requirements evolve.",
+				"Technical expertise includes mobile application development, website platforms, API integration, cloud-hosted services, automation workflows, reporting systems, business intelligence solutions, and user-focused application design.",
+				"This broad experience helps every solution balance maintainability, performance, scalability, usability, and cost-effectiveness."
+			]
+		},
+		{
+			"heading": "What We Make",
+			"paragraphs": [
+				"The studio develops [mobile applications](/services/mobile-app-development), retro-inspired games, websites, internal business tools, workflow automation systems, dashboards, prototypes, and proof-of-concept solutions.",
+				"Mobile development focuses mainly on iPhone and iPad applications built with modern Apple technologies. Apps are designed with performance, accessibility, localisation, and long-term maintainability in mind.",
+				"Custom software projects help businesses streamline processes, automate repetitive work, improve reporting, centralise data, and modernise existing systems.",
+				"The public portfolio includes the [ZX Series](/zx-series) of retro-inspired arcade games, [The Game of Darts](/apps/gameofdarts) scoring application, productivity tools, and specialist mobile applications for iPhone and iPad.",
+				"Alongside commercial software development, BarkinMad Studios continues to invest in original products, including the [ZX Series](/zx-series), a growing collection of arcade games with shared achievements, leaderboards, progression systems, and multiplayer experiences.",
+				"Many projects begin as [prototypes](/services/prototypes-proof-of-concepts), allowing ideas to be tested quickly before committing to a larger build. This reduces risk and keeps development focused on measurable value."
+			],
+			"links": [
+				{
+					"label": "View Portfolio",
+					"href": "/portfolio"
+				},
+				{
+					"label": "Browse Our Apps",
+					"href": "/apps/non-zx"
+				},
+				{
+					"label": "Explore The ZX Series",
+					"href": "/zx-series"
+				},
+				{
+					"label": "View Our Services",
+					"href": "/services"
+				}
+			]
+		},
+		{
+			"heading": "The ZX Series",
+			"paragraphs": [
+				"The [ZX Series](/zx-series) is BarkinMad Studios' flagship collection of retro-inspired arcade games for iPhone and iPad.",
+				"Inspired by classic arcade and home computer experiences, the series combines simple gameplay mechanics with modern features such as Game Center integration, achievements, leaderboards, multiplayer support, cloud-based progression, accessibility improvements, and multi-language support.",
+				"Current and available titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong).",
+				"Future titles currently planned include ZXMaze, ZXRacer, ZXTank, and ZXLabrador.",
+				"The long-term vision is to build a connected ecosystem of games that share progression systems, rewards, achievements, and player identity while keeping each title distinct.",
+				"The series continues to grow through regular updates, new releases, and improvements shaped by player feedback."
+			],
+			"links": [
+				{
+					"label": "Explore The ZX Series",
+					"href": "/zx-series"
+				}
+			]
+		},
+		{
+			"heading": "Business Services",
+			"paragraphs": [
+				"Alongside games and mobile applications, BarkinMad Studios provides software development and consultancy services for businesses.",
+				"Services include [custom software development](/services/custom-software-development), [mobile app development](/services/mobile-app-development), [workflow automation](/services/business-process-improvement), [internal business tools](/services/internal-business-tools), [website and content platform development](/services/websites-content-platforms), [business process improvement](/services/business-process-improvement), and [rapid prototyping](/services/prototypes-proof-of-concepts).",
+				"The goal is to help organisations reduce manual effort, improve efficiency, increase visibility of operational data, and create scalable technology solutions that support long-term growth.",
+				"Projects can range from focused proof-of-concepts and internal utilities through to larger business systems and digital transformation work.",
+				"Learn more about our [software development and business services](/services)."
+			],
+			"links": [
+				{
+					"label": "View Our Services",
+					"href": "/services"
+				}
+			]
+		},
+		{
+			"heading": "How We Work",
+			"paragraphs": [
+				"The focus is practical software that solves real problems without unnecessary complexity.",
+				"Projects are shaped around usability, maintainability, performance, and long-term value.",
+				"From early ideas and prototypes through to production-ready applications, development stays focused, transparent, and outcome-driven.",
+				"Regular testing, continuous improvement, and ongoing feedback help products remain relevant and useful after release.",
+				"This approach allows solutions to evolve naturally as user needs, technology, and business requirements change over time."
+			]
+		},
+		{
+			"heading": "BarkinMad Coins",
+			"paragraphs": [
+				"[BarkinMad Coins](/zx-series) are gameplay rewards used across supported BarkinMad Studios games.",
+				"Coins are earned through gameplay and can be used to unlock cosmetic content such as themes, colours, skins, and visual extras.",
+				"They have no cash value, cannot be transferred, and cannot be exchanged for real-world goods or services.",
+				"The system rewards player engagement while providing a consistent progression experience across supported titles within the [ZX Series](/zx-series)."
+			]
+		},
+		{
+			"heading": "Frequently Asked Questions",
+			"paragraphs": [
+				"Q: Is BarkinMad Studios an independent developer? A: Yes. BarkinMad Studios is an independent UK software and game development company.",
+				"Q: What platforms do you support? A: The current focus is iPhone and iPad development, alongside supporting web-based platforms and services.",
+				"Q: Do you provide custom software development services? A: Yes. Services include custom software projects, internal business tools, prototypes, workflow automation, and mobile applications.",
+				"Q: How can I provide feedback on an app or game? A: Feedback and support requests can be submitted through the [contact page](/contact) or by emailing support@barkinmad.studio.",
+				"Q: Are the ZX Series games connected? A: Yes. The [ZX Series](/zx-series) is designed as a connected collection of games with shared progression systems, achievements, leaderboards, and rewards."
+			]
+		},
+		{
+			"heading": "Contact",
+			"paragraphs": [
+				"For support, feedback, testing enquiries, partnership opportunities, business discussions, or software development enquiries, please visit the [contact page](/contact) or email support@barkinmad.studio.",
+				"BarkinMad Studios welcomes conversations about mobile applications, software projects, prototypes, business tools, and potential partnerships."
+			]
+		}
+	],
+	"lastUpdated": "2026-06-07"
 }

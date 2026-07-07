@@ -1,104 +1,104 @@
 {
-  "documentationSchemaVersion": "1.1.0",
-  "title": "StudioDash Automation & Sync",
-  "seoTitle": "StudioDash Automation and Sync | BarkinMad Studios",
-  "description": "StudioDash sync behavior, provider health, manual refresh flows, cache state, and roadmap automation areas.",
-  "summary": "StudioDash sync and automation are designed to keep provider data understandable, traceable, and clearly separated from future automation promises.",
-  "heroImage": "apps/studiodash/studiodash-hero.png",
-  "heroImageAlt": "StudioDash automation and sync dashboard",
-  "referenceImage": {
-    "src": "apps/studiodash/studiodash-hero.png",
-    "alt": "StudioDash automation and sync dashboard"
-  },
-  "featureShowcases": [
-    {
-      "id": "provider-sync-state",
-      "heading": "Sync state beside provider context",
-      "summary": "StudioDash keeps integration state close to the data it affects so users can see whether a metric is current, unavailable, or waiting for setup.",
-      "body": "The sync model is deliberately visible. A missing chart, empty report, or unavailable metric should point the user toward the provider state that explains it, rather than hiding the card or filling it with sample values.",
-      "bullets": [
-        "Shows provider health, setup state, sync timing, and data availability as part of the operating view.",
-        "Keeps unconfigured providers visible with clear setup messaging.",
-        "Leaves wider automation, scheduled reports, forecasting, and AI summaries as roadmap areas until released."
-      ],
-      "image": {
-        "src": "apps/studiodash/Screenshot2.png",
-        "alt": "StudioDash provider analytics screen supporting automation and sync guidance",
-        "caption": "Provider status artwork supports the automation and sync workflow guidance."
-      },
-      "layout": "textLeft",
-      "links": [
-        {
-          "label": "View integrations",
-          "href": "/apps/studiodash/integrations"
-        }
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "sync-principles",
-      "heading": "Sync principles",
-      "paragraphs": [
-        "StudioDash is designed to make provider data state visible. A useful dashboard should show when data was last checked, whether a provider needs attention, and whether data is unavailable because a provider is unconfigured or has not returned data yet.",
-        "Provider-dependent cards remain visible so users can understand which integration is needed instead of wondering why a section disappeared. This is especially important in Live Mode, where demo records must not fill gaps in real provider data."
-      ],
-      "bullets": [
-        "Opening the app or viewing provider details should not imply that every provider has just synced.",
-        "Manual provider sync and refresh-all actions are separate from setup and scheduled refresh behavior.",
-        "Provider data is read from saved configuration, provider cache, and current sync state rather than from public guide pre-release coverage."
-      ]
-    },
-    {
-      "id": "provider-health",
-      "heading": "Provider health",
-      "paragraphs": [
-        "Provider health is a core part of the StudioDash experience. The app uses clear status language so users can distinguish healthy providers from providers needing attention, errors, not configured providers, and planned integrations.",
-        "This status language is not decorative. It explains whether the user should configure access, review permissions, wait for data, retry a sync, or treat a provider as future coverage."
-      ],
-      "bullets": [
-        "Healthy: provider access and recent data state look usable.",
-        "Attention Required: configuration, permissions, cache state, or provider data needs review.",
-        "Error: provider access, validation, permissions, or data fetch failed.",
-        "Not Configured: the provider has not been set up for live data.",
-        "Planned: the integration is represented as roadmap or pre-release coverage."
-      ]
-    },
-    {
-      "id": "manual-refresh",
-      "heading": "Manual refresh and cache state",
-      "paragraphs": [
-        "StudioDash guide describes sync as a user-visible workflow, not a background mystery. Integration cards can show last synced, last checked, next refresh, health, and data coverage context where available.",
-        "Manual sync should be understood as provider-specific. A single provider action refreshes the selected provider, while broader refresh-all behavior is a separate operation. Setup tests validate configuration before treating saved credentials as active live access."
-      ],
-      "bullets": [
-        "Provider details can expose read-only cache and coverage rows such as cache source, cache age, cache health, historical days available, objects cached, and last successful pull.",
-        "No-data states are different from errors: a provider may be connected but not have reportable data for the selected period.",
-        "Cache-backed history helps selected-period reporting without making startup perform unnecessary provider refreshes."
-      ]
-    },
-    {
-      "id": "automation-roadmap",
-      "heading": "Automation roadmap",
-      "paragraphs": [
-        "Automation features such as scheduled reports, richer refresh scheduling, forecasting, AI-assisted summaries, recommendations, and portfolio intelligence should be described as roadmap content unless publicly released.",
-        "The public product promise is that StudioDash aims to reduce dashboard switching and make repeated checks easier. Future automation should build on that promise by helping users decide what to review next, not by obscuring provider data state."
-      ]
-    }
-  ],
-  "keywords": [
-    "StudioDash sync",
-    "provider health",
-    "dashboard automation",
-    "integration status"
-  ],
-  "estimatedReadTimeMinutes": 4,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "integrations",
-    "security-privacy",
-    "reporting"
-  ]
+	"documentationSchemaVersion": "1.1.0",
+	"title": "StudioDash Automation & Sync",
+	"seoTitle": "StudioDash Automation & Sync | BarkinMad Studios",
+	"description": "Understand how StudioDash keeps your data up to date, monitors provider health, and helps you stay informed across every connected service.",
+	"summary": "StudioDash makes synchronisation transparent, showing when data was updated, the health of each provider, and what needs your attention.",
+	"heroImage": "apps/studiodash/studiodash-hero.png",
+	"heroImageAlt": "StudioDash automation and sync dashboard",
+	"referenceImage": {
+		"src": "apps/studiodash/studiodash-hero.png",
+		"alt": "StudioDash automation and sync dashboard"
+	},
+	"featureShowcases": [
+		{
+			"id": "provider-sync-state",
+			"heading": "Stay in Control of Your Data",
+			"summary": "StudioDash clearly shows the status of every connected provider so you always know how current your data is.",
+			"body": "Rather than hiding unavailable information, StudioDash explains why it isn't available. Whether a provider needs configuring, is waiting for fresh data, or has encountered an issue, you'll always have the information you need to understand what's happening.",
+			"bullets": [
+				"View provider health and synchronisation status at a glance.",
+				"Clearly identify providers that need attention or setup.",
+				"Future automation features will build on this foundation as they become available."
+			],
+			"image": {
+				"src": "apps/studiodash/Screenshot2.png",
+				"alt": "StudioDash provider status dashboard",
+				"caption": "Monitor every connected provider from one dashboard."
+			},
+			"layout": "textLeft",
+			"links": [
+				{
+					"label": "Explore Integrations",
+					"href": "/apps/studiodash/integrations"
+				}
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "sync-principles",
+			"heading": "Clear Synchronisation Status",
+			"paragraphs": [
+				"StudioDash is designed to make synchronisation easy to understand. Instead of wondering whether your information is current, you can immediately see when each provider was last checked, last updated, and whether any action is required.",
+				"Connected providers remain visible even when no data is available, making it clear whether a service is waiting for setup, still synchronising, or simply has no information to display for the selected period."
+			],
+			"bullets": [
+				"See when each provider was last checked and last synchronised.",
+				"Understand the difference between manual refreshes and scheduled updates.",
+				"Keep connected providers visible, even when no data is currently available."
+			]
+		},
+		{
+			"id": "provider-health",
+			"heading": "Provider Health",
+			"paragraphs": [
+				"Provider Health gives you an instant overview of every connected service. Clear status labels make it easy to identify healthy providers, integrations that need attention, configuration issues, and planned future integrations.",
+				"Rather than relying on technical messages, StudioDash uses simple, consistent status information to help you understand what action, if any, is required."
+			],
+			"bullets": [
+				"Healthy – Everything is working normally.",
+				"Attention Required – Configuration or data needs review.",
+				"Error – Synchronisation or provider communication failed.",
+				"Not Configured – The provider hasn't been connected yet.",
+				"Planned – Integration is planned for a future release."
+			]
+		},
+		{
+			"id": "manual-refresh",
+			"heading": "Manual Refresh & Cached Data",
+			"paragraphs": [
+				"StudioDash makes it easy to refresh provider data whenever you need the latest information. Individual providers can be refreshed independently, while a separate refresh option updates every connected provider.",
+				"Cached data is used to improve performance and provide historical reporting without unnecessarily contacting external services every time the app starts."
+			],
+			"bullets": [
+				"View cache health and historical coverage where available.",
+				"Understand the difference between no data and provider errors.",
+				"Use cached history for faster reporting across longer time periods."
+			]
+		},
+		{
+			"id": "automation-roadmap",
+			"heading": "Automation Roadmap",
+			"paragraphs": [
+				"StudioDash is being built with automation in mind. Future releases are planned to introduce scheduled reports, intelligent summaries, forecasting, recommendations, and other time-saving features.",
+				"The long-term goal is to reduce repetitive dashboard checking while helping developers identify what matters most across their apps and services."
+			]
+		}
+	],
+	"keywords": [
+		"StudioDash sync",
+		"provider health",
+		"dashboard automation",
+		"integration status"
+	],
+	"estimatedReadTimeMinutes": 4,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"integrations",
+		"security-privacy",
+		"reporting"
+	]
 }

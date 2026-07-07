@@ -1,61 +1,61 @@
 {
-  "title": "Apps",
-  "seoTitle": "BarkinMad Studios Apps & Games",
-  "heading": "Apps & Games",
-  "intro": "Explore games, mobile apps, developer tools, and digital products from BarkinMad Studios for iPhone, iPad, macOS, and the web.",
-  "hero": {
-    "image": "/images/apps-hero-banner.png",
-    "alt": "BarkinMad Studios games, mobile applications and software projects"
-  },
-  "description": "Browse the growing BarkinMad Studios portfolio, including the connected ZX Series of retro arcade games, standalone mobile apps, developer tools, productivity products, and future software projects.",
-  "sectionsTitle": "Explore Our Apps",
-  "content": [
-    {
-      "heading": "Mobile Apps, Games & Digital Products",
-      "paragraphs": [
-        "Discover a growing collection of games, developer tools, mobile apps, prototypes, and software products designed for iPhone and iPad.",
-        "The goal is to create software that is easy to use, enjoyable to interact with, and built for long-term support.",
-        "The portfolio includes entertainment-focused experiences and practical applications, combining modern mobile technology with a strong focus on usability and performance."
-      ]
-    },
-    {
-      "heading": "The ZX Series",
-      "paragraphs": [
-        "The [ZX Series](/zx-series) is the flagship collection of retro-inspired arcade games from BarkinMad Studios.",
-        "Games in the series can share achievements, leaderboards, BarkinMad Coins, multiplayer systems, progression features, and future cross-game rewards, creating a connected arcade ecosystem across multiple titles.",
-        "Current and planned games include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), and additional future releases."
-      ]
-    },
-    {
-      "heading": "Beyond Gaming",
-      "paragraphs": [
-        "Beyond games, BarkinMad Studios develops practical mobile applications and software solutions, including score tracking tools, developer analytics products such as [StudioDash](/apps/studiodash), business utilities, prototypes, and productivity-focused products.",
-        "The same skills used to build commercial software and business systems also help shape the architecture, reliability, and user experience of public applications.",
-        "Learn more about our [software development services](/services), custom applications, and business solutions."
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "title": "ZX Series",
-      "description": "Explore the connected [ZX Series](/zx-series) of retro-inspired arcade games featuring achievements, leaderboards, [BarkinMad Coins](/zx-series), multiplayer modes, shared progression systems, and future roadmap features.",
-      "href": "/zx-series",
-      "actionLabel": "Explore ZX Series",
-      "filter": {
-        "field": "series",
-        "value": "zx-series"
-      }
-    },
-    {
-      "title": "Apps & Tools",
-      "description": "Browse standalone applications, developer tools, productivity tools, score tracking apps, utilities, prototypes, and future software projects developed by BarkinMad Studios.",
-      "href": "/apps/non-zx",
-      "actionLabel": "View Apps & Tools",
-      "filter": {
-        "field": "series",
-        "value": ""
-      }
-    }
-  ],
-  "lastUpdated": "2026-07-07"
+	"title": "Apps",
+	"seoTitle": "BarkinMad Studios Apps & Games",
+	"heading": "Apps & Games",
+	"intro": "Discover games, mobile apps, developer tools, and digital products created by BarkinMad Studios for iPhone, iPad, macOS, and the web.",
+	"hero": {
+		"image": "/images/apps-hero-banner.png",
+		"alt": "BarkinMad Studios games, mobile applications and software projects"
+	},
+	"description": "Browse the growing BarkinMad Studios portfolio, from the connected ZX Series of retro-inspired arcade games to standalone mobile apps, developer tools, productivity software, and future projects.",
+	"sectionsTitle": "Explore Our Apps",
+	"content": [
+		{
+			"heading": "Mobile Apps, Games & Digital Products",
+			"paragraphs": [
+				"Explore a growing collection of games, developer tools, mobile apps, prototypes, and software products designed for iPhone and iPad.",
+				"Every product is created with a focus on usability, performance, and long-term support, whether it's built for entertainment, productivity, or everyday problem solving.",
+				"From retro-inspired arcade games to practical software solutions, each project reflects BarkinMad Studios' commitment to creating reliable, enjoyable, and thoughtfully designed experiences."
+			]
+		},
+		{
+			"heading": "The ZX Series",
+			"paragraphs": [
+				"The [ZX Series](/zx-series) is BarkinMad Studios' flagship collection of retro-inspired arcade games, combining classic gameplay with modern mobile features.",
+				"Supported games share systems such as achievements, leaderboards, BarkinMad Coins, multiplayer features, progression, and future cross-game rewards, creating a connected arcade experience across the series.",
+				"Current and planned titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), and more games currently in development."
+			]
+		},
+		{
+			"heading": "Beyond Gaming",
+			"paragraphs": [
+				"BarkinMad Studios also develops practical mobile applications and software products, including score tracking tools, developer analytics platforms such as [StudioDash](/apps/studiodash), business utilities, prototypes, and productivity-focused software.",
+				"The experience gained from building commercial software and business systems directly influences the architecture, reliability, and user experience of every public application.",
+				"If you're looking for custom software or business solutions, explore our [software development services](/services) to learn more."
+			]
+		}
+	],
+	"sections": [
+		{
+			"title": "ZX Series",
+			"description": "Explore the connected [ZX Series](/zx-series) of retro-inspired arcade games featuring achievements, leaderboards, [BarkinMad Coins](/zx-series), multiplayer modes, shared progression, and a growing roadmap of future titles.",
+			"href": "/zx-series",
+			"actionLabel": "Explore ZX Series",
+			"filter": {
+				"field": "series",
+				"value": "zx-series"
+			}
+		},
+		{
+			"title": "Apps & Tools",
+			"description": "Browse standalone applications, developer tools, productivity software, score tracking apps, utilities, prototypes, and future projects created by BarkinMad Studios.",
+			"href": "/apps/non-zx",
+			"actionLabel": "View Apps & Tools",
+			"filter": {
+				"field": "series",
+				"value": ""
+			}
+		}
+	],
+	"lastUpdated": "2026-07-07"
 }

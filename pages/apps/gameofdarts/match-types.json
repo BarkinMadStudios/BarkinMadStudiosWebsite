@@ -1,137 +1,137 @@
 {
-  "title": "Match Types",
-  "seoTitle": "Game of Darts Match Types | BarkinMad Studios",
-  "description": "Understand the main darts formats in Game of Darts, including X01, Cricket, Snooker, Bob's 27, 1 to 20, and party modes.",
-  "summary": "Game of Darts covers scoring, practice, and party formats rather than the arcade loops used by the ZX Series.",
-  "heroImage": "apps/gameofdarts/gameofdarts-match-types.png",
-  "heroImageAlt": "Game of Darts match types artwork",
-  "sections": [
-    {
-      "id": "overview",
-      "heading": "Match Types",
-      "paragraphs": [
-        "Game of Darts supports a wide range of match formats, allowing you to play anything from a quick practice game to a full tournament-style contest. Match settings can be customised before every game to suit your preferred style of play.",
-        "Whether you're practising on your own, competing with friends or preparing for league matches, there's a match format to suit every occasion."
-      ]
-    },
-    {
-      "id": "legs-and-sets",
-      "heading": "Legs and Sets",
-      "paragraphs": [
-        "Traditional Match games are played over one or more legs. Multiple legs can be grouped into sets, allowing you to recreate the formats used in professional darts tournaments.",
-        "Winning the required number of legs wins the set, while winning the required number of sets wins the overall match."
-      ],
-      "bullets": [
-        "Single-leg matches for quick games.",
-        "Best-of-leg formats.",
-        "Best-of-set formats.",
-        "Tournament-style match play."
-      ]
-    },
-    {
-      "id": "customising-your-match",
-      "heading": "Customising Your Match",
-      "paragraphs": [
-        "Before starting a game you can customise the match to suit your preferences. Available options depend on the selected game mode.",
-        "Settings are designed to let both casual and competitive players create the experience they want."
-      ],
-      "bullets": [
-        "Choose the starting score (301, 501 or 701 where supported).",
-        "Select the number of players.",
-        "Configure legs and sets.",
-        "Choose human players or DartBot.",
-        "Adjust game-specific options."
-      ]
-    },
-    {
-      "id": "choose-the-right-format",
-      "heading": "Choosing the Right Match",
-      "paragraphs": [
-        "Quick single-leg games are ideal for practising checkouts and improving consistency. Longer multi-leg and multi-set matches provide a more competitive experience and allow statistics to build over the course of the match.",
-        "Experiment with different formats to find the style that best matches your level of play."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts-match-types.png",
-      "alt": "Artwork for Game of Darts match types",
-      "caption": "Match type artwork"
-    }
-  ],
-  "imageSectionTitle": "Match Types Image",
-  "keywords": [
-    "Game of Darts",
-    "match types",
-    "X01",
-    "Cricket",
-    "Snooker"
-  ],
-  "estimatedReadTimeMinutes": 5,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "game-modes",
-    "how-to-play",
-    "tips-and-strategy"
-  ],
-  "documentationSchemaVersion": "1.2.0",
-  "featureShowcases": [
-    {
-      "id": "choose-format",
-      "heading": "Choose the right format before play",
-      "summary": "Choose the format that matches your session, from quick casual play to X01, Cricket, Snooker, Bob's 27, or party formats.",
-      "body": [
-        "This matters because the setup decision shapes the whole match: scoring rules, player count, legs, sets, and the kind of practice players get from the session.",
-        "Players use this page when deciding whether they want a quick leg, a tournament-style match, a practice game, or a ruleset that suits a group night."
-      ],
-      "bullets": [
-        "Learn practical differences between supported formats.",
-        "Helps players choose between short sessions and longer match structures.",
-        "Learn how format choice to setup, scoring, and strategy."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-match-types.png",
-        "alt": "Game of Darts match types artwork",
-        "caption": "Match type artwork supports the format selection guidance."
-      },
-      "links": [
-        {
-          "label": "Compare Game of Darts Modes",
-          "href": "/apps/gameofdarts/game-modes"
-        }
-      ]
-    },
-    {
-      "id": "custom-match-setup",
-      "heading": "Configure the session around the players",
-      "layout": "textRight",
-      "summary": "Once a format is chosen, players can tune settings such as starting score, legs, sets, player count, and DartBot participation where supported.",
-      "body": [
-        "This matters because a quick practice leg and a competitive evening need different setup choices. Game of Darts keeps those decisions near the start of the match workflow.",
-        "Players use setup options to match the app to the board, the number of players, and the amount of time they have."
-      ],
-      "bullets": [
-        "Supports quick games and tournament-style setups.",
-        "Keeps DartBot participation part of the match workflow.",
-        "Lets players experiment with different practice and competition formats."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
-        "alt": "Game of Darts main setup screen for choosing a match format",
-        "caption": "The main setup screenshot supports configurable match setup guidance."
-      },
-      "links": [
-        {
-          "label": "View DartBot",
-          "href": "/apps/gameofdarts/dartbot"
-        },
-        {
-          "label": "View tips",
-          "href": "/apps/gameofdarts/tips-and-strategy"
-        }
-      ]
-    }
-  ]
+	"title": "Match Types",
+	"seoTitle": "Game Of Darts Match Types | BarkinMad Studios",
+	"description": "Choose the match format that suits your game, from quick practice sessions to full tournament-style matches.",
+	"summary": "Discover the different match formats available in Game Of Darts and find the perfect setup for every session.",
+	"heroImage": "apps/gameofdarts/gameofdarts-match-types.png",
+	"heroImageAlt": "Game Of Darts match types artwork",
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "Match Types",
+			"paragraphs": [
+				"Game Of Darts offers a variety of match formats, making it easy to enjoy anything from a quick practice session to a full tournament-style contest.",
+				"Whether you're playing casually with friends, practising on your own, or preparing for competitive matches, there's a match format to suit every occasion."
+			]
+		},
+		{
+			"id": "legs-and-sets",
+			"heading": "Legs and Sets",
+			"paragraphs": [
+				"Traditional match play is built around legs and sets, allowing you to recreate everything from a single quick game to a full tournament experience.",
+				"Win the required number of legs to take a set, then win enough sets to claim victory in the overall match."
+			],
+			"bullets": [
+				"Single-leg matches for quick games.",
+				"Best-of-leg formats.",
+				"Best-of-set formats.",
+				"Tournament-style match play."
+			]
+		},
+		{
+			"id": "customising-your-match",
+			"heading": "Customise Every Match",
+			"paragraphs": [
+				"Before every game you can adjust the available match options to suit the way you want to play.",
+				"Available settings vary depending on the selected game mode, giving you the flexibility to create everything from relaxed practice sessions to competitive tournaments."
+			],
+			"bullets": [
+				"Choose the starting score (301, 501 or 701 where supported).",
+				"Select the number of players.",
+				"Configure legs and sets.",
+				"Play against friends or DartBot.",
+				"Adjust game-specific options."
+			]
+		},
+		{
+			"id": "choose-the-right-format",
+			"heading": "Find the Right Match Format",
+			"paragraphs": [
+				"Short matches are perfect for practising checkouts, testing new techniques, or fitting in a quick game.",
+				"Longer matches allow statistics to build over time and create a more competitive experience, making them ideal for league practice or friendly tournaments."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts-match-types.png",
+			"alt": "Game Of Darts match types",
+			"caption": "Choose the match format that suits the way you want to play."
+		}
+	],
+	"imageSectionTitle": "Match Types",
+	"keywords": [
+		"Game Of Darts",
+		"match types",
+		"X01",
+		"Cricket",
+		"Snooker"
+	],
+	"estimatedReadTimeMinutes": 5,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"game-modes",
+		"how-to-play",
+		"tips-and-strategy"
+	],
+	"documentationSchemaVersion": "1.2.0",
+	"featureShowcases": [
+		{
+			"id": "choose-format",
+			"heading": "Choose the Perfect Match",
+			"summary": "Whether you have five minutes or a full evening, Game Of Darts includes a match format to suit every session.",
+			"body": [
+				"From quick practice games to full tournament-style matches, choosing the right format helps you get the most from every game.",
+				"Explore the available modes and find the style of play that best matches your goals, whether that's practising, competing, or simply having fun with friends."
+			],
+			"bullets": [
+				"Compare every supported match format.",
+				"Find the right balance between practice and competition.",
+				"Understand how each format changes the way you play."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-match-types.png",
+				"alt": "Game Of Darts match types",
+				"caption": "Explore the different ways to play Game Of Darts."
+			},
+			"links": [
+				{
+					"label": "Compare Game Modes",
+					"href": "/apps/gameofdarts/game-modes"
+				}
+			]
+		},
+		{
+			"id": "custom-match-setup",
+			"heading": "Create the Match You Want",
+			"layout": "textRight",
+			"summary": "Adjust players, legs, sets, starting scores, and DartBot to create the perfect game.",
+			"body": [
+				"Every match can be tailored to suit the number of players, the time available, and the style of darts you want to enjoy.",
+				"Whether you're playing a quick solo practice game or setting up a competitive evening with friends, Game Of Darts gives you the flexibility to create the experience you want."
+			],
+			"bullets": [
+				"Perfect for quick games or tournament nights.",
+				"Supports DartBot where available.",
+				"Flexible settings for every style of play."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+				"alt": "Game Of Darts match setup",
+				"caption": "Set up every match exactly the way you want."
+			},
+			"links": [
+				{
+					"label": "Learn About DartBot",
+					"href": "/apps/gameofdarts/dartbot"
+				},
+				{
+					"label": "Read Tips & Strategy",
+					"href": "/apps/gameofdarts/tips-and-strategy"
+				}
+			]
+		}
+	]
 }

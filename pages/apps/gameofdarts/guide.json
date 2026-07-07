@@ -257,18 +257,18 @@
   "documentationSchemaVersion": "1.2.0",
   "featureShowcases": [
     {
-      "id": "guide-route-through-play",
-      "heading": "A complete guide through a full session",
-      "summary": "Learn how setup, scoring, rules, Game Center, premium options, and statistics fit together in one session.",
-      "body": [
-        "This matters because Game of Darts covers more than one screen. Players may arrive with a specific question about setup, a ruleset, DartBot, statistics, or Game Center, and the guide gives them a path through the app without guessing.",
-        "Players use this page as the main map when they want a complete explanation rather than a single topic page."
-      ],
-      "bullets": [
-        "Starts with player setup and match creation.",
-        "Learn supported game modes and scoring rules.",
-        "Links results, leaderboards, achievements, privacy, and premium access."
-      ],
+		"id": "guide-route-through-play",
+		"heading": "Everything You Need in One Guide",
+		"summary": "From creating players to reviewing your statistics, this guide walks you through every stage of Game Of Darts.",
+		"body": [
+			"Whether you're playing your very first match or looking for information about a specific feature, this guide brings everything together in one place.",
+			"Explore game modes, scoring, statistics, Game Center, DartBot, premium features, and much more as you become more familiar with the app."
+		],
+		"bullets": [
+			"Create players and start your first match.",
+			"Learn every supported game mode.",
+			"Discover statistics, achievements, leaderboards, and premium features."
+		],
       "image": {
         "src": "apps/gameofdarts/gameofdarts-hero.png",
         "alt": "Game of Darts hero artwork for the full guide",
@@ -282,19 +282,18 @@
       ]
     },
     {
-      "id": "rules-and-match-flow",
-      "heading": "Rules and match flow in one place",
-      "layout": "textRight",
-      "summary": "The guide covers Match Darts, Cricket, Snooker Darts, Bob's 27, 1 to 20, Hare & Hound, Halve It, All 5s, and other included rule sets.",
-      "body": [
-        "This matters because players often switch between familiar and less familiar formats. Having rules and workflow notes in one place reduces friction before the next game starts.",
-        "Players use this part of the guide before starting a new format or when they need a quick reminder of how scoring works."
-      ],
-      "bullets": [
-        "Keeps supported rules player-facing and easy to scan.",
-        "Learn what players need before they start a match.",
-        "Learn how rules to setup, keyboard shortcuts, and score entry."
-      ],
+		"id": "rules-and-match-flow",
+		"heading": "Master Every Game Mode",
+		"summary": "Learn the rules, scoring, and strategies behind every supported game mode.",
+		"body": [
+			"Whether you're playing traditional X01, Cricket, Snooker Darts, or one of the training games, every mode has its own style and strategy.",
+			"Understanding how each game works helps you choose the right mode for every practice session or competitive match."
+		],
+		"bullets": [
+			"Understand the rules before you play.",
+			"Learn how each mode scores.",
+			"Choose the right mode for practice or competition."
+		],
       "image": {
         "src": "apps/gameofdarts/gameofdarts-match-types.png",
         "alt": "Game of Darts match types artwork for rules and match flow",
@@ -308,18 +307,19 @@
       ]
     },
     {
-      "id": "progress-and-supporting-screens",
-      "heading": "Progress, support, and follow-up screens",
-      "summary": "After scoring, the guide points players toward statistics, leaderboards, achievements, DartBot practice, premium access, and privacy notes.",
-      "body": [
-        "This matters because players need different information after a game than before it. Results, goals, settings, and unlocks are supporting screens that help players decide what to do next.",
-        "Players use these sections when they want to review performance, compare scores, change settings, or follow optional access options."
-      ],
-      "bullets": [
-        "Links results and improvement to statistics.",
-        "Learn Game Center leaderboards and achievements.",
-        "Keeps premium access and privacy wording clear and player-facing."
-      ],
+		"id": "progress-and-supporting-screens",
+		"heading": "Track Your Progress",
+		"summary": "Review your performance, compare results, and discover new goals after every match.",
+		"body": [
+			"Game Of Darts continues after the final dart. Explore your statistics, compare leaderboard positions, unlock achievements, and review your progress over time.",
+			"Whether you're trying to improve your averages or simply keep track of your games, these features help you measure your improvement."
+		],
+		"bullets": [
+			"Review player statistics.",
+			"Compare leaderboard positions.",
+			"Unlock achievements.",
+			"Continue improving with DartBot and practice modes."
+		],
       "image": {
         "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
         "alt": "Game of Darts leaderboards screenshot used for guide progress context",

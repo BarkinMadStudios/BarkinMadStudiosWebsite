@@ -1,30 +1,55 @@
 {
-  "zxSeries": [
-    {
-      "id": "play2Games",
-      "title": "Play 2 Games",
-      "description": "Play any 2 ZX Series games."
-    },
-    {
-      "id": "play4Games",
-      "title": "Play 4 Games",
-      "description": "Play any 4 ZX Series games."
-    },
-    {
-      "id": "playAllGames",
-      "title": "Play All Games",
-      "description": "Play every ZX Series game."
-    },
-    {
-      "id": "earn100Coins",
-      "title": "Coin Collector",
-      "description": "Earn 100 BarkinMad Coins."
-    },
-    {
-      "id": "earn1000Coins",
-      "title": "Coin Master",
-      "description": "Earn 1000 BarkinMad Coins."
-    }
-  ],
-  "lastUpdated": "2026-06-05"
+	"zxSeries": [
+		{
+			"id": "play2Games",
+			"title": "Play 2 Games",
+			"description": "Play any two games in the ZX Series."
+		},
+		{
+			"id": "play4Games",
+			"title": "Play 4 Games",
+			"description": "Play any four games in the ZX Series."
+		},
+		{
+			"id": "playAllGames",
+			"title": "Play Every Game",
+			"description": "Play every released game in the ZX Series."
+		},
+		{
+			"id": "play100Games",
+			"title": "Arcade Regular",
+			"description": "Play 100 games across the ZX Series."
+		},
+		{
+			"id": "play1000Games",
+			"title": "Arcade Veteran",
+			"description": "Play 1,000 games across the ZX Series."
+		},
+		{
+			"id": "play5000Games",
+			"title": "Arcade Legend",
+			"description": "Play 5,000 games across the ZX Series."
+		},
+		{
+			"id": "earn100Coins",
+			"title": "Coin Collector",
+			"description": "Earn 100 BarkinMad Coins across supported ZX Series games."
+		},
+		{
+			"id": "earn1000Coins",
+			"title": "Coin Master",
+			"description": "Earn 1,000 BarkinMad Coins across supported ZX Series games."
+		},
+		{
+			"id": "earn10000Coins",
+			"title": "Coin Tycoon",
+			"description": "Earn 10,000 BarkinMad Coins across supported ZX Series games."
+		},
+		{
+			"id": "earn100000Coins",
+			"title": "Coin Legend",
+			"description": "Earn 100,000 BarkinMad Coins across supported ZX Series games."
+		}
+	],
+	"lastUpdated": "2026-07-07"
 }

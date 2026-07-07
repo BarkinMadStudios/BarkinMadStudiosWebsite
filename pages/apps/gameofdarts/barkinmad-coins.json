@@ -1,91 +1,91 @@
 {
-  "title": "Premium Access",
-  "seoTitle": "Game of Darts Premium Access | BarkinMad Studios",
-  "description": "Learn how to unlock premium Game of Darts features with Pro, DartBot unlock, or a 48-hour access pass.",
-  "summary": "Premium access is available through Pro, DartBot, or a 48-hour pass. BarkinMad Coins is not yet the main access method.",
-  "heroImage": "apps/gameofdarts/gameofdarts-premium-access.png",
-  "heroImageAlt": "Artwork for Game of Darts premium access image",
-  "sections": [
-    {
-      "id": "overview",
-      "heading": "Premium Access",
-      "paragraphs": [
-        "Game of Darts offers several ways to unlock additional features. Whether you choose the full Pro upgrade, DartBot, or a limited 48-hour pass, premium access is designed to enhance your experience while keeping the core game available to everyone.",
-        "Premium options remove gameplay limitations, unlock additional features and provide the best way to enjoy the complete Game of Darts experience."
-      ]
-    },
-    {
-      "id": "premium-options",
-      "heading": "Available Upgrades",
-      "paragraphs": [
-        "The app currently supports three premium options depending on how you want to play."
-      ],
-      "bullets": [
-        "Pro Version – Permanently unlocks premium features.",
-        "DartBot – Unlocks the AI practice opponent.",
-        "48 Hour Pass - Limited access to premium features for 48 hours."
-      ]
-    },
-    {
-      "id": "benefits",
-      "heading": "Premium Benefits",
-      "paragraphs": [
-        "Premium access provides a smoother playing experience with fewer interruptions while unlocking advanced features throughout the app."
-      ],
-      "bullets": [
-        "Remove gameplay limitations.",
-        "Unlock DartBot AI.",
-        "Reduce or remove advertisements depending on your purchase.",
-        "Access premium-only options.",
-        "Support continued development of Game of Darts."
-      ]
-    },
-    {
-      "id": "supporting-development",
-      "heading": "Supporting BarkinMad Studios",
-      "paragraphs": [
-        "Purchasing premium content directly supports the continued development of Game of Darts. Every purchase helps fund new game modes, additional features, bug fixes and future updates.",
-        "If premium isn't for you, simply playing the free version and watching the optional advertisements also helps support future development."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts-premium-access.png",
-      "alt": "Artwork for Game of Darts premium access",
-      "caption": "Premium access artwork"
-    }
-  ],
-  "imageSectionTitle": "Premium Access Image",
-  "keywords": [
-    "Game of Darts",
-    "premium",
-    "Pro",
-    "DartBot",
-    "48-hour unlock"
-  ],
-  "estimatedReadTimeMinutes": 2,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
-  "relatedPages": [
-    "dartbot",
-    "settings-customisation",
-    "frequently-asked-questions"
-  ],
-  "documentationSchemaVersion": "1.1.0",
-  "relatedLinks": [
-    {
-      "label": "Configure DartBot Access",
-      "href": "/apps/gameofdarts/dartbot"
-    },
-    {
-      "label": "Adjust Settings & Customisation",
-      "href": "/apps/gameofdarts/settings-customisation"
-    },
-    {
-      "label": "Read Game of Darts FAQ",
-      "href": "/apps/gameofdarts/frequently-asked-questions"
-    }
-  ]
+	"title": "Premium Access",
+	"seoTitle": "Game Of Darts Premium Access | BarkinMad Studios",
+	"description": "Discover the premium upgrades available in Game Of Darts, including Pro, DartBot, and the 48-Hour Pass.",
+	"summary": "Unlock additional features with the Pro upgrade, DartBot, or a 48-Hour Pass to get even more from Game Of Darts.",
+	"heroImage": "apps/gameofdarts/gameofdarts-premium-access.png",
+	"heroImageAlt": "Artwork for Game Of Darts Premium Access",
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "Unlock More with Premium Access",
+			"paragraphs": [
+				"Game Of Darts offers flexible premium upgrades designed to suit the way you play. Whether you're looking for permanent access to premium features, want to challenge yourself against DartBot, or simply want to try everything with a 48-Hour Pass, there's an option to suit every player.",
+				"Premium upgrades enhance the experience by unlocking additional features, reducing interruptions, and giving you access to even more of what Game Of Darts has to offer."
+			]
+		},
+		{
+			"id": "premium-options",
+			"heading": "Choose Your Upgrade",
+			"paragraphs": [
+				"Select the premium option that best matches how you play."
+			],
+			"bullets": [
+				"Pro Version – Permanently unlock premium features.",
+				"DartBot – Unlock the AI practice opponent and sharpen your skills.",
+				"48-Hour Pass – Enjoy temporary access to premium features for 48 hours."
+			]
+		},
+		{
+			"id": "benefits",
+			"heading": "Why Upgrade?",
+			"paragraphs": [
+				"Premium access is designed to make every session more enjoyable while unlocking additional tools and features for regular players."
+			],
+			"bullets": [
+				"Unlock premium gameplay features.",
+				"Challenge DartBot whenever you like.",
+				"Reduce or remove advertisements, depending on your purchase.",
+				"Access exclusive premium options.",
+				"Support the continued development of Game Of Darts."
+			]
+		},
+		{
+			"id": "supporting-development",
+			"heading": "Supporting Future Development",
+			"paragraphs": [
+				"Every premium purchase directly supports the continued development of Game Of Darts. It helps fund new game modes, additional features, improvements, bug fixes, and future updates.",
+				"Even if you choose to play for free, using the app and watching optional rewarded advertisements helps support future development."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts-premium-access.png",
+			"alt": "Game Of Darts Premium Access",
+			"caption": "Unlock additional features with Premium Access."
+		}
+	],
+	"imageSectionTitle": "Premium Access",
+	"keywords": [
+		"Game Of Darts",
+		"Premium",
+		"Pro Version",
+		"DartBot",
+		"48-Hour Pass"
+	],
+	"estimatedReadTimeMinutes": 2,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-06-26",
+	"lastVerified": "2026-06-26",
+	"relatedPages": [
+		"dartbot",
+		"settings-customisation",
+		"frequently-asked-questions"
+	],
+	"documentationSchemaVersion": "1.1.0",
+	"relatedLinks": [
+		{
+			"label": "Learn About DartBot",
+			"href": "/apps/gameofdarts/dartbot"
+		},
+		{
+			"label": "Explore Settings & Customisation",
+			"href": "/apps/gameofdarts/settings-customisation"
+		},
+		{
+			"label": "View Frequently Asked Questions",
+			"href": "/apps/gameofdarts/frequently-asked-questions"
+		}
+	]
 }

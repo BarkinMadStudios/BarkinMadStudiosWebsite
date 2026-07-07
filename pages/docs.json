@@ -1,123 +1,123 @@
 {
-  "title": "Guide Library",
-  "seoTitle": "Guide Library | BarkinMad Studios",
-  "heading": "Guide Library",
-  "intro": "Find guides, FAQs, support notes, product information, and reference material for BarkinMad Studios games, apps, services, and StudioDash.",
-  "description": "Browse BarkinMad Studios guides for the ZX Series, The Game of Darts, services, policies, and StudioDash setup, integrations, and troubleshooting.",
-  "hero": {
-    "image": "/images/news-bg-banner.png",
-    "alt": "BarkinMad Studios guide library and support resources"
-  },
-  "categories": [
-    {
-      "title": "Games",
-      "description": "Guides and support material to help players get more from BarkinMad Studios games.",
-      "documents": [
-        {
-          "title": "ZX Series",
-          "summary": "Overview of shared achievements, shared leaderboards, BarkinMad Coins, PVP features, and connected arcade game progression.",
-          "href": "/zx-series",
-          "tags": [
-            "ZX Series",
-            "Games",
-            "Achievements",
-            "Leaderboards"
-          ]
-        },
-        {
-          "title": "The Game of Darts",
-          "summary": "Support information for scoring, player tracking, match setup, and darts app features.",
-          "href": "/apps/gameofdarts",
-          "tags": [
-            "Darts",
-            "Scoring",
-            "Mobile App"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Studio",
-      "description": "Business, service, and policy information for BarkinMad Studios.",
-      "documents": [
-        {
-          "title": "Services",
-          "summary": "Custom software, mobile app development, internal tools, process improvement, websites, and prototypes.",
-          "href": "/services",
-          "tags": [
-            "Services",
-            "Software Development",
-            "Consultancy"
-          ]
-        },
-        {
-          "title": "Policies",
-          "summary": "Privacy, cookies, terms, and contact information for BarkinMad Studios.",
-          "href": "/privacy",
-          "tags": [
-            "Privacy",
-            "Cookies",
-            "Terms"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "StudioDash",
-      "description": "StudioDash setup, integration, private beta, and troubleshooting information as the product approaches private beta.",
-      "documents": [
-        {
-          "title": "Setup",
-          "summary": "Setup guides for StudioDash onboarding and configuration will be published as the private beta approaches.",
-          "href": "/apps/studiodash/private-beta",
-          "tags": [
-            "StudioDash",
-            "Setup",
-            "Developer Tools"
-          ]
-        },
-        {
-          "title": "Integrations",
-          "summary": "Integration notes for connecting StudioDash with App Store Connect, Cloudflare, advertising, search, and developer services.",
-          "href": "/apps/studiodash/integrations",
-          "tags": [
-            "StudioDash",
-            "Integrations",
-            "Developer Tools"
-          ]
-        },
-        {
-          "title": "Troubleshooting",
-          "summary": "Troubleshooting material for StudioDash setup and operational issues will be added as integrations become public.",
-          "href": "/apps/studiodash/frequently-asked-questions",
-          "tags": [
-            "StudioDash",
-            "Troubleshooting",
-            "Developer Tools"
-          ]
-        }
-      ]
-    }
-  ],
-  "features": [
-    "Game and app guides",
-    "Support and policy information",
-    "StudioDash setup resources",
-    "Expandable guide categories"
-  ],
-  "actions": [
-    {
-      "label": "Explore Software Services",
-      "href": "/services"
-    },
-    {
-      "label": "Browse App Guide",
-      "href": "/apps"
-    },
-    {
-      "label": "Contact BarkinMad Studios",
-      "href": "/contact"
-    }
-  ],
-  "lastUpdated": "2026-06-14"
+	"title": "Guide Library",
+	"seoTitle": "Guide Library | BarkinMad Studios",
+	"heading": "Guide Library",
+	"intro": "Find guides, FAQs, tutorials, support articles, and reference material to help you get the most from BarkinMad Studios games, apps, services, and StudioDash.",
+	"description": "Browse helpful guides covering the ZX Series, The Game of Darts, StudioDash, software services, policies, and support resources.",
+	"hero": {
+		"image": "/images/news-bg-banner.png",
+		"alt": "BarkinMad Studios guide library and support resources"
+	},
+	"categories": [
+		{
+			"title": "Games",
+			"description": "Guides, FAQs, and support information to help you enjoy BarkinMad Studios games and discover everything they have to offer.",
+			"documents": [
+				{
+					"title": "ZX Series",
+					"summary": "Learn about shared achievements, leaderboards, BarkinMad Coins, multiplayer features, and progression across the connected ZX Series.",
+					"href": "/zx-series",
+					"tags": [
+						"ZX Series",
+						"Games",
+						"Achievements",
+						"Leaderboards"
+					]
+				},
+				{
+					"title": "The Game of Darts",
+					"summary": "Find help with scoring, player management, match setup, statistics, and the app's key features.",
+					"href": "/apps/gameofdarts",
+					"tags": [
+						"Darts",
+						"Scoring",
+						"Mobile App"
+					]
+				}
+			]
+		},
+		{
+			"title": "Studio",
+			"description": "Learn more about BarkinMad Studios, our software services, and important company policies.",
+			"documents": [
+				{
+					"title": "Services",
+					"summary": "Explore our software development services, including custom software, mobile apps, internal business tools, websites, and prototypes.",
+					"href": "/services",
+					"tags": [
+						"Services",
+						"Software Development",
+						"Consultancy"
+					]
+				},
+				{
+					"title": "Policies",
+					"summary": "Read our privacy policy, cookie policy, terms and conditions, and other important company information.",
+					"href": "/privacy",
+					"tags": [
+						"Privacy",
+						"Cookies",
+						"Terms"
+					]
+				}
+			]
+		},
+		{
+			"title": "StudioDash",
+			"description": "Discover setup guides, integration information, private beta updates, and troubleshooting resources for StudioDash.",
+			"documents": [
+				{
+					"title": "Setup",
+					"summary": "Setup and onboarding guides will be published as StudioDash approaches private beta.",
+					"href": "/apps/studiodash/private-beta",
+					"tags": [
+						"StudioDash",
+						"Setup",
+						"Developer Tools"
+					]
+				},
+				{
+					"title": "Integrations",
+					"summary": "Learn how StudioDash connects with App Store Connect, Cloudflare, Google services, GitHub, and other developer platforms.",
+					"href": "/apps/studiodash/integrations",
+					"tags": [
+						"StudioDash",
+						"Integrations",
+						"Developer Tools"
+					]
+				},
+				{
+					"title": "Troubleshooting",
+					"summary": "Troubleshooting guides and support articles will be added as StudioDash continues towards public release.",
+					"href": "/apps/studiodash/frequently-asked-questions",
+					"tags": [
+						"StudioDash",
+						"Troubleshooting",
+						"Developer Tools"
+					]
+				}
+			]
+		}
+	],
+	"features": [
+		"Game and app guides",
+		"FAQs and support articles",
+		"StudioDash setup resources",
+		"Expandable guide categories"
+	],
+	"actions": [
+		{
+			"label": "Explore Software Services",
+			"href": "/services"
+		},
+		{
+			"label": "Browse Our Apps",
+			"href": "/apps"
+		},
+		{
+			"label": "Contact BarkinMad Studios",
+			"href": "/contact"
+		}
+	],
+	"lastUpdated": "2026-06-14"
 }

@@ -1,109 +1,109 @@
 {
-  "title": "Privacy Policy",
-  "heading": "Privacy Policy",
-  "intro": "BarkinMad Studios respects your privacy and aims to keep its apps and website simple, safe, and transparent.",
-  "hero": {
-    "image": "/images/privacy-bg-banner.png",
-    "alt": "Privacy and data protection themed workspace representing security and trust"
-  },
-  "sections": [
-    {
-      "heading": "Information Collection",
-      "paragraphs": [
-        "BarkinMad Studios may collect limited anonymous technical or usage information through apps, website analytics, advertising services, and platform providers.",
-        "Personal information is not knowingly collected unless voluntarily provided through support or contact enquiries.",
-        "Certain gameplay information, such as scores, achievements, statistics, settings, cosmetic unlocks, and game progress, may be stored locally on a device or synchronised using Apple services where supported."
-      ]
-    },
-    {
-      "heading": "Game Center",
-      "paragraphs": [
-        "Some games may use Apple Game Center for achievements, leaderboards, score tracking, matchmaking, multiplayer functionality, and other gaming features.",
-        "Game Center data is managed by Apple and subject to Apple's own privacy policies and account settings."
-      ]
-    },
-    {
-      "heading": "BarkinMad Coins",
-      "paragraphs": [
-        "Some BarkinMad Studios games may include BarkinMad Coins, a gameplay reward system used to unlock cosmetic content such as skins, colours, themes, and visual customisation options.",
-        "BarkinMad Coins are earned through gameplay only and have no cash value. Coins cannot be transferred between users, exchanged for money, or redeemed for real-world goods or services.",
-        "Where supported, coin balances and cosmetic unlocks may be synchronised across compatible BarkinMad Studios games using Apple iCloud and CloudKit services associated with the user's Apple account.",
-        "BarkinMad Studios does not receive access to Apple account credentials. Synchronisation services are provided by Apple and remain subject to Apple's privacy policies and account settings."
-      ]
-    },
-    {
-      "heading": "Advertising",
-      "paragraphs": [
-        "Some apps or website pages may display advertisements provided by third-party advertising networks such as Google AdSense or Google AdMob.",
-        "Advertising providers may use cookies, device identifiers, or similar technologies to measure performance and display personalised or non-personalised advertisements.",
-        "On the website, Google AdSense advertising storage, ad user data, and ad personalisation are optional consent choices. Advertising scripts are only loaded when advertising consent is granted through the cookie preferences controls.",
-        "Users may be presented with consent options where required by applicable laws or platform policies."
-      ]
-    },
-    {
-      "heading": "Analytics",
-      "paragraphs": [
-        "Analytics services may collect anonymous technical information such as device type, operating system version, app usage, gameplay statistics, crash reports, and general interaction data.",
-        "The website uses Google Analytics only when analytics consent is granted through the cookie preferences controls. Google Consent Mode v2 is used to send analytics and advertising consent signals before Google services are initialised.",
-        "This information is used to improve app stability, gameplay experience, future updates, and overall service quality."
-      ]
-    },
-    {
-      "heading": "In-App Purchases",
-      "paragraphs": [
-        "Some apps may offer optional in-app purchases such as removing advertisements or unlocking additional features.",
-        "All purchases and payment processing are handled securely through Apple and are subject to Apple's own payment and privacy policies.",
-        "BarkinMad Studios does not receive or store payment card information."
-      ]
-    },
-    {
-      "heading": "Third-Party Services",
-      "paragraphs": [
-        "Apps and website pages may contain links or integrations with third-party platforms including Apple, Google, Facebook, analytics services, and social media providers.",
-        "These third-party services operate under their own privacy policies and terms.",
-        "BarkinMad Studios is not responsible for the privacy practices of third-party services."
-      ]
-    },
-    {
-      "heading": "Children's Privacy",
-      "paragraphs": [
-        "BarkinMad Studios does not knowingly collect personal information from children.",
-        "If you believe personal information has been unintentionally collected, please contact [support@barkinmad.studio](mailto:support@barkinmad.studio)."
-      ]
-    },
-    {
-      "heading": "Data Security",
-      "paragraphs": [
-        "Reasonable measures are taken to help protect apps, services, and website functionality.",
-        "However, no internet-based service, cloud platform, or storage system can be guaranteed to be completely secure."
-      ]
-    },
-    {
-      "heading": "Policy Updates",
-      "paragraphs": [
-        "This Privacy Policy may be updated periodically as apps, services, website functionality, platform requirements, or legal obligations change."
-      ]
-    },
-    {
-      "heading": "Cookies",
-      "paragraphs": [
-        "The website uses an essential first-party cookie to remember cookie consent preferences. Essential cookies are always enabled because they are needed for core website operation and preference persistence.",
-        "Optional website cookie categories are Analytics, covering Google Analytics, and Advertising, covering Google AdSense. Visitors can accept all optional cookies, reject non-essential cookies, or manage each optional category.",
-        "Cookie preferences can be changed at any time using the Cookie Preferences control in the website footer. Website cookie information is maintained separately."
-      ],
-      "links": [
-        {
-          "label": "View Cookie Policy",
-          "href": "/cookies"
-        }
-      ]
-    },
-    {
-      "heading": "Contact",
-      "paragraphs": [
-        "For privacy questions, support, or enquiries, please contact [support@barkinmad.studio](mailto:support@barkinmad.studio)."
-      ]
-    }
-  ],
-  "lastUpdated": "2026-07-07"
+	"title": "Privacy Policy",
+	"heading": "Privacy Policy",
+	"intro": "Your privacy matters to us. BarkinMad Studios is committed to keeping its apps and website simple, secure, and transparent about how information is collected and used.",
+	"hero": {
+		"image": "/images/privacy-bg-banner.png",
+		"alt": "Privacy and data protection themed workspace representing security and trust"
+	},
+	"sections": [
+		{
+			"heading": "Information Collection",
+			"paragraphs": [
+				"BarkinMad Studios may collect limited anonymous technical and usage information through its apps, website analytics, advertising services, and platform providers.",
+				"Personal information is only collected when you choose to provide it, such as when contacting us for support or making an enquiry.",
+				"Some gameplay information, including scores, achievements, statistics, settings, cosmetic unlocks, and game progress, may be stored locally on your device or synchronised using Apple services where supported."
+			]
+		},
+		{
+			"heading": "Game Center",
+			"paragraphs": [
+				"Some games use Apple Game Center for achievements, leaderboards, score tracking, matchmaking, multiplayer features, and other gaming services.",
+				"Any Game Center information is managed by Apple and is subject to Apple's own privacy policies and account settings."
+			]
+		},
+		{
+			"heading": "BarkinMad Coins",
+			"paragraphs": [
+				"Some BarkinMad Studios games include BarkinMad Coins, a gameplay reward system used to unlock cosmetic content such as skins, colours, themes, and other visual customisation options.",
+				"BarkinMad Coins are earned through gameplay only. They have no cash value and cannot be transferred, exchanged for money, or redeemed for real-world goods or services.",
+				"Where supported, coin balances and cosmetic unlocks may be synchronised across compatible BarkinMad Studios games using Apple iCloud and CloudKit services linked to your Apple account.",
+				"BarkinMad Studios never receives access to your Apple account credentials. Synchronisation is handled by Apple and remains subject to Apple's privacy policies and account settings."
+			]
+		},
+		{
+			"heading": "Advertising",
+			"paragraphs": [
+				"Some apps and website pages may display advertisements provided by third-party advertising partners such as Google AdSense and Google AdMob.",
+				"Advertising providers may use cookies, device identifiers, or similar technologies to measure performance and deliver personalised or non-personalised advertising.",
+				"On this website, advertising storage, ad user data, and ad personalisation are optional consent choices. Advertising services are only loaded after advertising consent has been granted through the Cookie Preferences controls.",
+				"Where required by law or platform policies, you will be presented with the appropriate consent options."
+			]
+		},
+		{
+			"heading": "Analytics",
+			"paragraphs": [
+				"Anonymous analytics information may include device type, operating system version, app usage, gameplay statistics, crash reports, and general interaction data.",
+				"Google Analytics is only enabled after analytics consent has been granted through the Cookie Preferences controls. Google Consent Mode v2 communicates your analytics and advertising consent choices before Google services are initialised.",
+				"This information helps improve app stability, gameplay, website performance, future updates, and the overall user experience."
+			]
+		},
+		{
+			"heading": "In-App Purchases",
+			"paragraphs": [
+				"Some apps offer optional in-app purchases, such as removing advertisements or unlocking additional features.",
+				"All purchases and payment processing are handled securely through Apple and remain subject to Apple's payment and privacy policies.",
+				"BarkinMad Studios does not receive or store payment card information."
+			]
+		},
+		{
+			"heading": "Third-Party Services",
+			"paragraphs": [
+				"Apps and website pages may include links to, or integrations with, third-party services such as Apple, Google, Facebook, analytics providers, and social media platforms.",
+				"These services operate under their own privacy policies and terms of use.",
+				"BarkinMad Studios is not responsible for the privacy practices or content of third-party services."
+			]
+		},
+		{
+			"heading": "Children's Privacy",
+			"paragraphs": [
+				"BarkinMad Studios does not knowingly collect personal information from children.",
+				"If you believe personal information has been collected unintentionally, please contact us at [support@barkinmad.studio](mailto:support@barkinmad.studio)."
+			]
+		},
+		{
+			"heading": "Data Security",
+			"paragraphs": [
+				"Reasonable technical and organisational measures are taken to help protect our apps, services, and website.",
+				"However, no internet-based service, cloud platform, or data storage system can be guaranteed to be completely secure."
+			]
+		},
+		{
+			"heading": "Policy Updates",
+			"paragraphs": [
+				"This Privacy Policy may be updated from time to time to reflect changes to our apps, website, services, platform requirements, or legal obligations."
+			]
+		},
+		{
+			"heading": "Cookies",
+			"paragraphs": [
+				"The website uses an essential first-party cookie to remember your cookie consent preferences. Essential cookies are always enabled because they are required for the website to operate correctly.",
+				"Optional cookie categories include Analytics, which covers Google Analytics, and Advertising, which covers Google AdSense. You can accept all optional cookies, reject non-essential cookies, or manage each category individually.",
+				"Your cookie preferences can be updated at any time using the Cookie Preferences option in the website footer."
+			],
+			"links": [
+				{
+					"label": "View Cookie Policy",
+					"href": "/cookies"
+				}
+			]
+		},
+		{
+			"heading": "Contact",
+			"paragraphs": [
+				"If you have any questions about this Privacy Policy, your personal information, or your privacy rights, please contact us at [support@barkinmad.studio](mailto:support@barkinmad.studio)."
+			]
+		}
+	],
+	"lastUpdated": "2026-07-07"
 }

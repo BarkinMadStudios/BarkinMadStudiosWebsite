@@ -10,7 +10,7 @@
 		"image": "apps/zxsnake/zxsnake-icon.png",
 		"appStoreUrl": "https://apps.apple.com/app/apple-store/id6770932739?pt=128083426&ct=website&mt=8",
 		"testFlightUrl": "",
-		"description": "ZXSnake is a retro-inspired snake game with simple controls, classic arcade pacing, score chasing, achievements, and visuals inspired by early home computer games."
+		"description": "ZXSnake is a modern take on the classic Snake arcade game, featuring responsive controls, score chasing, achievements, multiplayer, and visuals inspired by the golden age of home computing."
 	},
 	{
 		"name": "ZXBrick",
@@ -23,7 +23,7 @@
 		"image": "apps/zxbrick/zxbrick-icon.png",
 		"appStoreUrl": "https://apps.apple.com/gb/app/zxbrick/id6771886847",
 		"testFlightUrl": "",
-		"description": "ZXBrick is a retro brick-breaking arcade game inspired by classic bat-and-ball gameplay with power-ups, achievements, and high-score chasing."
+		"description": "ZXBrick is a retro-inspired brick-breaking arcade game featuring handcrafted levels, power-ups, achievements, and fast-paced score-chasing gameplay."
 	},
 	{
 		"name": "ZXSpace",
@@ -36,7 +36,7 @@
 		"image": "apps/zxspace/zxspace-icon.png",
 		"appStoreUrl": "",
 		"testFlightUrl": "",
-		"description": "ZXSpace is a retro space shooter inspired by classic alien invasion arcade games with score chasing and wave-based gameplay."
+		"description": "ZXSpace is a retro-inspired space shooter where fast reactions, enemy waves, power-ups, and high-score chasing combine to create a classic arcade experience."
 	},
 	{
 		"name": "ZXPong",
@@ -49,7 +49,7 @@
 		"image": "apps/zxpong/zxpong-icon.png",
 		"appStoreUrl": "https://apps.apple.com/app/apple-store/id6775177936?pt=128083426&ct=website&mt=8",
 		"testFlightUrl": "",
-		"description": "ZXPong is a retro-inspired bat-and-ball arcade game with simple controls, classic rally gameplay, score chasing, achievements, and fast pick-up-and-play action."
+		"description": "ZXPong is a modern reimagining of the arcade classic, featuring quick rallies, AI opponents, multiplayer, achievements, and fast pick-up-and-play action."
 	},
 	{
 		"name": "GameOfDarts",
@@ -62,7 +62,7 @@
 		"image": "apps/gameofdarts/gameofdarts-icon.png",
 		"appStoreUrl": "https://apps.apple.com/app/apple-store/id6751581339?pt=128083426&ct=website&mt=8",
 		"testFlightUrl": "",
-		"description": "GameOfDarts is a modern darts scoring app for iPhone and iPad designed for score tracking, statistics, practice, and local multiplayer gameplay."
+		"description": "Game Of Darts is a feature-rich darts scoring app for iPhone and iPad, with support for multiple game modes, player statistics, practice sessions, and local multiplayer."
 	},
 	{
 		"name": "StudioDash",
@@ -76,6 +76,6 @@
 		"appStoreUrl": "",
 		"testFlightUrl": "",
 		"href": "/apps/studiodash",
-		"description": "StudioDash is preparing for a controlled private beta for independent developers, creators, and small studios, bringing App Store Connect, Cloudflare, AdMob, AdSense, Search Console, GitHub, and other services into one native workspace."
+		"description": "StudioDash is an analytics and business intelligence platform preparing for private beta, bringing App Store Connect, Cloudflare, AdMob, AdSense, Google Search Console, GitHub, and other developer services together in one native workspace."
 	}
 ]

@@ -1,70 +1,70 @@
 {
-  "title": "Getting Started",
-  "seoTitle": "Game of Darts Getting Started | BarkinMad Studios",
-  "description": "Set up players, choose a darts mode, start play, enter scores, and find statistics and leaderboards after a Game of Darts session.",
-  "summary": "Start by adding players, selecting a mode, confirming options, playing the match, then reviewing stats, results, and Game Center surfaces.",
-  "heroImage": "apps/gameofdarts/gameofdarts.png",
-  "heroImageAlt": "Game of Darts app artwork",
-  "sections": [
-    {
-      "id": "basic-flow",
-      "heading": "Basic flow",
-      "paragraphs": [
-        "Add at least two players for normal local games, or add one player when using DartBot in Match play after DartBot access is unlocked.",
-        "Choose a game mode, review the available options, start the game, enter scores or hits as the app prompts, then view stats, results, and leaderboards after play."
-      ],
-      "bullets": [
-        "Quick Start 501 is available from the main menu for fast X01 setup.",
-        "Game Center sign-in enables leaderboards and achievements.",
-        "Players and supported session data sync automatically when you are connected."
-      ]
-    },
-    {
-      "id": "online-offline",
-      "heading": "Online and offline",
-      "paragraphs": [
-        "When you are online, sessions, leaderboards, and stats can sync across supported devices.",
-        "When offline, most of the game stays available while optional features may be limited."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts.png",
-      "alt": "Game of Darts app artwork",
-      "caption": "Existing Game of Darts artwork used as the getting-started visual"
-    }
-  ],
-  "imageSectionTitle": "Getting Started Image",
-  "keywords": [
-    "Game of Darts",
-    "getting started",
-    "players",
-    "Quick Start 501"
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
-  "relatedPages": [
-    "controls",
-    "game-modes",
-    "match-types",
-    "statistics"
-  ],
-  "documentationSchemaVersion": "1.1.0",
-  "relatedLinks": [
-    {
-      "label": "Use Score Entry & Controls",
-      "href": "/apps/gameofdarts/controls"
-    },
-    {
-      "label": "Compare Game Modes",
-      "href": "/apps/gameofdarts/game-modes"
-    },
-    {
-      "label": "Review Match Types",
-      "href": "/apps/gameofdarts/match-types"
-    }
-  ]
+	"title": "Getting Started",
+	"seoTitle": "Game Of Darts Getting Started | BarkinMad Studios",
+	"description": "Learn how to set up your first Game Of Darts match, add players, choose a game mode, enter scores, and review your results.",
+	"summary": "Create your players, choose a game mode, start your match, and begin enjoying everything Game Of Darts has to offer.",
+	"heroImage": "apps/gameofdarts/gameofdarts.png",
+	"heroImageAlt": "Game Of Darts app artwork",
+	"sections": [
+		{
+			"id": "basic-flow",
+			"heading": "Start Your First Match",
+			"paragraphs": [
+				"Getting started is quick and easy. Add your players, choose the game mode you'd like to play, review the available options, and begin your match.",
+				"As you play, Game Of Darts guides you through score entry for each game mode. Once the match is complete, you can review your statistics, compare leaderboard positions, and continue improving your game."
+			],
+			"bullets": [
+				"Quick Start 501 lets you begin a traditional X01 match in seconds.",
+				"Sign in to Apple Game Center to unlock achievements and compete on leaderboards.",
+				"Supported player information and statistics automatically sync across your devices when you're connected."
+			]
+		},
+		{
+			"id": "online-offline",
+			"heading": "Playing Online and Offline",
+			"paragraphs": [
+				"When you're connected to the internet, Game Of Darts can synchronise player data, statistics, and Game Center progress across supported devices.",
+				"Most features continue to work offline, allowing you to enjoy your matches even without an internet connection. Online services such as Game Center and cloud synchronisation will become available again automatically when you reconnect."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts.png",
+			"alt": "Game Of Darts app artwork",
+			"caption": "Everything you need to get started with Game Of Darts."
+		}
+	],
+	"imageSectionTitle": "Getting Started",
+	"keywords": [
+		"Game Of Darts",
+		"getting started",
+		"players",
+		"Quick Start 501"
+	],
+	"estimatedReadTimeMinutes": 3,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-06-26",
+	"lastVerified": "2026-06-26",
+	"relatedPages": [
+		"controls",
+		"game-modes",
+		"match-types",
+		"statistics"
+	],
+	"documentationSchemaVersion": "1.1.0",
+	"relatedLinks": [
+		{
+			"label": "Learn Score Entry & Controls",
+			"href": "/apps/gameofdarts/controls"
+		},
+		{
+			"label": "Explore Game Modes",
+			"href": "/apps/gameofdarts/game-modes"
+		},
+		{
+			"label": "Learn About Match Types",
+			"href": "/apps/gameofdarts/match-types"
+		}
+	]
 }

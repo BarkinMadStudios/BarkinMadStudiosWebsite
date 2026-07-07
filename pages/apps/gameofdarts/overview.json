@@ -1,145 +1,145 @@
 {
-  "title": "Game of Darts Overview",
-  "seoTitle": "Game of Darts Overview | BarkinMad Studios",
-  "description": "A practical introduction to Game of Darts, its score tracking, player statistics, and Game Center features.",
-  "summary": "Game of Darts is a darts scoring companion for iPhone and iPad with match setup, multiple darts formats, player statistics, cloud-backed data, Game Center support, DartBot, and premium access options.",
-  "heroImage": "apps/gameofdarts/gameofdarts-hero.png",
-  "heroImageAlt": "Game of Darts hero artwork",
-  "imageMetadata": [
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
-      "alt": "Game of Darts Splash Screen",
-      "purpose": "hero",
-      "width": 681,
-      "height": 336,
-      "usage": [
-        "docs",
-        "website",
-        "news"
-      ]
-    },
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
-      "alt": "Game of Darts - Settings - customised app settings",
-      "purpose": "gameplay",
-      "width": 1430,
-      "height": 1100,
-      "usage": [
-        "docs",
-        "website"
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
-      "alt": "Game of Darts splash screen",
-      "caption": "Game of Darts splash Screen"
-    },
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
-      "alt": "Game of Darts main setup/ game configuration screen",
-      "caption": "Game of Darts Main Screen"
-    },
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
-      "alt": "Game of Darts settings and customisation screen",
-      "caption": "Game of Darts settings Screen"
-    }
-  ],
-  "imageSectionTitle": "Screenshots",
-  "sections": [
-    {
-      "id": "what-is-game-of-darts",
-      "heading": "What is Game of Darts?",
-      "paragraphs": [
-        "Game of Darts is a modern darts scoring app from [BarkinMad Studios](/about), designed for casual players, league nights, practice sessions, and competitive matches on iPhone and iPad.",
-        "Whether you're playing X01, Cricket, Bob's 27, Snooker Darts, or one of the many other game modes, Game of Darts helps you keep score, track your performance, compete on Game Center leaderboards, unlock achievements, and improve your game over time."
-      ]
-    },
-    {
-      "id": "guide-map",
-      "heading": "Guide map",
-      "paragraphs": [
-        "Everything you need to get the most from Game of Darts can be found in the guides below. Learn the controls, explore every game mode, discover match types, challenge DartBot, track your statistics, customise your experience, and climb the leaderboards.",
-        "Whether you're a beginner learning the basics or an experienced player chasing your next personal best, these guides are designed to help you enjoy every aspect of the game."
-      ]
-    }
-  ],
-  "keywords": [
-    "Game of Darts",
-    "darts scoring app",
-    "iPhone",
-    "iPad",
-    "DartBot"
-  ],
-  "estimatedReadTimeMinutes": 4,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "how-to-play",
-    "game-modes",
-    "match-types",
-    "statistics",
-    "guide"
-  ],
-  "documentationSchemaVersion": "1.2.0",
-  "featureShowcases": [
-    {
-      "id": "session-start",
-      "heading": "Start a darts session quickly",
-      "summary": "The overview introduces Game of Darts as a practical scoring companion for real match nights, casual games, and practice sessions.",
-      "body": [
-        "This view shows the flow from opening the app into choosing players and a game format. A scoring app should stay out of the way once players are ready to throw.",
-        "Players use this flow to move from launch into Match, Cricket, Snooker, Bob's 27, 1 to 20, or another supported format without needing a paper scoreboard."
-      ],
-      "bullets": [
-        "Supports iPhone and iPad scoring sessions.",
-        "Covers casual play, practice, and competitive formats.",
-        "Leads into player setup, scoring, results, and progress tracking."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
-        "alt": "Game of Darts main setup screen showing the start of a session",
-        "caption": "The main setup screen is the practical starting point for most player sessions."
-      },
-      "links": [
-        {
-          "label": "View getting started",
-          "href": "/apps/gameofdarts/how-to-play"
-        }
-      ]
-    },
-    {
-      "id": "progress-after-play",
-      "heading": "Turn matches into progress",
-      "layout": "textRight",
-      "summary": "Game of Darts links scoring with statistics, leaderboards, achievements, DartBot, and settings so players can keep improving over time.",
-      "body": [
-        "This matters because the app is not only a scoreboard. Completed games can feed player statistics, Game Center comparison, achievements, and the next practice plan.",
-        "Players use the supporting screens after a match to review performance, compare scores, adjust settings, or choose a tougher DartBot challenge."
-      ],
-      "bullets": [
-        "Statistics help players understand scoring and consistency.",
-        "Leaderboards and achievements add optional Game Center goals.",
-        "DartBot and settings help tailor practice to the player."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
-        "alt": "Game of Darts leaderboard screen used after play",
-        "caption": "Progress screens give players somewhere to go after the final dart."
-      },
-      "links": [
-        {
-          "label": "View statistics",
-          "href": "/apps/gameofdarts/statistics"
-        },
-        {
-          "label": "View DartBot",
-          "href": "/apps/gameofdarts/dartbot"
-        }
-      ]
-    }
-  ]
+	"title": "Game Of Darts Overview",
+	"seoTitle": "Game Of Darts Overview | BarkinMad Studios",
+	"description": "Discover Game Of Darts, the feature-rich darts scoring app for iPhone and iPad with multiple game modes, player statistics, Game Center support, DartBot, and premium features.",
+	"summary": "Everything you need to score matches, track your progress, challenge DartBot, and improve your darts game in one app.",
+	"heroImage": "apps/gameofdarts/gameofdarts-hero.png",
+	"heroImageAlt": "Game Of Darts hero artwork",
+	"imageMetadata": [
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
+			"alt": "Game Of Darts splash screen",
+			"purpose": "hero",
+			"width": 681,
+			"height": 336,
+			"usage": [
+				"docs",
+				"website",
+				"news"
+			]
+		},
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+			"alt": "Game Of Darts settings screen",
+			"purpose": "gameplay",
+			"width": 1430,
+			"height": 1100,
+			"usage": [
+				"docs",
+				"website"
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
+			"alt": "Game Of Darts splash screen",
+			"caption": "Welcome to Game Of Darts."
+		},
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+			"alt": "Game Of Darts main setup screen",
+			"caption": "Create players, choose a game mode, and start playing."
+		},
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+			"alt": "Game Of Darts settings",
+			"caption": "Personalise the app to suit the way you play."
+		}
+	],
+	"imageSectionTitle": "Screenshots",
+	"sections": [
+		{
+			"id": "what-is-game-of-darts",
+			"heading": "What Is Game Of Darts?",
+			"paragraphs": [
+				"Game Of Darts is a feature-rich darts scoring app from [BarkinMad Studios](/about), designed for casual games, league nights, practice sessions, and competitive matches on iPhone and iPad.",
+				"Whether you're playing X01, Cricket, Snooker Darts, Bob's 27, or one of the many other supported game modes, the app makes it easy to keep score, track your progress, unlock achievements, compete on Game Center, and continue improving your game."
+			]
+		},
+		{
+			"id": "guide-map",
+			"heading": "Everything You Need in One Place",
+			"paragraphs": [
+				"This guide brings together everything you need to get the most from Game Of Darts. Learn the controls, explore every game mode, discover match types, challenge DartBot, review your statistics, customise the app, and compete on the leaderboards.",
+				"Whether you're playing your very first match or looking to improve your averages, these guides will help you make the most of every feature."
+			]
+		}
+	],
+	"keywords": [
+		"Game Of Darts",
+		"darts scoring app",
+		"iPhone",
+		"iPad",
+		"DartBot"
+	],
+	"estimatedReadTimeMinutes": 4,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"how-to-play",
+		"game-modes",
+		"match-types",
+		"statistics",
+		"guide"
+	],
+	"documentationSchemaVersion": "1.2.0",
+	"featureShowcases": [
+		{
+			"id": "session-start",
+			"heading": "Start Playing in Minutes",
+			"summary": "Create your players, choose a game mode, and start your first match in just a few taps.",
+			"body": [
+				"Game Of Darts is designed to get you from launching the app to throwing your first dart as quickly as possible.",
+				"Whether you're playing a quick practice game, a league match, or a casual session with friends, setting up a new game is fast and straightforward."
+			],
+			"bullets": [
+				"Quick setup for iPhone and iPad.",
+				"Supports casual, practice, and competitive matches.",
+				"Guides you from player creation through to match results."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+				"alt": "Game Of Darts main setup screen",
+				"caption": "Everything starts from the main match setup screen."
+			},
+			"links": [
+				{
+					"label": "Get Started",
+					"href": "/apps/gameofdarts/how-to-play"
+				}
+			]
+		},
+		{
+			"id": "progress-after-play",
+			"heading": "Improve Every Time You Play",
+			"layout": "textRight",
+			"summary": "Track your progress, compare your results, and keep improving after every match.",
+			"body": [
+				"Game Of Darts is more than a score tracker. Review your statistics, compare leaderboard positions, unlock achievements, and challenge yourself against DartBot as your skills improve.",
+				"Every match helps build a clearer picture of your performance, making it easier to identify strengths and areas to work on."
+			],
+			"bullets": [
+				"Review player statistics.",
+				"Compete on Game Center leaderboards.",
+				"Unlock achievements and improve with DartBot."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+				"alt": "Game Of Darts leaderboard screen",
+				"caption": "Track your progress long after the final dart."
+			},
+			"links": [
+				{
+					"label": "View Statistics",
+					"href": "/apps/gameofdarts/statistics"
+				},
+				{
+					"label": "Learn About DartBot",
+					"href": "/apps/gameofdarts/dartbot"
+				}
+			]
+		}
+	]
 }

@@ -1,40 +1,40 @@
 {
-  "title": "Contact",
-  "seoTitle": "Contact BarkinMad Studios Support",
-  "heading": "Contact Us",
-  "intro": "Contact BarkinMad Studios for app support, feedback, testing opportunities, or business enquiries.",
-  "hero": {
-    "image": "/images/contact-bg-banner.png",
-    "alt": "Professional workspace inviting project discussions and contact with BarkinMad Studios"
-  },
-  "sections": [
-    {
-      "heading": "Support",
-      "paragraphs": [
-        "For help with any BarkinMad Studios app or game, please contact support@barkinmad.studio.",
-        "When contacting support, please include the app name, your device model, iOS version, and a short description of the issue."
-      ]
-    },
-    {
-      "heading": "Feedback",
-      "paragraphs": [
-        "Feedback is welcome for all BarkinMad Studios apps and games, including [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), and [The Game of Darts](/apps/gameofdarts).",
-        "Suggestions, bug reports, gameplay ideas, and feature requests help shape future updates."
-      ]
-    },
-    {
-      "heading": "Testing",
-      "paragraphs": [
-        "BarkinMad Studios may occasionally invite testers to try upcoming [apps](/apps), games, and new features before public release.",
-        "To register interest in testing future iPhone or iPad apps, please get in touch by email."
-      ]
-    },
-    {
-      "heading": "Business Enquiries",
-      "paragraphs": [
-        "For business enquiries, collaboration requests, or app-related questions, please contact support@barkinmad.studio."
-      ]
-    }
-  ],
-  "lastUpdated": "2026-06-07"
+	"title": "Contact",
+	"seoTitle": "Contact BarkinMad Studios Support",
+	"heading": "Contact Us",
+	"intro": "Whether you need app support, want to share feedback, are interested in testing upcoming releases, or would like to discuss a project, we'd love to hear from you.",
+	"hero": {
+		"image": "/images/contact-bg-banner.png",
+		"alt": "Professional workspace inviting project discussions and contact with BarkinMad Studios"
+	},
+	"sections": [
+		{
+			"heading": "Support",
+			"paragraphs": [
+				"Need help with one of our apps or games? Email us at support@barkinmad.studio and we'll do our best to help.",
+				"To help us investigate your issue more quickly, please include the app name, your device model, iOS version, and a brief description of the problem."
+			]
+		},
+		{
+			"heading": "Feedback",
+			"paragraphs": [
+				"We're always interested in hearing your thoughts about our apps and games, including [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), and [The Game of Darts](/apps/gameofdarts).",
+				"Suggestions, bug reports, gameplay ideas, and feature requests all help shape future updates and improvements."
+			]
+		},
+		{
+			"heading": "Testing",
+			"paragraphs": [
+				"From time to time, we invite players to test upcoming apps, games, and new features before they're released to the public.",
+				"If you'd like to register your interest in future iPhone or iPad beta testing, simply get in touch by email."
+			]
+		},
+		{
+			"heading": "Business Enquiries",
+			"paragraphs": [
+				"For business enquiries, collaboration opportunities, custom software projects, or general questions, please contact us at support@barkinmad.studio."
+			]
+		}
+	],
+	"lastUpdated": "2026-06-07"
 }

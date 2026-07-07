@@ -1,91 +1,91 @@
 {
-  "title": "StudioDash",
-  "seoTitle": "StudioDash | Developer Analytics Dashboard | BarkinMad Studios",
-  "description": "StudioDash brings App Store Connect, Cloudflare, advertising, search, and operational metrics into one workspace for independent developers and small studios.",
-  "keywords": "developer dashboard, app analytics, app store analytics, cloudflare analytics, indie developer tools, studio dashboard, business intelligence",
-  "heading": "StudioDash",
-  "tagline": "Developer analytics in one workspace",
-  "status": "In Development",
-  "badge": "Private Beta Planned",
-  "type": "Developer Analytics Platform",
-  "hero": {
-    "image": "/images/apps/studiodash/studiodash-hero.png",
-    "alt": "StudioDash developer analytics dashboard with revenue, download, traffic and operational metrics"
-  },
-  "icon": "apps/studiodash/studiodash-icon.png",
-  "overview": [
-    "StudioDash is an analytics and business intelligence platform for independent developers, creators, and small studios.",
-    "It brings App Store Connect, Cloudflare, AdMob, AdSense, Search Console, GitHub, and other services into one workspace, making it easier to monitor downloads, revenue, traffic, performance, and operational health from a single dashboard.",
-    "The product is in active development, with a private beta planned before wider release."
-  ],
-  "sections": [
-    {
-      "heading": "Why It Was Built",
-      "paragraphs": [
-        "Developers often need to move between multiple services to understand how their products and business are performing. That makes it harder to spot trends, compare performance, and catch issues quickly.",
-        "StudioDash brings analytics, revenue reporting, service health, and operational metrics together in a native workspace designed for independent developers."
-      ]
-    },
-    {
-      "heading": "Development Status",
-      "paragraphs": [
-        "StudioDash is actively developed by BarkinMad Studios.",
-        "A controlled private beta is planned for a limited number of independent developers and small studios, giving early users the chance to help shape the product before public release."
-      ]
-    }
-  ],
-  "features": [
-    "App Store Connect analytics",
-    "Cloudflare integration",
-    "Revenue tracking",
-    "Advertising performance",
-    "Search visibility monitoring",
-    "Multi-service dashboards",
-    "iPad and macOS support",
-    "Developer-focused workflows"
-  ],
-  "integrations": [
-    "Cloudflare",
-    "App Store Connect",
-    "Google AdMob",
-    "Google AdSense",
-    "Google Search Console",
-    "GitHub (in progress)"
-  ],
-  "platforms": [
-    "iPadOS",
-    "macOS"
-  ],
-  "technologies": [
-    "Native iPadOS and macOS",
-    "Cloudflare APIs",
-    "App Store Connect API",
-    "Google Service Integrations",
-    "Secure Keychain Storage",
-    "Local-First Data Architecture",
-    "Business Intelligence Dashboards"
-  ],
-  "actions": [
-    {
-      "label": "Explore StudioDash",
-      "href": "/apps/studiodash"
-    },
-    {
-      "label": "Learn about the StudioDash Private Beta",
-      "href": "/apps/studiodash/private-beta"
-    },
-    {
-      "label": "Back To Portfolio",
-      "href": "/portfolio"
-    },
-    {
-      "label": "Read Announcement",
-      "href": "/news/introducing-studiodash"
-    },
-    {
-      "label": "Software Services",
-      "href": "/services"
-    }
-  ],
-  "lastUpdated": "2026-07-07"
+	"title": "StudioDash",
+	"seoTitle": "StudioDash | Developer Analytics Dashboard | BarkinMad Studios",
+	"description": "StudioDash brings App Store Connect, Cloudflare, advertising, search, and operational metrics together in one native workspace for independent developers and small studios.",
+	"keywords": "developer dashboard, app analytics, app store analytics, cloudflare analytics, indie developer tools, studio dashboard, business intelligence",
+	"heading": "StudioDash",
+	"tagline": "Developer analytics in one workspace",
+	"status": "In Development",
+	"badge": "Private Beta Planned",
+	"type": "Developer Analytics Platform",
+	"hero": {
+		"image": "/images/apps/studiodash/studiodash-hero.png",
+		"alt": "StudioDash developer analytics dashboard with revenue, download, traffic and operational metrics"
+	},
+	"icon": "apps/studiodash/studiodash-icon.png",
+	"overview": [
+		"StudioDash is an analytics and business intelligence platform built for independent developers, creators, and small studios.",
+		"It combines App Store Connect, Cloudflare, AdMob, AdSense, Google Search Console, GitHub, and other services into a single native workspace, making it easier to monitor downloads, revenue, traffic, application performance, and operational health.",
+		"Currently in active development, StudioDash is preparing for a controlled private beta ahead of a wider public release."
+	],
+	"sections": [
+		{
+			"heading": "Why StudioDash?",
+			"paragraphs": [
+				"Keeping track of an app or game often means switching between multiple dashboards, reports, and services. That makes it difficult to build a complete picture of how a product or business is performing.",
+				"StudioDash brings analytics, revenue reporting, service health, website performance, and operational insights together in one native application, helping developers spend less time gathering data and more time acting on it."
+			]
+		},
+		{
+			"heading": "Development Status",
+			"paragraphs": [
+				"StudioDash is under active development, with new integrations and features being added regularly.",
+				"A limited private beta is planned for independent developers and small studios who want to provide feedback and help shape the product before its public release."
+			]
+		}
+	],
+	"features": [
+		"App Store Connect analytics",
+		"Cloudflare integration",
+		"Revenue tracking",
+		"Advertising performance",
+		"Search visibility monitoring",
+		"Multi-service dashboards",
+		"iPad and macOS support",
+		"Developer-focused workflows"
+	],
+	"integrations": [
+		"Cloudflare",
+		"App Store Connect",
+		"Google AdMob",
+		"Google AdSense",
+		"Google Search Console",
+		"GitHub (in progress)"
+	],
+	"platforms": [
+		"iPadOS",
+		"macOS"
+	],
+	"technologies": [
+		"Native iPadOS and macOS",
+		"Cloudflare APIs",
+		"App Store Connect API",
+		"Google Service Integrations",
+		"Secure Keychain Storage",
+		"Local-First Data Architecture",
+		"Business Intelligence Dashboards"
+	],
+	"actions": [
+		{
+			"label": "Explore StudioDash",
+			"href": "/apps/studiodash"
+		},
+		{
+			"label": "Learn About the StudioDash Private Beta",
+			"href": "/apps/studiodash/private-beta"
+		},
+		{
+			"label": "Back to Portfolio",
+			"href": "/portfolio"
+		},
+		{
+			"label": "Read the Announcement",
+			"href": "/news/introducing-studiodash"
+		},
+		{
+			"label": "Explore Software Services",
+			"href": "/services"
+		}
+	],
+	"lastUpdated": "2026-07-07"
 }

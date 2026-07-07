@@ -1,108 +1,108 @@
 {
-  "title": "Leaderboards",
-  "seoTitle": "Game of Darts Leaderboards | BarkinMad Studios",
-  "description": "Review Game Center leaderboard support for X01, Cricket, Snooker, Bob's 27, 1 to 20, and Halve It in Game of Darts.",
-  "summary": "Leaderboards require Game Center sign-in and are displayed through the app's Leaderboards screen.",
-  "heroImage": "apps/gameofdarts/gameofdarts-leaderboards.png",
-  "heroImageAlt": "Artwork for Game of Darts leaderboards image",
-  "sections": [
-    {
-      "id": "supported-surfaces",
-      "heading": "Supported surfaces",
-      "paragraphs": [
-        "The Leaderboards screen displays Match Darts highest score plus selectable X01 variants, Cricket highest score, Snooker variants, Bob's 27 best score, 1 to 20 least darts, and Halve It highest score.",
-        "Game Center sign-in is required for leaderboards."
-      ]
-    },
-    {
-      "id": "submission-rules",
-      "heading": "Submission rules",
-      "paragraphs": [
-        "Leaderboards track formats such as X01 highest score, best checkout, best average, most 180s, and 1 to 20 least darts.",
-        "You can control leaderboard auto-posting in the app settings."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts-leaderboards.png",
-      "alt": "Artwork for Game of Darts leaderboards",
-      "caption": "Leaderboard screenshot"
-    }
-  ],
-  "imageSectionTitle": "Leaderboards Image",
-  "keywords": [
-    "Game of Darts",
-    "leaderboards",
-    "Game Center",
-    "X01",
-    "Cricket"
-  ],
-  "estimatedReadTimeMinutes": 4,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "statistics",
-    "achievements",
-    "settings-customisation"
-  ],
-  "documentationSchemaVersion": "1.2.0",
-  "featureShowcases": [
-    {
-      "id": "compare-scores",
-      "heading": "Compare scores through Game Center",
-      "summary": "Leaderboards help players compare supported results after matches, from X01 scores to selected mode-specific challenges.",
-      "body": [
-        "This matters because many players want a target after the match ends. Leaderboards make strong scores and personal bests part of the ongoing Game of Darts loop.",
-        "Players use this screen after signing in to Game Center, completing supported games, and posting eligible results."
-      ],
-      "bullets": [
-        "Supports Game Center comparison for selected modes and scoring categories.",
-        "Gives competitive players a reason to revisit formats.",
-        "Pairs with statistics and achievements after play."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
-        "alt": "Game of Darts leaderboard screen screenshot",
-        "caption": "The leaderboard screenshot shows the competitive follow-up after supported matches."
-      },
-      "links": [
-        {
-          "label": "View statistics",
-          "href": "/apps/gameofdarts/statistics"
-        }
-      ]
-    },
-    {
-      "id": "leaderboard-settings",
-      "heading": "Control how scores are posted",
-      "layout": "textRight",
-      "summary": "Set score sharing in settings, then compare your eligible results on leaderboards.",
-      "body": [
-        "This matters because players should understand when their scores are shared through Game Center. Settings keep leaderboard behaviour transparent and adjustable.",
-        "Players use settings to control supported posting behaviour, then return to leaderboards to compare eligible results."
-      ],
-      "bullets": [
-        "Requires Game Center sign-in.",
-        "Supports player control through settings.",
-        "Keeps comparison separate from local score entry."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-leaderboards.png",
-        "alt": "Game of Darts leaderboards artwork",
-        "caption": "Leaderboard artwork supports Game Center comparison guidance."
-      },
-      "links": [
-        {
-          "label": "View settings",
-          "href": "/apps/gameofdarts/settings-customisation"
-        },
-        {
-          "label": "View achievements",
-          "href": "/apps/gameofdarts/achievements"
-        }
-      ]
-    }
-  ]
+	"title": "Leaderboards",
+	"seoTitle": "Game Of Darts Leaderboards | BarkinMad Studios",
+	"description": "Compete with players around the world through Apple Game Center leaderboards and track your best performances across supported Game Of Darts modes.",
+	"summary": "Compare your best scores, averages, checkouts, and match performance through Apple Game Center.",
+	"heroImage": "apps/gameofdarts/gameofdarts-leaderboards.png",
+	"heroImageAlt": "Game Of Darts leaderboards",
+	"sections": [
+		{
+			"id": "supported-surfaces",
+			"heading": "Compete on the Leaderboards",
+			"paragraphs": [
+				"Game Of Darts includes Apple Game Center leaderboards for supported game modes, giving you the chance to compare your best performances with friends and players around the world.",
+				"Leaderboards are available for X01, Cricket, Snooker Darts, Bob's 27, One to 20, Halve It, and other supported categories. Sign in to Game Center to start competing."
+			]
+		},
+		{
+			"id": "submission-rules",
+			"heading": "How Scores Are Submitted",
+			"paragraphs": [
+				"Supported results, including highest scores, best checkouts, best averages, most 180s, and other qualifying performances, can be submitted to Game Center.",
+				"You can control automatic leaderboard posting from the Settings screen whenever supported."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts-leaderboards.png",
+			"alt": "Game Of Darts leaderboards",
+			"caption": "Compare your best performances with players around the world."
+		}
+	],
+	"imageSectionTitle": "Leaderboards",
+	"keywords": [
+		"Game Of Darts",
+		"leaderboards",
+		"Game Center",
+		"X01",
+		"Cricket"
+	],
+	"estimatedReadTimeMinutes": 4,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"statistics",
+		"achievements",
+		"settings-customisation"
+	],
+	"documentationSchemaVersion": "1.2.0",
+	"featureShowcases": [
+		{
+			"id": "compare-scores",
+			"heading": "Compete Beyond Every Match",
+			"summary": "Leaderboards give you a reason to keep improving long after the final dart has been thrown.",
+			"body": [
+				"Every great performance deserves to be remembered. Game Center leaderboards let you compare your best scores, averages, and achievements with players around the world.",
+				"Whether you're chasing a personal best or climbing the global rankings, every match is another opportunity to improve."
+			],
+			"bullets": [
+				"Compare scores across supported game modes.",
+				"Track your personal best performances.",
+				"Works alongside achievements and player statistics."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+				"alt": "Game Of Darts leaderboard screen",
+				"caption": "Track your progress and compete with players around the world."
+			},
+			"links": [
+				{
+					"label": "View Statistics",
+					"href": "/apps/gameofdarts/statistics"
+				}
+			]
+		},
+		{
+			"id": "leaderboard-settings",
+			"heading": "Manage Leaderboard Sharing",
+			"layout": "textRight",
+			"summary": "Choose how your scores are shared through Game Center.",
+			"body": [
+				"Leaderboard submissions can be managed from the Settings screen where supported, giving you control over how your qualifying scores are shared.",
+				"Once you're signed in to Game Center, every eligible performance has the opportunity to appear on the leaderboards."
+			],
+			"bullets": [
+				"Requires Apple Game Center.",
+				"Manage supported sharing options in Settings.",
+				"Works independently of local player statistics."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-leaderboards.png",
+				"alt": "Game Of Darts leaderboards",
+				"caption": "Choose how you compete and share your results."
+			},
+			"links": [
+				{
+					"label": "View Settings",
+					"href": "/apps/gameofdarts/settings-customisation"
+				},
+				{
+					"label": "View Achievements",
+					"href": "/apps/gameofdarts/achievements"
+				}
+			]
+		}
+	]
 }

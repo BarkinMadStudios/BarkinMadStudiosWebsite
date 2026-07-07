@@ -1,73 +1,73 @@
 {
-  "title": "Prototypes & Proof of Concepts",
-  "hero": {
-    "image": "",
-    "alt": ""
-  },
-  "description": "Validate ideas, reduce risk, and explore opportunities before committing to full product development.",
-  "heroTitle": "Prototypes & Proof of Concepts",
-  "heroSubtitle": "Turn ideas into working software quickly.",
-  "sections": [
-    {
-      "heading": "Validate Ideas Before Major Investment",
-      "content": [
-        "Not every project needs to begin with a full production build.",
-        "Prototypes and proof-of-concept applications offer a practical way to explore ideas, gather feedback, and reduce project risk before moving into [custom software development](/services/custom-software-development)."
-      ]
-    },
-    {
-      "heading": "Why Build a Prototype?",
-      "content": [
-        "Test ideas quickly",
-        "Demonstrate concepts",
-        "Gather stakeholder feedback",
-        "Validate technical feasibility",
-        "Reduce development risk",
-        "Secure investment or approval",
-        "Refine requirements"
-      ]
-    },
-    {
-      "heading": "Rapid Development Approach",
-      "content": [
-        "Prototype projects focus on proving the most important parts of an idea quickly.",
-        "This gives teams something tangible to review before committing to larger investment or longer development cycles."
-      ]
-    },
-    {
-      "heading": "Suitable For",
-      "content": [
-        "Startups",
-        "New product ideas",
-        "[Internal innovation projects](/services/internal-business-tools)",
-        "Technology evaluations",
-        "[Business process experiments](/services/business-process-improvement)",
-        "Customer demonstrations"
-      ]
-    },
-    {
-      "heading": "Moving From Prototype to Product",
-      "content": [
-        "Successful prototypes can form the foundation for future development.",
-        "They help confirm direction, uncover risks early, and provide confidence before building a full production solution."
-      ]
-    },
-    {
-      "heading": "Why BarkinMad Studios?",
-      "content": [
-        "20+ years of technology experience.",
-        "Independent UK software developer.",
-        "Real-world [apps](/apps) actively developed and maintained.",
-        "Direct communication throughout every project.",
-        "Flexible engagement for startups and small businesses."
-      ]
-    }
-  ],
-  "cta": {
-    "title": "Explore Your Idea",
-    "content": "Whether you're evaluating a new opportunity or testing a business concept, BarkinMad Studios can help turn ideas into working software.",
-    "buttonText": "Contact BarkinMad Studios",
-    "buttonLink": "/contact"
-  },
-  "lastUpdated": "2026-06-07"
+	"title": "Prototypes & Proof of Concepts",
+	"hero": {
+		"image": "",
+		"alt": ""
+	},
+	"description": "Validate ideas, reduce risk, and explore opportunities before committing to full product development.",
+	"heroTitle": "Prototypes & Proof of Concepts",
+	"heroSubtitle": "Turn ideas into working software before making a bigger investment.",
+	"sections": [
+		{
+			"heading": "Validate Ideas Before You Build",
+			"content": [
+				"Not every project needs to begin with a full production build. A prototype or proof of concept allows you to explore an idea quickly, gather feedback, and understand what's possible before committing significant time or budget.",
+				"Whether you're creating a new product, testing a business idea, or evaluating a technical approach, early prototypes provide valuable insight before moving into [custom software development](/services/custom-software-development)."
+			]
+		},
+		{
+			"heading": "Why Build a Prototype?",
+			"content": [
+				"Test ideas quickly",
+				"Demonstrate concepts",
+				"Gather stakeholder feedback",
+				"Validate technical feasibility",
+				"Reduce development risk",
+				"Secure investment or approval",
+				"Refine requirements"
+			]
+		},
+		{
+			"heading": "Rapid Development Approach",
+			"content": [
+				"Prototype projects focus on delivering the most important functionality as quickly as possible.",
+				"Having something real to explore and test makes it easier to gather feedback, identify improvements, and make informed decisions before investing in a full production solution."
+			]
+		},
+		{
+			"heading": "Suitable For",
+			"content": [
+				"Startups",
+				"New product ideas",
+				"[Internal innovation projects](/services/internal-business-tools)",
+				"Technology evaluations",
+				"[Business process experiments](/services/business-process-improvement)",
+				"Customer demonstrations"
+			]
+		},
+		{
+			"heading": "From Prototype to Production",
+			"content": [
+				"A successful prototype can become the foundation for a fully developed product.",
+				"Early validation helps reduce uncertainty, uncover potential issues sooner, and gives everyone involved greater confidence before moving into production."
+			]
+		},
+		{
+			"heading": "Why Work With BarkinMad Studios?",
+			"content": [
+				"More than 20 years of technology experience.",
+				"Independent UK software developer.",
+				"Real-world apps, games, and business software actively designed, developed, and maintained.",
+				"Direct communication throughout every stage of the project.",
+				"Flexible engagement for startups, small businesses, and growing organisations."
+			]
+		}
+	],
+	"cta": {
+		"title": "Bring Your Idea to Life",
+		"content": "Whether you're exploring a new business opportunity, testing a product idea, or validating a technical concept, BarkinMad Studios can help turn your ideas into working software quickly and confidently.",
+		"buttonText": "Contact BarkinMad Studios",
+		"buttonLink": "/contact"
+	},
+	"lastUpdated": "2026-06-07"
 }

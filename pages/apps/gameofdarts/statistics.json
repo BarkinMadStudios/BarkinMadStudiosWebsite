@@ -1,139 +1,139 @@
 {
-  "title": "Statistics",
-  "seoTitle": "Game of Darts Statistics | BarkinMad Studios",
-  "description": "Understand how Game of Darts tracks player statistics, session history, and performance trends.",
-  "summary": "Your match results are saved by game mode and player to help you track improvement over time.",
-  "heroImage": "apps/gameofdarts/gameofdarts-statistics.png",
-  "heroImageAlt": "Artwork for Game of Darts statistics image",
-  "showContents": false,
-  "sections": [
-    {
-      "id": "overview",
-      "heading": "Track Your Progress",
-      "paragraphs": [
-        "Game of Darts records detailed statistics to help you understand your performance and improve over time. Every completed match contributes towards your personal history, allowing you to monitor progress across multiple game modes.",
-        "Statistics are available for supported games and can be viewed from the Player screen, giving you a clear picture of your strengths and areas for improvement."
-      ]
-    },
-    {
-      "id": "match-statistics",
-      "heading": "Match Statistics",
-      "paragraphs": [
-        "After every completed match you can review performance information for the players involved. The statistics shown depend on the selected game mode, but are designed to highlight both scoring and consistency."
-      ],
-      "bullets": [
-        "Highest score.",
-        "Match average.",
-        "Checkout percentage.",
-        "Best checkout.",
-        "180s and high-score visits.",
-        "Game-specific statistics for supported modes."
-      ]
-    },
-    {
-      "id": "player-history",
-      "heading": "Player History",
-      "paragraphs": [
-        "Statistics are stored for each player, allowing long-term progress to be tracked across multiple sessions. Historical results make it easy to compare current performance with previous games and identify improvements over time.",
-        "Player statistics are available from the Player screen by selecting a player and then choosing the game mode you want to review."
-      ]
-    },
-    {
-      "id": "advanced-statistics",
-      "heading": "Advanced Statistics",
-      "paragraphs": [
-        "Advanced Statistics provide a deeper analysis of your performance with additional charts, trends and historical information. Access is unlocked by meeting the gameplay requirements or through premium access.",
-        "These additional insights are ideal for players looking to analyse their game in greater detail and monitor long-term improvements."
-      ]
-    },
-    {
-      "id": "improve-your-game",
-      "heading": "Improve Your Game",
-      "paragraphs": [
-        "Reviewing your statistics regularly can help identify patterns in your play. Improving averages, increasing checkout percentages and reducing missed doubles are all excellent indicators that your game is progressing.",
-        "Combine your statistics with regular practice against DartBot or friends to steadily improve your overall performance."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts-statistics.png",
-      "alt": "Artwork for Game of Darts statistics",
-      "caption": "Statistics screenshot"
-    }
-  ],
-  "imageSectionTitle": "Statistics Image",
-  "keywords": [
-    "Game of Darts",
-    "statistics",
-    "advanced statistics",
-    "sessions"
-  ],
-  "estimatedReadTimeMinutes": 5,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "leaderboards",
-    "achievements",
-    "settings-customisation"
-  ],
-  "documentationSchemaVersion": "1.2.0",
-  "featureShowcases": [
-    {
-      "id": "review-performance",
-      "heading": "Review performance after play",
-      "summary": "Statistics turn completed matches into a record players can use to understand scoring, consistency, and improvement over time.",
-      "body": [
-        "This matters because darts improvement is often gradual. Seeing averages, checkouts, high scores, and game-specific results helps players spot what is improving and what needs more practice.",
-        "Players use statistics after a session or across multiple sessions to compare performance by player and game mode."
-      ],
-      "bullets": [
-        "Tracks results by player and supported game mode.",
-        "Supports match averages, high scores, checkouts, and game-specific measures where available.",
-        "Helps players choose what to practise next."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-statistics.png",
-        "alt": "Game of Darts statistics artwork",
-        "caption": "Statistics artwork supports player performance review."
-      },
-      "links": [
-        {
-          "label": "View leaderboards",
-          "href": "/apps/gameofdarts/leaderboards"
-        }
-      ]
-    },
-    {
-      "id": "long-term-progress",
-      "heading": "Build a longer-term player history",
-      "layout": "textRight",
-      "summary": "Statistics are most useful when players can return to them over time and compare current sessions against previous results.",
-      "body": [
-        "This matters because a single match can be noisy. Longer-term player history makes it easier to see whether practice against friends, solo sessions, or DartBot matches are improving real performance.",
-        "Players use historical stats to compare time periods, review supported game modes, and decide whether to change practice focus."
-      ],
-      "bullets": [
-        "Supports progress review beyond one match.",
-        "Works alongside Game Center goals and achievements.",
-        "Pairs naturally with DartBot practice and match-type variety."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
-        "alt": "Game of Darts setup screen leading into player statistics",
-        "caption": "The main setup screenshot shows the flow from play into saved results."
-      },
-      "links": [
-        {
-          "label": "View achievements",
-          "href": "/apps/gameofdarts/achievements"
-        },
-        {
-          "label": "View DartBot",
-          "href": "/apps/gameofdarts/dartbot"
-        }
-      ]
-    }
-  ]
+	"title": "Statistics",
+	"seoTitle": "Game Of Darts Statistics | BarkinMad Studios",
+	"description": "Track your progress, review your performance, and discover how your darts game improves over time.",
+	"summary": "Detailed player statistics help you monitor your performance, compare sessions, and identify areas for improvement.",
+	"heroImage": "apps/gameofdarts/gameofdarts-statistics.png",
+	"heroImageAlt": "Game Of Darts statistics",
+	"showContents": false,
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "Track Your Progress",
+			"paragraphs": [
+				"Game Of Darts records detailed statistics after every completed match, helping you understand your strengths and identify areas where you can improve.",
+				"Whether you're practising on your own, playing league matches, or competing with friends, your statistics build a clear picture of your progress over time."
+			]
+		},
+		{
+			"id": "match-statistics",
+			"heading": "Match Statistics",
+			"paragraphs": [
+				"Every completed match records a range of performance information. The exact statistics available depend on the selected game mode, giving you meaningful insights that match the way you're playing."
+			],
+			"bullets": [
+				"Highest score.",
+				"Match average.",
+				"Checkout percentage.",
+				"Best checkout.",
+				"180s and high-score visits.",
+				"Game-specific statistics where supported."
+			]
+		},
+		{
+			"id": "player-history",
+			"heading": "Player History",
+			"paragraphs": [
+				"Statistics are stored for every player, making it easy to compare today's performance with previous matches.",
+				"View your results by player and game mode to see how your skills develop over weeks, months, or even years."
+			]
+		},
+		{
+			"id": "advanced-statistics",
+			"heading": "Advanced Statistics",
+			"paragraphs": [
+				"Advanced Statistics provide additional charts, trends, and historical analysis for players who want to explore their performance in greater detail.",
+				"Access is available by meeting the in-game requirements or through Premium Access."
+			]
+		},
+		{
+			"id": "improve-your-game",
+			"heading": "Turn Statistics into Better Results",
+			"paragraphs": [
+				"The best players review their performance as well as their scores. Watching your averages improve, increasing your checkout percentage, and reducing missed doubles are all signs that your game is moving in the right direction.",
+				"Combine your statistics with regular practice against DartBot or friends to continue improving every time you play."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts-statistics.png",
+			"alt": "Game Of Darts statistics",
+			"caption": "Track your progress and improve over time."
+		}
+	],
+	"imageSectionTitle": "Statistics",
+	"keywords": [
+		"Game Of Darts",
+		"statistics",
+		"advanced statistics",
+		"sessions"
+	],
+	"estimatedReadTimeMinutes": 5,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"leaderboards",
+		"achievements",
+		"settings-customisation"
+	],
+	"documentationSchemaVersion": "1.2.0",
+	"featureShowcases": [
+		{
+			"id": "review-performance",
+			"heading": "See Your Progress",
+			"summary": "Every completed match helps build a clearer picture of your performance.",
+			"body": [
+				"Review your averages, checkouts, high scores, and game-specific statistics to see how your game is developing over time.",
+				"Whether you're chasing a new personal best or preparing for league matches, your statistics help highlight both your strengths and the areas that deserve extra practice."
+			],
+			"bullets": [
+				"Track every supported game mode.",
+				"Review averages, high scores, and checkout performance.",
+				"Identify what to practise next."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-statistics.png",
+				"alt": "Game Of Darts statistics",
+				"caption": "Every match adds to your journey as a player."
+			},
+			"links": [
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/gameofdarts/leaderboards"
+				}
+			]
+		},
+		{
+			"id": "long-term-progress",
+			"heading": "Watch Your Game Improve",
+			"layout": "textRight",
+			"summary": "Compare your current performance with previous sessions and measure your improvement.",
+			"body": [
+				"Real improvement doesn't happen in a single match. By reviewing your statistics over time, it's easier to see how practice, DartBot sessions, and competitive matches are helping you become a better player.",
+				"Long-term statistics make every game more rewarding by showing how far you've come."
+			],
+			"bullets": [
+				"Track long-term player progress.",
+				"Works alongside achievements and leaderboards.",
+				"Perfect for measuring improvement through regular practice."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+				"alt": "Game Of Darts player statistics",
+				"caption": "Every match contributes to your long-term progress."
+			},
+			"links": [
+				{
+					"label": "View Achievements",
+					"href": "/apps/gameofdarts/achievements"
+				},
+				{
+					"label": "Learn About DartBot",
+					"href": "/apps/gameofdarts/dartbot"
+				}
+			]
+		}
+	]
 }

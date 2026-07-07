@@ -1,118 +1,119 @@
 {
-  "title": "Game of Darts",
-  "tagline": "Modern darts scoring companion",
-  "hero": {
-    "image": "/images/apps/gameofdarts/gameofdarts-hero.png",
-    "alt": "Game of Darts scoring app hero artwork for darts match setup and score tracking"
-  },
-  "shortDescription": "Track scores and games with ease.",
-  "description": "Game Of Darts is a modern darts scoring app from [BarkinMad Studios](/about), designed to make tracking games, scores, and player progress simple and intuitive. Built for casual players and competitive matches alike.",
-  "status": "Live",
-  "appStoreUrl": "https://apps.apple.com/app/apple-store/id6751581339?pt=128083426&ct=website&mt=8",
-  "testFlightUrl": "",
-  "icon": "apps/gameofdarts/gameofdarts-icon.png",
-  "heroImage": "apps/gameofdarts/gameofdarts-hero.png",
-  "screenshots": [
-    "apps/gameofdarts/gameofdarts.png"
-  ],
-  "features": [
-    "Quick and easy score entry",
-    "Multiple game modes",
-    "Player statistics tracking",
-    "Modern clean interface",
-    "Designed for casual and competitive play",
-    "Fast match setup",
-    "iPhone and iPad support"
-  ],
-  "achievements": [],
-  "supportedPlatforms": [
-    "iPhone",
-    "iPad"
-  ],
-  "version": "1.0",
-  "genre": "Sports",
-  "developer": "BarkinMad Studios",
-  "faq": [
-    {
-      "question": "What is The Game of Darts?",
-      "answer": "The Game of Darts is a mobile darts scoring app for iPhone and iPad from [BarkinMad Studios](/about)."
-    },
-    {
-      "question": "Who is The Game of Darts for?",
-      "answer": "The app is designed for casual players and competitive matches where quick score entry, player tracking, and clear match flow are important."
-    },
-    {
-      "question": "Is The Game of Darts available on the App Store?",
-      "answer": "Yes. The Game of Darts is available from the App Store using the link on this page."
-    }
-  ],
-  "documentationLinks": [
-    {
-      "label": "Overview",
-      "href": "/apps/gameofdarts"
-    },
-    {
-      "label": "Getting Started",
-      "href": "/apps/gameofdarts/how-to-play"
-    },
-    {
-      "label": "Score Entry & Controls",
-      "href": "/apps/gameofdarts/controls"
-    },
-    {
-      "label": "Game Modes",
-      "href": "/apps/gameofdarts/game-modes"
-    },
-    {
-      "label": "Match Types",
-      "href": "/apps/gameofdarts/match-types"
-    },
-    {
-      "label": "DartBot",
-      "href": "/apps/gameofdarts/dartbot"
-    },
-    {
-      "label": "Statistics",
-      "href": "/apps/gameofdarts/statistics"
-    },
-    {
-      "label": "Leaderboards",
-      "href": "/apps/gameofdarts/leaderboards"
-    },
-    {
-      "label": "Achievements",
-      "href": "/apps/gameofdarts/achievements"
-    },
-    {
-      "label": "Caller Voices",
-      "href": "/apps/gameofdarts/caller-voices"
-    },
-    {
-      "label": "Settings & Customisation",
-      "href": "/apps/gameofdarts/settings-customisation"
-    },
-    {
-      "label": "Premium Access",
-      "href": "/apps/gameofdarts/barkinmad-coins"
-    },
-    {
-      "label": "Tips & Strategy",
-      "href": "/apps/gameofdarts/tips-and-strategy"
-    },
-    {
-      "label": "Frequently Asked Questions",
-      "href": "/apps/gameofdarts/frequently-asked-questions"
-    },
-    {
-      "label": "Guide",
-      "href": "/apps/gameofdarts/guide"
-    },
-    {
-      "label": "Screenshots",
-      "href": "/apps/gameofdarts/screenshots"
-    }
-  ],
-  "lastUpdated": "2026-07-07",
-  "seoTitle": "Game of Darts | Darts Scoring App | BarkinMad Studios",
-  "summary": "Game of Darts helps players set up matches, enter scores quickly, track statistics, use DartBot, and review darts progress on iPhone and iPad."
+	"title": "Game of Darts",
+	"tagline": "Your complete darts scoring companion",
+	"hero": {
+		"image": "/images/apps/gameofdarts/gameofdarts-hero.png",
+		"alt": "Game of Darts scoring app hero artwork for darts match setup and score tracking"
+	},
+	"shortDescription": "Track scores, analyse performance, and enjoy every match with confidence.",
+	"description": "Game Of Darts is a feature-rich darts scoring app from [BarkinMad Studios](/about), designed for players of every ability. Whether you're playing a casual game with friends, practising at home, or competing in league matches, the app makes scoring fast, accurate, and enjoyable while helping you track your progress over time.",
+	"status": "Live",
+	"appStoreUrl": "https://apps.apple.com/app/apple-store/id6751581339?pt=128083426&ct=website&mt=8",
+	"testFlightUrl": "",
+	"icon": "apps/gameofdarts/gameofdarts-icon.png",
+	"heroImage": "apps/gameofdarts/gameofdarts-hero.png",
+	"screenshots": [
+		"apps/gameofdarts/gameofdarts.png"
+	],
+	"features": [
+		"Fast and accurate score entry",
+		"Multiple popular darts game modes",
+		"Detailed player statistics",
+		"DartBot practice opponent",
+		"Quick match setup",
+		"Clean, modern interface",
+		"Designed for casual and competitive play",
+		"iPhone and iPad support"
+	],
+	"achievements": [],
+	"supportedPlatforms": [
+		"iPhone",
+		"iPad"
+	],
+	"version": "1.0",
+	"genre": "Sports",
+	"developer": "BarkinMad Studios",
+	"faq": [
+		{
+			"question": "What is Game Of Darts?",
+			"answer": "Game Of Darts is a feature-rich darts scoring app for iPhone and iPad developed by [BarkinMad Studios](/about). It combines fast score entry with detailed statistics, multiple game modes, and player tracking."
+		},
+		{
+			"question": "Who is Game Of Darts designed for?",
+			"answer": "Whether you're playing casually with friends, practising on your own, or competing in organised matches, Game Of Darts helps you score quickly, track your progress, and enjoy every game."
+		},
+		{
+			"question": "Is Game Of Darts available on the App Store?",
+			"answer": "Yes. You can download Game Of Darts from the App Store using the link on this page."
+		}
+	],
+	"documentationLinks": [
+		{
+			"label": "Overview",
+			"href": "/apps/gameofdarts"
+		},
+		{
+			"label": "Getting Started",
+			"href": "/apps/gameofdarts/how-to-play"
+		},
+		{
+			"label": "Score Entry & Controls",
+			"href": "/apps/gameofdarts/controls"
+		},
+		{
+			"label": "Game Modes",
+			"href": "/apps/gameofdarts/game-modes"
+		},
+		{
+			"label": "Match Types",
+			"href": "/apps/gameofdarts/match-types"
+		},
+		{
+			"label": "DartBot",
+			"href": "/apps/gameofdarts/dartbot"
+		},
+		{
+			"label": "Statistics",
+			"href": "/apps/gameofdarts/statistics"
+		},
+		{
+			"label": "Leaderboards",
+			"href": "/apps/gameofdarts/leaderboards"
+		},
+		{
+			"label": "Achievements",
+			"href": "/apps/gameofdarts/achievements"
+		},
+		{
+			"label": "Caller Voices",
+			"href": "/apps/gameofdarts/caller-voices"
+		},
+		{
+			"label": "Settings & Customisation",
+			"href": "/apps/gameofdarts/settings-customisation"
+		},
+		{
+			"label": "Premium Features",
+			"href": "/apps/gameofdarts/barkinmad-coins"
+		},
+		{
+			"label": "Tips & Strategy",
+			"href": "/apps/gameofdarts/tips-and-strategy"
+		},
+		{
+			"label": "Frequently Asked Questions",
+			"href": "/apps/gameofdarts/frequently-asked-questions"
+		},
+		{
+			"label": "Complete Guide",
+			"href": "/apps/gameofdarts/guide"
+		},
+		{
+			"label": "Screenshots",
+			"href": "/apps/gameofdarts/screenshots"
+		}
+	],
+	"lastUpdated": "2026-07-07",
+	"seoTitle": "Game Of Darts | Darts Scoring App | BarkinMad Studios",
+	"summary": "Game Of Darts is a feature-rich darts scoring app for iPhone and iPad with multiple game modes, DartBot, player statistics, achievements, leaderboards, and fast score entry."
 }

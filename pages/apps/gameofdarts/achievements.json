@@ -1,106 +1,106 @@
 {
-  "title": "Achievements",
-  "seoTitle": "Game of Darts Achievements | BarkinMad Studios",
-  "description": "Game Center achievements are tracked per mode using played-game counts and Game Center achievement descriptions.",
-  "summary": "Game Center achievements are tracked per mode using played-game counts and Game Center achievement descriptions.",
-  "heroImage": "apps/gameofdarts/gameofdarts.png",
-  "heroImageAlt": "Artwork for Game of Darts achievements image",
-  "sections": [
-    {
-      "id": "tracking",
-      "heading": "How achievements are tracked",
-      "paragraphs": [
-        "When a match ends, the played count for that mode updates and your progress is pushed through Game Center.",
-        "Achievement tracking is available across the same match formats you can play in Game of Darts."
-      ]
-    },
-    {
-      "id": "achievement-details",
-      "heading": "Achievement details",
-      "paragraphs": [
-        "Achievement names and progress are driven by the Game Center data shown in the app.",
-        "Only modes available in your current Game of Darts release are shown in the achievement list."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts.png",
-      "alt": "Artwork for Game of Darts achievements",
-      "caption": "Achievement screenshot"
-    }
-  ],
-  "imageSectionTitle": "Achievements Image",
-  "keywords": [
-    "Game of Darts",
-    "achievements",
-    "Game Center"
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "leaderboards",
-    "statistics",
-    "game-modes"
-  ],
-  "documentationSchemaVersion": "1.2.0",
-  "featureShowcases": [
-    {
-      "id": "game-center-goals",
-      "heading": "Game Center goals for regular play",
-      "summary": "Achievements give players optional goals across supported Game of Darts modes.",
-      "body": [
-        "This matters because progress can be more motivating when players have goals beyond one scoreboard. Achievements reward repeated play, mode exploration, and supported challenges through Game Center.",
-        "Players use achievements after signing in to Game Center and completing matches in supported modes."
-      ],
-      "bullets": [
-        "Tracks progress through supported Game Center achievements.",
-        "Rewards completed play and mode-specific goals where available.",
-        "Works alongside leaderboards and statistics after matches."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
-        "alt": "Game of Darts Game Center leaderboard screenshot used for achievement context",
-        "caption": "Leaderboard artwork supports Game Center progress and achievement context."
-      },
-      "links": [
-        {
-          "label": "View leaderboards",
-          "href": "/apps/gameofdarts/leaderboards"
-        }
-      ]
-    },
-    {
-      "id": "achievement-progress-context",
-      "heading": "Progress without changing scoring",
-      "layout": "textRight",
-      "summary": "Achievement tracking sits behind normal play and does not change how a match is scored.",
-      "body": [
-        "This matters because players can focus on the game at the board. Progress updates happen after supported match activity rather than interrupting score entry.",
-        "Players use achievement progress as a reason to revisit modes, improve consistency, and compare progress with personal statistics."
-      ],
-      "bullets": [
-        "Keeps gameplay and reward tracking separate.",
-        "Encourages players to explore multiple modes.",
-        "Complements statistics for longer-term improvement."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts.png",
-        "alt": "Game of Darts achievement progress artwork",
-        "caption": "General Game of Darts artwork is used until a dedicated achievements screenshot is available."
-      },
-      "links": [
-        {
-          "label": "View statistics",
-          "href": "/apps/gameofdarts/statistics"
-        },
-        {
-          "label": "Compare Game of Darts Modes",
-          "href": "/apps/gameofdarts/game-modes"
-        }
-      ]
-    }
-  ]
+	"title": "Achievements",
+	"seoTitle": "Game of Darts Achievements | BarkinMad Studios",
+	"description": "Unlock Game Center achievements by playing matches, exploring different game modes, and improving your darts skills in Game Of Darts.",
+	"summary": "Game Center achievements reward regular play, exploring different game modes, and improving your performance over time.",
+	"heroImage": "apps/gameofdarts/gameofdarts.png",
+	"heroImageAlt": "Artwork for Game of Darts achievements",
+	"sections": [
+		{
+			"id": "tracking",
+			"heading": "Unlocking Achievements",
+			"paragraphs": [
+				"Achievements are automatically tracked through Apple Game Center as you play Game Of Darts.",
+				"Complete matches, explore different game modes, and continue playing to unlock new achievements and build your collection."
+			]
+		},
+		{
+			"id": "achievement-details",
+			"heading": "Achievement Progress",
+			"paragraphs": [
+				"Your available achievements and progress are displayed through Game Center.",
+				"As new game modes and features are added, additional achievements may become available in future updates."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts.png",
+			"alt": "Game of Darts achievements",
+			"caption": "Track your Game Center achievements as you play."
+		}
+	],
+	"imageSectionTitle": "Achievements",
+	"keywords": [
+		"Game of Darts",
+		"Achievements",
+		"Game Center"
+	],
+	"estimatedReadTimeMinutes": 3,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"leaderboards",
+		"statistics",
+		"game-modes"
+	],
+	"documentationSchemaVersion": "1.2.0",
+	"featureShowcases": [
+		{
+			"id": "game-center-goals",
+			"heading": "Earn Achievements as You Play",
+			"summary": "Achievements reward regular play and encourage you to explore everything Game Of Darts has to offer.",
+			"body": [
+				"Every completed match helps you progress towards new achievements. Whether you're trying different game modes or simply playing more often, Game Center automatically tracks your progress.",
+				"Achievements provide extra goals beyond winning matches, giving you more reasons to keep improving your game."
+			],
+			"bullets": [
+				"Automatically tracked through Game Center.",
+				"Reward regular play across supported game modes.",
+				"Work alongside leaderboards and player statistics."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+				"alt": "Game Center achievements and leaderboards",
+				"caption": "Game Center keeps track of your achievements and leaderboard progress."
+			},
+			"links": [
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/gameofdarts/leaderboards"
+				}
+			]
+		},
+		{
+			"id": "achievement-progress-context",
+			"heading": "Play Naturally, Progress Automatically",
+			"layout": "textRight",
+			"summary": "Achievement progress happens in the background while you enjoy your matches.",
+			"body": [
+				"There's nothing extra you need to do. Simply play matches, improve your skills, and Game Center updates your achievement progress automatically.",
+				"As your experience grows, you'll unlock new milestones while building your statistics and climbing the leaderboards."
+			],
+			"bullets": [
+				"No additional setup required.",
+				"Progress updates automatically after supported matches.",
+				"Complements player statistics and leaderboards."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts.png",
+				"alt": "Game of Darts achievements",
+				"caption": "Achievements are earned naturally through regular play."
+			},
+			"links": [
+				{
+					"label": "View Statistics",
+					"href": "/apps/gameofdarts/statistics"
+				},
+				{
+					"label": "Explore Game Modes",
+					"href": "/apps/gameofdarts/game-modes"
+				}
+			]
+		}
+	]
 }

@@ -1,163 +1,163 @@
 {
-  "title": "App Development Services",
-  "seoTitle": "Custom App Development Services | BarkinMad Studios",
-  "heading": "Custom Software, Mobile Apps & Digital Solutions",
-  "intro": "Helping businesses turn ideas, processes, and operational challenges into practical software solutions.",
-  "hero": {
-    "image": "/images/service-bg-banner.png",
-    "alt": "Custom software development workspace with mobile apps, dashboards and business solutions"
-  },
-  "description": "[Custom software development](/services/custom-software-development), [mobile app development](/services/mobile-app-development), workflow automation, dashboards, [business tools](/services/internal-business-tools), prototypes, proof of concepts, websites, and iPhone/iPad app development.",
-  "servicePagesTitle": "Services",
-  "servicePages": [
-    {
-      "title": "Custom Software Development",
-      "description": "Custom software solutions designed around your business requirements, workflows, and operational processes.",
-      "href": "/services/custom-software-development",
-      "actionLabel": "View Service"
-    },
-    {
-      "title": "Mobile App Development",
-      "description": "Native iPhone and iPad application development from concept through to App Store release.",
-      "href": "/services/mobile-app-development",
-      "actionLabel": "View Service"
-    },
-    {
-      "title": "Internal Business Tools",
-      "description": "Custom business tools designed to improve efficiency, reduce administration, and support day-to-day operations.",
-      "href": "/services/internal-business-tools",
-      "actionLabel": "View Service"
-    },
-    {
-      "title": "Business Process Improvement",
-      "description": "Identify inefficiencies, streamline workflows, and use technology to improve business operations.",
-      "href": "/services/business-process-improvement",
-      "actionLabel": "View Service"
-    },
-    {
-      "title": "Websites & Content Platforms",
-      "description": "Modern websites and content-driven platforms designed for performance, flexibility, and long-term growth.",
-      "href": "/services/websites-content-platforms",
-      "actionLabel": "View Service"
-    },
-    {
-      "title": "Prototypes & Proof of Concepts",
-      "description": "Validate ideas, reduce risk, and explore opportunities before committing to full product development.",
-      "href": "/services/prototypes-proof-of-concepts",
-      "actionLabel": "View Service"
-    }
-  ],
-  "sections": [
-    {
-      "heading": "Custom Software Development",
-      "paragraphs": [
-        "We develop [custom software solutions](/services/custom-software-development) tailored to specific business requirements.",
-        "Projects can include internal tools, customer-facing applications, reporting platforms, management dashboards, workflow systems, or specialist software designed to solve real business problems and remain easy to maintain."
-      ]
-    },
-    {
-      "heading": "Who We Work With",
-      "paragraphs": [
-        "The studio is well suited to small businesses, startups, independent professionals, and organisations looking for focused software development support.",
-        "Projects can be shaped around specific requirements, budgets, and timelines without the overhead often associated with larger development agencies."
-      ]
-    },
-    {
-      "heading": "Software Consultancy & Solution Design",
-      "paragraphs": [
-        "Successful software projects start with clear requirements, well-understood problems, and the right technical approach.",
-        "Support can include solution design, technical planning, application architecture, workflow reviews, prototype planning, and early-stage project discovery.",
-        "This helps confirm ideas early, reduce costly changes later, and keep projects focused on solving the right problems."
-      ]
-    },
-    {
-      "heading": "Mobile App Development",
-      "paragraphs": [
-        "[Native iPhone and iPad applications](/services/mobile-app-development) can be designed and developed from concept through to App Store release.",
-        "Experience includes cloud-connected services, analytics, localisation, achievements, leaderboards, subscriptions, in-app purchases, shared progression systems, and long-term product support.",
-        "Projects can range from simple utility apps to feature-rich consumer products."
-      ]
-    },
-    {
-      "heading": "Prototypes & Proof of Concepts",
-      "paragraphs": [
-        "Not every idea requires a full product build immediately.",
-        "[Rapid prototypes and proof-of-concept applications](/services/prototypes-proof-of-concepts) help validate ideas, demonstrate functionality, gather feedback, and reduce risk before committing to larger investments.",
-        "These early-stage builds are ideal for startups, internal innovation projects, and organisations exploring new opportunities."
-      ]
-    },
-    {
-      "heading": "Business Process Improvement",
-      "paragraphs": [
-        "Many organisations still rely on spreadsheets, emails, manual processes, or disconnected systems to manage important workflows.",
-        "We can help identify opportunities to simplify operations, improve reporting, reduce repetitive tasks, and create software that supports [business process improvement](/services/business-process-improvement).",
-        "The aim is to improve efficiency while keeping solutions practical, reliable, and easy to use."
-      ]
-    },
-    {
-      "heading": "Internal Business Tools",
-      "paragraphs": [
-        "[Custom business tools](/services/internal-business-tools) can help teams work more effectively and reduce administrative overhead.",
-        "Examples include reporting dashboards, workflow tracking systems, approval processes, operational management tools, administration portals, customer databases, and lightweight automation platforms.",
-        "Solutions are designed around the way teams actually work rather than forcing processes into generic software."
-      ]
-    },
-    {
-      "heading": "Websites & Content Platforms",
-      "paragraphs": [
-        "We can develop lightweight [websites and content-driven platforms](/services/websites-content-platforms), JSON-powered systems, and custom web applications.",
-        "Projects focus on performance, maintainability, search engine visibility, content management, and long-term flexibility."
-      ]
-    },
-    {
-      "heading": "Technical Experience",
-      "paragraphs": [
-        "Experience includes software development, application architecture, mobile applications, cloud-hosted systems, workflow automation, websites, data-driven platforms, localisation, analytics, and digital transformation projects.",
-        "Additional expertise includes security-aware design, compliance considerations, API integration, reporting systems, operational tooling, and cloud technologies.",
-        "This broad technical background enables ideas to move quickly from concept to working software."
-      ]
-    },
-    {
-      "heading": "Proven Development Experience",
-      "paragraphs": [
-        "BarkinMad Studios actively develops and maintains a portfolio of public mobile applications and games alongside custom software projects.",
-        "These products demonstrate practical experience across application design, user experience, cloud services, analytics, localisation, deployment, monetisation, and ongoing support."
-      ],
-      "links": [
-        {
-          "label": "View Portfolio",
-          "href": "/portfolio"
-        },
-        {
-          "label": "View Our Apps",
-          "href": "/apps/non-zx"
-        },
-        {
-          "label": "Explore The ZX Series",
-          "href": "/zx-series"
-        }
-      ]
-    },
-    {
-      "heading": "Why Work With BarkinMad Studios?",
-      "paragraphs": [
-        "As an independent studio, BarkinMad Studios provides direct communication, practical decision making, and a clear focus on delivering value.",
-        "The aim is to build software that solves real problems, improves workflows, and remains useful long after the initial release."
-      ]
-    },
-    {
-      "heading": "Discuss a Project",
-      "paragraphs": [
-        "Have an app idea, business challenge, prototype requirement, workflow problem, or software project in mind?",
-        "Get in touch to discuss how the studio can help."
-      ],
-      "links": [
-        {
-          "label": "Contact BarkinMad Studios",
-          "href": "/contact"
-        }
-      ]
-    }
-  ],
-  "lastUpdated": "2026-06-07"
+	"title": "App Development Services",
+	"seoTitle": "Custom App Development Services | BarkinMad Studios",
+	"heading": "Custom Software, Mobile Apps & Digital Solutions",
+	"intro": "Helping businesses turn ideas, processes, and operational challenges into practical software that delivers real results.",
+	"hero": {
+		"image": "/images/service-bg-banner.png",
+		"alt": "Custom software development workspace with mobile apps, dashboards and business solutions"
+	},
+	"description": "[Custom software development](/services/custom-software-development), [mobile app development](/services/mobile-app-development), workflow automation, dashboards, [business tools](/services/internal-business-tools), prototypes, proof of concepts, websites, and iPhone and iPad app development.",
+	"servicePagesTitle": "Services",
+	"servicePages": [
+		{
+			"title": "Custom Software Development",
+			"description": "Software designed around your business, workflows, and long-term goals.",
+			"href": "/services/custom-software-development",
+			"actionLabel": "View Service"
+		},
+		{
+			"title": "Mobile App Development",
+			"description": "Native iPhone and iPad application development from concept through to App Store release.",
+			"href": "/services/mobile-app-development",
+			"actionLabel": "View Service"
+		},
+		{
+			"title": "Internal Business Tools",
+			"description": "Business software that helps teams work more efficiently every day.",
+			"href": "/services/internal-business-tools",
+			"actionLabel": "View Service"
+		},
+		{
+			"title": "Business Process Improvement",
+			"description": "Streamline workflows, reduce manual effort, and improve operational efficiency.",
+			"href": "/services/business-process-improvement",
+			"actionLabel": "View Service"
+		},
+		{
+			"title": "Websites & Content Platforms",
+			"description": "Modern websites and content-driven platforms built for performance and long-term growth.",
+			"href": "/services/websites-content-platforms",
+			"actionLabel": "View Service"
+		},
+		{
+			"title": "Prototypes & Proof of Concepts",
+			"description": "Test ideas, reduce risk, and validate concepts before full development.",
+			"href": "/services/prototypes-proof-of-concepts",
+			"actionLabel": "View Service"
+		}
+	],
+	"sections": [
+		{
+			"heading": "Custom Software Development",
+			"paragraphs": [
+				"Every business works differently, which is why off-the-shelf software isn't always the best fit.",
+				"We develop [custom software solutions](/services/custom-software-development) designed around your processes, whether you need internal tools, customer-facing applications, reporting platforms, management dashboards, workflow systems, or specialist software."
+			]
+		},
+		{
+			"heading": "Who We Work With",
+			"paragraphs": [
+				"We work with small businesses, startups, independent professionals, and organisations looking for practical software development support.",
+				"Every project is tailored to your goals, budget, and timescale, providing a flexible alternative to larger development agencies."
+			]
+		},
+		{
+			"heading": "Software Consultancy & Solution Design",
+			"paragraphs": [
+				"Successful software starts with understanding the problem before writing a single line of code.",
+				"We can help with solution design, technical planning, application architecture, workflow reviews, prototype planning, and early-stage project discovery.",
+				"This approach helps validate ideas early, reduce costly changes later, and keep projects focused on delivering meaningful business outcomes."
+			]
+		},
+		{
+			"heading": "Mobile App Development",
+			"paragraphs": [
+				"From initial concept to App Store release, we design and build native iPhone and iPad applications.",
+				"Our experience includes cloud-connected services, analytics, localisation, achievements, leaderboards, subscriptions, in-app purchases, shared progression systems, and long-term product support.",
+				"Whether you're launching a simple utility or a feature-rich consumer app, we can help bring your idea to life."
+			]
+		},
+		{
+			"heading": "Prototypes & Proof of Concepts",
+			"paragraphs": [
+				"Not every idea needs a full production build from day one.",
+				"[Rapid prototypes and proof-of-concept applications](/services/prototypes-proof-of-concepts) help validate ideas, demonstrate functionality, gather feedback, and reduce risk before committing to larger investments.",
+				"They're ideal for startups, internal innovation projects, and organisations exploring new opportunities."
+			]
+		},
+		{
+			"heading": "Business Process Improvement",
+			"paragraphs": [
+				"Many organisations still rely on spreadsheets, emails, manual processes, or disconnected systems.",
+				"We help identify opportunities to simplify operations, improve reporting, reduce repetitive tasks, and create software that supports [business process improvement](/services/business-process-improvement).",
+				"The goal is simple: make everyday work easier while delivering reliable, practical solutions."
+			]
+		},
+		{
+			"heading": "Internal Business Tools",
+			"paragraphs": [
+				"[Custom business tools](/services/internal-business-tools) help teams work more efficiently by reducing administration and improving visibility.",
+				"Examples include reporting dashboards, workflow tracking systems, approval processes, administration portals, customer databases, operational tools, and lightweight automation platforms.",
+				"Every solution is designed around the way your team works, rather than forcing your business to adapt to generic software."
+			]
+		},
+		{
+			"heading": "Websites & Content Platforms",
+			"paragraphs": [
+				"We build lightweight [websites and content-driven platforms](/services/websites-content-platforms), JSON-powered systems, and custom web applications.",
+				"Every project focuses on performance, maintainability, accessibility, search visibility, and long-term flexibility."
+			]
+		},
+		{
+			"heading": "Technical Experience",
+			"paragraphs": [
+				"Our experience spans software development, application architecture, mobile apps, cloud-hosted systems, workflow automation, websites, data-driven platforms, localisation, analytics, and digital transformation.",
+				"Additional expertise includes security-aware design, API integration, reporting systems, operational tooling, compliance considerations, and cloud technologies.",
+				"This broad technical background helps ideas move quickly from concept to reliable, production-ready software."
+			]
+		},
+		{
+			"heading": "Proven Development Experience",
+			"paragraphs": [
+				"Alongside client work, BarkinMad Studios actively develops and maintains its own portfolio of mobile apps, games, and developer tools.",
+				"These products demonstrate practical experience across user experience, cloud services, analytics, localisation, deployment, monetisation, and long-term product support."
+			],
+			"links": [
+				{
+					"label": "View Portfolio",
+					"href": "/portfolio"
+				},
+				{
+					"label": "View Our Apps",
+					"href": "/apps/non-zx"
+				},
+				{
+					"label": "Explore The ZX Series",
+					"href": "/zx-series"
+				}
+			]
+		},
+		{
+			"heading": "Why Work With BarkinMad Studios?",
+			"paragraphs": [
+				"Working directly with an independent studio means clear communication, practical advice, and a genuine focus on delivering value.",
+				"We build software that solves real problems, improves workflows, and continues delivering value long after the initial release."
+			]
+		},
+		{
+			"heading": "Discuss a Project",
+			"paragraphs": [
+				"Have an app idea, business challenge, workflow problem, or software project in mind?",
+				"Let's discuss how BarkinMad Studios can help turn your ideas into practical, reliable software."
+			],
+			"links": [
+				{
+					"label": "Contact BarkinMad Studios",
+					"href": "/contact"
+				}
+			]
+		}
+	],
+	"lastUpdated": "2026-06-07"
 }

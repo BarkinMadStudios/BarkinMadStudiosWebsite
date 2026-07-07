@@ -1,84 +1,84 @@
 {
-  "title": "Frequently Asked Questions",
-  "seoTitle": "Game of Darts FAQ | BarkinMad Studios",
-  "description": "Answers to common Game of Darts questions about modes, DartBot, statistics, Game Center, caller voices, premium access, and artwork status.",
-  "summary": "Quick support answers for common Game of Darts questions.",
-  "heroImage": "apps/gameofdarts/gameofdarts.png",
-  "heroImageAlt": "Artwork for Game of Darts FAQ image",
-  "sections": [
-    {
-      "id": "faq-overview",
-      "heading": "FAQ overview",
-      "paragraphs": [
-        "Get quick answers to common Game of Darts questions.",
-        "Use this section for quick answers to how Game of Darts works across modes, settings, and access."
-      ]
-    }
-  ],
-  "faq": [
-    {
-      "question": "Is Game of Darts available on the App Store?",
-      "answer": "Yes. The website metadata marks Game of Darts as Live and includes the public App Store link."
-    },
-    {
-      "question": "Which modes are available in this release?",
-      "answer": "Match/X01, Cricket, Snooker, Bob's 27, 1 to 20, Hare & Hound, Halve It, and All 5s are currently the featured modes."
-    },
-    {
-      "question": "Does Game of Darts support DartBot?",
-      "answer": "Yes. DartBot is available in Match play with Pro, DartBot-only unlock, or 48-hour access."
-    },
-    {
-      "question": "Do leaderboards and achievements require Game Center?",
-      "answer": "Yes. Leaderboards and achievements require Game Center sign-in."
-    },
-    {
-      "question": "Does Game of Darts use BarkinMad Coins?",
-      "answer": "This release uses Pro, DartBot, 48-hour access, and ad-supported play for premium features."
-    },
-    {
-      "question": "Why do some pages use similar artwork?",
-      "answer": "Some pages currently use shared Game of Darts artwork while dedicated screenshots are added."
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts-faq.png",
-      "alt": "Game of Darts FAQ artwork",
-      "caption": "FAQ artwork"
-    }
-  ],
-  "imageSectionTitle": "FAQ Image",
-  "keywords": [
-    "Game of Darts",
-    "FAQ",
-    "DartBot",
-    "Game Center",
-    "premium"
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-06-26",
-  "lastVerified": "2026-06-26",
-  "relatedPages": [
-    "overview",
-    "game-modes",
-    "statistics",
-    "settings-customisation"
-  ],
-  "documentationSchemaVersion": "1.1.0",
-  "relatedLinks": [
-    {
-      "label": "Start with the Game of Darts Guide",
-      "href": "/apps/gameofdarts/guide"
-    },
-    {
-      "label": "Compare Game Modes",
-      "href": "/apps/gameofdarts/game-modes"
-    },
-    {
-      "label": "Review Premium Access",
-      "href": "/apps/gameofdarts/barkinmad-coins"
-    }
-  ]
+	"title": "Frequently Asked Questions",
+	"seoTitle": "Game Of Darts FAQ | BarkinMad Studios",
+	"description": "Find answers to the most common questions about Game Of Darts, including game modes, DartBot, Game Center, premium features, and more.",
+	"summary": "Quick answers to the questions players ask most often about Game Of Darts.",
+	"heroImage": "apps/gameofdarts/gameofdarts.png",
+	"heroImageAlt": "Game Of Darts Frequently Asked Questions",
+	"sections": [
+		{
+			"id": "faq-overview",
+			"heading": "Frequently Asked Questions",
+			"paragraphs": [
+				"Looking for a quick answer? This page covers some of the most common questions about Game Of Darts.",
+				"If you can't find what you're looking for here, explore the other guides or get in touch for further support."
+			]
+		}
+	],
+	"faq": [
+		{
+			"question": "Is Game Of Darts available on the App Store?",
+			"answer": "Yes. Game Of Darts is available to download from the App Store using the link on this website."
+		},
+		{
+			"question": "Which game modes are included?",
+			"answer": "Game Of Darts currently includes X01 Match Play, Cricket, Snooker, Bob's 27, 1 to 20, Hare & Hound, Halve It, and All 5s, with more modes planned for future updates."
+		},
+		{
+			"question": "Can I play against DartBot?",
+			"answer": "Yes. DartBot is the built-in AI opponent and is available with the Pro upgrade, the dedicated DartBot unlock, or the 48-Hour Pass."
+		},
+		{
+			"question": "Do I need Game Center for achievements and leaderboards?",
+			"answer": "Yes. Sign in to Apple Game Center to unlock achievements, submit leaderboard scores, and track your progress."
+		},
+		{
+			"question": "How do premium features work?",
+			"answer": "Premium features can be unlocked with the Pro upgrade, the dedicated DartBot unlock, or a 48-Hour Pass, depending on the features you want to access."
+		},
+		{
+			"question": "Why do some pages use the same artwork?",
+			"answer": "Some guide pages currently use shared artwork while dedicated screenshots continue to be added in future updates."
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts-faq.png",
+			"alt": "Game Of Darts Frequently Asked Questions",
+			"caption": "Find quick answers to common questions."
+		}
+	],
+	"imageSectionTitle": "Frequently Asked Questions",
+	"keywords": [
+		"Game Of Darts",
+		"FAQ",
+		"DartBot",
+		"Game Center",
+		"Premium"
+	],
+	"estimatedReadTimeMinutes": 3,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-06-26",
+	"lastVerified": "2026-06-26",
+	"relatedPages": [
+		"overview",
+		"game-modes",
+		"statistics",
+		"settings-customisation"
+	],
+	"documentationSchemaVersion": "1.1.0",
+	"relatedLinks": [
+		{
+			"label": "Read the Complete Guide",
+			"href": "/apps/gameofdarts/guide"
+		},
+		{
+			"label": "Explore Game Modes",
+			"href": "/apps/gameofdarts/game-modes"
+		},
+		{
+			"label": "Learn About Premium Access",
+			"href": "/apps/gameofdarts/barkinmad-coins"
+		}
+	]
 }

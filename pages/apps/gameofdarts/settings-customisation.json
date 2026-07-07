@@ -1,145 +1,145 @@
 {
-  "title": "Settings & Customisation",
-  "seoTitle": "Game of Darts Settings & Customisation | BarkinMad Studios",
-  "description": "Review Game of Darts appearance, file management, auto-post, DartBot level, voice, tracking, and premium settings.",
-  "summary": "Settings cover data and file management, appearance, Game Center auto-posting, DartBot level, tracking, and privacy options.",
-  "heroImage": "apps/gameofdarts/gameofdarts.png",
-  "heroImageAlt": "Artwork for Game of Darts settings image",
-  "sections": [
-    {
-      "id": "overview",
-      "heading": "Personalise Your Experience",
-      "paragraphs": [
-        "Game of Darts includes a wide range of settings that allow you to customise gameplay, appearance and accessibility. Most options can be changed at any time without affecting your saved players, statistics or match history.",
-        "Whether you prefer a faster-paced experience, voice announcements or a personalised appearance, the Settings page lets you tailor the app to suit the way you play."
-      ]
-    },
-    {
-      "id": "gameplay-settings",
-      "heading": "Gameplay Settings",
-      "paragraphs": [
-        "Gameplay settings control how matches are played and how information is presented during games. Some options become available after purchasing premium features."
-      ],
-      "bullets": [
-        "Configure caller voices.",
-        "Adjust DartBot difficulty.",
-        "Enable or disable gameplay options.",
-        "Choose available premium features.",
-        "Manage game preferences."
-      ]
-    },
-    {
-      "id": "appearance-and-audio",
-      "heading": "Appearance and Audio",
-      "paragraphs": [
-        "Choose the appearance that best suits your device and playing environment. Audio settings allow you to control voice announcements and other supported sounds throughout the app.",
-        "The app remembers your preferences, so you only need to configure them once."
-      ],
-      "bullets": [
-        "Light and Dark Mode support.",
-        "Caller voice selection.",
-        "Voice announcement controls.",
-        "Display preferences."
-      ]
-    },
-    {
-      "id": "privacy-and-data",
-      "heading": "Privacy and Data",
-      "paragraphs": [
-        "Settings also provide access to privacy information, Game Center features and other app preferences. Player information and statistics are stored for gameplay purposes and can be synchronised across supported devices using the same Apple ID.",
-        "Advertising preferences are managed through Apple's privacy controls and the app's consent options where supported."
-      ]
-    },
-    {
-      "id": "changing-settings",
-      "heading": "Changing Settings",
-      "paragraphs": [
-        "You can return to the Settings page whenever you want to update your preferences. Changes take effect immediately for most options, allowing you to customise the app as your playing style evolves.",
-        "Experiment with different settings to find the combination that provides the most enjoyable Game of Darts experience."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts.png",
-      "alt": "Game of Darts settings screen example",
-      "caption": "Settings screen"
-    }
-  ],
-  "imageSectionTitle": "Settings Image",
-  "keywords": [
-    "Game of Darts",
-    "settings",
-    "customisation",
-    "auto-post",
-    "DartBot"
-  ],
-  "estimatedReadTimeMinutes": 4,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "dartbot",
-    "caller-voices",
-    "statistics",
-    "barkinmad-coins"
-  ],
-  "documentationSchemaVersion": "1.2.0",
-  "featureShowcases": [
-    {
-      "id": "settings-control-centre",
-      "heading": "Control the match environment",
-      "summary": "Settings bring appearance, audio, DartBot, Game Center, privacy, and access preferences into one place.",
-      "body": [
-        "This matters because players use Game of Darts in different environments: at home, at a board with friends, or on a larger iPad screen. Settings keep the app adaptable without affecting saved players or statistics.",
-        "Players use this screen before or between matches to tune voice calling, gameplay preferences, appearance, and access-related options."
-      ],
-      "bullets": [
-        "Adjust appearance and audio preferences.",
-        "Configure caller voices and DartBot level.",
-        "Review privacy, Game Center, and access-related options."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
-        "alt": "Game of Darts settings and customisation screenshot",
-        "caption": "The settings screenshot shows the practical control centre for personalising play."
-      },
-      "links": [
-        {
-          "label": "View caller voices",
-          "href": "/apps/gameofdarts/caller-voices"
-        }
-      ]
-    },
-    {
-      "id": "settings-and-progress",
-      "heading": "Tune features without losing progress",
-      "layout": "textRight",
-      "summary": "Most settings can change independently of saved players, match history, and statistics.",
-      "body": [
-        "This matters because players should be able to adjust the experience as their setup changes. A player can change the caller voice, DartBot difficulty, or display preference without restarting their progress.",
-        "Players use settings as a maintenance area: update preferences, confirm access choices, and return to the main match workflow."
-      ],
-      "bullets": [
-        "Keeps personalisation separate from scoring data.",
-        "Supports changes between sessions and match nights.",
-        "Learn how settings to DartBot, caller voices, statistics, and premium access."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts.png",
-        "alt": "Game of Darts app artwork used for settings overview",
-        "caption": "General app artwork supports broader settings and progress context."
-      },
-      "links": [
-        {
-          "label": "View DartBot",
-          "href": "/apps/gameofdarts/dartbot"
-        },
-        {
-          "label": "View statistics",
-          "href": "/apps/gameofdarts/statistics"
-        }
-      ]
-    }
-  ]
+	"title": "Settings & Customisation",
+	"seoTitle": "Game Of Darts Settings & Customisation | BarkinMad Studios",
+	"description": "Customise Game Of Darts with appearance, caller voices, DartBot settings, privacy options, and gameplay preferences.",
+	"summary": "Personalise Game Of Darts to suit the way you play, from appearance and audio through to DartBot, Game Center, and privacy settings.",
+	"heroImage": "apps/gameofdarts/gameofdarts.png",
+	"heroImageAlt": "Game Of Darts settings",
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "Make the App Your Own",
+			"paragraphs": [
+				"Game Of Darts includes a wide range of settings that let you personalise the app to match the way you play. Adjust gameplay options, appearance, accessibility, and audio without affecting your saved players, statistics, or match history.",
+				"Whether you prefer voice announcements, a different appearance, or customised gameplay settings, everything is available from one convenient place."
+			]
+		},
+		{
+			"id": "gameplay-settings",
+			"heading": "Gameplay Settings",
+			"paragraphs": [
+				"Fine-tune your matches by adjusting gameplay options before or between games. Some settings become available after unlocking premium features."
+			],
+			"bullets": [
+				"Configure Caller Voices.",
+				"Adjust DartBot difficulty.",
+				"Enable or disable gameplay options.",
+				"Manage premium features.",
+				"Save your preferred gameplay settings."
+			]
+		},
+		{
+			"id": "appearance-and-audio",
+			"heading": "Appearance & Audio",
+			"paragraphs": [
+				"Choose the appearance that best suits your device, lighting conditions, and playing environment.",
+				"Audio settings allow you to control Caller Voices and other supported sounds, with your preferences remembered automatically for future matches."
+			],
+			"bullets": [
+				"Light and Dark Mode support.",
+				"Caller Voice selection.",
+				"Voice announcement controls.",
+				"Display preferences."
+			]
+		},
+		{
+			"id": "privacy-and-data",
+			"heading": "Privacy & Data",
+			"paragraphs": [
+				"Privacy settings provide access to Game Center features, synchronisation options, and other app preferences.",
+				"Player information and statistics can be synchronised across supported devices using the same Apple ID, while advertising preferences follow Apple's privacy controls where supported."
+			]
+		},
+		{
+			"id": "changing-settings",
+			"heading": "Update Your Preferences Anytime",
+			"paragraphs": [
+				"You can return to Settings whenever you want to change the way Game Of Darts looks or behaves.",
+				"Most changes take effect immediately, making it easy to adapt the app for different venues, devices, or playing styles."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts.png",
+			"alt": "Game Of Darts settings screen",
+			"caption": "Personalise Game Of Darts to suit your style of play."
+		}
+	],
+	"imageSectionTitle": "Settings",
+	"keywords": [
+		"Game Of Darts",
+		"settings",
+		"customisation",
+		"DartBot",
+		"Caller Voices"
+	],
+	"estimatedReadTimeMinutes": 4,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"dartbot",
+		"caller-voices",
+		"statistics",
+		"barkinmad-coins"
+	],
+	"documentationSchemaVersion": "1.2.0",
+	"featureShowcases": [
+		{
+			"id": "settings-control-centre",
+			"heading": "Everything in One Place",
+			"summary": "Settings bring together appearance, audio, DartBot, Game Center, privacy, and premium options.",
+			"body": [
+				"Whether you're preparing for a league night or a casual game with friends, Settings make it easy to tailor Game Of Darts to your preferences.",
+				"Adjust the experience whenever you like without affecting your saved players, statistics, or match history."
+			],
+			"bullets": [
+				"Customise appearance and audio.",
+				"Adjust Caller Voices and DartBot.",
+				"Manage Game Center, privacy, and premium settings."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+				"alt": "Game Of Darts settings",
+				"caption": "Everything you need to personalise the app."
+			},
+			"links": [
+				{
+					"label": "Learn About Caller Voices",
+					"href": "/apps/gameofdarts/caller-voices"
+				}
+			]
+		},
+		{
+			"id": "settings-and-progress",
+			"heading": "Change Settings with Confidence",
+			"layout": "textRight",
+			"summary": "Personalise Game Of Darts without affecting your saved progress.",
+			"body": [
+				"Update your preferences whenever you like, from Caller Voices and DartBot difficulty to appearance and privacy settings.",
+				"Your saved players, match history, and statistics remain untouched, so you can experiment with different options whenever it suits you."
+			],
+			"bullets": [
+				"No impact on saved players or statistics.",
+				"Ideal for different venues and playing styles.",
+				"Works alongside DartBot, Caller Voices, and premium features."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts.png",
+				"alt": "Game Of Darts settings overview",
+				"caption": "Make the app work the way you want it to."
+			},
+			"links": [
+				{
+					"label": "Learn About DartBot",
+					"href": "/apps/gameofdarts/dartbot"
+				},
+				{
+					"label": "View Statistics",
+					"href": "/apps/gameofdarts/statistics"
+				}
+			]
+		}
+	]
 }

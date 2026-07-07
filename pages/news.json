@@ -1,14 +1,14 @@
 {
-  "title": "News & Devlog",
-  "heading": "News & Devlog",
-  "intro": "Follow BarkinMad Studios development updates, release news, screenshots, and behind-the-scenes progress from our apps, games, and tools.",
-  "hero": {
-    "image": "/images/news-bg-banner.png",
-    "alt": "BarkinMad Studios news, updates, releases and development insights"
-  },
-  "seo": {
-    "title": "News & Devlog - BarkinMad Studios",
-    "description": "Follow BarkinMad Studios development updates, release news, screenshots, and behind-the-scenes progress from our apps, games, and tools."
-  },
-  "lastUpdated": "2026-06-07"
+	"title": "News & Devlog",
+	"heading": "News & Devlog",
+	"intro": "Stay up to date with the latest news from BarkinMad Studios, including game updates, development progress, release announcements, screenshots, and behind-the-scenes insights from our apps, games, and developer tools.",
+	"hero": {
+		"image": "/images/news-bg-banner.png",
+		"alt": "BarkinMad Studios news, updates, releases and development insights"
+	},
+	"seo": {
+		"title": "News & Devlog - BarkinMad Studios",
+		"description": "Stay up to date with BarkinMad Studios development updates, release announcements, screenshots, and behind-the-scenes insights from our apps, games, and developer tools."
+	},
+	"lastUpdated": "2026-06-07"
 }

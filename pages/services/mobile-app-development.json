@@ -1,65 +1,65 @@
 {
-  "title": "Mobile App Development",
-  "hero": {
-    "image": "",
-    "alt": ""
-  },
-  "description": "Native iPhone and iPad application development from concept through to App Store release.",
-  "heroTitle": "Mobile App Development",
-  "heroSubtitle": "Building modern mobile experiences for iPhone and iPad.",
-  "sections": [
-    {
-      "heading": "Native Mobile Applications",
-      "content": [
-        "Mobile apps can help organisations reach customers, support employees, and deliver services in a more convenient way.",
-        "[BarkinMad Studios](/about) develops native iPhone and iPad applications with a focus on performance, usability, and long-term maintainability."
-      ]
-    },
-    {
-      "heading": "Mobile Development Services",
-      "content": [
-        "Native iOS development",
-        "iPhone and iPad applications",
-        "App Store deployment",
-        "Cloud-connected services",
-        "Analytics integration",
-        "Push notifications",
-        "In-app purchases",
-        "Subscription services",
-        "Localisation and multilingual support",
-        "Leaderboards and achievements"
-      ]
-    },
-    {
-      "heading": "From Idea to App Store",
-      "content": [
-        "Projects can be supported from the first idea through to public release.",
-        "Services can include planning, architecture, development, testing, App Store deployment, and ongoing product support."
-      ]
-    },
-    {
-      "heading": "Proven Experience",
-      "content": [
-        "BarkinMad Studios actively develops and maintains a portfolio of publicly available [applications and games](/apps).",
-        "That product experience covers deployment, analytics, user engagement, localisation, monetisation, updates, and long-term support."
-      ]
-    },
-    {
-      "heading": "Why BarkinMad Studios?",
-      "content": [
-        "20+ years of technology experience.",
-        "Independent UK software developer.",
-        "Real-world products actively developed and maintained.",
-        "Direct communication throughout every project.",
-        "Flexible engagement for startups and small businesses."
-      ]
-    }
-  ],
-  "cta": {
-    "title": "Start Your Mobile Project",
-    "content": "Whether you're launching a new product or modernising an existing service, BarkinMad Studios can help bring your mobile application to life.",
-    "buttonText": "Contact BarkinMad Studios",
-    "buttonLink": "/contact"
-  },
-  "lastUpdated": "2026-06-07"
+	"title": "Mobile App Development",
+	"hero": {
+		"image": "",
+		"alt": ""
+	},
+	"description": "Native iPhone and iPad application development from concept through to App Store release.",
+	"heroTitle": "Mobile App Development",
+	"heroSubtitle": "Native iPhone and iPad apps designed to deliver great user experiences.",
+	"sections": [
+		{
+			"heading": "Native Mobile Applications",
+			"content": [
+				"A well-designed mobile app can help businesses connect with customers, support employees, improve services, and create new opportunities for growth.",
+				"BarkinMad Studios develops native iPhone and iPad applications with a strong focus on performance, usability, reliability, and long-term maintainability."
+			]
+		},
+		{
+			"heading": "Mobile Development Services",
+			"content": [
+				"Native iOS development",
+				"iPhone and iPad applications",
+				"App Store deployment",
+				"Cloud-connected services",
+				"Analytics integration",
+				"Push notifications",
+				"In-app purchases",
+				"Subscription services",
+				"Localisation and multilingual support",
+				"Leaderboards and achievements"
+			]
+		},
+		{
+			"heading": "From Idea to App Store",
+			"content": [
+				"Whether you already have a detailed specification or just the first spark of an idea, we can help guide your project from concept to launch.",
+				"Support can include planning, solution design, application architecture, development, testing, App Store submission, and ongoing product maintenance."
+			]
+		},
+		{
+			"heading": "Proven Experience",
+			"content": [
+				"Alongside client projects, BarkinMad Studios designs, develops, and maintains its own portfolio of publicly available [apps and games](/apps).",
+				"This hands-on experience covers App Store deployment, analytics, user engagement, localisation, monetisation, feature updates, and long-term product support."
+			]
+		},
+		{
+			"heading": "Why Work With BarkinMad Studios?",
+			"content": [
+				"More than 20 years of technology experience.",
+				"Independent UK software developer.",
+				"Real-world apps and games actively designed, developed, and maintained.",
+				"Direct communication throughout every stage of your project.",
+				"Flexible engagement for startups, small businesses, and growing organisations."
+			]
+		}
+	],
+	"cta": {
+		"title": "Start Your Mobile App Journey",
+		"content": "Whether you're creating a brand-new app or modernising an existing service, BarkinMad Studios can help turn your ideas into a polished, reliable mobile application.",
+		"buttonText": "Contact BarkinMad Studios",
+		"buttonLink": "/contact"
+	},
+	"lastUpdated": "2026-06-07"
 }

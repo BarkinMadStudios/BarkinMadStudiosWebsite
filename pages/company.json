@@ -1,43 +1,43 @@
 {
-  "title": "Company Information",
-  "slug": "company",
-  "lastUpdated": "2026-06-10",
-  "content": [
-    {
-      "heading": "BarkinMad Studios",
-      "text": "BarkinMad Studios is an independent software and game development company based in the United Kingdom. The company creates mobile applications, games, business software, internal tools, and digital services for clients and its own products."
-    },
-    {
-      "heading": "Company Details",
-      "text": "Company Name: BarkinMad Studios Ltd. Company Number: 10743295. Registered in England and Wales."
-    },
-    {
-      "heading": "What We Do",
-      "text": "The studio specialises in mobile application development, game development, custom software, business process improvement, internal tools, websites, content platforms, and proof-of-concept projects."
-    },
-    {
-      "heading": "Products",
-      "text": "BarkinMad Studios develops and publishes applications and games including [The Game Of Darts](/apps/gameofdarts) and the [ZX Series](/zx-series) of retro-inspired arcade games, including [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), ZXMaze, ZXRacer, ZXTank, and ZXLabrador."
-    },
-    {
-      "heading": "Founder",
-      "text": "BarkinMad Studios was founded by Barry King, a software engineer and security professional with experience designing, developing, supporting, and securing business and consumer technology solutions."
-    },
-    {
-      "heading": "Our Approach",
-      "text": "Our approach is to build useful, enjoyable, and accessible software with a strong focus on quality, security, usability, and long-term support. We believe technology should solve real problems, entertain, and create value for users."
-    },
-    {
-      "heading": "Technology",
-      "text": "BarkinMad Studios develops software using modern cloud and mobile technologies, including mobile app development, mobile development tooling, Microsoft 365, Azure, automation platforms, web technologies, and cloud-based services."
-    },
-    {
-      "heading": "Business Information",
-      "text": "BarkinMad Studios operates as a UK registered limited company. Company registration details are publicly available through Companies House."
-    },
-    {
-      "heading": "Contact",
-      "text": "For business enquiries, support requests, partnership opportunities, or general questions, please use the Contact page available on this website."
-    }
-  ]
+	"title": "Company Information",
+	"slug": "company",
+	"lastUpdated": "2026-06-10",
+	"content": [
+		{
+			"heading": "BarkinMad Studios",
+			"text": "BarkinMad Studios is an independent UK software and game development company creating mobile applications, games, business software, internal tools, and digital solutions for both clients and its own growing portfolio of products."
+		},
+		{
+			"heading": "Company Details",
+			"text": "Company Name: BarkinMad Studios Ltd. Company Number: 10743295. Registered in England and Wales."
+		},
+		{
+			"heading": "What We Do",
+			"text": "The studio specialises in mobile application development, game development, custom software, business process improvement, internal business tools, websites, content platforms, and proof-of-concept projects. Every solution is designed with a focus on usability, performance, and long-term value."
+		},
+		{
+			"heading": "Products",
+			"text": "BarkinMad Studios develops and publishes a growing range of applications and games, including [The Game Of Darts](/apps/gameofdarts) and the [ZX Series](/zx-series) of retro-inspired arcade games. Current and planned titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), ZXMaze, ZXRacer, ZXTank, and ZXLabrador."
+		},
+		{
+			"heading": "Founder",
+			"text": "BarkinMad Studios was founded by Barry King, a software engineer and security professional with experience designing, developing, supporting, and securing business and consumer technology solutions across a wide range of industries."
+		},
+		{
+			"heading": "Our Approach",
+			"text": "The goal is to create software that is useful, enjoyable, and built to last. Every project places a strong emphasis on quality, security, usability, and long-term support, with technology used to solve real problems, create engaging experiences, and deliver lasting value."
+		},
+		{
+			"heading": "Technology",
+			"text": "The studio develops software using modern cloud and mobile technologies, including native mobile application development, Microsoft 365, Azure, automation platforms, web technologies, cloud-hosted services, and secure API integrations."
+		},
+		{
+			"heading": "Business Information",
+			"text": "BarkinMad Studios operates as a UK registered limited company. Company registration details are publicly available through Companies House."
+		},
+		{
+			"heading": "Contact",
+			"text": "For business enquiries, support requests, partnership opportunities, or general questions, please visit the [Contact](/contact) page."
+		}
+	]
 }

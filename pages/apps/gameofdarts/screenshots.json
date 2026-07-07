@@ -1,282 +1,282 @@
 {
-  "title": "Game of Darts Visual Walkthrough",
-  "seoTitle": "Game of Darts Screenshots | BarkinMad Studios",
-  "description": "A visual walkthrough of Game of Darts screens, showing setup, match flow, settings, premium access, help, and leaderboards.",
-  "shortDescription": "Game of Darts visual walkthrough",
-  "summary": "Game of Darts screenshots now work as a visual walkthrough, pairing each current image with what the screen shows, why it matters, and how players use it.",
-  "heroImage": "apps/gameofdarts/gameofdarts.png",
-  "heroImageAlt": "Game of Darts visual walkthrough",
-  "imageMetadata": [
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
-      "alt": "Game of Darts splash Screen",
-      "purpose": "hero",
-      "width": 1881,
-      "height": 836,
-      "usage": [
-        "docs",
-        "website"
-      ]
-    },
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
-      "alt": "Game of Darts Main view",
-      "purpose": "marketing",
-      "width": 1254,
-      "height": 1254,
-      "usage": [
-        "docs",
-        "website",
-        "social"
-      ]
-    },
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
-      "alt": "Setting and Customisations",
-      "purpose": "gameplay",
-      "width": 1430,
-      "height": 1100,
-      "usage": [
-        "docs",
-        "website"
-      ]
-    },
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-IAP.png",
-      "alt": "Game of Darts In App Purchases",
-      "purpose": "marketing",
-      "width": 1254,
-      "height": 1254,
-      "usage": [
-        "docs",
-        "website",
-        "social"
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
-      "alt": "Game of Darts Setup Screen",
-      "caption": "Splash Screen"
-    },
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
-      "alt": "Game of Darts Main view",
-      "caption": "Main Menu / Game Setup"
-    },
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
-      "alt": "Game of Darts - Setting and Customisations",
-      "caption": "Settings"
-    },
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-IAP.png",
-      "alt": "Game of Darts In App Purchases",
-      "caption": "In App Purchases"
-    },
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-help.png",
-      "alt": "Game of Darts Help screen - find out more about this app",
-      "caption": "Game rules and app help"
-    },
-    {
-      "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
-      "alt": "Game of Darts leaderboards",
-      "caption": "Leaderboards"
-    }
-  ],
-  "screenshotSectionTitle": "Screenshots",
-  "imageSectionTitle": "Screenshots",
-  "sections": [
-    {
-      "id": "visual-walkthrough-standard",
-      "heading": "Visual walkthrough standard",
-      "paragraphs": [
-        "Each screenshot shows what to look for, why it matters, and how to use that screen in a typical Game of Darts session.",
-        "The current website image set is used as a visual walkthrough of the public app experience."
-      ]
-    }
-  ],
-  "keywords": [
-    "Game of Darts",
-    "screenshots",
-    "artwork"
-  ],
-  "estimatedReadTimeMinutes": 4,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "overview",
-    "guide"
-  ],
-  "documentationSchemaVersion": "1.2.0",
-  "featureShowcases": [
-    {
-      "id": "opening-setup",
-      "heading": "Opening and setup flow",
-      "summary": "The opening screen introduces Game of Darts before players move into setup, player selection, and match configuration.",
-      "body": [
-        "This matters because darts sessions often begin quickly: players need to know they are in the right app, then move straight into choosing a format and setting up the match.",
-        "Players use this screen as the entry point before selecting players, choosing a ruleset, and preparing the game for the board."
-      ],
-      "bullets": [
-        "Sets the visual identity for the app.",
-        "Leads into the main setup and match-selection workflow.",
-        "Useful for understanding the start of a session."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
-        "alt": "Game of Darts opening screen screenshot",
-        "caption": "The opening screen is the first step before players configure a darts session."
-      },
-      "links": [
-        {
-          "label": "View getting started",
-          "href": "/apps/gameofdarts/how-to-play"
-        }
-      ]
-    },
-    {
-      "id": "main-menu-match-setup",
-      "heading": "Main menu and match setup",
-      "layout": "textRight",
-      "summary": "The main screen is where players begin the practical match workflow: choose who is playing, choose the format, and start scoring.",
-      "body": [
-        "It matters because the setup screen has to work for quick casual games as well as longer match nights. Clear choices reduce friction before the first dart is thrown.",
-        "Players use this area to move from app launch into Match, Cricket, Snooker, Bob's 27, 1 to 20, party modes, or other supported formats."
-      ],
-      "bullets": [
-        "Entry point for player and match setup.",
-        "Supports quick games and longer configured matches.",
-        "Learn how directly to mode, match type, DartBot, and scoring flows."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
-        "alt": "Game of Darts main menu and match setup screenshot",
-        "caption": "The main screen supports the session setup workflow before scoring begins."
-      },
-      "links": [
-        {
-          "label": "Compare Game of Darts Modes",
-          "href": "/apps/gameofdarts/game-modes"
-        },
-        {
-          "label": "View match types",
-          "href": "/apps/gameofdarts/match-types"
-        }
-      ]
-    },
-    {
-      "id": "settings-personalisation",
-      "heading": "Settings and personalisation",
-      "summary": "The settings screen gives players control over appearance, voice, DartBot level, Game Center posting, privacy, and access-related options.",
-      "body": [
-        "This matters because darts apps are often used in different places: at home, in a venue, on an iPhone, on an iPad, with or without voice calling. Settings let players adjust the experience without changing their saved players or stats.",
-        "Players use settings to tune the app around their match environment, from caller voice preferences through to premium access and gameplay options."
-      ],
-      "bullets": [
-        "Central place for appearance, audio, and gameplay preferences.",
-        "Includes controls related to DartBot and Game Center behaviour.",
-        "Keeps personalisation separate from match scoring."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
-        "alt": "Game of Darts settings and customisation screenshot",
-        "caption": "Settings help players tailor the app to their device, venue, and preferred match style."
-      },
-      "links": [
-        {
-          "label": "View settings",
-          "href": "/apps/gameofdarts/settings-customisation"
-        }
-      ]
-    },
-    {
-      "id": "premium-access",
-      "heading": "Premium access options",
-      "layout": "textRight",
-      "summary": "Learn what optional unlock options are available, including Pro, DartBot access, and time-limited passes.",
-      "body": [
-        "It matters because players should understand what is optional before they choose an unlock. The screen supports a clear path from free use into extra features without interrupting the basic scoring experience.",
-        "Players use this area when they want DartBot, advanced features, or a broader premium experience for regular match nights."
-      ],
-      "bullets": [
-        "Shows optional access options in one place.",
-        "Supports DartBot and premium feature discovery.",
-        "Keeps purchase information separate from scoring and statistics pages."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-IAP.png",
-        "alt": "Game of Darts premium access screenshot",
-        "caption": "Premium access is presented as an optional upgrade path for players who want extra features."
-      },
-      "links": [
-        {
-          "label": "View premium access",
-          "href": "/apps/gameofdarts/barkinmad-coins"
-        }
-      ]
-    },
-    {
-      "id": "help-and-rules",
-      "heading": "Help and rules reference",
-      "summary": "The help screen supports players who need a reminder of app behaviour, rules, or setup information before or during a session.",
-      "body": [
-        "This matters because Game of Darts includes several formats, and not every player remembers every rule. Help content keeps the app usable without forcing players to leave the match-night context.",
-        "Players use help when learning a format, checking a setting, or confirming how a feature should work."
-      ],
-      "bullets": [
-        "Supports rule discovery and app guidance.",
-        "Useful for players switching between formats.",
-        "Learn how the visual walkthrough to the full guide and FAQ."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-help.png",
-        "alt": "Game of Darts help and rules screenshot",
-        "caption": "Help content gives players a reference point for rules and app behaviour."
-      },
-      "links": [
-        {
-          "label": "View full guide",
-          "href": "/apps/gameofdarts/guide"
-        },
-        {
-          "label": "View FAQ",
-          "href": "/apps/gameofdarts/frequently-asked-questions"
-        }
-      ]
-    },
-    {
-      "id": "leaderboards-and-progress",
-      "heading": "Leaderboards and progress",
-      "layout": "textRight",
-      "summary": "The leaderboards screen shows how Game Center competition fits alongside local match scoring and personal statistics.",
-      "body": [
-        "It matters because progress is not only about winning one match. Players can compare results, chase personal improvements, and use Game Center where available.",
-        "Players use leaderboards after play to compare supported scores and decide what they want to improve next."
-      ],
-      "bullets": [
-        "Learn how match results to Game Center leaderboards.",
-        "Supports score comparison across supported modes.",
-        "Complements the statistics and achievements workflow."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
-        "alt": "Game of Darts leaderboards screenshot",
-        "caption": "Leaderboards give competitive players a reason to keep improving after each match."
-      },
-      "links": [
-        {
-          "label": "View leaderboards",
-          "href": "/apps/gameofdarts/leaderboards"
-        },
-        {
-          "label": "View statistics",
-          "href": "/apps/gameofdarts/statistics"
-        }
-      ]
-    }
-  ]
+	"title": "Game Of Darts Visual Walkthrough",
+	"seoTitle": "Game Of Darts Screenshots | BarkinMad Studios",
+	"description": "Take a visual tour of Game Of Darts, from setting up your first match to tracking your progress with statistics, leaderboards, and premium features.",
+	"shortDescription": "A visual tour of Game Of Darts",
+	"summary": "Explore the main screens of Game Of Darts and discover how each one helps you set up matches, keep score, personalise your experience, and improve your game.",
+	"heroImage": "apps/gameofdarts/gameofdarts.png",
+	"heroImageAlt": "Game Of Darts visual walkthrough",
+	"imageMetadata": [
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
+			"alt": "Game Of Darts splash screen",
+			"purpose": "hero",
+			"width": 1881,
+			"height": 836,
+			"usage": [
+				"docs",
+				"website"
+			]
+		},
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+			"alt": "Game Of Darts main menu",
+			"purpose": "marketing",
+			"width": 1254,
+			"height": 1254,
+			"usage": [
+				"docs",
+				"website",
+				"social"
+			]
+		},
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+			"alt": "Game Of Darts settings",
+			"purpose": "gameplay",
+			"width": 1430,
+			"height": 1100,
+			"usage": [
+				"docs",
+				"website"
+			]
+		},
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-IAP.png",
+			"alt": "Game Of Darts Premium Access",
+			"purpose": "marketing",
+			"width": 1254,
+			"height": 1254,
+			"usage": [
+				"docs",
+				"website",
+				"social"
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
+			"alt": "Game Of Darts splash screen",
+			"caption": "Welcome to Game Of Darts."
+		},
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+			"alt": "Game Of Darts main menu",
+			"caption": "Create players, choose a game mode, and start your next match."
+		},
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+			"alt": "Game Of Darts settings",
+			"caption": "Personalise the app to match the way you play."
+		},
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-IAP.png",
+			"alt": "Game Of Darts Premium Access",
+			"caption": "Unlock additional features with optional premium upgrades."
+		},
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-help.png",
+			"alt": "Game Of Darts help",
+			"caption": "Quick access to rules, guidance, and support."
+		},
+		{
+			"src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+			"alt": "Game Of Darts leaderboards",
+			"caption": "Compare your best performances with players around the world."
+		}
+	],
+	"screenshotSectionTitle": "Screenshots",
+	"imageSectionTitle": "Screenshots",
+	"sections": [
+		{
+			"id": "visual-walkthrough-standard",
+			"heading": "A Tour of the App",
+			"paragraphs": [
+				"These screenshots highlight the main areas of Game Of Darts, helping you become familiar with the app before or during play.",
+				"Follow the journey from creating a match through to reviewing your progress after the final dart."
+			]
+		}
+	],
+	"keywords": [
+		"Game Of Darts",
+		"screenshots",
+		"artwork"
+	],
+	"estimatedReadTimeMinutes": 4,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"overview",
+		"guide"
+	],
+	"documentationSchemaVersion": "1.2.0",
+	"featureShowcases": [
+		{
+			"id": "opening-setup",
+			"heading": "From Launch to Your First Match",
+			"summary": "The opening screens guide you from launching the app to creating your first game.",
+			"body": [
+				"Game Of Darts is designed to get you playing quickly. Create your players, choose a game mode, and you're ready to throw your first dart.",
+				"The clear layout makes it easy to move from the main menu into a match without unnecessary steps."
+			],
+			"bullets": [
+				"Simple player and match setup.",
+				"Quick access to every game mode.",
+				"Designed for fast match preparation."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-splash.png",
+				"alt": "Game Of Darts splash screen",
+				"caption": "Your journey starts here."
+			},
+			"links": [
+				{
+					"label": "Get Started",
+					"href": "/apps/gameofdarts/how-to-play"
+				}
+			]
+		},
+		{
+			"id": "main-menu-match-setup",
+			"heading": "Set Up Your Match",
+			"layout": "textRight",
+			"summary": "Choose players, game modes, and match settings before you begin.",
+			"body": [
+				"Whether you're playing a quick practice game or a full tournament match, the setup screen gives you everything you need before the first throw.",
+				"Different game modes and match options are always just a few taps away."
+			],
+			"bullets": [
+				"Create players.",
+				"Select your preferred game mode.",
+				"Adjust match settings before you begin."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+				"alt": "Game Of Darts main setup screen",
+				"caption": "Everything you need before the first dart."
+			},
+			"links": [
+				{
+					"label": "Explore Game Modes",
+					"href": "/apps/gameofdarts/game-modes"
+				},
+				{
+					"label": "Learn About Match Types",
+					"href": "/apps/gameofdarts/match-types"
+				}
+			]
+		},
+		{
+			"id": "settings-personalisation",
+			"heading": "Personalise Your Experience",
+			"summary": "Adjust the app to suit your preferences before every game.",
+			"body": [
+				"Customise appearance, audio, DartBot, Game Center, privacy, and gameplay settings from one convenient place.",
+				"Your preferences are remembered, making every match feel familiar."
+			],
+			"bullets": [
+				"Appearance and audio options.",
+				"DartBot settings.",
+				"Game Center and privacy controls."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+				"alt": "Game Of Darts settings",
+				"caption": "Tailor the app to the way you play."
+			},
+			"links": [
+				{
+					"label": "Explore Settings",
+					"href": "/apps/gameofdarts/settings-customisation"
+				}
+			]
+		},
+		{
+			"id": "premium-access",
+			"heading": "Unlock More Features",
+			"layout": "textRight",
+			"summary": "Explore the premium upgrades available in Game Of Darts.",
+			"body": [
+				"Premium upgrades unlock additional features including DartBot and other enhanced gameplay options.",
+				"Choose the option that best matches the way you play."
+			],
+			"bullets": [
+				"Pro Version.",
+				"DartBot unlock.",
+				"48-Hour Pass."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-IAP.png",
+				"alt": "Game Of Darts Premium Access",
+				"caption": "Choose the premium option that's right for you."
+			},
+			"links": [
+				{
+					"label": "Learn About Premium Access",
+					"href": "/apps/gameofdarts/barkinmad-coins"
+				}
+			]
+		},
+		{
+			"id": "help-and-rules",
+			"heading": "Help When You Need It",
+			"summary": "Quick access to guides, rules, and support information.",
+			"body": [
+				"Whether you're learning a new game mode or checking a rule during a match, help is always close at hand.",
+				"The built-in guides make it easy to find the information you need."
+			],
+			"bullets": [
+				"Game rules.",
+				"Feature guides.",
+				"Frequently asked questions."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-help.png",
+				"alt": "Game Of Darts help",
+				"caption": "Everything you need is only a tap away."
+			},
+			"links": [
+				{
+					"label": "Read the Complete Guide",
+					"href": "/apps/gameofdarts/guide"
+				},
+				{
+					"label": "View FAQs",
+					"href": "/apps/gameofdarts/frequently-asked-questions"
+				}
+			]
+		},
+		{
+			"id": "leaderboards-and-progress",
+			"heading": "Track Your Progress",
+			"layout": "textRight",
+			"summary": "Review your performance and compete through Apple Game Center.",
+			"body": [
+				"After every match you can review your results, compare leaderboard positions, and see how your performance improves over time.",
+				"Achievements, statistics, and leaderboards work together to give you new goals every time you play."
+			],
+			"bullets": [
+				"Review your statistics.",
+				"Compete on Game Center.",
+				"Unlock achievements."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-leaderboards.png",
+				"alt": "Game Of Darts leaderboards",
+				"caption": "Every match is another chance to improve."
+			},
+			"links": [
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/gameofdarts/leaderboards"
+				},
+				{
+					"label": "View Statistics",
+					"href": "/apps/gameofdarts/statistics"
+				}
+			]
+		}
+	]
 }

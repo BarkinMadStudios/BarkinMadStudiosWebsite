@@ -1,108 +1,108 @@
 {
-  "title": "ZXSpace",
-  "tagline": "Retro space arcade action",
-  "hero": {
-    "image": "/images/retro-banner.png",
-    "alt": "ZX Series arcade game collection featuring ZX Snake, ZX Brick and ZX Space"
-  },
-  "shortDescription": "Inspired by classic 1980s space shooters.",
-  "description": "ZXSpace is part of the [ZX Series](/zx-series), a retro-inspired city-defence formation shooter featuring alien waves, shield and city damage, power-up drops, unlockable cannon skins, achievements, leaderboards, and classic arcade visuals.",
-  "status": "Coming Soon",
-  "appStoreUrl": "",
-  "testFlightUrl": "",
-  "icon": "apps/zxspace/zxspace-icon.png",
-  "heroImage": "apps/zxspace/zxspace-hero.png",
-  "screenshots": [
-    {
-      "image": "apps/zxspace/zxspace-gameplay-01.png",
-      "caption": "Loading Screen"
-    }
-  ],
-  "features": [
-    "Retro-inspired city-defence formation shooter gameplay",
-    "Defend the city from invading alien waves",
-    "Multiple alien rows with different score values",
-    "UFO bonus target",
-    "Touch-and-drag cannon movement",
-    "Continuous auto-fire",
-    "Segmented shield defence",
-    "City damage and restoration through rewarded continue",
-    "Double Laser and Shield Repair power-up drops",
-    "Wave completion coin rewards",
-    "Unlockable ship skins",
-    "BarkinMad Coins for cross-game cosmetic unlocks",
-    "Game Center achievements",
-    "Game Center leaderboards",
-    "32 language support",
-    "Classic arcade visuals"
-  ],
-  "achievements": [
-    "Play 10 Games",
-    "Play 25 Games",
-    "Play 50 Games",
-    "Play 100 Games"
-  ],
-  "leaderboards": [
-    "Highest Score",
-    "ZX Series Total Score"
-  ],
-  "barkinMadCoins": {
-    "enabled": true,
-    "description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic items across supported BarkinMad Studios games. Coins have no cash value and are earned through gameplay only."
-  },
-  "supportedPlatforms": [
-    "iPhone"
-  ],
-  "version": "0.1",
-  "genre": "Arcade",
-  "developer": "BarkinMad Studios",
-  "lastUpdated": "2026-06-26",
-  "documentationLinks": [
-    {
-      "label": "Overview",
-      "href": "/apps/zxspace"
-    },
-    {
-      "label": "How to Play",
-      "href": "/apps/zxspace/how-to-play"
-    },
-    {
-      "label": "Controls",
-      "href": "/apps/zxspace/controls"
-    },
-    {
-      "label": "Game Modes",
-      "href": "/apps/zxspace/game-modes"
-    },
-    {
-      "label": "BarkinMad Coins",
-      "href": "/apps/zxspace/barkinmad-coins"
-    },
-    {
-      "label": "Achievements",
-      "href": "/apps/zxspace/achievements"
-    },
-    {
-      "label": "Leaderboards",
-      "href": "/apps/zxspace/leaderboards"
-    },
-    {
-      "label": "Tips & Strategy",
-      "href": "/apps/zxspace/tips-and-strategy"
-    },
-    {
-      "label": "FAQ",
-      "href": "/apps/zxspace/frequently-asked-questions"
-    },
-    {
-      "label": "Guide",
-      "href": "/apps/zxspace/guide"
-    },
-    {
-      "label": "Screenshots",
-      "href": "/apps/zxspace/screenshots"
-    }
-  ],
-  "seoTitle": "ZXSpace | Retro Space Shooter | BarkinMad Studios",
-  "summary": "ZXSpace is a retro city-defence space shooter with alien waves, shields, auto-fire, power-ups, achievements, leaderboards, and BarkinMad Coins."
+	"title": "ZXSpace",
+	"tagline": "Retro city-defence arcade action",
+	"hero": {
+		"image": "/images/retro-banner.png",
+		"alt": "ZX Series arcade game collection featuring ZXSnake, ZXBrick and ZXSpace"
+	},
+	"shortDescription": "Defend cities against relentless alien invasions in this modern take on a classic arcade shooter.",
+	"description": "ZXSpace is part of the [ZX Series](/zx-series), combining classic alien invasion gameplay with modern mobile features. Defend cities from relentless waves of attackers, protect your shield, collect power-ups, unlock cosmetic upgrades, earn BarkinMad Coins, and compete through achievements and leaderboards.",
+	"status": "Coming Soon",
+	"appStoreUrl": "",
+	"testFlightUrl": "",
+	"icon": "apps/zxspace/zxspace-icon.png",
+	"heroImage": "apps/zxspace/zxspace-hero.png",
+	"screenshots": [
+		{
+			"image": "apps/zxspace/zxspace-gameplay-01.png",
+			"caption": "Loading Screen"
+		}
+	],
+	"features": [
+		"Retro-inspired city-defence arcade gameplay",
+		"Protect cities from relentless alien invasion waves",
+		"Multiple alien formations with unique scoring opportunities",
+		"UFO bonus targets",
+		"Responsive touch-and-drag cannon controls",
+		"Continuous auto-fire gameplay",
+		"Segmented shield defence with destructible sections",
+		"City damage and shield management",
+		"Double Laser and Shield Repair power-ups",
+		"Wave completion rewards and BarkinMad Coins",
+		"Unlockable cannon skins",
+		"Cross-game cosmetic unlocks using BarkinMad Coins",
+		"Game Center achievements",
+		"Game Center leaderboards",
+		"32 language support",
+		"Classic retro-inspired visuals"
+	],
+	"achievements": [
+		"Play 10 Games",
+		"Play 25 Games",
+		"Play 50 Games",
+		"Play 100 Games"
+	],
+	"leaderboards": [
+		"Highest Score",
+		"ZX Series Total Score"
+	],
+	"barkinMadCoins": {
+		"enabled": true,
+		"description": "Earn [BarkinMad Coins](/zx-series) through gameplay and use them to unlock cosmetic rewards across supported BarkinMad Studios games. Coins have no cash value and are earned entirely through gameplay."
+	},
+	"supportedPlatforms": [
+		"iPhone"
+	],
+	"version": "0.1",
+	"genre": "Arcade",
+	"developer": "BarkinMad Studios",
+	"lastUpdated": "2026-06-26",
+	"documentationLinks": [
+		{
+			"label": "Overview",
+			"href": "/apps/zxspace"
+		},
+		{
+			"label": "How to Play",
+			"href": "/apps/zxspace/how-to-play"
+		},
+		{
+			"label": "Controls",
+			"href": "/apps/zxspace/controls"
+		},
+		{
+			"label": "Game Modes",
+			"href": "/apps/zxspace/game-modes"
+		},
+		{
+			"label": "BarkinMad Coins",
+			"href": "/apps/zxspace/barkinmad-coins"
+		},
+		{
+			"label": "Achievements",
+			"href": "/apps/zxspace/achievements"
+		},
+		{
+			"label": "Leaderboards",
+			"href": "/apps/zxspace/leaderboards"
+		},
+		{
+			"label": "Tips & Strategy",
+			"href": "/apps/zxspace/tips-and-strategy"
+		},
+		{
+			"label": "FAQ",
+			"href": "/apps/zxspace/frequently-asked-questions"
+		},
+		{
+			"label": "Guide",
+			"href": "/apps/zxspace/guide"
+		},
+		{
+			"label": "Screenshots",
+			"href": "/apps/zxspace/screenshots"
+		}
+	],
+	"seoTitle": "ZXSpace | Retro City-Defence Arcade Shooter | BarkinMad Studios",
+	"summary": "ZXSpace is a retro-inspired city-defence arcade shooter featuring alien invasion waves, shield management, power-ups, achievements, leaderboards, and BarkinMad Coins."
 }

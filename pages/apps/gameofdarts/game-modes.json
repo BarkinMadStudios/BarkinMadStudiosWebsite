@@ -1,172 +1,152 @@
 {
-  "documentationSchemaVersion": "1.1.0",
-  "title": "Game Modes",
-  "seoTitle": "Game of Darts Game Modes | BarkinMad Studios",
-  "description": "Game of Darts includes competitive match formats and focused training modes so players can choose the best format for match play, skill practice, or confidence building.",
-  "summary": "Compare Match/X01, Cricket, Snooker, Bob's 27, One to 20, Hare & Hound, Halve It, and All 5s, then choose the best mode for your goals.",
-  "heroImage": "apps/gameofdarts/gameofdarts.png",
-  "heroImageAlt": "Artwork for Game of Darts game modes",
-  "sections": [
-    {
-      "id": "overview",
-      "heading": "Game formats for both matches and practice",
-      "paragraphs": [
-        "Game of Darts is built around two usage paths: traditional match formats and focused training modes.",
-        "Together, these formats let you work on high-pressure scoring and finishing, while also helping you play complete match-style sessions with friends or DartBot."
-      ],
-      "bullets": [
-        "Match-oriented play: X01, Cricket, and Snooker Darts.",
-        "Practice-oriented play: Bob's 27, One to 20, Hare & Hound, Halve It, and All 5s."
-      ]
-    },
-    {
-      "id": "choosing-a-game-mode",
-      "heading": "Choosing a game mode",
-      "paragraphs": [
-        "Use this page to match mode selection to what you want from your session."
-      ],
-      "bullets": [
-        "X01 is ideal for standard match play because it matches the format used in most match settings.",
-        "Cricket offers tactical gameplay where mark control and timing matter as much as point value.",
-        "Practice modes improve finishing, scoring consistency, and accuracy through repeatable drills.",
-        "Choose competition-oriented modes for ranking-style sessions and practice modes when you want structured training goals."
-      ]
-    },
-    {
-      "id": "x01",
-      "heading": "X01 (301 / 501 / 701)",
-      "paragraphs": [
-        "X01 is the classic match format and works well as a default competitive format.",
-        "Players start at 301, 501, or 701 and subtract their turn score toward zero. The leg is won by hitting exactly zero with a finishing double or bull.",
-        "Choose X01 when you want a full-match feel with familiar scoring goals, clear wins by leg, and shared rules across sessions.",
-        "Suitable for beginners (learn checkout discipline), casual players (steady match rhythm), and competitive players (standard comparison play).",
-        "Compared with other modes, X01 is score-subtraction based and win-condition focused, rather than target-order or mark-closure driven."
-      ]
-    },
-    {
-      "id": "cricket",
-      "heading": "Cricket",
-      "paragraphs": [
-        "Cricket uses numbers 15 to 20 plus the bullseye. Each target needs three closures before you can score freely on it when the opponent has not also closed it.",
-        "Cricket is a good fit when you want tactical turns where one miss or hit at the right moment changes pressure across the whole leg.",
-        "Suitable for casual, experienced, and competitive players who want a strategy-first format and want to improve target control.",
-        "It differs from X01 and All 5s because success is measured by closing and managing targets, not by reaching a fixed total.",
-        "Use Cricket when you want a deeper decision loop between turns."
-      ]
-    },
-    {
-      "id": "snooker-darts",
-      "heading": "Snooker Darts",
-      "paragraphs": [
-        "Snooker Darts adapts traditional snooker scoring: reds and colour values are represented by the dartboard sequence, and the goal is to score more than your opponent while clearing your required targets.",
-        "Choose Snooker Darts when you want a structured scoring approach with more planned shot selection than pure number racing.",
-        "Suitable for beginner-to-casual players who want variety, and experienced players who want deliberate play planning.",
-        "It differs from Cricket and One to 20 by blending sequence and colour-value priorities into the same run."
-      ]
-    },
-    {
-      "id": "one-to-20",
-      "heading": "One to 20",
-      "paragraphs": [
-        "One to 20 is a sequential target format. Players must hit numbers in order from 1 up to 20, with three darts per turn.",
-        "Choose One to 20 to build consistency and controlled repetition before moving into more open scoring formats.",
-        "This is beginner-friendly and works well for casual players who want a simple progression goal with steady improvement.",
-        "Unlike Cricket and X01, this mode is fixed-order play: you are rewarded for sequence discipline rather than scoreboard strategy."
-      ]
-    },
-    {
-      "id": "bobs-27",
-      "heading": "Bob's 27",
-      "paragraphs": [
-        "Bob's 27 starts each player at 27. You play through doubles from low to high in order, with misses carrying a clear penalty and hits advancing progress.",
-        "Choose this mode when you want pressure-specific double practice and elimination-style focus.",
-        "Suitable for intermediate to experienced players who want to train consistent double selection and high-stakes finishing decisions.",
-        "Bob's 27 differs from other modes by mixing ordered doubles with a direct penalty on rounds that miss the current target."
-      ]
-    },
-    {
-      "id": "hare-hound",
-      "heading": "Hare & Hound",
-      "paragraphs": [
-        "Hare & Hound is a two-side chase game: the Hare and Hound each begin on fixed positions and advance when their current target is hit.",
-        "Choose it for compact sessions with momentum shifts and a chase objective that feels different from score accumulation.",
-        "Good for casual-to-experienced players who want a light tactical format with clear end conditions.",
-        "It differs from all other modes by using positional progression and catch logic instead of score totals."
-      ]
-    },
-    {
-      "id": "halve-it",
-      "heading": "Halve It",
-      "paragraphs": [
-        "In Halve It, each turn focuses on a single active target, and only hits on that target score for the round.",
-        "Choose Halve It when you want precision-focused practice on the same target pattern.",
-        "Suitable for beginner-to-casual and casual players building accuracy habits, while experienced players can use it to isolate weak shot zones.",
-        "Halve It differs from Bob's 27 and X01 because misses can halve your score, which puts strong emphasis on consistency rather than recovery."
-      ]
-    },
-    {
-      "id": "all-5s",
-      "heading": "All 5s",
-      "paragraphs": [
-        "All 5s rewards turn totals that are divisible by five; those totals are converted into points, with the objective to reach exactly 51.",
-        "Choose this mode when your goal is short, repeatable accuracy practice with a clear scoring checkpoint.",
-        "Suitable for beginner through competitive players, and especially helpful as a warm-up before match-focused sessions.",
-        "All 5s differs from other modes by combining arithmetic timing and divisibility planning with strict bust handling."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts-game-modes.png",
-      "alt": "Game of Darts modes artwork",
-      "caption": "Mode overview"
-    }
-  ],
-  "imageSectionTitle": "Game Modes Image",
-  "keywords": [
-    "Game of Darts",
-    "game modes",
-    "X01",
-    "Cricket",
-    "Snooker Darts",
-    "Bob's 27",
-    "One to 20",
-    "Hare & Hound",
-    "Halve It",
-    "All 5s",
-    "match modes",
-    "practice modes"
-  ],
-  "estimatedReadTimeMinutes": 8,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "match-types",
-    "dartbot",
-    "leaderboards",
-    "achievements"
-  ],
-  "relatedLinks": [
-    {
-      "label": "Compare Match Types",
-      "href": "/apps/gameofdarts/match-types"
-    },
-    {
-      "label": "Review Statistics",
-      "href": "/apps/gameofdarts/statistics"
-    },
-    {
-      "label": "Check Leaderboards",
-      "href": "/apps/gameofdarts/leaderboards"
-    },
-    {
-      "label": "Read the Guide",
-      "href": "/apps/gameofdarts/guide"
-    },
-    {
-      "label": "Review Tips & Strategy",
-      "href": "/apps/gameofdarts/tips-and-strategy"
-    }
-  ]
+	"documentationSchemaVersion": "1.1.0",
+	"title": "Game Modes",
+	"seoTitle": "Game Of Darts Game Modes | BarkinMad Studios",
+	"description": "Discover every game mode available in Game Of Darts, from classic X01 matches to popular practice games designed to improve every part of your darts game.",
+	"summary": "Whether you're competing, practising, or learning the game, Game Of Darts includes a wide range of match and training modes for every player.",
+	"heroImage": "apps/gameofdarts/gameofdarts.png",
+	"heroImageAlt": "Game Of Darts game modes",
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "A Game Mode for Every Player",
+			"paragraphs": [
+				"Game Of Darts includes a wide selection of traditional match formats alongside focused practice games, giving you the flexibility to play the way you want.",
+				"Whether you're preparing for league matches, improving your finishing, or simply enjoying a casual game with friends, there's a game mode to match your goals."
+			],
+			"bullets": [
+				"Competitive match formats including X01, Cricket, and Snooker Darts.",
+				"Practice modes designed to improve accuracy, finishing, consistency, and confidence."
+			]
+		},
+		{
+			"id": "choosing-a-game-mode",
+			"heading": "Choosing the Right Mode",
+			"paragraphs": [
+				"Each game mode offers a different style of play, making it easy to focus on the skills you want to improve."
+			],
+			"bullets": [
+				"Choose X01 for traditional match play.",
+				"Play Cricket if you enjoy tactical decision-making.",
+				"Use training modes to practise doubles, finishing, accuracy, and consistency.",
+				"Switch between modes whenever you want to keep your practice fresh and enjoyable."
+			]
+		},
+		{
+			"id": "x01",
+			"heading": "X01 (301 / 501 / 701)",
+			"paragraphs": [
+				"X01 is the classic darts format played around the world. Starting from 301, 501, or 701, players reduce their score to exactly zero, finishing on a double or bull.",
+				"It's the perfect choice for competitive matches, league practice, and anyone wanting the traditional darts experience."
+			]
+		},
+		{
+			"id": "cricket",
+			"heading": "Cricket",
+			"paragraphs": [
+				"Cricket replaces score subtraction with tactical target selection. Players close numbers 15–20 and the bull before scoring freely on those targets.",
+				"Every turn becomes a balance between attacking, defending, and deciding which numbers to close first."
+			]
+		},
+		{
+			"id": "snooker-darts",
+			"heading": "Snooker Darts",
+			"paragraphs": [
+				"Inspired by traditional snooker, this mode combines structured shot selection with tactical scoring.",
+				"Planning your next shot is just as important as hitting the target, making every turn feel different from a standard darts match."
+			]
+		},
+		{
+			"id": "one-to-20",
+			"heading": "One to 20",
+			"paragraphs": [
+				"Work your way around the dartboard by hitting every number in sequence from 1 to 20.",
+				"A simple but effective practice mode that's ideal for improving accuracy, rhythm, and consistency."
+			]
+		},
+		{
+			"id": "bobs-27",
+			"heading": "Bob's 27",
+			"paragraphs": [
+				"One of the most popular double practice games, Bob's 27 challenges you to hit every double in sequence while avoiding costly penalties for missed targets.",
+				"Perfect for improving finishing under pressure."
+			]
+		},
+		{
+			"id": "hare-hound",
+			"heading": "Hare & Hound",
+			"paragraphs": [
+				"A fun chase-style game where players race around the dartboard trying to catch or escape their opponent.",
+				"Fast-paced and easy to learn, it's a great alternative to traditional scoring games."
+			]
+		},
+		{
+			"id": "halve-it",
+			"heading": "Halve It",
+			"paragraphs": [
+				"Each round focuses on a single scoring target, rewarding accuracy while heavily penalising missed opportunities.",
+				"Consistency is the key to success, making Halve It one of the best practice modes for precision."
+			]
+		},
+		{
+			"id": "all-5s",
+			"heading": "All 5s",
+			"paragraphs": [
+				"Only turn totals divisible by five score points, creating a surprisingly strategic challenge that rewards careful shot planning.",
+				"Quick to play and easy to understand, it's perfect for warming up before a match."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts-game-modes.png",
+			"alt": "Game Of Darts game modes",
+			"caption": "Explore every way to play Game Of Darts."
+		}
+	],
+	"imageSectionTitle": "Game Modes",
+	"keywords": [
+		"Game Of Darts",
+		"game modes",
+		"X01",
+		"Cricket",
+		"Snooker Darts",
+		"Bob's 27",
+		"One to 20",
+		"Hare & Hound",
+		"Halve It",
+		"All 5s"
+	],
+	"estimatedReadTimeMinutes": 8,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"match-types",
+		"dartbot",
+		"leaderboards",
+		"achievements"
+	],
+	"relatedLinks": [
+		{
+			"label": "Compare Match Types",
+			"href": "/apps/gameofdarts/match-types"
+		},
+		{
+			"label": "View Statistics",
+			"href": "/apps/gameofdarts/statistics"
+		},
+		{
+			"label": "See Leaderboards",
+			"href": "/apps/gameofdarts/leaderboards"
+		},
+		{
+			"label": "Read the Complete Guide",
+			"href": "/apps/gameofdarts/guide"
+		},
+		{
+			"label": "Tips & Strategy",
+			"href": "/apps/gameofdarts/tips-and-strategy"
+		}
+	]
 }

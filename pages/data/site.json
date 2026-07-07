@@ -1,97 +1,97 @@
 {
-  "name": "BarkinMad Studios",
-  "tagline": "Retro-inspired games and apps",
-  "description": "Independent UK game, app, developer tool, and software development studio creating retro-inspired games and practical software products.",
-  "keywords": "retro games, arcade games, iOS games, ZXSnake, ZXBrick, ZXPong, ZXSpace, GameOfDarts, StudioDash, developer dashboard, app analytics, software development",
-  "ogDescription": "Retro games, developer tools, modern apps, and practical software built by BarkinMad Studios.",
-  "email": "barry@barkinmad.studio",
-  "website": "https://www.barkinmad.studio",
-  "copyright": "BarkinMad Studios",
-  "navigation": [
-    {
-      "label": "Home",
-      "href": "/"
-    },
-    {
-      "label": "Apps",
-      "href": "/apps"
-    },
-    {
-      "label": "ZX Series",
-      "href": "/zx-series"
-    },
-    {
-      "label": "Services",
-      "href": "/services"
-    },
-    {
-      "label": "Portfolio",
-      "href": "/portfolio"
-    },
-    {
-      "label": "Docs",
-      "href": "/docs"
-    },
-    {
-      "label": "News",
-      "href": "/news"
-    },
-    {
-      "label": "About",
-      "href": "/about"
-    },
-    {
-      "label": "Privacy",
-      "href": "/privacy"
-    },
-    {
-      "label": "Contact",
-      "href": "/contact"
-    }
-  ],
-  "footerNavigation": [
-    {
-      "label": "Apps",
-      "href": "/apps"
-    },
-    {
-      "label": "Portfolio",
-      "href": "/portfolio"
-    },
-    {
-      "label": "Services",
-      "href": "/services"
-    },
-    {
-      "label": "Docs",
-      "href": "/docs"
-    },
-    {
-      "label": "Privacy",
-      "href": "/privacy"
-    },
-    {
-      "label": "Cookies",
-      "href": "/cookies"
-    },
-    {
-      "label": "Terms",
-      "href": "/terms"
-    },
-    {
-      "label": "Company",
-      "href": "/company"
-    },
-    {
-      "label": "Contact",
-      "href": "/contact"
-    }
-  ],
-  "socials": {
-    "github": "",
-    "youtube": "",
-    "x": "",
-    "facebook": "https://www.facebook.com/profile.php?id=61579287944996"
-  },
-  "lastUpdated": "2026-06-14"
+	"name": "BarkinMad Studios",
+	"tagline": "Retro-inspired games, apps and software",
+	"description": "Independent UK software and game development studio creating retro-inspired arcade games, mobile apps, developer tools, and practical software solutions.",
+	"keywords": "retro games, arcade games, iPhone games, iPad games, iOS games, ZXSnake, ZXBrick, ZXPong, ZXSpace, Game Of Darts, StudioDash, developer dashboard, app analytics, software development",
+	"ogDescription": "Discover retro-inspired arcade games, developer tools, mobile apps, and practical software created by BarkinMad Studios.",
+	"email": "barry@barkinmad.studio",
+	"website": "https://www.barkinmad.studio",
+	"copyright": "BarkinMad Studios",
+	"navigation": [
+		{
+			"label": "Home",
+			"href": "/"
+		},
+		{
+			"label": "Apps",
+			"href": "/apps"
+		},
+		{
+			"label": "ZX Series",
+			"href": "/zx-series"
+		},
+		{
+			"label": "Services",
+			"href": "/services"
+		},
+		{
+			"label": "Portfolio",
+			"href": "/portfolio"
+		},
+		{
+			"label": "Docs",
+			"href": "/docs"
+		},
+		{
+			"label": "News",
+			"href": "/news"
+		},
+		{
+			"label": "About",
+			"href": "/about"
+		},
+		{
+			"label": "Privacy",
+			"href": "/privacy"
+		},
+		{
+			"label": "Contact",
+			"href": "/contact"
+		}
+	],
+	"footerNavigation": [
+		{
+			"label": "Apps",
+			"href": "/apps"
+		},
+		{
+			"label": "Portfolio",
+			"href": "/portfolio"
+		},
+		{
+			"label": "Services",
+			"href": "/services"
+		},
+		{
+			"label": "Docs",
+			"href": "/docs"
+		},
+		{
+			"label": "Privacy",
+			"href": "/privacy"
+		},
+		{
+			"label": "Cookies",
+			"href": "/cookies"
+		},
+		{
+			"label": "Terms",
+			"href": "/terms"
+		},
+		{
+			"label": "Company",
+			"href": "/company"
+		},
+		{
+			"label": "Contact",
+			"href": "/contact"
+		}
+	],
+	"socials": {
+		"github": "",
+		"youtube": "",
+		"x": "",
+		"facebook": "https://www.facebook.com/profile.php?id=61579287944996"
+	},
+	"lastUpdated": "2026-06-14"
 }

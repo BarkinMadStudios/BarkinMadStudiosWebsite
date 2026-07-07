@@ -1,128 +1,128 @@
 {
-  "title": "DartBot",
-  "seoTitle": "Game of Darts DartBot | BarkinMad Studios",
-  "description": "Learn how DartBot appears in Match play, how access is unlocked, and how the current DartBot level setting is exposed.",
-  "summary": "DartBot is the app's AI opponent for Match play, available with Pro, DartBot, or 48-hour premium access.",
-  "heroImage": "apps/gameofdarts/gameofdarts-dartbot.png",
-  "heroImageAlt": "Artwork for Game of Darts DartBot image",
-  "sections": [
-    {
-      "id": "overview",
-      "heading": "Meet DartBot",
-      "paragraphs": [
-        "DartBot is the built-in AI opponent for Game of Darts, allowing you to practise, improve your game and enjoy a match whenever another player isn't available.",
-        "Whether you're learning the basics or sharpening your checkout accuracy, DartBot provides a reliable opponent that's always ready to play."
-      ]
-    },
-    {
-      "id": "difficulty",
-      "heading": "AI Difficulty",
-      "paragraphs": [
-        "DartBot supports multiple skill levels so players of all abilities can enjoy competitive matches. Adjust the difficulty to create anything from a relaxed practice session to a challenging contest.",
-        "The selected difficulty is remembered by the app until you decide to change it."
-      ],
-      "bullets": [
-        "Suitable for beginners through experienced players.",
-        "Difficulty can be changed from the Settings page.",
-        "Your selected level is used when creating new DartBot matches."
-      ]
-    },
-    {
-      "id": "playing-against-dartbot",
-      "heading": "Playing Against DartBot",
-      "paragraphs": [
-        "Create a new Match game, add yourself as the player, then choose DartBot as your opponent. Once the match begins, DartBot plays using the selected AI difficulty and follows the same rules as a human player.",
-        "DartBot is ideal for practising checkouts, testing different match formats and improving consistency without needing another person."
-      ]
-    },
-    {
-      "id": "unlocking-dartbot",
-      "heading": "Unlocking DartBot",
-      "paragraphs": [
-        "DartBot is available through the dedicated DartBot unlock, the full Pro upgrade or the 48-hour premium pass. Once unlocked, it can be used whenever you create a supported Match game.",
-        "Your unlock is linked to your purchase and does not affect player statistics, saved games or Game Center progress."
-      ]
-    }
-  ],
-  "images": [
-    {
-      "src": "apps/gameofdarts/gameofdarts-dartbot.png",
-      "alt": "Artwork for Game of Darts DartBot",
-      "caption": "DartBot artwork"
-    }
-  ],
-  "imageSectionTitle": "DartBot Image",
-  "keywords": [
-    "Game of Darts",
-    "DartBot",
-    "AI opponent",
-    "Pro"
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "game-modes",
-    "settings-customisation",
-    "barkinmad-coins"
-  ],
-  "documentationSchemaVersion": "1.2.0",
-  "featureShowcases": [
-    {
-      "id": "ai-practice-opponent",
-      "heading": "Practise against DartBot",
-      "summary": "DartBot gives players an AI opponent for Match play when another human player is not available.",
-      "body": [
-        "This matters because regular practice is easier when players can start a competitive-feeling match on demand. DartBot lets players work on consistency, checkouts, and match rhythm without waiting for an opponent.",
-        "Players use DartBot by creating a supported Match game, adding themselves, and choosing DartBot as the opponent."
-      ],
-      "bullets": [
-        "Supports solo practice in a match-style format.",
-        "Uses the selected DartBot level when new DartBot matches are created.",
-        "Works alongside match setup, statistics, and premium access."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-dartbot.png",
-        "alt": "Game of Darts DartBot artwork",
-        "caption": "DartBot artwork supports the AI opponent workflow."
-      },
-      "links": [
-        {
-          "label": "View match types",
-          "href": "/apps/gameofdarts/match-types"
-        }
-      ]
-    },
-    {
-      "id": "dartbot-level-and-access",
-      "heading": "Set the challenge level",
-      "layout": "textRight",
-      "summary": "DartBot difficulty and access are part of the wider settings and premium workflow.",
-      "body": [
-        "This matters because players need an opponent that fits their current level. A relaxed practice session and a checkout-focused challenge should not feel the same.",
-        "Players use settings to adjust the DartBot level, then use premium access options where DartBot needs to be unlocked."
-      ],
-      "bullets": [
-        "Difficulty can be changed from settings.",
-        "DartBot access can be unlocked through supported premium options.",
-        "The chosen level applies to future DartBot matches."
-      ],
-      "image": {
-        "src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
-        "alt": "Game of Darts settings screen for DartBot and gameplay options",
-        "caption": "Settings artwork supports DartBot level and access configuration."
-      },
-      "links": [
-        {
-          "label": "View settings",
-          "href": "/apps/gameofdarts/settings-customisation"
-        },
-        {
-          "label": "View premium access",
-          "href": "/apps/gameofdarts/barkinmad-coins"
-        }
-      ]
-    }
-  ]
+	"title": "DartBot",
+	"seoTitle": "Game Of Darts DartBot | BarkinMad Studios",
+	"description": "Challenge DartBot, the built-in AI opponent in Game Of Darts. Practise your skills, improve your consistency, and enjoy a match whenever you're ready to play.",
+	"summary": "DartBot is the built-in AI opponent for Game Of Darts, available with the Pro upgrade, DartBot unlock, or a 48-Hour Pass.",
+	"heroImage": "apps/gameofdarts/gameofdarts-dartbot.png",
+	"heroImageAlt": "Artwork for Game Of Darts DartBot",
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "Meet DartBot",
+			"paragraphs": [
+				"DartBot is your built-in AI practice opponent, giving you someone to play against whenever you're ready for a game.",
+				"Whether you're learning the basics, practising checkouts, or preparing for competitive matches, DartBot provides a reliable opponent that's always available."
+			]
+		},
+		{
+			"id": "difficulty",
+			"heading": "Choose Your Challenge",
+			"paragraphs": [
+				"DartBot includes multiple difficulty levels, making it suitable for complete beginners through to experienced players looking for a tougher challenge.",
+				"Simply choose the level that matches your ability and the app will remember your preference for future matches."
+			],
+			"bullets": [
+				"Suitable for beginners and experienced players.",
+				"Difficulty can be changed at any time from Settings.",
+				"Your chosen level is automatically used for future DartBot matches."
+			]
+		},
+		{
+			"id": "playing-against-dartbot",
+			"heading": "Play Against DartBot",
+			"paragraphs": [
+				"Start a new Match game, add yourself as a player, and choose DartBot as your opponent.",
+				"DartBot follows the same rules as a human player, making it ideal for practising, improving consistency, or simply enjoying a game whenever you like."
+			]
+		},
+		{
+			"id": "unlocking-dartbot",
+			"heading": "Unlock DartBot",
+			"paragraphs": [
+				"DartBot is available through the dedicated DartBot unlock, the Pro upgrade, or the 48-Hour Pass.",
+				"Once unlocked, DartBot is available whenever you create a supported Match game without affecting your player statistics, saved games, or Game Center progress."
+			]
+		}
+	],
+	"images": [
+		{
+			"src": "apps/gameofdarts/gameofdarts-dartbot.png",
+			"alt": "Game Of Darts DartBot",
+			"caption": "Challenge DartBot whenever you're ready to play."
+		}
+	],
+	"imageSectionTitle": "DartBot",
+	"keywords": [
+		"Game Of Darts",
+		"DartBot",
+		"AI opponent",
+		"Pro"
+	],
+	"estimatedReadTimeMinutes": 3,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"game-modes",
+		"settings-customisation",
+		"barkinmad-coins"
+	],
+	"documentationSchemaVersion": "1.2.0",
+	"featureShowcases": [
+		{
+			"id": "ai-practice-opponent",
+			"heading": "Practise Anytime",
+			"summary": "DartBot gives you an AI opponent whenever you want to improve your game.",
+			"body": [
+				"Whether you're practising checkouts, improving your consistency, or simply enjoying a quick match, DartBot is always ready to play.",
+				"It's a great way to build confidence and sharpen your skills without needing another player."
+			],
+			"bullets": [
+				"Ideal for solo practice sessions.",
+				"Uses your selected difficulty level automatically.",
+				"Works seamlessly with match statistics and premium features."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-dartbot.png",
+				"alt": "Game Of Darts DartBot",
+				"caption": "Practise and improve whenever you want."
+			},
+			"links": [
+				{
+					"label": "View Match Types",
+					"href": "/apps/gameofdarts/match-types"
+				}
+			]
+		},
+		{
+			"id": "dartbot-level-and-access",
+			"heading": "Find the Right Challenge",
+			"layout": "textRight",
+			"summary": "Adjust DartBot's difficulty to match your experience and playing style.",
+			"body": [
+				"Increase the difficulty as your skills improve or lower it when you want a more relaxed practice session.",
+				"Your preferred difficulty is remembered automatically, so every new DartBot match starts exactly the way you like."
+			],
+			"bullets": [
+				"Change difficulty at any time from Settings.",
+				"Unlock DartBot with any supported premium option.",
+				"Your chosen level is remembered for future matches."
+			],
+			"image": {
+				"src": "apps/gameofdarts/gameofdarts-screenshot-settings.png",
+				"alt": "Game Of Darts settings showing DartBot options",
+				"caption": "Choose the challenge level that suits you."
+			},
+			"links": [
+				{
+					"label": "View Settings",
+					"href": "/apps/gameofdarts/settings-customisation"
+				},
+				{
+					"label": "Learn About Premium Access",
+					"href": "/apps/gameofdarts/barkinmad-coins"
+				}
+			]
+		}
+	]
 }

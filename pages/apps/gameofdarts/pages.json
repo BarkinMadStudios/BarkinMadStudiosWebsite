@@ -1,411 +1,153 @@
 {
-  "appSlug": "gameofdarts",
-  "title": "Game of Darts Guides",
-  "description": "Official Game of Darts guides covering setup, game modes, match types, DartBot, statistics, leaderboards, achievements, caller voices, settings, and screenshots.",
-  "landingPage": "overview",
-  "contentStatus": "verified",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "estimatedReadTimeMinutes": 39,
-  "relatedSeries": [
-    "/apps/non-zx"
-  ],
-  "keywords": [
-    "Game of Darts",
-    "darts scoring app",
-    "DartBot",
-    "statistics",
-    "Game Center",
-    "iPhone",
-    "iPad"
-  ],
-  "pages": [
-    {
-      "slug": "overview",
-      "title": "Overview",
-      "description": "Get a practical introduction to Game of Darts and the main player, scoring, statistics, and Game Center surfaces.",
-      "required": true,
-      "status": "required",
-      "order": 1,
-      "estimatedReadTimeMinutes": 4,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "seoTitle": "Game of Darts Overview | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "darts app",
-        "overview"
-      ],
-      "relatedPages": [
-        "how-to-play",
-        "game-modes",
-        "match-types"
-      ]
-    },
-    {
-      "slug": "how-to-play",
-      "title": "Getting Started",
-      "description": "Set up players, choose a mode, start a match, enter scores, and find stats and leaderboards after play.",
-      "required": true,
-      "status": "required",
-      "order": 2,
-      "estimatedReadTimeMinutes": 3,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-06-26",
-      "lastVerified": "2026-06-26",
-      "seoTitle": "Game of Darts Getting Started | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "getting started",
-        "players",
-        "score entry"
-      ],
-      "relatedPages": [
-        "controls",
-        "game-modes",
-        "match-types",
-        "statistics"
-      ]
-    },
-    {
-      "slug": "controls",
-      "title": "Score Entry & Controls",
-      "description": "Understand score entry, keypad flow, keyboard shortcuts, player setup, and current control limitations.",
-      "required": true,
-      "status": "required",
-      "order": 3,
-      "estimatedReadTimeMinutes": 3,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-06-26",
-      "lastVerified": "2026-06-26",
-      "seoTitle": "Game of Darts Score Entry & Controls | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "score entry",
-        "keyboard shortcuts",
-        "controls"
-      ],
-      "relatedPages": [
-        "how-to-play",
-        "caller-voices",
-        "settings-customisation"
-      ]
-    },
-    {
-      "slug": "game-modes",
-      "title": "Game Modes",
-      "description": "Review the Game of Darts match formats available to play.",
-      "required": true,
-      "status": "required",
-      "order": 4,
-      "estimatedReadTimeMinutes": 4,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-06-26",
-      "lastVerified": "2026-06-26",
-      "seoTitle": "Game of Darts Game Modes | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "X01",
-        "Cricket",
-        "Snooker",
-        "Bob's 27"
-      ],
-      "relatedPages": [
-        "match-types",
-        "dartbot",
-        "leaderboards",
-        "achievements"
-      ]
-    },
-    {
-      "slug": "match-types",
-      "title": "Match Types",
-      "description": "Understand the main darts formats documented for the app, including X01, Cricket, Snooker, Bob's 27, 1 to 20, and party modes.",
-      "required": false,
-      "status": "optional",
-      "order": 5,
-      "estimatedReadTimeMinutes": 5,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "seoTitle": "Game of Darts Match Types | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "match types",
-        "darts rules"
-      ],
-      "relatedPages": [
-        "game-modes",
-        "how-to-play",
-        "tips-and-strategy"
-      ]
-    },
-    {
-      "slug": "dartbot",
-      "title": "DartBot",
-      "description": "Learn how DartBot appears in Match play, how access is unlocked, and where the AI level is configured.",
-      "required": false,
-      "status": "optional",
-      "order": 6,
-      "estimatedReadTimeMinutes": 3,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "seoTitle": "Game of Darts DartBot | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "DartBot",
-        "AI opponent"
-      ],
-      "relatedPages": [
-        "game-modes",
-        "settings-customisation",
-        "barkinmad-coins"
-      ]
-    },
-    {
-      "slug": "statistics",
-      "title": "Statistics",
-      "description": "Understand player statistics, session data, and advanced statistics access in Game of Darts.",
-      "required": false,
-      "status": "optional",
-      "order": 7,
-      "estimatedReadTimeMinutes": 5,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "seoTitle": "Game of Darts Statistics | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "statistics",
-        "advanced stats",
-        "sessions"
-      ],
-      "relatedPages": [
-        "leaderboards",
-        "achievements",
-        "settings-customisation"
-      ]
-    },
-    {
-      "slug": "leaderboards",
-      "title": "Leaderboards",
-      "description": "Review Game Center leaderboard support for X01, Cricket, Snooker, Bob's 27, 1 to 20, and Halve It.",
-      "required": true,
-      "status": "required",
-      "order": 8,
-      "estimatedReadTimeMinutes": 4,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "seoTitle": "Game of Darts Leaderboards | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "leaderboards",
-        "Game Center"
-      ],
-      "relatedPages": [
-        "statistics",
-        "achievements",
-        "settings-customisation"
-      ]
-    },
-    {
-      "slug": "achievements",
-      "title": "Achievements",
-      "description": "Understand Game Center achievement tracking across supported Game of Darts modes.",
-      "required": true,
-      "status": "required",
-      "order": 9,
-      "estimatedReadTimeMinutes": 3,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "seoTitle": "Game of Darts Achievements | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "achievements",
-        "Game Center"
-      ],
-      "relatedPages": [
-        "leaderboards",
-        "statistics",
-        "game-modes"
-      ]
-    },
-    {
-      "slug": "caller-voices",
-      "title": "Caller Voices",
-      "description": "Learn the caller voice options and how to use voice controls during matches.",
-      "required": false,
-      "status": "optional",
-      "order": 10,
-      "estimatedReadTimeMinutes": 3,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "seoTitle": "Game of Darts Caller Voices | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "caller voices",
-        "Daniel",
-        "Serena",
-        "voice control"
-      ],
-      "relatedPages": [
-        "controls",
-        "settings-customisation",
-        "frequently-asked-questions"
-      ]
-    },
-    {
-      "slug": "settings-customisation",
-      "title": "Settings & Customisation",
-      "description": "Review appearance, file management, auto-post, DartBot level, voice, privacy, and access settings.",
-      "required": false,
-      "status": "optional",
-      "order": 11,
-      "estimatedReadTimeMinutes": 4,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "seoTitle": "Game of Darts Settings & Customisation | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "settings",
-        "customisation",
-        "DartBot"
-      ],
-      "relatedPages": [
-        "dartbot",
-        "caller-voices",
-        "statistics"
-      ]
-    },
-    {
-      "slug": "barkinmad-coins",
-      "title": "Premium Access",
-      "description": "Learn how to unlock premium features through Pro, DartBot access, and 48-hour passes, and how premium fits your play style.",
-      "required": true,
-      "status": "required",
-      "order": 12,
-      "estimatedReadTimeMinutes": 2,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-06-26",
-      "lastVerified": "2026-06-26",
-      "seoTitle": "Game of Darts Premium Access | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "premium",
-        "Pro",
-        "DartBot",
-        "48-hour unlock"
-      ],
-      "relatedPages": [
-        "dartbot",
-        "settings-customisation",
-        "frequently-asked-questions"
-      ]
-    },
-    {
-      "slug": "tips-and-strategy",
-      "title": "Tips & Strategy",
-      "description": "Use practical setup, scoring, statistics, and match-flow tips for better Game of Darts sessions.",
-      "required": true,
-      "status": "required",
-      "order": 13,
-      "estimatedReadTimeMinutes": 3,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-06-26",
-      "lastVerified": "2026-06-26",
-      "seoTitle": "Game of Darts Tips & Strategy | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "tips",
-        "strategy",
-        "darts practice"
-      ],
-      "relatedPages": [
-        "match-types",
-        "statistics",
-        "leaderboards"
-      ]
-    },
-    {
-      "slug": "frequently-asked-questions",
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers about Game of Darts modes, statistics, DartBot, Game Center, caller voices, access, and artwork status.",
-      "required": true,
-      "status": "required",
-      "order": 14,
-      "estimatedReadTimeMinutes": 3,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-06-26",
-      "lastVerified": "2026-06-26",
-      "seoTitle": "Game of Darts FAQ | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "FAQ",
-        "DartBot",
-        "statistics",
-        "Game Center"
-      ],
-      "relatedPages": [
-        "overview",
-        "game-modes",
-        "statistics",
-        "settings-customisation"
-      ]
-    },
-    {
-      "slug": "guide",
-      "title": "Guide",
-      "description": "Comprehensive Game of Darts guide linking the main setup, scoring, modes, DartBot, statistics, and support pages.",
-      "required": false,
-      "status": "optional",
-      "order": 15,
-      "estimatedReadTimeMinutes": 13,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "seoTitle": "Game of Darts Guide | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "guide",
-        "darts scoring app"
-      ],
-      "relatedPages": [
-        "overview",
-        "how-to-play",
-        "game-modes",
-        "match-types",
-        "statistics",
-        "frequently-asked-questions"
-      ]
-    },
-    {
-      "slug": "screenshots",
-      "title": "Screenshots",
-      "description": "A Game of Darts visual walkthrough pairing current screenshots with setup, scoring, settings, help, premium, and leaderboard context.",
-      "required": false,
-      "status": "optional",
-      "order": 16,
-      "estimatedReadTimeMinutes": 4,
-      "contentStatus": "verified",
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "seoTitle": "Game of Darts Screenshots | BarkinMad Studios",
-      "keywords": [
-        "Game of Darts",
-        "screenshots",
-        "artwork"
-      ],
-      "relatedPages": [
-        "overview",
-        "guide"
-      ]
-    }
-  ],
-  "documentationSchemaVersion": "1.2.0"
+	"appSlug": "gameofdarts",
+	"title": "Game Of Darts Guides",
+	"description": "Official Game Of Darts guides covering everything from getting started and game modes to DartBot, statistics, leaderboards, premium features, and advanced gameplay.",
+	"landingPage": "overview",
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"estimatedReadTimeMinutes": 39,
+	"relatedSeries": [
+		"/apps/non-zx"
+	],
+	"keywords": [
+		"Game Of Darts",
+		"darts scoring app",
+		"DartBot",
+		"statistics",
+		"Game Center",
+		"iPhone",
+		"iPad"
+	],
+	"pages": [
+		{
+			"slug": "overview",
+			"title": "Overview",
+			"description": "Discover everything Game Of Darts has to offer before exploring the detailed guides.",
+			"required": true,
+			"status": "required",
+			"order": 1
+		},
+		{
+			"slug": "how-to-play",
+			"title": "Getting Started",
+			"description": "Learn how to create players, start your first match, and begin using Game Of Darts.",
+			"required": true,
+			"status": "required",
+			"order": 2
+		},
+		{
+			"slug": "controls",
+			"title": "Score Entry & Controls",
+			"description": "Master score entry, controls, and keyboard shortcuts for faster play.",
+			"required": true,
+			"status": "required",
+			"order": 3
+		},
+		{
+			"slug": "game-modes",
+			"title": "Game Modes",
+			"description": "Explore every game mode and discover which one best suits your style of play.",
+			"required": true,
+			"status": "required",
+			"order": 4
+		},
+		{
+			"slug": "match-types",
+			"title": "Match Types",
+			"description": "Create everything from quick practice games to full tournament-style matches.",
+			"required": false,
+			"status": "optional",
+			"order": 5
+		},
+		{
+			"slug": "dartbot",
+			"title": "DartBot",
+			"description": "Practise against DartBot and learn how to adjust its difficulty and unlock premium access.",
+			"required": false,
+			"status": "optional",
+			"order": 6
+		},
+		{
+			"slug": "statistics",
+			"title": "Statistics",
+			"description": "Track your performance, analyse your progress, and improve your game over time.",
+			"required": false,
+			"status": "optional",
+			"order": 7
+		},
+		{
+			"slug": "leaderboards",
+			"title": "Leaderboards",
+			"description": "Compete through Apple Game Center and compare your best performances with other players.",
+			"required": true,
+			"status": "required",
+			"order": 8
+		},
+		{
+			"slug": "achievements",
+			"title": "Achievements",
+			"description": "Unlock Game Center achievements as you play and explore every game mode.",
+			"required": true,
+			"status": "required",
+			"order": 9
+		},
+		{
+			"slug": "caller-voices",
+			"title": "Caller Voices",
+			"description": "Bring every match to life with spoken score announcements and match commentary.",
+			"required": false,
+			"status": "optional",
+			"order": 10
+		},
+		{
+			"slug": "settings-customisation",
+			"title": "Settings & Customisation",
+			"description": "Personalise Game Of Darts with appearance, DartBot, privacy, and gameplay settings.",
+			"required": false,
+			"status": "optional",
+			"order": 11
+		},
+		{
+			"slug": "barkinmad-coins",
+			"title": "Premium Access",
+			"description": "Discover the premium upgrades available in Game Of Darts and choose the option that suits you.",
+			"required": true,
+			"status": "required",
+			"order": 12
+		},
+		{
+			"slug": "tips-and-strategy",
+			"title": "Tips & Strategy",
+			"description": "Improve your scoring, consistency, and match performance with practical tips and advice.",
+			"required": true,
+			"status": "required",
+			"order": 13
+		},
+		{
+			"slug": "frequently-asked-questions",
+			"title": "Frequently Asked Questions",
+			"description": "Find quick answers to the questions players ask most about Game Of Darts.",
+			"required": true,
+			"status": "required",
+			"order": 14
+		},
+		{
+			"slug": "guide",
+			"title": "Complete Guide",
+			"description": "Everything you need to know about Game Of Darts in one comprehensive guide.",
+			"required": false,
+			"status": "optional",
+			"order": 15
+		},
+		{
+			"slug": "screenshots",
+			"title": "Screenshots",
+			"description": "Take a closer look at Game Of Darts through screenshots of gameplay, settings, and features.",
+			"required": false,
+			"status": "optional",
+			"order": 16
+		}
+	],
+	"documentationSchemaVersion": "1.2.0"
 }

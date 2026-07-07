@@ -1,20 +1,20 @@
 {
-  "zxSeries": [
-    {
-      "id": "totalScore",
-      "title": "ZX Series Total Score",
-      "description": "Combined score earned across all supported ZX games."
-    },
-    {
-      "id": "gamesPlayed",
-      "title": "ZX Games Played",
-      "description": "Number of ZX Series games played."
-    },
-    {
-      "id": "coinsEarned",
-      "title": "Coins Earned",
-      "description": "Total BarkinMad Coins earned across the ZX Series."
-    }
-  ],
-  "lastUpdated": "2026-06-05"
+	"zxSeries": [
+		{
+			"id": "totalScore",
+			"title": "ZX Series Total Score",
+			"description": "Your combined score across every supported ZX Series game."
+		},
+		{
+			"id": "gamesPlayed",
+			"title": "ZX Games Played",
+			"description": "The total number of supported ZX Series games you've played."
+		},
+		{
+			"id": "coinsEarned",
+			"title": "BarkinMad Coins Earned",
+			"description": "The total number of BarkinMad Coins earned across all supported ZX Series games."
+		}
+	],
+	"lastUpdated": "2026-06-05"
 }

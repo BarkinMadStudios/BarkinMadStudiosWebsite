@@ -1,63 +1,63 @@
 {
-  "title": "Websites & Content Platforms",
-  "hero": {
-    "image": "",
-    "alt": ""
-  },
-  "description": "Modern websites and content-driven platforms designed for performance, flexibility, and long-term growth.",
-  "heroTitle": "Websites & Content Platforms",
-  "heroSubtitle": "Fast, flexible, and easy to maintain.",
-  "sections": [
-    {
-      "heading": "Modern Websites Built for Growth",
-      "content": [
-        "A website is often the first place customers go to understand who you are, what you offer, and whether they can trust your business.",
-        "[BarkinMad Studios](/about) develops websites and content platforms focused on performance, usability, maintainability, and search visibility."
-      ]
-    },
-    {
-      "heading": "Website Development Services",
-      "content": [
-        "Business websites",
-        "Product websites",
-        "Content platforms",
-        "Information portals",
-        "Landing pages",
-        "Marketing websites",
-        "JSON-driven content systems",
-        "[Custom web applications](/services/custom-software-development)"
-      ]
-    },
-    {
-      "heading": "Performance and Search Visibility",
-      "content": [
-        "Fast-loading websites create a better visitor experience and can support stronger search visibility.",
-        "Projects are designed with accessibility, responsiveness, performance, and SEO best practices in mind."
-      ]
-    },
-    {
-      "heading": "Flexible Content Management",
-      "content": [
-        "Content-driven platforms make it easier to update information without rebuilding the site each time.",
-        "This allows websites to grow naturally as business requirements, products, and services change."
-      ]
-    },
-    {
-      "heading": "Why BarkinMad Studios?",
-      "content": [
-        "20+ years of technology experience.",
-        "Independent UK software developer.",
-        "Real-world [apps](/apps) actively developed and maintained.",
-        "Direct communication throughout every project.",
-        "Flexible engagement for startups and small businesses."
-      ]
-    }
-  ],
-  "cta": {
-    "title": "Build Your Online Presence",
-    "content": "Whether you're launching a new website or improving an existing platform, BarkinMad Studios can help create a solution that supports your goals.",
-    "buttonText": "Contact BarkinMad Studios",
-    "buttonLink": "/contact"
-  },
-  "lastUpdated": "2026-06-07"
+	"title": "Websites & Content Platforms",
+	"hero": {
+		"image": "",
+		"alt": ""
+	},
+	"description": "Modern websites and content platforms designed for performance, flexibility, search visibility, and long-term growth.",
+	"heroTitle": "Websites & Content Platforms",
+	"heroSubtitle": "Fast, flexible, and built to grow with your business.",
+	"sections": [
+		{
+			"heading": "Modern Websites That Make an Impact",
+			"content": [
+				"Your website is often the first impression people have of your business. It should clearly communicate who you are, what you do, and why customers should choose you.",
+				"BarkinMad Studios designs and develops websites and content platforms that combine performance, usability, maintainability, accessibility, and search visibility to create a strong online presence."
+			]
+		},
+		{
+			"heading": "Website Development Services",
+			"content": [
+				"Business websites",
+				"Product websites",
+				"Content platforms",
+				"Information portals",
+				"Landing pages",
+				"Marketing websites",
+				"JSON-driven content management systems",
+				"[Custom web applications](/services/custom-software-development)"
+			]
+		},
+		{
+			"heading": "Performance, Accessibility & SEO",
+			"content": [
+				"Fast-loading websites provide a better experience for visitors while supporting stronger search engine visibility.",
+				"Every project is designed with responsive layouts, accessibility, performance, maintainability, and modern SEO best practices from the start."
+			]
+		},
+		{
+			"heading": "Flexible Content Management",
+			"content": [
+				"Content-driven platforms make it easy to update pages, publish new content, and expand your website without rebuilding it.",
+				"This allows your website to grow naturally as your business, products, and services evolve."
+			]
+		},
+		{
+			"heading": "Why Work With BarkinMad Studios?",
+			"content": [
+				"More than 20 years of technology experience.",
+				"Independent UK software and web developer.",
+				"Real-world websites, apps, and digital products actively designed, developed, and maintained.",
+				"Direct communication throughout every project.",
+				"Flexible engagement for startups, small businesses, and growing organisations."
+			]
+		}
+	],
+	"cta": {
+		"title": "Create a Website That Works for Your Business",
+		"content": "Whether you're launching a new website, modernising an existing platform, or building a content-driven solution, BarkinMad Studios can help create a website that's fast, reliable, and designed for long-term success.",
+		"buttonText": "Contact BarkinMad Studios",
+		"buttonLink": "/contact"
+	},
+	"lastUpdated": "2026-06-07"
 }
