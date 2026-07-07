@@ -41,7 +41,7 @@
     },
     {
       "question": "Which integrations are documented?",
-      "answer": "The current documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads, GitHub, and related provider-health states. Pages distinguish connected reporting from services still being prepared for beta feedback."
+      "answer": "The current guide covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads, GitHub, and related provider-health states. Pages distinguish connected reporting from services still being prepared for beta feedback."
     }
   ],
   "documentationLinks": [

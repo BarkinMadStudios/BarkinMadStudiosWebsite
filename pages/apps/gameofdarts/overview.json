@@ -91,7 +91,7 @@
       "heading": "Start a darts session quickly",
       "summary": "The overview introduces Game of Darts as a practical scoring companion for real match nights, casual games, and practice sessions.",
       "body": [
-        "This screen shows the flow from opening the app into choosing players and a game format. A scoring app should stay out of the way once players are ready to throw.",
+        "This view shows the flow from opening the app into choosing players and a game format. A scoring app should stay out of the way once players are ready to throw.",
         "Players use this flow to move from launch into Match, Cricket, Snooker, Bob's 27, 1 to 20, or another supported format without needing a paper scoreboard."
       ],
       "bullets": [

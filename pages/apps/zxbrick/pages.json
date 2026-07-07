@@ -81,7 +81,7 @@
     {
       "slug": "barkinmad-coins",
       "title": "BarkinMad Coins",
-      "description": "Learn how ZXBrick connects to shared ZX Series wallet behavior and unlock systems.",
+      "description": "Learn how ZXBrick uses shared ZX Series wallet and unlock systems.",
       "required": true,
       "order": 5,
       "estimatedReadTimeMinutes": 3,

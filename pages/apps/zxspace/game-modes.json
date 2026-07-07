@@ -20,7 +20,7 @@
       "heading": "Mode status",
       "paragraphs": [
         "ZXSpace supports both Local PVP and World PVP menu paths, while release behavior is finalised as new updates are confirmed.",
-        "This guide does not describe a separate finished multiplayer gameplay contract until that release behavior is verified."
+        "Multiplayer details are added once release behavior is fully verified."
       ]
     },
     {
@@ -67,7 +67,7 @@
     {
       "id": "mode-selection",
       "heading": "ZXSpace game modes",
-      "summary": "Game Modes explains how ZXSpace structures alien waves, cannon movement, city defence, and survival pressure.",
+      "summary": "Learn how ZXSpace modes layer wave patterns, cannon movement, city defence, and survival pressure.",
       "body": [
         "This matters because players need to know what kind of session they are starting and how success is measured.",
         "Players use this page to choose the right mode for a quick game, a focused practice run, or a score-chasing session."

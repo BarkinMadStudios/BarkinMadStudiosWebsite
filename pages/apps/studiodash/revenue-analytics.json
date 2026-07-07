@@ -48,7 +48,7 @@
       "id": "covered-revenue-sources",
       "heading": "Covered revenue sources",
       "paragraphs": [
-        "Revenue coverage depends on configured providers and the data each provider exposes. Public documentation uses conservative wording while StudioDash remains in development."
+        "Revenue coverage depends on configured providers and the data each provider exposes. Public guide uses conservative wording while StudioDash remains in development."
       ],
       "bullets": [
         "App Store Connect revenue can include Sales and Trends data where reporting access is configured.",

@@ -78,7 +78,7 @@
       "id": "leaderboard-settings",
       "heading": "Control how scores are posted",
       "layout": "textRight",
-      "summary": "Leaderboard behaviour connects back to settings, where players can manage auto-posting preferences where supported.",
+      "summary": "Set score sharing in settings, then compare your eligible results on leaderboards.",
       "body": [
         "This matters because players should understand when their scores are shared through Game Center. Settings keep leaderboard behaviour transparent and adjustable.",
         "Players use settings to control supported posting behaviour, then return to leaderboards to compare eligible results."

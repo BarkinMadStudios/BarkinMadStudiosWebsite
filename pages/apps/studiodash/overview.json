@@ -83,7 +83,7 @@
       "bullets": [
         "Shows the product portfolio and current operating signals together.",
         "Helps developers spot provider setup, no-data, or attention states quickly.",
-        "Connects the landing overview to the deeper analytics workflow."
+        "Shows how the landing overview to the deeper analytics workflow."
       ],
       "image": {
         "src": "apps/studiodash/Screenshot1.png",
@@ -104,8 +104,8 @@
       "summary": "StudioDash uses dedicated views for app, revenue, website, and provider detail while keeping the navigation anchored in one product workspace.",
       "body": "The screen helps developers move from a broad health check to the area that explains the change: app status, provider coverage, advertising revenue, website traffic, search visibility, or sync state. That makes the overview useful as a starting point rather than a static marketing screen.",
       "bullets": [
-        "Supports public documentation for the current StudioDash product direction.",
-        "Explains how individual analytics pages fit into the overall workflow.",
+        "Supports public guide for the current StudioDash product direction.",
+        "Shows how individual analytics pages fit into the overall workflow.",
         "Keeps planned or unavailable provider data separate from live reporting claims."
       ],
       "image": {
@@ -148,8 +148,8 @@
       "id": "current-status",
       "heading": "Current status",
       "paragraphs": [
-        "StudioDash is marked as Private Beta Planned across the BarkinMad Studios website. Documentation describes the product direction, the integration coverage currently represented in the StudioDash project, and the limited beta access route.",
-        "Where an integration is still a pre-release or roadmap item, the documentation labels it accordingly and avoids presenting planned functionality as a live feature."
+        "StudioDash is marked as Private Beta Planned across the BarkinMad Studios website. Guide describes the product direction, the integration coverage currently represented in the StudioDash project, and the limited beta access route.",
+        "Where an integration is still a pre-release or roadmap item, the guide labels it accordingly and avoids presenting planned functionality as a live feature."
       ]
     }
   ],

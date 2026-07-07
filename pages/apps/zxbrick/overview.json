@@ -71,7 +71,7 @@
     },
     {
       "id": "series-context",
-      "heading": "How this connects to the ZX Series",
+      "heading": "How it fits with the ZX Series",
       "paragraphs": [
         "The guide is connected to other ZX Series pages where shared progression systems are used, including [BarkinMad Coins](/zx-series).",
         "The wider [ZX Series](/zx-series) includes related arcade titles such as ZXSnake and [ZXSpace](/apps/zxspace)."
@@ -122,11 +122,11 @@
     {
       "id": "arcade-overview",
       "heading": "ZXBrick at a glance",
-      "summary": "Overview introduces ZXBrick as a ZX Series brick-breaking arcade game.",
+      "summary": "Overview shows ZXBrick as a ZX Series brick-breaking arcade game.",
       "body": [
         "ZXBrick is a classic brick-breaking arcade game where every level challenges your reactions, accuracy, and timing. Clear every brick, collect powerful upgrades, and master increasingly difficult layouts as you progress.",
         "Whether you’re playing for the first time or aiming for a higher score, this guide will help you understand the core mechanics and get the most out of every game.",
-		"On this page you’ll discover:"
+        "On this page you’ll discover:"
       ],
       "bullets": [
         "How ZXBrick works and what makes it fun.",

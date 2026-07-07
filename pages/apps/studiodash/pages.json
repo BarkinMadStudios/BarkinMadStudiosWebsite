@@ -285,7 +285,7 @@
     {
       "slug": "release-notes",
       "title": "Release Notes",
-      "description": "Follow public StudioDash release notes, development milestones, private-beta status, documentation updates, and availability notes.",
+      "description": "Follow public StudioDash release notes, development milestones, private-beta status, guide updates, and availability notes.",
       "required": true,
       "status": "required",
       "order": 12,
@@ -345,7 +345,7 @@
       "keywords": [
         "StudioDash guide",
         "developer dashboard guide",
-        "StudioDash documentation"
+        "StudioDash guide"
       ],
       "relatedPages": [
         "overview",

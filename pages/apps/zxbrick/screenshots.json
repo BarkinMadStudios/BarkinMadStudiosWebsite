@@ -35,7 +35,7 @@
       "id": "visual-walkthrough-standard",
       "heading": "Visual walkthrough standard",
       "paragraphs": [
-        "This page uses Feature Showcase blocks rather than a legacy bottom gallery. Each ZXBrick image is paired with what the screen shows, why it matters, and how it fits into the player workflow.",
+        "Each ZXBrick screenshot shows what to look for, why it matters, and how to use it during play.",
         "The current website image set is used as a visual walkthrough of the public app experience."
       ]
     }
@@ -45,7 +45,7 @@
     {
       "id": "visual-1",
       "heading": "Core gameplay view",
-      "summary": "This screen shows the main ZXBrick play experience and the visual style players see during brick-breaking runs.",
+      "summary": "This view shows the main ZXBrick play experience and the visual style players see during brick-breaking runs.",
       "body": [
         "It matters because players should understand what the screen is for, not only see the artwork.",
         "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."
@@ -100,7 +100,7 @@
     {
       "id": "visual-3",
       "heading": "Progression view",
-      "summary": "This artwork connects gameplay with goals such as score chasing, achievements, leaderboards, or repeat sessions.",
+      "summary": "This screenshot supports score goals, achievements, leaderboards, and repeat-session planning.",
       "body": [
         "It matters because players should understand what the screen is for, not only see the artwork.",
         "Players use this context to connect the screenshot to setup, gameplay, scoring, progress, or support workflows."

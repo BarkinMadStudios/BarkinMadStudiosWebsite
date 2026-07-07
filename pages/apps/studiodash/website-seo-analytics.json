@@ -15,7 +15,7 @@
       "id": "website-search-visibility",
       "heading": "Website and search visibility",
       "summary": "The website and SEO analytics screen pairs Cloudflare traffic signals with Google Search Console visibility.",
-      "body": "This screen solves a gap for developers whose product performance depends on websites, support pages, launch posts, and search discovery. StudioDash is designed to make traffic and search changes visible beside app and revenue signals so the user can connect marketing activity with product outcomes.",
+      "body": "This view solves a gap for developers whose product performance depends on websites, support pages, launch posts, and search discovery. StudioDash is designed to make traffic and search changes visible beside app and revenue signals so the user can connect marketing activity with product outcomes.",
       "bullets": [
         "Reviews traffic, top pages, countries, and operational website signals where available.",
         "Tracks search clicks, impressions, CTR, positions, indexed pages, and validation signals.",

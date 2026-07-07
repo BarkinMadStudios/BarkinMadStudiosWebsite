@@ -1,12 +1,12 @@
 {
-  "title": "Documentation Library",
-  "seoTitle": "Documentation Library | BarkinMad Studios",
-  "heading": "Documentation Library",
+  "title": "Guide Library",
+  "seoTitle": "Guide Library | BarkinMad Studios",
+  "heading": "Guide Library",
   "intro": "Guides, support notes, product information, and reference material for BarkinMad Studios games, apps, services, and StudioDash.",
-  "description": "Browse BarkinMad Studios documentation for the ZX Series, The Game of Darts, services, policies, and StudioDash setup, integrations, and troubleshooting guides.",
+  "description": "Browse BarkinMad Studios guide for the ZX Series, The Game of Darts, services, policies, and StudioDash setup, integrations, and troubleshooting guides.",
   "hero": {
     "image": "/images/news-bg-banner.png",
-    "alt": "BarkinMad Studios documentation library and support resources"
+    "alt": "BarkinMad Studios guide library and support resources"
   },
   "categories": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "title": "Studio",
-      "description": "Business, service, and policy documentation.",
+      "description": "Business, service, and policy guide.",
       "documents": [
         {
           "title": "Services",
@@ -64,7 +64,7 @@
     },
     {
       "title": "StudioDash",
-      "description": "Documentation area for StudioDash setup, integrations, private beta access, and troubleshooting as the product approaches private beta.",
+      "description": "Guide area for StudioDash setup, integrations, private beta access, and troubleshooting as the product approaches private beta.",
       "documents": [
         {
           "title": "Setup",
@@ -103,7 +103,7 @@
     "Category filtering ready",
     "Search-ready JSON structure",
     "Related document support",
-    "Expandable documentation categories"
+    "Expandable guide categories"
   ],
   "actions": [
     {
@@ -111,7 +111,7 @@
       "href": "/services"
     },
     {
-      "label": "Browse App Documentation",
+      "label": "Browse App Guide",
       "href": "/apps"
     },
     {

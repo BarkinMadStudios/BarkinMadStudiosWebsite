@@ -3,7 +3,7 @@
   "title": "ZXBrick Complete Guide",
   "seoTitle": "ZXBrick Complete Guide | BarkinMad Studios",
   "description": "A full text guide for ZXBrick covering gameplay flow, controls, levels, power-ups, progression systems, and practical improvement methods.",
-  "summary": ""Learn everything you need in one place for ZXBrick so search engines and accessibility users can access the full details in HTML text.",
+  "summary": "Everything you need in one place for ZXBrick so you can jump straight into play with clear guidance.",
   "heroImage": "apps/zxbrick/zxbrick-hero.png",
   "heroImageAlt": "ZXBrick brick-breaking gameplay hero",
   "imageMetadata": [
@@ -201,7 +201,7 @@
     {
       "id": "complete-guide-route",
       "heading": "ZXBrick complete guide",
-      "summary": "The Guide brings setup, play, support, and progress topics into one path for your gameplay flow.",
+      "summary": "Get setup, play, progress, and support guidance in one practical guide path.",
       "body": [
         "This matters because the ZX Series pages should feel consistent across all games. The guide helps players move from the overview into the exact page they need without losing context.",
         "Players use this page as the main map when they want a complete explanation rather than a single topic."
@@ -226,7 +226,7 @@
     {
       "id": "from-play-to-progress",
       "heading": "From play to progress",
-      "summary": "The ZXBrick guide explains what to do during a session and what to review afterward.",
+      "summary": "Learn a session rhythm: what to do now and what to review before your next round.",
       "body": [
         "This matters because arcade games are easy to start but deeper when players understand scoring, progress, and goals.",
         "Players use the guide to connect active play with achievements, leaderboards, BarkinMad Coins, and support pages."

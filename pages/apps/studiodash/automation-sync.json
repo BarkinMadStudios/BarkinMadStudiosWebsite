@@ -46,7 +46,7 @@
       "bullets": [
         "Opening the app or viewing provider details should not imply that every provider has just synced.",
         "Manual provider sync and refresh-all actions are separate from setup and scheduled refresh behavior.",
-        "Provider data is read from saved configuration, provider cache, and current sync state rather than from public documentation pre-release coverage."
+        "Provider data is read from saved configuration, provider cache, and current sync state rather than from public guide pre-release coverage."
       ]
     },
     {
@@ -68,7 +68,7 @@
       "id": "manual-refresh",
       "heading": "Manual refresh and cache state",
       "paragraphs": [
-        "StudioDash documentation describes sync as a user-visible workflow, not a background mystery. Integration cards can show last synced, last checked, next refresh, health, and data coverage context where available.",
+        "StudioDash guide describes sync as a user-visible workflow, not a background mystery. Integration cards can show last synced, last checked, next refresh, health, and data coverage context where available.",
         "Manual sync should be understood as provider-specific. A single provider action refreshes the selected provider, while broader refresh-all behavior is a separate operation. Setup tests validate configuration before treating saved credentials as active live access."
       ],
       "bullets": [

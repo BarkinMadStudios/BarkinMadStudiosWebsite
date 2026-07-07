@@ -29,7 +29,7 @@
     {
       "id": "mode-selection",
       "heading": "ZXSnake game modes",
-      "summary": "Game Modes explains how ZXSnake structures survival runs, score chasing, food collection, and progression goals.",
+      "summary": "Learn how ZXSnake modes shape survival runs, score targets, food collection, and progression goals.",
       "body": [
         "This matters because players need to know what kind of session they are starting and how success is measured.",
         "Players use this page to choose the right mode for a quick game, a focused practice run, or a score-chasing session."

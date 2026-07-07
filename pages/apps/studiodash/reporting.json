@@ -48,7 +48,7 @@
       "id": "current-reporting-surfaces",
       "heading": "Current reporting surfaces",
       "paragraphs": [
-        "The public StudioDash documentation describes reporting as a connected workflow rather than one isolated page. The main reporting inputs are the dashboard overview, revenue analytics, app and App Store analytics, website and SEO analytics, integration health, and sync state.",
+        "The public StudioDash guide describes reporting as a connected workflow rather than one isolated page. The main reporting inputs are the dashboard overview, revenue analytics, app and App Store analytics, website and SEO analytics, integration health, and sync state.",
         "Those surfaces combine selected-period metrics with current operational status. That distinction matters: revenue, downloads, visitors, search clicks, and trend values can be period-based, while provider health, app lifecycle, validation state, and attention items describe the latest known state."
       ],
       "bullets": [
@@ -78,7 +78,7 @@
       "heading": "Export and scheduled reporting",
       "paragraphs": [
         "CSV export, PDF export, scheduled reports, forecasting, AI summaries, and deeper portfolio reporting are documented as roadmap or tier-linked product direction unless a public release confirms availability.",
-        "The intended direction is straightforward: Pro-level reporting should help with deeper analysis and exportable data, while Studio-level reporting should support portfolio intelligence, scheduled summaries, forecasting, and richer automation. Public documentation should keep that distinction clear while StudioDash remains in private beta preparation."
+        "The intended direction is straightforward: Pro-level reporting should help with deeper analysis and exportable data, while Studio-level reporting should support portfolio intelligence, scheduled summaries, forecasting, and richer automation. Public guide should keep that distinction clear while StudioDash remains in private beta preparation."
       ]
     }
   ],

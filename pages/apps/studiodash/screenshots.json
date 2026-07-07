@@ -10,7 +10,7 @@
     {
       "id": "portfolio-dashboard",
       "heading": "Portfolio dashboard overview",
-      "summary": "This screen shows the main StudioDash dashboard, where app, website, revenue, provider, and sync signals are brought into one operating view.",
+      "summary": "This view shows the main StudioDash dashboard, where app, website, revenue, provider, and sync signals are brought into one operating view.",
       "body": [
         "It matters because independent developers often need to check product health quickly before deciding where to spend time. The dashboard is designed to make that first pass faster than opening each provider separately.",
         "The related workflow is the daily or weekly portfolio review: check overall status, spot missing data, identify providers that need attention, then move into specialist views for deeper analysis."
@@ -37,9 +37,9 @@
       "id": "app-provider-analytics",
       "heading": "App and provider analytics",
       "layout": "textRight",
-      "summary": "This screen represents StudioDash's app and provider analytics workspace, including App Store Connect context and provider-health language.",
+      "summary": "This view represents StudioDash's app and provider analytics workspace, including App Store Connect context and provider-health language.",
       "body": [
-        "It matters because a missing or stale metric can mean several different things: account setup, provider availability, sync state, pre-release coverage, or a genuine product issue. StudioDash documentation keeps those meanings explicit.",
+        "It matters because a missing or stale metric can mean several different things: account setup, provider availability, sync state, pre-release coverage, or a genuine product issue. StudioDash guide keeps those meanings explicit.",
         "The related workflow is provider review: confirm which integrations are connected, understand their current state, then use app-level views to interpret downloads, sales, ratings, reviews, and lifecycle status where live provider data is available."
       ],
       "bullets": [
@@ -67,7 +67,7 @@
     {
       "id": "revenue-trend-review",
       "heading": "Revenue and trend review",
-      "summary": "This screen shows the revenue and trend-review side of StudioDash, where App Store, advertising, and period-based business metrics are reviewed together.",
+      "summary": "This view shows the revenue and trend-review side of StudioDash, where App Store, advertising, and period-based business metrics are reviewed together.",
       "body": [
         "It matters because revenue checks are most useful when totals, provider context, time period, and trend direction are presented together. The page explains the kind of decision-making this screen is intended to support.",
         "The related workflow is a revenue review: choose the reporting period, compare provider totals, identify unusual movement, and use reporting pages for follow-up summaries or export planning."
@@ -81,7 +81,7 @@
       "image": {
         "src": "apps/studiodash/Screenshot3.png",
         "alt": "StudioDash revenue and trend review screenshot",
-        "caption": "The revenue image supports revenue analytics, trend review, and reporting documentation."
+        "caption": "The revenue image supports revenue analytics, trend review, and reporting guide."
       },
       "links": [
         {
@@ -98,7 +98,7 @@
       "id": "website-seo-sync",
       "heading": "Website, SEO, and sync insight",
       "layout": "textRight",
-      "summary": "This screen represents the website, SEO, integration, and sync areas where Cloudflare, Search Console, provider status, and automation signals are reviewed.",
+      "summary": "This view represents the website, SEO, integration, and sync areas where Cloudflare, Search Console, provider status, and automation signals are reviewed.",
       "body": [
         "It matters because product visibility is not only an app-store problem. Developers also need to understand website traffic, search visibility, provider freshness, and sync confidence before they trust a dashboard view.",
         "The related workflow is operational follow-up: check whether website and search data is present, review provider freshness, refresh data when needed, and keep privacy expectations clear when live accounts are connected."
@@ -177,7 +177,7 @@
       "id": "visual-walkthrough-standard",
       "heading": "Visual walkthrough standard",
       "paragraphs": [
-        "This page uses Feature Showcase blocks rather than a legacy bottom gallery. Each screenshot is paired with what the screen shows, why it matters, the related StudioDash workflow, and key capabilities.",
+        "This guide uses Feature Showcase blocks rather than a legacy bottom gallery. Each screenshot is paired with what the screen shows, why it matters, the related StudioDash workflow, and key capabilities.",
         "The current public image set remains `Screenshot1` through `Screenshot4`. Future dedicated screenshots can replace these pre-release coverage without changing the walkthrough structure."
       ]
     }

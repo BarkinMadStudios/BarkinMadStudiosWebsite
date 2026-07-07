@@ -60,7 +60,7 @@
     {
       "id": "mode-selection",
       "heading": "ZXBrick game modes",
-      "summary": "Game Modes explains how ZXBrick structures brick layouts, level progression, power-up decisions, and score chasing.",
+      "summary": "Learn how ZXBrick structures brick layouts, level progression, power-up choices, and score goals.",
       "body": [
         "This matters because players need to know what kind of session they are starting and how success is measured.",
         "Players use this page to choose the right mode for a quick game, a focused practice run, or a score-chasing session."

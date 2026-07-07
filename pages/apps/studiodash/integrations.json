@@ -48,7 +48,7 @@
       "id": "documented-integrations",
       "heading": "Documented integrations",
       "paragraphs": [
-        "Current public documentation covers the providers below. Integration status wording is intentionally conservative while StudioDash remains in development."
+        "Current public guide covers the providers below. Integration status wording is intentionally conservative while StudioDash remains in development."
       ],
       "bullets": [
         "App Store Connect: app metadata coverage is documented, with sales and analytics reporting described as in development where applicable.",

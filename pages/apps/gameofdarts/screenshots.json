@@ -93,7 +93,7 @@
       "id": "visual-walkthrough-standard",
       "heading": "Visual walkthrough standard",
       "paragraphs": [
-        "This page uses Feature Showcase blocks rather than a legacy bottom gallery. Each screenshot explains what players are looking at, why the screen matters, and how it fits into a typical Game of Darts session.",
+        "Each screenshot shows what to look for, why it matters, and how to use that screen in a typical Game of Darts session.",
         "The current website image set is used as a visual walkthrough of the public app experience."
       ]
     }
@@ -197,7 +197,7 @@
       "id": "premium-access",
       "heading": "Premium access options",
       "layout": "textRight",
-      "summary": "The premium access screen explains optional unlocks such as Pro, DartBot access, and time-limited passes where available.",
+      "summary": "Learn what optional unlock options are available, including Pro, DartBot access, and time-limited passes.",
       "body": [
         "It matters because players should understand what is optional before they choose an unlock. The screen supports a clear path from free use into extra features without interrupting the basic scoring experience.",
         "Players use this area when they want DartBot, advanced features, or a broader premium experience for regular match nights."

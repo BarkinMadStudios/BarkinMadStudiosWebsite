@@ -3,7 +3,7 @@
   "title": "StudioDash Guide",
   "seoTitle": "StudioDash Guide | BarkinMad Studios",
   "description": "A StudioDash guide to the product overview, private beta, integrations, analytics, reporting, sync, security, FAQ, release notes, and screenshots.",
-  "summary": "Use this guide as the main route through StudioDash documentation, from product orientation through provider setup concepts, analytics, reporting, and security.",
+  "summary": "Use this guide as the main flow through StudioDash guide, from product orientation through provider setup concepts, analytics, reporting, and security.",
   "heroImage": "apps/studiodash/studiodash-hero.png",
   "heroImageAlt": "StudioDash guide dashboard",
   "referenceImage": {
@@ -13,9 +13,9 @@
   "featureShowcases": [
     {
       "id": "guide-route",
-      "heading": "A practical route through StudioDash",
+      "heading": "A practical flow through StudioDash",
       "summary": "The guide is organised around how a developer would evaluate StudioDash: first the product, then providers, then analytics, then operating and privacy detail.",
-      "body": "StudioDash documentation is not intended to be read as a loose set of marketing pages. Each page explains part of the same workflow: connect provider context, review app and revenue signals, understand website and search visibility, read sync state, and keep roadmap claims separate from released behavior.",
+      "body": "StudioDash guide is not intended to be read as a loose set of marketing pages. Each page explains part of the same workflow: connect provider context, review app and revenue signals, understand website and search visibility, read sync state, and keep roadmap claims separate from released behavior.",
       "bullets": [
         "Start with overview, private beta, features, and integrations.",
         "Use dashboard and analytics pages to understand the operating model.",
@@ -24,7 +24,7 @@
       "image": {
         "src": "apps/studiodash/Screenshot1.png",
         "alt": "StudioDash dashboard overview supporting the guide workflow",
-        "caption": "The overview screenshot supports the guide workflow and entry path through the documentation set."
+        "caption": "The overview screenshot supports the guide workflow and entry path through the guide set."
       },
       "layout": "textRight",
       "links": [
@@ -41,7 +41,7 @@
       "heading": "Start here",
       "paragraphs": [
         "Start with the [StudioDash overview](/apps/studiodash), then review the [Private Beta](/apps/studiodash/private-beta), [Features](/apps/studiodash/features), and [Integrations](/apps/studiodash/integrations) pages. Those pages explain the product direction, beta access route, and provider coverage before you move into detailed analytics.",
-        "StudioDash is currently preparing for a controlled private beta, so public documentation separates implemented coverage from pre-release coverage and roadmap items. That distinction is important across the whole guide."
+        "StudioDash is currently preparing for a controlled private beta, so public guide separates implemented coverage from pre-release coverage and roadmap items. That distinction is important across the whole guide."
       ],
       "bullets": [
         "Read Overview for the product purpose and audience.",
@@ -69,12 +69,12 @@
       "heading": "Operations path",
       "paragraphs": [
         "For day-to-day operation, read [Reporting](/apps/studiodash/reporting), [Automation & Sync](/apps/studiodash/automation-sync), and [Security & Privacy](/apps/studiodash/security-privacy). These pages explain how to interpret reports, understand provider sync state, and approach credentials and local operational data responsibly.",
-        "The operating path is where StudioDash documentation is most careful about wording. A missing value may mean no provider history, no data in the selected period, an unconfigured provider, an error, or a planned integration. The documentation should help users tell those states apart."
+        "The operating path is where StudioDash guide is most careful about wording. A missing value may mean no provider history, no data in the selected period, an unconfigured provider, an error, or a planned integration. The guide should help users tell those states apart."
       ],
       "bullets": [
         "Reporting explains how to review selected-period summaries and provider context.",
         "Automation & Sync explains provider health, manual refresh, cache state, and roadmap automation.",
-        "Security & Privacy explains credential principles, provider permissions, local data, and public documentation boundaries."
+        "Security & Privacy explains credential principles, provider permissions, local data, and public guide boundaries."
       ]
     },
     {
@@ -86,7 +86,7 @@
       ],
       "bullets": [
         "FAQ answers common public questions about availability, platforms, providers, data, reporting, and roadmap items.",
-        "Release Notes records public-facing documentation, product, beta, and availability milestones.",
+        "Release Notes records player-facing guide, product, beta, and availability milestones.",
         "Screenshots provides the current visual walkthrough using the dashboard artwork available in the website repository."
       ]
     }
@@ -94,7 +94,7 @@
   "keywords": [
     "StudioDash guide",
     "developer dashboard guide",
-    "StudioDash documentation"
+    "StudioDash guide"
   ],
   "estimatedReadTimeMinutes": 5,
   "contentStatus": "verified",

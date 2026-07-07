@@ -15,15 +15,15 @@
       "id": "faq-overview",
       "heading": "Quick answers",
       "paragraphs": [
-        "This FAQ summarises the main public StudioDash questions for developers reviewing the product before private beta. StudioDash is still in development, so the answers distinguish current documentation, planned beta access, pre-release integrations, and roadmap features.",
-        "For the most complete route through the documentation, start with the overview, then read Integrations, Dashboard, Revenue Analytics, Reporting, Automation & Sync, and Security & Privacy."
+        "This support section summarises the main public StudioDash questions for developers reviewing the product before private beta. StudioDash is still in development, so the answers distinguish current guide, planned beta access, pre-release integrations, and roadmap features.",
+        "For the most complete flow through the guide, start with the overview, then read Integrations, Dashboard, Revenue Analytics, Reporting, Automation & Sync, and Security & Privacy."
       ]
     },
     {
       "id": "how-to-use-this-faq",
       "heading": "How to use this FAQ",
       "paragraphs": [
-        "Use these answers to understand the product direction and public terminology. They are not a replacement for provider documentation, App Store Connect account guidance, Cloudflare token guidance, Google OAuth consent guidance, or final release notes.",
+        "Use these answers to understand the product direction and public terminology. They are not a replacement for provider guide, App Store Connect account guidance, Cloudflare token guidance, Google OAuth consent guidance, or final release notes.",
         "When an answer mentions planned, pre-release, roadmap, or private beta behavior, treat that wording as intentional. It means the public website is documenting direction without claiming every feature is generally available."
       ]
     }
@@ -47,11 +47,11 @@
     },
     {
       "question": "Which integrations are documented?",
-      "answer": "Current public documentation covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads pre-release coverage, GitHub pre-release coverage, and related provider-health language."
+      "answer": "Current public guide covers App Store Connect, AdMob, AdSense, Cloudflare, Google Search Console, Google Ads pre-release coverage, GitHub pre-release coverage, and related provider-health language."
     },
     {
       "question": "Are all documented integrations live?",
-      "answer": "No. StudioDash documentation separates implemented coverage from pre-release and roadmap items. Pre-release integrations should not be read as live provider reporting."
+      "answer": "No. StudioDash guide separates implemented coverage from pre-release and roadmap items. Pre-release integrations should not be read as live provider reporting."
     },
     {
       "question": "Does StudioDash replace provider dashboards?",
@@ -67,7 +67,7 @@
     },
     {
       "question": "How does StudioDash handle reporting periods?",
-      "answer": "StudioDash documentation describes selected-period summaries for metrics such as revenue, downloads, website traffic, and search visibility where provider history is available. Current operational states such as provider health and app lifecycle are latest-state signals rather than historical totals."
+      "answer": "StudioDash guide describes selected-period summaries for metrics such as revenue, downloads, website traffic, and search visibility where provider history is available. Current operational states such as provider health and app lifecycle are latest-state signals rather than historical totals."
     },
     {
       "question": "Are exports and scheduled reports available?",
@@ -78,7 +78,7 @@
       "answer": "StudioDash is designed around provider-specific access, protected credential handling, local operational data, and clear separation between demo, pre-release, and live information. Users should configure provider permissions according to their own account policies."
     },
     {
-      "question": "Where should I start in the documentation?",
+      "question": "Where should I start in the guide?",
       "answer": "Start with the StudioDash overview, then review Features, Integrations, Dashboard, Revenue Analytics, Reporting, Automation & Sync, Security & Privacy, and the Screenshots page."
     }
   ],

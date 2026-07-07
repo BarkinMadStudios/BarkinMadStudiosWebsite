@@ -62,7 +62,7 @@
       "heading": "Release notes",
       "paragraphs": [
         "ZXSpace is Coming Soon.",
-        "This guide is ready for live discovery while final App Store delivery and approval details are still being confirmed.",
+        "This section is live now while final App Store delivery and approval details are still being confirmed.",
         "Current central notes confirm the solo city-defence path. Multiplayer behavior may be updated in release notes as the game evolves."
       ]
     }
@@ -107,13 +107,13 @@
     {
       "id": "arcade-overview",
       "heading": "ZXSpace at a glance",
-      "summary": "Overview introduces ZXSpace as a ZX Series space defence arcade game.",
+      "summary": "Overview shows ZXSpace as a ZX Series space defence arcade game.",
       "body": [
-        "This screen helps players move from discovering the game to understanding how it plays. ZXSpace is presented around space defence runs, so players can see the core loop before reading deeper guides.",
+        "This view helps players move from discovering the game to understanding how it plays. ZXSpace is presented around space defence runs, so players can see the core loop before reading deeper guides.",
         "Players use this page to decide where to go next: setup, controls, game modes, progression, screenshots, or support topics."
       ],
       "bullets": [
-        "Summarises the core arcade loop.",
+        "Breaks down the core arcade loop.",
         "Take players from the game landing page into these gameplay guides.",
         "Keeps public wording focused on player experience and supported features."
       ],

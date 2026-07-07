@@ -107,13 +107,13 @@
     {
       "id": "arcade-overview",
       "heading": "ZXPong at a glance",
-      "summary": "Overview introduces ZXPong as a ZX Series pong arcade game.",
+      "summary": "Overview shows ZXPong as a ZX Series pong arcade game.",
       "body": [
-        "This screen helps you move from discovering the game to understanding how it plays. ZXPong is presented around pong matches, so you can see the core loop before reading deeper guides.",
+        "This view helps you move from discovering the game to understanding how it plays. ZXPong is presented around pong matches, so you can see the core loop before reading deeper guides.",
         "Players use this page to decide where to go next: setup, controls, game modes, progression, screenshots, or support topics."
       ],
       "bullets": [
-        "Summarises the core arcade loop.",
+        "Breaks down the core arcade loop.",
         "Take players from the game landing page into these gameplay guides.",
         "Keeps public wording focused on player experience and supported features."
       ],

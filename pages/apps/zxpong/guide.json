@@ -33,7 +33,7 @@
       "id": "release-check",
       "heading": "Release check",
       "paragraphs": [
-        "This guide is aligned to the live App Store release, with only future artwork updates expected.",
+        "This release follows the live App Store version; only final artwork updates remain.",
         "Some pages use shared supporting artwork where a dedicated ZXPong screenshot is not required for the explanation."
       ]
     }
@@ -74,7 +74,7 @@
     {
       "id": "complete-guide-route",
       "heading": "ZXPong complete guide",
-      "summary": "The Guide brings setup, play, support, and progress topics into one path for your gameplay flow.",
+      "summary": "Get setup, play, progress, and support guidance in one practical guide path.",
       "body": [
         "This matters because the ZX Series pages should feel consistent across all games. The guide helps players move from the overview into the exact page they need without losing context.",
         "Players use this page as the main map when they want a complete explanation rather than a single topic."
@@ -99,7 +99,7 @@
     {
       "id": "from-play-to-progress",
       "heading": "From play to progress",
-      "summary": "The ZXPong guide explains what to do during a session and what to review afterward.",
+      "summary": "Learn a session rhythm: what to do now and what to review before your next round.",
       "body": [
         "This matters because arcade games are easy to start but deeper when players understand scoring, progress, and goals.",
         "Players use the guide to connect active play with achievements, leaderboards, BarkinMad Coins, and support pages."

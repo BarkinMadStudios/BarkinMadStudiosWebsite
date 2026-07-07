@@ -14,11 +14,11 @@
     {
       "id": "privacy-aware-operations",
       "heading": "Privacy-aware operating view",
-      "summary": "StudioDash presents sensitive operational metrics without turning public documentation into an implementation or credential guide.",
+      "summary": "StudioDash presents sensitive operational metrics without turning public guide into an implementation or credential guide.",
       "body": "The security and privacy model is user-facing: users need to know what kinds of provider access are involved, why setup state matters, and how live data differs from demo or pre-release content. Public pages deliberately avoid exposing private account details, credentials, unpublished diagnostics, or internal implementation notes.",
       "bullets": [
         "Uses provider-specific access patterns such as App Store Connect credentials, Cloudflare tokens, and Google OAuth where appropriate.",
-        "Keeps secrets out of visible dashboard copy and public documentation.",
+        "Keeps secrets out of visible dashboard copy and public guide.",
         "Separates live provider data from demo data, sample rows, planned integrations, and roadmap examples."
       ],
       "image": {
@@ -40,14 +40,14 @@
       "id": "security-principles",
       "heading": "Security principles",
       "paragraphs": [
-        "StudioDash handles provider integrations that can involve sensitive account, analytics, revenue, website, advertising, and app-status data. Public documentation therefore focuses on user-facing principles rather than low-level implementation details.",
+        "StudioDash handles provider integrations that can involve sensitive account, analytics, revenue, website, advertising, and app-status data. Public guide therefore focuses on user-facing principles rather than low-level implementation details.",
         "The product direction is to keep credentials protected, use provider-specific access where possible, avoid exposing secrets in the interface, and make setup state understandable. Security copy should help users make good configuration decisions without encouraging broad account access when narrower reporting access is enough."
       ],
       "bullets": [
         "Request only the provider access needed for the selected integration and reporting surface.",
         "Store secrets through the app's credential handling path rather than treating public configuration text as a credential store.",
         "Display saved-securely, setup, validation, and provider-health states without showing secret values.",
-        "Keep public documentation free from private account IDs, tokens, keys, diagnostics, and unreleased operational details."
+        "Keep public guide free from private account IDs, tokens, keys, diagnostics, and unreleased operational details."
       ]
     },
     {
@@ -69,7 +69,7 @@
       "heading": "Local data and cache",
       "paragraphs": [
         "StudioDash is a native Mac and iPad product, so the user experience depends on local app data as well as provider access. Local dashboard storage, provider cache, sync cursors, and derived metrics can help the app show selected-period history without constantly refetching every provider.",
-        "Public documentation should describe this at a practical level: StudioDash may store operational dashboard data and provider-derived history locally so the dashboard can display previous periods, cache state, and provider coverage. It should not publish internal cache paths, private diagnostics, or account-specific records."
+        "Public guide should describe this at a practical level: StudioDash may store operational dashboard data and provider-derived history locally so the dashboard can display previous periods, cache state, and provider coverage. It should not publish internal cache paths, private diagnostics, or account-specific records."
       ],
       "bullets": [
         "Operational dashboard data may include app, revenue, website, provider, and sync-state records.",
@@ -87,7 +87,7 @@
       ],
       "bullets": [
         "Use clear status wording instead of exposing raw provider errors unnecessarily.",
-        "Avoid screenshots or documentation examples that reveal private accounts, tokens, customer data, or unpublished business metrics.",
+        "Avoid screenshots or guide examples that reveal private accounts, tokens, customer data, or unpublished business metrics.",
         "Make it obvious when a page is discussing roadmap behavior rather than a released security feature.",
         "Keep provider dashboards as the authority for account administration, access revocation, and permission management."
       ]

@@ -28,7 +28,7 @@
       "heading": "Local PVP status",
       "paragraphs": [
         "Local PVP is planned for a later update; World PVP is the multiplayer option currently available.",
-        "This guide keeps Local PVP out until the release configuration changes."
+        "Local PVP is not active in this release, and will appear once release configuration changes."
       ]
     }
   ],
@@ -67,7 +67,7 @@
     {
       "id": "mode-selection",
       "heading": "ZXPong game modes",
-      "summary": "Game Modes explains how ZXPong structures paddle rallies, point scoring, local play, and supported competitive surfaces.",
+      "summary": "Learn how ZXPong modes shape rally flow, score pressure, and your competitive setup.",
       "body": [
         "This matters because players need to know what kind of session they are starting and how success is measured.",
         "Players use this page to choose the right mode for a quick game, a focused practice run, or a score-chasing session."

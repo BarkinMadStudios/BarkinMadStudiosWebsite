@@ -15,11 +15,11 @@
       "id": "daily-operating-view",
       "heading": "Daily operating view",
       "summary": "The dashboard screen is the starting point for reviewing app, revenue, website, provider, sync, and trend signals.",
-      "body": "This screen solves the common problem of scattered operational data. Developers can begin with a single workspace, see whether a product or provider needs attention, and then open the specialist analytics page that explains the change.",
+      "body": "This view solves the common problem of scattered operational data. Developers can begin with a single workspace, see whether a product or provider needs attention, and then open the specialist analytics page that explains the change.",
       "bullets": [
         "Highlights revenue, app status, website activity, provider health, and sync state.",
         "Keeps cards visible when setup or provider data is missing.",
-        "Connects daily review to dedicated analytics and reporting pages."
+        "Shows how daily review to dedicated analytics and reporting pages."
       ],
       "image": {
         "src": "apps/studiodash/Screenshot1.png",
@@ -62,7 +62,7 @@
       "id": "demo-and-live-context",
       "heading": "Demo and live context",
       "paragraphs": [
-        "StudioDash documentation separates product direction from public availability. The app includes demo and live data concepts in the product, but public website copy does not treat demo values as live customer data.",
+        "StudioDash guide separates product direction from public availability. The app includes demo and live data concepts in the product, but public website copy does not treat demo values as live customer data.",
         "When provider data is unavailable, StudioDash is designed to keep the relevant cards visible with clear setup or no-data messaging rather than hiding the surface or implying data exists."
       ]
     }
