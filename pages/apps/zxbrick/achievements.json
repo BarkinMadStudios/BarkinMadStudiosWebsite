@@ -1,90 +1,92 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXBrick Achievements",
-  "seoTitle": "ZXBrick Achievements | BarkinMad Studios",
-  "description": "Review the published ZXBrick achievement list and how to use it in replay loops.",
-  "summary": "Treat achievements as milestone anchors for short, measurable progress in replay sessions.",
-  "heroImage": "apps/zxbrick/zxbrick-hero.png",
-  "heroImageAlt": "ZXBrick achievements",
-  "sections": [
-    {
-      "id": "available",
-      "heading": "Available achievements",
-      "paragraphs": [
-        "The current public site data includes milestone goals tied to game volume and brick completion milestones."
-      ],
-      "bullets": [
-        "Play 10 Games",
-        "Play 25 Games",
-        "Play 50 Games",
-        "Play 100 Games",
-        "Destroy 500 Bricks",
-        "Destroy 1000 Bricks"
-      ]
-    },
-    {
-      "id": "use-achievements",
-      "heading": "Use achievements in your schedule",
-      "paragraphs": [
-        "Pick one achievement target per session.",
-        "Use short sessions to hit each target with focused goal consistency."
-      ]
-    }
-  ],
-  "relatedPages": [
-    "leaderboards",
-    "tips-and-strategy",
-    "barkinmad-coins",
-    "how-to-play"
-  ],
-  "relatedLinks": [
-    {
-      "label": "Review ZXBrick Leaderboards",
-      "href": "/apps/zxbrick/leaderboards"
-    },
-    {
-      "label": "Improve with ZXBrick Tips & Strategy",
-      "href": "/apps/zxbrick/tips-and-strategy"
-    },
-    {
-      "label": "Understand BarkinMad Coins in ZXBrick",
-      "href": "/apps/zxbrick/barkinmad-coins"
-    }
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXBrick achievements",
-    "arcade milestones",
-    "progress goals"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "achievement-goals",
-      "heading": "ZXBrick achievements",
-      "summary": "Achievements give ZXBrick players optional goals beyond a single run or match.",
-      "body": [
-        "This matters because players often want a reason to revisit the game after learning the basics. Achievement goals add structure without changing the core arcade loop.",
-        "Players use this page after playing to understand which progress tracking are supported and how achievements relate to regular sessions."
-      ],
-      "bullets": [
-        "Learn how repeat play to optional goals.",
-        "Keeps achievement wording tied to supported game behaviour.",
-        "Pairs naturally with leaderboards and tips."
-      ],
-      "image": {
-        "src": "apps/zxbrick/zxbrick-hero.png",
-        "alt": "ZXBrick achievements artwork",
-        "caption": "ZXBrick achievement artwork supports optional progression goals."
-      },
-      "links": [
-        {
-          "label": "View leaderboards",
-          "href": "/apps/zxbrick/leaderboards"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXBrick Achievements",
+	"seoTitle": "ZXBrick Achievements | BarkinMad Studios",
+	"description": "Unlock achievements by playing ZXBrick, destroying bricks, and reaching new gameplay milestones.",
+	"summary": "Achievements reward your progress as you master ZXBrick and encourage you to keep improving with every game.",
+	"heroImage": "apps/zxbrick/zxbrick-hero.png",
+	"heroImageAlt": "ZXBrick achievements",
+	"sections": [
+		{
+			"id": "available",
+			"heading": "Available Achievements",
+			"paragraphs": [
+				"ZXBrick includes a collection of Game Center achievements that reward regular play and key gameplay milestones.",
+				"Whether you're aiming to complete more games or smash thousands of bricks, every achievement provides another goal to work towards."
+			],
+			"bullets": [
+				"Play 10 Games",
+				"Play 25 Games",
+				"Play 50 Games",
+				"Play 100 Games",
+				"Destroy 500 Bricks",
+				"Destroy 1,000 Bricks"
+			]
+		},
+		{
+			"id": "use-achievements",
+			"heading": "Keep Challenging Yourself",
+			"paragraphs": [
+				"Choose one achievement to focus on during each play session. Smaller goals make it easier to see your progress while gradually unlocking the full achievement collection.",
+				"Achievements work alongside leaderboards and BarkinMad Coins, giving you more reasons to return for another game."
+			]
+		}
+	],
+	"relatedPages": [
+		"leaderboards",
+		"tips-and-strategy",
+		"barkinmad-coins",
+		"how-to-play"
+	],
+	"relatedLinks": [
+		{
+			"label": "View Leaderboards",
+			"href": "/apps/zxbrick/leaderboards"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxbrick/tips-and-strategy"
+		},
+		{
+			"label": "Learn About BarkinMad Coins",
+			"href": "/apps/zxbrick/barkinmad-coins"
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXBrick achievements",
+		"Game Center achievements",
+		"arcade milestones",
+		"progress goals"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "achievement-goals",
+			"heading": "Every Game Counts",
+			"summary": "Achievements give you extra goals to work towards every time you play ZXBrick.",
+			"body": [
+				"Whether you're chasing your next milestone or aiming to destroy even more bricks, achievements provide an extra layer of progression without changing the fast-paced arcade gameplay.",
+				"Combined with leaderboards and BarkinMad Coins, achievements encourage you to keep improving and coming back for one more game."
+			],
+			"bullets": [
+				"Unlock achievements through regular play.",
+				"Track your long-term progress.",
+				"Works alongside leaderboards and BarkinMad Coins."
+			],
+			"image": {
+				"src": "apps/zxbrick/zxbrick-hero.png",
+				"alt": "ZXBrick achievements",
+				"caption": "Unlock new milestones as you continue playing ZXBrick."
+			},
+			"links": [
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxbrick/leaderboards"
+				}
+			]
+		}
+	]
 }

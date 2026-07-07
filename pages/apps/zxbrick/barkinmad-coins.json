@@ -1,87 +1,88 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "BarkinMad Coins in ZXBrick",
-  "seoTitle": "BarkinMad Coins | ZXBrick | BarkinMad Studios",
-  "description": "How shared BarkinMad Coins behavior is represented in ZXBrick, where gameplay rewards support unlock progression and shared cross-title rewards inside the ZX Series ecosystem.",
-  "summary": "BarkinMad Coins are shared within the ZX Series model and are used as a progression-oriented reward currency.",
-  "heroImage": "apps/barkinmadcoins.png",
-  "heroImageAlt": "BarkinMad Coins shared ZX Series rewards visual",
-  "images": [
-    {
-      "src": "apps/barkinmadcoins.png",
-      "alt": "BarkinMad Coins shared ZX Series reference"
-    }
-  ],
-  "imageSectionTitle": "BarkinMad Coins Images",
-  "sections": [
-    {
-      "id": "what-is",
-      "heading": "What it is",
-      "paragraphs": [
-        "BarkinMad Coins are the shared progression token model across supported ZX Series titles.",
-        "In ZXBrick, they connect gameplay participation with broader unlock opportunities."
-      ]
-    },
-    {
-      "id": "how-it-helps",
-      "heading": "How it helps progression",
-      "paragraphs": [
-        "Treat coins as a long-term loop, not a one-off bonus.",
-        "When planning sessions, include coin progression in your weekly targets alongside levels and scores."
-      ]
-    }
-  ],
-  "relatedPages": [
-    "achievements",
-    "leaderboards",
-    "overview"
-  ],
-  "relatedLinks": [
-    {
-      "label": "ZX Series",
-      "href": "/zx-series"
-    }
-  ],
-  "faq": [
-    {
-      "question": "Do BarkinMad Coins have real-world value?",
-      "answer": "BarkinMad Coins are documented as in-app progression currency and have no cash value."
-    }
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "BarkinMad Coins",
-    "ZX Series wallet",
-    "progression"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "coins-and-unlocks",
-      "heading": "BarkinMad Coins support",
-      "summary": "BarkinMad Coins explain the shared ZX Series progression and unlock context for ZXBrick.",
-      "body": [
-        "This matters because players should understand optional progression and unlock language without confusing it with the core game rules.",
-        "Players use this page when they want to understand coins, rewards, supported unlocks, or shared ZX Series account behaviour."
-      ],
-      "bullets": [
-        "Keeps shared economy wording consistent across ZX Series games.",
-        "Separates optional progression from core gameplay.",
-        "Uses the shared BarkinMad Coins artwork for consistent presentation."
-      ],
-      "image": {
-        "src": "apps/barkinmadcoins.png",
-        "alt": "BarkinMad Coins artwork for ZXBrick",
-        "caption": "Shared BarkinMad Coins artwork supports consistent ZX Series progression wording."
-      },
-      "links": [
-        {
-          "label": "View FAQ",
-          "href": "/apps/zxbrick/frequently-asked-questions"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "BarkinMad Coins in ZXBrick",
+	"seoTitle": "BarkinMad Coins | ZXBrick | BarkinMad Studios",
+	"description": "Earn BarkinMad Coins as you play ZXBrick and unlock cosmetic rewards across supported ZX Series games.",
+	"summary": "BarkinMad Coins reward regular play and can be used to unlock cosmetic content across the ZX Series.",
+	"heroImage": "apps/barkinmadcoins.png",
+	"heroImageAlt": "BarkinMad Coins shared ZX Series rewards",
+	"images": [
+		{
+			"src": "apps/barkinmadcoins.png",
+			"alt": "BarkinMad Coins"
+		}
+	],
+	"imageSectionTitle": "BarkinMad Coins",
+	"sections": [
+		{
+			"id": "what-is",
+			"heading": "What Are BarkinMad Coins?",
+			"paragraphs": [
+				"BarkinMad Coins are the shared reward system used across supported ZX Series games.",
+				"As you play ZXBrick, you'll earn coins that can be used to unlock cosmetic rewards across the wider ZX Series."
+			]
+		},
+		{
+			"id": "how-it-helps",
+			"heading": "Earn Rewards as You Play",
+			"paragraphs": [
+				"Every game brings you one step closer to your next reward. Collecting BarkinMad Coins gives you an extra reason to keep playing while working towards achievements, high scores, and leaderboard positions.",
+				"Coins reward regular play without changing the core arcade gameplay, making progression feel rewarding while keeping every game fair."
+			]
+		}
+	],
+	"relatedPages": [
+		"achievements",
+		"leaderboards",
+		"overview"
+	],
+	"relatedLinks": [
+		{
+			"label": "Explore the ZX Series",
+			"href": "/zx-series"
+		}
+	],
+	"faq": [
+		{
+			"question": "Do BarkinMad Coins have any real-world value?",
+			"answer": "No. BarkinMad Coins are an in-game reward used to unlock cosmetic content across supported ZX Series games. They have no cash value and cannot be exchanged for real money."
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"BarkinMad Coins",
+		"ZX Series",
+		"cosmetic rewards",
+		"progression"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "coins-and-unlocks",
+			"heading": "Play, Earn, Unlock",
+			"summary": "BarkinMad Coins reward regular play and unlock cosmetic content across the ZX Series.",
+			"body": [
+				"Every game of ZXBrick helps you earn BarkinMad Coins, giving you another reason to keep improving your skills and returning for another round.",
+				"Combined with achievements and leaderboards, BarkinMad Coins create a shared progression system that connects every supported ZX Series game."
+			],
+			"bullets": [
+				"Earn coins through regular gameplay.",
+				"Unlock cosmetic rewards across the ZX Series.",
+				"Works alongside achievements and leaderboards."
+			],
+			"image": {
+				"src": "apps/barkinmadcoins.png",
+				"alt": "BarkinMad Coins",
+				"caption": "Earn rewards every time you play."
+			},
+			"links": [
+				{
+					"label": "View the FAQ",
+					"href": "/apps/zxbrick/frequently-asked-questions"
+				}
+			]
+		}
+	]
 }

@@ -1,88 +1,88 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXBrick Controls",
-  "seoTitle": "ZXBrick Controls | BarkinMad Studios",
-  "description": "Understand the control rhythm and input expectations for ZXBrick sessions, including touch timing, paddle movement precision, launch consistency, and session pause behavior.",
-  "summary": "Stable input patterns are the fastest path to better level consistency in ZXBrick.",
-  "heroImage": "apps/zxbrick/zxbrick-hero.png",
-  "heroImageAlt": "ZXBrick control reference",
-  "sections": [
-    {
-      "id": "input-rhythm",
-      "heading": "Input rhythm",
-      "paragraphs": [
-        "Settle into a consistent input pace before accelerating gameplay tempo.",
-        "Small, deliberate inputs reduce over-correction and help stabilize run outcomes."
-      ]
-    },
-    {
-      "id": "preflight",
-      "heading": "Session preflight",
-      "paragraphs": [
-        "Before each run, confirm control layout and game settings.",
-        "Use a short warm-up run when control feel changes between sessions."
-      ],
-      "bullets": [
-        "Review sensitivity and preferred input mode",
-        "Start with simpler angles and shorter runs",
-        "Avoid changing multiple control-related settings at once"
-      ]
-    }
-  ],
-  "relatedPages": [
-    "how-to-play",
-    "game-modes",
-    "tips-and-strategy",
-    "leaderboards"
-  ],
-  "relatedLinks": [
-    {
-      "label": "Learn How to Play ZXBrick",
-      "href": "/apps/zxbrick/how-to-play"
-    },
-    {
-      "label": "Improve with ZXBrick Tips & Strategy",
-      "href": "/apps/zxbrick/tips-and-strategy"
-    }
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXBrick controls",
-    "arcade controls",
-    "iPhone"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "control-surface",
-      "heading": "ZXBrick controls",
-      "summary": "ZXBrick control guidance focuses on paddle positioning, ball recovery, and power-up collection.",
-      "body": [
-        "Arcade sessions feel better when input timing is predictable, and focus on the practical habits that matter while the game is moving.",
-        "Read this after the how-to-play page when you want to understand what your hands should be doing during a real session."
-      ],
-      "bullets": [
-        "Keeps input guidance close to gameplay.",
-        "Supports both first-time players and returning players.",
-        "Uses the current game artwork to support control guidance."
-      ],
-      "image": {
-        "src": "apps/zxbrick/zxbrick-hero.png",
-        "alt": "ZXBrick controls artwork",
-        "caption": "ZXBrick controls artwork supports input and interaction guidance."
-      },
-      "links": [
-        {
-          "label": "Learn How to Play ZXBrick",
-          "href": "/apps/zxbrick/how-to-play"
-        },
-        {
-          "label": "Improve with ZXBrick Tips & Strategy",
-          "href": "/apps/zxbrick/tips-and-strategy"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXBrick Controls",
+	"seoTitle": "ZXBrick Controls | BarkinMad Studios",
+	"description": "Master ZXBrick's controls and improve your paddle movement, ball control, and reaction times.",
+	"summary": "Learn the controls, build consistency, and improve your performance with every game.",
+	"heroImage": "apps/zxbrick/zxbrick-hero.png",
+	"heroImageAlt": "ZXBrick controls",
+	"sections": [
+		{
+			"id": "input-rhythm",
+			"heading": "Master the Controls",
+			"paragraphs": [
+				"Smooth, controlled paddle movement is the key to success in ZXBrick. Small, deliberate movements help you react quickly while keeping the ball under control.",
+				"As your confidence grows, you'll naturally develop the timing needed to handle faster gameplay and more challenging levels."
+			]
+		},
+		{
+			"id": "preflight",
+			"heading": "Before You Start",
+			"paragraphs": [
+				"Take a moment to make sure the controls feel comfortable before beginning a longer session.",
+				"A quick warm-up game is often the best way to settle into the controls before chasing high scores or progressing through more difficult levels."
+			],
+			"bullets": [
+				"Check your preferred control settings.",
+				"Start with simple shots to build confidence.",
+				"Avoid changing multiple settings during the same session."
+			]
+		}
+	],
+	"relatedPages": [
+		"how-to-play",
+		"game-modes",
+		"tips-and-strategy",
+		"leaderboards"
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn How to Play ZXBrick",
+			"href": "/apps/zxbrick/how-to-play"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxbrick/tips-and-strategy"
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXBrick controls",
+		"arcade controls",
+		"iPhone"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "control-surface",
+			"heading": "Take Control",
+			"summary": "Good control is the foundation of every successful ZXBrick run.",
+			"body": [
+				"Learning how the paddle responds is the first step towards mastering ZXBrick. Consistent movement, quick reactions, and accurate positioning will help you survive longer and score higher.",
+				"Whether you're playing for the first time or chasing leaderboard positions, improving your control will always make a difference."
+			],
+			"bullets": [
+				"Improve paddle accuracy.",
+				"React faster to the ball.",
+				"Collect power-ups more consistently."
+			],
+			"image": {
+				"src": "apps/zxbrick/zxbrick-hero.png",
+				"alt": "ZXBrick controls",
+				"caption": "Master the controls and keep every ball in play."
+			},
+			"links": [
+				{
+					"label": "Learn How to Play ZXBrick",
+					"href": "/apps/zxbrick/how-to-play"
+				},
+				{
+					"label": "Read Tips & Strategy",
+					"href": "/apps/zxbrick/tips-and-strategy"
+				}
+			]
+		}
+	]
 }
