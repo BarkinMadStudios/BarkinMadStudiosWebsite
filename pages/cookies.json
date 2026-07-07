@@ -10,7 +10,7 @@
     {
       "heading": "What Are Cookies",
       "paragraphs": [
-        "Cookies are small text files stored on your device when visiting websites.",
+        "Cookies are small text files stored on your device when you visit websites.",
         "They help websites remember information about your visit, improve performance, and support certain website features."
       ]
     },
@@ -36,7 +36,7 @@
       "paragraphs": [
         "Purpose: understand how visitors use the website so pages, content, and performance can be improved.",
         "Provider: Google Analytics.",
-        "Retention: To Verify. Google Analytics cookie retention can vary by Google configuration, browser behaviour, and future Google product settings.",
+        "Retention: Google Analytics cookie retention is controlled by Google and may vary by configuration, browser behaviour, consent state, and future Google product settings.",
         "User controls: analytics cookies are disabled by default until analytics consent is granted. Consent can be changed using Cookie Preferences in the footer."
       ]
     },
@@ -45,7 +45,7 @@
       "paragraphs": [
         "Purpose: allow Google AdSense to provide advertising, measure ad performance, and support personalised or non-personalised advertising where applicable.",
         "Provider: Google AdSense and Google advertising services.",
-        "Retention: To Verify. Advertising cookie retention is controlled by Google and may vary by product settings, consent state, browser behaviour, region, and future AdSense approval requirements.",
+        "Retention: Advertising cookie retention is controlled by Google and may vary by product settings, consent state, browser behaviour, region, and future AdSense requirements.",
         "User controls: advertising cookies are disabled by default until advertising consent is granted. Consent can be changed using Cookie Preferences in the footer."
       ]
     },

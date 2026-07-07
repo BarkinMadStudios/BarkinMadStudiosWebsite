@@ -53,7 +53,7 @@
   "featuredAppsTitle": "Featured Products",
   "servicesSection": {
     "title": "Software & Development Services",
-    "intro": "Commercial software services for businesses that need practical tools, apps, prototypes, and digital platforms.",
+    "intro": "Software services for businesses that need practical tools, apps, prototypes, dashboards, and digital platforms.",
     "items": [
       {
         "title": "Custom Software Development",
@@ -89,7 +89,7 @@
       "ZXPong"
     ],
     "features": [
-      "Shared Wallet",
+      "BarkinMad Coins",
       "Shared Achievements",
       "Shared Leaderboards"
     ],
@@ -109,7 +109,7 @@
     },
     {
       "title": "Mobile Apps",
-      "description": "Browse BarkinMad Studios [apps](/apps), including retro arcade games, productivity tools, score tracking applications, and future software projects designed for iPhone and iPad.",
+      "description": "Browse BarkinMad Studios [apps](/apps), including retro arcade games, productivity tools, score tracking applications, and future software projects for iPhone and iPad.",
       "action": {
         "label": "Browse BarkinMad Apps",
         "href": "/apps"
@@ -117,7 +117,7 @@
     },
     {
       "title": "Software Development Services",
-      "description": "BarkinMad Studios also provides [custom software development](/services/custom-software-development), [mobile app development](/services/mobile-app-development), [internal business tools](/services/internal-business-tools), workflow automation, websites, and prototype development services.",
+      "description": "Explore [custom software development](/services/custom-software-development), [mobile app development](/services/mobile-app-development), [internal business tools](/services/internal-business-tools), workflow automation, websites, and prototype development services.",
       "action": {
         "label": "Explore Software Services",
         "href": "/services"

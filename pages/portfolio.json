@@ -2,7 +2,7 @@
   "title": "Portfolio",
   "seoTitle": "Software Development Portfolio | BarkinMad Studios",
   "heading": "Portfolio",
-  "intro": "Explore public BarkinMad Studios projects across games, developer tools, software services, prototypes, and digital products.",
+  "intro": "Explore BarkinMad Studios projects across games, developer tools, software services, prototypes, and digital products.",
   "description": "A selection of public BarkinMad Studios software development projects, including mobile applications, retro arcade games, developer tools, prototypes, and software services.",
   "hero": {
     "image": "/images/apps-hero-banner.png",
@@ -12,9 +12,9 @@
     {
       "heading": "Public Projects",
       "paragraphs": [
-        "This portfolio highlights public BarkinMad Studios projects and product work.",
-        "Some previous consultancy, IT, and business technology projects are not listed due to privacy, confidentiality, and client discretion.",
-        "Where private experience is relevant, it is described only in general terms without naming clients or exposing internal business details."
+        "This portfolio highlights public BarkinMad Studios projects and product work across games, apps, developer tools, and software services.",
+        "Previous consultancy, IT, and business technology projects are not always listed because of privacy, confidentiality, and client discretion.",
+        "Where private experience is relevant, it is described in general terms without naming clients or exposing internal business details."
       ]
     }
   ],
@@ -116,9 +116,9 @@
       "type": "Developer Analytics Platform",
       "href": "/apps/studiodash",
       "image": "apps/studiodash/studiodash-icon.png",
-      "summary": "StudioDash is an analytics and business intelligence platform being developed by BarkinMad Studios for independent developers, creators, and small studios. It brings together App Store Connect, Cloudflare, AdMob, AdSense, Search Console, GitHub, and other services into a single workspace, helping users monitor downloads, revenue, traffic, performance, and operational health from one dashboard.",
-      "challenge": "Developers often need to switch between multiple services and dashboards to understand how their products and business are performing. This creates fragmented workflows and makes it difficult to identify trends and issues quickly.",
-      "solution": "StudioDash provides a unified dashboard experience, consolidating analytics, revenue reporting, service health, and operational metrics into a single native application designed specifically for independent developers.",
+      "summary": "StudioDash is an analytics and business intelligence platform for independent developers, creators, and small studios. It brings App Store Connect, Cloudflare, AdMob, AdSense, Search Console, GitHub, and other services into one workspace, helping users monitor downloads, revenue, traffic, performance, and operational health from a single dashboard.",
+      "challenge": "Developers often need to move between multiple services to understand how their products and business are performing. That makes it harder to spot trends, compare performance, and catch issues quickly.",
+      "solution": "StudioDash provides a unified dashboard experience for analytics, revenue reporting, service health, and operational metrics in a native application designed for independent developers.",
       "technologies": [
         "Native iPadOS and macOS",
         "Cloudflare APIs",
@@ -154,7 +154,7 @@
       "type": "Software Service",
       "href": "/services/custom-software-development",
       "actionLabel": "View Service",
-      "summary": "Commercial software development services for businesses that need practical internal tools, mobile apps, prototypes, integrations, workflow systems, and digital platforms.",
+      "summary": "Practical software development services for businesses that need internal tools, mobile apps, prototypes, integrations, workflow systems, or digital platforms.",
       "challenge": "Businesses often rely on manual processes, disconnected spreadsheets, or tools that do not fit the way their teams actually work.",
       "solution": "BarkinMad Studios designs and builds focused software around real operational requirements, from native apps and dashboards to prototypes and business workflow tools.",
       "technologies": [
@@ -171,9 +171,9 @@
   "confidentiality": {
     "heading": "Private and Confidential Work",
     "paragraphs": [
-      "BarkinMad Studios also draws on experience from consultancy, IT, software delivery, automation, business systems, and technology projects that are not shown publicly.",
-      "Some previous work cannot be listed in detail due to privacy, confidentiality, commercial sensitivity, or client discretion.",
-      "For this reason, the portfolio focuses on public products and general capability areas rather than naming private organisations or exposing internal project details."
+      "BarkinMad Studios also draws on experience from consultancy, IT, software delivery, automation, business systems, and technology projects that cannot be shown publicly.",
+      "Some previous work cannot be listed in detail because of privacy, confidentiality, commercial sensitivity, or client discretion.",
+      "The portfolio therefore focuses on public products and general capability areas rather than naming private organisations or exposing internal project details."
     ]
   },
   "actions": [

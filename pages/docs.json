@@ -2,8 +2,8 @@
   "title": "Guide Library",
   "seoTitle": "Guide Library | BarkinMad Studios",
   "heading": "Guide Library",
-  "intro": "Guides, support notes, product information, and reference material for BarkinMad Studios games, apps, services, and StudioDash.",
-  "description": "Browse BarkinMad Studios guide for the ZX Series, The Game of Darts, services, policies, and StudioDash setup, integrations, and troubleshooting guides.",
+  "intro": "Find guides, FAQs, support notes, product information, and reference material for BarkinMad Studios games, apps, services, and StudioDash.",
+  "description": "Browse BarkinMad Studios guides for the ZX Series, The Game of Darts, services, policies, and StudioDash setup, integrations, and troubleshooting.",
   "hero": {
     "image": "/images/news-bg-banner.png",
     "alt": "BarkinMad Studios guide library and support resources"
@@ -11,7 +11,7 @@
   "categories": [
     {
       "title": "Games",
-      "description": "Guides and support material for BarkinMad Studios games.",
+      "description": "Guides and support material to help players get more from BarkinMad Studios games.",
       "documents": [
         {
           "title": "ZX Series",
@@ -38,7 +38,7 @@
     },
     {
       "title": "Studio",
-      "description": "Business, service, and policy guide.",
+      "description": "Business, service, and policy information for BarkinMad Studios.",
       "documents": [
         {
           "title": "Services",
@@ -64,7 +64,7 @@
     },
     {
       "title": "StudioDash",
-      "description": "Guide area for StudioDash setup, integrations, private beta access, and troubleshooting as the product approaches private beta.",
+      "description": "StudioDash setup, integration, private beta, and troubleshooting information as the product approaches private beta.",
       "documents": [
         {
           "title": "Setup",
@@ -100,9 +100,9 @@
     }
   ],
   "features": [
-    "Category filtering ready",
-    "Search-ready JSON structure",
-    "Related document support",
+    "Game and app guides",
+    "Support and policy information",
+    "StudioDash setup resources",
     "Expandable guide categories"
   ],
   "actions": [
