@@ -1,134 +1,134 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXBrick Power-Ups",
-  "seoTitle": "ZXBrick Power-Ups | BarkinMad Studios",
-  "description": "A practical guide to ZXBrick power-up examples, when to use them, and how they change pacing, risk, and scoring opportunities during gameplay.",
-  "summary": "Power-ups are designed to alter risk and reward loops in short, replay-friendly intervals.",
-  "heroImage": "apps/zxbrick/zxbrick-hero.png",
-  "heroImageAlt": "ZXBrick power-up showcase",
-  "imageMetadata": [
-    {
-      "src": "apps/zxbrick/zxbrick-powerups.png",
-      "alt": "ZXBrick power-up overview",
-      "purpose": "marketing",
-      "width": 1600,
-      "height": 900,
-      "usage": [
-        "docs",
-        "news",
-        "social",
-        "website"
-      ]
-    },
-    {
-      "src": "apps/zxbrick/zxbrick-powerup-berserker.png",
-      "alt": "ZXBrick berserker power-up",
-      "purpose": "gameplay",
-      "width": 1170,
-      "height": 2532,
-      "usage": [
-        "docs",
-        "website",
-        "social"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "overview",
-      "heading": "Overview",
-      "paragraphs": [
-        "Power-ups are support systems that can alter risk windows and pace within level sessions.",
-        "They are available at the game-design level and are intended to reinforce replay habits, not replace basic movement control discipline."
-      ]
-    },
-    {
-      "id": "strategy",
-      "heading": "Use power-ups with intent",
-      "paragraphs": [
-        "Avoid using power-ups as a substitute for good movement discipline. Build one repeatable rhythm, then incorporate the available boosts deliberately.",
-        "If a boost changes ball timing unexpectedly, reset and start a short controlled set."
-      ],
-      "bullets": [
-        "Pick a single variable and keep it stable for one replay cycle",
-        "Use shorter sessions when testing a new power-up",
-        "Record one thing that improved or worsened performance"
-      ]
-    }
-  ],
-  "imageSectionTitle": "Power-Up Gallery",
-  "images": [
-    {
-      "src": "apps/zxbrick/zxbrick-powerup-berserker.png",
-      "alt": "ZXBrick berserker power-up",
-      "caption": "Berserker"
-    },
-    {
-      "src": "apps/zxbrick/zxbrick-powerup-fast.png",
-      "alt": "ZXBrick fast ball power-up",
-      "caption": "Fast Ball"
-    },
-    {
-      "src": "apps/zxbrick/zxbrick-powerup-grow.png",
-      "alt": "ZXBrick wide paddle power-up",
-      "caption": "Wide Paddle"
-    }
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "how-to-play",
-    "game-modes",
-    "tips-and-strategy",
-    "levels"
-  ],
-  "relatedLinks": [
-    {
-      "label": "Levels",
-      "href": "/apps/zxbrick/levels"
-    },
-    {
-      "label": "How to Play",
-      "href": "/apps/zxbrick/how-to-play"
-    }
-  ],
-  "faq": [
-    {
-      "question": "Do power-ups affect progression?",
-      "answer": "Power-ups are intended as gameplay tools within sessions and are part of the replay planning loop, alongside level progression and achievements."
-    }
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "powerup-decisions",
-      "heading": "Power-up decisions",
-      "summary": "Power-Ups explain how short-lived effects change the rhythm and risk of a ZXBrick run.",
-      "body": [
-        "This matters because power-ups are only useful when players understand what they do and when to chase or avoid them.",
-        "Players use this page to connect power-up behaviour with paddle control, level goals, and score chasing."
-      ],
-      "bullets": [
-        "Learn moment-to-moment power-up choices.",
-        "Learn how power-ups with levels and strategy.",
-        "Uses current ZXBrick power-up artwork as visual placeholders."
-      ],
-      "image": {
-        "src": "apps/zxbrick/zxbrick-powerup-berserker.png",
-        "alt": "ZXBrick power-up artwork",
-        "caption": "Power-up artwork supports the ZXBrick gameplay decision flow."
-      },
-      "links": [
-        {
-          "label": "View levels",
-          "href": "/apps/zxbrick/levels"
-        },
-        {
-          "label": "View tips",
-          "href": "/apps/zxbrick/tips-and-strategy"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXBrick Power-Ups",
+	"seoTitle": "ZXBrick Power-Ups | BarkinMad Studios",
+	"description": "Discover the power-ups available in ZXBrick and learn how they can help you complete levels, improve your score, and master the game.",
+	"summary": "Power-ups add variety to every game, helping you overcome difficult situations while chasing higher scores and faster progression.",
+	"heroImage": "apps/zxbrick/zxbrick-hero.png",
+	"heroImageAlt": "ZXBrick power-ups",
+	"imageMetadata": [
+		{
+			"src": "apps/zxbrick/zxbrick-powerups.png",
+			"alt": "ZXBrick power-up overview",
+			"purpose": "marketing",
+			"width": 1600,
+			"height": 900,
+			"usage": [
+				"docs",
+				"news",
+				"social",
+				"website"
+			]
+		},
+		{
+			"src": "apps/zxbrick/zxbrick-powerup-berserker.png",
+			"alt": "ZXBrick Berserker power-up",
+			"purpose": "gameplay",
+			"width": 1170,
+			"height": 2532,
+			"usage": [
+				"docs",
+				"website",
+				"social"
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "Power Up Your Game",
+			"paragraphs": [
+				"Power-ups give you temporary advantages that can help you survive difficult moments, clear levels more efficiently, and improve your score.",
+				"Learning when to collect and use each power-up is an important part of mastering ZXBrick."
+			]
+		},
+		{
+			"id": "strategy",
+			"heading": "Using Power-Ups Effectively",
+			"paragraphs": [
+				"Power-ups work best when combined with good paddle control and careful positioning. They should enhance your skills, not replace them.",
+				"Take time to learn how each power-up changes the game so you're ready to make the most of every opportunity."
+			],
+			"bullets": [
+				"Collect power-ups whenever they give you an advantage.",
+				"Learn how each power-up changes gameplay.",
+				"Combine good timing with accurate paddle control."
+			]
+		}
+	],
+	"imageSectionTitle": "Power-Up Gallery",
+	"images": [
+		{
+			"src": "apps/zxbrick/zxbrick-powerup-berserker.png",
+			"alt": "ZXBrick Berserker power-up",
+			"caption": "Berserker"
+		},
+		{
+			"src": "apps/zxbrick/zxbrick-powerup-fast.png",
+			"alt": "ZXBrick Fast Ball power-up",
+			"caption": "Fast Ball"
+		},
+		{
+			"src": "apps/zxbrick/zxbrick-powerup-grow.png",
+			"alt": "ZXBrick Wide Paddle power-up",
+			"caption": "Wide Paddle"
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"how-to-play",
+		"game-modes",
+		"tips-and-strategy",
+		"levels"
+	],
+	"relatedLinks": [
+		{
+			"label": "View Levels",
+			"href": "/apps/zxbrick/levels"
+		},
+		{
+			"label": "Learn How to Play",
+			"href": "/apps/zxbrick/how-to-play"
+		}
+	],
+	"faq": [
+		{
+			"question": "Do power-ups affect progression?",
+			"answer": "Power-ups help you complete levels, improve your score, and progress through the game more effectively. They also work alongside achievements, leaderboards, and BarkinMad Coins as part of your overall progression."
+		}
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "powerup-decisions",
+			"heading": "Choose the Right Power-Up",
+			"summary": "Every power-up offers a different advantage, helping you tackle challenges in new ways.",
+			"body": [
+				"Power-ups can turn the tide of a difficult level, giving you new opportunities to survive, score more points, or clear bricks more quickly.",
+				"As you become more experienced, learning when to collect each power-up becomes an important part of your overall strategy."
+			],
+			"bullets": [
+				"Discover what every power-up does.",
+				"Learn when each one is most useful.",
+				"Combine power-ups with good timing and control."
+			],
+			"image": {
+				"src": "apps/zxbrick/zxbrick-powerup-berserker.png",
+				"alt": "ZXBrick power-ups",
+				"caption": "Use power-ups wisely to overcome tougher challenges."
+			},
+			"links": [
+				{
+					"label": "View Levels",
+					"href": "/apps/zxbrick/levels"
+				},
+				{
+					"label": "Read Tips & Strategy",
+					"href": "/apps/zxbrick/tips-and-strategy"
+				}
+			]
+		}
+	]
 }

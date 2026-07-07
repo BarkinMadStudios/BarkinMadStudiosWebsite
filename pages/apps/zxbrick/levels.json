@@ -1,117 +1,118 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXBrick Levels",
-  "seoTitle": "ZXBrick Levels | BarkinMad Studios",
-  "description": "Learn the structure and goals of ZXBrick's handcrafted level progression, including how each stage unlocks new challenges and reinforces repeatable skill patterns.",
-  "summary": "ZXBrick includes 100 handcrafted levels and uses a repeatable progression loop across all difficulty states.",
-  "heroImage": "apps/zxbrick/zxbrick-hero.png",
-  "heroImageAlt": "ZXBrick levels hero",
-  "imageMetadata": [
-    {
-      "src": "apps/zxbrick/zxbrick-levels.png",
-      "alt": "ZXBrick level list overview",
-      "purpose": "gameplay",
-      "width": 1600,
-      "height": 900,
-      "usage": [
-        "docs",
-        "website",
-        "social"
-      ]
-    },
-    {
-      "src": "apps/zxbrick/zxbrick-gameplay-01.png",
-      "alt": "ZXBrick level start",
-      "purpose": "gameplay",
-      "width": 1170,
-      "height": 2532,
-      "usage": [
-        "docs",
-        "website",
-        "social"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "overview",
-      "heading": "Overview",
-      "paragraphs": [
-        "ZXBrick confirms 100 handcrafted levels in its marketing and app metadata.",
-        "The level loop should be treated as your primary replay structure for short and medium sessions."
-      ]
-    },
-    {
-      "id": "approach",
-      "heading": "Approach level progression",
-      "paragraphs": [
-        "Use a fixed target count for each session rather than jumping levels every run.",
-        "Focus on consistency first and progress through the same level pattern before extending duration."
-      ]
-    }
-  ],
-  "imageSectionTitle": "Level Images",
-  "images": [
-    {
-      "src": "apps/zxbrick/zxbrick-gameplay-01.png",
-      "alt": "ZXBrick level layout",
-      "caption": "Gameplay layout"
-    },
-    {
-      "src": "apps/zxbrick/zxbrick-gameplay-03.png",
-      "alt": "ZXBrick active play",
-      "caption": "Active level run"
-    }
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "overview",
-    "how-to-play",
-    "powerups",
-    "tips-and-strategy"
-  ],
-  "relatedLinks": [
-    {
-      "label": "How to Play",
-      "href": "/apps/zxbrick/how-to-play"
-    },
-    {
-      "label": "Power-ups",
-      "href": "/apps/zxbrick/powerups"
-    }
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "level-progression",
-      "heading": "Level progression",
-      "summary": "Levels explain how ZXBrick builds challenge as players clear stages and keep the run moving.",
-      "body": [
-        "This matters because level structure gives brick-breaking sessions a sense of pace and escalation.",
-        "Players use this page to understand how levels fit with power-ups, score chasing, and practical strategy."
-      ],
-      "bullets": [
-        "Learn challenge progression.",
-        "Learn how levels to power-ups and tips.",
-        "Uses ZXBrick level artwork to support level progression guidance."
-      ],
-      "image": {
-        "src": "apps/zxbrick/zxbrick-gameplay-01.png",
-        "alt": "ZXBrick level progression artwork",
-        "caption": "Level artwork supports the ZXBrick progression explanation."
-      },
-      "links": [
-        {
-          "label": "View power-ups",
-          "href": "/apps/zxbrick/powerups"
-        },
-        {
-          "label": "View tips",
-          "href": "/apps/zxbrick/tips-and-strategy"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXBrick Levels",
+	"seoTitle": "ZXBrick Levels | BarkinMad Studios",
+	"description": "Progress through 100 handcrafted levels in ZXBrick, each offering new layouts, greater challenges, and fresh opportunities to improve your skills.",
+	"summary": "Every level introduces a new challenge, rewarding precision, quick reactions, and consistent play as you progress through ZXBrick.",
+	"heroImage": "apps/zxbrick/zxbrick-hero.png",
+	"heroImageAlt": "ZXBrick levels",
+	"imageMetadata": [
+		{
+			"src": "apps/zxbrick/zxbrick-levels.png",
+			"alt": "ZXBrick level overview",
+			"purpose": "gameplay",
+			"width": 1600,
+			"height": 900,
+			"usage": [
+				"docs",
+				"website",
+				"social"
+			]
+		},
+		{
+			"src": "apps/zxbrick/zxbrick-gameplay-01.png",
+			"alt": "ZXBrick gameplay",
+			"purpose": "gameplay",
+			"width": 1170,
+			"height": 2532,
+			"usage": [
+				"docs",
+				"website",
+				"social"
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "100 Handcrafted Levels",
+			"paragraphs": [
+				"ZXBrick features 100 handcrafted levels, each designed to test your reactions, accuracy, and paddle control.",
+				"As you progress, you'll encounter new brick layouts and increasingly demanding challenges that reward skill and persistence."
+			]
+		},
+		{
+			"id": "approach",
+			"heading": "Progress at Your Own Pace",
+			"paragraphs": [
+				"Every completed level helps you become a stronger player. Take your time learning new layouts before moving on to more difficult stages.",
+				"If a level proves challenging, replaying it is a great way to improve your reactions, discover better strategies, and build confidence."
+			]
+		}
+	],
+	"imageSectionTitle": "Levels",
+	"images": [
+		{
+			"src": "apps/zxbrick/zxbrick-gameplay-01.png",
+			"alt": "ZXBrick level",
+			"caption": "Every level presents a new challenge."
+		},
+		{
+			"src": "apps/zxbrick/zxbrick-gameplay-03.png",
+			"alt": "ZXBrick gameplay",
+			"caption": "Master each level to keep progressing."
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"overview",
+		"how-to-play",
+		"powerups",
+		"tips-and-strategy"
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn How to Play",
+			"href": "/apps/zxbrick/how-to-play"
+		},
+		{
+			"label": "Discover Power-Ups",
+			"href": "/apps/zxbrick/powerups"
+		}
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "level-progression",
+			"heading": "A New Challenge Every Level",
+			"summary": "Every stage introduces fresh layouts and new opportunities to improve your arcade skills.",
+			"body": [
+				"ZXBrick rewards players who learn from every game. As you progress through the 100 handcrafted levels, you'll develop faster reactions, better paddle control, and more effective strategies.",
+				"Whether you're aiming to complete every level or beat your highest score, each game helps you become a better player."
+			],
+			"bullets": [
+				"100 handcrafted levels.",
+				"Increasing challenge as you progress.",
+				"Perfect for improving reactions and precision.",
+				"Works alongside achievements and leaderboards."
+			],
+			"image": {
+				"src": "apps/zxbrick/zxbrick-gameplay-01.png",
+				"alt": "ZXBrick level progression",
+				"caption": "Every level helps you improve your skills."
+			},
+			"links": [
+				{
+					"label": "Discover Power-Ups",
+					"href": "/apps/zxbrick/powerups"
+				},
+				{
+					"label": "Read Tips & Strategy",
+					"href": "/apps/zxbrick/tips-and-strategy"
+				}
+			]
+		}
+	]
 }

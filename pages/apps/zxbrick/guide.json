@@ -1,267 +1,209 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXBrick Complete Guide",
-  "seoTitle": "ZXBrick Complete Guide | BarkinMad Studios",
-  "description": "A full text guide for ZXBrick covering gameplay flow, controls, levels, power-ups, progression systems, and practical improvement methods.",
-  "summary": "Everything you need in one place for ZXBrick so you can jump straight into play with clear guidance.",
-  "heroImage": "apps/zxbrick/zxbrick-hero.png",
-  "heroImageAlt": "ZXBrick brick-breaking gameplay hero",
-  "imageMetadata": [
-    {
-      "src": "apps/zxbrick/zxbrick-hero.png",
-      "alt": "ZXBrick hero banner",
-      "purpose": "hero",
-      "width": 1600,
-      "height": 900,
-      "usage": [
-        "docs",
-        "website",
-        "news"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "what-it-is",
-      "heading": "What ZXBrick is",
-      "paragraphs": [
-        "ZXBrick is a retro-inspired brick-breaking game in the [ZX Series](/zx-series). It combines level progression, unlock systems, and replay-focused progression loops through achievements, leaderboards, and shared currency support.",
-        "Players typically progress through 100 handcrafted stages, build momentum through repeated sessions, and use achievement and leaderboard feedback to guide improvement over time."
-      ]
-    },
-    {
-      "id": "core-loop",
-      "heading": "Core gameplay loop",
-      "paragraphs": [
-        "The core goal is to clear playable patterns, keep the ball active, and finish levels cleanly.",
-        "Players use short, repeatable sessions to build consistency before attempting longer progression attempts.",
-        "As sessions repeat, aim to improve one goal at a time: fewer mistakes, clearer level starts, or higher score quality in one level type."
-      ]
-    },
-    {
-      "id": "controls",
-      "heading": "Controls and input rhythm",
-      "paragraphs": [
-        "Settle into a consistent input pace before accelerating gameplay tempo.",
-        "Small, deliberate inputs reduce over-correction and help stabilize run outcomes.",
-        "Before each run, confirm control layout and game settings."
-      ],
-      "bullets": [
-        "Review sensitivity and preferred input mode",
-        "Start with simpler angles and shorter runs",
-        "Avoid changing multiple control-related settings at once"
-      ]
-    },
-    {
-      "id": "session-flow",
-      "heading": "Session flow",
-      "paragraphs": [
-        "A standard session starts from the game start flow, then moves into active play, level completion checks, and score-based progression loops.",
-        "Use a short session first if you are warming up, then increase play duration as control consistency improves."
-      ],
-      "bullets": [
-        "Start a fresh run and focus on steady movement patterns",
-        "Track the immediate replay goal: finish one level cleanly before stretching time",
-        "Use power-ups only to support consistency, not to mask control drift"
-      ]
-    },
-    {
-      "id": "game-modes",
-      "heading": "Game modes and session intent",
-      "paragraphs": [
-        "ZXBrick focuses on a single-player progression loop for the documented modes.",
-        "Use mode choice to match your objective: clean practice rounds for consistency or longer sessions for score growth.",
-        "Keep mode intent stable for at least one run cluster so results remain comparable."
-      ]
-    },
-    {
-      "id": "levels",
-      "heading": "Levels",
-      "paragraphs": [
-        "ZXBrick confirms 100 handcrafted levels in its marketing and app metadata.",
-        "The level loop should be treated as your primary replay structure for short and medium sessions.",
-        "Use a fixed target count for each session rather than jumping levels every run."
-      ]
-    },
-    {
-      "id": "powerups",
-      "heading": "Power-ups",
-      "paragraphs": [
-        "Power-ups are support systems that can alter risk windows and pace within level sessions.",
-        "They are available at the game-design level and are intended to reinforce replay habits, not replace basic movement control discipline.",
-        "Avoid using power-ups as a substitute for good movement discipline. Build one repeatable rhythm, then incorporate the available boosts deliberately."
-      ],
-      "bullets": [
-        "Pick a single variable and keep it stable for one replay cycle",
-        "Use shorter sessions when testing a new power-up",
-        "Record one thing that improved or worsened performance"
-      ]
-    },
-    {
-      "id": "achievements",
-      "heading": "Achievements",
-      "paragraphs": [
-        "The current public site data includes milestone goals tied to game volume and brick completion milestones.",
-        "Pick one achievement target per session.",
-        "Use short sessions to hit each target with focused goal consistency."
-      ],
-      "bullets": [
-        "Play 10 Games",
-        "Play 25 Games",
-        "Play 50 Games",
-        "Play 100 Games",
-        "Destroy 500 Bricks",
-        "Destroy 1000 Bricks"
-      ]
-    },
-    {
-      "id": "coins",
-      "heading": "BarkinMad Coins",
-      "paragraphs": [
-        "BarkinMad Coins are the shared progression token model across supported ZX Series titles.",
-        "In ZXBrick, they connect gameplay participation with broader unlock opportunities.",
-        "Treat coins as a long-term loop, not a one-off bonus."
-      ]
-    },
-    {
-      "id": "leaderboards",
-      "heading": "Leaderboards",
-      "paragraphs": [
-        "ZXBrick currently publishes a highest-score leaderboard.",
-        "Use this list to compare replay consistency across sessions and validate training results.",
-        "Use one leaderboard goal per short cycle to prevent noisy comparison behavior."
-      ],
-      "bullets": [
-        "Highest Score"
-      ]
-    },
-    {
-      "id": "strategy",
-      "heading": "Tips and strategy",
-      "paragraphs": [
-        "Keep one control rhythm for your opening two sessions.",
-        "Increase complexity only after the first objective is repeatable across multiple runs.",
-        "Pick a small objective, complete three consistent runs, then reset the objective for the next cluster."
-      ]
-    },
-    {
-      "id": "accessibility",
-      "heading": "Accessibility and readability",
-      "paragraphs": [
-        "This complete guide page exists to make ZXBrick content directly readable by screen readers, search crawlers, and accessibility-first users.",
-        "Keep each topic in one guide path, with screenshots where they help you practice.",
-        "Use this page as the one canonical source for onboarding links and help pages."
-      ]
-    }
-  ],
-  "faq": [
-    {
-      "question": "Is ZXBrick part of the ZX Series?",
-      "answer": "Yes. ZXBrick is part of the [ZX Series](/zx-series)."
-    },
-    {
-      "question": "Does ZXBrick include BarkinMad Coins?",
-      "answer": "Yes. ZXBrick supports shared BarkinMad Coins through the ZX Series model."
-    },
-    {
-      "question": "Does ZXBrick support leaderboards?",
-      "answer": "Yes. The current published category is the highest score leaderboard."
-    }
-  ],
-  "estimatedReadTimeMinutes": 11,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXBrick",
-    "ZX Brick",
-    "ZX Series",
-    "brick breaker",
-    "arcade",
-    "controls",
-    "BarkinMad Coins",
-    "achievements",
-    "leaderboards",
-    "power-ups"
-  ],
-  "relatedPages": [
-    "overview",
-    "how-to-play",
-    "controls",
-    "game-modes",
-    "levels",
-    "powerups",
-    "barkinmad-coins",
-    "achievements",
-    "leaderboards",
-    "tips-and-strategy",
-    "frequently-asked-questions"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "complete-guide-route",
-      "heading": "ZXBrick complete guide",
-      "summary": "Get setup, play, progress, and support guidance in one practical guide path.",
-      "body": [
-        "This matters because the ZX Series pages should feel consistent across all games. The guide helps players move from the overview into the exact page they need without losing context.",
-        "Players use this page as the main map when they want a complete explanation rather than a single topic."
-      ],
-      "bullets": [
-        "Learn how setup, controls, modes, tips, achievements, leaderboards, FAQ, and screenshots.",
-        "Keeps your guide path consistent across ZXSnake, ZXBrick, ZXPong, and ZXSpace.",
-        "Uses the current game artwork to support the guide workflow."
-      ],
-      "image": {
-        "src": "apps/zxbrick/zxbrick-hero.png",
-        "alt": "ZXBrick guide artwork",
-        "caption": "ZXBrick hero artwork represents the full guide flow."
-      },
-      "links": [
-        {
-          "label": "View screenshots",
-          "href": "/apps/zxbrick/screenshots"
-        }
-      ]
-    },
-    {
-      "id": "from-play-to-progress",
-      "heading": "From play to progress",
-      "summary": "Learn a session rhythm: what to do now and what to review before your next round.",
-      "body": [
-        "This matters because arcade games are easy to start but deeper when players understand scoring, progress, and goals.",
-        "Players use the guide to connect active play with achievements, leaderboards, BarkinMad Coins, and support pages."
-      ],
-      "bullets": [
-        "Supports both first-session learning and repeat play.",
-        "Keeps progression pages tied to gameplay.",
-        "Makes image presentation consistent with StudioDash and Game of Darts pages."
-      ],
-      "image": {
-        "src": "apps/zxbrick/zxbrick-gameplay-02.png",
-        "alt": "ZXBrick gameplay and progress artwork",
-        "caption": "Use this artwork as your reminder of what to focus on after each game session."
-      },
-      "links": [
-        {
-          "label": "View overview",
-          "href": "/apps/zxbrick"
-        }
-      ],
-      "layout": "textRight"
-    }
-  ],
-  "relatedLinks": [
-    {
-      "label": "Learn How to Play ZXBrick",
-      "href": "/apps/zxbrick/how-to-play"
-    },
-    {
-      "label": "Learn ZXBrick Controls",
-      "href": "/apps/zxbrick/controls"
-    },
-    {
-      "label": "Improve with ZXBrick Tips & Strategy",
-      "href": "/apps/zxbrick/tips-and-strategy"
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXBrick Complete Guide",
+	"seoTitle": "ZXBrick Complete Guide | BarkinMad Studios",
+	"description": "Everything you need to know about ZXBrick, from mastering the controls to completing all 100 handcrafted levels and climbing the leaderboards.",
+	"summary": "Learn how to play ZXBrick, improve your skills, unlock achievements, earn BarkinMad Coins, and master every level.",
+	"heroImage": "apps/zxbrick/zxbrick-hero.png",
+	"heroImageAlt": "ZXBrick brick-breaking gameplay",
+	"imageMetadata": [
+		{
+			"src": "apps/zxbrick/zxbrick-hero.png",
+			"alt": "ZXBrick hero artwork",
+			"purpose": "hero",
+			"width": 1600,
+			"height": 900,
+			"usage": [
+				"docs",
+				"website",
+				"news"
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "what-it-is",
+			"heading": "What Is ZXBrick?",
+			"paragraphs": [
+				"ZXBrick is a retro-inspired brick-breaking arcade game and part of the ZX Series from BarkinMad Studios.",
+				"Clear 100 handcrafted levels, collect power-ups, unlock achievements, earn BarkinMad Coins, and compete for the highest scores as you improve your skills."
+			]
+		},
+		{
+			"id": "core-loop",
+			"heading": "How to Play",
+			"paragraphs": [
+				"Your objective is simple: destroy every brick, keep the ball in play, and complete each level.",
+				"Every new level introduces fresh layouts and new challenges, rewarding accurate paddle control, good reactions, and clever use of power-ups."
+			]
+		},
+		{
+			"id": "controls",
+			"heading": "Master the Controls",
+			"paragraphs": [
+				"Smooth paddle movement is the key to success. Small, controlled movements make it easier to react quickly and keep the ball under control.",
+				"As your confidence grows, you'll naturally improve your timing and accuracy."
+			]
+		},
+		{
+			"id": "session-flow",
+			"heading": "Build Your Skills",
+			"paragraphs": [
+				"A short warm-up game is a great way to settle into the controls before attempting longer sessions.",
+				"As you improve, challenge yourself to complete more levels, beat your highest score, or unlock your next achievement."
+			]
+		},
+		{
+			"id": "levels",
+			"heading": "100 Handcrafted Levels",
+			"paragraphs": [
+				"ZXBrick features 100 handcrafted levels, each designed to test your reactions, precision, and consistency.",
+				"Every completed level brings you one step closer to mastering the game."
+			]
+		},
+		{
+			"id": "powerups",
+			"heading": "Power-Ups",
+			"paragraphs": [
+				"Power-ups can help you survive difficult situations and improve your score.",
+				"Learning when to use them is just as important as collecting them, making good timing a key part of mastering ZXBrick."
+			]
+		},
+		{
+			"id": "achievements",
+			"heading": "Achievements",
+			"paragraphs": [
+				"Game Center achievements reward regular play and important gameplay milestones.",
+				"Unlock achievements by completing games and destroying more bricks as your skills improve."
+			],
+			"bullets": [
+				"Play 10 Games",
+				"Play 25 Games",
+				"Play 50 Games",
+				"Play 100 Games",
+				"Destroy 500 Bricks",
+				"Destroy 1,000 Bricks"
+			]
+		},
+		{
+			"id": "coins",
+			"heading": "BarkinMad Coins",
+			"paragraphs": [
+				"Earn BarkinMad Coins through regular gameplay and use them to unlock cosmetic rewards across supported ZX Series games.",
+				"Coins reward regular play without changing the fast-paced arcade experience."
+			]
+		},
+		{
+			"id": "leaderboards",
+			"heading": "Leaderboards",
+			"paragraphs": [
+				"Compete for the highest score and compare your performance with players around the world using Apple Game Center.",
+				"Every game is another opportunity to climb the leaderboard."
+			]
+		},
+		{
+			"id": "strategy",
+			"heading": "Tips & Strategy",
+			"paragraphs": [
+				"Focus on smooth paddle control before increasing your speed.",
+				"Take time to learn each level and don't be afraid to replay difficult stages until you're comfortable with them.",
+				"Consistent play is the fastest way to improve."
+			]
+		}
+	],
+	"faq": [
+		{
+			"question": "Is ZXBrick part of the ZX Series?",
+			"answer": "Yes. ZXBrick is part of the ZX Series and shares BarkinMad Coins, achievements, and progression with other supported ZX Series games."
+		},
+		{
+			"question": "Does ZXBrick include BarkinMad Coins?",
+			"answer": "Yes. Earn BarkinMad Coins through gameplay and unlock cosmetic rewards across the ZX Series."
+		},
+		{
+			"question": "Does ZXBrick support leaderboards?",
+			"answer": "Yes. Compete for the highest score through Apple Game Center leaderboards."
+		}
+	],
+	"estimatedReadTimeMinutes": 11,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXBrick",
+		"brick breaker",
+		"ZX Series",
+		"achievements",
+		"leaderboards",
+		"BarkinMad Coins"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "complete-guide-route",
+			"heading": "Everything You Need to Master ZXBrick",
+			"summary": "From your first game to your highest score, this guide explains every part of ZXBrick.",
+			"body": [
+				"Whether you're just getting started or aiming to complete all 100 levels, this guide brings together everything you need to know in one place.",
+				"Learn the controls, discover power-ups, unlock achievements, earn BarkinMad Coins, and improve your arcade skills."
+			],
+			"bullets": [
+				"Controls and gameplay.",
+				"Levels and power-ups.",
+				"Achievements and leaderboards.",
+				"Tips for improving your score."
+			],
+			"image": {
+				"src": "apps/zxbrick/zxbrick-hero.png",
+				"alt": "ZXBrick Complete Guide",
+				"caption": "Everything you need to become a ZXBrick master."
+			},
+			"links": [
+				{
+					"label": "View Screenshots",
+					"href": "/apps/zxbrick/screenshots"
+				}
+			]
+		},
+		{
+			"id": "from-play-to-progress",
+			"heading": "Every Game Helps You Improve",
+			"layout": "textRight",
+			"summary": "Achievements, leaderboards, and BarkinMad Coins reward every game you play.",
+			"body": [
+				"Every completed level helps you build your skills while unlocking achievements, earning BarkinMad Coins, and climbing the leaderboards.",
+				"The more you play, the more rewarding your progress becomes."
+			],
+			"bullets": [
+				"Improve your skills.",
+				"Unlock achievements.",
+				"Earn BarkinMad Coins.",
+				"Compete on the leaderboards."
+			],
+			"image": {
+				"src": "apps/zxbrick/zxbrick-gameplay-02.png",
+				"alt": "ZXBrick gameplay",
+				"caption": "Every game brings you closer to mastering ZXBrick."
+			},
+			"links": [
+				{
+					"label": "View Overview",
+					"href": "/apps/zxbrick"
+				}
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn How to Play",
+			"href": "/apps/zxbrick/how-to-play"
+		},
+		{
+			"label": "Learn the Controls",
+			"href": "/apps/zxbrick/controls"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxbrick/tips-and-strategy"
+		}
+	]
 }

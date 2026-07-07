@@ -1,120 +1,122 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "How to Play ZXBrick",
-  "seoTitle": "How to Play ZXBrick | BarkinMad Studios",
-  "description": "Learn the core objective and flow for every ZXBrick session, from launch and setup through level progression and scoring strategy for strong short-replay sessions.",
-  "summary": "ZXBrick is a focused arcade loop: clear the level, extend your run, and improve replay consistency.",
-  "heroImage": "apps/zxbrick/zxbrick-hero.png",
-  "heroImageAlt": "ZXBrick gameplay introduction",
-  "imageMetadata": [
-    {
-      "src": "apps/zxbrick/zxbrick-gameplay-02.png",
-      "alt": "ZXBrick main menu gameplay reference",
-      "purpose": "gameplay",
-      "width": 1170,
-      "height": 2532,
-      "usage": [
-        "docs",
-        "website",
-        "social"
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "id": "goal",
-      "heading": "Goal",
-      "paragraphs": [
-        "The core goal is to clear playable patterns, keep the ball active, and finish levels cleanly.",
-        "Players use short, repeatable sessions to build consistency before attempting longer progression attempts."
-      ]
-    },
-    {
-      "id": "session-flow",
-      "heading": "Session flow",
-      "paragraphs": [
-        "A standard session starts from the game start flow, then moves into active play, level completion checks, and score-based progression loops.",
-        "Use a short session first if you are warming up, then increase play duration as control consistency improves."
-      ],
-      "bullets": [
-        "Start a fresh run and focus on steady movement patterns",
-        "Track the immediate replay goal: finish one level cleanly before stretching time",
-        "Use power-ups only to support consistency, not to mask control drift"
-      ]
-    },
-    {
-      "id": "replay-loop",
-      "heading": "Replay and progression",
-      "paragraphs": [
-        "As sessions repeat, aim to improve one goal at a time: fewer mistakes, clearer level starts, or higher score quality in one level type.",
-        "The shared progression systems in the ZX Series are supported as separate sessions and should be treated as long-term goals."
-      ]
-    }
-  ],
-  "imageSectionTitle": "How to Play Screenshots",
-  "images": [
-    {
-      "src": "apps/zxbrick/zxbrick-how-to-play.png",
-      "alt": "ZXBrick how-to-play reference image",
-      "caption": "High-level game state reference"
-    }
-  ],
-  "estimatedReadTimeMinutes": 4,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "relatedPages": [
-    "controls",
-    "tips-and-strategy",
-    "game-modes",
-    "levels",
-    "powerups",
-    "achievements",
-    "leaderboards"
-  ],
-  "relatedLinks": [
-    {
-      "label": "Learn ZXBrick Controls",
-      "href": "/apps/zxbrick/controls"
-    },
-    {
-      "label": "Compare ZXBrick Game Modes",
-      "href": "/apps/zxbrick/game-modes"
-    },
-    {
-      "label": "Improve with ZXBrick Tips & Strategy",
-      "href": "/apps/zxbrick/tips-and-strategy"
-    }
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "first-session-flow",
-      "heading": "Start playing ZXBrick",
-      "summary": "Learn the core ZXBrick session flow: clear brick layouts, control the ball, use power-ups, and progress through handcrafted levels.",
-      "body": [
-        "This gives new players enough context to start a session confidently and understand what the game is measuring.",
-        "Use this page first, then move into controls, game modes, and strategy when you want to improve consistency."
-      ],
-      "bullets": [
-        "Learn the flow from launch into active play.",
-        "Learn how controls, modes, and progress tracking.",
-        "Keeps beginner guidance practical and player-facing."
-      ],
-      "image": {
-        "src": "apps/zxbrick/zxbrick-how-to-play.png",
-        "alt": "ZXBrick how to play screen",
-        "caption": "ZXBrick how-to-play artwork shows the player flow into gameplay."
-      },
-      "links": [
-        {
-          "label": "Learn ZXBrick Controls",
-          "href": "/apps/zxbrick/controls"
-        },
-        {
-          "label": "Compare ZXBrick Game Modes",
-          "href": "/apps/zxbrick/game-modes"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "How to Play ZXBrick",
+	"seoTitle": "How to Play ZXBrick | BarkinMad Studios",
+	"description": "Learn how to play ZXBrick, destroy every brick, complete levels, collect power-ups, and improve your arcade skills.",
+	"summary": "Master the basics of ZXBrick and discover how to progress through all 100 handcrafted levels.",
+	"heroImage": "apps/zxbrick/zxbrick-hero.png",
+	"heroImageAlt": "ZXBrick gameplay",
+	"imageMetadata": [
+		{
+			"src": "apps/zxbrick/zxbrick-gameplay-02.png",
+			"alt": "ZXBrick gameplay",
+			"purpose": "gameplay",
+			"width": 1170,
+			"height": 2532,
+			"usage": [
+				"docs",
+				"website",
+				"social"
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "goal",
+			"heading": "Your Objective",
+			"paragraphs": [
+				"Your goal is to destroy every brick while keeping the ball in play.",
+				"Complete each level, collect helpful power-ups, and continue progressing through all 100 handcrafted stages."
+			]
+		},
+		{
+			"id": "session-flow",
+			"heading": "How a Game Works",
+			"paragraphs": [
+				"Every game begins with a fresh level and continues until all bricks have been cleared or you run out of lives.",
+				"As you progress, levels become more challenging, rewarding accurate paddle control, good reactions, and smart use of power-ups."
+			],
+			"bullets": [
+				"Keep the ball in play.",
+				"Destroy every brick.",
+				"Collect power-ups whenever they appear.",
+				"Complete the level and move on to the next challenge."
+			]
+		},
+		{
+			"id": "replay-loop",
+			"heading": "Keep Improving",
+			"paragraphs": [
+				"Every game is another opportunity to improve your reactions, beat your highest score, and unlock new achievements.",
+				"As you continue playing, you'll also earn BarkinMad Coins and climb the leaderboards alongside other ZXBrick players."
+			]
+		}
+	],
+	"imageSectionTitle": "How to Play",
+	"images": [
+		{
+			"src": "apps/zxbrick/zxbrick-how-to-play.png",
+			"alt": "ZXBrick gameplay",
+			"caption": "Destroy every brick and complete each level."
+		}
+	],
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"controls",
+		"tips-and-strategy",
+		"game-modes",
+		"levels",
+		"powerups",
+		"achievements",
+		"leaderboards"
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn the Controls",
+			"href": "/apps/zxbrick/controls"
+		},
+		{
+			"label": "Explore Game Progression",
+			"href": "/apps/zxbrick/game-modes"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxbrick/tips-and-strategy"
+		}
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "first-session-flow",
+			"heading": "Start Your First Game",
+			"summary": "Everything you need to know before launching your first ZXBrick session.",
+			"body": [
+				"ZXBrick is easy to learn but rewarding to master. Begin by learning how to control the paddle, keep the ball in play, and clear every brick on the screen.",
+				"As your confidence grows, you'll naturally progress through more difficult levels, unlock achievements, earn BarkinMad Coins, and compete for higher scores."
+			],
+			"bullets": [
+				"Learn the basic controls.",
+				"Complete your first level.",
+				"Collect power-ups.",
+				"Begin your journey through all 100 levels."
+			],
+			"image": {
+				"src": "apps/zxbrick/zxbrick-how-to-play.png",
+				"alt": "ZXBrick how to play",
+				"caption": "Everything you need to begin playing ZXBrick."
+			},
+			"links": [
+				{
+					"label": "Learn the Controls",
+					"href": "/apps/zxbrick/controls"
+				},
+				{
+					"label": "Explore Game Progression",
+					"href": "/apps/zxbrick/game-modes"
+				}
+			]
+		}
+	]
 }

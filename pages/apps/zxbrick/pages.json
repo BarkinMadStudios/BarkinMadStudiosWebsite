@@ -1,234 +1,111 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "appSlug": "zxbrick",
-  "title": "ZXBrick Guides",
-  "description": "Official player guides for ZXBrick covering controls, progression, and support systems.",
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "estimatedReadTimeMinutes": 36,
-  "landingPage": "overview",
-  "relatedSeries": [
-    "/zx-series"
-  ],
-  "pages": [
-    {
-      "slug": "overview",
-      "title": "App Overview",
-      "description": "Get a practical introduction to ZXBrick and where this guide series fits across the ZX Series.",
-      "required": true,
-      "order": 1,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "how-to-play",
-        "levels",
-        "powerups"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "how-to-play",
-      "title": "How to Play",
-      "description": "Learn the core loop and progression for classic brick-breaking sessions.",
-      "required": true,
-      "order": 2,
-      "estimatedReadTimeMinutes": 4,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "controls",
-        "levels",
-        "powerups",
-        "achievements",
-        "leaderboards",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "controls",
-      "title": "Controls",
-      "description": "Understand input expectations and the control rhythm used across all ZXBrick sessions.",
-      "required": true,
-      "order": 3,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "how-to-play",
-        "tips-and-strategy",
-        "powerups"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "game-modes",
-      "title": "Game Modes",
-      "description": "Understand the available mode structure and where progression features are shared.",
-      "required": true,
-      "order": 4,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "how-to-play",
-        "levels",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "barkinmad-coins",
-      "title": "BarkinMad Coins",
-      "description": "Learn how ZXBrick uses shared ZX Series wallet and unlock systems.",
-      "required": true,
-      "order": 5,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "achievements",
-        "leaderboards",
-        "how-to-play"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "achievements",
-      "title": "Achievements",
-      "description": "Review achievement goals and where they fit into replay planning.",
-      "required": true,
-      "order": 6,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "leaderboards",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "leaderboards",
-      "title": "Leaderboards",
-      "description": "Use score leaderboards to support short replay sessions and progression planning.",
-      "required": true,
-      "order": 7,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "achievements",
-        "tips-and-strategy"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "tips-and-strategy",
-      "title": "Tips & Strategy",
-      "description": "Practical tips for improving consistency in short-session play.",
-      "required": true,
-      "order": 8,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "controls",
-        "how-to-play",
-        "game-modes",
-        "achievements",
-        "leaderboards"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "frequently-asked-questions",
-      "title": "Frequently Asked Questions",
-      "description": "Answers to common ZXBrick questions from new and returning players.",
-      "required": true,
-      "order": 9,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "overview",
-        "barkinmad-coins",
-        "controls",
-        "game-modes"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "levels",
-      "title": "Levels",
-      "description": "How to understand level progression in ZXBrick's 100 handcrafted layouts.",
-      "required": false,
-      "status": "optional",
-      "order": 10,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "overview",
-        "powerups"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "powerups",
-      "title": "Power-ups",
-      "description": "A practical read on why power-ups exist and where they affect gameplay flow.",
-      "required": false,
-      "status": "optional",
-      "order": 11,
-      "estimatedReadTimeMinutes": 3,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "how-to-play",
-        "levels"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "guide",
-      "title": "Guide",
-      "description": "Complete ZXBrick walkthrough and key systems reference.",
-      "required": false,
-      "status": "optional",
-      "order": 12,
-      "estimatedReadTimeMinutes": 11,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "overview",
-        "how-to-play",
-        "controls",
-        "game-modes",
-        "levels",
-        "powerups",
-        "tips-and-strategy",
-        "frequently-asked-questions"
-      ],
-      "contentStatus": "verified"
-    },
-    {
-      "slug": "screenshots",
-      "title": "Screenshots",
-      "description": "ZXBrick visual walkthrough pairing current screenshots and artwork with gameplay, progress, and support context.",
-      "required": false,
-      "status": "optional",
-      "order": 13,
-      "estimatedReadTimeMinutes": 4,
-      "lastUpdated": "2026-07-07",
-      "lastVerified": "2026-07-07",
-      "relatedPages": [
-        "overview",
-        "guide"
-      ],
-      "contentStatus": "verified"
-    }
-  ],
-  "contentStatus": "verified"
+	"documentationSchemaVersion": "1.2.0",
+	"appSlug": "zxbrick",
+	"title": "ZXBrick Guides",
+	"description": "Official ZXBrick guides covering gameplay, controls, levels, power-ups, achievements, leaderboards, and everything you need to master the game.",
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"estimatedReadTimeMinutes": 36,
+	"landingPage": "overview",
+	"relatedSeries": [
+		"/zx-series"
+	],
+	"pages": [
+		{
+			"slug": "overview",
+			"title": "Overview",
+			"description": "Discover ZXBrick and learn what makes this retro-inspired brick-breaking game part of the ZX Series.",
+			"required": true,
+			"order": 1
+		},
+		{
+			"slug": "how-to-play",
+			"title": "How to Play",
+			"description": "Learn the basics of ZXBrick, from clearing your first level to mastering the core gameplay.",
+			"required": true,
+			"order": 2
+		},
+		{
+			"slug": "controls",
+			"title": "Controls",
+			"description": "Master paddle movement, improve your reactions, and keep the ball in play.",
+			"required": true,
+			"order": 3
+		},
+		{
+			"slug": "game-modes",
+			"title": "Game Progression",
+			"description": "Discover how ZXBrick's level progression keeps every game fresh and rewarding.",
+			"required": true,
+			"order": 4
+		},
+		{
+			"slug": "barkinmad-coins",
+			"title": "BarkinMad Coins",
+			"description": "Earn BarkinMad Coins through gameplay and unlock cosmetic rewards across the ZX Series.",
+			"required": true,
+			"order": 5
+		},
+		{
+			"slug": "achievements",
+			"title": "Achievements",
+			"description": "Unlock achievements as you play and complete new gameplay milestones.",
+			"required": true,
+			"order": 6
+		},
+		{
+			"slug": "leaderboards",
+			"title": "Leaderboards",
+			"description": "Compete for the highest score and compare your performance with players around the world.",
+			"required": true,
+			"order": 7
+		},
+		{
+			"slug": "tips-and-strategy",
+			"title": "Tips & Strategy",
+			"description": "Improve your skills with practical advice for completing levels and chasing higher scores.",
+			"required": true,
+			"order": 8
+		},
+		{
+			"slug": "frequently-asked-questions",
+			"title": "Frequently Asked Questions",
+			"description": "Find answers to the questions players ask most about ZXBrick.",
+			"required": true,
+			"order": 9
+		},
+		{
+			"slug": "levels",
+			"title": "Levels",
+			"description": "Explore all 100 handcrafted levels and discover how the challenge grows as you progress.",
+			"required": false,
+			"status": "optional",
+			"order": 10
+		},
+		{
+			"slug": "powerups",
+			"title": "Power-Ups",
+			"description": "Learn how power-ups work and when to use them to gain the greatest advantage.",
+			"required": false,
+			"status": "optional",
+			"order": 11
+		},
+		{
+			"slug": "guide",
+			"title": "Complete Guide",
+			"description": "Everything you need to know about ZXBrick in one complete guide.",
+			"required": false,
+			"status": "optional",
+			"order": 12
+		},
+		{
+			"slug": "screenshots",
+			"title": "Screenshots",
+			"description": "Take a visual tour of ZXBrick and explore its gameplay, progression, and features.",
+			"required": false,
+			"status": "optional",
+			"order": 13
+		}
+	],
+	"contentStatus": "verified"
 }

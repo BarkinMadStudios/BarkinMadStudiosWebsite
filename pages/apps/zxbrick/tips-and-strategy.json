@@ -1,100 +1,101 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXBrick Tips & Strategy",
-  "seoTitle": "ZXBrick Tips & Strategy | BarkinMad Studios",
-  "description": "Practical improvement guidance for short and repeatable ZXBrick sessions, with pacing, setup, and decision habits that improve score consistency over time.",
-  "summary": "Small consistency gains in early sessions usually create the largest score gains over time.",
-  "heroImage": "apps/zxbrick/zxbrick-hero.png",
-  "heroImageAlt": "ZXBrick strategy reference",
-  "sections": [
-    {
-      "id": "consistency",
-      "heading": "Consistency first",
-      "paragraphs": [
-        "Keep one control rhythm for your opening two sessions.",
-        "Increase complexity only after the first objective is repeatable across multiple runs."
-      ],
-      "bullets": [
-        "Set one metric goal per session",
-        "Use short debrief notes after each run",
-        "Stop when you begin adding avoidable risk"
-      ]
-    },
-    {
-      "id": "progression-loop",
-      "heading": "Build a progression loop",
-      "paragraphs": [
-        "Pick a small objective, complete three consistent runs, then reset the objective for the next cluster.",
-        "This creates a reliable loop with fewer setup-related regressions."
-      ]
-    }
-  ],
-  "relatedPages": [
-    "controls",
-    "game-modes",
-    "achievements",
-    "leaderboards",
-    "barkinmad-coins"
-  ],
-  "relatedLinks": [
-    {
-      "label": "Learn ZXBrick Controls",
-      "href": "/apps/zxbrick/controls"
-    },
-    {
-      "label": "Review ZXBrick Leaderboards",
-      "href": "/apps/zxbrick/leaderboards"
-    },
-    {
-      "label": "Track ZXBrick Achievements",
-      "href": "/apps/zxbrick/achievements"
-    }
-  ],
-  "faq": [
-    {
-      "question": "How can I improve consistency quickly?",
-      "answer": "Use two short sessions with fixed inputs, then compare outcomes only once your control baseline is stable."
-    }
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXBrick strategy",
-    "arcade tips",
-    "consistency",
-    "progression loop"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "practical-improvement",
-      "heading": "ZXBrick tips and strategy",
-      "summary": "ZXBrick strategy turns the basic loop into better repeat sessions through level reading, risk control, and smart power-up use.",
-      "body": [
-        "The most useful advice is tied to decisions players make during a session, not abstract arcade theory.",
-        "Use these tips after learning the controls, then compare progress through leaderboards and achievements."
-      ],
-      "bullets": [
-        "Focuses on practical player behaviour.",
-        "Learn how strategy to game modes and leaderboards.",
-        "Avoids filler by tying advice to real play decisions."
-      ],
-      "image": {
-        "src": "apps/zxbrick/zxbrick-hero.png",
-        "alt": "ZXBrick tips and strategy artwork",
-        "caption": "ZXBrick tips artwork supports practical improvement guidance."
-      },
-      "links": [
-        {
-          "label": "Compare ZXBrick Game Modes",
-          "href": "/apps/zxbrick/game-modes"
-        },
-        {
-          "label": "Review ZXBrick Leaderboards",
-          "href": "/apps/zxbrick/leaderboards"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXBrick Tips & Strategy",
+	"seoTitle": "ZXBrick Tips & Strategy | BarkinMad Studios",
+	"description": "Improve your ZXBrick skills with practical tips for mastering levels, using power-ups, and achieving higher scores.",
+	"summary": "Small improvements in timing, control, and decision-making can make a big difference as you progress through ZXBrick.",
+	"heroImage": "apps/zxbrick/zxbrick-hero.png",
+	"heroImageAlt": "ZXBrick Tips & Strategy",
+	"sections": [
+		{
+			"id": "consistency",
+			"heading": "Build Strong Foundations",
+			"paragraphs": [
+				"Focus on smooth, controlled paddle movement before trying to play faster. Consistency is far more valuable than rushing through difficult levels.",
+				"Every completed game helps you improve your reactions and timing, so don't worry if you need to replay a level several times before moving on."
+			],
+			"bullets": [
+				"Keep the paddle under control.",
+				"Stay focused on the ball.",
+				"Improve one skill at a time."
+			]
+		},
+		{
+			"id": "progression-loop",
+			"heading": "Improve with Every Game",
+			"paragraphs": [
+				"Set yourself a simple goal for each play session, whether that's completing another level, beating your highest score, or unlocking your next achievement.",
+				"Small improvements soon become bigger successes, helping you climb the leaderboards and progress through all 100 handcrafted levels."
+			]
+		}
+	],
+	"relatedPages": [
+		"controls",
+		"game-modes",
+		"achievements",
+		"leaderboards",
+		"barkinmad-coins"
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn the Controls",
+			"href": "/apps/zxbrick/controls"
+		},
+		{
+			"label": "View Leaderboards",
+			"href": "/apps/zxbrick/leaderboards"
+		},
+		{
+			"label": "View Achievements",
+			"href": "/apps/zxbrick/achievements"
+		}
+	],
+	"faq": [
+		{
+			"question": "How can I improve my score?",
+			"answer": "Focus on keeping the ball in play, learning each level, and making the most of power-ups. As your control improves, higher scores will come naturally."
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXBrick strategy",
+		"ZXBrick tips",
+		"arcade game",
+		"high score"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "practical-improvement",
+			"heading": "Play Smarter, Score Higher",
+			"summary": "Simple improvements in control and strategy can dramatically improve your performance.",
+			"body": [
+				"ZXBrick rewards patience, precision, and practice. Learning how each level works, controlling the paddle accurately, and using power-ups at the right time will help you survive longer and achieve higher scores.",
+				"Whether you're aiming to complete every level or climb the leaderboards, every game is another opportunity to improve."
+			],
+			"bullets": [
+				"Improve your reactions.",
+				"Master every level.",
+				"Use power-ups wisely.",
+				"Compete for higher scores."
+			],
+			"image": {
+				"src": "apps/zxbrick/zxbrick-hero.png",
+				"alt": "ZXBrick Tips & Strategy",
+				"caption": "Every game is another chance to improve."
+			},
+			"links": [
+				{
+					"label": "Explore Game Progression",
+					"href": "/apps/zxbrick/game-modes"
+				},
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxbrick/leaderboards"
+				}
+			]
+		}
+	]
 }

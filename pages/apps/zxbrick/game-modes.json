@@ -1,90 +1,91 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXBrick Game Modes",
-  "seoTitle": "ZXBrick Game Modes | BarkinMad Studios",
-  "description": "Compare gameplay modes and decide which setup to use for training or scoring sessions.",
-  "summary": "Choose the right mode pattern for your goal: consistency training or focused scoring progression.",
-  "heroImage": "apps/zxbrick/zxbrick-hero.png",
-  "heroImageAlt": "ZXBrick game modes overview",
-  "sections": [
-    {
-      "id": "available",
-      "heading": "Available modes",
-      "paragraphs": [
-        "ZXBrick focuses on a single-player progression loop for the documented modes.",
-        "Use mode choice to match your objective: clean practice rounds for consistency or longer sessions for score growth."
-      ]
-    },
-    {
-      "id": "mode-selection",
-      "heading": "How to select a mode",
-      "paragraphs": [
-        "Use short sessions for control tuning and longer sessions for achievement-oriented progression.",
-        "Keep mode intent stable for at least one run cluster so results remain comparable."
-      ]
-    }
-  ],
-  "relatedPages": [
-    "how-to-play",
-    "tips-and-strategy",
-    "achievements",
-    "leaderboards"
-  ],
-  "relatedLinks": [
-    {
-      "label": "Achievements",
-      "href": "/apps/zxbrick/achievements"
-    },
-    {
-      "label": "Leaderboards",
-      "href": "/apps/zxbrick/leaderboards"
-    }
-  ],
-  "faq": [
-    {
-      "question": "How do I choose the right mode for practice?",
-      "answer": "Use a short, low-pressure session for control training and switch to a longer score-focused session once controls feel stable."
-    }
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXBrick game modes",
-    "single-player",
-    "level progression",
-    "arcade scores"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "mode-selection",
-      "heading": "ZXBrick game modes",
-      "summary": "Learn how ZXBrick structures brick layouts, level progression, power-up choices, and score goals.",
-      "body": [
-        "This matters because players need to know what kind of session they are starting and how success is measured.",
-        "Players use this page to choose the right mode for a quick game, a focused practice run, or a score-chasing session."
-      ],
-      "bullets": [
-        "Learn supported play styles.",
-        "Learn how mode choice to controls, tips, and leaderboards.",
-        "Keeps App Store-friendly wording focused on gameplay."
-      ],
-      "image": {
-        "src": "apps/zxbrick/zxbrick-hero.png",
-        "alt": "ZXBrick game modes artwork",
-        "caption": "ZXBrick mode artwork supports the game mode explanation."
-      },
-      "links": [
-        {
-          "label": "View tips",
-          "href": "/apps/zxbrick/tips-and-strategy"
-        },
-        {
-          "label": "View leaderboards",
-          "href": "/apps/zxbrick/leaderboards"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXBrick Game Modes",
+	"seoTitle": "ZXBrick Game Modes | BarkinMad Studios",
+	"description": "Learn how progression works in ZXBrick, from mastering early levels to chasing high scores and completing all 100 handcrafted stages.",
+	"summary": "ZXBrick focuses on a single arcade experience where every level builds on the last, rewarding skill, precision, and consistency.",
+	"heroImage": "apps/zxbrick/zxbrick-hero.png",
+	"heroImageAlt": "ZXBrick game progression",
+	"sections": [
+		{
+			"id": "available",
+			"heading": "Classic Arcade Progression",
+			"paragraphs": [
+				"ZXBrick is built around a classic brick-breaking arcade experience where every level presents a new challenge.",
+				"As you progress through the game, brick layouts become more demanding, requiring quicker reactions, better positioning, and smarter use of power-ups."
+			]
+		},
+		{
+			"id": "mode-selection",
+			"heading": "Play Your Way",
+			"paragraphs": [
+				"Whether you're aiming to complete all 100 handcrafted levels, beat your highest score, or unlock every achievement, every game helps you make progress.",
+				"Some sessions are perfect for practising difficult levels, while others are all about chasing new leaderboard positions and personal bests."
+			]
+		}
+	],
+	"relatedPages": [
+		"how-to-play",
+		"tips-and-strategy",
+		"achievements",
+		"leaderboards"
+	],
+	"relatedLinks": [
+		{
+			"label": "View Achievements",
+			"href": "/apps/zxbrick/achievements"
+		},
+		{
+			"label": "View Leaderboards",
+			"href": "/apps/zxbrick/leaderboards"
+		}
+	],
+	"faq": [
+		{
+			"question": "Does ZXBrick include different game modes?",
+			"answer": "ZXBrick focuses on a single arcade experience built around level progression, high scores, achievements, and leaderboard competition. Every game contributes towards your overall progress."
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXBrick",
+		"arcade game",
+		"level progression",
+		"high scores"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "mode-selection",
+			"heading": "Every Level Is a New Challenge",
+			"summary": "Progress through increasingly difficult levels while improving your skills and chasing higher scores.",
+			"body": [
+				"ZXBrick is easy to pick up but rewarding to master. Every level introduces new layouts and fresh challenges, encouraging you to improve your reactions, accuracy, and strategy.",
+				"Whether you're playing for a few minutes or aiming to complete all 100 handcrafted levels, every game helps you become a better player."
+			],
+			"bullets": [
+				"100 handcrafted levels.",
+				"High-score progression.",
+				"Achievements and leaderboards.",
+				"Fast-paced arcade gameplay."
+			],
+			"image": {
+				"src": "apps/zxbrick/zxbrick-hero.png",
+				"alt": "ZXBrick gameplay",
+				"caption": "Every level is another opportunity to improve your skills."
+			},
+			"links": [
+				{
+					"label": "Read Tips & Strategy",
+					"href": "/apps/zxbrick/tips-and-strategy"
+				},
+				{
+					"label": "View Leaderboards",
+					"href": "/apps/zxbrick/leaderboards"
+				}
+			]
+		}
+	]
 }

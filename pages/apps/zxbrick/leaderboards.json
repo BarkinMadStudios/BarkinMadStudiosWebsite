@@ -1,92 +1,93 @@
 {
-  "documentationSchemaVersion": "1.2.0",
-  "title": "ZXBrick Leaderboards",
-  "seoTitle": "ZXBrick Leaderboards | BarkinMad Studios",
-  "description": "How to use the ZXBrick leaderboard flow to compare scores, track sessions, and improve play quality over repeated short games.",
-  "summary": "Leaderboards provide short-term comparison points and help convert short sessions into long-term progression loops.",
-  "heroImage": "apps/zxbrick/zxbrick-hero.png",
-  "heroImageAlt": "ZXBrick leaderboards overview",
-  "sections": [
-    {
-      "id": "overview",
-      "heading": "Overview",
-      "paragraphs": [
-        "ZXBrick currently publishes a highest-score leaderboard.",
-        "Use this list to compare replay consistency across sessions and validate training results."
-      ],
-      "bullets": [
-        "Highest Score"
-      ]
-    },
-    {
-      "id": "comparison-flow",
-      "heading": "Build reusable comparisons",
-      "paragraphs": [
-        "Use one leaderboard goal per short cycle to prevent noisy comparison behavior.",
-        "Track session date and focus mode for each score comparison."
-      ]
-    }
-  ],
-  "relatedPages": [
-    "achievements",
-    "tips-and-strategy",
-    "how-to-play",
-    "game-modes"
-  ],
-  "relatedLinks": [
-    {
-      "label": "Improve with ZXBrick Tips & Strategy",
-      "href": "/apps/zxbrick/tips-and-strategy"
-    },
-    {
-      "label": "Track ZXBrick Achievements",
-      "href": "/apps/zxbrick/achievements"
-    },
-    {
-      "label": "Compare ZXBrick Game Modes",
-      "href": "/apps/zxbrick/game-modes"
-    }
-  ],
-  "faq": [
-    {
-      "question": "What is shown on the ZXBrick leaderboard?",
-      "answer": "The current published category is highest score."
-    }
-  ],
-  "estimatedReadTimeMinutes": 3,
-  "lastUpdated": "2026-07-07",
-  "lastVerified": "2026-07-07",
-  "keywords": [
-    "ZXBrick leaderboard",
-    "highest score",
-    "score comparison"
-  ],
-  "contentStatus": "verified",
-  "featureShowcases": [
-    {
-      "id": "competitive-comparison",
-      "heading": "ZXBrick leaderboards",
-      "summary": "Leaderboards explain how score comparison fits into ZXBrick.",
-      "body": [
-        "This matters because arcade games are built around improvement. Leaderboards give players a clear reason to replay, refine inputs, and chase stronger results.",
-        "Players use this page after play to understand supported comparison surfaces and how leaderboard goals sit beside personal improvement."
-      ],
-      "bullets": [
-        "Learn how score chasing to supported comparison.",
-        "Works with achievements and tips.",
-        "Keeps competitive wording clear and player-facing."
-      ],
-      "image": {
-        "src": "apps/zxbrick/zxbrick-hero.png",
-        "alt": "ZXBrick leaderboards artwork",
-        "caption": "ZXBrick leaderboard artwork supports score comparison and replay goals."
-      },
-      "links": [
-        {
-          "label": "View achievements",
-          "href": "/apps/zxbrick/achievements"
-        }
-      ]
-    }
-  ]
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXBrick Leaderboards",
+	"seoTitle": "ZXBrick Leaderboards | BarkinMad Studios",
+	"description": "Compete for the highest score in ZXBrick and compare your performance with players around the world through Apple Game Center.",
+	"summary": "Every game is another opportunity to improve your score, climb the leaderboard, and challenge yourself.",
+	"heroImage": "apps/zxbrick/zxbrick-hero.png",
+	"heroImageAlt": "ZXBrick leaderboards",
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "Compete for the Highest Score",
+			"paragraphs": [
+				"ZXBrick includes an Apple Game Center leaderboard where players compete for the highest score.",
+				"Whether you're trying to beat your own personal best or challenge players around the world, every game is another opportunity to climb the rankings."
+			],
+			"bullets": [
+				"Highest Score"
+			]
+		},
+		{
+			"id": "comparison-flow",
+			"heading": "Keep Improving",
+			"paragraphs": [
+				"Focus on beating your previous best score rather than making huge jumps every session. Small improvements quickly add up as your skills develop.",
+				"Leaderboards work alongside achievements and BarkinMad Coins, rewarding regular play and giving you new goals every time you return to ZXBrick."
+			]
+		}
+	],
+	"relatedPages": [
+		"achievements",
+		"tips-and-strategy",
+		"how-to-play",
+		"game-modes"
+	],
+	"relatedLinks": [
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxbrick/tips-and-strategy"
+		},
+		{
+			"label": "View Achievements",
+			"href": "/apps/zxbrick/achievements"
+		},
+		{
+			"label": "Explore Game Progression",
+			"href": "/apps/zxbrick/game-modes"
+		}
+	],
+	"faq": [
+		{
+			"question": "What appears on the ZXBrick leaderboard?",
+			"answer": "The current Apple Game Center leaderboard tracks the highest score, allowing you to compare your best performances with other ZXBrick players."
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-07-07",
+	"lastVerified": "2026-07-07",
+	"keywords": [
+		"ZXBrick leaderboard",
+		"Game Center",
+		"highest score",
+		"arcade leaderboard"
+	],
+	"contentStatus": "verified",
+	"featureShowcases": [
+		{
+			"id": "competitive-comparison",
+			"heading": "Every Game Is a New Challenge",
+			"summary": "Compete for higher scores, beat your personal best, and climb the leaderboard.",
+			"body": [
+				"Every completed game gives you another opportunity to improve your score and move higher up the leaderboard. As your skills improve, you'll naturally climb the rankings while unlocking achievements and earning BarkinMad Coins.",
+				"Leaderboards provide an extra layer of competition, encouraging you to return for just one more game."
+			],
+			"bullets": [
+				"Compete for the highest score.",
+				"Track your personal best.",
+				"Works alongside achievements and BarkinMad Coins."
+			],
+			"image": {
+				"src": "apps/zxbrick/zxbrick-hero.png",
+				"alt": "ZXBrick leaderboards",
+				"caption": "Every game is another opportunity to climb the leaderboard."
+			},
+			"links": [
+				{
+					"label": "View Achievements",
+					"href": "/apps/zxbrick/achievements"
+				}
+			]
+		}
+	]
 }
