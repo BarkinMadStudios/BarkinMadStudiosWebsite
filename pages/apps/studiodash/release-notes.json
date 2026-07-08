@@ -91,4 +91,11 @@
 	"estimatedReadTimeMinutes": 4,
 	"contentStatus": "verified",
 	"lastUpdated": "2026-07-07",
-	"last
+	"lastVerified": "2026-07-07",
+	"relatedPages": [
+		"private-beta",
+		"features",
+		"integrations",
+		"guide"
+	]
+}

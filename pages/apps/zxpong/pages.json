@@ -102,4 +102,12 @@
 		},
 		{
 			"slug": "screenshots",
-			"title": "Screens
+			"title": "Screenshots",
+			"description": "Take a visual tour of ZXPong and explore its gameplay, progression, and arcade action.",
+			"required": false,
+			"status": "optional",
+			"order": 11
+		}
+	],
+	"contentStatus": "verified"
+}

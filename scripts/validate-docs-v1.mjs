@@ -7,11 +7,46 @@ import { fileURLToPath } from "node:url";
 
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const APPS_DIR = path.join(ROOT_DIR, "pages", "apps");
+const PAGES_DIR = path.join(ROOT_DIR, "pages");
+const NEWS_DIR = path.join(ROOT_DIR, "news");
 const IMAGE_ROOT = path.join(ROOT_DIR, "images", "apps");
 const DOCUMENTATION_PLACEHOLDER_PATH = path.join(ROOT_DIR, "images", "shared", "placeholder.png");
 const PROFILES_DIR = path.join(ROOT_DIR, "profiles");
 const SHARED_PROFILE_FILE = "shared.json";
 const DEFAULT_DOCUMENTATION_PROFILE = "game";
+
+const STATIC_ROUTES = [
+  "/",
+  "/apps",
+  "/apps/non-zx",
+  "/zx-series",
+  "/news",
+  "/news/archive",
+  "/about",
+  "/portfolio",
+  "/docs",
+  "/services",
+  "/privacy",
+  "/cookies",
+  "/terms",
+  "/company",
+  "/contact"
+];
+
+const REDIRECT_ROUTES = [
+  "/home",
+  "/devlog",
+  "/about-us",
+  "/support",
+  "/retro-arcade-games",
+  "/retro-games",
+  "/games",
+  "/darts-apps",
+  "/gameofdarts",
+  "/portfolio/studiodash",
+  "/services/custom-sofware-development",
+  "/news/32-language-support-across-the-zx-series"
+];
 
 const STRICT = process.argv.includes("--strict");
 const JSON_OUTPUT = process.argv.includes("--json");
@@ -34,6 +69,8 @@ const report = {
     schema: 0,
     navigation: 0,
     links: 0,
+    routes: 0,
+    sitemap: 0,
     seo: 0,
     images: 0
   }
@@ -270,6 +307,10 @@ function validateDatePair(context, item) {
       });
     }
   }
+}
+
+function datePairValid(item) {
+  return isDateString(item?.lastUpdated) && isDateString(item?.lastVerified);
 }
 
 function validateContentStatus(context, status) {
@@ -519,7 +560,7 @@ function validateIndexSchema(context, index, documentationProfile) {
       continue;
     }
 
-    const { slug, title, description, order, required, status, estimatedReadTimeMinutes, contentStatus } = page;
+    const { slug, title, description, order, required, status } = page;
 
     if (!isString(slug)) {
       addError(pageContext, "Page slug required");
@@ -549,13 +590,16 @@ function validateIndexSchema(context, index, documentationProfile) {
       seenOrders.add(order);
     }
 
-    if (!validateContentStatus(`${pageContext}.contentStatus`, contentStatus)) {
-      addWarning(pageContext, "contentStatus missing; default will be used", { slug });
+    if (page.contentStatus !== undefined) {
+      validateContentStatus(`${pageContext}.contentStatus`, page.contentStatus);
+    } else if (!validateContentStatus(`${context}.contentStatus`, index.contentStatus)) {
+      addWarning(pageContext, "contentStatus missing and index default is invalid", { slug });
     }
 
-    validateDatePair(`${pageContext}.dates`, page);
+    const dateSource = datePairValid(page) ? page : index;
+    validateDatePair(`${pageContext}.dates`, dateSource);
 
-    if (typeof estimatedReadTimeMinutes !== "number" || estimatedReadTimeMinutes < 1) {
+    if (page.estimatedReadTimeMinutes !== undefined && (typeof page.estimatedReadTimeMinutes !== "number" || page.estimatedReadTimeMinutes < 1)) {
       addWarning(pageContext, "estimatedReadTimeMinutes should be a positive number", slug);
     }
 
@@ -894,6 +938,187 @@ async function validateApp(appSlug, appData) {
   }
 }
 
+function normalizeRoute(value) {
+  if (!isString(value)) return "";
+  const trimmed = value.trim();
+  if (!trimmed.startsWith("/")) return "";
+  const withoutHash = trimmed.split("#")[0].split("?")[0];
+  if (!withoutHash || withoutHash === "/") return "/";
+  return withoutHash.replace(/\/+$/g, "");
+}
+
+function isPageRouteCandidate(route) {
+  if (!route || !route.startsWith("/")) return false;
+  if (route.startsWith("/images/") || route.startsWith("/news/") && /\.[a-z0-9]{2,5}$/i.test(route)) return false;
+  if (/\.[a-z0-9]{2,5}$/i.test(route) && !route.endsWith(".html")) return false;
+  return true;
+}
+
+async function collectJsonFiles(dir) {
+  const files = [];
+  const entries = await fs.readdir(dir, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const filePath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...await collectJsonFiles(filePath));
+    } else if (entry.isFile() && entry.name.endsWith(".json")) {
+      files.push(filePath);
+    }
+  }
+
+  return files;
+}
+
+function collectInternalLinks(value) {
+  return [
+    ...explicitLinksFromValue(value),
+    ...markdownLinksFromValue(value)
+  ]
+    .map((item) => normalizeRoute(item.href || item))
+    .filter(isPageRouteCandidate);
+}
+
+function isPublishedDate(value) {
+  if (!isDateString(value)) return false;
+  const date = new Date(value);
+  const now = new Date();
+  date.setHours(0, 0, 0, 0);
+  now.setHours(0, 0, 0, 0);
+  return date <= now;
+}
+
+async function buildGeneratedRoutes() {
+  const routes = new Set([...STATIC_ROUTES, ...REDIRECT_ROUTES]);
+  const sitemapRoutes = new Set([
+    "/",
+    "/apps",
+    "/apps/non-zx",
+    "/zx-series",
+    "/news",
+    "/about",
+    "/portfolio",
+    "/docs",
+    "/services",
+    "/privacy",
+    "/cookies",
+    "/terms",
+    "/company",
+    "/contact"
+  ]);
+
+  const appsJson = await readJson(path.join(PAGES_DIR, "data", "apps.json"));
+  const listedApps = Array.isArray(appsJson) ? appsJson : [];
+
+  for (const app of listedApps) {
+    if (!isObject(app) || !isString(app.slug)) continue;
+    const appSlug = normalizeSlug(app.slug);
+    const appPath = normalizeRoute(app.href || `/apps/${appSlug}`);
+    if (!appPath) continue;
+
+    routes.add(appPath);
+    sitemapRoutes.add(appPath);
+
+    const appData = appMap.get(appSlug);
+    const pageIndex = appData?.hasPages ? await readJson(appData.pagesFile) : null;
+    const landingSlug = normalizeSlug(pageIndex?.landingPage || "overview");
+    const pageSlugs = appData?.pages instanceof Set ? appData.pages : new Set();
+
+    for (const pageSlug of pageSlugs) {
+      const route = `/apps/${appSlug}/${pageSlug}`;
+      routes.add(route);
+
+      if (pageSlug !== landingSlug || landingSlug !== "overview") {
+        sitemapRoutes.add(route);
+      }
+    }
+  }
+
+  const services = await readJson(path.join(PAGES_DIR, "services.json"));
+  const servicePages = Array.isArray(services?.servicePages) ? services.servicePages : [];
+  for (const service of servicePages) {
+    const route = normalizeRoute(service?.href);
+    if (route) {
+      routes.add(route);
+      sitemapRoutes.add(route);
+    }
+  }
+
+  const portfolioFiles = (await fs.readdir(PAGES_DIR, { withFileTypes: true }))
+    .filter((entry) => entry.isFile() && /^portfolio-[a-z0-9-]+\.json$/i.test(entry.name));
+  for (const file of portfolioFiles) {
+    const projectSlug = file.name.replace(/^portfolio-/i, "").replace(/\.json$/i, "");
+    routes.add(`/portfolio/${projectSlug}`);
+  }
+
+  const posts = await readJson(path.join(NEWS_DIR, "posts.json"));
+  const postList = Array.isArray(posts) ? posts : [];
+  for (const post of postList) {
+    if (!isObject(post) || !isString(post.slug) || !isPublishedDate(post.date)) continue;
+    const articlePath = path.join(NEWS_DIR, post.slug, "article.json");
+    if (!existsSync(articlePath)) {
+      addError("routes.news", "Published news post is missing article file", post.slug);
+      continue;
+    }
+
+    const article = await readJson(articlePath);
+    if (!article || !isPublishedDate(article.date || post.date)) continue;
+    const route = `/news/${post.slug}`;
+    routes.add(route);
+    sitemapRoutes.add(route);
+  }
+
+  return { routes, sitemapRoutes };
+}
+
+async function validateGeneratedRoutes() {
+  const { routes, sitemapRoutes } = await buildGeneratedRoutes();
+
+  for (const route of routes) {
+    report.checks.routes += 1;
+    if (!route.startsWith("/")) {
+      addError("routes", "Generated route must be root-relative", route);
+    }
+  }
+
+  const jsonFiles = [
+    ...await collectJsonFiles(PAGES_DIR),
+    ...await collectJsonFiles(NEWS_DIR)
+  ];
+
+  for (const filePath of jsonFiles) {
+    const json = await readJson(filePath);
+    if (!json) continue;
+
+    const context = path.relative(ROOT_DIR, filePath);
+    for (const route of collectInternalLinks(json)) {
+      report.checks.routes += 1;
+      if (!routes.has(route)) {
+        addError(context, "Internal link points to a route that is not generated", route);
+      }
+    }
+  }
+
+  for (const sitemapRoute of sitemapRoutes) {
+    report.checks.sitemap += 1;
+    if (!routes.has(sitemapRoute)) {
+      addError("sitemap", "Sitemap route is not generated", sitemapRoute);
+    }
+  }
+
+  for (const [appSlug, appData] of appMap.entries()) {
+    if (!appData?.hasPages) continue;
+    const pageSlugs = appData.pages instanceof Set ? appData.pages : new Set();
+    for (const pageSlug of pageSlugs) {
+      const route = `/apps/${appSlug}/${pageSlug}`;
+      report.checks.routes += 1;
+      if (!routes.has(route)) {
+        addError(`apps/${appSlug}`, "Documentation page route is not generated", route);
+      }
+    }
+  }
+}
+
 function printTextReport() {
   const lines = [];
   lines.push("BarkinMad Studios Documentation v1 Validation");
@@ -901,7 +1126,7 @@ function printTextReport() {
   lines.push(`Apps scanned: ${report.appsScanned}`);
   lines.push(`Pages discovered: ${report.pagesFound}`);
   lines.push(`Legacy doc sets: ${report.legacyApps}`);
-  lines.push(`Checks run: schema=${report.checks.schema}, navigation=${report.checks.navigation}, links=${report.checks.links}, images=${report.checks.images}, seo=${report.checks.seo}`);
+  lines.push(`Checks run: schema=${report.checks.schema}, navigation=${report.checks.navigation}, links=${report.checks.links}, routes=${report.checks.routes}, sitemap=${report.checks.sitemap}, images=${report.checks.images}, seo=${report.checks.seo}`);
   lines.push("");
 
   if (report.errors.length) {
@@ -939,6 +1164,8 @@ const readCache = new Map();
 for (const [slug, data] of appMap.entries()) {
   await validateApp(slug, data);
 }
+
+await validateGeneratedRoutes();
 
 if (report.errors.length === 0 && args.strict && report.warnings.length > 0) {
   const remainingWarnings = [];
