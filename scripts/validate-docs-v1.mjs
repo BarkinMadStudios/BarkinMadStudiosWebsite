@@ -65,6 +65,7 @@ const report = {
   pagesFound: 0,
   legacyApps: 0,
   warnings: [],
+  notices: [],
   errors: [],
   checks: {
     schema: 0,
@@ -83,6 +84,10 @@ function addError(context, message, details = null) {
 
 function addWarning(context, message, details = null) {
   report.warnings.push({ severity: "warning", context, message, details });
+}
+
+function addNotice(context, message, details = null) {
+  report.notices.push({ severity: "notice", context, message, details });
 }
 
 function isObject(value) {
@@ -302,7 +307,7 @@ function validateDatePair(context, item) {
     const updated = new Date(item.lastUpdated);
     const verified = new Date(item.lastVerified);
     if (verified < updated) {
-      addWarning(context, "lastVerified is before lastUpdated", {
+      addNotice(context, "Content changed after its last verification", {
         lastUpdated: item.lastUpdated,
         lastVerified: item.lastVerified
       });
@@ -1145,6 +1150,15 @@ function printTextReport() {
     for (const issue of report.warnings) {
       const details = issue.details !== null ? ` ${JSON.stringify(issue.details)}` : "";
       lines.push(`- [warn] ${issue.context}: ${issue.message}${details}`);
+    }
+    lines.push("");
+  }
+
+  if (report.notices.length) {
+    lines.push("Notices:");
+    for (const issue of report.notices) {
+      const details = issue.details !== null ? ` ${JSON.stringify(issue.details)}` : "";
+      lines.push(`- [notice] ${issue.context}: ${issue.message}${details}`);
     }
     lines.push("");
   }
