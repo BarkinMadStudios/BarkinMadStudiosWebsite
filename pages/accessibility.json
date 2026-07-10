@@ -1,100 +1,113 @@
 {
-	"title": "Accessibility",
-	"seoTitle": "Accessibility | BarkinMad Studios",
-	"description": "Accessibility information for BarkinMad Studios apps and website, including support for Apple accessibility features and how to report accessibility issues.",
-	"heading": "Accessibility",
-	"intro": "BarkinMad Studios is committed to making its website, apps and games as accessible and usable as reasonably possible. We aim to support a wide range of users and devices, including people who use accessibility features provided by Apple and other platform providers.",
-	"hero": {
-		"image": "/images/privacy-bg-banner.png",
-		"alt": "Accessible technology and support at BarkinMad Studios"
-	},
-	"breadcrumbs": [
-		{
-			"label": "Home",
-			"href": "/"
-		},
-		{
-			"label": "Accessibility",
-			"href": "/accessibility"
-		}
-	],
-	"sections": [
-		{
-			"heading": "Our accessibility commitment",
-			"paragraphs": [
-				"We consider accessibility when designing, developing and updating our website, apps and games. The needs of users and the support available can differ between products, devices and operating-system versions, so we publish app-specific details only after they have been verified.",
-				"This page describes our current approach and is not a claim of formal certification, full WCAG conformance or universal support for every accessibility feature."
-			]
-		},
-		{
-			"heading": "Accessibility in our Apple apps",
-			"paragraphs": [
-				"Our apps for iPhone and iPad are designed to work with the accessibility features available in iOS and iPadOS where those features are applicable to the app. Accessibility support can vary between apps depending on the type of game, interface and gameplay.",
-				"We review accessibility as our apps are developed and updated. Where an app includes specific accessibility support, verified details are listed on this page or on the app's individual support pages.",
-				"The following are general design objectives considered during development. They are not a statement that every app currently supports every item:"
-			],
-			"list": [
-				"VoiceOver labels and navigation",
-				"Readable text and text sizing",
-				"Sufficient colour contrast",
-				"Alternatives to colour-only information",
-				"Reduced-motion considerations",
-				"Clear touch targets",
-				"Visual alternatives for audio cues",
-				"Support for device display and accessibility settings"
-			]
-		},
-		{
-			"heading": "Accessibility by app",
-			"paragraphs": [
-				"This section separates verified current support from features that remain planned or under review."
-			],
-			"subsections": [
-				{
-					"heading": "Game of Darts",
-					"paragraphs": [
-						"Verified current support: no app-specific accessibility feature list is published here yet because the combined verification against the current app and its App Store Connect declarations has not been completed.",
-						"Under review: app-specific details will be added after each feature has been tested and confirmed against the information declared in App Store Connect."
-					]
-				},
-				{
-					"heading": "ZX Series",
-					"paragraphs": [
-						"The ZX Series uses consistent menus, controls and visual presentation across its games. Accessibility support is reviewed as each title is updated. App-specific information will be added here as features are verified.",
-						"Verified current support: no series-wide VoiceOver, Dynamic Type, reduced-motion or other accessibility feature claim is published at this time."
-					]
-				}
-			]
-		},
-		{
-			"heading": "Accessibility feedback and support",
-			"paragraphs": [
-				"If you experience an accessibility problem when using our website or one of our apps, please contact us and include the app name, device model, operating-system version and a brief description of the issue."
-			],
-			"links": [
-				{
-					"label": "Contact BarkinMad Studios support",
-					"href": "/contact"
-				}
-			]
-		},
-		{
-			"heading": "External accessibility resources",
-			"paragraphs": [
-				"The following external Apple resources provide more information about accessibility features available on Apple devices and Apple's guidance for accessible app development. These links do not mean that Apple has reviewed, certified or endorsed BarkinMad Studios apps."
-			],
-			"links": [
-				{
-					"label": "Apple Accessibility (external resource)",
-					"href": "https://www.apple.com/accessibility/"
-				},
-				{
-					"label": "Apple Developer Accessibility (external resource)",
-					"href": "https://developer.apple.com/accessibility/"
-				}
-			]
-		}
-	],
-	"lastReviewed": "2026-07-10",
-	"lastUpdated": "2026-07-10"
+  "title": "Accessibility",
+  "seoTitle": "Accessibility | BarkinMad Studios",
+  "description": "Accessibility information for BarkinMad Studios apps and website, including support for Apple accessibility features and how to report accessibility issues.",
+  "heading": "Accessibility",
+  "intro": "BarkinMad Studios is committed to making its website, apps and games as accessible and usable as reasonably possible. We consider accessibility throughout the design, development and ongoing improvement of our products, with the aim of supporting a wide range of users, devices and assistive technologies.",
+  "hero": {
+    "image": "/images/privacy-bg-banner.png",
+    "alt": "Accessible technology and support at BarkinMad Studios"
+  },
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Accessibility",
+      "href": "/accessibility"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Our commitment to accessibility",
+      "paragraphs": [
+        "We are committed to making the BarkinMad Studios website, apps and games as accessible and usable as reasonably possible. We consider accessibility throughout the design, development and ongoing maintenance of our products.",
+        "Accessibility is reviewed as part of our development process, and representative areas of our website are regularly tested using keyboard navigation and assistive technologies such as Apple VoiceOver.",
+        "The needs of users, together with the accessibility features available, can differ between products, devices and operating-system versions. For this reason, we publish app-specific accessibility information only after it has been tested and verified.",
+        "This page describes our current accessibility approach and the features we currently support. It should not be interpreted as a formal accessibility certification, a declaration of full WCAG 2.2 conformance, or a guarantee that every accessibility feature is available in every product or on every platform."
+      ]
+    },
+    {
+      "heading": "Accessibility in our Apple apps",
+      "paragraphs": [
+        "Our apps for iPhone and iPad are designed to work with the accessibility features available in iOS and iPadOS where those features are applicable to the app. Accessibility support can vary between apps depending on the type of game, interface and gameplay.",
+        "We review accessibility as our apps are developed and updated. Where an app includes specific accessibility support, verified details are listed on this page or on the app's individual support pages.",
+        "The following accessibility considerations are reviewed during development. They should not be interpreted as features currently available in every app:"
+      ],
+      "list": [
+        "VoiceOver labels and navigation",
+        "Readable text and text sizing",
+        "Sufficient colour contrast",
+        "Alternatives to colour-only information",
+        "Reduced-motion considerations",
+        "Clear touch targets",
+        "Visual alternatives for audio cues",
+        "Support for device display and accessibility settings"
+      ]
+    },
+    {
+      "heading": "Accessibility by app",
+      "paragraphs": [
+        "This section separates verified current support from features that remain planned or under review.",
+        "As additional accessibility features are implemented and verified, this page will be updated to reflect the current capabilities of each app."
+      ],
+      "subsections": [
+        {
+          "heading": "Game of Darts",
+          "paragraphs": [
+            "Verified current support: no app-specific accessibility feature list is published here yet because the combined verification against the current app and its App Store Connect declarations has not been completed.",
+            "Under review: app-specific details will be added after each feature has been tested and confirmed against the information declared in App Store Connect."
+          ]
+        },
+        {
+          "heading": "ZX Series",
+          "paragraphs": [
+            "The ZX Series uses consistent menus, controls and visual presentation across its games. Accessibility support is reviewed as each title is updated. App-specific information will be added here as features are verified.",
+            "Verified current support: no series-wide VoiceOver, Dynamic Type, reduced-motion or other accessibility feature claim is published at this time."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Accessibility feedback and support",
+      "paragraphs": [
+        "If you experience an accessibility problem when using our website or one of our apps, please contact us and include the app name, device model, operating-system version and a brief description of the issue.",
+        "We welcome feedback from users of assistive technologies and will consider accessibility improvements as part of our ongoing development process."
+      ],
+      "links": [
+        {
+          "label": "Contact BarkinMad Studios support",
+          "href": "/contact"
+        }
+      ]
+    },
+    {
+      "heading": "External accessibility resources",
+      "paragraphs": [
+        "Your device may already include accessibility features that can improve your experience when using our website and apps.",
+        "The following external Apple resources provide more information about accessibility features available on Apple devices and Apple's guidance for accessible app development. These links do not mean that Apple has reviewed, certified or endorsed BarkinMad Studios apps."
+      ],
+      "links": [
+        {
+          "label": "Apple Accessibility (external resource)",
+          "href": "https://www.apple.com/accessibility/"
+        },
+        {
+          "label": "Apple Developer Accessibility (external resource)",
+          "href": "https://developer.apple.com/accessibility/"
+        }
+      ]
+    },
+    {
+      "heading": "Accessibility review",
+      "paragraphs": [
+        "We regularly review the accessibility of the BarkinMad Studios website as part of our development process.",
+        "Our reviews include source-level accessibility assessments, keyboard navigation testing and representative Apple VoiceOver testing.",
+        "Accessibility improvements are incorporated into future releases where appropriate."
+      ]
+    }
+  ],
+  "lastReviewed": "2026-07-10",
+  "lastUpdated": "2026-07-10"
 }
