@@ -170,6 +170,10 @@
 				{
 					"label": "View Screenshots",
 					"href": "/apps/zxbrick/screenshots"
+				},
+				{
+					"label": "View Accessibility Information",
+					"href": "/accessibility"
 				}
 			],
 			"layout": "textRight"

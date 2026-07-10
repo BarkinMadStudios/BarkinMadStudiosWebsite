@@ -151,6 +151,10 @@
 				{
 					"label": "View Screenshots",
 					"href": "/apps/zxspace/screenshots"
+				},
+				{
+					"label": "View Accessibility Information",
+					"href": "/accessibility"
 				}
 			],
 			"layout": "textRight"

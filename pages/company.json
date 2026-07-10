@@ -1,7 +1,7 @@
 {
 	"title": "Company Information",
 	"slug": "company",
-	"lastUpdated": "2026-06-10",
+	"lastUpdated": "2026-07-10",
 	"content": [
 		{
 			"heading": "BarkinMad Studios",
@@ -37,7 +37,7 @@
 		},
 		{
 			"heading": "Contact",
-			"text": "For business enquiries, support requests, partnership opportunities, or general questions, please visit the [Contact](/contact) page."
+			"text": "For business enquiries, support requests, partnership opportunities, or general questions, please visit the [Contact](/contact) page. Information about accessible use of our website, apps and games is available on the [Accessibility](/accessibility) page."
 		}
 	]
 }

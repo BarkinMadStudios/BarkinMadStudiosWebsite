@@ -138,6 +138,10 @@
 				{
 					"label": "View Screenshots",
 					"href": "/apps/zxsnake/screenshots"
+				},
+				{
+					"label": "View Accessibility Information",
+					"href": "/accessibility"
 				}
 			],
 			"layout": "textRight"

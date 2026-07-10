@@ -73,6 +73,7 @@
     ],
     footerNavigation: [
       { label: "Apps", href: "/apps" },
+      { label: "Accessibility", href: "/accessibility" },
       { label: "Privacy", href: "/privacy" },
       { label: "Cookies", href: "/cookies" },
       { label: "Contact", href: "/contact" }
@@ -187,6 +188,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     if (path === "/portfolio/studiodash") return redirectResponse(`${url.origin}/apps/studiodash`, 301);
     if (path === "/portfolio") return portfolioJsonPage();
     if (path === "/docs") return docsJsonPage();
+    if (path === "/accessibility") return staticJsonPage("accessibility");
     if (path === "/privacy") return staticJsonPage("privacy");
     if (path === "/cookies") return staticJsonPage("cookies");
     if (path === "/terms") return staticJsonPage("terms");
@@ -1915,7 +1917,8 @@ ${renderCookieConsentScript()}
     if (!action || !action.label || !action.href) return "";
     const href = safeLinkHref(action.href);
     if (!href) return "";
-    return `<a class="btn" href="${escapeHtml(href)}">${escapeHtml(action.label)}</a>`;
+    const externalAttributes = /^https?:\/\//i.test(href) ? ` target="_blank" rel="noopener noreferrer"` : "";
+    return `<a class="btn" href="${escapeHtml(href)}"${externalAttributes}>${escapeHtml(action.label)}</a>`;
   }
   __name(actionLink, "actionLink");
   function pageHeroImage(page, fallback) {
@@ -3350,6 +3353,7 @@ ${renderRelatedApps(relatedApps)}
   }
   __name(renderDocsPage, "renderDocsPage");
   function renderStaticPage(page) {
+    const breadcrumbs = Array.isArray(page.breadcrumbs) ? page.breadcrumbs.filter((item) => item?.label && item?.href) : [];
     return `
 <section class="hero hero-retro"${heroBackgroundStyle(page)}>
   <h1>${escapeHtml(page.heading || page.title)}</h1>
@@ -3357,6 +3361,17 @@ ${renderRelatedApps(relatedApps)}
 </section>
 
 <main>
+  ${breadcrumbs.length ? `
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    ${breadcrumbs.map((item, index) => {
+      const separator = index > 0 ? `<span class="breadcrumb-separator" aria-hidden="true">/</span>` : "";
+      const isLast = index === breadcrumbs.length - 1;
+      const crumb = isLast ? `<span aria-current="page">${escapeHtml(item.label)}</span>` : `<a href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>`;
+      return `${separator}${crumb}`;
+    }).join("")}
+  </nav>
+  ` : ""}
+
   ${renderLinkCards(page.servicePagesTitle, page.servicePages)}
 
   ${page.sections.map((section) => `
@@ -3374,9 +3389,26 @@ ${renderRelatedApps(relatedApps)}
         ${Array.isArray(section.links) ? `
           <div class="button-group">${section.links.map(actionLink).join("")}</div>
         ` : ""}
+
+        ${Array.isArray(section.subsections) ? section.subsections.map((subsection) => `
+          <div>
+            <h3>${escapeHtml(subsection.heading || subsection.title)}</h3>
+            ${(subsection.paragraphs || []).map((paragraph) => `<p>${renderContentParagraph(paragraph)}</p>`).join("")}
+            ${Array.isArray(subsection.list) ? `
+              <ul>
+                ${subsection.list.map((item) => `<li>${renderContentParagraph(item)}</li>`).join("")}
+              </ul>
+            ` : ""}
+            ${Array.isArray(subsection.links) ? `
+              <div class="button-group">${subsection.links.map(actionLink).join("")}</div>
+            ` : ""}
+          </div>
+        `).join("") : ""}
       </div>
     </section>
   `).join("")}
+
+  ${page.lastReviewed ? `<p><strong>Last reviewed:</strong> <time datetime="${escapeHtml(page.lastReviewed)}">${formatDate(page.lastReviewed)}</time></p>` : ""}
 </main>`;
   }
   __name(renderStaticPage, "renderStaticPage");
@@ -3558,6 +3590,7 @@ Sitemap: https://www.barkinmad.studio/sitemap.xml
       { path: "/portfolio", changefreq: "monthly", priority: "0.8" },
       { path: "/docs", changefreq: "monthly", priority: "0.7" },
       { path: "/services", changefreq: "monthly", priority: "0.7" },
+      { path: "/accessibility", changefreq: "monthly", priority: "0.7" },
       { path: "/privacy", changefreq: "yearly", priority: "0.5" },
       { path: "/cookies", changefreq: "yearly", priority: "0.5" },
       { path: "/terms", changefreq: "yearly", priority: "0.5" },

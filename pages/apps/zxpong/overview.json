@@ -152,6 +152,10 @@
 				{
 					"label": "View Screenshots",
 					"href": "/apps/zxpong/screenshots"
+				},
+				{
+					"label": "View Accessibility Information",
+					"href": "/accessibility"
 				}
 			],
 			"layout": "textRight"

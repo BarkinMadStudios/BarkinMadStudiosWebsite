@@ -138,6 +138,10 @@
 				{
 					"label": "Learn About DartBot",
 					"href": "/apps/gameofdarts/dartbot"
+				},
+				{
+					"label": "View Accessibility Information",
+					"href": "/accessibility"
 				}
 			]
 		}

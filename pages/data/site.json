@@ -67,6 +67,10 @@
 			"href": "/docs"
 		},
 		{
+			"label": "Accessibility",
+			"href": "/accessibility"
+		},
+		{
 			"label": "Privacy",
 			"href": "/privacy"
 		},
@@ -93,5 +97,5 @@
 		"x": "",
 		"facebook": "https://www.facebook.com/profile.php?id=61579287944996"
 	},
-	"lastUpdated": "2026-06-14"
+	"lastUpdated": "2026-07-10"
 }

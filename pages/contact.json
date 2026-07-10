@@ -12,7 +12,8 @@
 			"heading": "Support",
 			"paragraphs": [
 				"Need help with one of our apps or games? Email us at support@barkinmad.studio and we'll do our best to help.",
-				"To help us investigate your issue more quickly, please include the app name, your device model, iOS version, and a brief description of the problem."
+				"To help us investigate your issue more quickly, please include the app name, your device model, iOS version, and a brief description of the problem.",
+				"For accessibility information or to report an accessibility problem, visit our [Accessibility](/accessibility) page."
 			]
 		},
 		{
@@ -36,5 +37,5 @@
 			]
 		}
 	],
-	"lastUpdated": "2026-06-07"
+	"lastUpdated": "2026-07-10"
 }
