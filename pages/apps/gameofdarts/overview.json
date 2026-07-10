@@ -100,7 +100,7 @@
 				"Guides you from player creation through to match results."
 			],
 			"image": {
-				"src": "apps/gameofdarts/gameofdarts-screenshot-main.png",
+				"src": "apps/gameofdarts/gameofdarts-screenshot-quickmatch.png",
 				"alt": "Game Of Darts main setup screen",
 				"caption": "Everything starts from the main match setup screen."
 			},
