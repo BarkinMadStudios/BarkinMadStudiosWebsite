@@ -303,7 +303,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     const footerNavigation = Array.isArray(site.footerNavigation) && site.footerNavigation.length ? site.footerNavigation : DEFAULT_SITE.footerNavigation;
     return `
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -363,6 +363,29 @@ body {
   background: radial-gradient(circle at 20% 0%, #131c33 0%, #090d1b 45%, #04070f 100%);
   color: #f4f4f4;
   line-height: 1.65;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0.75rem;
+  left: 1rem;
+  z-index: 1101;
+  padding: 0.65rem 1rem;
+  border: 2px solid var(--bms-link-focus);
+  border-radius: 999px;
+  background: #0a1122;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  transform: translateY(-220%);
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(0);
+  outline: 2px solid var(--bms-link-focus);
+  outline-offset: 3px;
 }
 
 header {
@@ -1181,6 +1204,7 @@ footer p {
 </head>
 
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <header>
   <a href="/" class="site-logo" aria-label="${escapeHtml(siteName)} home">
     ${renderImage({ src: "logos/logo-black-horizontal.png", alt: siteName, loading: "eager", sizes: "240px" })}
@@ -1201,7 +1225,7 @@ ${content}
   <p>
     ${renderLinks(footerNavigation)}
     <button class="footer-cookie-button" type="button" data-cookie-preferences-open>Cookie Preferences</button>
-    ${site.socials?.facebook ? `<a href="${escapeHtml(site.socials.facebook)}" target="_blank" rel="noopener">Facebook</a>` : ""}
+    ${site.socials?.facebook ? `<a href="${escapeHtml(site.socials.facebook)}"${externalLinkAttributes(site.socials.facebook)}>Facebook</a>` : ""}
   </p>
 </footer>
 ${renderCookieConsentMarkup()}
@@ -1595,12 +1619,14 @@ ${renderCookieConsentScript()}
   function renderLinks(links) {
     if (!Array.isArray(links)) return "";
     return links.filter((link) => link && link.label && link.href).map((link) => {
-      const isExternal = /^https?:\/\//i.test(link.href);
-      const target = isExternal ? ` target="_blank" rel="noopener"` : "";
-      return `<a href="${escapeHtml(link.href)}"${target}>${escapeHtml(link.label)}</a>`;
+      return `<a href="${escapeHtml(link.href)}"${externalLinkAttributes(link.href)}>${escapeHtml(link.label)}</a>`;
     }).join("");
   }
   __name(renderLinks, "renderLinks");
+  function externalLinkAttributes(href) {
+    return /^https?:\/\//i.test(String(href || "")) ? ` target="_blank" rel="noopener noreferrer"` : "";
+  }
+  __name(externalLinkAttributes, "externalLinkAttributes");
   function absoluteSiteUrl(base, path = "/") {
     try {
       return new URL(path, base.endsWith("/") ? base : `${base}/`).toString();
@@ -1917,8 +1943,7 @@ ${renderCookieConsentScript()}
     if (!action || !action.label || !action.href) return "";
     const href = safeLinkHref(action.href);
     if (!href) return "";
-    const externalAttributes = /^https?:\/\//i.test(href) ? ` target="_blank" rel="noopener noreferrer"` : "";
-    return `<a class="btn" href="${escapeHtml(href)}"${externalAttributes}>${escapeHtml(action.label)}</a>`;
+    return `<a class="btn" href="${escapeHtml(href)}"${externalLinkAttributes(href)}>${escapeHtml(action.label)}</a>`;
   }
   __name(actionLink, "actionLink");
   function pageHeroImage(page, fallback) {
@@ -2009,7 +2034,7 @@ ${renderCookieConsentScript()}
   </div>
 </section>
 
-<main>
+<main id="main-content">
 ${featuredItems.length ? `
 <section>
   <h2>${escapeHtml(homepage.featuredAppsTitle || "Featured Apps")}</h2>
@@ -2099,7 +2124,7 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
   ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
-<main>
+<main id="main-content">
 ${renderContentSections(page.content)}
 
 ${sections.length ? `
@@ -2122,7 +2147,7 @@ ${renderPromoSection(page.businessServices)}
   ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
-<main>
+<main id="main-content">
 <section>
   <h2>${escapeHtml(page.appsTitle || page.title)}</h2>
   <div class="grid">
@@ -2146,7 +2171,7 @@ ${renderPromoSection(page.businessServices)}
   ${page.description ? `<p>${escapeHtml(page.description)}</p>` : ""}
 </section>
 
-<main>
+<main id="main-content">
 ${Array.isArray(page.intro) && page.intro.length ? `
 <section>
   <h2>${escapeHtml(page.tagline)}</h2>
@@ -2337,11 +2362,11 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     ${detailHref ? `<a class="btn" href="${escapeHtml(detailHref)}">Open ${escapeHtml(app.name || app.title)} App Page</a>` : ""}
 
     ${app.appStoreUrl ? `
-      <a class="btn" href="${escapeHtml(app.appStoreUrl)}" target="_blank" rel="noopener">View on App Store</a>
+      <a class="btn" href="${escapeHtml(app.appStoreUrl)}"${externalLinkAttributes(app.appStoreUrl)}>View on App Store</a>
     ` : ""}
 
     ${app.testFlightUrl ? `
-      <a class="btn" href="${escapeHtml(app.testFlightUrl)}" target="_blank" rel="noopener">Join TestFlight</a>
+      <a class="btn" href="${escapeHtml(app.testFlightUrl)}"${externalLinkAttributes(app.testFlightUrl)}>Join TestFlight</a>
     ` : ""}
   </div>
 </div>`;
@@ -2632,7 +2657,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
 </article>`;
     };
     return `
-<main class="docs-main" data-doc-slug="${escapeHtml(detailSlug)}">
+<main id="main-content" class="docs-main" data-doc-slug="${escapeHtml(detailSlug)}">
 <section${isTipsAndStrategyPage ? ' class="docs-header-plain"' : ""}>
   <div class="docs-panel docs-block">
     ${renderBreadcrumbs([
@@ -2868,7 +2893,7 @@ ${!isDocumentationImageOnlyPage ? renderFaqSection(page.faq) : ""}
   <p>${renderContentParagraph(app.tagline || "")}</p>
 </section>
 
-<main>
+<main id="main-content">
 <section>
   <div class="card">
     ${app.heroImage ? `
@@ -2880,8 +2905,8 @@ ${!isDocumentationImageOnlyPage ? renderFaqSection(page.faq) : ""}
     ${app.description ? `<p>${renderContentParagraph(app.description)}</p>` : ""}
 
     <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-      ${app.appStoreUrl ? `<a class="btn" href="${escapeHtml(app.appStoreUrl)}" target="_blank" rel="noopener">View on App Store</a>` : ""}
-      ${app.testFlightUrl ? `<a class="btn" href="${escapeHtml(app.testFlightUrl)}" target="_blank" rel="noopener">Join TestFlight</a>` : ""}
+      ${app.appStoreUrl ? `<a class="btn" href="${escapeHtml(app.appStoreUrl)}"${externalLinkAttributes(app.appStoreUrl)}>View on App Store</a>` : ""}
+      ${app.testFlightUrl ? `<a class="btn" href="${escapeHtml(app.testFlightUrl)}"${externalLinkAttributes(app.testFlightUrl)}>Join TestFlight</a>` : ""}
     </div>
   </div>
 </section>
@@ -3030,7 +3055,7 @@ ${renderRelatedApps(relatedApps)}
   ${service.heroSubtitle || service.description ? `<p>${renderContentParagraph(service.heroSubtitle || service.description)}</p>` : ""}
 </section>
 
-<main>
+<main id="main-content">
   ${service.description ? `
     <section>
       <h2>Overview</h2>
@@ -3196,7 +3221,7 @@ ${renderRelatedApps(relatedApps)}
   ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
-<main>
+<main id="main-content">
   ${page.description ? `
     <section>
       <div class="card">
@@ -3272,7 +3297,7 @@ ${renderRelatedApps(relatedApps)}
   ${page.tagline ? `<p>${renderContentParagraph(page.tagline)}</p>` : ""}
 </section>
 
-<main>
+<main id="main-content">
   <section>
     <div class="card">
       ${page.icon ? renderImage({ className: "game-image", src: page.icon, alt: `${page.title || page.heading} app icon`, sizes: "(max-width: 700px) calc(100vw - 3rem), 420px" }) : ""}
@@ -3322,7 +3347,7 @@ ${renderRelatedApps(relatedApps)}
   ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
-<main>
+<main id="main-content">
   ${categories.length ? categories.map((category) => `
     <section>
       <h2>${escapeHtml(category.title)}</h2>
@@ -3360,7 +3385,7 @@ ${renderRelatedApps(relatedApps)}
   ${page.intro ? `<p>${renderContentParagraph(page.intro)}</p>` : ""}
 </section>
 
-<main>
+<main id="main-content">
   ${breadcrumbs.length ? `
   <nav class="breadcrumbs" aria-label="Breadcrumb">
     ${breadcrumbs.map((item, index) => {
@@ -3419,7 +3444,7 @@ ${renderRelatedApps(relatedApps)}
     const hasArchive = allPublishedPosts.length > 15;
     if (!visiblePosts.length) {
       return `
-<main>
+<main id="main-content">
 <section>
   <h1>News & Devlog</h1>
   <div class="card"><p>No news posts are available at the moment.</p></div>
@@ -3432,7 +3457,7 @@ ${renderRelatedApps(relatedApps)}
   <p>Development updates, screenshots, release news, and behind-the-scenes progress from BarkinMad Studios.</p>
 </section>
 
-<main>
+<main id="main-content">
 <section>
   <h2 class="visually-hidden">Latest News Articles</h2>
   <div class="grid">
@@ -3493,7 +3518,7 @@ ${renderRelatedApps(relatedApps)}
   <p>${formatDate(article.date)}</p>
 </section>
 
-<main>
+<main id="main-content">
 <section>
   <div class="card">
     ${article.image ? `
@@ -3531,7 +3556,7 @@ async function newsArchivePage() {
   <p>The News Archive keeps older BarkinMad Studios posts in one place so you can follow how the studio has evolved across games and tools over time.</p>
 </section>
 
-<main>
+<main id="main-content">
 <section>
   <h2>What you'll find</h2>
   <p>Here you'll find older news entries, development updates, release announcements, and project milestones.</p>
@@ -3673,7 +3698,7 @@ ${urls.map((path) => `
     while ((match = markdownLink.exec(source)) !== null) {
       html += escapeHtml(source.slice(lastIndex, match.index));
       const href = safeLinkHref(match[2]);
-      html += href ? `<a href="${escapeHtml(href)}">${escapeHtml(match[1])}</a>` : escapeHtml(match[0]);
+      html += href ? `<a href="${escapeHtml(href)}"${externalLinkAttributes(href)}>${escapeHtml(match[1])}</a>` : escapeHtml(match[0]);
       lastIndex = markdownLink.lastIndex;
     }
     html += escapeHtml(source.slice(lastIndex));
@@ -3710,7 +3735,7 @@ ${urls.map((path) => `
   __name(escapeHtml, "escapeHtml");
   function notFoundPage() {
     return `
-<main>
+<main id="main-content">
 <section>
   <h1>Page Not Found</h1>
   <div class="card">
@@ -3723,7 +3748,7 @@ ${urls.map((path) => `
   __name(notFoundPage, "notFoundPage");
   function brokenPage() {
     return `
-<main>
+<main id="main-content">
 <section>
   <h1>Page Error</h1>
   <div class="card">
