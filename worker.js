@@ -609,6 +609,101 @@ h3 { color: #ffcc66; }
   background: #050712;
 }
 
+.news-article {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.news-article-hero {
+  max-width: 1080px;
+  margin: 0 auto 2.25rem;
+}
+
+.news-article-breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 1.1rem;
+  color: #c9cce2;
+  font-size: 0.92rem;
+}
+
+.news-article-summary {
+  color: #d8dbef;
+  font-size: 1.16rem;
+  line-height: 1.6;
+  margin: 0.8rem 0;
+}
+
+.news-article-meta {
+  color: #c9cce2;
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.news-article-body {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.news-article-body > * + * { margin-top: 1rem; }
+
+.news-article-body h2 {
+  border-left: 4px solid #f39c12;
+  color: #f39c12;
+  margin-top: 2.25rem;
+  padding-left: 0.75rem;
+}
+
+.news-article-body h3 { color: #f5bd5d; margin-top: 1.8rem; }
+.news-article-body h4 { color: #d8dbef; margin-top: 1.4rem; }
+.news-article-heading-anchor { color: inherit; text-decoration: none; }
+.news-article-heading-anchor:hover,
+.news-article-heading-anchor:focus-visible { text-decoration: underline; text-decoration-color: #f39c12; }
+
+.news-article-body ul,
+.news-article-body ol { padding-left: 1.35rem; }
+
+.news-article-body li + li { margin-top: 0.65rem; }
+
+.news-article-callout {
+  border: 1px solid #2f5e94;
+  border-left: 4px solid #4da3ff;
+  border-radius: 12px;
+  background: rgba(31, 63, 101, 0.25);
+  padding: 1rem;
+}
+
+.news-article-callout[data-style="success"] { border-color: #1f8c60; border-left-color: #6be29f; background: rgba(31, 140, 96, 0.18); }
+.news-article-callout[data-style="warning"] { border-color: #ad7616; border-left-color: #f5bd5d; background: rgba(173, 118, 22, 0.18); }
+.news-article-callout p { margin: 0.45rem 0 0; }
+
+.news-article-quote {
+  border-left: 4px solid #f39c12;
+  color: #e6e8f6;
+  margin: 1.35rem 0;
+  padding: 0.25rem 0 0.25rem 1rem;
+}
+
+.news-article-quote p { margin: 0; }
+.news-article-quote footer { color: #c9cce2; font-size: 0.92rem; margin-top: 0.65rem; }
+
+.news-article-figure { margin: 1.5rem auto; }
+.news-article-figure figcaption { color: #c9cce2; font-size: 0.92rem; margin-top: 0.65rem; text-align: center; }
+.news-article-divider { border: 0; border-top: 1px solid #2f3c5f; margin: 2.25rem 0; }
+
+.news-related-project {
+  border: 1px solid #2f5e94;
+  border-radius: 12px;
+  margin-top: 2.25rem;
+  padding: 1rem;
+}
+
+@media (max-width: 700px) {
+  .news-article-summary { font-size: 1.06rem; }
+  .news-article-body { font-size: 1rem; }
+}
+
 .screenshot-image {
   width: 100%;
   max-width: 420px;
@@ -1763,13 +1858,16 @@ ${renderCookieConsentScript()}
   }
   __name(faqSchema, "faqSchema");
   function articleSchema(article, slug, site = DEFAULT_SITE) {
-    return {
+    const publicationDate = articlePublicationDate(article);
+    const seo = articleSEO(article);
+    const image = seo.image?.path ? imageDisplayUrl(seo.image.path) : articleHeroImage(article, slug);
+    const schema = {
       "@context": "https://schema.org",
       "@type": "Article",
       headline: article.title,
       description: articleDescription(article),
-      datePublished: article.date,
-      image: article.image ? `${NEWS_BASE}/${slug}/${article.image}` : `${IMAGE_BASE}/logos/social-preview.png`,
+      datePublished: publicationDate,
+      image,
       mainEntityOfPage: absoluteSiteUrl(site.website || DEFAULT_SITE.website, `/news/${slug}`),
       publisher: {
         "@type": "Organization",
@@ -1780,8 +1878,29 @@ ${renderCookieConsentScript()}
         }
       }
     };
+    if (isSchemaV2(article) && article.updatedAt) schema.dateModified = article.updatedAt;
+    return schema;
   }
   __name(articleSchema, "articleSchema");
+  function isSchemaV2(article) {
+    return article?.schemaVersion === 2;
+  }
+  __name(isSchemaV2, "isSchemaV2");
+  function articlePublicationDate(article) {
+    return isSchemaV2(article) ? article.publishedAt : article?.date;
+  }
+  __name(articlePublicationDate, "articlePublicationDate");
+  function articleHeroImage(article, slug) {
+    if (isSchemaV2(article) && article?.heroImage?.path) return imageDisplayUrl(article.heroImage.path);
+    return article?.image ? `${NEWS_BASE}/${slug}/${article.image}` : `${IMAGE_BASE}/logos/social-preview.png`;
+  }
+  __name(articleHeroImage, "articleHeroImage");
+  function isPublicArticle(article) {
+    if (!article) return false;
+    if (isSchemaV2(article)) return article.status === "published" && isPublishedTimestamp(article.publishedAt);
+    return isPublishedDate(article.date);
+  }
+  __name(isPublicArticle, "isPublicArticle");
   function isPublishedDate(dateString) {
     const publishedDate = new Date(dateString);
     if (Number.isNaN(publishedDate.getTime())) return false;
@@ -1791,6 +1910,11 @@ ${renderCookieConsentScript()}
     return publishedDate <= today;
   }
   __name(isPublishedDate, "isPublishedDate");
+  function isPublishedTimestamp(timestamp) {
+    const publishedAt = new Date(timestamp);
+    return !Number.isNaN(publishedAt.getTime()) && publishedAt.getTime() <= Date.now();
+  }
+  __name(isPublishedTimestamp, "isPublishedTimestamp");
   function projectSchema(projects, site = DEFAULT_SITE) {
     const website = site.website || DEFAULT_SITE.website;
     const items = Array.isArray(projects) ? projects.filter((project) => project?.title) : [];
@@ -1832,9 +1956,14 @@ ${renderCookieConsentScript()}
   }
   __name(firstParagraph, "firstParagraph");
   function articleDescription(article) {
+    if (isSchemaV2(article)) return cleanMeta(articleSEO(article).description || article.summary || "");
     return cleanMeta(article.excerpt || markdownLinksToText(firstParagraph(article.content)));
   }
   __name(articleDescription, "articleDescription");
+  function articleSEO(article) {
+    return isSchemaV2(article) && article?.seo && typeof article.seo === "object" ? article.seo : {};
+  }
+  __name(articleSEO, "articleSEO");
   function getAppImage(app) {
     return app.cardImage || app.image || app.icon || "";
   }
@@ -3486,17 +3615,17 @@ ${renderRelatedApps(relatedApps)}
   __name(postCard, "postCard");
   async function newsArticleResponse(slug) {
     const article = await fetchJson(`${NEWS_BASE}/${slug}/article.json`);
-    if (!article || !isPublishedDate(article.date)) {
+    if (!isPublicArticle(article)) {
       return pageResponse("Page Not Found - BarkinMad Studios", notFoundPage(), {
         robots: "noindex,follow"
       }, 404);
     }
     const posts = getPublishedValidPosts(await fetchJson(`${NEWS_BASE}/posts.json`));
-    const relatedPosts = posts.filter((post) => post.slug !== slug).slice(0, 3);
-    return pageResponse(`${article.title} - BarkinMad Studios`, newsArticlePage(slug, article, relatedPosts), {
+    const relatedPosts = resolveRelatedPosts(article, slug, posts);
+    return pageResponse(`${articleSEO(article).title || article.title} - BarkinMad Studios`, newsArticlePage(slug, article, relatedPosts), {
       canonicalPath: `/news/${slug}`,
       description: articleDescription(article),
-      image: article.image ? `${NEWS_BASE}/${slug}/${article.image}` : `${IMAGE_BASE}/logos/social-preview.png`,
+      image: articleHeroImage(article, slug),
       ogType: "article",
       structuredData: [
         articleSchema(article, slug),
@@ -3510,6 +3639,11 @@ ${renderRelatedApps(relatedApps)}
   }
   __name(newsArticleResponse, "newsArticleResponse");
   function newsArticlePage(slug, article, relatedPosts = []) {
+    if (article?.schemaVersion === 2) return renderStructuredNewsArticle(slug, article, relatedPosts);
+    return renderLegacyNewsArticle(slug, article, relatedPosts);
+  }
+  __name(newsArticlePage, "newsArticlePage");
+  function renderLegacyNewsArticle(slug, article, relatedPosts = []) {
     const paragraphs = Array.isArray(article.content) ? article.content : [];
     const articleActions = Array.isArray(article.actions) ? article.actions : [];
     return `
@@ -3546,7 +3680,105 @@ ${relatedPosts.length ? `
 </section>` : ""}
 </main>`;
   }
-  __name(newsArticlePage, "newsArticlePage");
+  __name(renderLegacyNewsArticle, "renderLegacyNewsArticle");
+  function resolveRelatedPosts(article, slug, posts) {
+    const candidates = Array.isArray(posts) ? posts.filter((post) => post?.slug && post.slug !== slug) : [];
+    if (isSchemaV2(article) && Array.isArray(article.relatedArticleSlugs) && article.relatedArticleSlugs.length) {
+      const requested = new Set(article.relatedArticleSlugs);
+      return candidates.filter((post) => requested.has(post.slug)).sort((left, right) => article.relatedArticleSlugs.indexOf(left.slug) - article.relatedArticleSlugs.indexOf(right.slug));
+    }
+    return candidates.slice(0, 3);
+  }
+  __name(resolveRelatedPosts, "resolveRelatedPosts");
+  function renderStructuredNewsArticle(slug, article, relatedPosts = []) {
+    const content = Array.isArray(article.content) ? article.content.map(renderStructuredArticleBlock).filter(Boolean).join("") : "";
+    const hero = renderStructuredArticleImage(article.heroImage, "news-article-hero-image");
+    const metadata = [article.category, article.articleType, formatDate(articlePublicationDate(article)), `${article.readingTimeMinutes || estimatedArticleReadingMinutes(article)} min read`].filter(Boolean).map(escapeHtml).join(" <span aria-hidden=\"true\">·</span> ");
+    return `
+<main id="main-content">
+  <article class="news-article">
+    <nav class="news-article-breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><a href="/news">News</a><span aria-hidden="true">/</span><span aria-current="page">${escapeHtml(article.title)}</span></nav>
+    <header>
+      <h1>${escapeHtml(article.title)}</h1>
+      <p class="news-article-summary">${escapeHtml(article.summary || "")}</p>
+      <p class="news-article-meta">${metadata}</p>
+    </header>
+    ${hero}
+    <div class="news-article-body">${content}</div>
+    ${renderRelatedProjectCTA(article.relatedProject)}
+    ${Array.isArray(article.actions) && article.actions.length ? `<p>${article.actions.map(actionLink).join("")}</p>` : ""}
+    <p><a class="btn" href="/news">Back To Latest News</a></p>
+  </article>
+
+${relatedPosts.length ? `
+<section>
+  <h2>Related Articles</h2>
+  <div class="grid">
+    ${relatedPosts.map(postCard).join("")}
+  </div>
+</section>` : ""}
+</main>`;
+  }
+  __name(renderStructuredNewsArticle, "renderStructuredNewsArticle");
+  function renderStructuredArticleBlock(block) {
+    if (!block || typeof block !== "object") return "";
+    if (block.type === "paragraph") return `<p>${renderArticleRuns(block.runs)}</p>`;
+    if (block.type === "heading" && [2, 3, 4].includes(block.level) && String(block.text || "").trim() && String(block.id || "").trim()) {
+      const id = String(block.id).trim();
+      return `<h${block.level} id="${escapeHtml(id)}"><a class="news-article-heading-anchor" href="#${encodeURIComponent(id)}" aria-label="Link to ${escapeHtml(block.text)}">${escapeHtml(block.text)}</a></h${block.level}>`;
+    }
+    if (block.type === "list" && Array.isArray(block.items)) {
+      const tag = block.style === "ordered" ? "ol" : "ul";
+      return `<${tag}>${block.items.map((item) => `<li>${renderArticleRuns(item?.runs)}</li>`).join("")}</${tag}>`;
+    }
+    if (block.type === "callout") {
+      const style = ["information", "success", "warning"].includes(block.style) ? block.style : "information";
+      const title = String(block.title || "").trim();
+      return `<aside class="news-article-callout" data-style="${style}" aria-label="${escapeHtml(title || "Information")}">${title ? `<strong>${escapeHtml(title)}</strong>` : ""}<p>${renderArticleRuns(block.runs)}</p></aside>`;
+    }
+    if (block.type === "quote") return `<blockquote class="news-article-quote"><p>${renderArticleRuns(block.runs)}</p>${block.attribution ? `<footer>— ${escapeHtml(block.attribution)}</footer>` : ""}</blockquote>`;
+    if (block.type === "image") return renderStructuredArticleImage(block.asset, "news-article-inline-image");
+    if (block.type === "divider") return `<hr class="news-article-divider">`;
+    return "";
+  }
+  __name(renderStructuredArticleBlock, "renderStructuredArticleBlock");
+  function renderArticleRuns(runs) {
+    if (!Array.isArray(runs)) return "";
+    return runs.map((run) => {
+      if (!run || typeof run !== "object") return "";
+      let rendered = escapeHtml(run.text || "");
+      const href = safeStructuredArticleLinkHref(run.link?.url);
+      if (href) rendered = `<a href="${escapeHtml(href)}"${externalLinkAttributes(href)}${run.link?.title ? ` title="${escapeHtml(run.link.title)}"` : ""}>${rendered}</a>`;
+      if (run.bold) rendered = `<strong>${rendered}</strong>`;
+      if (run.italic) rendered = `<em>${rendered}</em>`;
+      return rendered;
+    }).join("");
+  }
+  __name(renderArticleRuns, "renderArticleRuns");
+  function safeStructuredArticleLinkHref(href) {
+    const value = String(href || "").trim();
+    if (value.startsWith("/") && !value.startsWith("//")) return value;
+    if (!/^https:\/\//i.test(value)) return "";
+    try { return new URL(value).toString(); } catch { return ""; }
+  }
+  __name(safeStructuredArticleLinkHref, "safeStructuredArticleLinkHref");
+  function renderStructuredArticleImage(asset, className) {
+    if (!asset || typeof asset !== "object" || !asset.path || !asset.alt) return "";
+    const image = renderImage({ className: `article-image ${className}`, src: asset.path, alt: asset.alt, sizes: "(max-width: 900px) calc(100vw - 3rem), 1080px" });
+    return image ? `<figure class="news-article-figure">${image}${asset.caption ? `<figcaption>${escapeHtml(asset.caption)}</figcaption>` : ""}</figure>` : "";
+  }
+  __name(renderStructuredArticleImage, "renderStructuredArticleImage");
+  function renderRelatedProjectCTA(relatedProject) {
+    const href = safeStructuredArticleLinkHref(relatedProject?.url);
+    if (!href || !relatedProject?.title) return "";
+    return `<aside class="news-related-project" aria-label="Related project"><strong>Related project: ${escapeHtml(relatedProject.title)}</strong><p><a class="btn" href="${escapeHtml(href)}">View ${escapeHtml(relatedProject.title)}</a></p></aside>`;
+  }
+  __name(renderRelatedProjectCTA, "renderRelatedProjectCTA");
+  function estimatedArticleReadingMinutes(article) {
+    const text = Array.isArray(article?.content) ? article.content.map((block) => Array.isArray(block?.runs) ? block.runs.map((run) => run?.text || "").join(" ") : block?.text || "").join(" ") : "";
+    return Math.max(1, Math.ceil(text.trim().split(/\s+/).filter(Boolean).length / 220));
+  }
+  __name(estimatedArticleReadingMinutes, "estimatedArticleReadingMinutes");
 async function newsArchivePage() {
   const posts = await fetchJson(`${NEWS_BASE}/posts.json`);
   const archivedPosts = getPublishedValidPosts(posts).slice(15);
