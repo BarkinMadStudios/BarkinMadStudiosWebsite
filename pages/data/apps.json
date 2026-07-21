@@ -9,6 +9,8 @@
 		"type": "Retro Snake Game",
 		"image": "apps/zxsnake/zxsnake-icon.png",
 		"appStoreUrl": "https://apps.apple.com/app/apple-store/id6770932739?pt=128083426&ct=website&mt=8",
+		"websiteUrl": "https://www.barkinmad.studio/apps/zxsnake?utm_source=inapp&utm_medium=crosspromo&utm_campaign=attract",
+		"tagline": "Classic arcade snake gameplay, reimagined.",
 		"testFlightUrl": "",
 		"description": "ZXSnake is a modern take on the classic Snake arcade game, featuring responsive controls, score chasing, achievements, multiplayer, and visuals inspired by the golden age of home computing."
 	},
@@ -22,6 +24,8 @@
 		"type": "Retro Brick Breaker",
 		"image": "apps/zxbrick/zxbrick-icon.png",
 		"appStoreUrl": "https://apps.apple.com/gb/app/zxbrick/id6771886847",
+		"websiteUrl": "https://www.barkinmad.studio/apps/zxbrick?utm_source=inapp&utm_medium=crosspromo&utm_campaign=attract",
+		"tagline": "Fast-paced brick-breaking arcade action",
 		"testFlightUrl": "",
 		"description": "ZXBrick is a retro-inspired brick-breaking arcade game featuring handcrafted levels, power-ups, achievements, and fast-paced score-chasing gameplay."
 	},
@@ -48,6 +52,8 @@
 		"type": "Retro Pong Game",
 		"image": "apps/zxpong/zxpong-icon.png",
 		"appStoreUrl": "https://apps.apple.com/app/apple-store/id6775177936?pt=128083426&ct=website&mt=8",
+		"websiteUrl": "https://www.barkinmad.studio/apps/zxpong?utm_source=inapp&utm_medium=crosspromo&utm_campaign=attract",
+		"tagline": "Fast-paced retro arcade competition",
 		"testFlightUrl": "",
 		"description": "ZXPong is a modern reimagining of the arcade classic, featuring quick rallies, AI opponents, multiplayer, achievements, and fast pick-up-and-play action."
 	},
@@ -61,6 +67,9 @@
 		"type": "Darts Scoring App",
 		"image": "apps/gameofdarts/gameofdarts-icon.png",
 		"appStoreUrl": "https://apps.apple.com/app/apple-store/id6751581339?pt=128083426&ct=website&mt=8",
+		"campaignUrl": "https://apps.apple.com/app/apple-store/id6751581339?pt=128083426&ct=inapp&mt=8",
+		"websiteUrl": "https://www.barkinmad.studio/apps/gameofdarts?utm_source=inapp&utm_medium=crosspromo&utm_campaign=attract",
+		"tagline": "Your complete darts scoring companion",
 		"testFlightUrl": "",
 		"description": "Game Of Darts is a feature-rich darts scoring app for iPhone and iPad, with support for multiple game modes, player statistics, practice sessions, and local multiplayer."
 	},
