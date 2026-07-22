@@ -952,6 +952,10 @@ main .guide-nav a:not(.btn):not(.card-link):active {
   color: #0e111f;
 }
 
+main .guide-nav a[aria-current="page"]:not(.btn):not(.card-link) {
+  color: #0e111f;
+}
+
 main .guide-nav a[aria-current="page"]:not(.btn):not(.card-link):visited,
 main .guide-nav a[aria-current="page"]:not(.btn):not(.card-link):hover,
 main .guide-nav a[aria-current="page"]:not(.btn):not(.card-link):active {
@@ -1802,6 +1806,26 @@ ${renderCookieConsentScript()}
     return schema;
   }
   __name(appSchema, "appSchema");
+  function documentationSoftwareApplicationSchema(page, app, appSlug, detailSlug, site = DEFAULT_SITE, landingPageSlug = "") {
+    const config = page?.softwareApplication;
+    if (!config || typeof config !== "object" || !config.applicationCategory || !config.operatingSystem || !config.softwareVersion) return null;
+    const publisherName = typeof config.publisher === "string" ? config.publisher : config.publisher?.name || app?.developer || site.name || DEFAULT_SITE.name;
+    return {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      name: config.name || app?.title || app?.name || appSlug,
+      applicationCategory: config.applicationCategory,
+      operatingSystem: Array.isArray(config.operatingSystem) ? config.operatingSystem.join(", ") : config.operatingSystem,
+      softwareVersion: config.softwareVersion,
+      publisher: {
+        "@type": "Organization",
+        name: publisherName,
+        url: site.website || DEFAULT_SITE.website
+      },
+      url: absoluteSiteUrl(site.website || DEFAULT_SITE.website, getAppDocPath(appSlug, detailSlug, landingPageSlug))
+    };
+  }
+  __name(documentationSoftwareApplicationSchema, "documentationSoftwareApplicationSchema");
   function howToSchema(page, app, appSlug, detailSlug, site = DEFAULT_SITE, landingPageSlug = "") {
     const steps = Array.isArray(page?.howToSteps) ? page.howToSteps.filter((step) => step?.name || step?.text) : [];
     if (page?.schemaType !== "HowTo" || !steps.length) return null;
@@ -2617,6 +2641,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
         { name: app.title || app.name || listedApp.name || normalizedAppSlug, path: `/apps/${normalizedAppSlug}` },
         { name: page.title || listedPage.title || normalizedDetailSlug, path: resolvedCanonicalPath }
       ], site),
+      documentationSoftwareApplicationSchema(page, app, normalizedAppSlug, normalizedDetailSlug, site, landingPageSlug),
       faqSchema(page.faq),
       howToSchema(page, app, normalizedAppSlug, normalizedDetailSlug, site, landingPageSlug)
     ].filter(Boolean);
@@ -2637,6 +2662,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
   __name(appDocumentationImage, "appDocumentationImage");
   function renderAppDocumentationPage(app, page, pageIndex, appSlug, detailSlug, landingPageSlug = "", options = {}) {
     const title = page.title || "App Guide";
+    const pageHeader = page.pageHeader && typeof page.pageHeader === "object" ? page.pageHeader : null;
     const isTipsAndStrategyPage = appSlug === "zxsnake" && detailSlug === "tips-and-strategy";
     const usesDocumentationLanding = documentationLandingAppSlugs.has(appSlug);
     const usesDocumentationFramework = usesDocumentationLanding || Array.isArray(pageIndex?.pages);
@@ -2798,10 +2824,17 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
       { label: appTitle, href: `/apps/${appSlug}` },
       { label: title }
     ])}
-    <h1 class="visually-hidden">${escapeHtml(title)}</h1>
     ${renderGuideNavigation(otherDocs, appSlug, detailSlug, landingPageSlug)}
   </div>
 </section>
+
+${pageHeader?.title ? `
+<section>
+  <div class="docs-panel docs-block">
+    <h1 class="section-title">${escapeHtml(pageHeader.title)}</h1>
+    ${pageHeader.subtitle ? `<p>${renderContentParagraph(pageHeader.subtitle)}</p>` : ""}
+  </div>
+</section>` : `<h1 class="visually-hidden">${escapeHtml(title)}</h1>`}
 
 ${sectionLinks.length > 1 && !isTipsAndStrategyPage && !hideContentsForPage ? `
 <section>

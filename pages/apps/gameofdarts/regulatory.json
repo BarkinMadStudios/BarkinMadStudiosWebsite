@@ -1,0 +1,136 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "Game of Darts Regulatory Information",
+	"seoTitle": "Game of Darts Regulatory Information | BarkinMad Studios",
+	"description": "Regulatory information for Game of Darts including accessibility, privacy, online services, age suitability, advertising, purchases and supported platforms.",
+	"summary": "Information relating to accessibility, privacy, online services, age suitability and regulatory compliance for Game of Darts.",
+	"pageHeader": {
+		"title": "Game of Darts Regulatory Information",
+		"subtitle": "Information relating to accessibility, privacy, online services, age suitability and regulatory compliance for Game of Darts."
+	},
+	"sections": [
+		{
+			"id": "application-details",
+			"heading": "Application Information",
+			"paragraphs": [
+				"This is the canonical BarkinMad Studios page for the Game of Darts App Store Connect Labels & Markings URL and for future app-specific compliance information."
+			],
+			"bullets": [
+				"App name: The Game Of Darts",
+				"Current version: 2.3",
+				"Developer: BarkinMad Studios",
+				"Publisher: BarkinMad Studios Ltd",
+				"Category: Sports",
+				"Platforms supported: iPhone and iPad",
+				"Minimum operating systems: iOS 17 or later and iPadOS 17 or later",
+				"Last updated: 22 July 2026"
+			]
+		},
+		{
+			"id": "supported-platforms",
+			"heading": "Supported Platforms",
+			"paragraphs": [
+				"Game of Darts is supported on iPhone and iPad. The current app configuration supports iOS 17 or later and iPadOS 17 or later."
+			],
+			"bullets": [
+				"iPhone — iOS 17 or later",
+				"iPad — iPadOS 17 or later"
+			]
+		},
+		{
+			"id": "online-features",
+			"heading": "Online Features",
+			"paragraphs": [
+				"Game of Darts includes local play and optional online services through Apple Game Center. An internet connection is required for online multiplayer and Game Center services."
+			],
+			"bullets": [
+				"Apple Game Center",
+				"Online Quick Match",
+				"Local multiplayer",
+				"DartBot AI opponents",
+				"Global leaderboards",
+				"Achievements",
+				"No SharePlay support"
+			]
+		},
+		{
+			"id": "privacy-data",
+			"heading": "Privacy & Data",
+			"paragraphs": [
+				"Game of Darts uses Apple Game Center for supported game services, Google AdMob for advertising, and Apple App Store In-App Purchases for optional purchases. No separate BarkinMad Studios account is required to play the app.",
+				"Read the [Privacy Policy](/privacy) for the broader BarkinMad Studios approach to information, advertising and purchases. For support or privacy questions, use [Support](/contact) or [Contact](/contact)."
+			]
+		},
+		{
+			"id": "advertising-purchases",
+			"heading": "Advertising & Purchases",
+			"paragraphs": [
+				"Advertising may include banner ads in menus, interstitial ads and rewarded ads. Rewarded advertising is optional where it is offered.",
+				"Available purchase options include Pro Version, DartBot AI and the 48-Hour Pass. Removing ads is included with Pro Version and the 48-Hour Pass rather than presented as a separate purchase option."
+			]
+		},
+		{
+			"id": "accessibility",
+			"heading": "Accessibility",
+			"paragraphs": [
+				"Accessibility is considered throughout design and development, and improvements continue over time. Read the [Accessibility Statement](/accessibility) for BarkinMad Studios' current approach, support route and verified app-specific information."
+			]
+		},
+		{
+			"id": "age-suitability",
+			"heading": "Age Suitability",
+			"paragraphs": [
+				"Game of Darts has a recommended minimum age of 4+, matching its current App Store age rating. It has no unrestricted social networking and no public chat. Online play uses Apple Game Center.",
+				"Read the [Age Suitability](/age-rating) page for BarkinMad Studios' policy on social features, user-generated content and online services."
+			]
+		},
+		{
+			"id": "security",
+			"heading": "Security",
+			"paragraphs": [
+				"Online services use Apple Game Center authentication and Apple network services. Communications are encrypted where Apple services support encryption. BarkinMad Studios does not store user passwords, and no external BarkinMad Studios user account is required."
+			]
+		},
+		{
+			"id": "fair-play",
+			"heading": "Fair Play",
+			"paragraphs": [
+				"Game of Darts is designed to provide a fair online experience through Apple Game Center leaderboards, achievements and online matchmaking. If you encounter an issue, report it through [Support](/contact)."
+			]
+		},
+		{
+			"id": "legal",
+			"heading": "Legal",
+			"paragraphs": [
+				"For further information, visit the [Privacy Policy](/privacy), [Terms of Use](/terms), [Accessibility Statement](/accessibility), [Age Suitability](/age-rating), [Support](/contact) or [Contact](/contact)."
+			]
+		}
+	],
+	"softwareApplication": {
+		"name": "The Game Of Darts",
+		"applicationCategory": "SportsApplication",
+		"operatingSystem": [
+			"iOS 17 or later",
+			"iPadOS 17 or later"
+		],
+		"softwareVersion": "2.3",
+		"publisher": "BarkinMad Studios Ltd"
+	},
+	"keywords": [
+		"Game of Darts regulatory information",
+		"Game of Darts privacy",
+		"Game of Darts accessibility",
+		"Game of Darts age suitability",
+		"Game of Darts online services"
+	],
+	"estimatedReadTimeMinutes": 5,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-07-22",
+	"lastVerified": "2026-07-22",
+	"relatedPages": [
+		"leaderboards",
+		"achievements",
+		"barkinmad-coins",
+		"settings-customisation"
+	]
+}

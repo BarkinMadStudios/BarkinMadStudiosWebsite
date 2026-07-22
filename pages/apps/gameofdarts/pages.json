@@ -147,6 +147,14 @@
 			"required": false,
 			"status": "optional",
 			"order": 16
+		},
+		{
+			"slug": "regulatory",
+			"title": "Regulatory Information",
+			"description": "Accessibility, privacy, online services, age suitability, advertising, purchases and regulatory information for Game Of Darts.",
+			"required": false,
+			"status": "optional",
+			"order": 17
 		}
 	],
 	"documentationSchemaVersion": "1.2.0"
