@@ -75,6 +75,10 @@
 			"href": "/privacy"
 		},
 		{
+			"label": "Age Rating",
+			"href": "/age-rating"
+		},
+		{
 			"label": "Cookies",
 			"href": "/cookies"
 		},
@@ -87,7 +91,7 @@
 			"href": "/company"
 		},
 		{
-			"label": "Contact",
+			"label": "Support",
 			"href": "/contact"
 		}
 	],
@@ -97,5 +101,5 @@
 		"x": "",
 		"facebook": "https://www.facebook.com/profile.php?id=61579287944996"
 	},
-	"lastUpdated": "2026-07-10"
+	"lastUpdated": "2026-07-22"
 }

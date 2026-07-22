@@ -1,0 +1,105 @@
+{
+  "title": "Age Rating Information",
+  "seoTitle": "Age Rating Information | BarkinMad Studios",
+  "description": "Age rating information for BarkinMad Studios apps, including our policy on social features, user-generated content and Apple Game Center services.",
+  "heading": "Age Rating Information",
+  "intro": "BarkinMad Studios develops family-friendly games and applications. At the time of publication, this page explains the age-rating questions used by the App Store and our current approach to social features, user-generated content and online services.",
+  "hero": {
+    "image": "/images/privacy-bg-banner.png",
+    "alt": "Family-friendly games and apps from BarkinMad Studios"
+  },
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Age Rating Information",
+      "href": "/age-rating"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Social features",
+      "paragraphs": [
+        "Currently, BarkinMad Studios apps do not include public social networking."
+      ],
+      "list": [
+        "Players cannot create public profiles.",
+        "Players cannot follow other users.",
+        "Players cannot post publicly visible content.",
+        "Players cannot upload photographs or videos for other users.",
+        "Players cannot livestream.",
+        "Players cannot create public communities.",
+        "Players cannot communicate with strangers."
+      ]
+    },
+    {
+      "heading": "User-generated content",
+      "paragraphs": [
+        "Currently, BarkinMad Studios apps do not allow users to publish content that is visible to other users.",
+        "BarkinMad Studios does not operate its own social platform."
+      ]
+    },
+    {
+      "heading": "Multiplayer features",
+      "paragraphs": [
+        "Currently, online multiplayer is limited to Quick Match gameplay only. Multiplayer sessions exist only for the duration of the game."
+      ],
+      "list": [
+        "No public chat.",
+        "No private messaging.",
+        "No voice chat.",
+        "No video chat.",
+        "No player-created communities.",
+        "No public user profiles hosted by BarkinMad Studios.",
+        "No user-generated content.",
+        "No player-content uploads."
+      ]
+    },
+    {
+      "heading": "Online features",
+      "paragraphs": [
+        "Where supported by an app, online features may include Apple Game Center authentication, matchmaking, leaderboards and achievements."
+      ],
+      "subsections": [
+        {
+          "heading": "Apple Game Center",
+          "paragraphs": [
+            "Game Center leaderboards and achievements are Apple services. BarkinMad Studios does not operate its own social networking platform.",
+            "Players cannot communicate with each other through Game Center within the apps. Apple's own parental controls and terms apply to Game Center functionality."
+          ]
+        },
+        {
+          "heading": "Apple SharePlay",
+          "paragraphs": [
+            "Currently, BarkinMad Studios apps do not support Apple SharePlay.",
+            "Should SharePlay be introduced in a future release, this page and the App Store age-rating information will be updated accordingly."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Information for parents",
+      "paragraphs": [
+        "BarkinMad Studios apps are designed to be suitable for their published App Store age rating.",
+        "Parents can use Apple's Screen Time and parental controls to manage device and service access.",
+        "No third-party social-network account is required to use BarkinMad Studios apps."
+      ]
+    },
+    {
+      "heading": "Contact",
+      "paragraphs": [
+        "If you have questions about this age-rating information, please contact BarkinMad Studios support at support@barkinmad.studio."
+      ],
+      "links": [
+        {
+          "label": "Contact BarkinMad Studios support",
+          "href": "/contact"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-07-22",
+  "lastUpdated": "2026-07-22"
+}

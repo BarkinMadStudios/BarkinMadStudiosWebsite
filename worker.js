@@ -75,8 +75,10 @@
       { label: "Apps", href: "/apps" },
       { label: "Accessibility", href: "/accessibility" },
       { label: "Privacy", href: "/privacy" },
+      { label: "Age Rating", href: "/age-rating" },
       { label: "Cookies", href: "/cookies" },
-      { label: "Contact", href: "/contact" }
+      { label: "Terms", href: "/terms" },
+      { label: "Support", href: "/contact" }
     ],
     socials: {
       facebook: "https://www.facebook.com/profile.php?id=61579287944996"
@@ -189,6 +191,7 @@ Policy: ${site.website || "https://www.barkinmad.studio"}/contact`);
     if (path === "/portfolio") return portfolioJsonPage();
     if (path === "/docs") return docsJsonPage();
     if (path === "/accessibility") return staticJsonPage("accessibility");
+    if (path === "/age-rating") return staticJsonPage("age-rating");
     if (path === "/privacy") return staticJsonPage("privacy");
     if (path === "/cookies") return staticJsonPage("cookies");
     if (path === "/terms") return staticJsonPage("terms");
@@ -3848,6 +3851,7 @@ Sitemap: https://www.barkinmad.studio/sitemap.xml
       { path: "/docs", changefreq: "monthly", priority: "0.7" },
       { path: "/services", changefreq: "monthly", priority: "0.7" },
       { path: "/accessibility", changefreq: "monthly", priority: "0.7" },
+      { path: "/age-rating", changefreq: "monthly", priority: "0.7" },
       { path: "/privacy", changefreq: "yearly", priority: "0.5" },
       { path: "/cookies", changefreq: "yearly", priority: "0.5" },
       { path: "/terms", changefreq: "yearly", priority: "0.5" },
