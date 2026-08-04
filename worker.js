@@ -172,6 +172,7 @@ video.unrulymedia.com, 657436911, RESELLER
 video.unrulymedia.com, 703273072, RESELLER
 video.unrulymedia.com, 905340553, RESELLER
 videoheroes.tv, 212428, RESELLER, 064bc410192443d8
+vungle.com, 6a71a05f3c7069885f2a06ef, DIRECT, c107d686becd2d77
 voisetech.com, 1066, RESELLER
 xandr.com, 13799, RESELLER
 xandr.com, 15840, RESELLER
