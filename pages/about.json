@@ -81,7 +81,7 @@
 				"The [ZX Series](/zx-series) is BarkinMad Studios' flagship collection of retro-inspired arcade games for iPhone and iPad.",
 				"Inspired by classic arcade and home computer experiences, the series combines simple gameplay mechanics with modern features such as Game Center integration, achievements, leaderboards, multiplayer support, cloud-based progression, accessibility improvements, and multi-language support.",
 				"Current and available titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong).",
-				"Future titles currently planned include ZXMaze, ZXRacer, ZXTank, and ZXLabrador.",
+				"[ZXTank](/apps/zxtank) is currently in development. Future titles currently planned include ZXMaze, ZXRacer and ZXLabrador.",
 				"The long-term vision is to build a connected ecosystem of games that share progression systems, rewards, achievements, and player identity while keeping each title distinct.",
 				"The series continues to grow through regular updates, new releases, and improvements shaped by player feedback."
 			],
@@ -145,5 +145,5 @@
 			]
 		}
 	],
-	"lastUpdated": "2026-07-07"
+	"lastUpdated": "2026-08-05"
 }

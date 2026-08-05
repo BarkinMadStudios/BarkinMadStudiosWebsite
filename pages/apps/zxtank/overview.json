@@ -1,0 +1,55 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank",
+	"seoTitle": "ZXTank – Upcoming ZX Series Arcade Game | BarkinMad Studios",
+	"description": "ZXTank is an upcoming arcade game from BarkinMad Studios and part of the ZX Series. Follow its development and future App Store availability.",
+	"summary": "ZXTank is currently in development. Features, presentation and availability may change before release.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank artwork is in development",
+	"pageHeader": {
+		"title": "ZXTank",
+		"subtitle": "An upcoming ZX Series arcade game from BarkinMad Studios."
+	},
+	"sections": [
+		{
+			"id": "development-status",
+			"heading": "In Development",
+			"paragraphs": [
+				"ZXTank is an upcoming arcade game from BarkinMad Studios and part of the [ZX Series](/zx-series).",
+				"Further gameplay details, screenshots and availability information will be published as development progresses."
+			]
+		},
+		{
+			"id": "what-to-expect",
+			"heading": "What to Expect",
+			"paragraphs": [
+				"The game is still being developed, so features, presentation and availability may change before release.",
+				"Verified game information, support guidance and approved artwork will be added here when they are ready to publish."
+			]
+		},
+		{
+			"id": "updates-and-help",
+			"heading": "Updates and Help",
+			"paragraphs": [
+				"Relevant ZXTank updates will appear in [News](/news) when approved for publication.",
+				"Read [Support](/apps/zxtank/support), [Accessibility Information](/apps/zxtank/accessibility) and [Privacy Information](/apps/zxtank/privacy) for the current development-stage guidance."
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "Explore the ZX Series",
+			"href": "/zx-series"
+		}
+	],
+	"estimatedReadTimeMinutes": 2,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+	"keywords": [
+		"ZXTank",
+		"ZX Series",
+		"upcoming arcade game",
+		"BarkinMad Studios"
+	],
+	"contentStatus": "needs-review"
+}

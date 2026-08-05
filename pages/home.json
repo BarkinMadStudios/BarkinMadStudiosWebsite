@@ -86,7 +86,8 @@
 			"ZXSnake",
 			"ZXBrick",
 			"ZXSpace",
-			"ZXPong"
+			"ZXPong",
+			"ZXTank"
 		],
 		"features": [
 			"BarkinMad Coins",
@@ -135,5 +136,5 @@
 	"showLatestNews": true,
 	"latestNewsTitle": "Latest News",
 	"newsCount": 3,
-	"lastUpdated": "2026-07-07"
+	"lastUpdated": "2026-08-05"
 }

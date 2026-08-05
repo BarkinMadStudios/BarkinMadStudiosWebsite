@@ -43,6 +43,21 @@
 		"description": "ZXSpace is a retro-inspired space shooter where fast reactions, enemy waves, power-ups, and high-score chasing combine to create a classic arcade experience."
 	},
 	{
+		"name": "ZXTank",
+		"slug": "zxtank",
+		"category": "retro",
+		"series": "zx-series",
+		"appleId": "6776105210",
+		"status": "In Development",
+		"releaseState": "development",
+		"type": "Arcade Game",
+		"image": "images/shared/placeholder.png",
+		"imageAlt": "BarkinMad Studios placeholder artwork while ZXTank artwork is in development",
+		"appStoreUrl": "",
+		"testFlightUrl": "",
+		"description": "ZXTank is an upcoming arcade game from BarkinMad Studios and part of the ZX Series. Further gameplay details and availability information will be published as development progresses."
+	},
+	{
 		"name": "ZXPong",
 		"slug": "zxpong",
 		"category": "retro",

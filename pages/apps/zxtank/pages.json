@@ -1,0 +1,119 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"appSlug": "zxtank",
+	"documentationProfile": "game",
+	"title": "ZXTank Information",
+	"description": "Official ZXTank development, support, accessibility and privacy information from BarkinMad Studios.",
+	"landingPage": "overview",
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+	"estimatedReadTimeMinutes": 20,
+	"relatedSeries": [
+		"/zx-series"
+	],
+	"keywords": [
+		"ZXTank",
+		"ZX Series",
+		"arcade game",
+		"BarkinMad Studios"
+	],
+	"pages": [
+		{
+			"slug": "overview",
+			"title": "Overview",
+			"description": "Learn about ZXTank, an upcoming arcade game from BarkinMad Studios and part of the ZX Series.",
+			"required": true,
+			"status": "required",
+			"order": 1
+		},
+		{
+			"slug": "how-to-play",
+			"title": "How to Play",
+			"description": "ZXTank gameplay instructions will be published after the in-development experience has been verified.",
+			"required": true,
+			"status": "required",
+			"order": 2
+		},
+		{
+			"slug": "controls",
+			"title": "Controls",
+			"description": "ZXTank control guidance will be published after the release controls have been verified on supported devices.",
+			"required": true,
+			"status": "required",
+			"order": 3
+		},
+		{
+			"slug": "game-modes",
+			"title": "Game Modes",
+			"description": "ZXTank game-mode information will be published when the release scope has been confirmed.",
+			"required": true,
+			"status": "required",
+			"order": 4
+		},
+		{
+			"slug": "barkinmad-coins",
+			"title": "BarkinMad Coins",
+			"description": "Any ZXTank BarkinMad Coins information will be published after the release implementation has been verified.",
+			"required": true,
+			"status": "required",
+			"order": 5
+		},
+		{
+			"slug": "achievements",
+			"title": "Achievements",
+			"description": "ZXTank achievement information will be published after the release achievement set has been verified.",
+			"required": true,
+			"status": "required",
+			"order": 6
+		},
+		{
+			"slug": "leaderboards",
+			"title": "Leaderboards",
+			"description": "ZXTank leaderboard information will be published after any release leaderboard configuration is verified.",
+			"required": true,
+			"status": "required",
+			"order": 7
+		},
+		{
+			"slug": "tips-and-strategy",
+			"title": "Tips & Strategy",
+			"description": "ZXTank strategy guidance will be published after gameplay has been verified in the release build.",
+			"required": true,
+			"status": "required",
+			"order": 8
+		},
+		{
+			"slug": "frequently-asked-questions",
+			"title": "Frequently Asked Questions",
+			"description": "Answers to common questions about ZXTank development, availability and future updates.",
+			"required": true,
+			"status": "required",
+			"order": 9
+		},
+		{
+			"slug": "support",
+			"title": "Support",
+			"description": "Find ZXTank support, diagnostic-information and in-development guidance from BarkinMad Studios.",
+			"required": false,
+			"status": "optional",
+			"order": 10
+		},
+		{
+			"slug": "accessibility",
+			"title": "Accessibility",
+			"description": "Read the current, verification-gated accessibility information for ZXTank during development.",
+			"required": false,
+			"status": "optional",
+			"order": 11
+		},
+		{
+			"slug": "privacy",
+			"title": "Privacy Information",
+			"description": "Read ZXTank privacy information and the current limits of its in-development service configuration.",
+			"required": false,
+			"status": "optional",
+			"order": 12
+		}
+	],
+	"contentStatus": "needs-review"
+}

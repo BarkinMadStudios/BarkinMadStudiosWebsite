@@ -1,0 +1,42 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Frequently Asked Questions",
+	"seoTitle": "ZXTank FAQ | BarkinMad Studios",
+	"description": "Answers to common questions about ZXTank development, availability, support and future updates from BarkinMad Studios.",
+	"summary": "Quick answers about ZXTank while it remains in development.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank information is prepared",
+	"sections": [
+		{
+			"id": "faq-status",
+			"heading": "ZXTank Questions",
+			"paragraphs": [
+				"This page will be updated as verified ZXTank information becomes available.",
+				"For support or privacy questions, use [ZXTank Support](/apps/zxtank/support) or [ZXTank Privacy Information](/apps/zxtank/privacy)."
+			]
+		}
+	],
+	"faq": [
+		{
+			"question": "Is ZXTank available on the App Store?",
+			"answer": "No. ZXTank is currently in development. Its App Store listing and availability information will be published when available."
+		},
+		{
+			"question": "When will ZXTank be released?",
+			"answer": "A release date has not been announced. Features, presentation and availability may change during development."
+		},
+		{
+			"question": "Where can I find gameplay details?",
+			"answer": "Verified gameplay details and approved screenshots will be added to the [ZXTank pages](/apps/zxtank) as development progresses."
+		},
+		{
+			"question": "Where can I get help with ZXTank?",
+			"answer": "Read [ZXTank Support](/apps/zxtank/support) for the current development-stage guidance and the information to include when contacting BarkinMad Studios."
+		}
+	],
+	"estimatedReadTimeMinutes": 2,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+	"keywords": ["ZXTank", "FAQ", "ZX Series", "BarkinMad Studios"],
+	"contentStatus": "needs-review"
+}

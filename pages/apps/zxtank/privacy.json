@@ -1,0 +1,48 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Privacy Information",
+	"seoTitle": "ZXTank Privacy Information | BarkinMad Studios",
+	"description": "Read ZXTank privacy information and the current limits of its in-development service configuration.",
+	"summary": "ZXTank is not released; its final privacy disclosure will be published after production configuration is verified.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank privacy information is prepared",
+	"sections": [
+		{
+			"id": "development-status",
+			"heading": "Privacy Information During Development",
+			"paragraphs": [
+				"ZXTank is not currently available on the App Store. This page records only the development-stage information that has been checked against the project source.",
+				"The final product privacy disclosure, including any App Store privacy labels, will be published after production configuration and release behaviour have been verified."
+			]
+		},
+		{
+			"id": "apple-services",
+			"heading": "Apple Services and Local Settings",
+			"paragraphs": [
+				"The current project includes Apple Game Center integration and an iCloud key-value-store entitlement for shared settings. Their release behaviour and data handling remain subject to final verification.",
+				"The app also stores local settings on the device. No claim is made here about a final account, cloud-save or purchase experience."
+			]
+		},
+		{
+			"id": "development-integrations",
+			"heading": "Development Integrations",
+			"paragraphs": [
+				"The project contains development configuration for Firebase and shared advertising services. The checked Firebase configuration has analytics disabled, and no runtime collection or advertising delivery has been verified for a released ZXTank build.",
+				"If advertising, consent, tracking permission, remote configuration, diagnostics or purchases are enabled for release, this page will be updated with the verified services, purposes and controls before public availability."
+			]
+		},
+		{
+			"id": "questions",
+			"heading": "Questions About Privacy",
+			"paragraphs": [
+				"For general privacy information, read the [BarkinMad Studios Privacy Policy](/privacy).",
+				"For a ZXTank privacy question, contact BarkinMad Studios through the [contact page](/contact)."
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+	"keywords": ["ZXTank", "privacy", "Game Center", "iCloud", "BarkinMad Studios"],
+	"contentStatus": "needs-review"
+}

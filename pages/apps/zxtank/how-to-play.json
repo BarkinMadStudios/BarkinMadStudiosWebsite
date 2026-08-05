@@ -1,0 +1,24 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "How to Play ZXTank",
+	"seoTitle": "How to Play ZXTank | BarkinMad Studios",
+	"description": "ZXTank gameplay instructions will be published after the in-development experience has been verified for release.",
+	"summary": "Gameplay guidance is being prepared alongside ZXTank development.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank gameplay information is prepared",
+	"sections": [
+		{
+			"id": "gameplay-status",
+			"heading": "Gameplay Information in Development",
+			"paragraphs": [
+				"Detailed instructions will be published after the release gameplay has been verified.",
+				"Until then, this page does not make claims about final objectives, modes, scoring or player counts."
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 1,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+	"keywords": ["ZXTank", "how to play", "ZX Series"],
+	"contentStatus": "needs-review"
+}

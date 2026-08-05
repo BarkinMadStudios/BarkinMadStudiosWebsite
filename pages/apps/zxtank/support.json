@@ -1,0 +1,48 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Support",
+	"seoTitle": "ZXTank Support | BarkinMad Studios",
+	"description": "Find ZXTank support, diagnostic-information and in-development guidance from BarkinMad Studios.",
+	"summary": "ZXTank is still in development, so support information will grow alongside the release build.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank support information is prepared",
+	"sections": [
+		{
+			"id": "development-support",
+			"heading": "Support During Development",
+			"paragraphs": [
+				"ZXTank is currently in development. Features, presentation and availability may change before release.",
+				"Release troubleshooting, audio and control guidance will be published only after the relevant features have been verified."
+			]
+		},
+		{
+			"id": "basic-troubleshooting",
+			"heading": "Basic Troubleshooting",
+			"paragraphs": [
+				"When a release build is available, first check that you are using the latest version, restart the app and restart your device before reporting a problem.",
+				"If an Apple Game Center feature is included in the release, confirm that you are signed in to Game Center and try again after checking your connection."
+			]
+		},
+		{
+			"id": "contact-support",
+			"heading": "Contact Support",
+			"paragraphs": [
+				"Use the [BarkinMad Studios contact page](/contact) to report a problem or ask a question.",
+				"Please include the ZXTank version, device model, iOS version, what happened, when it happened and any relevant screenshots. Do not include passwords, account credentials or other sensitive information."
+			]
+		},
+		{
+			"id": "privacy-and-consent",
+			"heading": "Privacy and Consent",
+			"paragraphs": [
+				"Privacy and consent-reset instructions will be published after the release advertising and consent configuration has been verified.",
+				"Read the current [ZXTank Privacy Information](/apps/zxtank/privacy) for development-stage service information."
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+	"keywords": ["ZXTank", "support", "troubleshooting", "BarkinMad Studios"],
+	"contentStatus": "needs-review"
+}

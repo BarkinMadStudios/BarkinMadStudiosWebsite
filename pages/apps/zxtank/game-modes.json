@@ -1,0 +1,24 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Game Modes",
+	"seoTitle": "ZXTank Game Modes | BarkinMad Studios",
+	"description": "ZXTank game-mode information will be published when the release scope and supported modes have been confirmed.",
+	"summary": "Final game-mode information is not yet available.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank game modes are confirmed",
+	"sections": [
+		{
+			"id": "modes-status",
+			"heading": "Game Modes in Development",
+			"paragraphs": [
+				"ZXTank is in development and its final game-mode scope has not been published.",
+				"Confirmed mode information will be added here after it has been approved and verified."
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 1,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+	"keywords": ["ZXTank", "game modes", "ZX Series"],
+	"contentStatus": "needs-review"
+}

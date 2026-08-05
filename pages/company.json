@@ -1,7 +1,7 @@
 {
 	"title": "Company Information",
 	"slug": "company",
-	"lastUpdated": "2026-07-10",
+	"lastUpdated": "2026-08-05",
 	"content": [
 		{
 			"heading": "BarkinMad Studios",
@@ -17,7 +17,7 @@
 		},
 		{
 			"heading": "Products",
-			"text": "BarkinMad Studios develops and publishes a growing range of applications and games, including [The Game Of Darts](/apps/gameofdarts) and the [ZX Series](/zx-series) of retro-inspired arcade games. Current and planned titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), ZXMaze, ZXRacer, ZXTank, and ZXLabrador."
+			"text": "BarkinMad Studios develops and publishes a growing range of applications and games, including [The Game Of Darts](/apps/gameofdarts) and the [ZX Series](/zx-series) of retro-inspired arcade games. Current and in-development titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong) and [ZXTank](/apps/zxtank). Future titles include ZXMaze, ZXRacer and ZXLabrador."
 		},
 		{
 			"heading": "Founder",

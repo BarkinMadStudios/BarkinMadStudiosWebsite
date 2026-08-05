@@ -1,0 +1,24 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Leaderboards",
+	"seoTitle": "ZXTank Leaderboards | BarkinMad Studios",
+	"description": "ZXTank leaderboard information will be published after any release leaderboard configuration is verified.",
+	"summary": "No release leaderboard information is available yet.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank leaderboard information is prepared",
+	"sections": [
+		{
+			"id": "leaderboards-status",
+			"heading": "Leaderboards to Be Confirmed",
+			"paragraphs": [
+				"Leaderboard information will be published after the release configuration has been verified.",
+				"No final leaderboard names, scoring rules or availability are claimed while ZXTank remains in development."
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 1,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+	"keywords": ["ZXTank", "leaderboards", "ZX Series"],
+	"contentStatus": "needs-review"
+}

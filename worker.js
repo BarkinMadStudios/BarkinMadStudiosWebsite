@@ -194,7 +194,7 @@ zmaticoo.com, 5135195, RESELLER
   var HTML_CACHE_CONTROL = "public, max-age=300, stale-while-revalidate=3600";
   var JSON_CACHE_TTL_MS = 5 * 60 * 1e3;
   var jsonCache = /* @__PURE__ */ new Map();
-  var documentationLandingAppSlugs = new Set(["zxsnake", "zxbrick", "zxpong", "zxspace", "gameofdarts", "studiodash"]);
+  var documentationLandingAppSlugs = new Set(["zxsnake", "zxbrick", "zxpong", "zxspace", "zxtank", "gameofdarts", "studiodash"]);
   var zxSnakeReferenceImageFallbacks = {
     overview: "apps/zxsnake/zxsnake-gameplay-01.png",
     "how-to-play": "apps/zxsnake/zxsnake-how-to-play.png",
@@ -2370,7 +2370,7 @@ ${featuredItems.length ? `
 
 ${renderHomeServicesSection(homepage.servicesSection)}
 
-${renderHomeZxSection(homepage.zxSeriesSection)}
+${renderHomeZxSection(homepage.zxSeriesSection, apps)}
 
 ${sections.map(renderPromoSection).join("")}
 
@@ -2406,17 +2406,25 @@ ${homepage.showLatestNews !== false && latestPosts.length ? `
 </section>`;
   }
   __name(renderHomeServicesSection, "renderHomeServicesSection");
-  function renderHomeZxSection(section) {
+  function renderHomeZxSection(section, apps = []) {
     if (!section) return "";
     const games = Array.isArray(section.games) ? section.games : [];
     const features = Array.isArray(section.features) ? section.features : [];
+    const appsByName = new Map(apps.filter((app) => app?.slug && (app.name || app.title)).map((app) => [String(app.name || app.title).toLowerCase(), app]));
+    const renderGameLink = (game) => {
+      const label = typeof game === "string" ? game : game?.name || game?.title || "";
+      const matchedApp = appsByName.get(String(label).toLowerCase());
+      const directHref = typeof game === "object" ? game?.href : "";
+      const href = safeLinkHref(directHref || (matchedApp?.slug ? `/apps/${matchedApp.slug}` : ""));
+      return href ? `<a href="${escapeHtml(href)}"${externalLinkAttributes(href)}>${escapeHtml(label)}</a>` : escapeHtml(label);
+    };
     if (!games.length && !features.length && !section.intro) return "";
     return `
 <section>
   <h2>${escapeHtml(section.title || "ZX Series")}</h2>
   <div class="card">
     ${section.intro ? `<p>${renderContentParagraph(section.intro)}</p>` : ""}
-    ${games.length ? `<p><strong>Games:</strong> ${games.map(escapeHtml).join(", ")}</p>` : ""}
+    ${games.length ? `<p><strong>Games:</strong> ${games.map(renderGameLink).join(", ")}</p>` : ""}
     ${features.length ? `<ul>${features.map((feature) => `<li>${renderContentParagraph(feature)}</li>`).join("")}</ul>` : ""}
     ${section.action ? actionLink(section.action) : ""}
   </div>
@@ -2597,7 +2605,12 @@ ${games.length && content.gamesTitle ? `
 <section>
   <h2>${escapeHtml(content.gamesTitle)}</h2>
   <div class="card">
-    <ul>${games.map((game) => `<li><strong>${escapeHtml(game.name || game.title)}</strong>${game.status ? ` - ${escapeHtml(game.status)}` : ""}</li>`).join("")}</ul>
+    <ul>${games.map((game) => {
+      const name = game.name || game.title || "";
+      const href = safeLinkHref(game.href || (game.slug ? `/apps/${game.slug}` : ""));
+      const title = href ? `<a href="${escapeHtml(href)}"${externalLinkAttributes(href)}>${escapeHtml(name)}</a>` : escapeHtml(name);
+      return `<li><strong>${title}</strong>${game.status ? ` - ${escapeHtml(game.status)}` : ""}</li>`;
+    }).join("")}</ul>
   </div>
 </section>` : ""}
 
@@ -2674,7 +2687,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     return `
 <div class="card">
   ${image ? `
-    ${renderImage({ className: "game-image", src: image, alt: app.name || app.title, sizes: "(max-width: 700px) calc(100vw - 3rem), (max-width: 1000px) calc((100vw - 4rem) / 2), 420px" })}
+    ${renderImage({ className: "game-image", src: image, alt: app.imageAlt || app.name || app.title, sizes: "(max-width: 700px) calc(100vw - 3rem), (max-width: 1000px) calc((100vw - 4rem) / 2), 420px" })}
   ` : ""}
 
   ${app.type ? `<span class="badge">${escapeHtml(app.type)}</span>` : ""}
@@ -2831,6 +2844,31 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
     return imageAssetUrl(page?.heroImage || app?.heroImage, `${IMAGE_BASE}/logos/social-preview.png`);
   }
   __name(appDocumentationImage, "appDocumentationImage");
+  function renderAppReleaseState(app) {
+    const state = String(app?.releaseState || "").trim().toLowerCase();
+    if (!state) return "";
+    const labels = {
+      development: "In Development",
+      "coming-soon": "Coming Soon",
+      "pre-order": "Pre-order",
+      available: "Available",
+      retired: "Retired"
+    };
+    const label = app?.releaseStatusLabel || labels[state] || app?.status || "";
+    const appStoreUrl = String(app?.appStoreUrl || "").trim();
+    const canInstall = state === "available" && /^https?:\/\//i.test(appStoreUrl);
+    const availabilityMessage = state === "development" || state === "coming-soon" ? "Coming soon to the App Store." : "";
+    if (!label && !canInstall && !availabilityMessage) return "";
+    return `
+<section>
+  <div class="docs-panel docs-block">
+    ${label ? `<span class="badge">${escapeHtml(label)}</span>` : ""}
+    ${availabilityMessage ? `<p>${escapeHtml(availabilityMessage)}</p>` : ""}
+    ${canInstall ? `<div class="button-group"><a class="btn" href="${escapeHtml(appStoreUrl)}"${externalLinkAttributes(appStoreUrl)}>View on App Store</a></div>` : ""}
+  </div>
+</section>`;
+  }
+  __name(renderAppReleaseState, "renderAppReleaseState");
   function renderAppDocumentationPage(app, page, pageIndex, appSlug, detailSlug, landingPageSlug = "", options = {}) {
     const title = page.title || "App Guide";
     const pageHeader = page.pageHeader && typeof page.pageHeader === "object" ? page.pageHeader : null;
@@ -3007,6 +3045,8 @@ ${pageHeader?.title ? `
   </div>
 </section>` : `<h1 class="visually-hidden">${escapeHtml(title)}</h1>`}
 
+${options.landingRoute ? renderAppReleaseState(app) : ""}
+
 ${sectionLinks.length > 1 && !isTipsAndStrategyPage && !hideContentsForPage ? `
 <section>
   <h2 class="section-title">Contents</h2>
@@ -3135,6 +3175,7 @@ ${!isDocumentationImageOnlyPage ? renderFaqSection(page.faq) : ""}
     const normalizedAppSlug = String(appSlug || "").trim();
     if (!documentationLandingAppSlugs.has(normalizedAppSlug)) return Array.isArray(pages) ? pages.filter((item) => item?.slug && item.title) : [];
     const filtered = Array.isArray(pages) ? pages.filter((item) => item?.slug && item.title) : [];
+    if (!["zxsnake", "zxbrick"].includes(normalizedAppSlug)) return filtered;
     const hasScreenshot = filtered.some((item) => item.slug === "screenshots");
     const hasGuide = filtered.some((item) => item.slug === "guide");
     const appTitle = normalizedAppSlug === "zxbrick" ? "ZXBrick" : "ZXSnake";

@@ -1,0 +1,54 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Accessibility",
+	"seoTitle": "ZXTank Accessibility | BarkinMad Studios",
+	"description": "Read the current, verification-gated accessibility information for ZXTank while the game remains in development.",
+	"summary": "Detailed ZXTank accessibility information will be published after physical-device verification.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank accessibility information is prepared",
+	"sections": [
+		{
+			"id": "development-consideration",
+			"heading": "Accessibility During Development",
+			"paragraphs": [
+				"Accessibility is being considered during ZXTank development alongside controls, presentation and game flow.",
+				"This is not a formal accessibility certification or a claim of WCAG conformance."
+			]
+		},
+		{
+			"id": "verified-features",
+			"heading": "Features Verified in the Current Build",
+			"paragraphs": [
+				"No detailed accessibility features are published yet because physical-device accessibility testing has not been completed for the release build.",
+				"Detailed information will be added only after verification on supported devices and assistive technologies."
+			]
+		},
+		{
+			"id": "planned-features",
+			"heading": "Planned or Unvalidated Features",
+			"paragraphs": [
+				"Potential accessibility improvements may change during development and are not commitments until they have been implemented and validated.",
+				"This page will identify verified features separately from planned work when that evidence is available."
+			]
+		},
+		{
+			"id": "not-currently-supported",
+			"heading": "Not Currently Supported",
+			"paragraphs": [
+				"No universal-accessibility claim is made for ZXTank at this stage.",
+				"If a feature is not listed as verified, its availability should be treated as unconfirmed until this page is updated after testing."
+			]
+		}
+	],
+	"relatedLinks": [
+		{
+			"label": "BarkinMad Studios Accessibility Statement",
+			"href": "/accessibility"
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+	"keywords": ["ZXTank", "accessibility", "ZX Series", "BarkinMad Studios"],
+	"contentStatus": "needs-review"
+}

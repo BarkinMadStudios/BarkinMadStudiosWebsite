@@ -28,7 +28,7 @@
 	"overview": [
 		"The ZX Series brings together a collection of retro-inspired arcade games designed for iPhone and iPad. Every game is easy to pick up and play while offering modern features such as achievements, leaderboards, localisation, multiplayer, and shared progression.",
 		"Inspired by the golden age of arcade gaming and classic home computers, the series captures the fast-paced, score-chasing gameplay that made those games memorable while adapting it for today's mobile devices.",
-		"Current titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), and [ZXPong](/apps/zxpong), with more games planned as the series continues to expand."
+		"Current and in-development titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), and [ZXTank](/apps/zxtank), with more games planned as the series continues to expand."
 	],
 	"sharedSystems": {
 		"title": "Shared Game Systems",
@@ -92,7 +92,7 @@
 			"heading": "Future ZX Games",
 			"paragraphs": [
 				"Future ZX Series titles will explore new arcade-inspired gameplay styles while continuing to build on the shared systems that connect every game.",
-				"Current plans include ZXMaze, ZXRacer, ZXTank, and ZXLabrador, with dedicated pages added as development progresses."
+				"Current plans include ZXMaze, ZXRacer, and ZXLabrador, with dedicated pages added as development progresses."
 			]
 		},
 		{
@@ -112,5 +112,5 @@
 			]
 		}
 	],
-	"lastUpdated": "2026-07-07"
+	"lastUpdated": "2026-08-05"
 }

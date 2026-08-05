@@ -1,0 +1,24 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Achievements",
+	"seoTitle": "ZXTank Achievements | BarkinMad Studios",
+	"description": "ZXTank achievement information will be published after the release achievement set has been verified.",
+	"summary": "No release achievement information is available yet.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank achievement information is prepared",
+	"sections": [
+		{
+			"id": "achievements-status",
+			"heading": "Achievements to Be Confirmed",
+			"paragraphs": [
+				"Achievement information will be published after the release configuration and player-facing achievement set have been verified.",
+				"No final achievement names, requirements or availability are claimed while ZXTank remains in development."
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 1,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+	"keywords": ["ZXTank", "achievements", "ZX Series"],
+	"contentStatus": "needs-review"
+}

@@ -93,6 +93,21 @@
 			"outcome": "In active development as the next major ZX Series release."
 		},
 		{
+			"title": "ZXTank",
+			"status": "In Development",
+			"category": "Games",
+			"type": "Arcade Game",
+			"href": "/apps/zxtank",
+			"summary": "An upcoming arcade game from BarkinMad Studios and part of the ZX Series.",
+			"challenge": "Develop a new arcade experience that can grow alongside the connected ZX Series.",
+			"solution": "Development is in progress; confirmed gameplay, accessibility and availability information will be published after verification.",
+			"technologies": [
+				"iOS",
+				"SpriteKit"
+			],
+			"outcome": "Coming soon; features, presentation and availability may change during development."
+		},
+		{
 			"title": "ZXPong",
 			"status": "Live",
 			"category": "Games",

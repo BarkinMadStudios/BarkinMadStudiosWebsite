@@ -2,20 +2,29 @@
   "games": [
     {
       "name": "ZXSnake",
+      "slug": "zxsnake",
       "status": "Live"
     },
     {
       "name": "ZXBrick",
+      "slug": "zxbrick",
       "status": "Live"
     },
     {
       "name": "ZXPong",
+      "slug": "zxpong",
       "status": "In Development"
     },
     {
       "name": "ZXSpace",
+      "slug": "zxspace",
+      "status": "In Development"
+    },
+    {
+      "name": "ZXTank",
+      "slug": "zxtank",
       "status": "In Development"
     }
   ],
-  "lastUpdated": "2026-06-05"
+  "lastUpdated": "2026-08-05"
 }

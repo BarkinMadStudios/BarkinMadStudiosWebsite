@@ -1,0 +1,69 @@
+{
+	"title": "ZXTank",
+	"tagline": "An upcoming ZX Series arcade game",
+	"shortDescription": "ZXTank is currently in development.",
+	"description": "ZXTank is an upcoming arcade game from BarkinMad Studios and part of the ZX Series. Further gameplay details, screenshots and availability information will be published as development progresses.",
+	"status": "In Development",
+	"releaseState": "development",
+	"appStoreId": "6776105210",
+	"appStoreUrl": "",
+	"supportUrl": "/apps/zxtank/support",
+	"privacyUrl": "/apps/zxtank/privacy",
+	"accessibilityUrl": "/apps/zxtank/accessibility",
+	"documentationLinks": [
+		{
+			"label": "Overview",
+			"href": "/apps/zxtank"
+		},
+		{
+			"label": "How to Play",
+			"href": "/apps/zxtank/how-to-play"
+		},
+		{
+			"label": "Controls",
+			"href": "/apps/zxtank/controls"
+		},
+		{
+			"label": "Game Modes",
+			"href": "/apps/zxtank/game-modes"
+		},
+		{
+			"label": "BarkinMad Coins",
+			"href": "/apps/zxtank/barkinmad-coins"
+		},
+		{
+			"label": "Achievements",
+			"href": "/apps/zxtank/achievements"
+		},
+		{
+			"label": "Leaderboards",
+			"href": "/apps/zxtank/leaderboards"
+		},
+		{
+			"label": "Tips & Strategy",
+			"href": "/apps/zxtank/tips-and-strategy"
+		},
+		{
+			"label": "FAQ",
+			"href": "/apps/zxtank/frequently-asked-questions"
+		},
+		{
+			"label": "Support",
+			"href": "/apps/zxtank/support"
+		},
+		{
+			"label": "Accessibility",
+			"href": "/apps/zxtank/accessibility"
+		},
+		{
+			"label": "Privacy Information",
+			"href": "/apps/zxtank/privacy"
+		}
+	],
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank artwork is in development",
+	"genre": "Arcade",
+	"developer": "BarkinMad Studios",
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05"
+}
