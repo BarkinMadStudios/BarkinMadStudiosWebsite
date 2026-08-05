@@ -13,7 +13,7 @@
 		{
 			"heading": "Mobile Apps, Games & Digital Products",
 			"paragraphs": [
-				"Explore a growing collection of games, developer tools, mobile apps, prototypes, and software products designed for iPhone and iPad.",
+				"Explore a growing collection of games, developer tools, mobile apps, prototypes, and software products designed for iPhone, iPad, macOS, and the web.",
 				"Every product is created with a focus on usability, performance, and long-term support, whether it's built for entertainment, productivity, or everyday problem solving.",
 				"From retro-inspired arcade games to practical software solutions, each project reflects BarkinMad Studios' commitment to creating reliable, enjoyable, and thoughtfully designed experiences."
 			]
@@ -22,8 +22,8 @@
 			"heading": "The ZX Series",
 			"paragraphs": [
 				"The [ZX Series](/zx-series) is BarkinMad Studios' flagship collection of retro-inspired arcade games, combining classic gameplay with modern mobile features.",
-				"Supported games share systems such as achievements, leaderboards, BarkinMad Coins, multiplayer features, progression, and future cross-game rewards, creating a connected arcade experience across the series.",
-				"Current and planned titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), and more games currently in development."
+				"ZX Series games share achievements, Game Center leaderboards, BarkinMad Coins, multiplayer features, shared progression, and future cross-game rewards, creating a connected arcade experience across the series.",
+				"The current ZX Series includes [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXPong](/apps/zxpong), and [ZXSpace](/apps/zxspace). The series continues to grow with upcoming titles including ZXTank, ZXRacer, ZXMaze, ZXLabrador, and additional games currently in development."
 			]
 		},
 		{
@@ -57,5 +57,5 @@
 			}
 		}
 	],
-	"lastUpdated": "2026-07-07"
+	"lastUpdated": "2026-08-05"
 }
