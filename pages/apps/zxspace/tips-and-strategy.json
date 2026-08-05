@@ -2,17 +2,40 @@
 	"documentationSchemaVersion": "1.2.0",
 	"title": "ZXSpace Tips & Strategy",
 	"seoTitle": "ZXSpace Tips & Strategy | BarkinMad Studios",
-	"description": "Improve your ZXSpace skills with practical advice for protecting your cities, managing shields, and surviving longer alien invasions.",
-	"summary": "Careful positioning, shield management, and smart use of power-ups will help you survive longer and achieve higher scores.",
-	"heroImage": "images/shared/placeholder.png",
+	"description": "Improve your ZXSpace skills with expert tips for defending cities, managing shields, using power-ups effectively, and achieving higher scores.",
+	"summary": "Master positioning, shield management, power-up timing, and scoring techniques to survive longer alien invasions and climb the leaderboards.",
+	"heroImage": "images/apps/zxspace/tips-and-strategy-hero.png",
 	"heroImageAlt": "ZXSpace Tips & Strategy",
+	"imageMetadata": [
+		{
+			"src": "images/apps/zxspace/tips-and-strategy-hero.png",
+			"alt": "ZXSpace tips and strategy",
+			"purpose": "doc",
+			"width": 1536,
+			"height": 1024,
+			"usage": ["docs", "website"]
+		}
+	],
 	"sections": [
 		{
 			"id": "protect-the-city",
-			"heading": "Protect Your Cities",
+			"heading": "Protect Your Cities First",
 			"paragraphs": [
 				"Your cities are your most valuable resource. Destroy alien formations before they break through your shields and reach the buildings below.",
-				"The longer you keep your cities intact, the greater your chances of surviving the later waves and achieving higher scores."
+				"Losing a city reduces your chances of surviving the later waves, so prioritise defence over chasing every bonus enemy."
+			]
+		},
+		{
+			"id": "positioning",
+			"heading": "Master Your Positioning",
+			"paragraphs": [
+				"Keep your cannon moving rather than waiting in one location. Good positioning allows you to intercept enemies, collect power-ups quickly, and react to sudden threats.",
+				"Try to stay near the centre of the battlefield whenever possible so you can reach either side before enemy formations become overwhelming."
+			],
+			"bullets": [
+				"Avoid staying in one position for too long.",
+				"Keep the centre of the battlefield covered.",
+				"Move early rather than reacting at the last second."
 			]
 		},
 		{
@@ -20,46 +43,73 @@
 			"heading": "Use Your Shields Wisely",
 			"paragraphs": [
 				"Shields provide valuable protection, but they won't last forever. Use them to absorb enemy fire while you reposition your cannon or prepare your next attack.",
-				"Repair damaged shields whenever a Shield Repair power-up becomes available to keep your defences strong."
+				"Repair damaged shields whenever a Shield Repair power-up appears to keep your defences strong throughout the game."
 			],
 			"bullets": [
 				"Repair damaged shield sections whenever possible.",
 				"Avoid letting aliens repeatedly attack the same area.",
-				"Keep enough distance between the aliens and your cities."
+				"Protect weak sections before they collapse completely."
+			]
+		},
+		{
+			"id": "power-ups",
+			"heading": "Use Power-Ups at the Right Time",
+			"paragraphs": [
+				"Power-ups are most valuable when the battlefield becomes crowded. Saving offensive upgrades for the busiest waves allows you to destroy more enemies while reducing pressure on your cities.",
+				"Emergency power-ups such as EMP Pulse and Smart Bomb can completely change the outcome of a difficult wave when used at the right moment."
+			],
+			"bullets": [
+				"Save offensive upgrades for busy waves.",
+				"Use Shield Repair after heavy damage.",
+				"Keep EMP Pulse and Smart Bomb for emergencies."
 			]
 		},
 		{
 			"id": "score-better",
 			"heading": "Achieve Higher Scores",
 			"paragraphs": [
-				"Higher-value aliens and bonus UFOs can dramatically increase your score, but don't risk your cities chasing every bonus target.",
-				"Use Double Laser during the busiest moments to clear large groups of enemies quickly and regain control of the battlefield."
+				"Higher-value enemies and bonus UFOs can dramatically increase your score, but don't risk your cities simply to chase bonus targets.",
+				"Collect a Score Multiplier before large enemy formations whenever possible to maximise the points earned during its active duration."
+			]
+		},
+		{
+			"id": "improve",
+			"heading": "Improve Every Game",
+			"paragraphs": [
+				"Every completed game teaches you something about enemy movement, wave patterns, and power-up timing. Small improvements quickly lead to longer survival times and higher scores.",
+				"Focus on surviving consistently before attempting risky high-score strategies."
 			]
 		}
 	],
 	"images": [
 		{
-			"src": "images/shared/placeholder.png",
+			"src": "images/apps/zxspace/tips-and-strategy-hero.png",
 			"alt": "ZXSpace Tips & Strategy",
 			"caption": "Protect your cities, survive longer, and achieve higher scores."
 		}
 	],
 	"imageSectionTitle": "Tips & Strategy",
-	"estimatedReadTimeMinutes": 3,
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"estimatedReadTimeMinutes": 5,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
 	"keywords": [
 		"ZXSpace",
-		"strategy",
+		"ZX Space",
+		"ZXSpace strategy",
+		"ZXSpace tips",
 		"city defence",
-		"shields",
-		"UFO",
-		"power-ups"
+		"power-ups",
+		"shield strategy",
+		"high score guide",
+		"alien invasion",
+		"Game Center",
+		"ZX Series"
 	],
 	"relatedPages": [
 		"controls",
 		"how-to-play",
-		"game-modes",
+		"powerups",
+		"guide",
 		"achievements",
 		"leaderboards"
 	],
@@ -68,26 +118,31 @@
 		{
 			"id": "practical-improvement",
 			"heading": "Defend Smarter, Survive Longer",
-			"summary": "Simple improvements in positioning, shield management, and power-up timing can dramatically improve your performance.",
+			"summary": "Small improvements in positioning, shield management, and power-up timing can dramatically improve your performance.",
 			"body": [
 				"ZXSpace rewards players who stay calm under pressure. Learning when to defend, when to attack, and when to collect power-ups will help you survive more waves and protect more cities.",
-				"Whether you're chasing a new high score or preparing for tougher waves, every game is another opportunity to improve."
+				"Whether you're chasing a new personal best or aiming for the top of the Game Center leaderboards, every game is another opportunity to improve your strategy."
 			],
 			"bullets": [
 				"Protect your cities.",
+				"Master your positioning.",
 				"Use power-ups wisely.",
-				"Manage your shields carefully.",
+				"Manage your shields.",
 				"Compete for higher scores."
 			],
 			"image": {
-				"src": "images/shared/placeholder.png",
-				"alt": "ZXSpace Tips & Strategy",
+				"src": "images/apps/zxspace/tips-and-strategy-hero.png",
+				"alt": "ZXSpace strategy guide",
 				"caption": "Every wave is another opportunity to improve."
 			},
 			"links": [
 				{
 					"label": "Explore Game Modes",
 					"href": "/apps/zxspace/game-modes"
+				},
+				{
+					"label": "Learn About Power-Ups",
+					"href": "/apps/zxspace/powerups"
 				},
 				{
 					"label": "View Leaderboards",
@@ -100,6 +155,14 @@
 		{
 			"label": "Learn the Controls",
 			"href": "/apps/zxspace/controls"
+		},
+		{
+			"label": "Explore Power-Ups",
+			"href": "/apps/zxspace/powerups"
+		},
+		{
+			"label": "Read the Complete Guide",
+			"href": "/apps/zxspace/guide"
 		},
 		{
 			"label": "View Leaderboards",

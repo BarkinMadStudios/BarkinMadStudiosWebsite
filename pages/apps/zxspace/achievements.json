@@ -1,18 +1,36 @@
 {
 	"documentationSchemaVersion": "1.2.0",
 	"title": "ZXSpace Achievements",
-	"seoTitle": "ZXSpace Achievements | BarkinMad Studios",
-	"description": "Unlock achievements by playing ZXSpace, defending your cities, and reaching new gameplay milestones.",
-	"summary": "Achievements reward your progress and encourage you to keep improving with every game of ZXSpace.",
-	"heroImage": "images/shared/placeholder.png",
-	"heroImageAlt": "ZXSpace achievements",
+	"seoTitle": "ZXSpace Achievements & Game Center Guide | BarkinMad Studios",
+	"description": "Discover every ZXSpace Game Center achievement, learn how achievements work, track your progress, and improve your skills while defending cities across the world.",
+	"summary": "Achievements reward skill, persistence and regular play as you defend cities, complete games and master ZXSpace.",
+	"heroImage": "images/apps/zxspace/achievements-hero.png",
+	"heroImageAlt": "ZXSpace Game Center achievements",
+	"imageMetadata": [
+		{
+			"src": "images/apps/zxspace/achievements-hero.png",
+			"alt": "ZXSpace Game Center achievements",
+			"purpose": "doc",
+			"width": 1536,
+			"height": 1024,
+			"usage": ["docs", "website"]
+		}
+	],
 	"sections": [
+		{
+			"id": "introduction",
+			"heading": "Achievements in ZXSpace",
+			"paragraphs": [
+				"ZXSpace supports Apple Game Center achievements, rewarding both new and experienced players as they progress through the game. Every completed game, defended city and milestone helps move you closer to unlocking new achievements.",
+				"Achievements are designed to encourage long-term progression rather than one-off challenges. Whether you're chasing your highest score, surviving increasingly difficult waves or simply playing regularly, every session contributes towards your overall progress."
+			]
+		},
 		{
 			"id": "available-achievements",
 			"heading": "Available Achievements",
 			"paragraphs": [
-				"ZXSpace includes Game Center achievements that reward regular play and important gameplay milestones.",
-				"Whether you're protecting your cities or chasing your next high score, every achievement gives you another goal to work towards."
+				"ZXSpace includes a growing collection of Game Center achievements that celebrate your dedication and gameplay milestones.",
+				"These achievements unlock automatically as you reach their requirements while playing."
 			],
 			"bullets": [
 				"Play 10 Games",
@@ -22,31 +40,75 @@
 			]
 		},
 		{
-			"id": "planning",
-			"heading": "Keep Challenging Yourself",
+			"id": "how-achievements-work",
+			"heading": "How Achievements Work",
 			"paragraphs": [
-				"Focus on one achievement at a time instead of trying to unlock everything in a single session.",
-				"As your skills improve, you'll naturally unlock more achievements while climbing the leaderboards and earning BarkinMad Coins."
+				"Achievements unlock automatically through Apple Game Center when their requirements have been met. No additional setup is required beyond signing into Game Center on your device.",
+				"Your achievement progress is linked to your Game Center account, allowing you to continue working towards 100% completion across your Apple devices."
+			]
+		},
+		{
+			"id": "progression",
+			"heading": "Designed for Long-Term Progress",
+			"paragraphs": [
+				"ZXSpace rewards consistent improvement rather than requiring players to unlock everything in a single session. As your skills improve, achievements naturally unlock alongside higher scores, longer survival times and greater mastery of each city.",
+				"Many players find achievements provide additional motivation to improve accuracy, survive longer and experiment with different strategies."
+			]
+		},
+		{
+			"id": "tips",
+			"heading": "Tips for Unlocking Achievements",
+			"paragraphs": [
+				"The fastest way to unlock achievements is simply to keep playing. Every completed game contributes towards your progress while improving your skills at the same time."
+			],
+			"bullets": [
+				"Play regularly to build long-term progress.",
+				"Focus on surviving longer rather than rushing waves.",
+				"Improve your accuracy to maximise your score.",
+				"Experiment with different gameplay strategies.",
+				"Aim to beat your previous personal best every session."
+			]
+		},
+		{
+			"id": "why-achievements-matter",
+			"heading": "Why Achievements Matter",
+			"paragraphs": [
+				"Achievements add another layer of progression beyond simply achieving a high score. They reward commitment, encourage replayability and provide additional goals for completion-focused players.",
+				"Combined with Game Center leaderboards and BarkinMad Coins, achievements help showcase your progress as your skills continue to improve."
+			]
+		},
+		{
+			"id": "faq",
+			"heading": "Frequently Asked Questions",
+			"paragraphs": [
+				"Achievements unlock automatically through Game Center when their requirements have been completed.",
+				"Achievement progress is stored with your Game Center account, allowing you to continue progressing across supported Apple devices.",
+				"Playing regularly is the best way to unlock every available achievement while naturally improving your gameplay."
 			]
 		}
 	],
 	"images": [
 		{
-			"src": "images/shared/placeholder.png",
-			"alt": "ZXSpace achievements",
-			"caption": "Unlock new achievements as you continue defending your cities."
+			"src": "images/apps/zxspace/achievements-hero.png",
+			"alt": "ZXSpace Game Center achievement unlocked",
+			"caption": "Unlock Game Center achievements as you defend cities and improve your skills."
 		}
 	],
-	"imageSectionTitle": "Achievements",
-	"estimatedReadTimeMinutes": 3,
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"imageSectionTitle": "Game Center Achievements",
+	"estimatedReadTimeMinutes": 5,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
 	"keywords": [
-		"ZXSpace",
-		"Game Center",
-		"achievements",
-		"arcade",
-		"city defence"
+		"ZXSpace achievements",
+		"ZXSpace Game Center",
+		"ZXSpace achievements guide",
+		"Game Center achievements",
+		"ZXSpace arcade game",
+		"space shooter achievements",
+		"Apple Game Center",
+		"retro arcade shooter",
+		"city defence game",
+		"BarkinMad Studios"
 	],
 	"relatedPages": [
 		"leaderboards",
@@ -57,22 +119,23 @@
 	"contentStatus": "verified",
 	"featureShowcases": [
 		{
-			"id": "achievement-goals",
-			"heading": "Every Game Counts",
-			"summary": "Achievements reward regular play and encourage you to keep improving with every game.",
+			"id": "game-center",
+			"heading": "Game Center Integration",
+			"summary": "Track your progress and unlock achievements automatically through Apple Game Center.",
 			"body": [
-				"Every game of ZXSpace helps you move closer to your next achievement. As your skills improve, you'll unlock new milestones while climbing the leaderboards and earning BarkinMad Coins.",
-				"Achievements provide another reason to keep coming back, rewarding both casual play and long-term dedication."
+				"ZXSpace integrates with Apple Game Center to automatically unlock achievements as you reach gameplay milestones. Your progress is securely linked to your Game Center account and is available across your supported Apple devices.",
+				"Achievements complement the global leaderboards by rewarding dedication, regular play and continuous improvement as you defend cities from increasingly difficult alien invasions."
 			],
 			"bullets": [
-				"Unlock achievements through regular play.",
-				"Track your long-term progress.",
-				"Works alongside leaderboards and BarkinMad Coins."
+				"Automatic achievement unlocking.",
+				"Works with Apple Game Center.",
+				"Complements global leaderboards.",
+				"Rewards long-term progression."
 			],
 			"image": {
-				"src": "images/shared/placeholder.png",
-				"alt": "ZXSpace achievements",
-				"caption": "Every game brings you closer to your next achievement."
+				"src": "images/apps/zxspace/achievements-hero.png",
+				"alt": "ZXSpace Game Center achievements",
+				"caption": "Every completed game brings you closer to your next achievement."
 			},
 			"links": [
 				{
@@ -90,6 +153,10 @@
 		{
 			"label": "Read Tips & Strategy",
 			"href": "/apps/zxspace/tips-and-strategy"
+		},
+		{
+			"label": "ZXSpace Overview",
+			"href": "/apps/zxspace"
 		},
 		{
 			"label": "Learn About BarkinMad Coins",

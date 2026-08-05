@@ -1,15 +1,16 @@
 {
 	"documentationSchemaVersion": "1.2.0",
 	"title": "ZXSpace Controls",
-	"seoTitle": "ZXSpace Controls | BarkinMad Studios",
-	"description": "Master ZXSpace's controls with smooth cannon movement, accurate positioning, and careful timing while defending your cities.",
-	"summary": "Good positioning, quick reactions, and accurate aiming are the keys to surviving every wave.",
-	"heroImage": "images/shared/placeholder.png",
-	"heroImageAlt": "ZXSpace controls",
+	"seoTitle": "ZXSpace Controls Guide | Master Cannon Movement | BarkinMad Studios",
+	"description": "Learn the ZXSpace touch controls, master automatic firing, improve your positioning, and defend every city with precision.",
+	"summary": "Master ZXSpace's intuitive touch controls to survive longer, destroy more aliens and defend your cities.",
+	"heroImage": "images/apps/zxspace/controls-hero.png",
+	"heroImageAlt": "ZXSpace touch controls",
+
 	"imageMetadata": [
 		{
-			"src": "images/shared/placeholder.png",
-			"alt": "ZXSpace controls",
+			"src": "images/apps/zxspace/controls-hero.png",
+			"alt": "ZXSpace touch controls",
 			"purpose": "doc",
 			"width": 1774,
 			"height": 887,
@@ -18,79 +19,131 @@
 			]
 		}
 	],
+
 	"sections": [
 		{
-			"id": "basic-input",
-			"heading": "Master the Controls",
+			"id": "overview",
+			"heading": "Simple Controls, Challenging Gameplay",
 			"paragraphs": [
-				"Drag your finger left and right to move the cannon along the bottom of the screen.",
-				"The cannon fires automatically, allowing you to focus entirely on positioning, dodging enemy fire, and protecting your cities."
+				"ZXSpace is designed around intuitive touch controls that are easy to learn but rewarding to master. Instead of worrying about firing your weapon, you can focus entirely on movement, positioning and protecting your cities from the alien invasion.",
+				"As the waves become faster and more dangerous, good control becomes the difference between survival and defeat."
 			]
 		},
 		{
-			"id": "positioning",
-			"heading": "Positioning",
+			"id": "basic-input",
+			"heading": "Moving Your Cannon",
 			"paragraphs": [
-				"Try to stay underneath groups of invading aliens so your shots have the best chance of hitting their targets.",
-				"Avoid moving too far to one side unless you need to collect a power-up or deal with an immediate threat."
+				"Drag your finger left or right anywhere on the screen to move your cannon smoothly along the bottom of the battlefield.",
+				"The cannon automatically follows your movement, allowing precise positioning without complicated controls."
 			],
 			"bullets": [
-				"Watch how the alien formation moves.",
-				"Position yourself beneath groups of enemies.",
-				"Leave space to dodge incoming fire and collect power-ups."
+				"Drag left and right to move.",
+				"Movement is smooth and responsive.",
+				"Focus on positioning instead of firing."
 			]
 		},
 		{
 			"id": "auto-fire",
-			"heading": "Make the Most of Auto-Fire",
+			"heading": "Automatic Firing",
 			"paragraphs": [
-				"Because the cannon fires automatically, success comes from staying in the best firing position rather than tapping the screen repeatedly.",
-				"Power-ups such as Double Laser increase your firepower, making accurate positioning even more rewarding."
+				"Your cannon fires automatically whenever enemies are within range, allowing you to concentrate on avoiding incoming fire and protecting your cities.",
+				"Success comes from being in the right place at the right time rather than tapping the screen repeatedly."
+			]
+		},
+		{
+			"id": "positioning",
+			"heading": "Master Your Positioning",
+			"paragraphs": [
+				"Position yourself beneath groups of invading aliens so your shots hit as many targets as possible. Good positioning allows you to eliminate threats quickly while leaving enough room to react to enemy attacks.",
+				"Avoid staying at the edges of the screen unless absolutely necessary. Remaining closer to the centre gives you more time to respond as enemies change direction."
+			],
+			"bullets": [
+				"Stay beneath groups of enemies.",
+				"Leave room to dodge enemy fire.",
+				"Keep the centre of the screen covered.",
+				"Watch enemy movement patterns."
+			]
+		},
+		{
+			"id": "power-ups",
+			"heading": "Collecting Power-Ups",
+			"paragraphs": [
+				"Power-ups appear during gameplay and can significantly improve your effectiveness. Position yourself carefully so you can collect them without exposing your cities to unnecessary danger.",
+				"Power-ups such as Double Laser increase your firepower, making accurate positioning even more valuable."
+			]
+		},
+		{
+			"id": "advanced",
+			"heading": "Advanced Control Tips",
+			"paragraphs": [
+				"Experienced players rarely chase every enemy. Instead, they anticipate where the alien formation is moving and position their cannon before the next attack begins.",
+				"Smooth movement is usually more effective than making constant rapid corrections. Learning enemy movement patterns will naturally improve both your survival time and your score."
+			],
+			"bullets": [
+				"Plan your movement ahead of time.",
+				"Avoid unnecessary rapid direction changes.",
+				"Prioritise protecting cities over chasing single enemies.",
+				"Practice smooth, controlled movement."
 			]
 		}
 	],
+
 	"images": [
 		{
-			"src": "images/shared/placeholder.png",
-			"alt": "ZXSpace controls",
-			"caption": "Master the controls to defend your cities and survive longer."
+			"src": "images/apps/zxspace/controls-hero.png",
+			"alt": "ZXSpace touch controls",
+			"caption": "Accurate movement and positioning are the key to surviving every wave."
 		}
 	],
-	"imageSectionTitle": "Controls",
-	"estimatedReadTimeMinutes": 3,
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+
+	"imageSectionTitle": "ZXSpace Controls",
+
+	"estimatedReadTimeMinutes": 5,
+
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+
 	"keywords": [
-		"ZXSpace",
-		"controls",
-		"touch controls",
-		"auto-fire",
-		"cannon"
+		"ZXSpace controls",
+		"ZXSpace guide",
+		"ZXSpace touch controls",
+		"ZXSpace auto fire",
+		"ZXSpace cannon movement",
+		"ZXSpace gameplay",
+		"retro arcade controls",
+		"space shooter controls",
+		"Apple arcade shooter",
+		"BarkinMad Studios"
 	],
+
 	"relatedPages": [
 		"how-to-play",
-		"game-modes",
-		"tips-and-strategy"
+		"tips-and-strategy",
+		"powerups",
+		"game-modes"
 	],
+
 	"contentStatus": "verified",
+
 	"featureShowcases": [
 		{
 			"id": "control-surface",
-			"heading": "Take Control of Every Wave",
-			"summary": "Good positioning and quick reactions are the foundation of every successful defence.",
+			"heading": "Precision Through Simplicity",
+			"summary": "ZXSpace combines simple touch controls with increasingly challenging gameplay.",
 			"body": [
-				"Learning how the cannon moves is the first step towards mastering ZXSpace. Accurate positioning, careful movement, and good anticipation will help you destroy more aliens while keeping your cities safe.",
-				"As the waves become faster and more dangerous, strong fundamentals become even more important."
+				"Automatic firing allows you to focus entirely on movement, positioning and defending your cities. As enemy formations become faster and more aggressive, mastering these fundamentals becomes essential.",
+				"Whether you're aiming for a new high score or simply trying to survive one more wave, precise movement is your greatest weapon."
 			],
 			"bullets": [
-				"Improve cannon positioning.",
-				"Stay ahead of the alien formation.",
-				"Collect power-ups while protecting your cities."
+				"Smooth touch controls.",
+				"Automatic firing.",
+				"Skill-based positioning.",
+				"Designed for quick pick-up-and-play sessions."
 			],
 			"image": {
-				"src": "images/shared/placeholder.png",
-				"alt": "ZXSpace controls",
-				"caption": "Good control is the key to surviving every wave."
+				"src": "images/apps/zxspace/controls-hero.png",
+				"alt": "ZXSpace cannon controls",
+				"caption": "Simple controls let you focus on surviving the invasion."
 			},
 			"links": [
 				{
@@ -98,20 +151,33 @@
 					"href": "/apps/zxspace/how-to-play"
 				},
 				{
-					"label": "Read Tips & Strategy",
+					"label": "Power-Ups Guide",
+					"href": "/apps/zxspace/powerups"
+				},
+				{
+					"label": "Tips & Strategy",
 					"href": "/apps/zxspace/tips-and-strategy"
 				}
 			]
 		}
 	],
+
 	"relatedLinks": [
 		{
 			"label": "Learn How to Play",
 			"href": "/apps/zxspace/how-to-play"
 		},
 		{
-			"label": "Read Tips & Strategy",
+			"label": "Power-Ups Guide",
+			"href": "/apps/zxspace/powerups"
+		},
+		{
+			"label": "Tips & Strategy",
 			"href": "/apps/zxspace/tips-and-strategy"
+		},
+		{
+			"label": "ZXSpace Overview",
+			"href": "/apps/zxspace"
 		}
 	]
 }

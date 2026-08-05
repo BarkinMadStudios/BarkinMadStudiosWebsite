@@ -2,9 +2,9 @@
 	"documentationSchemaVersion": "1.2.0",
 	"appSlug": "zxspace",
 	"title": "ZXSpace Guides",
-	"description": "Official ZXSpace guides covering gameplay, controls, city defence, achievements, leaderboards, BarkinMad Coins, and everything you need to master the game.",
+	"description": "Official ZXSpace guides covering gameplay, controls, power-ups, city defence, achievements, leaderboards, BarkinMad Coins, and everything you need to master the game.",
 	"landingPage": "overview",
-	"lastUpdated": "2026-07-07",
+	"lastUpdated": "2026-08-05",
 	"lastVerified": "2026-07-07",
 	"estimatedReadTimeMinutes": 30,
 	"relatedSeries": [
@@ -53,12 +53,20 @@
 			"order": 4
 		},
 		{
+			"slug": "powerups",
+			"title": "Power-Ups",
+			"description": "Learn about the eight player-specific and shared-world power-ups available in ZXSpace.",
+			"required": false,
+			"status": "optional",
+			"order": 5
+		},
+		{
 			"slug": "barkinmad-coins",
 			"title": "BarkinMad Coins",
 			"description": "Earn BarkinMad Coins by defending your cities and unlock cosmetic rewards across the ZX Series.",
 			"required": true,
 			"status": "required",
-			"order": 5
+			"order": 6
 		},
 		{
 			"slug": "achievements",
@@ -66,7 +74,7 @@
 			"description": "Unlock achievements by defending your cities and reaching new gameplay milestones.",
 			"required": true,
 			"status": "required",
-			"order": 6
+			"order": 7
 		},
 		{
 			"slug": "leaderboards",
@@ -74,7 +82,7 @@
 			"description": "Compete for the highest score and compare your performance with players around the world.",
 			"required": true,
 			"status": "required",
-			"order": 7
+			"order": 8
 		},
 		{
 			"slug": "tips-and-strategy",
@@ -82,7 +90,7 @@
 			"description": "Improve your positioning, shield management, and survival skills with practical gameplay advice.",
 			"required": true,
 			"status": "required",
-			"order": 8
+			"order": 9
 		},
 		{
 			"slug": "frequently-asked-questions",
@@ -90,7 +98,7 @@
 			"description": "Find answers to the most common questions about ZXSpace.",
 			"required": true,
 			"status": "required",
-			"order": 9
+			"order": 10
 		},
 		{
 			"slug": "guide",
@@ -98,7 +106,7 @@
 			"description": "Everything you need to know about ZXSpace in one complete guide.",
 			"required": false,
 			"status": "optional",
-			"order": 10
+			"order": 11
 		},
 		{
 			"slug": "screenshots",
@@ -106,7 +114,7 @@
 			"description": "Take a visual tour of ZXSpace and explore its gameplay, progression, and city-defence action.",
 			"required": false,
 			"status": "optional",
-			"order": 11
+			"order": 12
 		}
 	],
 	"contentStatus": "verified"

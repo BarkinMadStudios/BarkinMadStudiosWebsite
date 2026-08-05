@@ -1,0 +1,140 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXSpace Power-Ups",
+	"seoTitle": "ZXSpace Power-Ups | BarkinMad Studios",
+	"description": "Complete guide to every ZXSpace power-up, including Double Laser, Triple Laser, Piercing Laser, Hull Repair, Shield Repair, EMP Pulse, Smart Bomb, and Score Multiplier.",
+	"summary": "Master every ZXSpace power-up, learn when to use each one, and discover how player-specific and shared-world abilities can turn the tide of battle.",
+	"heroImage": "apps/zxspace/zxspace-powerups.png",
+	"heroImageAlt": "ZXSpace power-ups overview",
+	"referenceImage": {
+		"src": "apps/zxspace/zxspace-powerups.png",
+		"alt": "ZXSpace power-ups showing five player-specific and three shared-world effects",
+		"displayMode": "reference-cheat-sheet"
+	},
+	"imageMetadata": [
+		{
+			"src": "apps/zxspace/zxspace-powerups.png",
+			"alt": "ZXSpace power-ups overview",
+			"purpose": "gameplay",
+			"width": 1536,
+			"height": 1024,
+			"usage": [
+				"docs",
+				"website",
+				"social"
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": "two-categories",
+			"heading": "Two Types of Power-Up",
+			"paragraphs": [
+				"ZXSpace power-ups are divided into player-specific and shared-world effects. Player-specific power-ups affect only the cannon that collects them, while shared-world power-ups affect the whole battlefield.",
+				"Collect the right power-up at the right moment to strengthen your attack, protect your defences, or turn a dangerous wave back in your favour."
+			]
+		},
+		{
+			"id": "spawn",
+			"heading": "How Power-Ups Appear",
+			"paragraphs": [
+				"Power-ups appear during gameplay after defeated enemies drop them. Stay alert for falling pickups and collect them before they leave the screen.",
+				"Some power-ups can completely change the outcome of a difficult wave, so positioning your cannon to collect them safely is an important part of mastering ZXSpace."
+			]
+		},
+		{
+			"id": "player-specific",
+			"heading": "Player-Specific Power-Ups",
+			"paragraphs": [
+				"These five power-ups affect only the player who collects them."
+			],
+			"bullets": [
+				"Double Laser — Fires two lasers for 9 seconds. Best used during heavy enemy waves.",
+				"Triple Laser — Fires three lasers for 6 seconds. Excellent against dense enemy formations.",
+				"Piercing Laser — Lasers pass through multiple enemies for 7 seconds, making it ideal for lined-up attacks.",
+				"Hull Repair — Restores one point of the collecting cannon's hull. Most valuable after taking damage.",
+				"Score Multiplier — Doubles the collecting player's score for 10 seconds. Collect it before large enemy groups for maximum points."
+			]
+		},
+		{
+			"id": "shared-world",
+			"heading": "Shared-World Power-Ups",
+			"paragraphs": [
+				"These three power-ups affect the entire battlefield and benefit every player."
+			],
+			"bullets": [
+				"Shield Repair — Restores a portion of the city's shields, giving everyone more time to defend it.",
+				"EMP Pulse — Clears enemy projectiles and stuns enemies for 3 seconds, creating valuable breathing room.",
+				"Smart Bomb — Destroys enemy projectiles while damaging every remaining enemy on the screen, making it perfect during overwhelming attacks."
+			]
+		},
+		{
+			"id": "power-up-strategy",
+			"heading": "Use Every Advantage",
+			"paragraphs": [
+				"Use Double Laser, Triple Laser, and Piercing Laser during the busiest enemy waves to maximise their damage and clear threats quickly.",
+				"Hull Repair and Shield Repair become increasingly valuable later in a game when every point of health can decide whether a city survives.",
+				"EMP Pulse and Smart Bomb are powerful emergency tools. Saving them for the most dangerous moments can rescue a city that is close to falling."
+			]
+		},
+		{
+			"id": "faq",
+			"heading": "Power-Up FAQ",
+			"questions": [
+				{
+					"question": "Do power-ups stack?",
+					"answer": "Each power-up lasts for its own duration. Collecting another power-up refreshes or replaces the active effect depending on its type."
+				},
+				{
+					"question": "Can both players use power-ups in co-op?",
+					"answer": "Player-specific power-ups affect only the player who collects them, while shared-world power-ups benefit the entire battlefield."
+				},
+				{
+					"question": "Which power-up is the strongest?",
+					"answer": "There is no single best power-up. The most effective choice depends on the current wave and the state of the battlefield."
+				}
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+	"keywords": [
+		"ZXSpace",
+		"ZX Space",
+		"ZXSpace power-ups",
+		"Double Laser",
+		"Triple Laser",
+		"Piercing Laser",
+		"Hull Repair",
+		"Shield Repair",
+		"EMP Pulse",
+		"Smart Bomb",
+		"Score Multiplier",
+		"space shooter power-ups",
+		"city defence",
+		"ZX Series"
+	],
+	"relatedPages": [
+		"how-to-play",
+		"controls",
+		"tips-and-strategy",
+		"guide",
+		"achievements"
+	],
+	"relatedLinks": [
+		{
+			"label": "Learn How to Play",
+			"href": "/apps/zxspace/how-to-play"
+		},
+		{
+			"label": "Read Tips & Strategy",
+			"href": "/apps/zxspace/tips-and-strategy"
+		},
+		{
+			"label": "Read the Complete Guide",
+			"href": "/apps/zxspace/guide"
+		}
+	],
+	"contentStatus": "verified"
+}

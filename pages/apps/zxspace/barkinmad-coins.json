@@ -1,96 +1,179 @@
 {
 	"documentationSchemaVersion": "1.2.0",
 	"title": "BarkinMad Coins in ZXSpace",
-	"seoTitle": "BarkinMad Coins | ZXSpace | BarkinMad Studios",
-	"description": "Earn BarkinMad Coins while playing ZXSpace and unlock cosmetic rewards across supported ZX Series games.",
-	"summary": "BarkinMad Coins reward your progress in ZXSpace and unlock cosmetic rewards throughout the ZX Series.",
+	"seoTitle": "BarkinMad Coins Guide | ZXSpace Shared Rewards | BarkinMad Studios",
+	"description": "Learn how to earn BarkinMad Coins in ZXSpace, unlock cosmetic cannon skins, and use the shared progression system across supported ZX Series games.",
+	"summary": "BarkinMad Coins reward your progress in ZXSpace and provide a shared cosmetic progression system throughout the ZX Series.",
 	"heroImage": "images/shared/barkinmadcoins.png",
-	"heroImageAlt": "BarkinMad Coins shared ZX Series rewards",
+	"heroImageAlt": "BarkinMad Coins shared across ZX Series games",
 	"images": [
 		{
 			"src": "images/shared/barkinmadcoins.png",
 			"alt": "BarkinMad Coins",
-			"caption": "Earn and spend BarkinMad Coins across the ZX Series."
+			"caption": "Earn BarkinMad Coins while playing and unlock cosmetic rewards across supported ZX Series games."
 		}
 	],
 	"imageSectionTitle": "BarkinMad Coins",
+
 	"sections": [
 		{
 			"id": "what-is",
 			"heading": "What Are BarkinMad Coins?",
 			"paragraphs": [
-				"BarkinMad Coins are the shared reward system used across supported ZX Series games.",
-				"As you play ZXSpace, you'll earn coins that can be used to unlock cosmetic rewards across the wider ZX Series."
+				"BarkinMad Coins are the shared progression currency used throughout supported ZX Series games. Every coin you earn contributes towards a single shared wallet, allowing your progress to continue as you play different ZX titles.",
+				"The system rewards regular gameplay while encouraging players to explore the wider ZX Series. Coins are earned through gameplay and are never required to enjoy the core game."
 			]
 		},
 		{
-			"id": "how-zxspace-uses-coins",
-			"heading": "Earn Coins Through Gameplay",
+			"id": "earning",
+			"heading": "How to Earn BarkinMad Coins",
 			"paragraphs": [
-				"Complete waves to earn BarkinMad Coins and build your shared ZX Series wallet. Coins are awarded separately from your score, giving you another way to track your progress.",
-				"Every completed game helps you earn more coins, encouraging you to improve your skills and keep defending your cities."
+				"In ZXSpace, BarkinMad Coins are awarded by completing waves, surviving longer, and progressing through increasingly challenging gameplay.",
+				"Coins are earned separately from your score, providing an additional way to measure your long-term progress beyond simply achieving a new high score."
+			],
+			"bullets": [
+				"Complete waves.",
+				"Play complete games.",
+				"Continue improving your skills.",
+				"Build your shared ZX Series wallet."
 			]
 		},
 		{
-			"id": "cosmetic-unlocks",
-			"heading": "Unlock Cannon Skins",
+			"id": "shared-wallet",
+			"heading": "A Shared Wallet Across the ZX Series",
 			"paragraphs": [
-				"BarkinMad Coins can be used to unlock cosmetic cannon skins, allowing you to personalise your game without affecting gameplay balance.",
-				"Available skins include Classic, Red, Neon, Cyanic, Golden, and Obsidian."
+				"Your BarkinMad Coins are shared between supported ZX Series games, creating a connected progression system across the collection.",
+				"Whether you prefer ZXSpace, ZXSnake, ZXBrick, ZXPong or future ZX titles, your shared wallet continues to grow as you play."
+			]
+		},
+		{
+			"id": "spending",
+			"heading": "Unlock Cosmetic Cannon Skins",
+			"paragraphs": [
+				"BarkinMad Coins can be spent on cosmetic cannon skins that personalise your gameplay without changing performance or difficulty.",
+				"Every skin is purely cosmetic, ensuring that gameplay remains balanced for every player regardless of the number of coins they have earned."
+			],
+			"bullets": [
+				"Classic",
+				"Red",
+				"Neon",
+				"Cyanic",
+				"Golden",
+				"Obsidian"
+			]
+		},
+		{
+			"id": "fair-play",
+			"heading": "Designed Around Fair Play",
+			"paragraphs": [
+				"BarkinMad Coins never provide gameplay advantages. They unlock cosmetic customisation only, ensuring every player competes using the same gameplay mechanics.",
+				"This approach allows players to personalise their experience while preserving the classic arcade challenge that defines ZXSpace."
+			]
+		},
+		{
+			"id": "tips",
+			"heading": "Tips for Earning More Coins",
+			"paragraphs": [
+				"The best way to increase your BarkinMad Coin balance is to keep playing regularly while improving your survival skills."
+			],
+			"bullets": [
+				"Complete as many waves as possible.",
+				"Stay alive longer.",
+				"Improve your accuracy.",
+				"Challenge yourself to beat previous scores.",
+				"Play regularly across the ZX Series."
 			]
 		}
 	],
+
 	"relatedPages": [
 		"achievements",
 		"leaderboards",
 		"overview",
 		"tips-and-strategy"
 	],
+
 	"relatedLinks": [
 		{
 			"label": "Explore the ZX Series",
 			"href": "/zx-series"
+		},
+		{
+			"label": "View Leaderboards",
+			"href": "/apps/zxspace/leaderboards"
+		},
+		{
+			"label": "ZXSpace Achievements",
+			"href": "/apps/zxspace/achievements"
+		},
+		{
+			"label": "Tips & Strategy",
+			"href": "/apps/zxspace/tips-and-strategy"
 		}
 	],
+
 	"faq": [
 		{
 			"question": "Do BarkinMad Coins have any real-world value?",
-			"answer": "No. BarkinMad Coins are an in-game reward used to unlock cosmetic content across supported ZX Series games. They have no cash value and cannot be exchanged for real money."
+			"answer": "No. BarkinMad Coins are an in-game progression reward used to unlock cosmetic content. They cannot be exchanged for cash or transferred outside supported ZX Series games."
+		},
+		{
+			"question": "Are BarkinMad Coins shared between ZX Series games?",
+			"answer": "Yes. Supported ZX Series games share a common BarkinMad Coin wallet, allowing your progress to continue as you play different titles."
+		},
+		{
+			"question": "Do BarkinMad Coins improve gameplay?",
+			"answer": "No. Coins unlock cosmetic customisation only and never provide gameplay advantages."
+		},
+		{
+			"question": "Can I earn BarkinMad Coins without making purchases?",
+			"answer": "Yes. Coins are earned entirely through normal gameplay by completing waves and continuing to improve your performance."
 		}
 	],
-	"estimatedReadTimeMinutes": 3,
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+
+	"estimatedReadTimeMinutes": 5,
+
+	"lastUpdated": "2026-08-05",
+	"lastVerified": "2026-08-05",
+
 	"keywords": [
 		"BarkinMad Coins",
-		"ZXSpace",
-		"ZX Series",
-		"cannon skins",
-		"cosmetic rewards"
+		"ZXSpace coins",
+		"ZXSpace shared wallet",
+		"ZX Series progression",
+		"ZXSpace cannon skins",
+		"ZXSpace cosmetic rewards",
+		"shared game currency",
+		"retro arcade progression",
+		"ZXSpace unlocks",
+		"BarkinMad Studios"
 	],
+
 	"contentStatus": "verified",
+
 	"featureShowcases": [
 		{
 			"id": "coins-and-unlocks",
-			"heading": "Play, Earn, Unlock",
-			"summary": "BarkinMad Coins reward regular play and unlock cosmetic cannon skins across the ZX Series.",
+			"heading": "Play, Earn and Personalise",
+			"summary": "Earn BarkinMad Coins while playing ZXSpace and unlock cosmetic rewards across the ZX Series.",
 			"body": [
-				"Every game of ZXSpace helps you earn BarkinMad Coins, giving you another reason to improve your skills, defend your cities, and keep progressing through the game.",
-				"Combined with achievements and leaderboards, BarkinMad Coins create a shared progression system that connects every supported ZX Series game."
+				"Every completed game helps grow your shared BarkinMad Coin wallet, rewarding regular play and long-term dedication. Coins connect supported ZX Series games through a shared progression system that continues to expand.",
+				"Spend your coins on cosmetic cannon skins to personalise your gameplay while preserving fair and balanced arcade action for every player."
 			],
 			"bullets": [
-				"Earn coins by completing waves.",
+				"Shared wallet across supported ZX Series games.",
+				"Earn coins through gameplay.",
 				"Unlock cosmetic cannon skins.",
-				"Works alongside achievements and leaderboards."
+				"No pay-to-win mechanics."
 			],
 			"image": {
-				"src": "apps/barkinmadcoins.png",
-				"alt": "BarkinMad Coins",
-				"caption": "Every completed wave brings you closer to your next unlock."
+				"src": "images/shared/barkinmadcoins.png",
+				"alt": "BarkinMad Coins progression",
+				"caption": "Every completed game helps build your shared ZX Series progression."
 			},
 			"links": [
 				{
-					"label": "View the FAQ",
+					"label": "Frequently Asked Questions",
 					"href": "/apps/zxspace/frequently-asked-questions"
 				}
 			]

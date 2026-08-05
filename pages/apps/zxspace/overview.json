@@ -54,7 +54,7 @@
 			"heading": "Getting Started",
 			"paragraphs": [
 				"Begin with the How to Play guide before exploring Controls, Game Modes, and Tips & Strategy.",
-				"Once you're familiar with the gameplay, continue with BarkinMad Coins, Achievements, and Leaderboards to discover everything ZXSpace has to offer."
+				"Once you're familiar with the gameplay, explore the [Power-Ups guide](/apps/zxspace/powerups) before continuing with BarkinMad Coins, Achievements, and Leaderboards."
 			]
 		},
 		{
@@ -75,12 +75,13 @@
 		"Game Center"
 	],
 	"estimatedReadTimeMinutes": 3,
-	"lastUpdated": "2026-07-10",
+	"lastUpdated": "2026-08-05",
 	"lastVerified": "2026-07-07",
 	"relatedPages": [
 		"how-to-play",
 		"controls",
 		"game-modes",
+		"powerups",
 		"barkinmad-coins",
 		"achievements",
 		"leaderboards",

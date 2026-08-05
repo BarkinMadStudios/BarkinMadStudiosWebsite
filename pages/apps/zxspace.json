@@ -27,7 +27,7 @@
 		"Continuous auto-fire gameplay",
 		"Segmented shield defence with destructible sections",
 		"City damage and shield management",
-		"Double Laser and Shield Repair power-ups",
+		"Eight player-specific and shared-world power-ups",
 		"Wave completion rewards and BarkinMad Coins",
 		"Unlockable cannon skins",
 		"Cross-game cosmetic unlocks using BarkinMad Coins",
@@ -56,7 +56,7 @@
 	"version": "0.1",
 	"genre": "Arcade",
 	"developer": "BarkinMad Studios",
-	"lastUpdated": "2026-07-07",
+	"lastUpdated": "2026-08-05",
 	"documentationLinks": [
 		{
 			"label": "Overview",
@@ -73,6 +73,10 @@
 		{
 			"label": "Game Modes",
 			"href": "/apps/zxspace/game-modes"
+		},
+		{
+			"label": "Power-Ups",
+			"href": "/apps/zxspace/powerups"
 		},
 		{
 			"label": "BarkinMad Coins",
