@@ -28,7 +28,7 @@
 	"overview": [
 		"The ZX Series brings together a collection of retro-inspired arcade games designed for iPhone and iPad. Every game is easy to pick up and play while offering modern features such as achievements, leaderboards, localisation, multiplayer, and shared progression.",
 		"Inspired by the golden age of arcade gaming and classic home computers, the series captures the fast-paced, score-chasing gameplay that made those games memorable while adapting it for today's mobile devices.",
-		"Current and in-development titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXSpace](/apps/zxspace), [ZXPong](/apps/zxpong), and [ZXTank](/apps/zxtank), with more games planned as the series continues to expand."
+		"Live titles include [ZXSnake](/apps/zxsnake), [ZXBrick](/apps/zxbrick), [ZXPong](/apps/zxpong), and [ZXSpace](/apps/zxspace). [ZXTank](/apps/zxtank) and ZXRacer are in development, with more games planned as the series continues to expand."
 	],
 	"sharedSystems": {
 		"title": "Shared Game Systems",
@@ -83,7 +83,7 @@
 		{
 			"heading": "Current and Upcoming Games",
 			"paragraphs": [
-				"[ZXSpace](/apps/zxspace) and [ZXPong](/apps/zxpong) represent the next stage of the ZX Series.",
+				"[ZXSpace](/apps/zxspace) and [ZXPong](/apps/zxpong) are live ZX Series titles.",
 				"[ZXSpace](/apps/zxspace) is a fast-paced arcade space shooter featuring enemy waves, power-ups, score chasing, achievements, and shared progression.",
 				"[ZXPong](/apps/zxpong) reimagines the arcade classic with AI opponents, multiplayer, achievements, and connected ZX Series features."
 			]
@@ -92,7 +92,7 @@
 			"heading": "Future ZX Games",
 			"paragraphs": [
 				"Future ZX Series titles will explore new arcade-inspired gameplay styles while continuing to build on the shared systems that connect every game.",
-				"Current plans include ZXMaze, ZXRacer, and ZXLabrador, with dedicated pages added as development progresses."
+				"ZXTank and ZXRacer are in development. Planned future titles include ZXMaze, ZXLabrador, and ZXSurvivor, with dedicated pages added as development progresses."
 			]
 		},
 		{

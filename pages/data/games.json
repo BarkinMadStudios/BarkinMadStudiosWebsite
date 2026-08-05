@@ -13,16 +13,21 @@
     {
       "name": "ZXPong",
       "slug": "zxpong",
-      "status": "In Development"
+      "status": "Live"
     },
     {
       "name": "ZXSpace",
       "slug": "zxspace",
-      "status": "In Development"
+      "status": "Live"
     },
     {
       "name": "ZXTank",
       "slug": "zxtank",
+      "status": "In Development"
+    },
+    {
+      "name": "ZXRacer",
+      "slug": "zxracer",
       "status": "In Development"
     }
   ],

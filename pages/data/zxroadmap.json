@@ -1,17 +1,18 @@
 {
   "live": [
     "[ZXSnake](/apps/zxsnake)",
-    "[ZXBrick](/apps/zxbrick)"
+    "[ZXBrick](/apps/zxbrick)",
+    "[ZXPong](/apps/zxpong)",
+    "[ZXSpace](/apps/zxspace)"
   ],
   "development": [
-    "[ZXPong](/apps/zxpong)",
-    "[ZXSpace](/apps/zxspace)",
-    "[ZXTank](/apps/zxtank)"
+    "[ZXTank](/apps/zxtank)",
+    "ZXRacer"
   ],
   "planned": [
     "ZXMaze",
     "ZXLabrador",
-    "ZXRacer"
+    "ZXSurvivor"
   ],
   "lastUpdated": "2026-08-05"
 }

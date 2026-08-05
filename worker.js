@@ -2683,7 +2683,7 @@ ${planned.length && labels.roadmapPlannedTitle ? `<p><strong>${escapeHtml(labels
   __name(renderRoadmapContent, "renderRoadmapContent");
   function appFullCard(app) {
     const image = getAppImage(app);
-    const detailHref = app.href || (app.slug ? `/apps/${app.slug}` : "");
+    const detailHref = app.hideDetailLink ? "" : app.href || (app.slug ? `/apps/${app.slug}` : "");
     return `
 <div class="card">
   ${image ? `
@@ -4105,7 +4105,7 @@ Sitemap: https://www.barkinmad.studio/sitemap.xml
     ].map((url) => ({ ...url, lastmod: SITE_LASTMOD }));
     const apps = await getApps();
     for (const app of apps) {
-      const appPath = app.href || (app.slug ? `/apps/${app.slug}` : "");
+      const appPath = app.hideDetailLink ? "" : app.href || (app.slug ? `/apps/${app.slug}` : "");
       if (appPath && !urls.some((url) => url.path === appPath)) {
         urls.push({ path: appPath, changefreq: "monthly", priority: "0.8", lastmod: SITE_LASTMOD });
       }
