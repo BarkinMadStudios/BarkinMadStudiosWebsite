@@ -1,24 +1,64 @@
 {
 	"documentationSchemaVersion": "1.2.0",
 	"title": "ZXTank Controls",
-	"seoTitle": "ZXTank Controls | BarkinMad Studios",
-	"description": "ZXTank control guidance will be published after the release controls have been verified on supported devices.",
-	"summary": "Release control guidance will be added after device verification.",
+	"seoTitle": "ZXTank Controls Guide | BarkinMad Studios",
+	"description": "Learn how to control your tank in ZXTank, including movement, aiming, speed selection, combat and tactical vehicle management.",
+	"summary": "Master tank movement, turret aiming and battlefield tactics with the controls designed for ZXTank.",
 	"heroImage": "images/shared/placeholder.png",
-	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank control guidance is prepared",
+	"heroImageAlt": "Illustration representing the controls used in ZXTank",
 	"sections": [
 		{
-			"id": "controls-status",
-			"heading": "Controls to Be Verified",
+			"id": "movement",
+			"heading": "Move Your Tank",
 			"paragraphs": [
-				"ZXTank controls are still being developed and verified.",
-				"This page will be updated with release guidance after physical-device testing has confirmed the final controls."
+				"Guide your tank around the battlefield using the on-screen directional controls. Tanks always move in the direction the hull is facing, creating a classic arcade driving experience.",
+				"Unlike many action games, tanks cannot move sideways. Positioning and steering are an important part of combat, especially when navigating villages, forests, bridges and narrow routes."
+			]
+		},
+		{
+			"id": "speed-control",
+			"heading": "Control Your Speed",
+			"paragraphs": [
+				"Choose between three forward speed settings to suit the situation. Slower speeds provide greater control for careful manoeuvres, while higher speeds help you cross open ground and reposition quickly.",
+				"The camera automatically adjusts as your speed changes, giving you a wider view of the battlefield when travelling at higher speeds."
+			]
+		},
+		{
+			"id": "aim-and-fire",
+			"heading": "Aim and Fire",
+			"paragraphs": [
+				"The turret rotates independently from the hull, allowing you to drive in one direction while engaging enemies in another. Mastering independent movement and aiming is the key to surviving longer battles.",
+				"Temporary collectables can enhance your firepower with special ammunition and combat upgrades, giving you an advantage during intense firefights."
+			]
+		},
+		{
+			"id": "vehicle-damage",
+			"heading": "Adapt to Damage",
+			"paragraphs": [
+				"Every tank is made up of multiple systems, including the hull, engine, tracks, turret and radar. Damage affects how your tank performs, from reduced speed and steering to slower turret movement and shorter radar range.",
+				"Recovering salvage from the battlefield allows you to repair damaged systems and get back into the fight."
+			]
+		},
+		{
+			"id": "battlefield-awareness",
+			"heading": "Battlefield Awareness",
+			"paragraphs": [
+				"Keep an eye on your radar and on-screen indicators to track enemy activity beyond the visible battlefield. Bridges, repair depots, radar stations and supply depots can quickly become strategic objectives.",
+				"Learning when to attack, retreat, repair or collect upgrades is just as important as accurate shooting."
 			]
 		}
 	],
-	"estimatedReadTimeMinutes": 1,
-	"lastUpdated": "2026-08-05",
-	"lastVerified": "2026-08-05",
-	"keywords": ["ZXTank", "controls", "ZX Series"],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"ZXTank controls",
+		"tank controls",
+		"iPhone tank game",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
 	"contentStatus": "needs-review"
 }

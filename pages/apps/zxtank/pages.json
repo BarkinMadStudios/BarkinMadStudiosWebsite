@@ -3,25 +3,28 @@
 	"appSlug": "zxtank",
 	"documentationProfile": "game",
 	"title": "ZXTank Information",
-	"description": "Official ZXTank development, support, accessibility and privacy information from BarkinMad Studios.",
+	"description": "Official ZXTank guides, gameplay information, support, accessibility and privacy resources from BarkinMad Studios.",
 	"landingPage": "overview",
-	"lastUpdated": "2026-08-05",
-	"lastVerified": "2026-08-05",
-	"estimatedReadTimeMinutes": 20,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"estimatedReadTimeMinutes": 45,
 	"relatedSeries": [
 		"/zx-series"
 	],
 	"keywords": [
 		"ZXTank",
+		"ZX Tank",
+		"retro tank game",
+		"tank battle game",
+		"procedural battlefields",
 		"ZX Series",
-		"arcade game",
 		"BarkinMad Studios"
 	],
 	"pages": [
 		{
 			"slug": "overview",
 			"title": "Overview",
-			"description": "Learn about ZXTank, an upcoming arcade game from BarkinMad Studios and part of the ZX Series.",
+			"description": "Discover ZXTank, a retro-inspired tactical tank battle game from BarkinMad Studios.",
 			"required": true,
 			"status": "required",
 			"order": 1
@@ -29,7 +32,7 @@
 		{
 			"slug": "how-to-play",
 			"title": "How to Play",
-			"description": "ZXTank gameplay instructions will be published after the in-development experience has been verified.",
+			"description": "Learn the basics of movement, combat, repairs and battlefield tactics in ZXTank.",
 			"required": true,
 			"status": "required",
 			"order": 2
@@ -37,7 +40,7 @@
 		{
 			"slug": "controls",
 			"title": "Controls",
-			"description": "ZXTank control guidance will be published after the release controls have been verified on supported devices.",
+			"description": "Master tank movement, turret aiming, speed control and battlefield awareness.",
 			"required": true,
 			"status": "required",
 			"order": 3
@@ -45,74 +48,114 @@
 		{
 			"slug": "game-modes",
 			"title": "Game Modes",
-			"description": "ZXTank game-mode information will be published when the release scope has been confirmed.",
+			"description": "Explore Solo, DeathMatch and Team Battle in ZXTank.",
 			"required": true,
 			"status": "required",
 			"order": 4
 		},
 		{
-			"slug": "barkinmad-coins",
-			"title": "BarkinMad Coins",
-			"description": "Any ZXTank BarkinMad Coins information will be published after the release implementation has been verified.",
+			"slug": "battlefields",
+			"title": "Battlefields",
+			"description": "Discover how procedurally generated battlefields create unique tactical challenges every time you play.",
 			"required": true,
 			"status": "required",
 			"order": 5
 		},
 		{
-			"slug": "achievements",
-			"title": "Achievements",
-			"description": "ZXTank achievement information will be published after the release achievement set has been verified.",
+			"slug": "maps-and-terrain",
+			"title": "Maps & Terrain",
+			"description": "Learn how roads, forests, villages, rivers, bridges and other terrain influence every battle.",
 			"required": true,
 			"status": "required",
 			"order": 6
 		},
 		{
-			"slug": "leaderboards",
-			"title": "Leaderboards",
-			"description": "ZXTank leaderboard information will be published after any release leaderboard configuration is verified.",
+			"slug": "tank-systems",
+			"title": "Tank Systems",
+			"description": "Understand the hull, engine, tracks, turret and radar systems that make every tank unique.",
 			"required": true,
 			"status": "required",
 			"order": 7
 		},
 		{
-			"slug": "tips-and-strategy",
-			"title": "Tips & Strategy",
-			"description": "ZXTank strategy guidance will be published after gameplay has been verified in the release build.",
+			"slug": "collectables",
+			"title": "Collectables",
+			"description": "Discover battlefield upgrades, temporary power-ups and tactical equipment.",
 			"required": true,
 			"status": "required",
 			"order": 8
 		},
 		{
-			"slug": "frequently-asked-questions",
-			"title": "Frequently Asked Questions",
-			"description": "Answers to common questions about ZXTank development, availability and future updates.",
+			"slug": "salvage-and-repairs",
+			"title": "Salvage & Repairs",
+			"description": "Learn how battlefield salvage repairs damaged tank systems and creates new tactical opportunities.",
 			"required": true,
 			"status": "required",
 			"order": 9
 		},
 		{
+			"slug": "barkinmad-coins",
+			"title": "Wallet & Coins",
+			"description": "Learn how BarkinMad Coins are earned and used across the ZX Series.",
+			"required": true,
+			"status": "required",
+			"order": 10
+		},
+		{
+			"slug": "achievements",
+			"title": "Achievements",
+			"description": "Track your Game Center achievements and unlock new milestones.",
+			"required": true,
+			"status": "required",
+			"order": 11
+		},
+		{
+			"slug": "leaderboards",
+			"title": "Leaderboards",
+			"description": "Compete with players around the world through Game Center leaderboards.",
+			"required": true,
+			"status": "required",
+			"order": 12
+		},
+		{
+			"slug": "tips-and-strategy",
+			"title": "Tips & Strategy",
+			"description": "Improve your battlefield awareness, positioning and tactical decision-making.",
+			"required": true,
+			"status": "required",
+			"order": 13
+		},
+		{
+			"slug": "frequently-asked-questions",
+			"title": "Frequently Asked Questions",
+			"description": "Find answers to the most common questions about ZXTank.",
+			"required": true,
+			"status": "required",
+			"order": 14
+		},
+		{
 			"slug": "support",
 			"title": "Support",
-			"description": "Find ZXTank support, diagnostic-information and in-development guidance from BarkinMad Studios.",
+			"description": "Find troubleshooting information and support for ZXTank.",
 			"required": false,
 			"status": "optional",
-			"order": 10
+			"order": 15
 		},
 		{
 			"slug": "accessibility",
 			"title": "Accessibility",
-			"description": "Read the current, verification-gated accessibility information for ZXTank during development.",
+			"description": "Learn about accessibility support and verified accessibility features in ZXTank.",
 			"required": false,
 			"status": "optional",
-			"order": 11
+			"order": 16
 		},
 		{
 			"slug": "privacy",
 			"title": "Privacy Information",
-			"description": "Read ZXTank privacy information and the current limits of its in-development service configuration.",
+			"description": "Read the ZXTank privacy information and data handling details.",
 			"required": false,
 			"status": "optional",
-			"order": 12
+			"order": 17
 		}
 	],
 	"contentStatus": "needs-review"

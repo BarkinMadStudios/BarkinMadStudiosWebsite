@@ -1,0 +1,83 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Salvage & Repairs",
+	"seoTitle": "ZXTank Salvage & Repairs | Recovery Guide | BarkinMad Studios",
+	"description": "Learn how battlefield salvage works in ZXTank, repair damaged tank systems and use recovery mechanics to stay in the fight.",
+	"summary": "Every battle leaves valuable salvage behind. Recover damaged components, repair your tank and turn the battlefield into your greatest advantage.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "Illustration representing battlefield salvage and tank repairs in ZXTank",
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "The Battlefield Never Stops Working",
+			"paragraphs": [
+				"Every successful hit can knock valuable components from a damaged tank. Instead of disappearing, these parts remain on the battlefield, giving every commander an opportunity to recover and repair.",
+				"This creates a constantly changing battlefield where combat and recovery are closely connected."
+			]
+		},
+		{
+			"id": "battlefield-salvage",
+			"heading": "Recover Battlefield Salvage",
+			"paragraphs": [
+				"Damaged tanks can drop repairable components including armour plates, track parts, engine components, turret assemblies and radar equipment.",
+				"Salvage is never reserved for the player who caused the damage. Once it reaches the battlefield, every active commander can collect it."
+			]
+		},
+		{
+			"id": "first-come-first-served",
+			"heading": "First Come, First Served",
+			"paragraphs": [
+				"Every piece of salvage becomes a valuable objective. Leaving cover to recover repair parts can restore your own tank, but it also exposes you to enemy fire.",
+				"Choosing whether to continue attacking or secure nearby salvage is one of the most important tactical decisions during every battle."
+			]
+		},
+		{
+			"id": "repairing-your-tank",
+			"heading": "Repair Damaged Systems",
+			"paragraphs": [
+				"Collected salvage helps restore damaged tank systems, allowing your vehicle to recover lost performance during battle.",
+				"Repairing tracks improves handling, restoring the engine improves mobility, repairing the turret improves aiming and restoring the radar increases battlefield awareness."
+			]
+		},
+		{
+			"id": "repair-depots",
+			"heading": "Repair Depots",
+			"paragraphs": [
+				"Some battlefields include Repair Depots that allow damaged tanks to recover while remaining inside the repair zone.",
+				"Repair Depots become natural conflict points, encouraging commanders to balance the safety of repairing against the risk of enemy attack."
+			]
+		},
+		{
+			"id": "battlefield-decisions",
+			"heading": "Every Decision Matters",
+			"paragraphs": [
+				"Salvage transforms every firefight into a new objective. Destroying an enemy tank is only part of the battle—the valuable repair components left behind may become just as important.",
+				"Experienced commanders know when to press the attack, when to retreat for repairs and when to deny valuable salvage to the opposition."
+			]
+		},
+		{
+			"id": "master-the-recovery-game",
+			"heading": "Master Recovery and Survival",
+			"paragraphs": [
+				"Victory isn't always decided by who fires the first shot. Maintaining your tank, recovering damaged systems and controlling valuable battlefield resources often determines who survives the longest.",
+				"Learning when to recover salvage and when to continue fighting is one of the key skills that separates experienced commanders from new recruits."
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"salvage",
+		"tank repairs",
+		"battlefield salvage",
+		"repair depot",
+		"tank damage",
+		"retro tank game",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
+	"contentStatus": "needs-review"
+}

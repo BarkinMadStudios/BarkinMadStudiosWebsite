@@ -1,0 +1,93 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Tank Systems",
+	"seoTitle": "ZXTank Tank Systems | Damage, Repairs & Components | BarkinMad Studios",
+	"description": "Learn how every part of your tank works in ZXTank, including the hull, engine, tracks, turret and radar, and discover how damage changes the way your tank fights.",
+	"summary": "Every tank is made up of individual systems that can be damaged, repaired and used strategically throughout each battle.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "Illustration showing the major systems of a ZXTank battle tank",
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "More Than a Health Bar",
+			"paragraphs": [
+				"Unlike traditional arcade tank games, ZXTank doesn't rely on a single health bar. Every tank is made up of individual systems that influence how it moves, fights and survives.",
+				"Damage affects the part of the tank that was hit, creating battles where positioning and tactics matter just as much as accurate shooting."
+			]
+		},
+		{
+			"id": "hull",
+			"heading": "Hull",
+			"paragraphs": [
+				"The hull is the heart of your tank and determines whether it can remain in the battle. Protecting the hull is essential, as its destruction removes the tank from combat.",
+				"Strong positioning, careful use of cover and repairing damage quickly are the best ways to keep your tank operational."
+			]
+		},
+		{
+			"id": "tracks",
+			"heading": "Left & Right Tracks",
+			"paragraphs": [
+				"Each track is monitored independently. Damage to one side affects how your tank drives, making straight movement more difficult and causing the tank to pull towards the weaker track.",
+				"Managing damaged tracks becomes an important skill, especially when crossing bridges, navigating villages or escaping enemy fire."
+			]
+		},
+		{
+			"id": "engine",
+			"heading": "Engine",
+			"paragraphs": [
+				"Mounted at the rear of the tank, the engine controls acceleration and overall mobility. Rear attacks can reduce your ability to reposition quickly or escape dangerous situations.",
+				"A damaged engine makes every movement decision more important, encouraging players to seek repairs before rejoining the fight."
+			]
+		},
+		{
+			"id": "turret",
+			"heading": "Turret",
+			"paragraphs": [
+				"The turret rotates independently from the hull, allowing you to engage enemies while driving in a different direction. Damage slows turret movement and makes aiming more challenging.",
+				"Even when a turret becomes completely seized, it can still fire in its locked direction. Skilled commanders can rotate the hull itself to continue fighting until repairs are made."
+			]
+		},
+		{
+			"id": "radar",
+			"heading": "Radar",
+			"paragraphs": [
+				"Your radar provides valuable battlefield awareness by helping detect enemy activity beyond the visible screen.",
+				"As the radar becomes damaged, detection range is reduced, making ambushes more likely and increasing the importance of teamwork, observation and map awareness."
+			]
+		},
+		{
+			"id": "repairing-systems",
+			"heading": "Repairing Damage",
+			"paragraphs": [
+				"Successful attacks can knock repairable components from enemy tanks. These salvage parts remain on the battlefield for any player to collect.",
+				"Recovering salvage and making use of Repair Depots allows damaged systems to be restored, helping commanders return to full fighting strength."
+			]
+		},
+		{
+			"id": "adapt-to-damage",
+			"heading": "Every Battle Is Different",
+			"paragraphs": [
+				"Because different systems can be damaged independently, no two battles play out in exactly the same way. A tank with damaged tracks behaves very differently from one with a damaged engine or a seized turret.",
+				"Learning how to adapt to battlefield damage—and how to exploit damage on enemy tanks—is one of the key skills that separates experienced commanders from beginners."
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 5,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"tank systems",
+		"tank damage",
+		"tank repairs",
+		"engine damage",
+		"track damage",
+		"turret damage",
+		"radar",
+		"retro tank game",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
+	"contentStatus": "needs-review"
+}

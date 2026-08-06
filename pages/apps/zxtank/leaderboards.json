@@ -1,24 +1,49 @@
 {
 	"documentationSchemaVersion": "1.2.0",
 	"title": "ZXTank Leaderboards",
-	"seoTitle": "ZXTank Leaderboards | BarkinMad Studios",
-	"description": "ZXTank leaderboard information will be published after any release leaderboard configuration is verified.",
-	"summary": "No release leaderboard information is available yet.",
+	"seoTitle": "ZXTank Leaderboards | Game Center Rankings | BarkinMad Studios",
+	"description": "Compete on the ZXTank Game Center leaderboards and compare your battlefield performance with players around the world.",
+	"summary": "Battle for the top of the leaderboards by improving your skills, winning matches and mastering tactical tank combat.",
 	"heroImage": "images/shared/placeholder.png",
-	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank leaderboard information is prepared",
+	"heroImageAlt": "Illustration representing ZXTank Game Center leaderboards",
 	"sections": [
 		{
-			"id": "leaderboards-status",
-			"heading": "Leaderboards to Be Confirmed",
+			"id": "leaderboard-overview",
+			"heading": "Compete Worldwide",
 			"paragraphs": [
-				"Leaderboard information will be published after the release configuration has been verified.",
-				"No final leaderboard names, scoring rules or availability are claimed while ZXTank remains in development."
+				"ZXTank is designed to support Game Center leaderboards, allowing you to compare your performance with players around the world.",
+				"Whether you're chasing the highest score, the most victories or simply trying to improve your personal best, every battle is another opportunity to climb the rankings."
+			]
+		},
+		{
+			"id": "planned-leaderboards",
+			"heading": "Leaderboard Categories",
+			"paragraphs": [
+				"The final leaderboard selection will be confirmed closer to release. Planned categories include battle performance, victories and other gameplay milestones that reward both skill and long-term progression.",
+				"As new features are introduced to ZXTank, additional leaderboards may be added through future updates."
+			]
+		},
+		{
+			"id": "fair-play",
+			"heading": "Fair Competition",
+			"paragraphs": [
+				"Leaderboards are intended to reward genuine gameplay and encourage friendly competition. Scores are submitted through Apple's Game Center services.",
+				"Gameplay balancing and leaderboard categories may continue to evolve as ZXTank grows with future updates."
 			]
 		}
 	],
-	"estimatedReadTimeMinutes": 1,
-	"lastUpdated": "2026-08-05",
-	"lastVerified": "2026-08-05",
-	"keywords": ["ZXTank", "leaderboards", "ZX Series"],
+	"estimatedReadTimeMinutes": 2,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"Game Center",
+		"leaderboards",
+		"ZX Tank leaderboard",
+		"retro tank game",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
 	"contentStatus": "needs-review"
 }

@@ -1,38 +1,62 @@
 {
 	"documentationSchemaVersion": "1.2.0",
 	"title": "ZXTank",
-	"seoTitle": "ZXTank – Upcoming ZX Series Arcade Game | BarkinMad Studios",
-	"description": "ZXTank is an upcoming arcade game from BarkinMad Studios and part of the ZX Series. Follow its development and future App Store availability.",
-	"summary": "ZXTank is currently in development. Features, presentation and availability may change before release.",
+	"seoTitle": "ZXTank | Retro Tank Battles for iPhone | BarkinMad Studios",
+	"description": "ZXTank is an upcoming retro-inspired top-down tank battle game from BarkinMad Studios. Fight across procedurally generated battlefields, repair damaged systems and master tactical arcade combat.",
+	"summary": "Battle across procedurally generated battlefields where every hit matters. Command your tank, repair damaged systems and outsmart your opponents in fast-paced retro arcade combat.",
 	"heroImage": "images/shared/placeholder.png",
-	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank artwork is in development",
+	"heroImageAlt": "Artwork representing ZXTank, a retro-inspired top-down tank battle game",
 	"pageHeader": {
 		"title": "ZXTank",
-		"subtitle": "An upcoming ZX Series arcade game from BarkinMad Studios."
+		"subtitle": "Classic arcade tank combat, reimagined for the ZX Series."
 	},
 	"sections": [
 		{
-			"id": "development-status",
-			"heading": "In Development",
+			"id": "overview",
+			"heading": "Classic Tank Battles. Modern Tactical Gameplay.",
 			"paragraphs": [
-				"ZXTank is an upcoming arcade game from BarkinMad Studios and part of the [ZX Series](/zx-series).",
-				"Further gameplay details, screenshots and availability information will be published as development progresses."
+				"ZXTank is an upcoming retro-inspired arcade game from BarkinMad Studios and part of the ZX Series. Command your own battle tank across procedurally generated battlefields where positioning, strategy and quick decisions are just as important as accurate shooting.",
+				"Every battle offers a new challenge, combining fast-paced action with tactical gameplay, battlefield objectives and a unique vehicle damage system."
 			]
 		},
 		{
-			"id": "what-to-expect",
-			"heading": "What to Expect",
+			"id": "gameplay",
+			"heading": "Every Battle Tells a Different Story",
 			"paragraphs": [
-				"The game is still being developed, so features, presentation and availability may change before release.",
-				"Verified game information, support guidance and approved artwork will be added here when they are ready to publish."
+				"No two battlefields are exactly alike. Procedurally generated maps feature a mixture of forests, open fields, villages, ruins, roads, rivers and bridges, creating fresh tactical opportunities every time you play.",
+				"Control important locations, collect valuable battlefield upgrades, recover salvage from destroyed enemies and adapt to changing situations as the battle unfolds."
 			]
 		},
 		{
-			"id": "updates-and-help",
-			"heading": "Updates and Help",
+			"id": "your-tank",
+			"heading": "Command Your Tank",
 			"paragraphs": [
-				"Relevant ZXTank updates will appear in [News](/news) when approved for publication.",
-				"Read [Support](/apps/zxtank/support), [Accessibility Information](/apps/zxtank/accessibility) and [Privacy Information](/apps/zxtank/privacy) for the current development-stage guidance."
+				"Unlike traditional arcade tank games, every major part of your vehicle matters. Damage to the engine, tracks, turret or radar directly affects how your tank performs, forcing you to adapt your tactics throughout each battle.",
+				"Recover repair salvage, capture strategic locations and use the terrain to outmanoeuvre your opponents before delivering the final shot."
+			]
+		},
+		{
+			"id": "game-modes",
+			"heading": "Multiple Ways to Play",
+			"paragraphs": [
+				"Battle alone against intelligent AI opponents in Solo mode, compete against other commanders in DeathMatch or work together in Team Battle. Every mode takes advantage of the same evolving battlefields and tactical gameplay systems.",
+				"Whether you prefer careful planning or all-out action, every match rewards skill, awareness and smart decision-making."
+			]
+		},
+		{
+			"id": "development",
+			"heading": "Currently in Development",
+			"paragraphs": [
+				"ZXTank is actively being developed for iPhone. Additional gameplay features, screenshots and release information will be published as development progresses.",
+				"Visit this page regularly for the latest news, feature updates and development progress."
+			]
+		},
+		{
+			"id": "support",
+			"heading": "Learn More",
+			"paragraphs": [
+				"Explore the growing ZXTank documentation for gameplay guides, controls, frequently asked questions, accessibility information and support resources.",
+				"As new features are introduced, this page and the rest of the documentation will continue to expand with verified information."
 			]
 		}
 	],
@@ -40,15 +64,34 @@
 		{
 			"label": "Explore the ZX Series",
 			"href": "/zx-series"
+		},
+		{
+			"label": "How to Play ZXTank",
+			"href": "/apps/zxtank/how-to-play"
+		},
+		{
+			"label": "ZXTank Game Modes",
+			"href": "/apps/zxtank/game-modes"
+		},
+		{
+			"label": "ZXTank Frequently Asked Questions",
+			"href": "/apps/zxtank/frequently-asked-questions"
 		}
 	],
-	"estimatedReadTimeMinutes": 2,
-	"lastUpdated": "2026-08-05",
-	"lastVerified": "2026-08-05",
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
 	"keywords": [
 		"ZXTank",
+		"ZX Tank",
+		"retro tank game",
+		"top-down tank game",
+		"tank battle game",
+		"procedurally generated battlefields",
+		"arcade tank game",
+		"Game Center",
+		"iPhone tank game",
 		"ZX Series",
-		"upcoming arcade game",
 		"BarkinMad Studios"
 	],
 	"contentStatus": "needs-review"

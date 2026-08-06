@@ -1,24 +1,67 @@
 {
 	"documentationSchemaVersion": "1.2.0",
 	"title": "ZXTank Game Modes",
-	"seoTitle": "ZXTank Game Modes | BarkinMad Studios",
-	"description": "ZXTank game-mode information will be published when the release scope and supported modes have been confirmed.",
-	"summary": "Final game-mode information is not yet available.",
+	"seoTitle": "ZXTank Game Modes | Solo, DeathMatch & Team Battle | BarkinMad Studios",
+	"description": "Explore the game modes available in ZXTank, including Solo, DeathMatch and Team Battle across procedurally generated battlefields.",
+	"summary": "Choose how you want to fight, whether you're taking on AI opponents alone or battling other commanders in multiplayer.",
 	"heroImage": "images/shared/placeholder.png",
-	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank game modes are confirmed",
+	"heroImageAlt": "Illustration representing the different game modes available in ZXTank",
 	"sections": [
 		{
-			"id": "modes-status",
-			"heading": "Game Modes in Development",
+			"id": "overview",
+			"heading": "Battle Your Way",
 			"paragraphs": [
-				"ZXTank is in development and its final game-mode scope has not been published.",
-				"Confirmed mode information will be added here after it has been approved and verified."
+				"ZXTank offers multiple ways to play, from challenging AI battles to competitive multiplayer matches. Every battle takes place on a procedurally generated battlefield, ensuring no two matches feel exactly the same.",
+				"Master your tank, manage battlefield damage, recover valuable salvage and use the terrain to outmanoeuvre your opponents."
+			]
+		},
+		{
+			"id": "solo",
+			"heading": "Solo",
+			"paragraphs": [
+				"Fight against three AI-controlled tanks in a tactical battle where positioning, repairs and battlefield awareness are just as important as accurate shooting.",
+				"AI commanders make use of the battlefield, collect salvage, compete for upgrades and take advantage of terrain to keep every battle unpredictable."
+			]
+		},
+		{
+			"id": "deathmatch",
+			"heading": "DeathMatch",
+			"paragraphs": [
+				"Every tank fights for itself in a classic free-for-all battle. Depending on the number of players, AI tanks can fill supported empty positions to keep matches competitive.",
+				"Control key areas, collect upgrades, repair damaged systems and be the last commander standing."
+			]
+		},
+		{
+			"id": "team-battle",
+			"heading": "Team Battle",
+			"paragraphs": [
+				"Work together in teams of two to outplay the opposition. Coordinate attacks, support damaged teammates and compete for strategic locations across the battlefield.",
+				"Sharing information, controlling objectives and protecting your team's resources can make the difference between victory and defeat."
+			]
+		},
+		{
+			"id": "battlefields",
+			"heading": "Every Battle Is Different",
+			"paragraphs": [
+				"Battlefields are procedurally generated using carefully balanced layouts that combine open fields, woodland, villages, ruins, roads, rivers and bridges.",
+				"Strategic locations such as Repair Depots, Radar Stations and Supply Depots encourage players to fight over valuable areas while adapting to changing terrain and opportunities."
 			]
 		}
 	],
-	"estimatedReadTimeMinutes": 1,
-	"lastUpdated": "2026-08-05",
-	"lastVerified": "2026-08-05",
-	"keywords": ["ZXTank", "game modes", "ZX Series"],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"ZX Tank game modes",
+		"Solo",
+		"DeathMatch",
+		"Team Battle",
+		"multiplayer tank game",
+		"procedural battlefields",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
 	"contentStatus": "needs-review"
 }

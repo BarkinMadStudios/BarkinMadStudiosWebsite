@@ -2,23 +2,38 @@
 	"documentationSchemaVersion": "1.2.0",
 	"title": "ZXTank Achievements",
 	"seoTitle": "ZXTank Achievements | BarkinMad Studios",
-	"description": "ZXTank achievement information will be published after the release achievement set has been verified.",
-	"summary": "No release achievement information is available yet.",
+	"description": "Discover the achievements available in ZXTank and track your progress as you master tactical tank combat, battlefield objectives and component-based damage.",
+	"summary": "Battle your way through a growing collection of achievements by mastering combat, strategy and battlefield objectives in ZXTank.",
 	"heroImage": "images/shared/placeholder.png",
-	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank achievement information is prepared",
+	"heroImageAlt": "Placeholder artwork representing ZXTank achievements",
 	"sections": [
 		{
-			"id": "achievements-status",
-			"heading": "Achievements to Be Confirmed",
+			"id": "achievement-overview",
+			"heading": "Earn Achievements",
 			"paragraphs": [
-				"Achievement information will be published after the release configuration and player-facing achievement set have been verified.",
-				"No final achievement names, requirements or availability are claimed while ZXTank remains in development."
+				"ZXTank features Game Center achievements that reward both skill and battlefield experience.",
+				"Achievements are earned by winning battles, improving your tactical play, mastering vehicle systems and completing gameplay milestones across Solo, DeathMatch and Team Battle."
+			]
+		},
+		{
+			"id": "achievement-types",
+			"heading": "How Achievements Are Earned",
+			"paragraphs": [
+				"Some achievements reward long-term progress, while others recognise memorable moments such as recovering from heavy damage, making smart tactical decisions or mastering different battlefield systems.",
+				"Additional achievements may be introduced as new gameplay features and modes are added to ZXTank."
 			]
 		}
 	],
-	"estimatedReadTimeMinutes": 1,
-	"lastUpdated": "2026-08-05",
-	"lastVerified": "2026-08-05",
-	"keywords": ["ZXTank", "achievements", "ZX Series"],
+	"estimatedReadTimeMinutes": 2,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"Game Center",
+		"achievements",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
 	"contentStatus": "needs-review"
 }

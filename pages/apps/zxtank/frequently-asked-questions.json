@@ -1,42 +1,84 @@
 {
 	"documentationSchemaVersion": "1.2.0",
 	"title": "ZXTank Frequently Asked Questions",
-	"seoTitle": "ZXTank FAQ | BarkinMad Studios",
-	"description": "Answers to common questions about ZXTank development, availability, support and future updates from BarkinMad Studios.",
-	"summary": "Quick answers about ZXTank while it remains in development.",
+	"seoTitle": "ZXTank FAQ | Frequently Asked Questions | BarkinMad Studios",
+	"description": "Find answers to common questions about ZXTank, including gameplay, multiplayer, game modes, offline play, updates and availability.",
+	"summary": "Everything you need to know about ZXTank, from game modes and multiplayer to updates and future releases.",
 	"heroImage": "images/shared/placeholder.png",
-	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank information is prepared",
+	"heroImageAlt": "Illustration representing frequently asked questions about ZXTank",
 	"sections": [
 		{
-			"id": "faq-status",
-			"heading": "ZXTank Questions",
+			"id": "faq-overview",
+			"heading": "Frequently Asked Questions",
 			"paragraphs": [
-				"This page will be updated as verified ZXTank information becomes available.",
-				"For support or privacy questions, use [ZXTank Support](/apps/zxtank/support) or [ZXTank Privacy Information](/apps/zxtank/privacy)."
+				"Here you'll find answers to the questions we're most often asked about ZXTank.",
+				"As development continues, this page will be updated with verified gameplay information, supported features and release details."
 			]
 		}
 	],
 	"faq": [
 		{
 			"question": "Is ZXTank available on the App Store?",
-			"answer": "No. ZXTank is currently in development. Its App Store listing and availability information will be published when available."
+			"answer": "Not yet. ZXTank is currently in active development. App Store availability will be announced once the game is ready for release."
 		},
 		{
 			"question": "When will ZXTank be released?",
-			"answer": "A release date has not been announced. Features, presentation and availability may change during development."
+			"answer": "A release date has not been announced. Development is continuing and more information will be shared as release plans are confirmed."
 		},
 		{
-			"question": "Where can I find gameplay details?",
-			"answer": "Verified gameplay details and approved screenshots will be added to the [ZXTank pages](/apps/zxtank) as development progresses."
+			"question": "What type of game is ZXTank?",
+			"answer": "ZXTank is a retro-inspired top-down tank combat game that combines fast arcade action with tactical gameplay, component-based vehicle damage and procedurally generated battlefields."
+		},
+		{
+			"question": "What game modes are planned?",
+			"answer": "The current design includes Solo, DeathMatch and Team Battle. Solo pits one player against AI opponents, while multiplayer supports up to four human players depending on the selected mode."
+		},
+		{
+			"question": "Does every battle use the same map?",
+			"answer": "No. Battlefields are procedurally generated, creating different layouts featuring terrain such as forests, open fields, villages, ruins, roads, rivers and bridges."
+		},
+		{
+			"question": "How does tank damage work?",
+			"answer": "Instead of using a single health bar, tanks are made up of multiple systems including the hull, engine, tracks, turret and radar. Damage affects how each system performs during battle."
+		},
+		{
+			"question": "Can I repair my tank?",
+			"answer": "Yes. Successful hits can eject salvage that any player can collect. Matching parts help repair damaged tank systems, while repair depots may also provide battlefield support."
+		},
+		{
+			"question": "Does ZXTank support multiplayer?",
+			"answer": "Yes. The current design supports multiplayer matches with up to four human players, depending on the selected game mode."
+		},
+		{
+			"question": "Can I play offline?",
+			"answer": "Solo battles against AI opponents are designed to be playable without requiring online multiplayer."
+		},
+		{
+			"question": "Will new content be added after release?",
+			"answer": "Yes. BarkinMad Studios plans to continue supporting ZXTank with gameplay improvements, additional features and new content as development continues."
+		},
+		{
+			"question": "Where can I find gameplay guides?",
+			"answer": "Detailed guides covering controls, game modes, achievements and gameplay tips will be available throughout the ZXTank documentation section."
 		},
 		{
 			"question": "Where can I get help with ZXTank?",
-			"answer": "Read [ZXTank Support](/apps/zxtank/support) for the current development-stage guidance and the information to include when contacting BarkinMad Studios."
+			"answer": "Visit the ZXTank Support page for troubleshooting, support information and details about contacting BarkinMad Studios."
 		}
 	],
-	"estimatedReadTimeMinutes": 2,
-	"lastUpdated": "2026-08-05",
-	"lastVerified": "2026-08-05",
-	"keywords": ["ZXTank", "FAQ", "ZX Series", "BarkinMad Studios"],
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"ZXTank FAQ",
+		"tank game",
+		"retro tank game",
+		"multiplayer tank game",
+		"iPhone tank game",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
 	"contentStatus": "needs-review"
 }

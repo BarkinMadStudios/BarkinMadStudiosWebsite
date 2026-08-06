@@ -1,24 +1,99 @@
 {
 	"documentationSchemaVersion": "1.2.0",
 	"title": "ZXTank Tips & Strategy",
-	"seoTitle": "ZXTank Tips & Strategy | BarkinMad Studios",
-	"description": "ZXTank strategy guidance will be published after gameplay has been verified in the release build.",
-	"summary": "Strategy guidance will follow release gameplay verification.",
+	"seoTitle": "ZXTank Tips & Strategy Guide | BarkinMad Studios",
+	"description": "Improve your ZXTank skills with tactical advice covering movement, combat, battlefield awareness, salvage, repairs and strategic objectives.",
+	"summary": "Master the battlefield with practical tips that help you survive longer, fight smarter and make the most of every battle.",
 	"heroImage": "images/shared/placeholder.png",
-	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank strategy guidance is prepared",
+	"heroImageAlt": "Illustration representing tactical gameplay in ZXTank",
 	"sections": [
 		{
-			"id": "strategy-status",
-			"heading": "Strategy Guidance in Development",
+			"id": "movement",
+			"heading": "Keep Moving",
 			"paragraphs": [
-				"ZXTank gameplay is still in development, so strategy advice would be premature.",
-				"Verified guidance will be added after the release build and its player-facing systems have been tested."
+				"A stationary tank is an easy target. Keep moving whenever possible and avoid approaching enemies in a straight line.",
+				"Changing speed and direction regularly makes it more difficult for opponents to predict your next move."
+			]
+		},
+		{
+			"id": "protect-your-hull",
+			"heading": "Protect Your Hull",
+			"paragraphs": [
+				"The hull is your tank's most important system. Losing mobility or radar makes combat harder, but losing the hull removes your tank from the battle.",
+				"Use terrain, cover and careful positioning to reduce the number of direct hits your hull receives."
+			]
+		},
+		{
+			"id": "attack-weak-points",
+			"heading": "Target Weak Points",
+			"paragraphs": [
+				"Every part of an enemy tank serves a purpose. Damaging the engine slows movement, damaging tracks affects steering, turret damage reduces aiming performance and radar damage limits battlefield awareness.",
+				"Choosing the right target can be more effective than simply firing at the nearest enemy."
+			]
+		},
+		{
+			"id": "recover-salvage",
+			"heading": "Don't Ignore Salvage",
+			"paragraphs": [
+				"Every successful attack may create valuable salvage. Recovering repair components keeps your own tank fighting longer while denying repairs to your opponents.",
+				"Sometimes securing salvage is more valuable than chasing a retreating enemy."
+			]
+		},
+		{
+			"id": "control-the-map",
+			"heading": "Fight for Strategic Locations",
+			"paragraphs": [
+				"Repair Depots, Radar Stations and Supply Depots can quickly become the most valuable locations on the battlefield.",
+				"Controlling these areas provides important tactical advantages, but they are also likely to attract enemy tanks."
+			]
+		},
+		{
+			"id": "use-the-terrain",
+			"heading": "Use the Terrain",
+			"paragraphs": [
+				"Roads help you reposition quickly, forests can provide concealment, villages offer cover and bridges naturally become important crossing points.",
+				"Understanding the battlefield is just as important as understanding your tank."
+			]
+		},
+		{
+			"id": "watch-your-radar",
+			"heading": "Maintain Battlefield Awareness",
+			"paragraphs": [
+				"Keep an eye on radar contacts and edge indicators to understand where enemies are moving, even when they are outside the visible screen.",
+				"A damaged radar reduces your awareness, making careful positioning even more important."
+			]
+		},
+		{
+			"id": "choose-your-battles",
+			"heading": "Know When to Retreat",
+			"paragraphs": [
+				"Every fight doesn't have to be won immediately. If your tank has suffered heavy damage, falling back to recover salvage or reach a Repair Depot may be the better decision.",
+				"Surviving to fight another engagement is often more valuable than risking everything in a single battle."
+			]
+		},
+		{
+			"id": "adapt",
+			"heading": "Adapt to Every Battle",
+			"paragraphs": [
+				"No two battlefields are exactly alike. Procedurally generated maps reward players who can quickly recognise opportunities, exploit terrain and adjust their tactics as the battle develops.",
+				"The best commanders don't rely on memorising maps—they learn to read every battlefield as it unfolds."
 			]
 		}
 	],
-	"estimatedReadTimeMinutes": 1,
-	"lastUpdated": "2026-08-05",
-	"lastVerified": "2026-08-05",
-	"keywords": ["ZXTank", "strategy", "ZX Series"],
+	"estimatedReadTimeMinutes": 5,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"tips",
+		"strategy",
+		"tank tactics",
+		"battlefield guide",
+		"retro tank game",
+		"procedural battlefields",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
 	"contentStatus": "needs-review"
 }

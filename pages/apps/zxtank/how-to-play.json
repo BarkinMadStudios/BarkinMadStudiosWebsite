@@ -1,24 +1,83 @@
 {
 	"documentationSchemaVersion": "1.2.0",
 	"title": "How to Play ZXTank",
-	"seoTitle": "How to Play ZXTank | BarkinMad Studios",
-	"description": "ZXTank gameplay instructions will be published after the in-development experience has been verified for release.",
-	"summary": "Gameplay guidance is being prepared alongside ZXTank development.",
+	"seoTitle": "How to Play ZXTank | Beginner's Guide | BarkinMad Studios",
+	"description": "Learn how to play ZXTank, master your tank, repair damaged systems, collect salvage and control the battlefield.",
+	"summary": "Everything you need to know to survive your first battles in ZXTank.",
 	"heroImage": "images/shared/placeholder.png",
-	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank gameplay information is prepared",
+	"heroImageAlt": "Illustration showing a ZXTank battle in progress",
 	"sections": [
 		{
-			"id": "gameplay-status",
-			"heading": "Gameplay Information in Development",
+			"id": "getting-started",
+			"heading": "Getting Started",
 			"paragraphs": [
-				"Detailed instructions will be published after the release gameplay has been verified.",
-				"Until then, this page does not make claims about final objectives, modes, scoring or player counts."
+				"Every battle begins with a fully operational tank deployed onto a procedurally generated battlefield. Your objective is simple: survive, destroy enemy tanks and use the battlefield to your advantage.",
+				"Each match features a unique layout, encouraging different tactics and routes every time you play."
+			]
+		},
+		{
+			"id": "learn-your-tank",
+			"heading": "Know Your Tank",
+			"paragraphs": [
+				"Unlike many arcade shooters, your tank is made up of multiple systems. The hull, engine, tracks, turret and radar can all be damaged independently, affecting how your tank performs during battle.",
+				"Protecting your tank is just as important as attacking your opponents."
+			]
+		},
+		{
+			"id": "move-and-fight",
+			"heading": "Move, Aim and Fire",
+			"paragraphs": [
+				"Drive your tank using the on-screen directional controls while aiming the turret independently. Good positioning allows you to attack vulnerable areas of enemy tanks while protecting your own.",
+				"Adjust your driving speed to suit the situation. Slow movement provides greater precision, while higher speeds help you reposition quickly across the battlefield."
+			]
+		},
+		{
+			"id": "repair-and-recover",
+			"heading": "Repair Your Tank",
+			"paragraphs": [
+				"Successful hits can eject salvage from damaged enemy tanks. Any player can collect these parts, making every battle a race to recover valuable repair materials.",
+				"Repairing damaged systems restores your tank's effectiveness and can turn the tide of battle."
+			]
+		},
+		{
+			"id": "control-the-battlefield",
+			"heading": "Use the Battlefield",
+			"paragraphs": [
+				"Open fields, forests, villages, ruins, rivers and bridges all influence how battles unfold. Use cover wisely, avoid predictable routes and watch for enemy ambushes.",
+				"Strategic locations such as Repair Depots, Radar Stations and Supply Depots provide valuable advantages, making them natural hotspots during every match."
+			]
+		},
+		{
+			"id": "collect-upgrades",
+			"heading": "Collect Battlefield Upgrades",
+			"paragraphs": [
+				"Temporary collectables can improve your tank with enhanced weapons, increased mobility, stronger defences and tactical support abilities.",
+				"Choosing the right moment to leave cover and collect an upgrade can often decide the outcome of a battle."
+			]
+		},
+		{
+			"id": "master-the-battlefield",
+			"heading": "Become a Better Commander",
+			"paragraphs": [
+				"Success in ZXTank comes from more than accurate shooting. Learn the battlefield, protect your damaged systems, recover salvage quickly and use the terrain to outmanoeuvre your opponents.",
+				"Every battle presents new challenges, rewarding players who can adapt their tactics and make the most of every opportunity."
 			]
 		}
 	],
-	"estimatedReadTimeMinutes": 1,
-	"lastUpdated": "2026-08-05",
-	"lastVerified": "2026-08-05",
-	"keywords": ["ZXTank", "how to play", "ZX Series"],
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"how to play ZXTank",
+		"ZX Tank guide",
+		"ZX Tank tutorial",
+		"tank game guide",
+		"procedural battlefield",
+		"retro tank game",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
 	"contentStatus": "needs-review"
 }

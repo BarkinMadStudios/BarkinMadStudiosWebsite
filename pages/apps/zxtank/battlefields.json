@@ -1,0 +1,70 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Battlefields",
+	"seoTitle": "ZXTank Battlefields | Procedurally Generated Maps | BarkinMad Studios",
+	"description": "Discover how ZXTank creates unique battlefields featuring forests, villages, rivers, bridges and tactical objectives for every battle.",
+	"summary": "Every battle in ZXTank takes place on a procedurally generated battlefield, creating fresh tactical challenges every time you play.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "Illustration representing a procedurally generated battlefield in ZXTank",
+	"sections": [
+		{
+			"id": "every-battle-is-different",
+			"heading": "No Two Battlefields Are Exactly Alike",
+			"paragraphs": [
+				"Every match takes place on a procedurally generated battlefield, giving each battle its own layout, routes and tactical opportunities.",
+				"Rather than memorising fixed maps, commanders must learn to adapt, explore and make the most of the terrain around them."
+			]
+		},
+		{
+			"id": "terrain",
+			"heading": "Terrain That Shapes the Battle",
+			"paragraphs": [
+				"Battlefields are created from a variety of terrain types including open fields, woodland, villages, ruins, roads, rivers and bridges.",
+				"Each environment offers different advantages and encourages players to think carefully about movement, positioning and line of attack."
+			]
+		},
+		{
+			"id": "strategic-locations",
+			"heading": "Strategic Locations",
+			"paragraphs": [
+				"Important locations can appear throughout the battlefield, rewarding players who are prepared to take calculated risks.",
+				"Repair Depots help restore damaged tanks, Radar Stations improve battlefield awareness and Supply Depots provide valuable temporary upgrades."
+			]
+		},
+		{
+			"id": "movement-and-routes",
+			"heading": "Choose Your Route",
+			"paragraphs": [
+				"Roads allow rapid movement across the battlefield, while forests, villages and ruins provide opportunities to break line of sight and launch surprise attacks.",
+				"Rivers and bridges naturally create strategic crossing points, making every decision about when and where to attack an important part of the battle."
+			]
+		},
+		{
+			"id": "procedural-generation",
+			"heading": "Built for Replayability",
+			"paragraphs": [
+				"Every battlefield is generated using carefully balanced rules to create fair and enjoyable matches while keeping each game feeling fresh.",
+				"The result is a battlefield that rewards exploration, tactical thinking and the ability to adapt rather than relying on memorising fixed layouts."
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 3,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"battlefields",
+		"procedural generation",
+		"procedural maps",
+		"retro tank game",
+		"tank battle maps",
+		"rivers",
+		"bridges",
+		"villages",
+		"woodland",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
+	"contentStatus": "needs-review"
+}

@@ -1,0 +1,91 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Collectables",
+	"seoTitle": "ZXTank Collectables | Battlefield Power-Ups | BarkinMad Studios",
+	"description": "Discover the temporary collectables available in ZXTank, including weapon upgrades, mobility boosts, defensive equipment and tactical battlefield support.",
+	"summary": "Battlefield collectables provide temporary advantages that can completely change the outcome of a battle.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "Illustration representing battlefield collectables in ZXTank",
+	"sections": [
+		{
+			"id": "overview",
+			"heading": "Battlefield Collectables",
+			"paragraphs": [
+				"Collectables appear throughout the battlefield and reward players who are prepared to take calculated risks. Unlike repair salvage, collectables provide temporary upgrades that enhance your tank's performance during battle.",
+				"Knowing when to leave cover to collect an upgrade can often be the difference between victory and defeat."
+			]
+		},
+		{
+			"id": "weapon-upgrades",
+			"heading": "Weapon Upgrades",
+			"paragraphs": [
+				"Weapon collectables temporarily improve your firepower, allowing you to deal greater damage or gain new offensive abilities.",
+				"Examples include High-Power Shells, Rapid Loader and other specialist ammunition designed to give you an advantage during intense firefights."
+			]
+		},
+		{
+			"id": "mobility-upgrades",
+			"heading": "Mobility Upgrades",
+			"paragraphs": [
+				"Mobility upgrades improve your ability to move around the battlefield, helping you reach strategic locations, escape danger or reposition more quickly.",
+				"These upgrades enhance movement while still respecting the condition of your tank's engine and tracks."
+			]
+		},
+		{
+			"id": "defensive-upgrades",
+			"heading": "Defensive Upgrades",
+			"paragraphs": [
+				"Defensive collectables help your tank survive longer by reducing incoming damage or providing temporary protection during combat.",
+				"Using defensive upgrades at the right moment can keep your tank operational long enough to recover, repair or complete an objective."
+			]
+		},
+		{
+			"id": "intelligence-upgrades",
+			"heading": "Intelligence Upgrades",
+			"paragraphs": [
+				"Battlefield awareness is just as important as firepower. Intelligence collectables improve your ability to locate enemies and react to changing situations.",
+				"Enhanced radar information can reveal opportunities to ambush opponents, avoid danger or secure important objectives."
+			]
+		},
+		{
+			"id": "utility-upgrades",
+			"heading": "Utility Upgrades",
+			"paragraphs": [
+				"Utility collectables provide unique tactical advantages that do not fit into the traditional weapon or defence categories.",
+				"These upgrades can improve battlefield recovery, increase salvage collection efficiency or provide other strategic benefits."
+			]
+		},
+		{
+			"id": "fight-for-control",
+			"heading": "Worth Fighting For",
+			"paragraphs": [
+				"Collectables are available to every commander. Once they appear, they become valuable objectives that often draw multiple tanks into the same area.",
+				"Choosing the right moment to collect an upgrade is just as important as deciding which upgrade to pursue."
+			]
+		},
+		{
+			"id": "future-content",
+			"heading": "Growing Arsenal",
+			"paragraphs": [
+				"The range of available collectables is expected to grow as ZXTank evolves, introducing new tactical possibilities while keeping every battle fresh and unpredictable.",
+				"Future updates may introduce additional weapon systems, defensive equipment and battlefield support abilities."
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"collectables",
+		"power-ups",
+		"battlefield upgrades",
+		"weapon upgrades",
+		"retro tank game",
+		"temporary upgrades",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
+	"contentStatus": "needs-review"
+}

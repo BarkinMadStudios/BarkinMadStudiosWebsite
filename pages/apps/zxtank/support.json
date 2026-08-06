@@ -1,48 +1,74 @@
 {
 	"documentationSchemaVersion": "1.2.0",
 	"title": "ZXTank Support",
-	"seoTitle": "ZXTank Support | BarkinMad Studios",
-	"description": "Find ZXTank support, diagnostic-information and in-development guidance from BarkinMad Studios.",
-	"summary": "ZXTank is still in development, so support information will grow alongside the release build.",
+	"seoTitle": "ZXTank Support | Help & Troubleshooting | BarkinMad Studios",
+	"description": "Get help with ZXTank, including troubleshooting, Game Center guidance, reporting issues and contacting BarkinMad Studios.",
+	"summary": "Find troubleshooting advice, frequently requested support information and ways to contact BarkinMad Studios if you need further assistance.",
 	"heroImage": "images/shared/placeholder.png",
-	"heroImageAlt": "BarkinMad Studios placeholder artwork while ZXTank support information is prepared",
+	"heroImageAlt": "Illustration representing ZXTank support and troubleshooting",
 	"sections": [
 		{
-			"id": "development-support",
-			"heading": "Support During Development",
+			"id": "getting-help",
+			"heading": "Getting Help",
 			"paragraphs": [
-				"ZXTank is currently in development. Features, presentation and availability may change before release.",
-				"Release troubleshooting, audio and control guidance will be published only after the relevant features have been verified."
+				"Whether you're learning the controls, troubleshooting a problem or reporting an issue, we're here to help you get the most from ZXTank.",
+				"As the game continues to evolve, this support page will be updated with verified guidance, known issues and frequently requested information."
 			]
 		},
 		{
-			"id": "basic-troubleshooting",
-			"heading": "Basic Troubleshooting",
+			"id": "troubleshooting",
+			"heading": "Troubleshooting",
 			"paragraphs": [
-				"When a release build is available, first check that you are using the latest version, restart the app and restart your device before reporting a problem.",
-				"If an Apple Game Center feature is included in the release, confirm that you are signed in to Game Center and try again after checking your connection."
+				"If you experience an unexpected problem, make sure you're using the latest version of ZXTank, then restart the game and your device before trying again.",
+				"Many temporary issues can be resolved by updating the app, restarting your device or checking that your internet connection is stable when using online features."
+			]
+		},
+		{
+			"id": "game-center",
+			"heading": "Game Center",
+			"paragraphs": [
+				"If achievements or leaderboards are not updating correctly, confirm that you are signed in to Apple Game Center and that your device has an active internet connection.",
+				"Some Game Center features may not update immediately if your device is temporarily offline."
+			]
+		},
+		{
+			"id": "report-a-problem",
+			"heading": "Reporting a Problem",
+			"paragraphs": [
+				"If you need to contact BarkinMad Studios, please include as much information as possible to help us investigate the issue quickly.",
+				"Useful information includes your ZXTank version, device model, iOS version, the game mode you were playing, what happened, whether the issue can be repeated and any relevant screenshots."
 			]
 		},
 		{
 			"id": "contact-support",
-			"heading": "Contact Support",
+			"heading": "Contact BarkinMad Studios",
 			"paragraphs": [
-				"Use the [BarkinMad Studios contact page](/contact) to report a problem or ask a question.",
-				"Please include the ZXTank version, device model, iOS version, what happened, when it happened and any relevant screenshots. Do not include passwords, account credentials or other sensitive information."
+				"Visit the [BarkinMad Studios Contact Page](/contact) to report bugs, request support or provide feedback about ZXTank.",
+				"Never include passwords, Apple account credentials or other sensitive personal information when contacting support."
 			]
 		},
 		{
-			"id": "privacy-and-consent",
-			"heading": "Privacy and Consent",
+			"id": "privacy",
+			"heading": "Privacy & Related Information",
 			"paragraphs": [
-				"Privacy and consent-reset instructions will be published after the release advertising and consent configuration has been verified.",
-				"Read the current [ZXTank Privacy Information](/apps/zxtank/privacy) for development-stage service information."
+				"For information about data handling, advertising or privacy, please read the [ZXTank Privacy Information](/apps/zxtank/privacy).",
+				"You can also find additional gameplay information in the How to Play, Controls, Complete Guide and Frequently Asked Questions sections of the ZXTank documentation."
 			]
 		}
 	],
 	"estimatedReadTimeMinutes": 3,
-	"lastUpdated": "2026-08-05",
-	"lastVerified": "2026-08-05",
-	"keywords": ["ZXTank", "support", "troubleshooting", "BarkinMad Studios"],
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"support",
+		"help",
+		"troubleshooting",
+		"Game Center",
+		"iPhone support",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
 	"contentStatus": "needs-review"
 }

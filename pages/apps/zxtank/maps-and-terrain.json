@@ -1,0 +1,95 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "ZXTank Maps & Terrain",
+	"seoTitle": "ZXTank Maps & Terrain Guide | BarkinMad Studios",
+	"description": "Learn how roads, forests, villages, rivers, bridges and other terrain affect movement, visibility and strategy in ZXTank.",
+	"summary": "Master every battlefield by understanding how terrain influences movement, cover and tactical decision-making.",
+	"heroImage": "images/shared/placeholder.png",
+	"heroImageAlt": "Illustration representing the different terrain types found in ZXTank",
+	"sections": [
+		{
+			"id": "terrain-overview",
+			"heading": "Every Battlefield Rewards Different Tactics",
+			"paragraphs": [
+				"Terrain is more than scenery in ZXTank. Every battlefield is built from a mixture of environments that influence movement, visibility and tactical decisions.",
+				"Learning when to use open ground, seek cover or control key routes is just as important as accurate shooting."
+			]
+		},
+		{
+			"id": "open-fields",
+			"heading": "Open Fields",
+			"paragraphs": [
+				"Open fields provide excellent visibility and plenty of room to manoeuvre, making them ideal for high-speed movement and long-range engagements.",
+				"The lack of cover also makes tanks easier to spot, so crossing open ground always carries an element of risk."
+			]
+		},
+		{
+			"id": "woodland",
+			"heading": "Woodland",
+			"paragraphs": [
+				"Woodland provides natural cover and can reduce visibility, allowing careful players to approach enemies without immediately exposing their position.",
+				"Moving through forests may slow your advance, but it can also create opportunities for ambushes and surprise attacks."
+			]
+		},
+		{
+			"id": "villages-and-ruins",
+			"heading": "Villages & Ruins",
+			"paragraphs": [
+				"Buildings and ruined structures create natural defensive positions, narrow streets and multiple firing angles.",
+				"Close-quarters battles often develop around these areas, rewarding careful positioning and awareness of every approach."
+			]
+		},
+		{
+			"id": "roads",
+			"heading": "Roads",
+			"paragraphs": [
+				"Roads provide the fastest routes across the battlefield, allowing tanks to reposition quickly between objectives.",
+				"Although roads improve mobility, they often leave tanks exposed, making speed and timing important."
+			]
+		},
+		{
+			"id": "rivers-and-bridges",
+			"heading": "Rivers & Bridges",
+			"paragraphs": [
+				"Rivers divide the battlefield and shape movement, forcing commanders to think carefully about where to cross.",
+				"Bridges naturally become strategic locations where opposing forces compete for control, creating some of the most intense battles on the map."
+			]
+		},
+		{
+			"id": "points-of-interest",
+			"heading": "Strategic Locations",
+			"paragraphs": [
+				"Repair Depots, Radar Stations and Supply Depots can appear throughout the battlefield, encouraging players to leave safe positions and compete for valuable advantages.",
+				"Knowing when to fight for these locations and when to avoid them can be the difference between victory and defeat."
+			]
+		},
+		{
+			"id": "adapt-and-overcome",
+			"heading": "Adapt to Every Battlefield",
+			"paragraphs": [
+				"Because every battlefield is procedurally generated, no single strategy works every time. Successful commanders learn to read the terrain, adapt quickly and make the most of every opportunity.",
+				"Combining smart movement with effective use of cover, salvage and battlefield objectives is the key to long-term success."
+			]
+		}
+	],
+	"estimatedReadTimeMinutes": 4,
+	"lastUpdated": "2026-08-06",
+	"lastVerified": "2026-08-06",
+	"keywords": [
+		"ZXTank",
+		"ZX Tank",
+		"maps",
+		"terrain",
+		"battlefield",
+		"roads",
+		"bridges",
+		"rivers",
+		"villages",
+		"woodland",
+		"retro tank game",
+		"procedural maps",
+		"ZX Series",
+		"BarkinMad Studios"
+	],
+	"contentStatus": "needs-review"
+}
