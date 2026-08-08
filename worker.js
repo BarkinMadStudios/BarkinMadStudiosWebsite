@@ -35,6 +35,7 @@ contextweb.com, 558622, RESELLER, 89ff185a4c4e857c
 conversantmedia.com, 41024, RESELLER, 03113cd04947736d
 criteo.com, b-062019, RESELLER, 9fac4a4a87c2a44f
 e-planning.net, 6a7f877127485fdb, RESELLER, c1ba615865ed87b2
+facebook.com, 845673678210039, DIRECT, c3e20eee3f780d68
 google.com, pub-1682595508078257, RESELLER, f08c47fec0942fa0
 google.com, pub-2923085774557613, RESELLER, f08c47fec0942fa0
 google.com, pub-3990748024667386, RESELLER, f08c47fec0942fa0
