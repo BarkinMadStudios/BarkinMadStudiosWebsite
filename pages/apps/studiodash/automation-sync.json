@@ -1,30 +1,31 @@
 {
 	"documentationSchemaVersion": "1.1.0",
 	"title": "StudioDash Automation & Sync",
-	"seoTitle": "StudioDash Automation & Sync | BarkinMad Studios",
-	"description": "Understand how StudioDash keeps your data up to date, monitors provider health, and helps you stay informed across every connected service.",
-	"summary": "StudioDash makes synchronisation transparent, showing when data was updated, the health of each provider, and what needs your attention.",
+	"seoTitle": "Developer Dashboard Automation & Data Sync | StudioDash",
+	"description": "Keep your developer dashboard up to date with StudioDash background synchronisation, manual refresh controls, provider health monitoring and cached reporting.",
+	"summary": "StudioDash keeps data from your connected services organised and up to date, with background synchronisation on Mac, manual refresh controls and clear provider health information.",
 	"heroImage": "apps/studiodash/studiodash-hero.png",
-	"heroImageAlt": "StudioDash automation and sync dashboard",
+	"heroImageAlt": "StudioDash data synchronisation and provider status dashboard",
 	"referenceImage": {
 		"src": "apps/studiodash/studiodash-hero.png",
-		"alt": "StudioDash automation and sync dashboard"
+		"alt": "StudioDash data synchronisation and provider status dashboard"
 	},
 	"featureShowcases": [
 		{
-			"id": "provider-sync-state",
-			"heading": "Stay in Control of Your Data",
-			"summary": "StudioDash clearly shows the status of every connected provider so you always know how current your data is.",
-			"body": "Rather than hiding unavailable information, StudioDash explains why it isn't available. Whether a provider needs configuring, is waiting for fresh data, or has encountered an issue, you'll always have the information you need to understand what's happening.",
+			"id": "background-sync",
+			"heading": "Keep Your Studio Data Up to Date",
+			"summary": "Let StudioDash keep connected services updated in the background on your Mac.",
+			"body": "StudioDash is designed to reduce the time spent manually checking different developer and business services. Background synchronisation on Mac keeps supported provider data updated automatically, while clear status information shows which services are working normally and which may need your attention.",
 			"bullets": [
-				"View provider health and synchronisation status at a glance.",
-				"Clearly identify providers that need attention or setup.",
-				"Future automation features will build on this foundation as they become available."
+				"Keep supported provider data updated automatically on Mac.",
+				"See when your connected services were last updated.",
+				"Check which providers are healthy or need attention.",
+				"Refresh data manually whenever you want the latest available information."
 			],
 			"image": {
 				"src": "apps/studiodash/Screenshot2.png",
-				"alt": "StudioDash provider status dashboard",
-				"caption": "Monitor every connected provider from one dashboard."
+				"alt": "StudioDash dashboard showing connected provider and synchronisation status",
+				"caption": "Keep track of connected services and their latest data from one place."
 			},
 			"layout": "textLeft",
 			"links": [
@@ -37,68 +38,120 @@
 	],
 	"sections": [
 		{
-			"id": "sync-principles",
-			"heading": "Clear Synchronisation Status",
+			"id": "background-sync",
+			"heading": "Background Synchronisation on Mac",
 			"paragraphs": [
-				"StudioDash is designed to make synchronisation easy to understand. Instead of wondering whether your information is current, you can immediately see when each provider was last checked, last updated, and whether any action is required.",
-				"Connected providers remain visible even when no data is available, making it clear whether a service is waiting for setup, still synchronising, or simply has no information to display for the selected period."
+				"StudioDash can keep supported provider data updated in the background on your Mac, reducing the need to open every service and request updates manually.",
+				"Each connected service is updated when appropriate rather than every provider being contacted continuously. This helps StudioDash maintain useful, current information while avoiding unnecessary requests to external services.",
+				"Background synchronisation is designed to make StudioDash more useful when you return to it: much of the information you need can already be waiting for you."
+			]
+		},
+		{
+			"id": "sync-status",
+			"heading": "Know When Your Data Was Updated",
+			"paragraphs": [
+				"StudioDash makes synchronisation visible rather than leaving you to guess whether the information on screen is current. You can see the state of your connected services and identify providers that have updated successfully or need attention.",
+				"This is especially useful when your dashboard combines information from several services, because each provider may publish or refresh its data at different times."
 			],
 			"bullets": [
-				"See when each provider was last checked and last synchronised.",
-				"Understand the difference between manual refreshes and scheduled updates.",
-				"Keep connected providers visible, even when no data is currently available."
+				"See the status of connected providers.",
+				"Identify services that have synchronised successfully.",
+				"Spot providers that need attention.",
+				"Understand when information may be waiting for a provider to publish new data."
 			]
 		},
 		{
 			"id": "provider-health",
-			"heading": "Provider Health",
+			"heading": "Provider Health at a Glance",
 			"paragraphs": [
-				"Provider Health gives you an instant overview of every connected service. Clear status labels make it easy to identify healthy providers, integrations that need attention, configuration issues, and planned future integrations.",
-				"Rather than relying on technical messages, StudioDash uses simple, consistent status information to help you understand what action, if any, is required."
+				"When several services contribute to your dashboard, it is important to know whether they are all working normally. StudioDash provides clear provider health information so problems do not disappear behind incomplete charts or missing totals.",
+				"If a connected service needs attention, StudioDash helps distinguish that situation from a period where the provider simply has no new information available."
 			],
 			"bullets": [
-				"Healthy – Everything is working normally.",
-				"Attention Required – Configuration or data needs review.",
-				"Error – Synchronisation or provider communication failed.",
-				"Not Configured – The provider hasn't been connected yet.",
-				"Planned – Integration is planned for a future release."
+				"Quickly see which connected services are working normally.",
+				"Identify integrations that need attention.",
+				"Recognise providers that still need to be configured.",
+				"Separate connection problems from periods with no new data."
 			]
 		},
 		{
 			"id": "manual-refresh",
-			"heading": "Manual Refresh & Cached Data",
+			"heading": "Refresh When You Need To",
 			"paragraphs": [
-				"StudioDash makes it easy to refresh provider data whenever you need the latest information. Individual providers can be refreshed independently, while a separate refresh option updates every connected provider.",
-				"Cached data is used to improve performance and provide historical reporting without unnecessarily contacting external services every time the app starts."
-			],
-			"bullets": [
-				"View cache health and historical coverage where available.",
-				"Understand the difference between no data and provider errors.",
-				"Use cached history for faster reporting across longer time periods."
+				"Automatic updates do not remove your control. StudioDash also lets you request fresh information when you need it, such as after publishing an app, checking recent revenue or investigating a change in performance.",
+				"You can refresh connected data without waiting for the next background update, giving you a straightforward way to check for newly available information."
 			]
 		},
 		{
-			"id": "automation-roadmap",
-			"heading": "Automation Roadmap",
+			"id": "cached-data",
+			"heading": "Fast Access to Your Existing Data",
 			"paragraphs": [
-				"StudioDash is being built with automation in mind. Future releases are planned to introduce scheduled reports, intelligent summaries, forecasting, recommendations, and other time-saving features.",
-				"The long-term goal is to reduce repetitive dashboard checking while helping developers identify what matters most across their apps and services."
+				"StudioDash keeps previously collected information available locally so dashboards and historical reports do not need to download everything again whenever you change a date range or move between views.",
+				"This makes everyday navigation faster and allows StudioDash to build useful historical views from information that has already been collected."
+			]
+		},
+		{
+			"id": "multiple-providers",
+			"heading": "One Dashboard, Different Update Schedules",
+			"paragraphs": [
+				"App stores, advertising platforms, analytics services and website providers do not all update their information at the same time. Some information can change frequently, while other reports may only become available periodically.",
+				"StudioDash handles these services independently so one provider waiting for new information does not prevent the rest of your dashboard from remaining useful."
+			],
+			"links": [
+				{
+					"label": "View Supported Integrations",
+					"href": "/apps/studiodash/integrations"
+				}
+			]
+		},
+		{
+			"id": "mac-and-ipad",
+			"heading": "Designed Around Your Studio Workflow",
+			"paragraphs": [
+				"StudioDash is designed to make your collected information useful across your workflow while taking advantage of the capabilities available on each platform.",
+				"On Mac, background synchronisation can keep supported provider information updated without requiring StudioDash to remain your active workspace. Manual synchronisation remains available when you want to request fresh information yourself."
+			]
+		},
+		{
+			"id": "secure-connections",
+			"heading": "Your Connections Stay Under Your Control",
+			"paragraphs": [
+				"Synchronisation relies on the services you choose to connect to StudioDash. You remain in control of those integrations and can review their status from within the app.",
+				"StudioDash is designed to handle credentials and provider access carefully while giving you clear visibility into the services contributing information to your dashboard."
+			],
+			"links": [
+				{
+					"label": "Security & Privacy",
+					"href": "/apps/studiodash/security-privacy"
+				},
+				{
+					"label": "Open the Troubleshooting Guide",
+					"href": "/apps/studiodash/troubleshooting"
+				}
 			]
 		}
 	],
 	"keywords": [
 		"StudioDash sync",
-		"provider health",
-		"dashboard automation",
-		"integration status"
+		"StudioDash background sync",
+		"developer dashboard automation",
+		"developer data sync",
+		"App Store dashboard sync",
+		"provider health monitoring",
+		"app analytics automation",
+		"indie developer dashboard",
+		"developer analytics dashboard",
+		"App Store Connect sync"
 	],
-	"estimatedReadTimeMinutes": 4,
+	"estimatedReadTimeMinutes": 5,
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
 	"relatedPages": [
 		"integrations",
 		"security-privacy",
-		"reporting"
+		"reporting",
+		"dashboard",
+		"troubleshooting"
 	]
 }

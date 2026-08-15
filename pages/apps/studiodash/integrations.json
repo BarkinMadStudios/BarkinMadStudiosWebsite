@@ -1,30 +1,31 @@
 {
 	"documentationSchemaVersion": "1.1.0",
 	"title": "StudioDash Integrations",
-	"seoTitle": "StudioDash Integrations | BarkinMad Studios",
-	"description": "Connect StudioDash with App Store Connect, Cloudflare, Google services, GitHub, and other developer platforms to bring your data together in one place.",
-	"summary": "StudioDash connects the services developers use every day, making it easier to monitor apps, websites, advertising, revenue, and provider health from one workspace.",
+	"seoTitle": "Developer, App & Revenue Integrations | StudioDash",
+	"description": "Connect StudioDash to App Store Connect, LevelPlay, Google Analytics, Cloudflare, Search Console, AdSense and other services to bring your developer data together.",
+	"summary": "Connect the services behind your apps and websites to StudioDash, bringing app performance, advertising revenue, analytics, search, website data and provider health into one workspace.",
 	"heroImage": "apps/studiodash/studiodash-hero.png",
-	"heroImageAlt": "StudioDash integrations dashboard",
+	"heroImageAlt": "StudioDash integrations dashboard showing connected developer services",
 	"referenceImage": {
 		"src": "apps/studiodash/studiodash-hero.png",
-		"alt": "StudioDash integrations dashboard"
+		"alt": "StudioDash integrations dashboard showing connected developer services"
 	},
 	"featureShowcases": [
 		{
 			"id": "provider-status-context",
-			"heading": "Bring Your Services Together",
-			"summary": "Monitor all of your connected developer services from a single dashboard.",
-			"body": "StudioDash brings together the tools you already use, making it easier to understand how your apps, websites, advertising, and developer services are performing. Provider Health clearly shows whether a service is connected, requires attention, or is still waiting to be configured.",
+			"heading": "Connect the Services Behind Your Apps",
+			"summary": "Bring information from your developer, advertising, analytics and website services into one workspace.",
+			"body": "Running an app business often means relying on several different services. StudioDash connects supported platforms and brings their useful information together, giving you a broader view of your apps and studio without requiring you to repeatedly check every provider dashboard.",
 			"bullets": [
-				"Connect Apple, Google, Cloudflare, advertising, and development services.",
-				"Clearly understand the health of every provider.",
-				"See exactly why information is available, unavailable, or waiting for setup."
+				"Connect app, advertising, analytics, website and search services.",
+				"Bring information from different providers into one consistent workspace.",
+				"See the health and update status of your connected services.",
+				"Choose the integrations that are relevant to your own studio."
 			],
 			"image": {
 				"src": "apps/studiodash/Screenshot2.png",
-				"alt": "StudioDash integrations dashboard showing provider status",
-				"caption": "Monitor every connected service from one place."
+				"alt": "StudioDash integrations view showing connected services and provider status",
+				"caption": "Bring the services behind your apps together in StudioDash."
 			},
 			"layout": "textRight",
 			"links": [
@@ -38,54 +39,189 @@
 	"sections": [
 		{
 			"id": "integration-approach",
-			"heading": "Designed Around Your Existing Tools",
+			"heading": "Built Around the Services You Already Use",
 			"paragraphs": [
-				"StudioDash connects with the services independent developers already rely on to build, publish, and manage their products.",
-				"Instead of switching between multiple websites and dashboards, StudioDash brings important information together while clearly showing the health and status of every connected provider."
+				"StudioDash does not require you to replace the platforms you already use to publish, monetise and understand your apps. Instead, it brings useful information from supported services into a central dashboard.",
+				"This makes it easier to see relationships between different parts of your business. App performance can sit alongside advertising revenue, website activity, search performance and other available information rather than each being isolated inside a separate provider."
 			]
 		},
 		{
-			"id": "documented-integrations",
-			"heading": "Supported Integrations",
+			"id": "app-store-connect",
+			"heading": "App Store Connect",
 			"paragraphs": [
-				"StudioDash is designed to support a growing range of developer services. Some integrations are available today, while others continue to evolve as development progresses."
+				"Connect App Store Connect to bring information about your Apple app portfolio into StudioDash. This provides the foundation for monitoring your apps alongside revenue and information from your other connected services.",
+				"Available information can include app and release status, downloads, sales, ratings, reviews and other supported App Store data, depending on the permissions and information available to your account."
 			],
-			"bullets": [
-				"App Store Connect – App lifecycle, downloads, ratings, reviews, and analytics.",
-				"AdMob – Advertising performance and revenue reporting.",
-				"AdSense – Website monetisation insights.",
-				"Cloudflare – Website traffic, analytics, Workers, and provider health.",
-				"Google Search Console – Search visibility, indexing, and performance.",
-				"Google Ads – Campaign analytics and advertising insights.",
-				"GitHub – Repository activity and development workflow."
+			"links": [
+				{
+					"label": "Explore App Store Analytics",
+					"href": "/apps/studiodash/app-store-analytics"
+				}
 			]
 		},
 		{
-			"id": "roadmap-integrations",
-			"heading": "Expanding Platform Support",
+			"id": "levelplay",
+			"heading": "LevelPlay",
 			"paragraphs": [
-				"Additional integrations will continue to be added as StudioDash evolves, helping developers monitor even more of their workflow from a single application.",
-				"The goal isn't to replace every provider dashboard. Instead, StudioDash focuses on bringing together the information developers check most often, making it easier to understand what's happening across their products."
+				"For developers monetising apps with advertising, StudioDash can connect to LevelPlay and bring supported advertising performance and revenue information into your wider studio reporting.",
+				"This makes advertising revenue part of the same commercial picture as your other supported revenue sources, helping you understand how advertising contributes to individual apps and your portfolio as a whole."
+			],
+			"links": [
+				{
+					"label": "Explore Revenue Analytics",
+					"href": "/apps/studiodash/revenue-analytics"
+				}
+			]
+		},
+		{
+			"id": "advertising-providers",
+			"heading": "Advertising Revenue",
+			"paragraphs": [
+				"Advertising revenue may come from several networks even when mediation is managed through a single platform. StudioDash is designed to make this easier to understand by bringing supported advertising information into your revenue reporting.",
+				"Where supported data is available, StudioDash can help you understand the contribution of different advertising sources rather than treating advertising as a single unexplained total."
+			]
+		},
+		{
+			"id": "google-analytics",
+			"heading": "Google Analytics",
+			"paragraphs": [
+				"Google Analytics can provide another view of how people interact with your digital products. StudioDash brings supported analytics information into the same workspace as your app, revenue and website reporting.",
+				"This helps keep audience and activity information visible without requiring Google Analytics to become another dashboard you need to check separately every day."
+			]
+		},
+		{
+			"id": "cloudflare",
+			"heading": "Cloudflare",
+			"paragraphs": [
+				"If Cloudflare is part of your website infrastructure, StudioDash can bring supported website and service information into your studio dashboard.",
+				"Cloudflare information complements dedicated analytics and search data, helping you understand the operational side of your website alongside its visibility and audience performance."
+			],
+			"links": [
+				{
+					"label": "Explore Website & SEO Analytics",
+					"href": "/apps/studiodash/website-seo-analytics"
+				}
+			]
+		},
+		{
+			"id": "search-console",
+			"heading": "Google Search Console",
+			"paragraphs": [
+				"Connect Google Search Console to follow how your website appears in Google Search. Search performance provides useful context for understanding how people discover your website and the pages supporting your apps.",
+				"Bringing search information into StudioDash lets you monitor visibility alongside website activity and your wider app portfolio."
+			],
+			"links": [
+				{
+					"label": "Explore Website & SEO Analytics",
+					"href": "/apps/studiodash/website-seo-analytics"
+				}
+			]
+		},
+		{
+			"id": "adsense",
+			"heading": "Google AdSense",
+			"paragraphs": [
+				"For websites monetised through Google AdSense, StudioDash can include supported monetisation information alongside other studio revenue.",
+				"This helps website income remain visible as part of your wider business rather than being separated from revenue generated by your apps."
+			]
+		},
+		{
+			"id": "firebase",
+			"heading": "Firebase",
+			"paragraphs": [
+				"Firebase and Google Analytics can provide useful information about app audiences and activity. Where supported information is available through your connected Google services, StudioDash can use it to add further context to app performance.",
+				"Combining audience information with downloads and revenue can provide a more useful picture than any of those figures viewed alone."
+			]
+		},
+		{
+			"id": "provider-health",
+			"heading": "Know Which Connections Are Healthy",
+			"paragraphs": [
+				"Connecting several services is only useful if you can tell whether they are working. StudioDash keeps provider health visible so you can quickly identify services that are operating normally and connections that may need attention.",
+				"A provider with no new information is not automatically treated as a failure. StudioDash helps distinguish between connection problems, configuration requirements and periods where a service simply has nothing new to report."
+			],
+			"links": [
+				{
+					"label": "Learn About Automation & Sync",
+					"href": "/apps/studiodash/automation-sync"
+				}
+			]
+		},
+		{
+			"id": "background-updates",
+			"heading": "Keep Connected Data Up to Date",
+			"paragraphs": [
+				"On Mac, StudioDash can keep supported provider information updated in the background. Different services can be refreshed independently, allowing StudioDash to keep useful information current without treating every provider as though it publishes data on the same schedule.",
+				"Manual refresh remains available whenever you want to request newly available information yourself."
+			]
+		},
+		{
+			"id": "provider-differences",
+			"heading": "Different Providers, Different Data",
+			"paragraphs": [
+				"Every service exposes different information and updates it on its own schedule. StudioDash does not try to make fundamentally different services appear identical. Instead, it presents their information consistently while preserving the context needed to understand what each provider is reporting.",
+				"Recent figures can also change when providers finalise reports or make adjustments. StudioDash reflects updated information as it becomes available from connected services."
+			]
+		},
+		{
+			"id": "expanding-support",
+			"heading": "A Growing Integration Library",
+			"paragraphs": [
+				"StudioDash is designed to support more services as the product grows. New integrations can extend the picture of your studio without changing the basic way you use the dashboard.",
+				"The aim is not to connect services simply to make the integration list longer. StudioDash focuses on integrations that provide useful information for understanding, operating and growing an app business."
+			]
+		},
+		{
+			"id": "provider-portals",
+			"heading": "Your Provider Accounts Remain Yours",
+			"paragraphs": [
+				"StudioDash complements provider dashboards rather than replacing them. Account administration, billing, permissions and specialist configuration continue to be handled through the appropriate provider.",
+				"You choose which supported services to connect to StudioDash and can review their status from within the app."
+			],
+			"links": [
+				{
+					"label": "Getting Started with StudioDash",
+					"href": "/apps/studiodash/getting-started"
+				},
+				{
+					"label": "Open the Troubleshooting Guide",
+					"href": "/apps/studiodash/troubleshooting"
+				},
+				{
+					"label": "Explore Security & Privacy",
+					"href": "/apps/studiodash/security-privacy"
+				}
 			]
 		}
 	],
 	"keywords": [
 		"StudioDash integrations",
-		"App Store Connect",
-		"AdMob",
-		"AdSense",
-		"Cloudflare",
-		"Google Search Console",
-		"Google Ads",
-		"GitHub"
+		"developer dashboard integrations",
+		"App Store Connect analytics",
+		"LevelPlay analytics",
+		"LevelPlay revenue",
+		"Google Analytics developer dashboard",
+		"Cloudflare analytics",
+		"Google Search Console dashboard",
+		"Google AdSense analytics",
+		"Firebase analytics",
+		"app advertising revenue",
+		"developer revenue dashboard",
+		"app analytics integrations",
+		"indie developer tools"
 	],
-	"estimatedReadTimeMinutes": 4,
+	"estimatedReadTimeMinutes": 7,
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
 	"relatedPages": [
+		"getting-started",
+		"dashboard",
 		"app-store-analytics",
+		"revenue-analytics",
 		"website-seo-analytics",
-		"automation-sync"
+		"automation-sync",
+		"security-privacy",
+		"troubleshooting"
 	]
 }

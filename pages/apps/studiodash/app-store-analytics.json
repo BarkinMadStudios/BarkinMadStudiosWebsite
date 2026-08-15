@@ -1,30 +1,32 @@
 {
 	"documentationSchemaVersion": "1.1.0",
 	"title": "StudioDash App Store Analytics",
-	"seoTitle": "StudioDash App Store Analytics | BarkinMad Studios",
-	"description": "Monitor app performance, downloads, sales, ratings, reviews, and release status from App Store Connect in one place with StudioDash.",
-	"summary": "StudioDash brings together App Store Connect insights, helping developers understand app performance, product status, downloads, revenue, and customer feedback from a single dashboard.",
+	"seoTitle": "App Store Analytics for Developers | StudioDash",
+	"description": "Track your App Store portfolio, downloads, sales, revenue, ratings and release status from one developer dashboard with StudioDash.",
+	"summary": "Connect App Store Connect to StudioDash and see the performance of your apps alongside the rest of your studio data, making it easier to understand downloads, revenue, customer feedback and release progress.",
 	"heroImage": "apps/studiodash/studiodash-hero.png",
-	"heroImageAlt": "StudioDash App Store analytics dashboard",
+	"heroImageAlt": "StudioDash dashboard showing App Store analytics for a portfolio of apps",
 	"referenceImage": {
 		"src": "apps/studiodash/studiodash-hero.png",
-		"alt": "StudioDash App Store analytics dashboard"
+		"alt": "StudioDash dashboard showing App Store analytics for a portfolio of apps"
 	},
 	"featureShowcases": [
 		{
 			"id": "app-store-portfolio-status",
-			"heading": "Understand Your App Portfolio",
-			"summary": "Monitor the status and performance of every app in one place.",
-			"body": "StudioDash brings together key App Store Connect information, helping you understand where every app is in its lifecycle while keeping downloads, revenue, ratings, reviews, and release status within easy reach. Instead of switching between multiple screens, you can review the health of your portfolio from a single workspace.",
+			"heading": "Your App Portfolio in One Place",
+			"summary": "See how your apps are performing without checking each product individually in App Store Connect.",
+			"body": "StudioDash brings your App Store portfolio together in one workspace. Review the apps you manage, check their current release status and follow important performance information without repeatedly moving between individual products and reports. It is particularly useful for independent developers and small studios managing several apps at the same time.",
 			"bullets": [
-				"View app lifecycle and release status at a glance.",
-				"Monitor downloads, ratings, reviews, and revenue together.",
-				"Keep portfolio management simple with one consistent view."
+				"See your App Store portfolio from one dashboard.",
+				"Track downloads, sales and revenue across your apps.",
+				"Keep an eye on ratings, reviews and customer response.",
+				"Check release and App Store status without opening each app individually.",
+				"Compare performance across multiple products."
 			],
 			"image": {
 				"src": "apps/studiodash/Screenshot2.png",
-				"alt": "StudioDash App Store analytics view showing app portfolio status and provider performance",
-				"caption": "See the status and performance of every app in one place."
+				"alt": "StudioDash App Store portfolio showing apps and their performance",
+				"caption": "Keep track of your apps and their performance from one workspace."
 			},
 			"layout": "textLeft",
 			"links": [
@@ -38,43 +40,99 @@
 	"sections": [
 		{
 			"id": "app-store-connect",
-			"heading": "App Store Connect Integration",
+			"heading": "Connect App Store Connect",
 			"paragraphs": [
-				"StudioDash integrates with App Store Connect to bring together the information developers use every day, including app status, downloads, sales, ratings, reviews, and other available analytics.",
-				"Available information depends on your connected account, API permissions, and the services supported by App Store Connect."
+				"Connect StudioDash to App Store Connect to bring important information about your apps into your StudioDash workspace. Instead of treating App Store data as a separate part of running your studio, it can be viewed alongside revenue, advertising and other connected services.",
+				"StudioDash uses the information available to your connected App Store Connect account and its API permissions, so the data shown may vary depending on the access available to that account."
 			]
 		},
 		{
 			"id": "app-portfolio-view",
-			"heading": "Portfolio Overview",
+			"heading": "Manage a Growing App Portfolio",
 			"paragraphs": [
-				"Managing multiple apps becomes much easier when every product can be viewed together. StudioDash presents your apps in a portfolio view, making it simple to compare release status, downloads, revenue, ratings, reviews, and other key metrics.",
-				"Each app card highlights the information that matters most, helping you identify changes and monitor the overall health of your portfolio."
+				"Keeping track of one app is relatively simple. As your portfolio grows, understanding what is happening across every product becomes much harder. StudioDash provides a portfolio-level view so you can see your apps together rather than managing them as isolated products.",
+				"This makes it easier to spot apps that are gaining downloads, compare commercial performance and see which products may need your attention."
 			]
 		},
 		{
-			"id": "status-language",
-			"heading": "Clear and Accurate Status Information",
+			"id": "downloads-sales",
+			"heading": "Follow Downloads and Sales",
 			"paragraphs": [
-				"StudioDash uses clear status labels to accurately represent the information available from each provider. Features that are still being developed or are not yet available are clearly identified, helping you understand exactly what data is available.",
-				"This approach keeps dashboards transparent while avoiding confusion between live, planned, and in-development functionality."
+				"Track how your apps are performing over time using App Store data brought into StudioDash. Downloads and sales provide an important part of the picture when deciding where to spend development, marketing and advertising effort.",
+				"StudioDash combines these figures with information from other connected services, helping turn individual reports into a broader view of how your studio is performing."
+			]
+		},
+		{
+			"id": "revenue-performance",
+			"heading": "Connect App Performance with Revenue",
+			"paragraphs": [
+				"Downloads alone do not tell you whether an app is commercially successful. StudioDash helps connect App Store activity with revenue information so you can better understand which products are contributing to your studio.",
+				"Use the dedicated revenue analytics tools to explore revenue over time and compare income from the different sources connected to StudioDash."
+			],
+			"links": [
+				{
+					"label": "Explore Revenue Analytics",
+					"href": "/apps/studiodash/revenue-analytics"
+				}
+			]
+		},
+		{
+			"id": "ratings-reviews",
+			"heading": "Keep Track of Customer Feedback",
+			"paragraphs": [
+				"Ratings and reviews are an important signal of how customers are responding to your apps. Bringing this information into the same workspace as your other app data makes it easier to keep customer feedback visible while monitoring the rest of your portfolio.",
+				"For developers managing several products, this provides a quicker way to identify apps that may need investigation or additional attention."
+			]
+		},
+		{
+			"id": "release-status",
+			"heading": "Monitor App and Release Status",
+			"paragraphs": [
+				"StudioDash helps you keep track of where apps and releases are within the App Store process. This is particularly useful when several apps or updates are being prepared, submitted or reviewed at the same time.",
+				"Having release information alongside the rest of your portfolio reduces the need to repeatedly check individual apps simply to see whether their status has changed."
+			]
+		},
+		{
+			"id": "bigger-picture",
+			"heading": "See More Than App Store Data",
+			"paragraphs": [
+				"App Store Connect is only one part of understanding an app. StudioDash is designed to bring information from multiple services together so downloads, revenue, advertising, website performance and other available data can be viewed as parts of the same business.",
+				"As you connect more supported services, StudioDash gives you a broader picture of how your apps and your studio are performing."
+			],
+			"links": [
+				{
+					"label": "View StudioDash Integrations",
+					"href": "/apps/studiodash/integrations"
+				},
+				{
+					"label": "Explore the StudioDash Dashboard",
+					"href": "/apps/studiodash/dashboard"
+				}
 			]
 		}
 	],
 	"keywords": [
 		"StudioDash App Store Connect",
 		"App Store analytics",
-		"app lifecycle",
-		"downloads",
-		"sales reports"
+		"App Store analytics dashboard",
+		"App Store Connect dashboard",
+		"iOS developer analytics",
+		"indie developer dashboard",
+		"app portfolio analytics",
+		"App Store downloads",
+		"App Store sales",
+		"app revenue analytics",
+		"app ratings and reviews",
+		"App Store release status"
 	],
-	"estimatedReadTimeMinutes": 3,
+	"estimatedReadTimeMinutes": 4,
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
 	"relatedPages": [
 		"revenue-analytics",
 		"integrations",
-		"dashboard"
+		"dashboard",
+		"reporting"
 	]
 }

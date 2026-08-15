@@ -1,30 +1,31 @@
 {
 	"documentationSchemaVersion": "1.1.0",
 	"title": "StudioDash Security & Privacy",
-	"seoTitle": "StudioDash Security & Privacy | BarkinMad Studios",
-	"description": "Learn how StudioDash protects your connected accounts, credentials, and developer data while keeping you in control of your information.",
-	"summary": "StudioDash is designed with security and privacy at its core, helping you connect developer services confidently while protecting your data.",
+	"seoTitle": "StudioDash Security & Privacy | Developer Data Protection",
+	"description": "Learn how StudioDash protects provider credentials, connected accounts and business data while keeping you in control of the services you connect.",
+	"summary": "StudioDash connects to services containing important developer and business information, so credentials, permissions, local data and privacy are treated as core parts of the product.",
 	"heroImage": "apps/studiodash/studiodash-hero.png",
-	"heroImageAlt": "StudioDash security and privacy dashboard",
+	"heroImageAlt": "StudioDash security and connected service management",
 	"referenceImage": {
 		"src": "apps/studiodash/studiodash-hero.png",
-		"alt": "StudioDash security and privacy dashboard"
+		"alt": "StudioDash security and connected service management"
 	},
 	"featureShowcases": [
 		{
 			"id": "privacy-aware-operations",
-			"heading": "Security You Can Trust",
-			"summary": "StudioDash is designed to help you manage your developer services without exposing sensitive information.",
-			"body": "Connecting multiple developer services shouldn't mean sacrificing security. StudioDash is designed to protect credentials, clearly identify provider status, and keep sensitive information out of dashboards while giving you the operational insights you need.",
+			"heading": "Your Studio Data Deserves Protection",
+			"summary": "Connect the services behind your apps while keeping credentials and sensitive information protected.",
+			"body": "StudioDash can work with commercially important information including revenue, app performance, advertising, websites and analytics. It is designed to give you useful access to that information without unnecessarily exposing the credentials used to connect your accounts.",
 			"bullets": [
-				"Secure handling of connected provider credentials.",
-				"Clear separation between demonstration data and live information.",
-				"Provider Health helps explain connection status without exposing sensitive details."
+				"Secure handling of supported provider credentials.",
+				"Use only the access needed for connected features.",
+				"Keep sensitive credential values out of everyday dashboards.",
+				"See connection and provider health without exposing private account information."
 			],
 			"image": {
 				"src": "apps/studiodash/Screenshot2.png",
-				"alt": "StudioDash provider status and security overview",
-				"caption": "Monitor your connected services with confidence."
+				"alt": "StudioDash connected service and provider status view",
+				"caption": "Monitor your connected services without putting credentials on display."
 			},
 			"layout": "textRight",
 			"links": [
@@ -38,58 +39,140 @@
 	"sections": [
 		{
 			"id": "security-principles",
-			"heading": "Security by Design",
+			"heading": "Security Is Part of the Product",
 			"paragraphs": [
-				"StudioDash is designed to work with developer accounts that may contain valuable business information, including analytics, revenue, advertising, website performance, and application data.",
-				"The platform follows a simple principle: request only the access required, protect sensitive information, and help developers understand the health of their connected services without exposing confidential data."
+				"StudioDash connects to developer and business services that may contain revenue, analytics, advertising, website and application information. Protecting access to those services is therefore an important part of how StudioDash is designed.",
+				"The approach is straightforward: request appropriate access, protect credentials, avoid exposing sensitive values unnecessarily and keep you in control of the services connected to your StudioDash workspace."
 			],
 			"bullets": [
-				"Request only the permissions required for each integration.",
-				"Protect credentials throughout the application.",
-				"Display provider status without exposing sensitive values.",
-				"Keep private account information out of the user interface."
+				"Protect access to connected services.",
+				"Avoid displaying sensitive credentials unnecessarily.",
+				"Use appropriate provider permissions.",
+				"Keep the status of your connections visible."
 			]
 		},
 		{
 			"id": "provider-access",
-			"heading": "Connecting Your Services",
+			"heading": "You Choose What to Connect",
 			"paragraphs": [
-				"Different developer services use different authentication methods. StudioDash supports the authentication mechanisms provided by each platform, including OAuth where available and provider-specific API credentials where required.",
-				"You're always in control of the accounts you connect and the permissions you grant. Wherever possible, StudioDash encourages the use of the minimum permissions needed for the features you want to use."
+				"StudioDash does not require every supported integration. You choose the services that are relevant to your apps and studio.",
+				"Different providers use different ways of authorising access. StudioDash works with the supported authentication method for each integration and is designed to request only the access needed to provide its supported features."
 			],
 			"bullets": [
-				"Supports secure provider authentication.",
-				"Uses provider-specific access methods where required.",
-				"Encourages least-privilege permissions.",
-				"Provider permissions remain under your control."
+				"Connect only the services you want to use.",
+				"Use provider-supported authentication methods.",
+				"Keep provider permissions under your control.",
+				"Remove or change access when your requirements change."
+			]
+		},
+		{
+			"id": "credentials",
+			"heading": "Protecting Provider Credentials",
+			"paragraphs": [
+				"Some integrations require credentials, keys or other authorisation information before StudioDash can access their reporting data. These values can provide access to commercially sensitive services and need to be treated differently from ordinary application settings.",
+				"StudioDash is designed to use the secure storage capabilities provided by Apple platforms for sensitive credentials rather than displaying or treating them as ordinary dashboard data."
+			],
+			"bullets": [
+				"Sensitive credentials are kept separate from normal dashboard information.",
+				"Credentials are not displayed as part of everyday analytics or reports.",
+				"Connection status can be checked without revealing the underlying credential.",
+				"You remain responsible for managing access and permissions with the original provider."
+			]
+		},
+		{
+			"id": "least-privilege",
+			"heading": "Use Only the Access You Need",
+			"paragraphs": [
+				"Where a provider allows different permission levels, StudioDash is designed around using the access required for the information and features you choose to use.",
+				"Giving an analytics application access to an account should not automatically mean giving it permission to perform unrelated administrative tasks. Provider account management, billing and specialist configuration remain with the original service."
 			]
 		},
 		{
 			"id": "local-data-and-cache",
-			"heading": "Local Data & Performance",
+			"heading": "Local Data Makes StudioDash Faster",
 			"paragraphs": [
-				"StudioDash stores information locally to improve performance, reduce unnecessary provider requests, and make historical reporting available even after synchronisation has completed.",
-				"Cached information is treated as part of your application data and helps StudioDash deliver a faster, more responsive experience."
+				"StudioDash keeps useful information locally so dashboards can load quickly, historical reporting remains available and changing a reporting period does not require the same information to be downloaded repeatedly.",
+				"This local history is also what allows StudioDash to build a more useful picture of performance over time rather than treating every provider update as an isolated snapshot."
 			],
 			"bullets": [
-				"Local cache improves performance.",
-				"Historical data supports trend analysis.",
-				"Provider data remains clearly separated from demonstration content.",
-				"Local application data can be cleared when required."
+				"Local data improves dashboard performance.",
+				"Previously collected information supports historical reporting.",
+				"Changing views does not require unnecessary provider requests.",
+				"Local StudioDash data can be managed separately from your provider accounts."
+			]
+		},
+		{
+			"id": "background-sync",
+			"heading": "Secure Background Updates on Mac",
+			"paragraphs": [
+				"StudioDash can keep supported provider information updated in the background on Mac. Background synchronisation uses the connections you have already configured rather than requiring credentials to be entered each time an update occurs.",
+				"The main StudioDash dashboard does not need to remain your active workspace for supported background updates, while provider health and synchronisation information help you understand whether those connections are working normally."
+			],
+			"links": [
+				{
+					"label": "Learn About Automation & Sync",
+					"href": "/apps/studiodash/automation-sync"
+				}
+			]
+		},
+		{
+			"id": "read-focused",
+			"heading": "StudioDash Complements Your Provider Accounts",
+			"paragraphs": [
+				"StudioDash is primarily designed to collect, organise and help you understand information from the services you connect. It is not intended to replace the account administration provided by those services.",
+				"Billing, user management, account permissions and specialist provider configuration should continue to be managed through the appropriate provider."
 			]
 		},
 		{
 			"id": "privacy-aware-dashboard",
-			"heading": "Respecting Your Privacy",
+			"heading": "Business Information Stays in Its Proper Context",
 			"paragraphs": [
-				"StudioDash is designed to help you understand your own apps and services, not to publish or share your business information.",
-				"Sensitive information such as credentials, private metrics, and confidential operational data is never intended to appear in public screenshots, documentation, or demonstrations."
+				"StudioDash is designed to help you understand your own apps and business. Revenue figures, analytics and other private operational information are not intended to become public simply because they have been brought together in StudioDash.",
+				"The interface is designed to provide useful status and analytics information without unnecessarily exposing the credentials behind your connected accounts."
+			]
+		},
+		{
+			"id": "diagnostics",
+			"heading": "Useful Diagnostics Without Exposing Secrets",
+			"paragraphs": [
+				"When a provider needs attention, knowing that something has gone wrong is useful. Displaying the secret used to access that provider is not.",
+				"StudioDash is designed to provide useful provider health and diagnostic information while avoiding unnecessary exposure of sensitive credential values."
 			],
-			"bullets": [
-				"Clear status information without exposing sensitive details.",
-				"Private business information stays private.",
-				"Public examples never include real customer data or credentials.",
-				"Provider dashboards remain the source of truth for account management."
+			"links": [
+				{
+					"label": "Open the Troubleshooting Guide",
+					"href": "/apps/studiodash/troubleshooting"
+				}
+			]
+		},
+		{
+			"id": "provider-control",
+			"heading": "Your Provider Accounts Remain Under Your Control",
+			"paragraphs": [
+				"Connecting a service to StudioDash does not transfer ownership or administration of that account. Your relationship remains with the original provider and its own security controls continue to apply.",
+				"You should continue to follow the security recommendations of each provider, including reviewing account access, protecting credentials and removing access that is no longer required."
+			]
+		},
+		{
+			"id": "beta-privacy",
+			"heading": "Private Beta & Real Business Data",
+			"paragraphs": [
+				"Private Beta participants may choose to test StudioDash with real apps and supported business services. Only accounts you are authorised to use should be connected.",
+				"Testing with real services helps validate StudioDash against genuine developer workflows, but participation does not require you to make private credentials, revenue figures or other confidential business information public."
+			],
+			"links": [
+				{
+					"label": "Learn About the Private Beta",
+					"href": "/apps/studiodash/private-beta"
+				}
+			]
+		},
+		{
+			"id": "privacy-policy",
+			"heading": "Privacy & Transparency",
+			"paragraphs": [
+				"StudioDash will continue to document how information is handled as features and optional services develop. Features that involve additional data processing or cloud services should clearly explain what information is involved before you choose to use them.",
+				"For information about how BarkinMad Studios handles personal information, refer to the BarkinMad Studios Privacy Policy."
 			]
 		}
 	],
@@ -97,15 +180,25 @@
 		"StudioDash security",
 		"StudioDash privacy",
 		"secure developer dashboard",
-		"provider credentials"
+		"developer data security",
+		"provider credential security",
+		"App Store Connect security",
+		"developer analytics privacy",
+		"app revenue security",
+		"secure app analytics",
+		"indie developer security",
+		"StudioDash credentials",
+		"developer business data"
 	],
-	"estimatedReadTimeMinutes": 5,
+	"estimatedReadTimeMinutes": 7,
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
 	"relatedPages": [
 		"integrations",
 		"automation-sync",
-		"frequently-asked-questions"
+		"private-beta",
+		"frequently-asked-questions",
+		"troubleshooting"
 	]
 }

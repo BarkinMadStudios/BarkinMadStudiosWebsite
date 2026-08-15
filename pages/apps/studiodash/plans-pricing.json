@@ -1,0 +1,187 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "StudioDash Plans & Pricing",
+	"seoTitle": "StudioDash Pricing | Free, Pro & Studio Plans",
+	"description": "Compare StudioDash Free, Pro and Studio plans for app analytics, revenue reporting, developer dashboards and business insight. Plans start free.",
+	"summary": "Compare StudioDash Free, Pro and Studio to choose the right level of app analytics, revenue reporting and business insight for your development studio.",
+	"heroImage": "apps/studiodash/studiodash-hero.png",
+	"heroImageAlt": "StudioDash developer dashboard showing app analytics, revenue and business information",
+	"referenceImage": {
+		"src": "apps/studiodash/studiodash-hero.png",
+		"alt": "StudioDash developer dashboard showing app analytics, revenue and business information"
+	},
+	"sections": [
+		{
+			"id": "choose-your-plan",
+			"heading": "Choose the Right StudioDash Plan",
+			"paragraphs": [
+				"StudioDash is designed for independent app developers and small studios that want a clearer view of their apps, revenue, analytics and business performance. You can start with StudioDash Free and move to Pro or Studio when you need deeper reporting and insight.",
+				"Every plan provides a useful view of the developer services you choose to connect. Paid plans expand the amount of analytics, reporting, historical information and business insight available without requiring you to replace your existing provider accounts.",
+				"Prices below are the planned public-launch prices. Availability, final features and purchase options will be confirmed when StudioDash is released."
+			]
+		},
+		{
+			"id": "plan-overview",
+			"heading": "StudioDash Pricing at a Glance",
+			"paragraphs": [
+				"StudioDash is planned around a permanent Free option and one-off purchases for Pro and Studio. This means the core paid plans are not intended to require a monthly subscription.",
+				"An optional StudioDash Cloud service is planned separately for developers who want the additional cloud capabilities it will provide."
+			],
+			"bullets": [
+				"StudioDash Free — £0.",
+				"StudioDash Pro — £19.99 one-off purchase.",
+				"StudioDash Studio — £49.99 one-off purchase.",
+				"StudioDash Cloud — optional service planned at £4.99 per month."
+			]
+		},
+		{
+			"id": "free",
+			"heading": "StudioDash Free — £0",
+			"paragraphs": [
+				"StudioDash Free is a permanent starting point for independent developers who want a high-level developer dashboard without purchasing a paid plan. It is not simply a time-limited trial.",
+				"Connect supported services relevant to your studio, monitor essential information and build a clearer daily picture of your apps and business from one workspace.",
+				"Free focuses on useful headline information. More detailed analytics, historical views, provider breakdowns and advanced business insight are reserved for paid plans. The Free experience may contain advertising, helping StudioDash remain available without a purchase."
+			],
+			"bullets": [
+				"A high-level dashboard for supported connected developer services.",
+				"Current app, revenue and provider information where available.",
+				"Manual updates for supported providers.",
+				"Essential portfolio information without a paid subscription.",
+				"A permanent Free option rather than a time-limited trial."
+			]
+		},
+		{
+			"id": "pro",
+			"heading": "StudioDash Pro — £19.99 One-Off",
+			"paragraphs": [
+				"StudioDash Pro is designed for individual developers who need to look beyond headline numbers. It adds deeper analytics, reporting and breakdowns so you can investigate app performance, revenue and the information contributed by connected services.",
+				"Choose Pro when you want more historical context, stronger reporting and a clearer understanding of changes across your apps and developer business.",
+				"Pro is planned as a one-off purchase rather than a recurring subscription. Optional StudioDash Cloud services are separate."
+			],
+			"bullets": [
+				"More detailed app and revenue analytics where supported.",
+				"Provider and performance breakdowns beyond the Free overview.",
+				"Longer-term reporting for identifying trends and changes.",
+				"Additional export and reporting capabilities where available.",
+				"Access to deeper StudioDash business insight.",
+				"An ad-free StudioDash experience."
+			]
+		},
+		{
+			"id": "studio",
+			"heading": "StudioDash Studio — £49.99 One-Off",
+			"paragraphs": [
+				"StudioDash Studio is the most complete StudioDash plan for developers and small studios managing larger or more complex app portfolios. It provides the highest level of portfolio analytics, reporting and developer business insight available in StudioDash.",
+				"Choose Studio when you want to look beyond individual app metrics and use StudioDash to understand wider patterns across your portfolio, revenue sources and connected developer services.",
+				"Studio is planned as a one-off purchase rather than a recurring subscription. Optional StudioDash Cloud services are separate."
+			],
+			"bullets": [
+				"The most complete level of portfolio, analytics and reporting insight.",
+				"Advanced business-focused views where supported.",
+				"Broader portfolio analysis for developers managing multiple apps.",
+				"Advanced automation capabilities where supported.",
+				"The broadest StudioDash feature set for a growing development studio.",
+				"An ad-free StudioDash experience."
+			]
+		},
+		{
+			"id": "which-plan",
+			"heading": "Which StudioDash Plan Is Right for You?",
+			"paragraphs": [
+				"Choose Free if you primarily want headline information about your apps and connected services. It provides a useful developer dashboard without requiring an initial purchase.",
+				"Choose Pro if you are an individual developer who regularly analyses app performance, revenue and historical trends and wants more detail than the Free overview provides.",
+				"Choose Studio if you manage a broader portfolio or want the most complete level of analytics, reporting, automation and business-focused insight available in StudioDash.",
+				"You can start with Free and decide whether the additional depth offered by Pro or Studio is useful as your apps and development business grow."
+			]
+		},
+		{
+			"id": "one-off-pricing",
+			"heading": "One-Off Pricing for Pro and Studio",
+			"paragraphs": [
+				"StudioDash Pro and Studio are planned as one-off purchases. The core paid plans are not intended to require an ongoing monthly or annual subscription.",
+				"This pricing model separates the main StudioDash application from optional services that have continuing infrastructure costs. StudioDash Cloud is therefore planned as a separate optional service rather than being required to continue using Pro or Studio."
+			]
+		},
+		{
+			"id": "cloud",
+			"heading": "Optional StudioDash Cloud — Planned at £4.99 per Month",
+			"paragraphs": [
+				"StudioDash Cloud is planned as an optional service separate from the Free, Pro and Studio plans. Its intended public price is £4.99 per month.",
+				"Cloud is not required to use the core StudioDash plans. Developers who do not need its additional capabilities can continue using the features included with their selected StudioDash plan.",
+				"Cloud capabilities are still being defined for public release, so this page does not make detailed feature promises. StudioDash will explain exactly what the optional service includes before it becomes available."
+			]
+		},
+		{
+			"id": "private-beta-benefit",
+			"heading": "Private Beta Participant Benefit",
+			"paragraphs": [
+				"Private Beta participants receive access to the full Studio experience while helping test StudioDash with real developer accounts, apps and connected services.",
+				"Active Private Beta participants will receive 12 months of Studio at no cost from the public launch date.",
+				"After the complimentary year, eligible participants will have an exclusive opportunity to purchase Pro or Studio at a discounted beta tester price. There is no automatic billing. If you choose not to purchase a paid plan, you can continue using StudioDash Free."
+			],
+			"links": [
+				{
+					"label": "Learn About the StudioDash Private Beta",
+					"href": "/apps/studiodash/private-beta"
+				}
+			]
+		},
+		{
+			"id": "explore-features",
+			"heading": "Explore StudioDash Before Choosing a Plan",
+			"paragraphs": [
+				"If you are deciding which plan may suit your development workflow, explore the StudioDash features and analytics guides to understand how app, revenue, reporting and website information are brought together.",
+				"Feature availability varies by plan and by the information supported by each connected provider."
+			],
+			"links": [
+				{
+					"label": "Explore StudioDash Features",
+					"href": "/apps/studiodash/features"
+				},
+				{
+					"label": "Explore Revenue Analytics",
+					"href": "/apps/studiodash/revenue-analytics"
+				},
+				{
+					"label": "Explore Supported Integrations",
+					"href": "/apps/studiodash/integrations"
+				},
+				{
+					"label": "StudioDash Frequently Asked Questions",
+					"href": "/apps/studiodash/frequently-asked-questions"
+				}
+			]
+		}
+	],
+	"keywords": [
+		"StudioDash pricing",
+		"StudioDash plans",
+		"StudioDash Free",
+		"StudioDash Pro",
+		"StudioDash Studio",
+		"developer dashboard pricing",
+		"app analytics pricing",
+		"indie developer dashboard",
+		"developer analytics dashboard",
+		"app revenue dashboard",
+		"app revenue analytics",
+		"App Store analytics dashboard",
+		"developer business dashboard",
+		"app developer tools",
+		"indie developer analytics"
+	],
+	"estimatedReadTimeMinutes": 7,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
+	"relatedPages": [
+		"overview",
+		"features",
+		"integrations",
+		"app-store-analytics",
+		"revenue-analytics",
+		"reporting",
+		"private-beta",
+		"frequently-asked-questions"
+	]
+}

@@ -1,30 +1,32 @@
 {
 	"documentationSchemaVersion": "1.1.0",
 	"title": "StudioDash Dashboard",
-	"seoTitle": "StudioDash Dashboard | BarkinMad Studios",
-	"description": "Monitor your apps, revenue, websites, integrations, and developer services from one unified StudioDash dashboard.",
-	"summary": "StudioDash brings together the information developers need every day, helping you understand the health of your apps and services from a single workspace.",
+	"seoTitle": "Developer Dashboard for Apps, Revenue & Analytics | StudioDash",
+	"description": "Monitor your apps, revenue, websites, advertising, analytics and connected developer services from one StudioDash dashboard.",
+	"summary": "StudioDash gives independent developers and small studios one place to see how their apps and business are performing, bringing together revenue, App Store activity, website analytics and connected services.",
 	"heroImage": "apps/studiodash/studiodash-hero.png",
-	"heroImageAlt": "StudioDash dashboard workspace",
+	"heroImageAlt": "StudioDash developer dashboard showing apps, revenue and connected services",
 	"referenceImage": {
 		"src": "apps/studiodash/studiodash-hero.png",
-		"alt": "StudioDash dashboard workspace"
+		"alt": "StudioDash developer dashboard showing apps, revenue and connected services"
 	},
 	"featureShowcases": [
 		{
 			"id": "daily-operating-view",
-			"heading": "Everything at a Glance",
-			"summary": "Start every day with a complete overview of your apps, websites, revenue, and connected services.",
-			"body": "StudioDash brings together the information that matters most into a single dashboard, making it easy to spot changes, monitor provider health, and identify opportunities without constantly switching between different services. From here you can quickly move into the detailed analytics pages whenever you need to investigate further.",
+			"heading": "Your Studio at a Glance",
+			"summary": "Start with a clear overview of your apps, revenue and connected services.",
+			"body": "StudioDash brings the information you use to run your apps into one workspace. See how your portfolio is performing, check revenue, review connected services and quickly identify anything that needs attention. When you want more detail, move directly from the dashboard into dedicated analytics and reporting views.",
 			"bullets": [
-				"View revenue, app status, website activity, provider health, and synchronisation status in one place.",
-				"Clearly identify providers that need attention or configuration.",
-				"Jump directly from the dashboard into detailed analytics."
+				"See key performance information across your app portfolio.",
+				"Monitor revenue from connected sources.",
+				"Keep track of App Store activity and app status.",
+				"Check the health of connected services and recent updates.",
+				"Move quickly from the overview into detailed analytics."
 			],
 			"image": {
 				"src": "apps/studiodash/Screenshot1.png",
-				"alt": "StudioDash dashboard showing revenue, app status, website activity, provider health, and synchronisation",
-				"caption": "Everything you need to monitor your portfolio from one dashboard."
+				"alt": "StudioDash dashboard showing app portfolio performance, revenue and connected services",
+				"caption": "See the important parts of your studio from one dashboard."
 			},
 			"layout": "textLeft",
 			"links": [
@@ -38,48 +40,131 @@
 	"sections": [
 		{
 			"id": "dashboard-purpose",
-			"heading": "One Dashboard for Your Entire Portfolio",
+			"heading": "One Dashboard for Your Studio",
 			"paragraphs": [
-				"StudioDash is designed to replace the need to constantly switch between multiple developer dashboards. Instead of opening App Store Connect, Cloudflare, Google services, and other platforms individually, you can review everything from one central workspace.",
-				"The dashboard is designed for quick daily reviews while providing direct access to more detailed analytics whenever you need them."
+				"Running apps often means checking several different services just to understand how the business is performing. App Store information may be in one place, advertising revenue in another, website analytics somewhere else, with additional dashboards for search and other services.",
+				"StudioDash brings supported information together into one workspace, giving you a faster way to understand what is happening across your portfolio before deciding where you need to look more closely."
+			]
+		},
+		{
+			"id": "portfolio-overview",
+			"heading": "See the Bigger Picture",
+			"paragraphs": [
+				"Individual numbers are more useful when they have context. StudioDash is designed to help you see relationships between your apps, their performance and the different sources contributing to your studio.",
+				"Instead of treating downloads, revenue, advertising and website activity as completely separate reports, StudioDash provides a central starting point for understanding your overall performance."
 			]
 		},
 		{
 			"id": "dashboard-signals",
-			"heading": "What You'll See",
+			"heading": "What You Can Monitor",
 			"paragraphs": [
-				"The dashboard combines live operational information with historical trends, giving you both an overview of what's happening today and the context needed to understand longer-term performance."
+				"The information available in StudioDash grows with the services you connect. Your dashboard focuses on useful signals rather than requiring you to work through every report provided by each individual platform."
 			],
 			"bullets": [
-				"Revenue totals and provider breakdowns.",
-				"App downloads, lifecycle status, ratings, and reviews where available.",
-				"Website traffic, search visibility, indexing, and validation status.",
-				"Provider health, synchronisation status, and attention alerts.",
-				"Historical trends and recent performance changes."
+				"App portfolio and App Store status.",
+				"Downloads and sales information where available.",
+				"Revenue from connected app and advertising sources.",
+				"Website and analytics performance from supported services.",
+				"Provider health and synchronisation status.",
+				"Recent performance and historical trends."
 			]
 		},
 		{
-			"id": "demo-and-live-context",
-			"heading": "Demo & Live Data",
+			"id": "revenue-overview",
+			"heading": "Keep Revenue Visible",
 			"paragraphs": [
-				"StudioDash clearly distinguishes between demonstration data and live provider information. This helps you understand exactly which information comes from connected services and which features are still being explored during development.",
-				"If a provider has not yet been configured or doesn't have data available, StudioDash explains why, keeping every dashboard card visible so you always know what action to take next."
+				"StudioDash keeps commercial performance visible alongside your other app information. This makes it easier to understand not only whether an app is being downloaded or used, but whether it is contributing revenue to your studio.",
+				"For deeper analysis, the dedicated revenue views let you explore performance over different periods and understand how connected revenue sources contribute to your results."
+			],
+			"links": [
+				{
+					"label": "Explore Revenue Analytics",
+					"href": "/apps/studiodash/revenue-analytics"
+				}
+			]
+		},
+		{
+			"id": "date-ranges",
+			"heading": "Understand Performance Over Time",
+			"paragraphs": [
+				"A single day's figures rarely tell the whole story. StudioDash lets you review information across different reporting periods so you can distinguish short-term changes from longer-term trends.",
+				"Historical information already collected by StudioDash can be reused when changing views and reporting periods, helping you explore your data without repeatedly requesting the same information from connected services."
+			]
+		},
+		{
+			"id": "provider-health",
+			"heading": "Know When Something Needs Attention",
+			"paragraphs": [
+				"A missing number does not always mean something is wrong. A provider may not have published new information yet, an integration may need attention, or there may simply be no activity for the selected period.",
+				"StudioDash keeps the state of connected services visible so you can quickly see whether your data is updating normally and identify integrations that may need your attention."
+			],
+			"links": [
+				{
+					"label": "Learn About Automation & Sync",
+					"href": "/apps/studiodash/automation-sync"
+				}
+			]
+		},
+		{
+			"id": "connected-services",
+			"heading": "Bring Your Developer Services Together",
+			"paragraphs": [
+				"StudioDash is built around connected services rather than a single source of information. App Store, advertising, analytics, website and search services can contribute different parts of the picture.",
+				"You choose which supported services to connect, allowing StudioDash to become a dashboard for the tools that are relevant to your own apps and studio."
+			],
+			"links": [
+				{
+					"label": "View StudioDash Integrations",
+					"href": "/apps/studiodash/integrations"
+				}
+			]
+		},
+		{
+			"id": "daily-workflow",
+			"heading": "Built for the Daily Check-In",
+			"paragraphs": [
+				"StudioDash is designed to answer the first questions you are likely to have when checking your apps: Is revenue moving? Are my apps performing normally? Has anything changed? Are my connected services healthy?",
+				"The dashboard gives you that starting point without requiring a tour through multiple external services. When something deserves more attention, the detailed views provide the next level of information."
+			]
+		},
+		{
+			"id": "background-updates",
+			"heading": "Data Ready When You Need It",
+			"paragraphs": [
+				"On Mac, StudioDash can keep supported provider information updated in the background. This means useful information can already be available when you return to the dashboard rather than every session beginning with a manual refresh.",
+				"You can still request fresh information manually whenever you need to check for newly available data."
+			],
+			"links": [
+				{
+					"label": "How StudioDash Sync Works",
+					"href": "/apps/studiodash/automation-sync"
+				}
 			]
 		}
 	],
 	"keywords": [
 		"StudioDash dashboard",
-		"developer workspace",
-		"provider health",
-		"sync status"
+		"developer dashboard",
+		"indie developer dashboard",
+		"app developer dashboard",
+		"iOS developer dashboard",
+		"App Store dashboard",
+		"app revenue dashboard",
+		"developer analytics dashboard",
+		"app portfolio dashboard",
+		"App Store analytics",
+		"developer revenue analytics",
+		"app performance dashboard"
 	],
-	"estimatedReadTimeMinutes": 3,
+	"estimatedReadTimeMinutes": 5,
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
 	"relatedPages": [
 		"features",
+		"app-store-analytics",
 		"revenue-analytics",
+		"integrations",
 		"automation-sync"
 	]
 }

@@ -1,30 +1,31 @@
 {
 	"documentationSchemaVersion": "1.1.0",
 	"title": "StudioDash Release Notes",
-	"seoTitle": "StudioDash Release Notes | BarkinMad Studios",
-	"description": "Follow the latest StudioDash development milestones, feature updates, private beta progress, and public release announcements.",
-	"summary": "Stay up to date with the latest StudioDash improvements as the product moves towards private beta and public release.",
+	"seoTitle": "StudioDash Release Notes & Product Updates | BarkinMad Studios",
+	"description": "Follow StudioDash development, including new analytics, integrations, revenue tools, background sync, business features, beta progress, and release updates.",
+	"summary": "See how StudioDash is developing as it moves towards private beta, with major improvements to app analytics, revenue reporting, integrations, synchronisation, business tools, and the Free, Pro, and Studio experience.",
 	"heroImage": "apps/studiodash/studiodash-hero.png",
-	"heroImageAlt": "StudioDash Release Notes",
+	"heroImageAlt": "StudioDash release notes and product updates",
 	"referenceImage": {
 		"src": "apps/studiodash/studiodash-hero.png",
-		"alt": "StudioDash Release Notes"
+		"alt": "StudioDash release notes and product updates"
 	},
 	"featureShowcases": [
 		{
 			"id": "release-readiness",
 			"heading": "Follow StudioDash's Progress",
-			"summary": "Keep track of new features, product milestones, and upcoming releases.",
-			"body": "StudioDash is evolving rapidly. Release Notes provide a clear history of new features, improvements, integrations, and important announcements as the product moves towards private beta and public availability.",
+			"summary": "Keep track of the important changes as StudioDash develops towards its first public release.",
+			"body": "StudioDash continues to grow from a developer dashboard into a broader workspace for understanding apps and the business behind them. Release Notes highlight meaningful product changes, new integrations, analytics improvements, synchronisation updates, and milestones on the road to public availability.",
 			"bullets": [
-				"Follow new features and product improvements.",
-				"Track private beta progress and future releases.",
-				"See how StudioDash continues to evolve."
+				"Follow major new StudioDash features.",
+				"See improvements to analytics, reporting, and integrations.",
+				"Track Private Beta and public release progress.",
+				"Discover new capabilities as they become available."
 			],
 			"image": {
 				"src": "apps/studiodash/Screenshot1.png",
-				"alt": "StudioDash dashboard overview",
-				"caption": "Every milestone brings StudioDash closer to public release."
+				"alt": "StudioDash developer dashboard",
+				"caption": "Follow the development of StudioDash towards its first public release."
 			},
 			"layout": "textLeft",
 			"links": [
@@ -40,45 +41,156 @@
 			"id": "current-status",
 			"heading": "Current Status",
 			"paragraphs": [
-				"StudioDash is currently in active development and preparing for a controlled private beta.",
-				"As development progresses, this page will highlight important product milestones, new capabilities, and availability updates."
+				"StudioDash is in active development ahead of a controlled Private Beta with independent developers and small studios.",
+				"The core product now brings together app portfolio information, revenue, advertising, analytics, websites, search performance, provider health, reporting, and synchronisation in one workspace. Current development is focused on refining these capabilities and preparing them for real-world beta testing."
 			]
 		},
 		{
-			"id": "recent-progress",
-			"heading": "Recent Progress",
+			"id": "august-2026",
+			"heading": "August 2026 – Preparing the Complete Studio Experience",
 			"paragraphs": [
-				"The StudioDash website now includes dedicated guides covering the dashboard, integrations, analytics, reporting, synchronisation, security, private beta, and supporting documentation.",
-				"Development continues to focus on expanding integrations, improving analytics, refining the user experience, and preparing the platform for beta testing."
+				"Development during August has focused on strengthening the foundations of StudioDash and preparing the complete Studio experience for beta testing.",
+				"Particular attention has been given to revenue reporting, connected services, background data updates, plan support, and making sure information remains useful as developers move between different apps and reporting periods."
 			],
 			"bullets": [
-				"StudioDash product website launched.",
-				"Core documentation published.",
-				"Analytics and integration guides expanded.",
-				"Private beta preparation continues."
+				"Free, Pro, and Studio plans introduced as the foundation of the StudioDash product range.",
+				"Studio established as the complete StudioDash experience for developers and small studios managing larger portfolios.",
+				"Revenue reporting expanded across supported App Store and advertising sources.",
+				"Revenue views improved with source, app, date, and country information where available.",
+				"Business goals provide additional context for understanding commercial performance.",
+				"Provider synchronisation and health monitoring continue to be refined.",
+				"Private Beta programme and participant benefits defined."
+			]
+		},
+		{
+			"id": "background-sync",
+			"heading": "Background Synchronisation on Mac",
+			"paragraphs": [
+				"StudioDash can now keep supported provider information updated in the background on Mac, reducing the need to begin every session by manually refreshing several different services.",
+				"Connected services can update independently, while StudioDash keeps their health and synchronisation status visible. Manual refresh remains available whenever newly available information is needed immediately."
+			],
+			"bullets": [
+				"Background provider updates on Mac.",
+				"Independent updates for supported connected services.",
+				"Clear synchronisation and provider health information.",
+				"Manual refresh remains available when needed.",
+				"Previously collected information supports faster historical reporting."
+			],
+			"links": [
+				{
+					"label": "Learn About Automation & Sync",
+					"href": "/apps/studiodash/automation-sync"
+				}
+			]
+		},
+		{
+			"id": "revenue-progress",
+			"heading": "A Clearer View of Revenue",
+			"paragraphs": [
+				"Revenue analytics have become an increasingly important part of StudioDash. Supported revenue information can be brought together to provide a broader picture of how individual apps and the overall portfolio are performing.",
+				"StudioDash is also being designed around the reality that recent provider figures can change. Advertising services may revise previously reported revenue as traffic is validated and reports are finalised, so StudioDash can reflect updated provider information as it becomes available."
+			],
+			"bullets": [
+				"Combined revenue from supported sources.",
+				"Revenue trends across different reporting periods.",
+				"Breakdowns by source and app where available.",
+				"Country-level revenue information where supported.",
+				"Business goals for putting revenue into context.",
+				"Support for updated and finalised provider figures."
+			],
+			"links": [
+				{
+					"label": "Explore Revenue Analytics",
+					"href": "/apps/studiodash/revenue-analytics"
+				}
 			]
 		},
 		{
 			"id": "current-integrations",
-			"heading": "Current Integrations",
+			"heading": "Connected Services",
 			"paragraphs": [
-				"StudioDash continues to expand support for developer services including App Store Connect, Cloudflare, AdMob, AdSense, Google Search Console, GitHub, and other platforms.",
-				"Additional integrations will be announced here as they become available."
+				"StudioDash now brings together information from a growing collection of app, advertising, analytics, website, and search services.",
+				"Current development includes support around App Store Connect, LevelPlay, Google Analytics, Cloudflare, Google Search Console, Google AdSense, and related supported data sources. Additional integrations can be added where they provide useful information for running an app business."
+			],
+			"links": [
+				{
+					"label": "Explore StudioDash Integrations",
+					"href": "/apps/studiodash/integrations"
+				}
+			]
+		},
+		{
+			"id": "portfolio-analytics",
+			"heading": "From Individual Apps to a Studio Portfolio",
+			"paragraphs": [
+				"StudioDash continues to improve the way information is presented across multiple apps. The goal is not simply to reproduce individual provider dashboards, but to make it easier to understand a complete portfolio.",
+				"App Store activity, revenue, advertising, analytics, websites, and other connected information can contribute different parts of that picture, helping developers decide which products or areas deserve their attention."
+			]
+		},
+		{
+			"id": "plans",
+			"heading": "Free, Pro & Studio",
+			"paragraphs": [
+				"StudioDash is being prepared around three product levels: Free, Pro, and Studio. This allows developers to start with the essentials while providing more detailed analytics, reporting, and business capabilities for developers who need them.",
+				"The Private Beta will primarily use the Studio tier so participants can test the complete product. Free and Pro experiences will also be tested to make sure each level provides a useful and clearly defined experience."
+			]
+		},
+		{
+			"id": "private-beta",
+			"heading": "Private Beta Programme",
+			"paragraphs": [
+				"The StudioDash Private Beta is being prepared to test the product with a wider variety of real developer portfolios, integrations, and workflows.",
+				"Active beta participants will receive full Studio access during testing. Eligible participants will also receive 12 months of Studio at no cost from the public launch date, followed by an exclusive beta tester opportunity to purchase Pro or Studio at a discounted price."
+			],
+			"links": [
+				{
+					"label": "Learn About the StudioDash Private Beta",
+					"href": "/apps/studiodash/private-beta"
+				}
+			]
+		},
+		{
+			"id": "website-documentation",
+			"heading": "Expanded StudioDash Guides",
+			"paragraphs": [
+				"The StudioDash website and guides have been expanded to better explain the product from a developer and studio owner's perspective.",
+				"Dedicated guides now cover the dashboard, App Store analytics, revenue, integrations, website and SEO analytics, reporting, background synchronisation, security, frequently asked questions, and the Private Beta."
 			]
 		},
 		{
 			"id": "looking-ahead",
-			"heading": "Looking Ahead",
+			"heading": "What's Next?",
 			"paragraphs": [
-				"Future updates will introduce additional integrations, richer reporting, automation, forecasting, intelligent summaries, and other developer-focused improvements.",
-				"As new functionality becomes available, this page will provide an overview of what's new together with links to the relevant guides."
+				"Development will continue to focus on preparing StudioDash for real-world beta use, refining the Free, Pro, and Studio experiences, and improving the quality of the information provided across connected services.",
+				"Business intelligence and assistant capabilities are also being developed to help StudioDash move beyond showing information and towards helping developers understand what it means and where their attention may be most valuable."
 			],
 			"bullets": [
-				"New integrations.",
-				"Dashboard enhancements.",
-				"Reporting improvements.",
-				"Automation features.",
-				"Private beta updates."
+				"Complete Studio-tier validation.",
+				"Pro and Free plan testing.",
+				"Private Beta testing with real developer portfolios.",
+				"Continued revenue and reporting improvements.",
+				"Additional useful integrations.",
+				"Business intelligence and developer insights.",
+				"Further performance and usability improvements.",
+				"Preparation for public release."
+			]
+		},
+		{
+			"id": "follow-development",
+			"heading": "Follow StudioDash Development",
+			"paragraphs": [
+				"This page will continue to document significant StudioDash milestones as the product develops. Smaller fixes and internal changes may be grouped together so the Release Notes remain focused on improvements that matter to people using StudioDash.",
+				"For a complete look at the current product, explore the StudioDash Features and Guide pages."
+			],
+			"links": [
+				{
+					"label": "Explore StudioDash Features",
+					"href": "/apps/studiodash/features"
+				},
+				{
+					"label": "Open the StudioDash Guide",
+					"href": "/apps/studiodash/guide"
+				}
 			]
 		}
 	],
@@ -86,16 +198,25 @@
 		"StudioDash release notes",
 		"StudioDash changelog",
 		"StudioDash updates",
-		"developer dashboard"
+		"StudioDash beta",
+		"developer dashboard",
+		"developer analytics",
+		"app revenue dashboard",
+		"StudioDash integrations",
+		"StudioDash background sync",
+		"StudioDash Studio",
+		"indie developer tools"
 	],
-	"estimatedReadTimeMinutes": 4,
+	"estimatedReadTimeMinutes": 8,
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-08",
-	"lastVerified": "2026-07-07",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
 	"relatedPages": [
 		"private-beta",
 		"features",
 		"integrations",
+		"revenue-analytics",
+		"automation-sync",
 		"guide"
 	]
 }

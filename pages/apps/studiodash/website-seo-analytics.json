@@ -1,30 +1,32 @@
 {
 	"documentationSchemaVersion": "1.1.0",
 	"title": "StudioDash Website & SEO Analytics",
-	"seoTitle": "StudioDash Website & SEO Analytics | BarkinMad Studios",
-	"description": "Monitor website traffic, search visibility, and SEO performance with Cloudflare and Google Search Console in one place.",
-	"summary": "StudioDash helps you understand how people discover your products by combining website traffic, search performance, and operational insights into one dashboard.",
+	"seoTitle": "Website, Search & SEO Analytics for Developers | StudioDash",
+	"description": "Bring website analytics and Google Search performance into StudioDash to monitor traffic, search visibility, indexing, pages, queries, and your wider online presence.",
+	"summary": "StudioDash brings supported website and search data alongside your apps and revenue, helping you understand how people discover your products and how your online presence changes over time.",
 	"heroImage": "apps/studiodash/studiodash-hero.png",
-	"heroImageAlt": "StudioDash Website & SEO Analytics dashboard",
+	"heroImageAlt": "StudioDash website and search analytics dashboard",
 	"referenceImage": {
 		"src": "apps/studiodash/studiodash-hero.png",
-		"alt": "StudioDash Website & SEO Analytics dashboard"
+		"alt": "StudioDash website and search analytics dashboard"
 	},
 	"featureShowcases": [
 		{
 			"id": "website-search-visibility",
-			"heading": "Understand Your Website Performance",
-			"summary": "Monitor traffic, search visibility, and website performance from a single workspace.",
-			"body": "StudioDash combines Cloudflare analytics with Google Search Console data to help you understand how visitors find your websites, support pages, and product documentation. Instead of checking multiple dashboards, you can quickly see how traffic, search visibility, and website performance are changing over time.",
+			"heading": "See How People Discover Your Products",
+			"summary": "Bring website activity and Google Search performance into the same workspace as your apps and business.",
+			"body": "Your website can play an important role in product discovery, support, documentation, and marketing. StudioDash brings supported website and search information together so you can follow traffic, search visibility, indexing, and longer-term trends without treating your website as a completely separate part of your studio.",
 			"bullets": [
-				"Monitor website traffic and visitor trends.",
-				"Review search clicks, impressions, CTR, and rankings.",
-				"Understand how website performance supports your apps and products."
+				"Monitor supported website and visitor activity.",
+				"Follow Google Search clicks and impressions.",
+				"Review search queries and pages attracting visitors.",
+				"Track search visibility and average position.",
+				"Keep website performance alongside your apps and revenue."
 			],
 			"image": {
 				"src": "apps/studiodash/Screenshot4.png",
-				"alt": "StudioDash Website & SEO Analytics dashboard",
-				"caption": "Understand how visitors discover your products and websites."
+				"alt": "StudioDash website and Google Search analytics",
+				"caption": "Understand how your website contributes to the visibility of your apps and studio."
 			},
 			"layout": "textRight",
 			"links": [
@@ -37,43 +39,176 @@
 	],
 	"sections": [
 		{
-			"id": "website-analytics",
-			"heading": "Website Analytics",
+			"id": "website-role",
+			"heading": "Your Website Is Part of Your App Business",
 			"paragraphs": [
-				"StudioDash connects with Cloudflare to provide website traffic, visitor activity, page performance, and operational insights for your websites and web applications.",
-				"Whether you're monitoring a product website, support portal, or marketing pages, StudioDash helps you understand how people are interacting with your content."
+				"A developer website can do much more than provide a link to the App Store. Product pages, documentation, support content, news, developer articles, and other useful resources can all help people discover and understand your apps.",
+				"StudioDash keeps supported website information visible alongside the rest of your portfolio, helping you understand your online presence as part of the wider business rather than as an isolated website report."
+			]
+		},
+		{
+			"id": "website-analytics",
+			"heading": "Monitor Website Activity",
+			"paragraphs": [
+				"StudioDash can use supported analytics and website services to provide a clearer view of activity across your sites and web content.",
+				"Rather than relying on raw request counts alone, different connected services can contribute their own perspective on website activity, audience behaviour, search discovery, and infrastructure."
+			],
+			"bullets": [
+				"Follow website activity over time.",
+				"Review supported audience and visitor information.",
+				"Monitor product, support, and content pages.",
+				"Compare website trends across different reporting periods."
+			]
+		},
+		{
+			"id": "google-analytics",
+			"heading": "Understand Your Audience with Google Analytics",
+			"paragraphs": [
+				"Google Analytics can provide useful information about how people interact with your websites and digital content. StudioDash brings supported analytics information into the same workspace as your other studio data.",
+				"This provides an audience-focused view that complements search and infrastructure information, helping you understand actual visitor activity rather than relying on a single source."
+			]
+		},
+		{
+			"id": "cloudflare",
+			"heading": "Keep an Eye on Your Website Infrastructure",
+			"paragraphs": [
+				"Cloudflare provides another perspective on your websites and the infrastructure serving them. StudioDash can bring supported Cloudflare information into your workspace alongside analytics and search performance.",
+				"Request and infrastructure information can include automated traffic as well as genuine visitors, so StudioDash treats it as a different signal from audience analytics rather than assuming every request represents a person."
 			]
 		},
 		{
 			"id": "seo-visibility",
-			"heading": "Search Visibility",
+			"heading": "Follow Your Google Search Visibility",
 			"paragraphs": [
-				"Google Search Console integration helps you monitor how your websites perform in search results. Review clicks, impressions, average position, indexing status, sitemap health, and other SEO insights from one place.",
-				"These metrics make it easier to understand how search visibility changes over time and identify opportunities to improve your content."
+				"Google Search Console shows how your website appears in Google Search. StudioDash can bring supported Search Console information into your reporting so you can follow how search visibility develops over time.",
+				"Clicks, impressions, click-through rate, and average position provide different ways of understanding whether your content is being discovered and whether search visibility is turning into visits."
+			],
+			"bullets": [
+				"Google Search clicks.",
+				"Search impressions.",
+				"Click-through rate.",
+				"Average search position.",
+				"Historical search performance."
 			]
 		},
 		{
-			"id": "quality-context",
-			"heading": "See the Bigger Picture",
+			"id": "queries",
+			"heading": "See What People Are Searching For",
 			"paragraphs": [
-				"Website analytics become even more valuable when viewed alongside app releases, revenue, provider health, and marketing activity.",
-				"StudioDash helps you connect these different signals so you can better understand what influences traffic, downloads, and user engagement across your products."
+				"Search query information can reveal the terms people use before finding your website. This can help you understand whether your product pages, guides, articles, and other content are appearing for the searches you intended to target.",
+				"Over time, query information can also reveal unexpected ways people discover your products and provide ideas for useful new content."
+			]
+		},
+		{
+			"id": "pages",
+			"heading": "Discover Which Pages Attract Search Traffic",
+			"paragraphs": [
+				"Page-level search reporting helps identify which parts of your website are earning visibility and visits from Google Search.",
+				"This can be especially useful when your site contains more than product pages. Documentation, support articles, news, developer content, and other useful resources can all contribute to the overall visibility of your studio."
+			]
+		},
+		{
+			"id": "indexing",
+			"heading": "Keep Track of Search Indexing",
+			"paragraphs": [
+				"Publishing a page does not automatically mean it will immediately appear in search results. Search engines need to discover, crawl, and index content before it can become visible for relevant searches.",
+				"Supported Search Console information can help you understand the indexing state of your website and identify areas that may deserve further investigation."
+			]
+		},
+		{
+			"id": "sitemaps",
+			"heading": "Monitor the Foundations of Search Discovery",
+			"paragraphs": [
+				"Sitemaps help search engines discover the pages available across your website. Keeping an eye on sitemap and indexing information can help identify whether important product, support, or content pages are being presented correctly for discovery.",
+				"StudioDash brings supported search information into the same reporting environment as your other website performance data."
+			]
+		},
+		{
+			"id": "traffic-quality",
+			"heading": "Understand the Difference Between Traffic Signals",
+			"paragraphs": [
+				"Different website services measure different things. Infrastructure request counts, analytics visitors, and Google Search clicks are related signals, but they should not be expected to produce identical numbers.",
+				"Automated crawlers, search engines, monitoring services, cached requests, privacy controls, and measurement methods can all affect the figures reported by different providers. StudioDash keeps these sources in context rather than treating them as interchangeable."
+			]
+		},
+		{
+			"id": "content-performance",
+			"heading": "See Whether Your Content Is Working",
+			"paragraphs": [
+				"A useful developer website can grow beyond a collection of product pages. Guides, documentation, support information, news, and developer content can all create additional opportunities for discovery.",
+				"Website and search reporting can help you see which areas are gaining visibility and where further useful content may strengthen the online presence of your apps and studio."
+			]
+		},
+		{
+			"id": "app-context",
+			"heading": "Connect Website Performance with Your Apps",
+			"paragraphs": [
+				"Website activity becomes more useful when it can be viewed alongside what is happening elsewhere in your portfolio. A release, marketing campaign, new article, documentation update, or increase in search visibility may coincide with changes in other parts of your studio.",
+				"StudioDash keeps these areas within the same workspace, making it easier to investigate relationships without claiming that one metric automatically caused another."
+			]
+		},
+		{
+			"id": "historical-performance",
+			"heading": "Watch Visibility Grow Over Time",
+			"paragraphs": [
+				"Search visibility and useful website traffic generally develop over time rather than changing overnight. Historical reporting helps you see whether impressions, clicks, traffic, and other supported signals are moving in the right direction.",
+				"Comparing longer periods can provide a more useful view of website progress than reacting to individual days."
+			],
+			"links": [
+				{
+					"label": "Explore StudioDash Reporting",
+					"href": "/apps/studiodash/reporting"
+				}
+			]
+		},
+		{
+			"id": "connected-services",
+			"heading": "Website Insights from Multiple Services",
+			"paragraphs": [
+				"Google Analytics, Cloudflare, and Google Search Console each provide a different view of your online presence. Used together, they can provide more context than relying on any one service alone.",
+				"StudioDash brings supported information from these services into one workspace while preserving the meaning of the individual metrics."
+			],
+			"links": [
+				{
+					"label": "Explore StudioDash Integrations",
+					"href": "/apps/studiodash/integrations"
+				}
+			]
+		},
+		{
+			"id": "reporting-by-plan",
+			"heading": "Website Analytics for Different StudioDash Plans",
+			"paragraphs": [
+				"StudioDash is designed around Free, Pro, and Studio plans. The level of website, search, historical, and detailed reporting available can vary by plan.",
+				"This allows developers to start with useful high-level information and access deeper analysis as their website, portfolio, and reporting needs grow."
 			]
 		}
 	],
 	"keywords": [
 		"StudioDash Website Analytics",
 		"StudioDash SEO",
-		"Cloudflare Analytics",
-		"Google Search Console"
+		"developer website analytics",
+		"Google Search Console dashboard",
+		"Google Analytics developer dashboard",
+		"Cloudflare analytics",
+		"SEO analytics dashboard",
+		"website search analytics",
+		"Google Search impressions",
+		"Google Search clicks",
+		"search visibility",
+		"website indexing",
+		"app website SEO",
+		"indie developer SEO",
+		"developer website traffic"
 	],
-	"estimatedReadTimeMinutes": 3,
+	"estimatedReadTimeMinutes": 8,
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
 	"relatedPages": [
-		"integrations",
 		"dashboard",
-		"reporting"
+		"integrations",
+		"reporting",
+		"automation-sync"
 	]
 }

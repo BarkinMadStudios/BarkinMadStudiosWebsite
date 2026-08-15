@@ -1,0 +1,256 @@
+{
+	"documentationSchemaVersion": "1.2.0",
+	"title": "StudioDash Troubleshooting",
+	"seoTitle": "StudioDash Troubleshooting | Sync, Revenue & Analytics Help",
+	"description": "Troubleshoot StudioDash provider connections, sync issues, delayed revenue, App Store data, website analytics, reporting and dashboard differences.",
+	"summary": "Practical troubleshooting for StudioDash connections, Provider Health, updates, delayed or revised revenue, App Store information, website analytics and reporting.",
+	"heroImage": "apps/studiodash/studiodash-hero.png",
+	"heroImageAlt": "StudioDash developer dashboard showing provider health, revenue and analytics information",
+	"referenceImage": {
+		"src": "apps/studiodash/studiodash-hero.png",
+		"alt": "StudioDash developer dashboard showing provider health, revenue and analytics information"
+	},
+	"sections": [
+		{
+			"id": "start-troubleshooting",
+			"heading": "Start Here: Check StudioDash Provider Health",
+			"paragraphs": [
+				"When information in StudioDash does not look as expected, start with Provider Health. Check whether the affected integration is connected, when it last updated and whether StudioDash reports that the provider needs attention.",
+				"Next, confirm the reporting period you are viewing and compare it with the same period in the original provider dashboard. Different reporting windows, provider delays and revised data can explain many apparent differences without indicating a StudioDash problem.",
+				"If the provider is connected and healthy, request a manual update when you need StudioDash to check for the latest information currently available from that service."
+			]
+		},
+		{
+			"id": "provider-will-not-connect",
+			"heading": "A Provider Will Not Connect",
+			"paragraphs": [
+				"First, review the credentials, identifiers or connection details required by that service. Credentials may need updating, the account may not have the required permissions, the selected account may not expose the information you expect, or the provider may be temporarily unavailable.",
+				"Check that the credentials belong to the intended account and that they have the permissions required for the information StudioDash is trying to retrieve.",
+				"StudioDash complements the original provider account rather than replacing it. Check the provider's own dashboard for account access, permissions, billing requirements and service notices, then return to StudioDash and try the connection again."
+			],
+			"links": [
+				{
+					"label": "Explore Supported Integrations",
+					"href": "/apps/studiodash/integrations"
+				},
+				{
+					"label": "Learn About Security & Privacy",
+					"href": "/apps/studiodash/security-privacy"
+				}
+			]
+		},
+		{
+			"id": "attention-required",
+			"heading": "Provider Health Shows Attention Required",
+			"paragraphs": [
+				"Attention Required does not automatically mean your data has been lost. It means StudioDash has identified something that may prevent the provider from updating normally or contributing the information expected.",
+				"Common causes include expired or incorrect credentials, insufficient account permissions, incomplete configuration, a provider request failure or a temporary problem with the external service.",
+				"Check the provider status in StudioDash, review the connected account and configuration, then request a manual update after making any required change."
+			]
+		},
+		{
+			"id": "data-looks-old",
+			"heading": "StudioDash Data Looks Old or Has Not Changed",
+			"paragraphs": [
+				"Different providers publish information at different times. Some analytics, revenue and App Store information is delayed by the provider, and very recent figures are not necessarily complete or final.",
+				"A successful StudioDash update therefore means the provider request completed successfully. It does not guarantee that the provider had newer information to return.",
+				"On Mac, supported providers can update periodically in the background. You can also request a manual update whenever you want StudioDash to check for the latest available information. Check the latest update time and compare the same reporting period in the original provider dashboard if a result needs investigation."
+			],
+			"links": [
+				{
+					"label": "Learn About Automation & Sync",
+					"href": "/apps/studiodash/automation-sync"
+				}
+			]
+		},
+		{
+			"id": "app-store-connect",
+			"heading": "App Store Connect Information Is Missing or Different",
+			"paragraphs": [
+				"App Store Connect information can be published on different schedules depending on the type of data being reported. App status, downloads, sales, revenue, ratings and other information should not be assumed to update at exactly the same time.",
+				"Check that the correct App Store Connect account is connected and that it has permission to access the apps and information you expect StudioDash to display.",
+				"If an app or figure appears to be missing, compare the selected StudioDash reporting period with App Store Connect and request a manual update before investigating further."
+			],
+			"links": [
+				{
+					"label": "Explore App Store Analytics",
+					"href": "/apps/studiodash/app-store-analytics"
+				}
+			]
+		},
+		{
+			"id": "revenue-changed",
+			"heading": "Revenue Changed After I Already Saw It",
+			"paragraphs": [
+				"This can be normal. Advertising networks, App Store reporting and other external services can revise earlier revenue figures as reports are processed, validated or finalised. StudioDash can reflect revised provider information when it becomes available.",
+				"A previous revenue figure should therefore not always be treated as final, particularly for recent reporting periods.",
+				"For account-specific questions, compare the same date range, provider and currency in the original provider dashboard. Reporting windows, time zones, currency conversion, provider adjustments and finalisation can all contribute to an apparent difference."
+			],
+			"links": [
+				{
+					"label": "Explore Revenue Analytics",
+					"href": "/apps/studiodash/revenue-analytics"
+				}
+			]
+		},
+		{
+			"id": "revenue-provider-difference",
+			"heading": "StudioDash Revenue Does Not Exactly Match a Provider Dashboard",
+			"paragraphs": [
+				"Start by checking that StudioDash and the provider dashboard are showing exactly the same reporting period. Also check whether the provider is displaying a different currency or applying a different time zone or reporting boundary.",
+				"Recent advertising revenue may be estimated or subsequently adjusted by the advertising provider. StudioDash can receive those revised figures during later provider updates.",
+				"If the periods and currencies match but the difference remains, check the latest StudioDash update time. The provider dashboard may contain information that was published after StudioDash last requested an update."
+			]
+		},
+		{
+			"id": "missing-breakdown",
+			"heading": "A Revenue, Country or Provider Breakdown Is Missing",
+			"paragraphs": [
+				"Breakdowns such as revenue by provider, app or country are available only when the connected service supplies that information and your current StudioDash plan includes that level of detail. A missing breakdown does not necessarily mean the main connection has failed.",
+				"An app, country or provider can also be absent because there was no relevant activity for the selected period, it has not been connected or mapped, the account lacks access, the provider has not returned the information yet, or the current integration does not support that breakdown.",
+				"Check a wider reporting period and compare the corresponding provider dashboard before treating an empty breakdown as an error."
+			]
+		},
+		{
+			"id": "app-mapping",
+			"heading": "An App Is Missing from Integration or Asset Mapping",
+			"paragraphs": [
+				"Some integrations need StudioDash to associate an external provider asset, property or identifier with an app in your portfolio. An app may therefore appear elsewhere in StudioDash before a compatible asset is available for mapping in a particular integration.",
+				"Check that the app or property exists in the provider account, that the connected account has permission to access it and that the provider exposes the required identifier or asset through the integration.",
+				"If the provider has only recently been configured, request an update before checking the available mapping options again."
+			]
+		},
+		{
+			"id": "background-sync",
+			"heading": "Background Updates Do Not Appear to Be Running on Mac",
+			"paragraphs": [
+				"Confirm that the provider is connected, check Provider Health and review its latest update status. StudioDash background updating on Mac periodically checks supported providers when they are eligible for another update.",
+				"Your Mac must be available for background work. If StudioDash has not updated a provider when expected, request a manual update to determine whether the provider can be contacted successfully.",
+				"A background update does not guarantee new figures every time. StudioDash may successfully check a provider that simply has no new information available."
+			],
+			"links": [
+				{
+					"label": "Learn About Automation & Sync",
+					"href": "/apps/studiodash/automation-sync"
+				}
+			]
+		},
+		{
+			"id": "manual-update",
+			"heading": "A Manual Provider Update Fails",
+			"paragraphs": [
+				"If a manual update fails, check Provider Health and the status message shown for that integration. A failure can result from credentials, permissions, provider availability, network connectivity or provider-specific configuration.",
+				"Do not repeatedly remove and reconnect a provider unless its configuration actually needs changing. First check the provider's own service and account status, then try another manual update.",
+				"If the problem continues, record the provider name, reporting period, update time and non-sensitive error or status information before contacting support."
+			]
+		},
+		{
+			"id": "website-figures",
+			"heading": "Cloudflare, Google Analytics and Search Console Figures Do Not Match",
+			"paragraphs": [
+				"Cloudflare requests, Google Analytics users or sessions, and Google Search Console clicks measure different types of activity. They use different collection methods and reporting rules, so their totals should not be expected to match.",
+				"Cloudflare can record requests from browsers, search-engine crawlers, automated services and other bots. Google Analytics measures activity according to its analytics collection and consent configuration, while Search Console reports activity originating from Google Search.",
+				"Use each source for the question it is designed to answer rather than treating Cloudflare requests, analytics users and Search Console clicks as interchangeable website traffic totals."
+			],
+			"links": [
+				{
+					"label": "Explore Website & SEO Analytics",
+					"href": "/apps/studiodash/website-seo-analytics"
+				}
+			]
+		},
+		{
+			"id": "google-analytics",
+			"heading": "Google Analytics Shows Little or No Data",
+			"paragraphs": [
+				"Check that the intended Google Analytics property is connected and mapped correctly and that the selected reporting period contains activity.",
+				"Google Analytics data depends on the analytics implementation used by your website or app. Consent settings, analytics configuration and reporting delays can all affect the information available.",
+				"If Google Analytics contains data but StudioDash does not yet show it, check the latest provider update time and request a manual update."
+			]
+		},
+		{
+			"id": "search-console-data",
+			"heading": "Google Search Console Shows Little or No Data",
+			"paragraphs": [
+				"Search visibility and indexing take time, and Search Console information can lag behind recent website activity. A newly published or recently indexed page may therefore have little or no search-performance data initially.",
+				"Check that the intended Search Console property is connected, confirm that Google Search has begun indexing the relevant pages and select a sufficiently broad reporting period before assuming there is a problem.",
+				"No clicks or impressions for a period can also be a valid result rather than an integration failure."
+			]
+		},
+		{
+			"id": "reporting-period",
+			"heading": "I Changed the Reporting Period but Nothing New Downloaded",
+			"paragraphs": [
+				"This is expected. StudioDash can reuse information it has already collected when you change a reporting period. Changing a date range is primarily a reporting action, not an instruction to contact every external provider again.",
+				"This keeps StudioDash responsive and avoids unnecessary provider requests. Use the provider's manual update action when you specifically want StudioDash to request newer information."
+			],
+			"links": [
+				{
+					"label": "Explore StudioDash Reporting",
+					"href": "/apps/studiodash/reporting"
+				}
+			]
+		},
+		{
+			"id": "empty-period",
+			"heading": "A Dashboard or Report Shows No Data",
+			"paragraphs": [
+				"No data is not necessarily an error. The selected period may contain no activity, the provider may not supply that type of information, the integration may not have collected the required historical period, or your StudioDash plan may not include that level of detail.",
+				"Try a wider reporting period, check Provider Health and confirm that the relevant provider contains information for the same dates.",
+				"If the provider dashboard contains data for the period but StudioDash remains empty after a successful update, the result may need further investigation."
+			]
+		},
+		{
+			"id": "contact-support",
+			"heading": "Before Contacting StudioDash Support",
+			"paragraphs": [
+				"Check Provider Health, the latest update time, your selected reporting period, the original provider dashboard, the current integration status and a manual update before reporting a problem.",
+				"When contacting support, include the provider name, the app or service affected, what you expected to see, what StudioDash displayed instead, the reporting period, the time of the most recent update and any non-sensitive status or error message. This information can make an integration problem substantially easier to investigate.",
+				"Never send passwords, API secrets, access keys, private keys, authentication tokens or other credentials in a support report."
+			],
+			"links": [
+				{
+					"label": "Review Security & Privacy",
+					"href": "/apps/studiodash/security-privacy"
+				},
+				{
+					"label": "StudioDash Frequently Asked Questions",
+					"href": "/apps/studiodash/frequently-asked-questions"
+				}
+			]
+		}
+	],
+	"keywords": [
+		"StudioDash troubleshooting",
+		"StudioDash help",
+		"StudioDash sync problems",
+		"developer dashboard troubleshooting",
+		"App Store Connect dashboard troubleshooting",
+		"App Store Connect analytics help",
+		"app revenue dashboard troubleshooting",
+		"advertising revenue discrepancy",
+		"LevelPlay revenue reporting",
+		"provider health help",
+		"Google Analytics troubleshooting",
+		"Google Search Console troubleshooting",
+		"Cloudflare analytics",
+		"website analytics troubleshooting",
+		"app analytics troubleshooting",
+		"indie developer analytics support"
+	],
+	"estimatedReadTimeMinutes": 10,
+	"contentStatus": "verified",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
+	"relatedPages": [
+		"getting-started",
+		"integrations",
+		"app-store-analytics",
+		"automation-sync",
+		"revenue-analytics",
+		"reporting",
+		"website-seo-analytics",
+		"security-privacy",
+		"frequently-asked-questions"
+	]
+}

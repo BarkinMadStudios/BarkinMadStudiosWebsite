@@ -3,46 +3,52 @@
 	"documentationProfile": "developerTool",
 	"appSlug": "studiodash",
 	"title": "StudioDash Guides",
-	"description": "Official StudioDash guides covering every aspect of the platform, from getting started and integrations to analytics, reporting, security, and future development.",
+	"description": "Official StudioDash guides covering setup, app analytics, revenue, integrations, reporting, background sync, website performance, security, plans and troubleshooting for your app portfolio.",
 	"landingPage": "overview",
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
-	"estimatedReadTimeMinutes": 42,
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
+	"estimatedReadTimeMinutes": 84,
 	"relatedSeries": [
 		"/apps/non-zx"
 	],
 	"keywords": [
 		"StudioDash",
 		"developer dashboard",
+		"indie developer dashboard",
 		"app analytics",
 		"revenue analytics",
+		"app revenue dashboard",
 		"App Store Connect",
+		"LevelPlay",
+		"Google Analytics",
 		"Cloudflare",
 		"Google Search Console",
-		"AdMob"
+		"Google AdSense",
+		"developer reporting",
+		"app portfolio management"
 	],
 	"pages": [
 		{
 			"slug": "overview",
 			"title": "Overview",
-			"description": "Discover StudioDash and see how it helps developers manage apps, revenue, websites, and connected services.",
+			"description": "Discover StudioDash and see how it brings your apps, revenue, analytics, websites, and connected services together.",
 			"required": true,
 			"status": "required",
 			"order": 1
 		},
 		{
-			"slug": "features",
-			"title": "Features",
-			"description": "Explore the tools that make StudioDash your central developer workspace.",
+			"slug": "getting-started",
+			"title": "Getting Started",
+			"description": "Set up StudioDash, connect the services relevant to your studio and explore your first useful dashboard.",
 			"required": true,
 			"status": "required",
 			"order": 2
 		},
 		{
-			"slug": "integrations",
-			"title": "Integrations",
-			"description": "Learn which developer services StudioDash connects to and how they work together.",
+			"slug": "features",
+			"title": "Features",
+			"description": "Explore the tools StudioDash provides for monitoring your apps and understanding the business behind them.",
 			"required": true,
 			"status": "required",
 			"order": 3
@@ -50,23 +56,23 @@
 		{
 			"slug": "dashboard",
 			"title": "Dashboard",
-			"description": "See how StudioDash brings your apps, revenue, websites, and providers together in one dashboard.",
+			"description": "See how StudioDash provides a central view of your app portfolio, revenue, analytics, and connected services.",
 			"required": true,
 			"status": "required",
 			"order": 4
 		},
 		{
-			"slug": "revenue-analytics",
-			"title": "Revenue Analytics",
-			"description": "Track App Store, advertising, and website revenue from one place.",
+			"slug": "app-store-analytics",
+			"title": "App Store Analytics",
+			"description": "Monitor your App Store portfolio, downloads, sales, revenue, ratings, reviews, and release status.",
 			"required": true,
 			"status": "required",
 			"order": 5
 		},
 		{
-			"slug": "app-store-analytics",
-			"title": "App Store Analytics",
-			"description": "Monitor app performance, downloads, ratings, reviews, and release status through App Store Connect.",
+			"slug": "revenue-analytics",
+			"title": "Revenue Analytics",
+			"description": "Bring supported App Store, advertising, and other revenue sources together and understand how your studio is performing.",
 			"required": true,
 			"status": "required",
 			"order": 6
@@ -74,15 +80,15 @@
 		{
 			"slug": "website-seo-analytics",
 			"title": "Website & SEO Analytics",
-			"description": "Review website traffic, search visibility, and SEO performance with Cloudflare and Google Search Console.",
+			"description": "Monitor supported website analytics, search visibility, and SEO performance alongside your app portfolio.",
 			"required": true,
 			"status": "required",
 			"order": 7
 		},
 		{
-			"slug": "reporting",
-			"title": "Reporting",
-			"description": "Learn how StudioDash helps you review trends, compare time periods, and understand your data.",
+			"slug": "integrations",
+			"title": "Integrations",
+			"description": "Explore the app, advertising, analytics, website, and search services you can connect to StudioDash.",
 			"required": true,
 			"status": "required",
 			"order": 8
@@ -90,58 +96,82 @@
 		{
 			"slug": "automation-sync",
 			"title": "Automation & Sync",
-			"description": "Understand synchronisation, provider health, cached data, and future automation features.",
+			"description": "Learn how background synchronisation on Mac, manual refresh, provider health, and cached data keep StudioDash up to date.",
 			"required": true,
 			"status": "required",
 			"order": 9
 		},
 		{
-			"slug": "security-privacy",
-			"title": "Security & Privacy",
-			"description": "Learn how StudioDash protects your credentials, connected services, and developer data.",
+			"slug": "reporting",
+			"title": "Reporting",
+			"description": "Review historical performance, explore different reporting periods, and understand how your apps and studio change over time.",
 			"required": true,
 			"status": "required",
 			"order": 10
 		},
 		{
-			"slug": "frequently-asked-questions",
-			"title": "FAQ",
-			"description": "Find answers to the most common questions about StudioDash, its features, and private beta.",
+			"slug": "plans-pricing",
+			"title": "Plans & Pricing",
+			"description": "Compare StudioDash Free, Pro, and Studio plans and choose the level of analytics and business insight that fits your studio.",
 			"required": true,
 			"status": "required",
 			"order": 11
 		},
 		{
-			"slug": "release-notes",
-			"title": "Release Notes",
-			"description": "Follow StudioDash development milestones, feature updates, and release progress.",
+			"slug": "security-privacy",
+			"title": "Security & Privacy",
+			"description": "Learn how StudioDash approaches provider credentials, connected accounts, permissions, and your studio data.",
 			"required": true,
 			"status": "required",
 			"order": 12
 		},
 		{
+			"slug": "troubleshooting",
+			"title": "Troubleshooting",
+			"description": "Understand common connection, update, reporting, revenue and website analytics questions before contacting support.",
+			"required": true,
+			"status": "required",
+			"order": 13
+		},
+		{
+			"slug": "frequently-asked-questions",
+			"title": "FAQ",
+			"description": "Find answers about StudioDash plans, platforms, integrations, revenue analytics, background sync, reporting, and security.",
+			"required": true,
+			"status": "required",
+			"order": 14
+		},
+		{
+			"slug": "release-notes",
+			"title": "Release Notes",
+			"description": "Follow StudioDash releases, new features, improvements, integration updates, and other product changes.",
+			"required": true,
+			"status": "required",
+			"order": 15
+		},
+		{
 			"slug": "private-beta",
 			"title": "Private Beta",
-			"description": "Learn how the StudioDash private beta works and how developers can get involved.",
+			"description": "Learn about StudioDash beta testing, availability, and opportunities to help test upcoming releases.",
 			"required": false,
 			"status": "optional",
-			"order": 13
+			"order": 16
 		},
 		{
 			"slug": "guide",
 			"title": "Complete Guide",
-			"description": "Everything you need to know about StudioDash in one comprehensive guide.",
+			"description": "Explore the complete StudioDash guide covering apps, revenue, integrations, reporting, synchronisation, websites, and security.",
 			"required": false,
 			"status": "optional",
-			"order": 14
+			"order": 17
 		},
 		{
 			"slug": "screenshots",
 			"title": "Screenshots",
-			"description": "Take a visual tour of StudioDash and discover the key features of every screen.",
+			"description": "Take a visual tour of StudioDash and see its dashboards, analytics, integrations, and reporting tools.",
 			"required": false,
 			"status": "optional",
-			"order": 15
+			"order": 18
 		}
 	]
 }

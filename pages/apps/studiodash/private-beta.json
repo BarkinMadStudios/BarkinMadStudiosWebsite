@@ -1,124 +1,296 @@
 {
 	"documentationSchemaVersion": "1.1.0",
 	"title": "StudioDash Private Beta",
-	"seoTitle": "StudioDash Private Beta | BarkinMad Studios",
-	"description": "Learn about the StudioDash Private Beta, who it's designed for, and how you can help shape the future of the platform.",
-	"summary": "StudioDash is preparing for a controlled private beta with independent developers and small studios who want to help shape the product.",
+	"seoTitle": "StudioDash Private Beta | Developer Analytics Dashboard",
+	"description": "Join the StudioDash Private Beta, test the complete Studio tier, and receive a year of Studio plus an exclusive beta tester purchase offer after launch.",
+	"summary": "Help shape StudioDash with real-world testing. Active beta participants receive full Studio access during the beta, 12 months of Studio free from public launch, and an exclusive discount on Pro or Studio afterwards.",
 	"heroImage": "apps/studiodash/studiodash-hero.png",
-	"heroImageAlt": "StudioDash Private Beta",
+	"heroImageAlt": "StudioDash Private Beta developer dashboard",
 	"referenceImage": {
 		"src": "apps/studiodash/studiodash-hero.png",
-		"alt": "StudioDash Private Beta"
+		"alt": "StudioDash Private Beta developer dashboard"
 	},
 	"sections": [
 		{
 			"id": "private-beta-overview",
 			"heading": "Help Shape StudioDash",
 			"paragraphs": [
-				"StudioDash is preparing for a controlled private beta, giving a small group of independent developers and studios early access before the public release.",
-				"The goal is simple: work alongside real developers, gather practical feedback, and ensure StudioDash solves the challenges developers face every day."
+				"StudioDash is being prepared for testing with independent developers and small studios before its wider public release.",
+				"The Private Beta is an opportunity to use StudioDash with real apps, revenue sources, websites, analytics, and developer services. Feedback from everyday use will help identify what works well, what needs improving, and which capabilities provide the most value."
+			]
+		},
+		{
+			"id": "beta-reward",
+			"heading": "A Thank You for Helping Build StudioDash",
+			"paragraphs": [
+				"Active Private Beta participants will receive full Studio access throughout the beta and 12 months of the Studio tier at no cost when StudioDash reaches its public release.",
+				"Your complimentary year starts from the public launch of StudioDash, not from the date you join the beta. The time you spend helping test pre-release versions therefore does not reduce your 12 months of Studio access.",
+				"At the end of your complimentary year, eligible beta testers will also receive an exclusive opportunity to purchase either Pro or Studio at a discounted beta tester price."
+			],
+			"bullets": [
+				"Full Studio access throughout the Private Beta.",
+				"12 months of Studio free from the public launch date.",
+				"Beta testing time does not count towards your complimentary year.",
+				"Exclusive beta tester discount on Pro or Studio after the complimentary year.",
+				"No automatic purchase or charge when your complimentary access ends."
+			]
+		},
+		{
+			"id": "beta-purchase-offer",
+			"heading": "Exclusive Beta Tester Purchase Offer",
+			"paragraphs": [
+				"After completing the complimentary year, eligible beta participants will be offered a special discount on their choice of StudioDash Pro or Studio.",
+				"The offer is intended as a further thank you for helping test StudioDash before its public release. Redemption will be handled through Apple's App Store purchasing system, with the available offer and redemption details provided to eligible participants.",
+				"Using the offer is completely optional. If you decide StudioDash is no longer right for you, there is nothing to cancel and no automatic payment will be taken."
+			],
+			"bullets": [
+				"Choose between a discounted Pro or Studio purchase.",
+				"Offer available to eligible active Private Beta participants.",
+				"Redeem through Apple's App Store purchasing system.",
+				"No automatic conversion to a paid plan.",
+				"Continue with Free if you decide not to purchase."
+			]
+		},
+		{
+			"id": "why-private-beta",
+			"heading": "Why a Private Beta?",
+			"paragraphs": [
+				"StudioDash connects to services that can vary considerably between developers. Different portfolios use different advertising platforms, analytics services, websites, account structures, and reporting workflows.",
+				"Testing with a controlled group makes it possible to see how StudioDash performs with real developer businesses rather than relying entirely on a single portfolio or test environment."
 			]
 		},
 		{
 			"id": "what-studiodash-offers",
-			"heading": "What You'll Be Exploring",
+			"heading": "Test the Complete Studio Experience",
 			"paragraphs": [
-				"Private beta participants will experience StudioDash as a native Mac and iPad workspace designed to bring together the information developers check most often."
+				"Private Beta participants receive access to the Studio tier so testing can cover the complete StudioDash experience rather than being limited to the features available in the Free or Pro plans.",
+				"This gives beta participants the opportunity to test StudioDash with their own portfolio and supported services while helping validate its more advanced analytics, reporting, and business capabilities."
 			],
 			"bullets": [
-				"Portfolio dashboards for apps, games, websites, and revenue.",
-				"App Store Connect downloads, ratings, reviews, and lifecycle information.",
-				"Cloudflare, advertising, search visibility, provider health, reporting, and synchronisation.",
-				"A single workspace designed to reduce dashboard switching."
+				"App portfolio and App Store analytics.",
+				"Revenue from supported app and advertising sources.",
+				"Website, analytics, and search performance.",
+				"Connected service and provider health.",
+				"Historical reporting and performance trends.",
+				"Background data synchronisation on Mac.",
+				"Advanced Studio analytics and business-focused insights."
+			]
+		},
+		{
+			"id": "real-data",
+			"heading": "Test StudioDash with Your Own Services",
+			"paragraphs": [
+				"The most useful StudioDash testing comes from connecting real services and seeing whether the resulting dashboard answers the questions you normally have about your apps and business.",
+				"Supported integrations can bring information from app, advertising, analytics, website, and search services together, allowing the beta to test StudioDash against a wider variety of real-world developer setups."
+			],
+			"links": [
+				{
+					"label": "Explore StudioDash Integrations",
+					"href": "/apps/studiodash/integrations"
+				}
 			]
 		},
 		{
 			"id": "who-the-beta-is-for",
-			"heading": "Who Should Apply?",
+			"heading": "Who Is the Private Beta For?",
 			"paragraphs": [
-				"The StudioDash Private Beta is designed for developers who actively manage apps, games, websites, or online services and are happy to provide honest, constructive feedback."
+				"The Private Beta is intended for people actively publishing or managing digital products who can test StudioDash as part of a genuine development or studio workflow."
 			],
 			"bullets": [
-				"Independent developers.",
-				"Small studios.",
-				"Publishers and digital creators.",
-				"Teams managing multiple products and services.",
-				"Anyone comfortable testing pre-release software."
+				"Independent app and game developers.",
+				"Solo developers running their own app business.",
+				"Small development studios.",
+				"Developers managing several apps or games.",
+				"Developers using advertising or other monetisation services.",
+				"Developers managing websites alongside their apps.",
+				"People comfortable testing pre-release software and providing feedback."
+			]
+		},
+		{
+			"id": "active-participation",
+			"heading": "What Counts as Active Participation?",
+			"paragraphs": [
+				"The beta rewards are intended as a thank you to participants who genuinely help test StudioDash. You will not be expected to complete lengthy testing programmes or provide constant feedback.",
+				"Using StudioDash with your own supported services and providing useful feedback about problems, confusing areas, missing information, or features that work particularly well can all make a valuable contribution."
+			],
+			"bullets": [
+				"Use StudioDash during the Private Beta.",
+				"Test it with real apps or supported services where practical.",
+				"Report bugs or unexpected behaviour you encounter.",
+				"Share useful feedback about the dashboard and workflows.",
+				"Help identify areas that could make StudioDash more useful."
 			]
 		},
 		{
 			"id": "feedback-we-are-looking-for",
-			"heading": "What We're Looking For",
+			"heading": "What We Want to Learn",
 			"paragraphs": [
-				"Your feedback will help shape the future of StudioDash by identifying opportunities to improve the product before its public release."
+				"The Private Beta is about more than finding software bugs. It is intended to determine whether StudioDash genuinely makes running an independent app business easier.",
+				"Feedback will help determine which information deserves the most attention, where workflows can be simplified, and which integrations and capabilities should be prioritised."
 			],
 			"bullets": [
-				"Which dashboards you use most often.",
-				"Where the interface could be clearer.",
-				"Which integrations matter most.",
-				"Ways to reduce dashboard switching.",
-				"Suggestions for improving usability, performance, reporting, and synchronisation."
+				"Whether the dashboard gives you a useful overview of your studio.",
+				"Which information you check most frequently.",
+				"Whether revenue reporting makes multiple income sources easier to understand.",
+				"How useful the App Store and portfolio views are for managing several products.",
+				"Whether background synchronisation keeps information sufficiently up to date.",
+				"Which integrations are most important to your workflow.",
+				"Where StudioDash can reduce visits to separate provider dashboards.",
+				"Any areas that are unclear, slow, or difficult to use."
+			]
+		},
+		{
+			"id": "beta-expectations",
+			"heading": "What to Expect from Beta Software",
+			"paragraphs": [
+				"StudioDash is still under active development. Private Beta versions may contain bugs, incomplete areas, interface changes, or behaviour that changes between releases.",
+				"Connected providers can also report information differently or revise previously reported figures. Part of the beta process is making sure StudioDash handles those real-world differences clearly and reliably."
+			]
+		},
+		{
+			"id": "plans-during-beta",
+			"heading": "Free, Pro & Studio",
+			"paragraphs": [
+				"StudioDash is designed around Free, Pro, and Studio plans, with different levels of analytics, reporting, and business capabilities.",
+				"Private Beta participants will normally receive Studio access so the complete product can be tested. During the beta, you may occasionally be asked to test the experience of another plan to help make sure Free and Pro also provide the intended experience."
+			]
+		},
+		{
+			"id": "after-free-year",
+			"heading": "What Happens After Your Free Year?",
+			"paragraphs": [
+				"Your complimentary Studio access will not automatically turn into a paid purchase or subscription.",
+				"At the end of the 12-month period, eligible beta testers will be able to choose a discounted Pro or Studio purchase through the beta tester offer. If you do not redeem an offer, you can continue using the Free tier and its available features."
+			],
+			"bullets": [
+				"Choose discounted Pro or Studio.",
+				"Purchase only if you want to continue with a paid tier.",
+				"No automatic billing.",
+				"Free remains available if you do not purchase."
 			]
 		},
 		{
 			"id": "invitations",
 			"heading": "How Invitations Work",
 			"paragraphs": [
-				"Places in the private beta are limited. Invitations will be issued in stages based on testing requirements, supported platforms, integration coverage, and the feedback we're looking for.",
-				"If you're selected, you'll receive your invitation directly from BarkinMad Studios before the wider public release."
+				"Private Beta access will be introduced gradually rather than opening StudioDash to everyone at once. This makes it easier to investigate feedback and problems while the product is still evolving.",
+				"Participants may be selected to provide a useful mix of portfolio sizes, monetisation models, integrations, and development workflows."
 			]
 		},
 		{
 			"id": "application-interest-details",
-			"heading": "Applying for the Private Beta",
+			"heading": "Registering Your Interest",
 			"paragraphs": [
-				"Applications aren't open just yet, but the information below gives an overview of what we'll ask for when registrations begin."
+				"When Private Beta registrations are available, a small amount of information may be requested to help understand your development setup and determine whether the current StudioDash integrations are suitable for you."
 			],
 			"bullets": [
-				"Name.",
-				"Email address.",
-				"Company or studio (optional).",
-				"Website (optional).",
-				"Country (optional).",
-				"Developer type.",
-				"Publishing platforms.",
-				"Number of published apps or games.",
-				"Approximate monthly downloads (optional).",
-				"Features you're most interested in.",
-				"Why you'd like to join the beta.",
-				"Agreement to provide feedback.",
-				"Acceptance of the Privacy Policy."
+				"Your name and email address.",
+				"Company or studio name, if applicable.",
+				"Developer or studio type.",
+				"Platforms you publish on.",
+				"Approximate number of published apps or games.",
+				"Services or integrations you currently use.",
+				"StudioDash features you're most interested in testing.",
+				"Why you'd like to participate.",
+				"Agreement to provide useful beta feedback."
+			]
+		},
+		{
+			"id": "security",
+			"heading": "Testing with Business Data",
+			"paragraphs": [
+				"StudioDash can connect to services containing commercially important information, so security and privacy remain important during beta testing.",
+				"You decide which supported services to connect. Beta participants should only connect accounts they are authorised to use and should continue to use provider dashboards for account administration, billing, permissions, and other specialist configuration."
+			],
+			"links": [
+				{
+					"label": "Learn About Security & Privacy",
+					"href": "/apps/studiodash/security-privacy"
+				}
 			]
 		},
 		{
 			"id": "privacy-statement",
 			"heading": "Your Privacy",
 			"paragraphs": [
-				"When beta registrations open, the information you provide will only be used to manage the StudioDash Private Beta programme, including reviewing applications, issuing invitations, and communicating with successful applicants.",
-				"Your details won't be shared publicly or used for unrelated marketing. For more information, please read the BarkinMad Studios Privacy Policy."
+				"Information provided when registering for the Private Beta will be used to manage the beta programme, assess testing requirements, issue invitations, and communicate about StudioDash testing and beta participant benefits.",
+				"Registration details will not be published or used for unrelated marketing. More information about how BarkinMad Studios handles personal information is available in the Privacy Policy."
+			]
+		},
+		{
+			"id": "before-you-join",
+			"heading": "Explore StudioDash Before Joining",
+			"paragraphs": [
+				"The StudioDash guides provide a detailed look at the product before you decide whether the Private Beta is relevant to you.",
+				"Explore the features, integrations, dashboard, revenue analytics, and frequently asked questions to understand what StudioDash is designed to provide."
+			],
+			"links": [
+				{
+					"label": "Getting Started with StudioDash",
+					"href": "/apps/studiodash/getting-started"
+				},
+				{
+					"label": "Compare Plans & Pricing",
+					"href": "/apps/studiodash/plans-pricing"
+				},
+				{
+					"label": "Explore StudioDash Features",
+					"href": "/apps/studiodash/features"
+				},
+				{
+					"label": "Explore StudioDash Integrations",
+					"href": "/apps/studiodash/integrations"
+				},
+				{
+					"label": "Read the StudioDash FAQ",
+					"href": "/apps/studiodash/frequently-asked-questions"
+				}
 			]
 		}
 	],
 	"keywords": [
 		"StudioDash Private Beta",
+		"StudioDash beta",
+		"StudioDash Studio",
+		"StudioDash beta tester",
 		"developer dashboard beta",
+		"app analytics beta",
 		"indie developer tools",
-		"app analytics beta"
+		"app revenue dashboard",
+		"developer analytics",
+		"app business dashboard",
+		"Mac developer dashboard"
 	],
-	"estimatedReadTimeMinutes": 5,
+	"estimatedReadTimeMinutes": 10,
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
 	"relatedPages": [
 		"overview",
+		"getting-started",
 		"features",
+		"integrations",
+		"automation-sync",
 		"security-privacy",
-		"frequently-asked-questions"
+		"frequently-asked-questions",
+		"plans-pricing"
 	],
 	"relatedLinks": [
 		{
+			"label": "Getting Started with StudioDash",
+			"href": "/apps/studiodash/getting-started"
+		},
+		{
+			"label": "Compare Plans & Pricing",
+			"href": "/apps/studiodash/plans-pricing"
+		},
+		{
 			"label": "Explore StudioDash Features",
 			"href": "/apps/studiodash/features"
+		},
+		{
+			"label": "Explore StudioDash Integrations",
+			"href": "/apps/studiodash/integrations"
 		},
 		{
 			"label": "Learn About Security & Privacy",

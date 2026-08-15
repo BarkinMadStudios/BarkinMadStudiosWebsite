@@ -1,30 +1,31 @@
 {
 	"documentationSchemaVersion": "1.1.0",
 	"title": "StudioDash Reporting",
-	"seoTitle": "StudioDash Reporting | BarkinMad Studios",
-	"description": "Review trends, compare performance, and understand your developer data with StudioDash reporting.",
-	"summary": "StudioDash reporting helps you understand what changed, why it changed, and where to focus your attention next.",
+	"seoTitle": "Developer Reporting & Performance Insights | StudioDash",
+	"description": "Review historical performance, compare reporting periods, analyse revenue and app trends, and understand how your studio is changing with StudioDash.",
+	"summary": "StudioDash reporting helps you move beyond isolated metrics by showing how apps, revenue, websites, providers, and business performance change over time.",
 	"heroImage": "apps/studiodash/studiodash-hero.png",
-	"heroImageAlt": "StudioDash reporting dashboard",
+	"heroImageAlt": "StudioDash reporting and performance analytics dashboard",
 	"referenceImage": {
 		"src": "apps/studiodash/studiodash-hero.png",
-		"alt": "StudioDash reporting dashboard"
+		"alt": "StudioDash reporting and performance analytics dashboard"
 	},
 	"featureShowcases": [
 		{
 			"id": "reporting-review-flow",
-			"heading": "Understand Your Results",
-			"summary": "Review your apps, revenue, websites, and connected services with reports designed to highlight the information that matters most.",
-			"body": "StudioDash helps you move beyond individual metrics by bringing related information together. Compare time periods, identify trends, and quickly understand what has changed across your portfolio without manually rebuilding reports every time.",
+			"heading": "Understand What Changed",
+			"summary": "Review performance over time and identify the apps, revenue sources, and services behind the changes you see.",
+			"body": "StudioDash turns information collected from your connected services into a clearer historical view of your studio. Compare different periods, explore revenue and app performance, and move from high-level trends into the detail behind them without rebuilding reports manually.",
 			"bullets": [
-				"Review historical performance across connected providers.",
-				"Compare apps, revenue, websites, and provider data together.",
-				"Move naturally from summary reports into detailed analytics."
+				"Review historical performance across your portfolio.",
+				"Compare results over different reporting periods.",
+				"Explore revenue by app, source, country, and date where available.",
+				"Use connected data to understand the context behind changes."
 			],
 			"image": {
 				"src": "apps/studiodash/Screenshot3.png",
-				"alt": "StudioDash reporting and trend analysis",
-				"caption": "Understand trends across your entire portfolio."
+				"alt": "StudioDash reporting view showing revenue trends and historical performance",
+				"caption": "Explore how your apps and studio are performing over time."
 			},
 			"layout": "textRight",
 			"links": [
@@ -38,62 +39,151 @@
 	"sections": [
 		{
 			"id": "reporting-purpose",
-			"heading": "Reporting That Helps You Take Action",
+			"heading": "Put Today's Numbers into Context",
 			"paragraphs": [
-				"StudioDash reporting is designed to answer the questions developers ask every day: What changed? Which app or service was affected? Where should I focus next?",
-				"Instead of manually combining information from multiple dashboards, StudioDash helps you review everything from one connected reporting experience."
+				"A single number only tells you what happened at one point in time. StudioDash reporting helps you understand whether that result is part of a longer trend, a short-term change, or something affecting a particular app or provider.",
+				"By keeping historical information from supported services available, StudioDash makes it easier to compare performance without repeatedly collecting and combining reports from different platforms."
 			]
 		},
 		{
-			"id": "current-reporting-surfaces",
-			"heading": "Reporting Across Your Portfolio",
+			"id": "reporting-periods",
+			"heading": "Compare Different Reporting Periods",
 			"paragraphs": [
-				"StudioDash combines information from your dashboard, revenue analytics, App Store Connect, website analytics, integrations, and provider health into one reporting workflow.",
-				"Historical trends sit alongside current operational information, helping you understand both long-term performance and what's happening right now."
+				"StudioDash lets you review information over different periods so you can look at recent activity as well as longer-term performance.",
+				"Changing the reporting period helps reveal whether revenue, downloads, website activity, or other metrics are moving in a meaningful direction rather than reacting to a single day's result."
 			],
 			"bullets": [
-				"Historical revenue and download trends.",
-				"Revenue breakdowns by app, provider, country, and date.",
-				"Website traffic and search visibility.",
-				"Provider health and synchronisation status.",
-				"Clear explanations when data is unavailable or still being configured."
+				"Review recent and longer-term performance.",
+				"Compare trends across different periods.",
+				"See whether changes are temporary or sustained.",
+				"Use historical context when making development or business decisions."
 			]
 		},
 		{
-			"id": "how-to-read-reports",
-			"heading": "Getting the Most from Your Reports",
+			"id": "revenue-reporting",
+			"heading": "Explore Revenue in More Detail",
 			"paragraphs": [
-				"Start by selecting the reporting period you want to review, then compare the trends across your connected apps and services.",
-				"If a metric is missing, StudioDash helps explain whether the reason is unavailable provider data, a configuration issue, or simply that no activity occurred during the selected period."
+				"Revenue is one of the areas where combined reporting can provide the most value. StudioDash brings supported revenue information together and lets you explore how different apps and sources contribute to the overall result.",
+				"Where the connected provider supplies the information, reporting can include breakdowns by source, app, date, and country, helping you investigate the changes behind a total rather than seeing only a single figure."
 			],
 			"bullets": [
-				"Choose the reporting period before comparing results.",
-				"Review provider health alongside performance data.",
-				"Use app, provider, country, and date breakdowns to identify changes.",
-				"Understand the difference between live, unavailable, and planned data."
+				"Follow overall revenue trends.",
+				"Compare supported revenue sources.",
+				"Review performance by app.",
+				"Explore country and date breakdowns where available.",
+				"See revised provider figures as updated data becomes available."
+			],
+			"links": [
+				{
+					"label": "Explore Revenue Analytics",
+					"href": "/apps/studiodash/revenue-analytics"
+				}
 			]
 		},
 		{
-			"id": "export-and-scheduled-reporting",
-			"heading": "Future Reporting Features",
+			"id": "business-goals",
+			"heading": "Measure Progress Against Your Goals",
 			"paragraphs": [
-				"StudioDash will continue expanding its reporting capabilities with exports, scheduled reports, forecasting, intelligent summaries, and portfolio-level insights.",
-				"As these features become available, they will help developers spend less time collecting information and more time acting on it."
+				"StudioDash can put revenue into the context of the business goals you set for your studio. This makes reporting more useful than simply showing whether a figure has gone up or down.",
+				"As goals change over time, your reporting can preserve that history, helping you understand performance against the targets that applied during each period."
+			],
+			"bullets": [
+				"Keep business targets visible alongside revenue.",
+				"Understand progress towards break-even or other goals.",
+				"Preserve the history of goal changes over time.",
+				"Give commercial performance more useful context."
+			]
+		},
+		{
+			"id": "app-reporting",
+			"heading": "Understand Performance Across Your Apps",
+			"paragraphs": [
+				"For developers managing several products, portfolio reporting makes it easier to see which apps are contributing to growth and which may need attention.",
+				"App Store information, revenue, and other supported data can be viewed together so individual products are not judged from a single metric alone."
+			],
+			"links": [
+				{
+					"label": "Explore App Store Analytics",
+					"href": "/apps/studiodash/app-store-analytics"
+				}
+			]
+		},
+		{
+			"id": "website-reporting",
+			"heading": "Include Website & Search Performance",
+			"paragraphs": [
+				"StudioDash reporting is not limited to apps. Supported website analytics and search information can also be reviewed over time, helping you understand whether changes in visibility or website activity are part of a wider trend.",
+				"This keeps your website and app portfolio within the same reporting workflow rather than treating them as unrelated parts of the business."
+			],
+			"links": [
+				{
+					"label": "Explore Website & SEO Analytics",
+					"href": "/apps/studiodash/website-seo-analytics"
+				}
+			]
+		},
+		{
+			"id": "provider-context",
+			"heading": "Know When Provider Data Changes",
+			"paragraphs": [
+				"External services do not all publish or finalise information in the same way. Some providers may revise recent figures after validation, while others only make certain reports available periodically.",
+				"StudioDash reporting reflects the latest supported information available from connected services, helping historical reporting remain useful when a provider updates previously reported figures."
+			]
+		},
+		{
+			"id": "cached-history",
+			"heading": "Historical Data Without Rebuilding Every Report",
+			"paragraphs": [
+				"StudioDash keeps useful previously collected information available so changing reporting periods does not require every provider to be contacted again.",
+				"This makes historical exploration faster and helps build a more consistent view of your studio over time."
+			],
+			"links": [
+				{
+					"label": "Learn About Automation & Sync",
+					"href": "/apps/studiodash/automation-sync"
+				}
+			]
+		},
+		{
+			"id": "reporting-by-plan",
+			"heading": "Reporting That Grows with Your Plan",
+			"paragraphs": [
+				"StudioDash is designed around Free, Pro, and Studio plans. Free provides a useful overview, while paid plans can provide access to more detailed reporting, breakdowns, and business-focused information.",
+				"This allows developers to start with the level of reporting they need and move to more advanced analysis as their portfolio or studio grows."
+			]
+		},
+		{
+			"id": "future-insights",
+			"heading": "From Reporting to Better Decisions",
+			"paragraphs": [
+				"StudioDash is continuing to expand beyond traditional reporting. Business intelligence and assistant capabilities are being developed to help interpret the information already collected and highlight areas that may deserve attention.",
+				"The aim is to reduce the time spent manually interpreting several dashboards and make StudioDash increasingly useful as a decision-making tool for independent developers and small studios."
 			]
 		}
 	],
 	"keywords": [
 		"StudioDash reporting",
-		"developer reports",
-		"analytics trends",
-		"portfolio reporting"
+		"developer reporting",
+		"app performance reports",
+		"app revenue reporting",
+		"developer analytics",
+		"portfolio reporting",
+		"revenue trends",
+		"historical app analytics",
+		"business performance dashboard",
+		"developer business reporting",
+		"app portfolio analytics",
+		"revenue by country",
+		"revenue by app"
 	],
-	"estimatedReadTimeMinutes": 4,
+	"estimatedReadTimeMinutes": 7,
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
 	"relatedPages": [
+		"dashboard",
 		"revenue-analytics",
+		"app-store-analytics",
 		"website-seo-analytics",
 		"automation-sync"
 	]

@@ -1,9 +1,9 @@
 {
 	"documentationSchemaVersion": "1.1.0",
 	"title": "StudioDash Revenue Analytics",
-	"seoTitle": "StudioDash Revenue Analytics | BarkinMad Studios",
-	"description": "Track App Store, advertising, and website revenue in one place with StudioDash Revenue Analytics.",
-	"summary": "StudioDash helps you understand where your revenue comes from, how it changes over time, and which products or providers are driving your business.",
+	"seoTitle": "App & Advertising Revenue Analytics | StudioDash",
+	"description": "Bring App Store, advertising, and other supported revenue sources together with StudioDash to understand where your income comes from and how it changes over time.",
+	"summary": "StudioDash Revenue Analytics helps you see the commercial performance of your apps and studio by combining supported revenue sources, historical trends, provider breakdowns, business goals, and detailed reporting.",
 	"heroImage": "apps/studiodash/studiodash-hero.png",
 	"heroImageAlt": "StudioDash revenue analytics dashboard",
 	"referenceImage": {
@@ -13,18 +13,19 @@
 	"featureShowcases": [
 		{
 			"id": "revenue-provider-breakdown",
-			"heading": "Understand Your Revenue",
-			"summary": "See how every connected provider contributes to your overall revenue.",
-			"body": "StudioDash brings together revenue from App Store Connect, advertising, and website monetisation into a single view. Compare providers, identify trends, and quickly understand where changes are happening without switching between multiple dashboards.",
+			"heading": "See Where Your Revenue Comes From",
+			"summary": "Bring supported App Store and advertising revenue together so you can understand the contribution of each source.",
+			"body": "StudioDash gives you a clearer view of revenue that may otherwise be spread across several different services. Follow your overall results, compare supported sources, explore performance by app, country, and date where available, and investigate changes without manually combining separate provider reports.",
 			"bullets": [
-				"View revenue by provider, app, country, and date.",
-				"Compare historical performance across reporting periods.",
-				"Clearly distinguish between live data, unavailable providers, and planned integrations."
+				"See combined revenue from supported sources.",
+				"Explore revenue by app, source, country, and date where available.",
+				"Compare performance across different reporting periods.",
+				"Keep business goals visible alongside your results."
 			],
 			"image": {
 				"src": "apps/studiodash/Screenshot3.png",
-				"alt": "StudioDash revenue analytics showing provider totals and trends",
-				"caption": "Understand where your revenue comes from and how it changes over time."
+				"alt": "StudioDash revenue analytics showing revenue sources and historical trends",
+				"caption": "Understand how your apps and revenue sources contribute to your studio."
 			},
 			"layout": "textRight",
 			"links": [
@@ -38,47 +39,167 @@
 	"sections": [
 		{
 			"id": "revenue-overview",
-			"heading": "A Complete Revenue Overview",
+			"heading": "One View of Your Studio Revenue",
 			"paragraphs": [
-				"StudioDash brings together revenue from your connected developer services, helping you understand the financial performance of your apps, games, and websites from one dashboard.",
-				"Historical comparisons, provider breakdowns, and trend analysis help you quickly identify where revenue is growing, declining, or remaining stable."
+				"Revenue from an app business can come from several different places. App Store sales and purchases may sit alongside advertising income and other monetisation sources, each with its own reporting dashboard and update schedule.",
+				"StudioDash brings supported revenue information together so you can start with one commercial view of your portfolio and then explore the detail behind the total."
 			]
 		},
 		{
-			"id": "covered-revenue-sources",
-			"heading": "Supported Revenue Sources",
+			"id": "supported-revenue",
+			"heading": "App Store & Advertising Revenue",
 			"paragraphs": [
-				"Revenue information depends on the providers you've connected and the data each service makes available."
+				"StudioDash can combine supported App Store revenue with advertising information from connected monetisation services, helping you see how different income streams contribute to individual apps and your wider portfolio.",
+				"The exact information available depends on the services you connect and the reporting data each provider makes available."
 			],
 			"bullets": [
-				"App Store Connect – Sales, downloads, and revenue reporting.",
-				"AdMob – Advertising revenue and performance.",
-				"AdSense – Website monetisation insights as support becomes available.",
-				"Provider status clearly explains when data is unavailable or still being configured."
+				"App Store sales and supported revenue information.",
+				"Advertising revenue from supported mediation and advertising services.",
+				"Website monetisation information where supported.",
+				"Combined studio-level revenue reporting."
+			],
+			"links": [
+				{
+					"label": "Explore StudioDash Integrations",
+					"href": "/apps/studiodash/integrations"
+				}
 			]
 		},
 		{
-			"id": "trend-review",
-			"heading": "Understand Revenue Trends",
+			"id": "revenue-by-source",
+			"heading": "Understand Revenue by Source",
 			"paragraphs": [
-				"Historical reporting helps you compare different time periods, identify seasonal patterns, and measure the impact of product releases, marketing campaigns, or updates.",
-				"Future releases of StudioDash are planned to introduce richer reporting, exports, forecasting, and additional financial insights."
+				"A combined total tells you how much your studio generated, but not why. StudioDash lets you explore supported revenue sources separately so you can understand which services are contributing to the result.",
+				"This can be particularly useful for advertising, where several networks may contribute revenue through the same mediation setup."
+			],
+			"bullets": [
+				"Compare supported revenue providers.",
+				"See the contribution of different advertising sources where available.",
+				"Understand changes in your overall revenue mix.",
+				"Identify sources that are becoming more or less important."
+			]
+		},
+		{
+			"id": "revenue-by-app",
+			"heading": "See Which Apps Are Generating Revenue",
+			"paragraphs": [
+				"Portfolio totals are useful, but app-level information helps you understand which products are actually driving the business.",
+				"Where supported data is available, StudioDash can break revenue down by app, making it easier to compare commercial performance across your portfolio."
+			],
+			"bullets": [
+				"Compare revenue across your apps.",
+				"Identify the products contributing most to your portfolio.",
+				"Put downloads and app activity into a commercial context.",
+				"See whether changes affect one app or the wider studio."
+			]
+		},
+		{
+			"id": "revenue-by-country",
+			"heading": "Understand Where Revenue Is Generated",
+			"paragraphs": [
+				"Country-level reporting can provide another useful perspective on app performance. Where the connected provider supplies this information, StudioDash can show how revenue is distributed across different markets.",
+				"This can help you understand where an app is performing commercially and provide additional context when reviewing downloads, marketing activity, or regional changes."
+			]
+		},
+		{
+			"id": "revenue-by-date",
+			"heading": "Follow Revenue Over Time",
+			"paragraphs": [
+				"StudioDash lets you explore supported revenue across different reporting periods so you can see how performance changes over time.",
+				"Daily and historical views make it easier to spot unusual changes, longer-term trends, and the effect of releases, promotions, advertising activity, or other events affecting your apps."
+			]
+		},
+		{
+			"id": "business-goals",
+			"heading": "Measure Revenue Against Your Business Goals",
+			"paragraphs": [
+				"Revenue becomes more useful when you can compare it with the targets you are trying to reach. StudioDash lets business goals provide that context, helping you see progress towards break-even or other financial objectives.",
+				"When a goal changes, historical reporting can preserve when that change occurred rather than applying today's target to every previous reporting period."
+			],
+			"bullets": [
+				"Track progress towards your current business goal.",
+				"Use break-even targets to put revenue into context.",
+				"Preserve historical goal changes.",
+				"Understand whether your studio is moving closer to its financial objectives."
+			]
+		},
+		{
+			"id": "provider-adjustments",
+			"heading": "Revenue Can Change After It Is First Reported",
+			"paragraphs": [
+				"Advertising and other external providers may revise recent revenue after traffic has been validated or reporting periods have been finalised. This means a figure shown today may occasionally be adjusted by the provider later.",
+				"StudioDash is designed to reflect updated provider information as it becomes available so your reporting can move towards the provider's finalised figures rather than permanently preserving an early estimate."
+			]
+		},
+		{
+			"id": "reporting-periods",
+			"heading": "Compare Short and Long-Term Performance",
+			"paragraphs": [
+				"Looking at different time periods can help distinguish normal daily variation from a meaningful trend. StudioDash lets you explore revenue over the reporting ranges available in the app and compare current performance with your historical information.",
+				"This provides more context when deciding whether a revenue change deserves attention or is simply part of normal variation."
+			]
+		},
+		{
+			"id": "revenue-and-costs",
+			"heading": "Look Beyond Revenue Alone",
+			"paragraphs": [
+				"Generating revenue is only one part of running an app business. StudioDash is being designed to place income alongside other commercial information such as business goals and supported marketing or acquisition data.",
+				"This broader context can help you understand whether growth is efficient rather than judging success solely by an increasing revenue total."
+			]
+		},
+		{
+			"id": "reporting-by-plan",
+			"heading": "Revenue Detail for Different StudioDash Plans",
+			"paragraphs": [
+				"StudioDash is designed around Free, Pro, and Studio plans. Free provides a useful high-level view, while paid plans can provide access to more detailed revenue analysis and breakdowns.",
+				"This allows developers to start with a simple view of their commercial performance and access deeper reporting as their portfolio and reporting needs grow."
+			]
+		},
+		{
+			"id": "historical-reporting",
+			"heading": "Build a Longer-Term View of Your Studio",
+			"paragraphs": [
+				"StudioDash keeps useful historical information from supported providers so your revenue reporting becomes more valuable over time.",
+				"Instead of treating every provider report as a separate snapshot, historical information can help reveal longer-term changes across apps, advertising sources, markets, and your studio as a whole."
+			],
+			"links": [
+				{
+					"label": "Explore StudioDash Reporting",
+					"href": "/apps/studiodash/reporting"
+				},
+				{
+					"label": "Understand Revenue Differences",
+					"href": "/apps/studiodash/troubleshooting"
+				}
 			]
 		}
 	],
 	"keywords": [
 		"StudioDash revenue",
-		"App Store revenue",
-		"AdMob revenue",
-		"developer revenue analytics"
+		"app revenue analytics",
+		"App Store revenue analytics",
+		"advertising revenue analytics",
+		"LevelPlay revenue",
+		"developer revenue dashboard",
+		"app revenue dashboard",
+		"revenue by app",
+		"revenue by country",
+		"revenue by provider",
+		"revenue trends",
+		"indie developer revenue",
+		"app business analytics",
+		"developer business dashboard"
 	],
-	"estimatedReadTimeMinutes": 3,
+	"estimatedReadTimeMinutes": 7,
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
 	"relatedPages": [
+		"dashboard",
 		"app-store-analytics",
 		"reporting",
-		"integrations"
+		"integrations",
+		"automation-sync",
+		"troubleshooting"
 	]
 }

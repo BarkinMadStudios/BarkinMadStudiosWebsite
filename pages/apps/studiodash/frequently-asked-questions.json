@@ -1,91 +1,167 @@
 {
 	"documentationSchemaVersion": "1.1.0",
 	"title": "StudioDash FAQ",
-	"seoTitle": "StudioDash FAQ | BarkinMad Studios",
-	"description": "Find answers to the most common questions about StudioDash, including availability, supported platforms, integrations, reporting, security, and future development.",
-	"summary": "Everything you need to know about StudioDash before joining the private beta.",
+	"seoTitle": "StudioDash FAQ | Developer Analytics & Business Dashboard",
+	"description": "Answers to common questions about StudioDash, including supported platforms, integrations, pricing, analytics, background sync, reporting, security and developer data.",
+	"summary": "Find answers about StudioDash, the developer dashboard that brings app performance, revenue, advertising, websites and connected services together in one workspace.",
 	"heroImage": "apps/studiodash/studiodash-hero.png",
-	"heroImageAlt": "StudioDash FAQ",
+	"heroImageAlt": "StudioDash frequently asked questions",
 	"referenceImage": {
 		"src": "apps/studiodash/studiodash-hero.png",
-		"alt": "StudioDash FAQ"
+		"alt": "StudioDash frequently asked questions"
 	},
 	"sections": [
 		{
 			"id": "faq-overview",
 			"heading": "Frequently Asked Questions",
 			"paragraphs": [
-				"Whether you're interested in joining the private beta or simply want to learn more about StudioDash, this page answers the questions developers ask most often.",
-				"If you're looking for more detailed information, explore the dedicated guides covering features, integrations, reporting, security, and automation."
+				"StudioDash is designed to make running an independent app business easier by bringing information from the services you already use into one workspace.",
+				"These answers cover the most common questions about supported services, platforms, revenue analytics, synchronisation, plans, security and how StudioDash fits into your existing developer workflow."
+			],
+			"links": [
+				{
+					"label": "Compare Plans & Pricing",
+					"href": "/apps/studiodash/plans-pricing"
+				},
+				{
+					"label": "Open the Troubleshooting Guide",
+					"href": "/apps/studiodash/troubleshooting"
+				}
 			]
 		}
 	],
 	"faq": [
 		{
 			"question": "What is StudioDash?",
-			"answer": "StudioDash is a native Mac and iPad analytics workspace for independent developers. It brings together app performance, revenue, website analytics, provider health, and operational insights in one place."
+			"answer": "StudioDash is a developer analytics and business dashboard for independent developers and small studios. It brings information about your apps, revenue, advertising, websites, analytics and connected services together in one workspace."
 		},
 		{
 			"question": "Who is StudioDash designed for?",
-			"answer": "StudioDash is built for independent developers, solo creators, and small studios who manage apps, games, websites, and multiple developer services."
+			"answer": "StudioDash is designed for independent developers, solo creators and small studios managing apps and the services around them. It becomes particularly useful when you have several apps, advertising providers, analytics services or websites to keep track of."
 		},
 		{
-			"question": "Is StudioDash available now?",
-			"answer": "StudioDash is currently preparing for a private beta. A limited number of independent developers and small studios will be invited before the public release."
+			"question": "Why use StudioDash instead of checking each service separately?",
+			"answer": "Developer and business information is often spread across App Store Connect, advertising platforms, analytics services, website tools and search services. StudioDash brings supported information together so you can start with one view of your studio and only visit individual provider dashboards when you need specialist account management or deeper provider-specific tools."
 		},
 		{
-			"question": "Which platforms are supported?",
-			"answer": "StudioDash is being developed as a native application for macOS and iPadOS."
+			"question": "Which platforms does StudioDash support?",
+			"answer": "StudioDash is designed for Apple devices, with Mac providing the full desktop workspace and background synchronisation capabilities. StudioDash is also designed to make your studio information accessible on iPad where supported."
 		},
 		{
 			"question": "Which services can StudioDash connect to?",
-			"answer": "StudioDash supports App Store Connect, Cloudflare, AdMob, AdSense, Google Search Console, with additional integrations such as GitHub and Google Ads continuing to be developed."
+			"answer": "StudioDash supports a growing range of developer, advertising, analytics, website and search services. These include App Store Connect, LevelPlay, Google Analytics, Cloudflare, Google Search Console and Google AdSense, with additional supported services being added as StudioDash develops."
 		},
 		{
-			"question": "Does StudioDash replace provider dashboards?",
-			"answer": "No. StudioDash complements existing provider dashboards by bringing key information together in one place. Provider portals remain the best place for account management, billing, permissions, and advanced configuration."
+			"question": "Can StudioDash track advertising revenue?",
+			"answer": "Yes. StudioDash can bring supported advertising revenue information into your wider studio reporting, helping you see how advertising contributes to your apps and overall revenue. Available detail depends on the advertising and mediation services you connect and the StudioDash plan you use."
 		},
 		{
-			"question": "What does Provider Health mean?",
-			"answer": "Provider Health gives you an instant overview of each connected service, showing whether it's healthy, needs attention, has encountered an error, or still requires configuration."
-		},
-		{
-			"question": "What's the difference between demo and live data?",
-			"answer": "Demo data is used to demonstrate StudioDash while the product is still in development. Live data comes directly from your connected provider accounts. StudioDash clearly distinguishes between the two."
+			"question": "Can StudioDash combine revenue from different sources?",
+			"answer": "Yes. One of StudioDash's main goals is to make revenue easier to understand when it comes from several places. Supported App Store and advertising revenue can be brought together so you can follow overall performance while still exploring individual sources where available."
 		},
 		{
 			"question": "Can I view historical trends?",
-			"answer": "Yes. Where supported by connected providers, StudioDash lets you review historical performance alongside current operational information."
+			"answer": "Yes. StudioDash keeps useful historical information from supported services so you can review performance over different periods rather than relying only on today's figures. This can help you identify longer-term changes in revenue, app performance, websites and other connected data."
 		},
 		{
-			"question": "Will StudioDash include reporting and automation?",
-			"answer": "Yes. Planned features include exports, scheduled reports, forecasting, intelligent summaries, and additional automation. These features will be introduced as StudioDash continues to evolve."
+			"question": "Does StudioDash update data automatically?",
+			"answer": "Yes. On Mac, StudioDash can keep supported provider information updated in the background. This reduces the need to manually refresh every connected service before reviewing your dashboard. Manual refresh remains available whenever you want to request the latest available information."
 		},
 		{
-			"question": "How does StudioDash protect my data?",
-			"answer": "StudioDash is designed around secure credential storage, provider-specific permissions, and clear separation between demonstration data and live information. Connected services always use your own authorised accounts."
+			"question": "Does StudioDash need to be open for background updates on Mac?",
+			"answer": "StudioDash is designed so supported background synchronisation can continue without requiring the main dashboard to remain your active workspace. This helps keep useful information ready for the next time you open StudioDash."
+		},
+		{
+			"question": "What does Provider Health mean?",
+			"answer": "Provider Health helps you understand the state of your connected services. StudioDash can show when a provider is working normally, needs attention, requires configuration or has encountered a problem, making it easier to distinguish a connection issue from a period where no new data is available."
+		},
+		{
+			"question": "Does StudioDash replace App Store Connect or other provider dashboards?",
+			"answer": "No. StudioDash complements the services you already use. It brings together the information that is useful for monitoring your studio, while provider portals remain the appropriate place for account management, billing, permissions and specialist configuration."
+		},
+		{
+			"question": "Can StudioDash monitor my website as well as my apps?",
+			"answer": "Yes. Supported website, analytics and search services can contribute information to StudioDash, allowing website activity and search performance to sit alongside your app and revenue information."
+		},
+		{
+			"question": "Can StudioDash help me understand whether my studio is profitable?",
+			"answer": "StudioDash includes business-focused reporting designed to put revenue into context. Business goals and performance information can help you understand how your current results compare with the targets you have set for your studio."
+		},
+		{
+			"question": "Does StudioDash offer different plans?",
+			"answer": "Yes. StudioDash is designed around Free, Pro and Studio plans. Free provides the essentials for getting started, while Pro and Studio provide access to additional analytics, reporting and business capabilities. An optional Cloud service is also planned for customers who want supported cloud features."
+		},
+		{
+			"question": "Will the Free version contain everything available in StudioDash?",
+			"answer": "No. The Free plan is designed to provide a useful overview of your studio while keeping more detailed analytics, provider breakdowns and advanced business features for paid plans. The exact capabilities of each plan are shown in the StudioDash plan information."
+		},
+		{
+			"question": "How does StudioDash protect my provider credentials?",
+			"answer": "StudioDash is designed to handle credentials and access to connected services carefully, using the security capabilities available on Apple platforms. You choose which supported services to connect and can review their status from within StudioDash."
+		},
+		{
+			"question": "Does StudioDash send data back to my provider accounts?",
+			"answer": "StudioDash is primarily designed to collect and organise reporting information from supported services. Account administration, billing and specialist provider configuration remain within the provider's own service unless a StudioDash feature explicitly states otherwise."
+		},
+		{
+			"question": "Why might figures differ between StudioDash and a provider dashboard?",
+			"answer": "External services do not all publish or finalise information at the same time. Advertising providers can also adjust previously reported figures as traffic is validated and reporting is finalised. StudioDash reflects the information available from connected providers, so recent figures may change when newer or finalised data becomes available."
+		},
+		{
+			"question": "Do I still have control over refreshing my data?",
+			"answer": "Yes. Automatic synchronisation is intended to reduce repetitive work, not remove control. You can request fresh information manually when you want to check for newly available provider data."
 		},
 		{
 			"question": "Where should I start?",
-			"answer": "Start with the Overview page, then explore Features, Dashboard, Integrations, Revenue Analytics, Reporting, Automation & Sync, and Security & Privacy to discover everything StudioDash has to offer."
+			"answer": "Start with the StudioDash Overview and Features pages for an introduction to the product. From there, explore the Dashboard, App Store Analytics, Revenue Analytics, Integrations, Reporting, Automation & Sync, Website & SEO Analytics, and Security & Privacy guides for more detail."
 		}
 	],
 	"keywords": [
 		"StudioDash FAQ",
+		"StudioDash",
 		"developer dashboard",
+		"indie developer dashboard",
+		"app analytics dashboard",
+		"app revenue dashboard",
+		"App Store analytics",
+		"developer business dashboard",
 		"StudioDash integrations",
-		"StudioDash beta"
+		"StudioDash pricing",
+		"StudioDash Free",
+		"StudioDash Pro",
+		"StudioDash Studio",
+		"developer analytics",
+		"background sync"
 	],
-	"estimatedReadTimeMinutes": 5,
+	"estimatedReadTimeMinutes": 8,
 	"contentStatus": "verified",
-	"lastUpdated": "2026-07-07",
-	"lastVerified": "2026-07-07",
+	"lastUpdated": "2026-08-15",
+	"lastVerified": "2026-08-15",
 	"relatedPages": [
 		"overview",
+		"features",
+		"dashboard",
+		"app-store-analytics",
+		"revenue-analytics",
 		"integrations",
-		"security-privacy"
+		"automation-sync",
+		"security-privacy",
+		"plans-pricing",
+		"troubleshooting"
 	],
 	"relatedLinks": [
+		{
+			"label": "Compare Plans & Pricing",
+			"href": "/apps/studiodash/plans-pricing"
+		},
+		{
+			"label": "Open the Troubleshooting Guide",
+			"href": "/apps/studiodash/troubleshooting"
+		},
+		{
+			"label": "Explore StudioDash Features",
+			"href": "/apps/studiodash/features"
+		},
 		{
 			"label": "Explore Integrations",
 			"href": "/apps/studiodash/integrations"
