@@ -78,19 +78,19 @@
 		},
 		{
 			"title": "ZXSpace",
-			"status": "In Development",
+			"status": "Live",
 			"category": "Games",
 			"type": "Retro Arcade Game",
 			"href": "/apps/zxspace",
 			"summary": "A retro-inspired space shooter featuring fast-paced gameplay, enemy waves, power-ups, score chasing, achievements, and shared ZX Series progression.",
 			"challenge": "Capture the excitement of classic arcade space shooters while fitting naturally into the wider ZX Series ecosystem.",
-			"solution": "Currently being developed using shared systems for progression, achievements, localisation, leaderboards, and BarkinMad Coins.",
+			"solution": "Built using shared systems for progression, achievements, localisation, leaderboards, and BarkinMad Coins.",
 			"technologies": [
 				"iOS",
 				"SpriteKit",
 				"Game Center"
 			],
-			"outcome": "In active development as the next major ZX Series release."
+			"outcome": "Available on the App Store as a live ZX Series release."
 		},
 		{
 			"title": "ZXTank",

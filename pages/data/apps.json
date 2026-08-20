@@ -38,7 +38,8 @@
 		"status": "Live",
 		"type": "Retro Space Shooter",
 		"image": "apps/zxspace/zxspace-icon.png",
-		"appStoreUrl": "",
+		"appStoreUrl": "https://apps.apple.com/app/apple-store/id6772716922?pt=128083426&ct=website&mt=8",
+		"websiteUrl": "https://www.barkinmad.studio/apps/zxspace?utm_source=inapp&utm_medium=crosspromo&utm_campaign=attract",
 		"testFlightUrl": "",
 		"description": "ZXSpace is a retro-inspired space shooter where fast reactions, enemy waves, power-ups, and high-score chasing combine to create a classic arcade experience."
 	},
